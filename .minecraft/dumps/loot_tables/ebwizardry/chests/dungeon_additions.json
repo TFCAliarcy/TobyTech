@@ -1,0 +1,156 @@
+{
+  "pools": [
+    {
+      "name": "wizardry",
+      "entries": [
+        {
+          "entryName": "ebwizardry:subsets/elemental_crystals",
+          "weight": 6,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "ebwizardry:subsets/elemental_crystals"
+        },
+        {
+          "entryName": "ebwizardry:subsets/wizard_armour",
+          "weight": 10,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "ebwizardry:subsets/wizard_armour"
+        },
+        {
+          "entryName": "ebwizardry:subsets/arcane_tomes",
+          "weight": 8,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "ebwizardry:subsets/arcane_tomes"
+        },
+        {
+          "entryName": "ebwizardry:subsets/wand_upgrades",
+          "weight": 4,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "ebwizardry:subsets/wand_upgrades"
+        },
+        {
+          "entryName": "ebwizardry:magic_crystal",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "ebwizardry:magic_crystal"
+        },
+        {
+          "entryName": "ebwizardry:spell_book",
+          "weight": 40,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "ignore_weighting": false,
+              "undiscovered_bias": 0.3,
+              "function": "ebwizardry:random_spell"
+            }
+          ],
+          "name": "ebwizardry:spell_book"
+        },
+        {
+          "entryName": "ebwizardry:scroll",
+          "weight": 14,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "ignore_weighting": false,
+              "undiscovered_bias": 0.3,
+              "function": "ebwizardry:random_spell"
+            },
+            {
+              "count": {
+                "min": 1.0,
+                "max": 5.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "ebwizardry:scroll"
+        },
+        {
+          "entryName": "ebwizardry:identification_scroll",
+          "weight": 6,
+          "quality": 0,
+          "type": "item",
+          "name": "ebwizardry:identification_scroll"
+        },
+        {
+          "entryName": "ebwizardry:firebomb",
+          "weight": 8,
+          "quality": 0,
+          "type": "item",
+          "name": "ebwizardry:firebomb"
+        },
+        {
+          "entryName": "ebwizardry:poison_bomb",
+          "weight": 8,
+          "quality": 0,
+          "type": "item",
+          "name": "ebwizardry:poison_bomb"
+        },
+        {
+          "entryName": "ebwizardry:smoke_bomb",
+          "weight": 8,
+          "quality": 0,
+          "type": "item",
+          "name": "ebwizardry:smoke_bomb"
+        },
+        {
+          "entryName": "ebwizardry:spark_bomb",
+          "weight": 8,
+          "quality": 0,
+          "type": "item",
+          "name": "ebwizardry:spark_bomb"
+        },
+        {
+          "entryName": "ebwizardry:astral_diamond",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "name": "ebwizardry:astral_diamond"
+        },
+        {
+          "entryName": "ebwizardry:purifying_elixir",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "ebwizardry:purifying_elixir"
+        },
+        {
+          "entryName": "ebwizardry:grand_crystal",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "name": "ebwizardry:grand_crystal"
+        }
+      ],
+      "rolls": {
+        "min": 1.0,
+        "max": 3.0
+      }
+    },
+    {
+      "name": "main",
+      "entries": [],
+      "rolls": {
+        "min": 5.0,
+        "max": 10.0
+      }
+    }
+  ]
+}

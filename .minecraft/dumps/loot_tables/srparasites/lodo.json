@@ -1,0 +1,88 @@
+{
+  "pools": [
+    {
+      "name": "srparasites:lodo",
+      "entries": [
+        {
+          "entryName": "minecraft:torch",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:torch"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "srparasites:lodo",
+      "entries": [
+        {
+          "entryName": "minecraft:beetroot",
+          "weight": 0,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:beetroot"
+        },
+        {
+          "entryName": "minecraft:torch",
+          "weight": 0,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:torch"
+        },
+        {
+          "entryName": "minecraft:coal",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:coal"
+        },
+        {
+          "entryName": "minecraft:fireworks",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:fireworks"
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "inverse": false,
+          "condition": "minecraft:killed_by_player"
+        },
+        {
+          "chance": 0.75,
+          "looting_multiplier": 1.0,
+          "condition": "minecraft:random_chance_with_looting"
+        }
+      ]
+    },
+    {
+      "name": "main",
+      "entries": [],
+      "rolls": {
+        "min": 5.0,
+        "max": 10.0
+      }
+    }
+  ]
+}

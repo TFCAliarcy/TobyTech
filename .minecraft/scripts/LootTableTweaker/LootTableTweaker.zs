@@ -1,0 +1,14 @@
+mods.ltt.LootTable.removeModItem("enderio");
+mods.ltt.LootTable.removeGlobalItem("iceandfire:manuscript");
+mods.ltt.LootTable.removeGlobalItem("botania:lexicon");
+mods.ltt.LootTable.removeGlobalItem("bewitchment:cypress_sapling");
+mods.ltt.LootTable.removeGlobalItem("bewitchment:elder_sapling");
+mods.ltt.LootTable.removeGlobalItem("bewitchment:juniper_sapling");
+mods.ltt.LootTable.removeGlobalItem("bewitchment:dragons_blood_sapling");
+mods.ltt.LootTable.removeGlobalItem("bewitchment:amethyst");
+mods.ltt.LootTable.removeGlobalItem("bewitchment:opal");
+mods.ltt.LootTable.removeGlobalItem("bewitchment:garnet");
+mods.ltt.LootTable.removeGlobalItem("appliedenergistics2:material");
+mods.ltt.LootTable.removeGlobalItem("railcraft:ingot");
+mods.ltt.LootTable.removeGlobalItem("railcraft:plate");
+mods.ltt.LootTable.removeGlobalItem("bewitchment:silver_ingot");

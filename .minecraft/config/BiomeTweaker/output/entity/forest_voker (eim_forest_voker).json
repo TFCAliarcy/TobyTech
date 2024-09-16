@@ -1,0 +1,6 @@
+
+{
+  "Name": "forest_voker",
+  "Registry ID": "eim:forest_voker",
+  "Class": "eim.common.entities.creatures.EntityNaturevoker"
+}

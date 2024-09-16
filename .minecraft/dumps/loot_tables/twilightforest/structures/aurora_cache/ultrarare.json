@@ -1,0 +1,85 @@
+{
+  "pools": [
+    {
+      "name": "main",
+      "entries": [
+        {
+          "entryName": "sharpness",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "enchantments": {
+                "minecraft:sharpness": 4
+              },
+              "function": "twilightforest:enchant"
+            }
+          ],
+          "name": "minecraft:enchanted_book"
+        },
+        {
+          "entryName": "power",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "enchantments": {
+                "minecraft:power": 4
+              },
+              "function": "twilightforest:enchant"
+            }
+          ],
+          "name": "minecraft:enchanted_book"
+        },
+        {
+          "entryName": "punch",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "enchantments": {
+                "minecraft:punch": 2
+              },
+              "function": "twilightforest:enchant"
+            }
+          ],
+          "name": "minecraft:enchanted_book"
+        },
+        {
+          "entryName": "unbreaking",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "enchantments": {
+                "minecraft:unbreaking": 2
+              },
+              "function": "twilightforest:enchant"
+            }
+          ],
+          "name": "minecraft:enchanted_book"
+        },
+        {
+          "entryName": "infinity",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "enchantments": {
+                "minecraft:infinity": 1
+              },
+              "function": "twilightforest:enchant"
+            }
+          ],
+          "name": "minecraft:enchanted_book"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

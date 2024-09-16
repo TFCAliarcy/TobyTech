@@ -1,0 +1,87 @@
+{
+  "pools": [
+    {
+      "name": "map_focus",
+      "entries": [
+        {
+          "entryName": "twilightforest:maze_map_focus",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:looting_enchant"
+            }
+          ],
+          "name": "twilightforest:maze_map_focus"
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "chance": 0.2,
+          "condition": "minecraft:random_chance"
+        }
+      ]
+    },
+    {
+      "name": "boots",
+      "entries": [
+        {
+          "entryName": "minecraft:iron_boots",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:looting_enchant"
+            }
+          ],
+          "name": "minecraft:iron_boots"
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "chance": 0.1666,
+          "condition": "minecraft:random_chance"
+        }
+      ]
+    },
+    {
+      "name": "pick",
+      "entries": [
+        {
+          "entryName": "minecraft:iron_pickaxe",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:looting_enchant"
+            }
+          ],
+          "name": "minecraft:iron_pickaxe"
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "chance": 0.1111,
+          "condition": "minecraft:random_chance"
+        }
+      ]
+    },
+    {
+      "name": "main",
+      "entries": [],
+      "rolls": {
+        "min": 5.0,
+        "max": 10.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,1246 @@
+{
+  "pools": [
+    {
+      "name": "swtf_stronghold_cache",
+      "entries": [
+        {
+          "entryName": "spartantwilight:battleaxe_steeleaf",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 10.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartantwilight:battleaxe_steeleaf"
+        },
+        {
+          "entryName": "spartantwilight:boomerang_steeleaf",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 10.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartantwilight:boomerang_steeleaf"
+        },
+        {
+          "entryName": "spartantwilight:crossbow_steeleaf",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 10.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartantwilight:crossbow_steeleaf"
+        },
+        {
+          "entryName": "spartantwilight:dagger_steeleaf",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 10.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartantwilight:dagger_steeleaf"
+        },
+        {
+          "entryName": "spartantwilight:glaive_steeleaf",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 10.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartantwilight:glaive_steeleaf"
+        },
+        {
+          "entryName": "spartantwilight:greatsword_steeleaf",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 10.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartantwilight:greatsword_steeleaf"
+        },
+        {
+          "entryName": "spartantwilight:halberd_steeleaf",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 10.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartantwilight:halberd_steeleaf"
+        },
+        {
+          "entryName": "spartantwilight:hammer_steeleaf",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 10.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartantwilight:hammer_steeleaf"
+        },
+        {
+          "entryName": "spartantwilight:javelin_steeleaf",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 10.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartantwilight:javelin_steeleaf"
+        },
+        {
+          "entryName": "spartantwilight:katana_steeleaf",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 10.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartantwilight:katana_steeleaf"
+        },
+        {
+          "entryName": "spartantwilight:lance_steeleaf",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 10.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartantwilight:lance_steeleaf"
+        },
+        {
+          "entryName": "spartantwilight:longbow_steeleaf",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 10.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartantwilight:longbow_steeleaf"
+        },
+        {
+          "entryName": "spartantwilight:longsword_steeleaf",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 10.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartantwilight:longsword_steeleaf"
+        },
+        {
+          "entryName": "spartantwilight:mace_steeleaf",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 10.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartantwilight:mace_steeleaf"
+        },
+        {
+          "entryName": "spartantwilight:pike_steeleaf",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 10.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartantwilight:pike_steeleaf"
+        },
+        {
+          "entryName": "spartantwilight:staff_steeleaf",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 10.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartantwilight:staff_steeleaf"
+        },
+        {
+          "entryName": "spartantwilight:rapier_steeleaf",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 10.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartantwilight:rapier_steeleaf"
+        },
+        {
+          "entryName": "spartantwilight:saber_steeleaf",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 10.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartantwilight:saber_steeleaf"
+        },
+        {
+          "entryName": "spartantwilight:spear_steeleaf",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 10.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartantwilight:spear_steeleaf"
+        },
+        {
+          "entryName": "spartantwilight:throwing_axe_steeleaf",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 10.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartantwilight:throwing_axe_steeleaf"
+        },
+        {
+          "entryName": "spartantwilight:throwing_knife_steeleaf",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 10.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartantwilight:throwing_knife_steeleaf"
+        },
+        {
+          "entryName": "spartantwilight:warhammer_steeleaf",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 10.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartantwilight:warhammer_steeleaf"
+        },
+        {
+          "entryName": "spartantwilight:battleaxe_ironwood",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 15.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartantwilight:battleaxe_ironwood"
+        },
+        {
+          "entryName": "spartantwilight:boomerang_ironwood",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 15.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartantwilight:boomerang_ironwood"
+        },
+        {
+          "entryName": "spartantwilight:crossbow_ironwood",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 15.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartantwilight:crossbow_ironwood"
+        },
+        {
+          "entryName": "spartantwilight:dagger_ironwood",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 15.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartantwilight:dagger_ironwood"
+        },
+        {
+          "entryName": "spartantwilight:glaive_ironwood",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 15.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartantwilight:glaive_ironwood"
+        },
+        {
+          "entryName": "spartantwilight:greatsword_ironwood",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 15.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartantwilight:greatsword_ironwood"
+        },
+        {
+          "entryName": "spartantwilight:halberd_ironwood",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 15.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartantwilight:halberd_ironwood"
+        },
+        {
+          "entryName": "spartantwilight:hammer_ironwood",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 15.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartantwilight:hammer_ironwood"
+        },
+        {
+          "entryName": "spartantwilight:javelin_ironwood",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 15.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartantwilight:javelin_ironwood"
+        },
+        {
+          "entryName": "spartantwilight:katana_ironwood",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 15.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartantwilight:katana_ironwood"
+        },
+        {
+          "entryName": "spartantwilight:lance_ironwood",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 15.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartantwilight:lance_ironwood"
+        },
+        {
+          "entryName": "spartantwilight:longbow_ironwood",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 15.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartantwilight:longbow_ironwood"
+        },
+        {
+          "entryName": "spartantwilight:longsword_ironwood",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 15.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartantwilight:longsword_ironwood"
+        },
+        {
+          "entryName": "spartantwilight:mace_ironwood",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 15.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartantwilight:mace_ironwood"
+        },
+        {
+          "entryName": "spartantwilight:pike_ironwood",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 15.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartantwilight:pike_ironwood"
+        },
+        {
+          "entryName": "spartantwilight:staff_ironwood",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 15.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartantwilight:staff_ironwood"
+        },
+        {
+          "entryName": "spartantwilight:rapier_ironwood",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 15.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartantwilight:rapier_ironwood"
+        },
+        {
+          "entryName": "spartantwilight:saber_ironwood",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 15.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartantwilight:saber_ironwood"
+        },
+        {
+          "entryName": "spartantwilight:spear_ironwood",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 15.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartantwilight:spear_ironwood"
+        },
+        {
+          "entryName": "spartantwilight:throwing_axe_ironwood",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 15.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartantwilight:throwing_axe_ironwood"
+        },
+        {
+          "entryName": "spartantwilight:throwing_knife_ironwood",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 15.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartantwilight:throwing_knife_ironwood"
+        },
+        {
+          "entryName": "spartantwilight:warhammer_ironwood",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 15.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartantwilight:warhammer_ironwood"
+        },
+        {
+          "entryName": "spartanweaponry:battleaxe_iron",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 20.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartanweaponry:battleaxe_iron"
+        },
+        {
+          "entryName": "spartanweaponry:boomerang_iron",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 20.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartanweaponry:boomerang_iron"
+        },
+        {
+          "entryName": "spartanweaponry:crossbow_iron",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 15.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartanweaponry:crossbow_iron"
+        },
+        {
+          "entryName": "spartanweaponry:dagger_iron",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 20.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartanweaponry:dagger_iron"
+        },
+        {
+          "entryName": "spartanweaponry:glaive_iron",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 20.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartanweaponry:glaive_iron"
+        },
+        {
+          "entryName": "spartanweaponry:greatsword_iron",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 20.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartanweaponry:greatsword_iron"
+        },
+        {
+          "entryName": "spartanweaponry:halberd_iron",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 20.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartanweaponry:halberd_iron"
+        },
+        {
+          "entryName": "spartanweaponry:hammer_iron",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 20.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartanweaponry:hammer_iron"
+        },
+        {
+          "entryName": "spartanweaponry:javelin_iron",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 20.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartanweaponry:javelin_iron"
+        },
+        {
+          "entryName": "spartanweaponry:katana_iron",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 20.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartanweaponry:katana_iron"
+        },
+        {
+          "entryName": "spartanweaponry:lance_iron",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 20.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartanweaponry:lance_iron"
+        },
+        {
+          "entryName": "spartanweaponry:longbow_iron",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 20.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartanweaponry:longbow_iron"
+        },
+        {
+          "entryName": "spartanweaponry:longsword_iron",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 20.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartanweaponry:longsword_iron"
+        },
+        {
+          "entryName": "spartanweaponry:mace_iron",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 20.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartanweaponry:mace_iron"
+        },
+        {
+          "entryName": "spartanweaponry:pike_iron",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 20.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartanweaponry:pike_iron"
+        },
+        {
+          "entryName": "spartanweaponry:staff_iron",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 20.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartanweaponry:staff_iron"
+        },
+        {
+          "entryName": "spartanweaponry:rapier_iron",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 20.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartanweaponry:rapier_iron"
+        },
+        {
+          "entryName": "spartanweaponry:saber_iron",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 20.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartanweaponry:saber_iron"
+        },
+        {
+          "entryName": "spartanweaponry:spear_iron",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 20.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartanweaponry:spear_iron"
+        },
+        {
+          "entryName": "spartanweaponry:throwing_axe_iron",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 20.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartanweaponry:throwing_axe_iron"
+        },
+        {
+          "entryName": "spartanweaponry:throwing_knife_iron",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 20.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartanweaponry:throwing_knife_iron"
+        },
+        {
+          "entryName": "spartanweaponry:warhammer_iron",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 20.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartanweaponry:warhammer_iron"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "1stchance",
+      "entries": [
+        {
+          "entryName": "spartanweaponry:bolt",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 6.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "spartanweaponry:bolt"
+        },
+        {
+          "entryName": "spartanweaponry:arrow_iron",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 6.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "spartanweaponry:arrow_iron"
+        },
+        {
+          "entryName": "spartanweaponry:arrow_diamond",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "spartanweaponry:arrow_diamond"
+        },
+        {
+          "entryName": "spartanweaponry:bolt_diamond",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "spartanweaponry:bolt_diamond"
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "chance": 0.2,
+          "condition": "minecraft:random_chance"
+        }
+      ]
+    },
+    {
+      "name": "2ndchance",
+      "entries": [
+        {
+          "entryName": "spartanweaponry:bolt",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 6.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "spartanweaponry:bolt"
+        },
+        {
+          "entryName": "spartanweaponry:arrow_iron",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 6.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "spartanweaponry:arrow_iron"
+        },
+        {
+          "entryName": "spartanweaponry:arrow_diamond",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "spartanweaponry:arrow_diamond"
+        },
+        {
+          "entryName": "spartanweaponry:bolt_diamond",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "spartanweaponry:bolt_diamond"
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "chance": 0.2,
+          "condition": "minecraft:random_chance"
+        }
+      ]
+    },
+    {
+      "name": "3rdchance",
+      "entries": [
+        {
+          "entryName": "spartanweaponry:bolt",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 6.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "spartanweaponry:bolt"
+        },
+        {
+          "entryName": "spartanweaponry:arrow_iron",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 6.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "spartanweaponry:arrow_iron"
+        },
+        {
+          "entryName": "spartanweaponry:arrow_diamond",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "spartanweaponry:arrow_diamond"
+        },
+        {
+          "entryName": "spartanweaponry:bolt_diamond",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "spartanweaponry:bolt_diamond"
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "chance": 0.2,
+          "condition": "minecraft:random_chance"
+        }
+      ]
+    },
+    {
+      "name": "4thchance",
+      "entries": [
+        {
+          "entryName": "spartanweaponry:bolt",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 6.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "spartanweaponry:bolt"
+        },
+        {
+          "entryName": "spartanweaponry:arrow_iron",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 6.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "spartanweaponry:arrow_iron"
+        },
+        {
+          "entryName": "spartanweaponry:arrow_diamond",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "spartanweaponry:arrow_diamond"
+        },
+        {
+          "entryName": "spartanweaponry:bolt_diamond",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "spartanweaponry:bolt_diamond"
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "chance": 0.2,
+          "condition": "minecraft:random_chance"
+        }
+      ]
+    },
+    {
+      "name": "main",
+      "entries": [],
+      "rolls": {
+        "min": 5.0,
+        "max": 10.0
+      }
+    }
+  ]
+}

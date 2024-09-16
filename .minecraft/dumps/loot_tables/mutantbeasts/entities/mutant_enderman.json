@@ -1,0 +1,32 @@
+{
+  "pools": [
+    {
+      "name": "mutant_enderman",
+      "entries": [
+        {
+          "entryName": "minecraft:ender_eye",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:ender_eye"
+        },
+        {
+          "entryName": "minecraft:ender_pearl",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:ender_pearl"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "main",
+      "entries": [],
+      "rolls": {
+        "min": 5.0,
+        "max": 10.0
+      }
+    }
+  ]
+}

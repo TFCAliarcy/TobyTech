@@ -1,0 +1,344 @@
+{
+  "pools": [
+    {
+      "name": "1stchance",
+      "entries": [
+        {
+          "entryName": "spartantwilight:battleaxe_ironwood",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "spartantwilight:battleaxe_ironwood"
+        },
+        {
+          "entryName": "spartantwilight:boomerang_ironwood",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "spartantwilight:boomerang_ironwood"
+        },
+        {
+          "entryName": "spartantwilight:crossbow_ironwood",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "spartantwilight:crossbow_ironwood"
+        },
+        {
+          "entryName": "spartantwilight:dagger_ironwood",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "spartantwilight:dagger_ironwood"
+        },
+        {
+          "entryName": "spartantwilight:glaive_ironwood",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "spartantwilight:glaive_ironwood"
+        },
+        {
+          "entryName": "spartantwilight:greatsword_ironwood",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "spartantwilight:greatsword_ironwood"
+        },
+        {
+          "entryName": "spartantwilight:halberd_ironwood",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "spartantwilight:halberd_ironwood"
+        },
+        {
+          "entryName": "spartantwilight:hammer_ironwood",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "spartantwilight:hammer_ironwood"
+        },
+        {
+          "entryName": "spartantwilight:javelin_ironwood",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "spartantwilight:javelin_ironwood"
+        },
+        {
+          "entryName": "spartantwilight:katana_ironwood",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "spartantwilight:katana_ironwood"
+        },
+        {
+          "entryName": "spartantwilight:lance_ironwood",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "spartantwilight:lance_ironwood"
+        },
+        {
+          "entryName": "spartantwilight:longbow_ironwood",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "spartantwilight:longbow_ironwood"
+        },
+        {
+          "entryName": "spartantwilight:longsword_ironwood",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "spartantwilight:longsword_ironwood"
+        },
+        {
+          "entryName": "spartantwilight:mace_ironwood",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "spartantwilight:mace_ironwood"
+        },
+        {
+          "entryName": "spartantwilight:pike_ironwood",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "spartantwilight:pike_ironwood"
+        },
+        {
+          "entryName": "spartantwilight:staff_ironwood",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "spartantwilight:staff_ironwood"
+        },
+        {
+          "entryName": "spartantwilight:rapier_ironwood",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "spartantwilight:rapier_ironwood"
+        },
+        {
+          "entryName": "spartantwilight:saber_ironwood",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "spartantwilight:saber_ironwood"
+        },
+        {
+          "entryName": "spartantwilight:spear_ironwood",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "spartantwilight:spear_ironwood"
+        },
+        {
+          "entryName": "spartantwilight:throwing_axe_ironwood",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "spartantwilight:throwing_axe_ironwood"
+        },
+        {
+          "entryName": "spartantwilight:throwing_knife_ironwood",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "spartantwilight:throwing_knife_ironwood"
+        },
+        {
+          "entryName": "spartantwilight:warhammer_ironwood",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "spartantwilight:warhammer_ironwood"
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "chance": 0.4,
+          "condition": "minecraft:random_chance"
+        }
+      ]
+    },
+    {
+      "name": "2ndchance",
+      "entries": [
+        {
+          "entryName": "spartantwilight:battleaxe_ironwood",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "spartantwilight:battleaxe_ironwood"
+        },
+        {
+          "entryName": "spartantwilight:boomerang_ironwood",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "spartantwilight:boomerang_ironwood"
+        },
+        {
+          "entryName": "spartantwilight:crossbow_ironwood",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "spartantwilight:crossbow_ironwood"
+        },
+        {
+          "entryName": "spartantwilight:dagger_ironwood",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "spartantwilight:dagger_ironwood"
+        },
+        {
+          "entryName": "spartantwilight:glaive_ironwood",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "spartantwilight:glaive_ironwood"
+        },
+        {
+          "entryName": "spartantwilight:greatsword_ironwood",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "spartantwilight:greatsword_ironwood"
+        },
+        {
+          "entryName": "spartantwilight:halberd_ironwood",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "spartantwilight:halberd_ironwood"
+        },
+        {
+          "entryName": "spartantwilight:hammer_ironwood",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "spartantwilight:hammer_ironwood"
+        },
+        {
+          "entryName": "spartantwilight:javelin_ironwood",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "spartantwilight:javelin_ironwood"
+        },
+        {
+          "entryName": "spartantwilight:katana_ironwood",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "spartantwilight:katana_ironwood"
+        },
+        {
+          "entryName": "spartantwilight:lance_ironwood",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "spartantwilight:lance_ironwood"
+        },
+        {
+          "entryName": "spartantwilight:longbow_ironwood",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "spartantwilight:longbow_ironwood"
+        },
+        {
+          "entryName": "spartantwilight:longsword_ironwood",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "spartantwilight:longsword_ironwood"
+        },
+        {
+          "entryName": "spartantwilight:mace_ironwood",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "spartantwilight:mace_ironwood"
+        },
+        {
+          "entryName": "spartantwilight:pike_ironwood",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "spartantwilight:pike_ironwood"
+        },
+        {
+          "entryName": "spartantwilight:staff_ironwood",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "spartantwilight:staff_ironwood"
+        },
+        {
+          "entryName": "spartantwilight:rapier_ironwood",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "spartantwilight:rapier_ironwood"
+        },
+        {
+          "entryName": "spartantwilight:saber_ironwood",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "spartantwilight:saber_ironwood"
+        },
+        {
+          "entryName": "spartantwilight:spear_ironwood",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "spartantwilight:spear_ironwood"
+        },
+        {
+          "entryName": "spartantwilight:throwing_axe_ironwood",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "spartantwilight:throwing_axe_ironwood"
+        },
+        {
+          "entryName": "spartantwilight:throwing_knife_ironwood",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "spartantwilight:throwing_knife_ironwood"
+        },
+        {
+          "entryName": "spartantwilight:warhammer_ironwood",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "spartantwilight:warhammer_ironwood"
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "chance": 0.4,
+          "condition": "minecraft:random_chance"
+        }
+      ]
+    },
+    {
+      "name": "main",
+      "entries": [],
+      "rolls": {
+        "min": 5.0,
+        "max": 10.0
+      }
+    }
+  ]
+}

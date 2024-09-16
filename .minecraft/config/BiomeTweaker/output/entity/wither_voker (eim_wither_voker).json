@@ -1,0 +1,6 @@
+
+{
+  "Name": "wither_voker",
+  "Registry ID": "eim:wither_voker",
+  "Class": "eim.common.entities.creatures.EntityWithervoker"
+}

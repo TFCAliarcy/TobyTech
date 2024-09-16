@@ -1,0 +1,25 @@
+{
+  "pools": [
+    {
+      "name": "forestry_apiculture_bees",
+      "entries": [
+        {
+          "entryName": "forestry:scoop",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "forestry:scoop"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "main",
+      "entries": [],
+      "rolls": {
+        "min": 5.0,
+        "max": 10.0
+      }
+    }
+  ]
+}

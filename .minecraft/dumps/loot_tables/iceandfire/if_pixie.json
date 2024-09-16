@@ -1,0 +1,65 @@
+{
+  "pools": [
+    {
+      "name": "if_pixie",
+      "entries": [
+        {
+          "entryName": "iceandfire:pixie_dust",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 0.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "minecraft:looting_enchant"
+            }
+          ],
+          "name": "iceandfire:pixie_dust"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "if_pixie",
+      "entries": [
+        {
+          "entryName": "iceandfire:pixie_wings",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "iceandfire:pixie_wings"
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "inverse": false,
+          "condition": "minecraft:killed_by_player"
+        },
+        {
+          "chance": 0.025,
+          "looting_multiplier": 0.01,
+          "condition": "minecraft:random_chance_with_looting"
+        }
+      ]
+    },
+    {
+      "name": "main",
+      "entries": [],
+      "rolls": {
+        "min": 5.0,
+        "max": 10.0
+      }
+    }
+  ]
+}

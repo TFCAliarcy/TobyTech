@@ -1,0 +1,55 @@
+{
+  "pools": [
+    {
+      "name": "wolf_armor_simple_dungeon",
+      "entries": [
+        {
+          "entryName": "empty",
+          "weight": 60,
+          "quality": 0,
+          "type": "empty"
+        },
+        {
+          "entryName": "wolfarmor:chainmail_wolf_armor",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "wolfarmor:chainmail_wolf_armor"
+        },
+        {
+          "entryName": "wolfarmor:iron_wolf_armor",
+          "weight": 15,
+          "quality": 0,
+          "type": "item",
+          "name": "wolfarmor:iron_wolf_armor"
+        },
+        {
+          "entryName": "wolfarmor:gold_wolf_armor",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "name": "wolfarmor:gold_wolf_armor"
+        },
+        {
+          "entryName": "wolfarmor:diamond_wolf_armor",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "wolfarmor:diamond_wolf_armor"
+        }
+      ],
+      "rolls": {
+        "min": 1.0,
+        "max": 3.0
+      }
+    },
+    {
+      "name": "main",
+      "entries": [],
+      "rolls": {
+        "min": 5.0,
+        "max": 10.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "pools": [
+    {
+      "name": "ice_dragon_skeleton",
+      "entries": [
+        {
+          "entryName": "iceandfire:dragonbone",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "iceandfire:customize_to_dragon"
+            }
+          ],
+          "name": "iceandfire:dragonbone"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "main",
+      "entries": [],
+      "rolls": {
+        "min": 5.0,
+        "max": 10.0
+      }
+    }
+  ]
+}

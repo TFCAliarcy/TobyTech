@@ -1,0 +1,75 @@
+{
+  "pools": [
+    {
+      "name": "main",
+      "entries": [
+        {
+          "entryName": "twilightforest:arctic_fur",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 6.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "twilightforest:arctic_fur"
+        },
+        {
+          "entryName": "twilightforest:arctic_leggings",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "twilightforest:arctic_leggings"
+        },
+        {
+          "entryName": "twilightforest:arctic_chestplate",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "twilightforest:arctic_chestplate"
+        },
+        {
+          "entryName": "twilightforest:arctic_helmet",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "twilightforest:arctic_helmet"
+        },
+        {
+          "entryName": "twilightforest:arctic_boots",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "twilightforest:arctic_boots"
+        },
+        {
+          "entryName": "twilightforest:knightmetal_chestplate",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "twilightforest:knightmetal_chestplate"
+        },
+        {
+          "entryName": "twilightforest:knightmetal_sword",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "twilightforest:knightmetal_sword"
+        },
+        {
+          "entryName": "twilightforest:charm_of_life_1",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "twilightforest:charm_of_life_1"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

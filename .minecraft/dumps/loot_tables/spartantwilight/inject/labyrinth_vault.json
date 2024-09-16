@@ -1,0 +1,1436 @@
+{
+  "pools": [
+    {
+      "name": "bows_1stchance",
+      "entries": [
+        {
+          "entryName": "infpunch1",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "enchantments": {
+                "minecraft:punch": 2,
+                "minecraft:infinity": 1
+              },
+              "function": "twilightforest:enchant"
+            }
+          ],
+          "name": "spartantwilight:longbow_steeleaf"
+        },
+        {
+          "entryName": "powerflame1",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "enchantments": {
+                "minecraft:flame": 1,
+                "minecraft:power": 3
+              },
+              "function": "twilightforest:enchant"
+            }
+          ],
+          "name": "spartantwilight:longbow_steeleaf"
+        },
+        {
+          "entryName": "infpunch2",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "enchantments": {
+                "minecraft:punch": 2,
+                "minecraft:infinity": 1
+              },
+              "function": "twilightforest:enchant"
+            }
+          ],
+          "name": "spartantwilight:crossbow_steeleaf"
+        },
+        {
+          "entryName": "powerflame2",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "enchantments": {
+                "minecraft:flame": 1,
+                "minecraft:power": 3
+              },
+              "function": "twilightforest:enchant"
+            }
+          ],
+          "name": "spartantwilight:crossbow_steeleaf"
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "chance": 0.3,
+          "condition": "minecraft:random_chance"
+        }
+      ]
+    },
+    {
+      "name": "bows_2ndchance",
+      "entries": [
+        {
+          "entryName": "infpunch1",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "enchantments": {
+                "minecraft:punch": 2,
+                "minecraft:infinity": 1
+              },
+              "function": "twilightforest:enchant"
+            }
+          ],
+          "name": "spartantwilight:longbow_steeleaf"
+        },
+        {
+          "entryName": "powerflame1",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "enchantments": {
+                "minecraft:flame": 1,
+                "minecraft:power": 3
+              },
+              "function": "twilightforest:enchant"
+            }
+          ],
+          "name": "spartantwilight:longbow_steeleaf"
+        },
+        {
+          "entryName": "infpunch2",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "enchantments": {
+                "minecraft:punch": 2,
+                "minecraft:infinity": 1
+              },
+              "function": "twilightforest:enchant"
+            }
+          ],
+          "name": "spartantwilight:crossbow_steeleaf"
+        },
+        {
+          "entryName": "powerflame2",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "enchantments": {
+                "minecraft:flame": 1,
+                "minecraft:power": 3
+              },
+              "function": "twilightforest:enchant"
+            }
+          ],
+          "name": "spartantwilight:crossbow_steeleaf"
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "chance": 0.3,
+          "condition": "minecraft:random_chance"
+        }
+      ]
+    },
+    {
+      "name": "other_1stchance",
+      "entries": [
+        {
+          "entryName": "sharpknock1",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "enchantments": {
+                "minecraft:sharpness": 4,
+                "minecraft:knockback": 2
+              },
+              "function": "twilightforest:enchant"
+            }
+          ],
+          "name": "spartantwilight:battleaxe_steeleaf"
+        },
+        {
+          "entryName": "boafire1",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "enchantments": {
+                "minecraft:fire_aspect": 2,
+                "minecraft:bane_of_arthropods": 5
+              },
+              "function": "twilightforest:enchant"
+            }
+          ],
+          "name": "spartantwilight:battleaxe_steeleaf"
+        },
+        {
+          "entryName": "sharpknock2",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "enchantments": {
+                "minecraft:sharpness": 4,
+                "minecraft:knockback": 2
+              },
+              "function": "twilightforest:enchant"
+            }
+          ],
+          "name": "spartantwilight:dagger_steeleaf"
+        },
+        {
+          "entryName": "boafire2",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "enchantments": {
+                "minecraft:fire_aspect": 2,
+                "minecraft:bane_of_arthropods": 5
+              },
+              "function": "twilightforest:enchant"
+            }
+          ],
+          "name": "spartantwilight:dagger_steeleaf"
+        },
+        {
+          "entryName": "sharpknock3",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "enchantments": {
+                "minecraft:sharpness": 4,
+                "minecraft:knockback": 2
+              },
+              "function": "twilightforest:enchant"
+            }
+          ],
+          "name": "spartantwilight:glaive_steeleaf"
+        },
+        {
+          "entryName": "boafire3",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "enchantments": {
+                "minecraft:fire_aspect": 2,
+                "minecraft:bane_of_arthropods": 5
+              },
+              "function": "twilightforest:enchant"
+            }
+          ],
+          "name": "spartantwilight:glaive_steeleaf"
+        },
+        {
+          "entryName": "sharpknock4",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "enchantments": {
+                "minecraft:sharpness": 4,
+                "minecraft:knockback": 2
+              },
+              "function": "twilightforest:enchant"
+            }
+          ],
+          "name": "spartantwilight:greatsword_steeleaf"
+        },
+        {
+          "entryName": "boafire4",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "enchantments": {
+                "minecraft:fire_aspect": 2,
+                "minecraft:bane_of_arthropods": 5
+              },
+              "function": "twilightforest:enchant"
+            }
+          ],
+          "name": "spartantwilight:greatsword_steeleaf"
+        },
+        {
+          "entryName": "sharpknock5",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "enchantments": {
+                "minecraft:sharpness": 4,
+                "minecraft:knockback": 2
+              },
+              "function": "twilightforest:enchant"
+            }
+          ],
+          "name": "spartantwilight:halberd_steeleaf"
+        },
+        {
+          "entryName": "boafire5",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "enchantments": {
+                "minecraft:fire_aspect": 2,
+                "minecraft:bane_of_arthropods": 5
+              },
+              "function": "twilightforest:enchant"
+            }
+          ],
+          "name": "spartantwilight:halberd_steeleaf"
+        },
+        {
+          "entryName": "sharpknock6",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "enchantments": {
+                "minecraft:sharpness": 4,
+                "minecraft:knockback": 2
+              },
+              "function": "twilightforest:enchant"
+            }
+          ],
+          "name": "spartantwilight:hammer_steeleaf"
+        },
+        {
+          "entryName": "boafire6",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "enchantments": {
+                "minecraft:fire_aspect": 2,
+                "minecraft:bane_of_arthropods": 5
+              },
+              "function": "twilightforest:enchant"
+            }
+          ],
+          "name": "spartantwilight:hammer_steeleaf"
+        },
+        {
+          "entryName": "sharpknock7",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "enchantments": {
+                "minecraft:sharpness": 4,
+                "minecraft:knockback": 2
+              },
+              "function": "twilightforest:enchant"
+            }
+          ],
+          "name": "spartantwilight:katana_steeleaf"
+        },
+        {
+          "entryName": "boafire7",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "enchantments": {
+                "minecraft:fire_aspect": 2,
+                "minecraft:bane_of_arthropods": 5
+              },
+              "function": "twilightforest:enchant"
+            }
+          ],
+          "name": "spartantwilight:katana_steeleaf"
+        },
+        {
+          "entryName": "sharpknock8",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "enchantments": {
+                "minecraft:sharpness": 4,
+                "minecraft:knockback": 2
+              },
+              "function": "twilightforest:enchant"
+            }
+          ],
+          "name": "spartantwilight:lance_steeleaf"
+        },
+        {
+          "entryName": "boafire8",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "enchantments": {
+                "minecraft:fire_aspect": 2,
+                "minecraft:bane_of_arthropods": 5
+              },
+              "function": "twilightforest:enchant"
+            }
+          ],
+          "name": "spartantwilight:lance_steeleaf"
+        },
+        {
+          "entryName": "sharpknock9",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "enchantments": {
+                "minecraft:sharpness": 4,
+                "minecraft:knockback": 2
+              },
+              "function": "twilightforest:enchant"
+            }
+          ],
+          "name": "spartantwilight:longsword_steeleaf"
+        },
+        {
+          "entryName": "boafire9",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "enchantments": {
+                "minecraft:fire_aspect": 2,
+                "minecraft:bane_of_arthropods": 5
+              },
+              "function": "twilightforest:enchant"
+            }
+          ],
+          "name": "spartantwilight:longsword_steeleaf"
+        },
+        {
+          "entryName": "sharpknock10",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "enchantments": {
+                "minecraft:sharpness": 4,
+                "minecraft:knockback": 2
+              },
+              "function": "twilightforest:enchant"
+            }
+          ],
+          "name": "spartantwilight:mace_steeleaf"
+        },
+        {
+          "entryName": "boafire10",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "enchantments": {
+                "minecraft:fire_aspect": 2,
+                "minecraft:bane_of_arthropods": 5
+              },
+              "function": "twilightforest:enchant"
+            }
+          ],
+          "name": "spartantwilight:mace_steeleaf"
+        },
+        {
+          "entryName": "sharpknock11",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "enchantments": {
+                "minecraft:sharpness": 4,
+                "minecraft:knockback": 2
+              },
+              "function": "twilightforest:enchant"
+            }
+          ],
+          "name": "spartantwilight:pike_steeleaf"
+        },
+        {
+          "entryName": "boafire11",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "enchantments": {
+                "minecraft:fire_aspect": 2,
+                "minecraft:bane_of_arthropods": 5
+              },
+              "function": "twilightforest:enchant"
+            }
+          ],
+          "name": "spartantwilight:pike_steeleaf"
+        },
+        {
+          "entryName": "sharpknock12",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "enchantments": {
+                "minecraft:sharpness": 4,
+                "minecraft:knockback": 2
+              },
+              "function": "twilightforest:enchant"
+            }
+          ],
+          "name": "spartantwilight:staff_steeleaf"
+        },
+        {
+          "entryName": "boafire12",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "enchantments": {
+                "minecraft:fire_aspect": 2,
+                "minecraft:bane_of_arthropods": 5
+              },
+              "function": "twilightforest:enchant"
+            }
+          ],
+          "name": "spartantwilight:staff_steeleaf"
+        },
+        {
+          "entryName": "sharpknock13",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "enchantments": {
+                "minecraft:sharpness": 4,
+                "minecraft:knockback": 2
+              },
+              "function": "twilightforest:enchant"
+            }
+          ],
+          "name": "spartantwilight:rapier_steeleaf"
+        },
+        {
+          "entryName": "boafire13",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "enchantments": {
+                "minecraft:fire_aspect": 2,
+                "minecraft:bane_of_arthropods": 5
+              },
+              "function": "twilightforest:enchant"
+            }
+          ],
+          "name": "spartantwilight:rapier_steeleaf"
+        },
+        {
+          "entryName": "sharpknock14",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "enchantments": {
+                "minecraft:sharpness": 4,
+                "minecraft:knockback": 2
+              },
+              "function": "twilightforest:enchant"
+            }
+          ],
+          "name": "spartantwilight:saber_steeleaf"
+        },
+        {
+          "entryName": "boafire14",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "enchantments": {
+                "minecraft:fire_aspect": 2,
+                "minecraft:bane_of_arthropods": 5
+              },
+              "function": "twilightforest:enchant"
+            }
+          ],
+          "name": "spartantwilight:saber_steeleaf"
+        },
+        {
+          "entryName": "sharpknock15",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "enchantments": {
+                "minecraft:sharpness": 4,
+                "minecraft:knockback": 2
+              },
+              "function": "twilightforest:enchant"
+            }
+          ],
+          "name": "spartantwilight:spear_steeleaf"
+        },
+        {
+          "entryName": "boafire15",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "enchantments": {
+                "minecraft:fire_aspect": 2,
+                "minecraft:bane_of_arthropods": 5
+              },
+              "function": "twilightforest:enchant"
+            }
+          ],
+          "name": "spartantwilight:spear_steeleaf"
+        },
+        {
+          "entryName": "sharpknock16",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "enchantments": {
+                "minecraft:sharpness": 4,
+                "minecraft:knockback": 2
+              },
+              "function": "twilightforest:enchant"
+            }
+          ],
+          "name": "spartantwilight:warhammer_steeleaf"
+        },
+        {
+          "entryName": "boafire16",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "enchantments": {
+                "minecraft:fire_aspect": 2,
+                "minecraft:bane_of_arthropods": 5
+              },
+              "function": "twilightforest:enchant"
+            }
+          ],
+          "name": "spartantwilight:warhammer_steeleaf"
+        },
+        {
+          "entryName": "sharpknock17",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 20.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartantwilight:javelin_steeleaf"
+        },
+        {
+          "entryName": "boafire17",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 20.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartantwilight:javelin_steeleaf"
+        },
+        {
+          "entryName": "sharpknock18",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 20.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartantwilight:throwing_axe_steeleaf"
+        },
+        {
+          "entryName": "boafire18",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 20.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartantwilight:throwing_axe_steeleaf"
+        },
+        {
+          "entryName": "sharpknock19",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 20.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartantwilight:throwing_knife_steeleaf"
+        },
+        {
+          "entryName": "boafire19",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 20.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartantwilight:throwing_knife_steeleaf"
+        },
+        {
+          "entryName": "sharpknock20",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 20.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartantwilight:boomerang_steeleaf"
+        },
+        {
+          "entryName": "boafire20",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 20.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartantwilight:boomerang_steeleaf"
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "chance": 0.4,
+          "condition": "minecraft:random_chance"
+        }
+      ]
+    },
+    {
+      "name": "other_2ndchance",
+      "entries": [
+        {
+          "entryName": "sharpknock1",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "enchantments": {
+                "minecraft:sharpness": 4,
+                "minecraft:knockback": 2
+              },
+              "function": "twilightforest:enchant"
+            }
+          ],
+          "name": "spartantwilight:battleaxe_steeleaf"
+        },
+        {
+          "entryName": "boafire1",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "enchantments": {
+                "minecraft:fire_aspect": 2,
+                "minecraft:bane_of_arthropods": 5
+              },
+              "function": "twilightforest:enchant"
+            }
+          ],
+          "name": "spartantwilight:battleaxe_steeleaf"
+        },
+        {
+          "entryName": "sharpknock2",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "enchantments": {
+                "minecraft:sharpness": 4,
+                "minecraft:knockback": 2
+              },
+              "function": "twilightforest:enchant"
+            }
+          ],
+          "name": "spartantwilight:dagger_steeleaf"
+        },
+        {
+          "entryName": "boafire2",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "enchantments": {
+                "minecraft:fire_aspect": 2,
+                "minecraft:bane_of_arthropods": 5
+              },
+              "function": "twilightforest:enchant"
+            }
+          ],
+          "name": "spartantwilight:dagger_steeleaf"
+        },
+        {
+          "entryName": "sharpknock3",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "enchantments": {
+                "minecraft:sharpness": 4,
+                "minecraft:knockback": 2
+              },
+              "function": "twilightforest:enchant"
+            }
+          ],
+          "name": "spartantwilight:glaive_steeleaf"
+        },
+        {
+          "entryName": "boafire3",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "enchantments": {
+                "minecraft:fire_aspect": 2,
+                "minecraft:bane_of_arthropods": 5
+              },
+              "function": "twilightforest:enchant"
+            }
+          ],
+          "name": "spartantwilight:glaive_steeleaf"
+        },
+        {
+          "entryName": "sharpknock4",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "enchantments": {
+                "minecraft:sharpness": 4,
+                "minecraft:knockback": 2
+              },
+              "function": "twilightforest:enchant"
+            }
+          ],
+          "name": "spartantwilight:greatsword_steeleaf"
+        },
+        {
+          "entryName": "boafire4",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "enchantments": {
+                "minecraft:fire_aspect": 2,
+                "minecraft:bane_of_arthropods": 5
+              },
+              "function": "twilightforest:enchant"
+            }
+          ],
+          "name": "spartantwilight:greatsword_steeleaf"
+        },
+        {
+          "entryName": "sharpknock5",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "enchantments": {
+                "minecraft:sharpness": 4,
+                "minecraft:knockback": 2
+              },
+              "function": "twilightforest:enchant"
+            }
+          ],
+          "name": "spartantwilight:halberd_steeleaf"
+        },
+        {
+          "entryName": "boafire5",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "enchantments": {
+                "minecraft:fire_aspect": 2,
+                "minecraft:bane_of_arthropods": 5
+              },
+              "function": "twilightforest:enchant"
+            }
+          ],
+          "name": "spartantwilight:halberd_steeleaf"
+        },
+        {
+          "entryName": "sharpknock6",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "enchantments": {
+                "minecraft:sharpness": 4,
+                "minecraft:knockback": 2
+              },
+              "function": "twilightforest:enchant"
+            }
+          ],
+          "name": "spartantwilight:hammer_steeleaf"
+        },
+        {
+          "entryName": "boafire6",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "enchantments": {
+                "minecraft:fire_aspect": 2,
+                "minecraft:bane_of_arthropods": 5
+              },
+              "function": "twilightforest:enchant"
+            }
+          ],
+          "name": "spartantwilight:hammer_steeleaf"
+        },
+        {
+          "entryName": "sharpknock7",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "enchantments": {
+                "minecraft:sharpness": 4,
+                "minecraft:knockback": 2
+              },
+              "function": "twilightforest:enchant"
+            }
+          ],
+          "name": "spartantwilight:katana_steeleaf"
+        },
+        {
+          "entryName": "boafire7",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "enchantments": {
+                "minecraft:fire_aspect": 2,
+                "minecraft:bane_of_arthropods": 5
+              },
+              "function": "twilightforest:enchant"
+            }
+          ],
+          "name": "spartantwilight:katana_steeleaf"
+        },
+        {
+          "entryName": "sharpknock8",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "enchantments": {
+                "minecraft:sharpness": 4,
+                "minecraft:knockback": 2
+              },
+              "function": "twilightforest:enchant"
+            }
+          ],
+          "name": "spartantwilight:lance_steeleaf"
+        },
+        {
+          "entryName": "boafire8",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "enchantments": {
+                "minecraft:fire_aspect": 2,
+                "minecraft:bane_of_arthropods": 5
+              },
+              "function": "twilightforest:enchant"
+            }
+          ],
+          "name": "spartantwilight:lance_steeleaf"
+        },
+        {
+          "entryName": "sharpknock9",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "enchantments": {
+                "minecraft:sharpness": 4,
+                "minecraft:knockback": 2
+              },
+              "function": "twilightforest:enchant"
+            }
+          ],
+          "name": "spartantwilight:longsword_steeleaf"
+        },
+        {
+          "entryName": "boafire9",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "enchantments": {
+                "minecraft:fire_aspect": 2,
+                "minecraft:bane_of_arthropods": 5
+              },
+              "function": "twilightforest:enchant"
+            }
+          ],
+          "name": "spartantwilight:longsword_steeleaf"
+        },
+        {
+          "entryName": "sharpknock10",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "enchantments": {
+                "minecraft:sharpness": 4,
+                "minecraft:knockback": 2
+              },
+              "function": "twilightforest:enchant"
+            }
+          ],
+          "name": "spartantwilight:mace_steeleaf"
+        },
+        {
+          "entryName": "boafire10",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "enchantments": {
+                "minecraft:fire_aspect": 2,
+                "minecraft:bane_of_arthropods": 5
+              },
+              "function": "twilightforest:enchant"
+            }
+          ],
+          "name": "spartantwilight:mace_steeleaf"
+        },
+        {
+          "entryName": "sharpknock11",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "enchantments": {
+                "minecraft:sharpness": 4,
+                "minecraft:knockback": 2
+              },
+              "function": "twilightforest:enchant"
+            }
+          ],
+          "name": "spartantwilight:pike_steeleaf"
+        },
+        {
+          "entryName": "boafire11",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "enchantments": {
+                "minecraft:fire_aspect": 2,
+                "minecraft:bane_of_arthropods": 5
+              },
+              "function": "twilightforest:enchant"
+            }
+          ],
+          "name": "spartantwilight:pike_steeleaf"
+        },
+        {
+          "entryName": "sharpknock12",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "enchantments": {
+                "minecraft:sharpness": 4,
+                "minecraft:knockback": 2
+              },
+              "function": "twilightforest:enchant"
+            }
+          ],
+          "name": "spartantwilight:staff_steeleaf"
+        },
+        {
+          "entryName": "boafire12",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "enchantments": {
+                "minecraft:fire_aspect": 2,
+                "minecraft:bane_of_arthropods": 5
+              },
+              "function": "twilightforest:enchant"
+            }
+          ],
+          "name": "spartantwilight:staff_steeleaf"
+        },
+        {
+          "entryName": "sharpknock13",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "enchantments": {
+                "minecraft:sharpness": 4,
+                "minecraft:knockback": 2
+              },
+              "function": "twilightforest:enchant"
+            }
+          ],
+          "name": "spartantwilight:rapier_steeleaf"
+        },
+        {
+          "entryName": "boafire13",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "enchantments": {
+                "minecraft:fire_aspect": 2,
+                "minecraft:bane_of_arthropods": 5
+              },
+              "function": "twilightforest:enchant"
+            }
+          ],
+          "name": "spartantwilight:rapier_steeleaf"
+        },
+        {
+          "entryName": "sharpknock14",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "enchantments": {
+                "minecraft:sharpness": 4,
+                "minecraft:knockback": 2
+              },
+              "function": "twilightforest:enchant"
+            }
+          ],
+          "name": "spartantwilight:saber_steeleaf"
+        },
+        {
+          "entryName": "boafire14",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "enchantments": {
+                "minecraft:fire_aspect": 2,
+                "minecraft:bane_of_arthropods": 5
+              },
+              "function": "twilightforest:enchant"
+            }
+          ],
+          "name": "spartantwilight:saber_steeleaf"
+        },
+        {
+          "entryName": "sharpknock15",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "enchantments": {
+                "minecraft:sharpness": 4,
+                "minecraft:knockback": 2
+              },
+              "function": "twilightforest:enchant"
+            }
+          ],
+          "name": "spartantwilight:spear_steeleaf"
+        },
+        {
+          "entryName": "boafire15",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "enchantments": {
+                "minecraft:fire_aspect": 2,
+                "minecraft:bane_of_arthropods": 5
+              },
+              "function": "twilightforest:enchant"
+            }
+          ],
+          "name": "spartantwilight:spear_steeleaf"
+        },
+        {
+          "entryName": "sharpknock16",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "enchantments": {
+                "minecraft:sharpness": 4,
+                "minecraft:knockback": 2
+              },
+              "function": "twilightforest:enchant"
+            }
+          ],
+          "name": "spartantwilight:warhammer_steeleaf"
+        },
+        {
+          "entryName": "boafire16",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "enchantments": {
+                "minecraft:fire_aspect": 2,
+                "minecraft:bane_of_arthropods": 5
+              },
+              "function": "twilightforest:enchant"
+            }
+          ],
+          "name": "spartantwilight:warhammer_steeleaf"
+        },
+        {
+          "entryName": "sharpknock17",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 20.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartantwilight:javelin_steeleaf"
+        },
+        {
+          "entryName": "boafire17",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 20.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartantwilight:javelin_steeleaf"
+        },
+        {
+          "entryName": "sharpknock18",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 20.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartantwilight:throwing_axe_steeleaf"
+        },
+        {
+          "entryName": "boafire18",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 20.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartantwilight:throwing_axe_steeleaf"
+        },
+        {
+          "entryName": "sharpknock19",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 20.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartantwilight:throwing_knife_steeleaf"
+        },
+        {
+          "entryName": "boafire19",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 20.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartantwilight:throwing_knife_steeleaf"
+        },
+        {
+          "entryName": "sharpknock20",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 20.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartantwilight:boomerang_steeleaf"
+        },
+        {
+          "entryName": "boafire20",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 20.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartantwilight:boomerang_steeleaf"
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "chance": 0.4,
+          "condition": "minecraft:random_chance"
+        }
+      ]
+    },
+    {
+      "name": "main",
+      "entries": [],
+      "rolls": {
+        "min": 5.0,
+        "max": 10.0
+      }
+    }
+  ]
+}

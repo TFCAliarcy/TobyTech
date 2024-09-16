@@ -1,0 +1,49 @@
+{
+  "pools": [
+    {
+      "name": "main",
+      "entries": [
+        {
+          "entryName": "twilightforest:naga_scale",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "twilightforest:naga_scale"
+        },
+        {
+          "entryName": "twilightforest:ironwood_pickaxe",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "enchantments": {
+                "minecraft:fortune": 1,
+                "minecraft:efficiency": 1
+              },
+              "function": "twilightforest:enchant"
+            }
+          ],
+          "name": "twilightforest:ironwood_pickaxe"
+        },
+        {
+          "entryName": "twilightforest:transformation_powder",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 12.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "twilightforest:transformation_powder"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

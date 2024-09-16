@@ -1,0 +1,63 @@
+{
+  "pools": [
+    {
+      "name": "main",
+      "entries": [
+        {
+          "entryName": "minecraft:web",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:web"
+        },
+        {
+          "entryName": "minecraft:shears",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:shears"
+        },
+        {
+          "entryName": "minecraft:saddle",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:saddle"
+        },
+        {
+          "entryName": "minecraft:bow",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:bow"
+        },
+        {
+          "entryName": "minecraft:apple",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:apple"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

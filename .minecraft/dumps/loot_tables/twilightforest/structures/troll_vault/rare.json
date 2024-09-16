@@ -1,0 +1,17 @@
+{
+  "pools": [
+    {
+      "name": "main",
+      "entries": [
+        {
+          "entryName": "twilightforest:lamp_of_cinders",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "twilightforest:lamp_of_cinders"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "pools": [
+    {
+      "name": "pig_loot",
+      "entries": [
+        {
+          "entryName": "minecraft:entities/pig",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "minecraft:entities/pig"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "string",
+      "entries": [
+        {
+          "entryName": "minecraft:string",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 0.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "minecraft:looting_enchant"
+            }
+          ],
+          "name": "minecraft:string"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "main",
+      "entries": [],
+      "rolls": {
+        "min": 5.0,
+        "max": 10.0
+      }
+    }
+  ]
+}

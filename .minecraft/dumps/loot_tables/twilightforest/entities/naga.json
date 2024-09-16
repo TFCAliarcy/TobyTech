@@ -1,0 +1,111 @@
+{
+  "pools": [
+    {
+      "name": "scales",
+      "entries": [
+        {
+          "entryName": "twilightforest:naga_scale",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 6.0,
+                "max": 11.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "twilightforest:naga_scale"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "trophy",
+      "entries": [
+        {
+          "entryName": "twilightforest:trophy",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 0.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "twilightforest:trophy"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "shader",
+      "entries": [
+        {
+          "entryName": "twilightforest:naga_scale",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "default": "twilightforest:naga_scale",
+              "function": "twilightforest:item_or_default"
+            },
+            {
+              "tag": "{shader_type:\"Naga\"}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "twilightforest:naga_scale"
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "mod_id": "immersiveengineering",
+          "condition": "twilightforest:mod_exists"
+        }
+      ]
+    },
+    {
+      "name": "shader",
+      "entries": [
+        {
+          "entryName": "twilightforest:naga_scale",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "default": "twilightforest:naga_scale",
+              "function": "twilightforest:item_or_default"
+            },
+            {
+              "tag": "{shader_rarity:\"Twilight\"}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "twilightforest:naga_scale"
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "mod_id": "immersiveengineering",
+          "condition": "twilightforest:mod_exists"
+        }
+      ]
+    },
+    {
+      "name": "main",
+      "entries": [],
+      "rolls": {
+        "min": 5.0,
+        "max": 10.0
+      }
+    }
+  ]
+}

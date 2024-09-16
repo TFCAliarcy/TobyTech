@@ -1,0 +1,50 @@
+{
+  "pools": [
+    {
+      "name": "mod_lavacow:weta",
+      "entries": [
+        {
+          "entryName": "mod_lavacow:weta_jaw",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "mod_lavacow:weta_jaw"
+        },
+        {
+          "entryName": "mod_lavacow:chitin",
+          "weight": 4,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "mod_lavacow:chitin"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "main",
+      "entries": [],
+      "rolls": {
+        "min": 5.0,
+        "max": 10.0
+      }
+    }
+  ]
+}

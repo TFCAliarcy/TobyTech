@@ -1,0 +1,195 @@
+{
+  "pools": [
+    {
+      "name": "velociraptor",
+      "entries": [
+        {
+          "entryName": "fossil:velociraptor_meat",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "min": 0.0,
+                "max": 2.0
+              },
+              "function": "minecraft:looting_enchant"
+            }
+          ],
+          "name": "fossil:velociraptor_meat"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "velociraptor",
+      "entries": [
+        {
+          "entryName": "fossil:bone_skull",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "fossil:bone_skull"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "velociraptor",
+      "entries": [
+        {
+          "entryName": "fossil:bone_arm_bone",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 0.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "fossil:bone_arm_bone"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "velociraptor",
+      "entries": [
+        {
+          "entryName": "fossil:bone_leg_bone",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 0.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "fossil:bone_leg_bone"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "velociraptor",
+      "entries": [
+        {
+          "entryName": "fossil:bone_ribcage",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "fossil:bone_ribcage"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "velociraptor",
+      "entries": [
+        {
+          "entryName": "fossil:bone_vertebrae",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 0.0,
+                "max": 5.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "fossil:bone_vertebrae"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "velociraptor",
+      "entries": [
+        {
+          "entryName": "fossil:bone_foot",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 0.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "fossil:bone_foot"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "velociraptor",
+      "entries": [
+        {
+          "entryName": "fossil:bone_unique_item",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 0.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "fossil:bone_unique_item"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "main",
+      "entries": [],
+      "rolls": {
+        "min": 5.0,
+        "max": 10.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "pools": [
+    {
+      "name": "meat",
+      "entries": [
+        {
+          "entryName": "twilightforest:hydra_chop",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 5.0,
+                "max": 35.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "min": 0.0,
+                "max": 2.0
+              },
+              "function": "minecraft:looting_enchant"
+            }
+          ],
+          "name": "twilightforest:hydra_chop"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "blood",
+      "entries": [
+        {
+          "entryName": "twilightforest:fiery_blood",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 7.0,
+                "max": 10.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "minecraft:looting_enchant"
+            }
+          ],
+          "name": "twilightforest:fiery_blood"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "trophy",
+      "entries": [
+        {
+          "entryName": "twilightforest:trophy",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 2.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "twilightforest:trophy"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "shader",
+      "entries": [
+        {
+          "entryName": "twilightforest:fiery_blood",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "default": "twilightforest:fiery_blood",
+              "function": "twilightforest:item_or_default"
+            },
+            {
+              "tag": "{shader_type:\"Hydra\"}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "twilightforest:fiery_blood"
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "mod_id": "immersiveengineering",
+          "condition": "twilightforest:mod_exists"
+        }
+      ]
+    },
+    {
+      "name": "shader",
+      "entries": [
+        {
+          "entryName": "twilightforest:fiery_blood",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "default": "twilightforest:fiery_blood",
+              "function": "twilightforest:item_or_default"
+            },
+            {
+              "tag": "{shader_rarity:\"Twilight\"}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "twilightforest:fiery_blood"
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "mod_id": "immersiveengineering",
+          "condition": "twilightforest:mod_exists"
+        }
+      ]
+    },
+    {
+      "name": "main",
+      "entries": [],
+      "rolls": {
+        "min": 5.0,
+        "max": 10.0
+      }
+    }
+  ]
+}

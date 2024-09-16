@@ -1,0 +1,30 @@
+{
+  "pools": [
+    {
+      "name": "pool1",
+      "entries": [
+        {
+          "entryName": "additionallanterns:red_obsidian_lantern",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "additionallanterns:red_obsidian_lantern"
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "supermartijn642corelib:survives_explosion"
+        }
+      ]
+    },
+    {
+      "name": "main",
+      "entries": [],
+      "rolls": {
+        "min": 5.0,
+        "max": 10.0
+      }
+    }
+  ]
+}

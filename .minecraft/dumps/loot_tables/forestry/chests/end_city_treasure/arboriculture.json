@@ -1,0 +1,31 @@
+{
+  "pools": [
+    {
+      "name": "forestry_arboriculture_items",
+      "entries": [
+        {
+          "entryName": "forestry:grafter_proven",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "forestry:grafter_proven"
+        },
+        {
+          "entryName": "empty",
+          "weight": 1,
+          "quality": 0,
+          "type": "empty"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "main",
+      "entries": [],
+      "rolls": {
+        "min": 5.0,
+        "max": 10.0
+      }
+    }
+  ]
+}

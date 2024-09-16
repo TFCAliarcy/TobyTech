@@ -1,0 +1,6 @@
+
+{
+  "Name": "chomper",
+  "Registry ID": "zmonsters:chomper",
+  "Class": "net.mcreator.zmonsters.entity.EntityChomper.EntityCustom"
+}

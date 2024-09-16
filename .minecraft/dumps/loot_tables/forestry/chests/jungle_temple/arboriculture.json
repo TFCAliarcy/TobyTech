@@ -1,0 +1,37 @@
+{
+  "pools": [
+    {
+      "name": "forestry_arboriculture_items",
+      "entries": [
+        {
+          "entryName": "forestry:sapling",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "speciesUid": "forestry.treeSipiri",
+              "function": "minecraft:set_species_nbt"
+            }
+          ],
+          "name": "forestry:sapling"
+        },
+        {
+          "entryName": "empty",
+          "weight": 9,
+          "quality": 0,
+          "type": "empty"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "main",
+      "entries": [],
+      "rolls": {
+        "min": 5.0,
+        "max": 10.0
+      }
+    }
+  ]
+}

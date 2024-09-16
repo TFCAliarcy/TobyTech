@@ -1,0 +1,70 @@
+{
+  "pools": [
+    {
+      "name": "mod_lavacow:ithaqua",
+      "entries": [
+        {
+          "entryName": "mod_lavacow:scythe_claw",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 0.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "minecraft:looting_enchant"
+            }
+          ],
+          "name": "mod_lavacow:scythe_claw"
+        }
+      ],
+      "rolls": 2.0
+    },
+    {
+      "name": "mod_lavacow:ithaqua",
+      "entries": [
+        {
+          "entryName": "mod_lavacow:foul_bristle",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 0.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "minecraft:looting_enchant"
+            }
+          ],
+          "name": "mod_lavacow:foul_bristle"
+        }
+      ],
+      "rolls": 2.0
+    },
+    {
+      "name": "main",
+      "entries": [],
+      "rolls": {
+        "min": 5.0,
+        "max": 10.0
+      }
+    }
+  ]
+}

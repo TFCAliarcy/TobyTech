@@ -1,0 +1,46 @@
+{
+  "pools": [
+    {
+      "name": "epic_artefacts",
+      "entries": [
+        {
+          "entryName": "tfspellpack:ring_hydra_kaboom",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "tfspellpack:ring_hydra_kaboom"
+        },
+        {
+          "entryName": "tfspellpack:ring_aurora",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "tfspellpack:ring_aurora"
+        },
+        {
+          "entryName": "tfspellpack:amulet_life_charm",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "tfspellpack:amulet_life_charm"
+        },
+        {
+          "entryName": "tfspellpack:charm_goblin",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "tfspellpack:charm_goblin"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "main",
+      "entries": [],
+      "rolls": {
+        "min": 5.0,
+        "max": 10.0
+      }
+    }
+  ]
+}

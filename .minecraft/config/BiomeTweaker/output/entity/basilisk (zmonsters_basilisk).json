@@ -1,0 +1,6 @@
+
+{
+  "Name": "basilisk",
+  "Registry ID": "zmonsters:basilisk",
+  "Class": "net.mcreator.zmonsters.entity.EntityBasilisk.EntityCustom"
+}

@@ -1,0 +1,980 @@
+{
+	"dependencies": "thermalfoundation",
+	"populate": {
+		"copper": {
+			"enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "thermalfoundation:ore",
+					"properties": {
+					"type": "copper"
+					}
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 8
+			},
+			"cluster-count": 8,
+			"min-height": 40,
+			"max-height": 75,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0,
+					7
+				]
+			}
+		},
+		"tin": {
+			"enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "thermalfoundation:ore",
+					"properties": {
+						"type": "tin"
+					}
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 8
+			},
+			"cluster-count": 7,
+			"min-height": 20,
+			"max-height": 55,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0,
+					7
+				]
+			}
+		},
+		"silver": {
+			"enabled": "false",
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "thermalfoundation:ore",
+						"properties": {
+							"type": "silver"
+						},
+						"weight": 80
+					},
+					{
+						"name": "thermalfoundation:ore",
+						"properties": {
+							"type": "lead"
+						},
+						"weight": 20
+					}
+				],
+				"material": "minecraft:stone",
+				"cluster-size": 8
+			},
+			"cluster-count": 4,
+			"min-height": 5,
+			"max-height": 30,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0,
+					7
+				]
+			}
+		},
+		"lead": {
+			"enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "thermalfoundation:ore",
+						"properties": {
+							"type": "lead"
+						},
+						"weight": 90
+					},
+					{
+						"name": "thermalfoundation:ore",
+						"properties": {
+							"type": "silver"
+						},
+						"weight": 10
+					}
+				],
+				"material": "minecraft:stone",
+				"cluster-size": 8
+			},
+			"cluster-count": 4,
+			"min-height": 10,
+			"max-height": 35,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0,
+					7
+				]
+			}
+		},
+		"nickel": {
+			"enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "thermalfoundation:ore",
+					"properties": {
+						"type": "nickel"
+					}
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 4
+			},
+			"cluster-count": 2,
+			"min-height": 5,
+			"max-height": 20,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0,
+					-28,
+					-29,
+					7
+				]
+			}
+		},
+		"platinum": {
+			"enabled": "false",
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "thermalfoundation:ore",
+						"properties": {
+							"type": "platinum"
+						},
+						"weight": 40
+					},
+					{
+						"name": "thermalfoundation:ore",
+						"properties": {
+							"type": "nickel"
+						},
+						"weight": 60
+					}
+				],
+				"material": "minecraft:stone",
+				"cluster-size": 4
+			},
+			"cluster-count": 1,
+			"min-height": 5,
+			"max-height": 25,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0,
+					7
+				]
+			}
+		},
+		"aluminum": {
+			"enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "thermalfoundation:ore",
+					"properties": {
+						"type": "aluminum"
+					}
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 8
+			},
+			"cluster-count": 8,
+			"min-height": 4,
+			"max-height": 75,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					7
+				]
+			}
+		},
+		"iridium": {
+			"enabled": "false",
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "thermalfoundation:ore",
+						"properties": {
+							"type": "iridium"
+						},
+						"weight": 40
+					},
+					{
+						"name": "thermalfoundation:ore",
+						"properties": {
+							"type": "platinum"
+						},
+						"weight": 60
+					}
+				],
+				"material": "minecraft:stone",
+				"cluster-size": 4
+			},
+			"cluster-count": 1,
+			"min-height": 5,
+			"max-height": 25,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0,
+					7
+				]
+			}
+		},
+		"copper_ocean": {
+			"enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "thermalfoundation:ore",
+					"properties": {
+						"type": "copper"
+					}
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 8
+			},
+			"cluster-count": 4,
+			"min-height": 20,
+			"max-height": 55,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "dictionary",
+						"entry": "OCEAN"
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0,
+					7
+				]
+			}
+		},
+		"copper_high": {
+			"enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "thermalfoundation:ore",
+					"metadata": 0
+					}
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 8
+			},
+			"cluster-count": 8,
+			"min-height": 48,
+			"max-height": 96,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0,
+					7
+				]
+			},
+			"Mars Uranium": {
+				"enabled": "true",
+				"distribution": "uniform",
+				"generator": {
+					"block": {
+						"name": "nuclearcraft:ore",
+						"metadata": 4
+					},
+					"cluster-size": 8,
+					"material": {"name":"galacticraftplanets:mars", "metadata": 9}
+				},
+				"cluster-count": 6,
+				"min-height": 4,
+				"max-height": 200,
+				"retrogen": "true",
+				"biome": "all",
+				"dimension": {
+					"restriction": "whitelist",
+					"value": [
+						-29
+					]
+				}
+			},
+			"Mars Thorium": {
+				"enabled": "true",
+				"distribution": "uniform",
+				"generator": {
+					"block": {
+						"name": "nuclearcraft:ore",
+						"metadata": 3
+					},
+					"cluster-size": 8,
+					"material": {"name":"galacticraftplanets:mars", "metadata": 9}
+				},
+				"cluster-count": 9,
+				"min-height": 4,
+				"max-height": 200,
+				"retrogen": "true",
+				"biome": "all",
+				"dimension": {
+					"restriction": "whitelist",
+					"value": [
+						-29
+					]
+				}
+			},
+			"Moon Lithium": {
+				"enabled": "true",
+				"distribution": "uniform",
+				"generator": {
+					"block": {
+						"name": "nuclearcraft:ore",
+						"metadata": 6
+					},
+					"cluster-size": 8,
+					"material": {"name":"galacticraftplanets:basic_moon_block", "metadata": 4}
+				},
+				"cluster-count": 6,
+				"min-height": 4,
+				"max-height": 200,
+				"retrogen": "true",
+				"biome": "all",
+				"dimension": {
+					"restriction": "whitelist",
+					"value": [
+						-28
+					]
+				}
+			},
+			"Moon Boron": {
+				"enabled": "true",
+				"distribution": "uniform",
+				"generator": {
+					"block": {
+						"name": "nuclearcraft:ore",
+						"metadata": 5
+					},
+					"cluster-size": 8,
+					"material": {"name":"galacticraftplanets:basic_moon_block", "metadata": 4}
+				},
+				"cluster-count": 6,
+				"min-height": 4,
+				"max-height": 200,
+				"retrogen": "true",
+				"biome": "all",
+				"dimension": {
+					"restriction": "whitelist",
+					"value": [
+						-28
+					]
+				}
+			},
+			"Mars Magnesium": {
+				"enabled": "true",
+				"distribution": "uniform",
+				"generator": {
+					"block": {
+						"name": "nuclearcraft:ore",
+						"metadata": 7
+					},
+					"cluster-size": 8,
+					"material": {"name":"galacticraftplanets:basic_moon_block", "metadata": 4}
+				},
+				"cluster-count": 4,
+				"min-height": 4,
+				"max-height": 200,
+				"retrogen": "true",
+				"biome": "all",
+				"dimension": {
+					"restriction": "whitelist",
+					"value": [
+						-29
+					]
+				}
+			},
+			"Callisto Cobalt": {
+				"enabled": "true",
+				"distribution": "uniform",
+				"generator": {
+					"block": {
+						"name": "galaxyspace:mirandablocks",
+						"metadata": 7
+					},
+					"cluster-size": 8,
+					"material": {"name":"galaxyspace:callistoblocks", "metadata": 1}
+				},
+				"cluster-count": 15,
+				"min-height": 4,
+				"max-height": 200,
+				"retrogen": "true",
+				"biome": "all",
+				"dimension": {
+					"restriction": "whitelist",
+					"value": [
+						-1022
+					]
+				}
+			},
+			"Callisto lithium": {
+				"enabled": "true",
+				"distribution": "uniform",
+				"generator": {
+					"block": {
+						"name": "nuclearcraft:ore",
+						"metadata": 6
+					},
+					"cluster-size": 8,
+					"material": {"name":"galaxyspace:callistoblocks", "metadata": 1}
+				},
+				"cluster-count": 6,
+				"min-height": 4,
+				"max-height": 200,
+				"retrogen": "true",
+				"biome": "all",
+				"dimension": {
+					"restriction": "whitelist",
+					"value": [
+						-28
+					]
+				}
+			},
+			"Moon Certus Quartz": {
+				"enabled": "true",
+				"distribution": "uniform",
+				"generator": {
+					"block": {
+						"name": "appliedenergistics2:quartz_ore",
+						"metadata": 7
+					},
+					"cluster-size": 8,
+					"material": {"name":"galacticraftplanets:basic_moon_block", "metadata": 4}
+				},
+				"cluster-count": 15,
+				"min-height": 4,
+				"max-height": 200,
+				"retrogen": "true",
+				"biome": "all",
+				"dimension": {
+					"restriction": "whitelist",
+					"value": [
+						-28
+					]
+				}
+			},
+			"Venus Draconium": {
+				"enabled": "true",
+				"distribution": "uniform",
+				"generator": {
+					"block": {
+						"name": "draconicevolution:draconium_ore",
+						"metadata": 1
+					},
+					"cluster-size": 8,
+					"material": {"name":"galacticraftplanets:venus", "metadata": 1}
+				},
+				"cluster-count": 3,
+				"min-height": 4,
+				"max-height": 200,
+				"retrogen": "true",
+				"biome": "all",
+				"dimension": {
+					"restriction": "whitelist",
+					"value": [
+						-31
+					]
+				}
+			},
+			"End Electrotine": {
+				"enabled": "true",
+				"distribution": "uniform",
+				"generator": {
+					"block": {
+						"name": "netherendingores:ore_end_modded_2",
+						"metadata": 4
+					},
+					"cluster-size": 8,
+					"material": {"name":"minecraft:end_stone"}
+				},
+				"cluster-count": 12,
+				"min-height": 4,
+				"max-height": 200,
+				"retrogen": "true",
+				"biome": "all",
+				"dimension": {
+					"restriction": "whitelist",
+					"value": [
+						1
+					]
+				}
+			},
+			"Amethyst": {
+				"enabled": "true",
+				"distribution": "uniform",
+				"generator": {
+					"block": {
+						"name": "bewitchment:amethyst_ore"
+						},
+					
+					"material": "minecraft:stone",
+					"cluster-size": 4
+				},
+				"cluster-count": 2,
+				"min-height": 1,
+				"max-height": 64,
+				"retrogen": "true",
+				"biome": "all",
+				"dimension": {
+					"restriction": "whitelist",
+					"value": [
+						7
+					]
+				
+			}
+			},
+			"Garnet": {
+				"enabled": "true",
+				"distribution": "uniform",
+				"generator": {
+					"block": {
+						"name": "bewitchment:garnet_ore"
+						},
+					
+					"material": "minecraft:stone",
+					"cluster-size": 4
+				},
+				"cluster-count": 2,
+				"min-height": 1,
+				"max-height": 64,
+				"retrogen": "true",
+				"biome": "all",
+				"dimension": {
+					"restriction": "whitelist",
+					"value": [
+						7
+					]
+				
+			}
+			},
+			"Opal": {
+				"enabled": "true",
+				"distribution": "uniform",
+				"generator": {
+					"block": {
+						"name": "bewitchment:opal_ore"
+						},
+					
+					"material": "minecraft:stone",
+					"cluster-size": 4
+				},
+				"cluster-count": 2,
+				"min-height": 1,
+				"max-height": 64,
+				"retrogen": "true",
+				"biome": "all",
+				"dimension": {
+					"restriction": "whitelist",
+					"value": [
+						7
+					]
+				
+			}
+			},
+			"Amber": {
+				"enabled": "true",
+				"distribution": "uniform",
+				"generator": {
+					"block": {
+						"name": "thaumcraft:ore_amber"
+						},
+					
+					"material": "minecraft:stone",
+					"cluster-size": 1
+				},
+				"cluster-count": 2,
+				"min-height": 20,
+				"max-height": 64,
+				"retrogen": "true",
+				"biome": "all",
+				"dimension": {
+					"restriction": "whitelist",
+					"value": [
+						7
+					]
+				
+			}
+			},
+			"Cinnabar": {
+				"enabled": "true",
+				"distribution": "uniform",
+				"generator": {
+					"block": {
+						"name": "thaumcraft:ore_cinnabar"
+						},
+					
+					"material": "minecraft:stone",
+					"cluster-size": 1
+				},
+				"cluster-count": 2,
+				"min-height": 1,
+				"max-height": 20,
+				"retrogen": "true",
+				"biome": "all",
+				"dimension": {
+					"restriction": "whitelist",
+					"value": [
+						7
+					]
+				
+			}
+			},
+			"crystal_aer": {
+				"distribution": "cave",
+				"generator": {
+					"type": "stalagmite",
+					"block": "thaumcraft:crystal_aer",
+					"material": "minecraft:stone",
+					"min-height": 1,
+					"height-variance": 1,
+					"gen-size": 1,
+					"size-variance": 4
+				},
+				"ground-level": 254,
+				"cluster-count": 1,
+				"min-height": 2,
+				"max-height": 254,
+				"retrogen": false,
+				"biome": "all",
+				"dimension": {
+					"restriction": "whitelist",
+					"value": [
+						7
+					]
+				}
+			},
+			"crystal_aer2": {
+				"distribution": "cave",
+				"generator": {
+					"type": "stalactite",
+					"block": "thaumcraft:crystal_aer",
+					"material": "minecraft:stone",
+					"min-height": 1,
+					"height-variance": 1,
+					"gen-size": 1,
+					"size-variance": 4
+				},
+				"ground-level": 254,
+				"cluster-count": 1,
+				"min-height": 2,
+				"max-height": 254,
+				"retrogen": false,
+				"biome": "all",
+				"dimension": {
+					"restriction": "whitelist",
+					"value": [
+						7
+					]
+				}
+			},
+			"crystal_ignis": {
+				"distribution": "cave",
+				"generator": {
+					"type": "stalagmite",
+					"block": "thaumcraft:crystal_ignis",
+					"material": "minecraft:stone",
+					"min-height": 1,
+					"height-variance": 1,
+					"gen-size": 1,
+					"size-variance": 4
+				},
+				"ground-level": 254,
+				"cluster-count": 1,
+				"min-height": 2,
+				"max-height": 254,
+				"retrogen": false,
+				"biome": "all",
+				"dimension": {
+					"restriction": "whitelist",
+					"value": [
+						7
+					]
+				}
+			},
+			"crystal_ignis2": {
+				"distribution": "cave",
+				"generator": {
+					"type": "stalactite",
+					"block": "thaumcraft:crystal_ignis",
+					"material": "minecraft:stone",
+					"min-height": 1,
+					"height-variance": 1,
+					"gen-size": 1,
+					"size-variance": 4
+				},
+				"ground-level": 254,
+				"cluster-count": 1,
+				"min-height": 2,
+				"max-height": 254,
+				"retrogen": false,
+				"biome": "all",
+				"dimension": {
+					"restriction": "whitelist",
+					"value": [
+						7
+					]
+				}
+			},
+			"crystal_aqua": {
+				"distribution": "cave",
+				"generator": {
+					"type": "stalagmite",
+					"block": "thaumcraft:crystal_aqua",
+					"material": "minecraft:stone",
+					"min-height": 1,
+					"height-variance": 1,
+					"gen-size": 1,
+					"size-variance": 4
+				},
+				"ground-level": 254,
+				"cluster-count": 1,
+				"min-height": 2,
+				"max-height": 254,
+				"retrogen": false,
+				"biome": "all",
+				"dimension": {
+					"restriction": "whitelist",
+					"value": [
+						7
+					]
+				}
+			},
+			"crystal_aqua2": {
+				"distribution": "cave",
+				"generator": {
+					"type": "stalactite",
+					"block": "thaumcraft:crystal_aqua",
+					"material": "minecraft:stone",
+					"min-height": 1,
+					"height-variance": 1,
+					"gen-size": 1,
+					"size-variance": 4
+				},
+				"ground-level": 254,
+				"cluster-count": 1,
+				"min-height": 2,
+				"max-height": 254,
+				"retrogen": false,
+				"biome": "all",
+				"dimension": {
+					"restriction": "whitelist",
+					"value": [
+						7
+					]
+				}
+			},
+			"crystal_terra": {
+				"distribution": "cave",
+				"generator": {
+					"type": "stalagmite",
+					"block": "thaumcraft:crystal_terra",
+					"material": "minecraft:stone",
+					"min-height": 1,
+					"height-variance": 1,
+					"gen-size": 1,
+					"size-variance": 4
+				},
+				"ground-level": 254,
+				"cluster-count": 1,
+				"min-height": 2,
+				"max-height": 254,
+				"retrogen": false,
+				"biome": "all",
+				"dimension": {
+					"restriction": "whitelist",
+					"value": [
+						7
+					]
+				}
+			},
+			"crystal_terra2": {
+				"distribution": "cave",
+				"generator": {
+					"type": "stalactite",
+					"block": "thaumcraft:crystal_terra",
+					"material": "minecraft:stone",
+					"min-height": 1,
+					"height-variance": 1,
+					"gen-size": 1,
+					"size-variance": 4
+				},
+				"ground-level": 254,
+				"cluster-count": 1,
+				"min-height": 2,
+				"max-height": 254,
+				"retrogen": false,
+				"biome": "all",
+				"dimension": {
+					"restriction": "whitelist",
+					"value": [
+						7
+					]
+				}
+			},
+			"crystal_ordo": {
+				"distribution": "cave",
+				"generator": {
+					"type": "stalagmite",
+					"block": "thaumcraft:crystal_ordo",
+					"material": "minecraft:stone",
+					"min-height": 1,
+					"height-variance": 1,
+					"gen-size": 1,
+					"size-variance": 4
+				},
+				"ground-level": 254,
+				"cluster-count": 1,
+				"min-height": 2,
+				"max-height": 254,
+				"retrogen": false,
+				"biome": "all",
+				"dimension": {
+					"restriction": "whitelist",
+					"value": [
+						7
+					]
+				}
+			},
+			"crystal_ordo2": {
+				"distribution": "cave",
+				"generator": {
+					"type": "stalactite",
+					"block": "thaumcraft:crystal_ordo",
+					"material": "minecraft:stone",
+					"min-height": 1,
+					"height-variance": 1,
+					"gen-size": 1,
+					"size-variance": 4
+				},
+				"ground-level": 254,
+				"cluster-count": 1,
+				"min-height": 2,
+				"max-height": 254,
+				"retrogen": false,
+				"biome": "all",
+				"dimension": {
+					"restriction": "whitelist",
+					"value": [
+						7
+					]
+				}
+			},
+			"crystal_perditio": {
+				"distribution": "cave",
+				"generator": {
+					"type": "stalagmite",
+					"block": "thaumcraft:crystal_perditio",
+					"material": "minecraft:stone",
+					"min-height": 1,
+					"height-variance": 1,
+					"gen-size": 1,
+					"size-variance": 4
+				},
+				"ground-level": 254,
+				"cluster-count": 1,
+				"min-height": 2,
+				"max-height": 254,
+				"retrogen": false,
+				"biome": "all",
+				"dimension": {
+					"restriction": "whitelist",
+					"value": [
+						7
+					]
+				}
+			},
+			"crystal_perditio2": {
+				"distribution": "cave",
+				"generator": {
+					"type": "stalactite",
+					"block": "thaumcraft:crystal_perditio",
+					"material": "minecraft:stone",
+					"min-height": 1,
+					"height-variance": 1,
+					"gen-size": 1,
+					"size-variance": 4
+				},
+				"ground-level": 254,
+				"cluster-count": 1,
+				"min-height": 2,
+				"max-height": 254,
+				"retrogen": false,
+				"biome": "all",
+				"dimension": {
+					"restriction": "whitelist",
+					"value": [
+						7
+					]
+				}
+			},
+			"Salt": {
+				"enabled": "true",
+				"distribution": "uniform",
+				"generator": {
+					"block": {
+						"name": "bewitchment:salt_ore"
+						},
+					
+					"material": "minecraft:stone",
+					"cluster-size": 4
+				},
+				"cluster-count": 2,
+				"min-height": 1,
+				"max-height": 64,
+				"retrogen": "true",
+				"biome": "all",
+				"dimension": {
+					"restriction": "whitelist",
+					"value": [
+						7
+					]
+				
+			}
+			}
+			
+		}
+	}
+	
+		
+		
+	
+

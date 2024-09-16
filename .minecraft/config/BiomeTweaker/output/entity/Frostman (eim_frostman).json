@@ -1,0 +1,6 @@
+
+{
+  "Name": "Frostman",
+  "Registry ID": "eim:frostman",
+  "Class": "eim.common.entities.creatures.EntityFrostman"
+}

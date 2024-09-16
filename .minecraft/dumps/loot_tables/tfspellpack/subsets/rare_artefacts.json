@@ -1,0 +1,53 @@
+{
+  "pools": [
+    {
+      "name": "rare_artefacts",
+      "entries": [
+        {
+          "entryName": "tfspellpack:ring_trollsteinn",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "tfspellpack:ring_trollsteinn"
+        },
+        {
+          "entryName": "tfspellpack:amulet_carminite",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "tfspellpack:amulet_carminite"
+        },
+        {
+          "entryName": "tfspellpack:charm_ice_exploder",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "tfspellpack:charm_ice_exploder"
+        },
+        {
+          "entryName": "tfspellpack:charm_troll",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "tfspellpack:charm_troll"
+        },
+        {
+          "entryName": "tfspellpack:charm_accursed_tome",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "tfspellpack:charm_accursed_tome"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "main",
+      "entries": [],
+      "rolls": {
+        "min": 5.0,
+        "max": 10.0
+      }
+    }
+  ]
+}

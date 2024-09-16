@@ -1,0 +1,47 @@
+{
+  "pools": [
+    {
+      "name": "main",
+      "entries": [
+        {
+          "entryName": "twilightforest:peacock_fan",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "twilightforest:peacock_fan"
+        },
+        {
+          "entryName": "minecraft:emerald",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 6.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:emerald"
+        },
+        {
+          "entryName": "minecraft:diamond",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:diamond"
+        },
+        {
+          "entryName": "twilightforest:charm_of_life_1",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "twilightforest:charm_of_life_1"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

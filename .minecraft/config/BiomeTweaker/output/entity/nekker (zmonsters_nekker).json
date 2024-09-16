@@ -1,0 +1,6 @@
+
+{
+  "Name": "nekker",
+  "Registry ID": "zmonsters:nekker",
+  "Class": "net.mcreator.zmonsters.entity.EntityNekker.EntityCustom"
+}

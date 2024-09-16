@@ -1,0 +1,39 @@
+{
+  "pools": [
+    {
+      "name": "uncommon_artefacts",
+      "entries": [
+        {
+          "entryName": "tfspellpack:ring_twilight",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "tfspellpack:ring_twilight"
+        },
+        {
+          "entryName": "tfspellpack:ring_stealth_attack",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "tfspellpack:ring_stealth_attack"
+        },
+        {
+          "entryName": "tfspellpack:amulet_steeleaf",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "tfspellpack:amulet_steeleaf"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "main",
+      "entries": [],
+      "rolls": {
+        "min": 5.0,
+        "max": 10.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+
+{
+  "Name": "oe.tropical_fish",
+  "Registry ID": "oe:tropical_fish",
+  "Class": "com.sirsquidly.oe.entity.EntityTropicalFish"
+}

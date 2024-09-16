@@ -1,0 +1,82 @@
+{
+  "pools": [
+    {
+      "name": "main",
+      "entries": [
+        {
+          "entryName": "twilightforest:steeleaf_ingot",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 6.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "twilightforest:steeleaf_ingot"
+        },
+        {
+          "entryName": "twilightforest:steeleaf_leggings",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "twilightforest:steeleaf_leggings"
+        },
+        {
+          "entryName": "twilightforest:steeleaf_chestplate",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "twilightforest:steeleaf_chestplate"
+        },
+        {
+          "entryName": "twilightforest:steeleaf_helmet",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "twilightforest:steeleaf_helmet"
+        },
+        {
+          "entryName": "twilightforest:steeleaf_boots",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "twilightforest:steeleaf_boots"
+        },
+        {
+          "entryName": "twilightforest:steeleaf_pickaxe",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "twilightforest:steeleaf_pickaxe"
+        },
+        {
+          "entryName": "twilightforest:ironwood_chestplate",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "twilightforest:ironwood_chestplate"
+        },
+        {
+          "entryName": "twilightforest:ironwood_sword",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "twilightforest:ironwood_sword"
+        },
+        {
+          "entryName": "twilightforest:charm_of_keeping_1",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "twilightforest:charm_of_keeping_1"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

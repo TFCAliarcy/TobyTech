@@ -1,0 +1,105 @@
+{
+  "pools": [
+    {
+      "name": "forestry_apiculture_items",
+      "entries": [
+        {
+          "entryName": "forestry:ambrosia",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 2.0,
+                "max": 5.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "forestry:ambrosia"
+        },
+        {
+          "entryName": "empty",
+          "weight": 3,
+          "quality": 0,
+          "type": "empty"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "forestry_apiculture_bees",
+      "entries": [
+        {
+          "entryName": "bee_steadfast_drone",
+          "weight": 20,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "speciesUid": "forestry.speciesSteadfast",
+              "function": "minecraft:set_species_nbt"
+            },
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "forestry:bee_drone_ge"
+        },
+        {
+          "entryName": "bee_steadfast_princess",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "speciesUid": "forestry.speciesSteadfast",
+              "function": "minecraft:set_species_nbt"
+            }
+          ],
+          "name": "forestry:bee_princess_ge"
+        },
+        {
+          "entryName": "bee_ended_drone",
+          "weight": 20,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "speciesUid": "forestry.speciesEnded",
+              "function": "minecraft:set_species_nbt"
+            },
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "forestry:bee_drone_ge"
+        },
+        {
+          "entryName": "empty",
+          "weight": 60,
+          "quality": 0,
+          "type": "empty"
+        }
+      ],
+      "rolls": 2.0
+    },
+    {
+      "name": "main",
+      "entries": [],
+      "rolls": {
+        "min": 5.0,
+        "max": 10.0
+      }
+    }
+  ]
+}

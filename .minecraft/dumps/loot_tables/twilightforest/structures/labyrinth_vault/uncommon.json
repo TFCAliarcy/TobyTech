@@ -1,0 +1,149 @@
+{
+  "pools": [
+    {
+      "name": "main",
+      "entries": [
+        {
+          "entryName": "infpunch",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "enchantments": {
+                "minecraft:punch": 2,
+                "minecraft:infinity": 1
+              },
+              "function": "twilightforest:enchant"
+            }
+          ],
+          "name": "minecraft:bow"
+        },
+        {
+          "entryName": "powerflame",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "enchantments": {
+                "minecraft:flame": 1,
+                "minecraft:power": 3
+              },
+              "function": "twilightforest:enchant"
+            }
+          ],
+          "name": "minecraft:bow"
+        },
+        {
+          "entryName": "twilightforest:steeleaf_shovel",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "enchantments": {
+                "minecraft:efficiency": 4,
+                "minecraft:unbreaking": 2
+              },
+              "function": "twilightforest:enchant"
+            }
+          ],
+          "name": "twilightforest:steeleaf_shovel"
+        },
+        {
+          "entryName": "twilightforest:steeleaf_axe",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "enchantments": {
+                "minecraft:efficiency": 5
+              },
+              "function": "twilightforest:enchant"
+            }
+          ],
+          "name": "twilightforest:steeleaf_axe"
+        },
+        {
+          "entryName": "twilightforest:steeleaf_ingot",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 12.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "twilightforest:steeleaf_ingot"
+        },
+        {
+          "entryName": "twilightforest:steeleaf_chestplate",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "enchantments": {
+                "minecraft:protection": 3
+              },
+              "function": "twilightforest:enchant"
+            }
+          ],
+          "name": "twilightforest:steeleaf_chestplate"
+        },
+        {
+          "entryName": "twilightforest:steeleaf_leggings",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "enchantments": {
+                "minecraft:fire_protection": 4
+              },
+              "function": "twilightforest:enchant"
+            }
+          ],
+          "name": "twilightforest:steeleaf_leggings"
+        },
+        {
+          "entryName": "twilightforest:steeleaf_boots",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "enchantments": {
+                "minecraft:protection": 2
+              },
+              "function": "twilightforest:enchant"
+            }
+          ],
+          "name": "twilightforest:steeleaf_boots"
+        },
+        {
+          "entryName": "twilightforest:steeleaf_helmet",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "enchantments": {
+                "minecraft:respiration": 3
+              },
+              "function": "twilightforest:enchant"
+            }
+          ],
+          "name": "twilightforest:steeleaf_helmet"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

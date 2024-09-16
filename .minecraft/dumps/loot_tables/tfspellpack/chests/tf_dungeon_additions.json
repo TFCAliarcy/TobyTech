@@ -1,0 +1,69 @@
+{
+  "pools": [
+    {
+      "name": "tfspellpack",
+      "entries": [
+        {
+          "entryName": "tfspellpack:twilight_spell_book",
+          "weight": 40,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "ignore_weighting": false,
+              "undiscovered_bias": 0.3,
+              "tiers": [
+                "apprentice",
+                "advanced",
+                "master"
+              ],
+              "function": "ebwizardry:random_spell"
+            }
+          ],
+          "name": "tfspellpack:twilight_spell_book"
+        },
+        {
+          "entryName": "tfspellpack:twilight_scroll",
+          "weight": 14,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "ignore_weighting": false,
+              "undiscovered_bias": 0.3,
+              "tiers": [
+                "apprentice",
+                "advanced",
+                "master"
+              ],
+              "function": "ebwizardry:random_spell"
+            },
+            {
+              "count": {
+                "min": 1.0,
+                "max": 5.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "tfspellpack:twilight_scroll"
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "chance": 0.4,
+          "condition": "minecraft:random_chance"
+        }
+      ]
+    },
+    {
+      "name": "main",
+      "entries": [],
+      "rolls": {
+        "min": 5.0,
+        "max": 10.0
+      }
+    }
+  ]
+}

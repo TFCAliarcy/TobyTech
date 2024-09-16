@@ -1,0 +1,69 @@
+{
+  "pools": [
+    {
+      "name": "main",
+      "entries": [
+        {
+          "entryName": "minecraft:golden_apple",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:golden_apple"
+        },
+        {
+          "entryName": "minecraft:golden_carrot",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:golden_carrot"
+        },
+        {
+          "entryName": "minecraft:cake",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:cake"
+        },
+        {
+          "entryName": "minecraft:boat",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:boat"
+        },
+        {
+          "entryName": "twilightforest:twilight_sapling",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 4.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "twilightforest:twilight_sapling"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

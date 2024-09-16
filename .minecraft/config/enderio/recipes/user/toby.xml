@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<enderio:recipes xmlns:enderio="http://enderio.com/recipes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://enderio.com/recipes recipes.xsd ">
+    <recipe name="Alloy: End Steel">
+    <disabled/>
+  </recipe>
+    <recipe name="Alloy: Lumium from dust (Thermal Expansion)">
+    <disabled/>
+  </recipe>
+     <recipe name="Alloy: Lumium (Thermal Expansion)">
+    <disabled/>
+  </recipe>
+    <recipe name="Alloy: Enderium Base (Thermal Expansion)">
+    <disabled/>
+  </recipe>
+    <recipe name="Alloy: Enderium (Thermal Expansion)">
+    <disabled/>
+  </recipe>
+    <recipe name="Alloy: Enderium Blend">
+    <disabled/>
+  </recipe>
+    <recipe name="Alloy: Lumium Blend">
+    <disabled/>
+  </recipe>
+  </enderio:recipes>

@@ -1,0 +1,66 @@
+{
+  "pools": [
+    {
+      "name": "fire_dragon_female",
+      "entries": [
+        {
+          "entryName": "iceandfire:dragonscales_red",
+          "weight": 60,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "iceandfire:customize_to_dragon"
+            }
+          ],
+          "name": "iceandfire:dragonscales_red"
+        },
+        {
+          "entryName": "iceandfire:fire_dragon_flesh",
+          "weight": 40,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "iceandfire:customize_to_dragon"
+            }
+          ],
+          "name": "iceandfire:fire_dragon_flesh"
+        },
+        {
+          "entryName": "iceandfire:dragonegg_red",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "iceandfire:customize_to_dragon"
+            }
+          ],
+          "name": "iceandfire:dragonegg_red"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "main",
+      "entries": [],
+      "rolls": {
+        "min": 5.0,
+        "max": 10.0
+      }
+    }
+  ]
+}

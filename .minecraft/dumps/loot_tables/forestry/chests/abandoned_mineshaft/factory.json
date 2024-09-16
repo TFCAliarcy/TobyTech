@@ -1,0 +1,52 @@
+{
+  "pools": [
+    {
+      "name": "forestry_factory_items",
+      "entries": [
+        {
+          "entryName": "forestry:broken_bronze_shovel",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "name": "forestry:broken_bronze_shovel"
+        },
+        {
+          "entryName": "forestry:broken_bronze_pickaxe",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "name": "forestry:broken_bronze_pickaxe"
+        },
+        {
+          "entryName": "forestry:kit_pickaxe",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "name": "forestry:kit_pickaxe"
+        },
+        {
+          "entryName": "forestry:kit_shovel",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "forestry:kit_shovel"
+        },
+        {
+          "entryName": "empty",
+          "weight": 50,
+          "quality": 0,
+          "type": "empty"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "main",
+      "entries": [],
+      "rolls": {
+        "min": 5.0,
+        "max": 10.0
+      }
+    }
+  ]
+}

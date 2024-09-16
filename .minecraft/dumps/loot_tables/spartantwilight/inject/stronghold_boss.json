@@ -1,0 +1,972 @@
+{
+  "pools": [
+    {
+      "name": "1stchance",
+      "entries": [
+        {
+          "entryName": "spartantwilight:battleaxe_knightly",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 20.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartantwilight:battleaxe_knightly"
+        },
+        {
+          "entryName": "spartantwilight:boomerang_knightly",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 20.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartantwilight:boomerang_knightly"
+        },
+        {
+          "entryName": "spartantwilight:crossbow_knightly",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 20.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartantwilight:crossbow_knightly"
+        },
+        {
+          "entryName": "spartantwilight:dagger_knightly",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 20.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartantwilight:dagger_knightly"
+        },
+        {
+          "entryName": "spartantwilight:glaive_knightly",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 20.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartantwilight:glaive_knightly"
+        },
+        {
+          "entryName": "spartantwilight:greatsword_knightly",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 20.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartantwilight:greatsword_knightly"
+        },
+        {
+          "entryName": "spartantwilight:halberd_knightly",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 20.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartantwilight:halberd_knightly"
+        },
+        {
+          "entryName": "spartantwilight:hammer_knightly",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 20.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartantwilight:hammer_knightly"
+        },
+        {
+          "entryName": "spartantwilight:javelin_knightly",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 20.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartantwilight:javelin_knightly"
+        },
+        {
+          "entryName": "spartantwilight:katana_knightly",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 20.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartantwilight:katana_knightly"
+        },
+        {
+          "entryName": "spartantwilight:lance_knightly",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 20.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartantwilight:lance_knightly"
+        },
+        {
+          "entryName": "spartantwilight:longbow_knightly",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 20.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartantwilight:longbow_knightly"
+        },
+        {
+          "entryName": "spartantwilight:longsword_knightly",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 20.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartantwilight:longsword_knightly"
+        },
+        {
+          "entryName": "spartantwilight:mace_knightly",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 20.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartantwilight:mace_knightly"
+        },
+        {
+          "entryName": "spartantwilight:pike_knightly",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 20.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartantwilight:pike_knightly"
+        },
+        {
+          "entryName": "spartantwilight:staff_knightly",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 20.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartantwilight:staff_knightly"
+        },
+        {
+          "entryName": "spartantwilight:rapier_knightly",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 20.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartantwilight:rapier_knightly"
+        },
+        {
+          "entryName": "spartantwilight:saber_knightly",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 20.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartantwilight:saber_knightly"
+        },
+        {
+          "entryName": "spartantwilight:spear_knightly",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 20.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartantwilight:spear_knightly"
+        },
+        {
+          "entryName": "spartantwilight:throwing_axe_knightly",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 20.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartantwilight:throwing_axe_knightly"
+        },
+        {
+          "entryName": "spartantwilight:throwing_knife_knightly",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 20.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartantwilight:throwing_knife_knightly"
+        },
+        {
+          "entryName": "spartantwilight:warhammer_knightly",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 20.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartantwilight:warhammer_knightly"
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "chance": 0.4,
+          "condition": "minecraft:random_chance"
+        }
+      ]
+    },
+    {
+      "name": "2ndchance",
+      "entries": [
+        {
+          "entryName": "spartantwilight:battleaxe_knightly",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 20.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartantwilight:battleaxe_knightly"
+        },
+        {
+          "entryName": "spartantwilight:boomerang_knightly",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 20.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartantwilight:boomerang_knightly"
+        },
+        {
+          "entryName": "spartantwilight:crossbow_knightly",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 20.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartantwilight:crossbow_knightly"
+        },
+        {
+          "entryName": "spartantwilight:dagger_knightly",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 20.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartantwilight:dagger_knightly"
+        },
+        {
+          "entryName": "spartantwilight:glaive_knightly",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 20.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartantwilight:glaive_knightly"
+        },
+        {
+          "entryName": "spartantwilight:greatsword_knightly",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 20.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartantwilight:greatsword_knightly"
+        },
+        {
+          "entryName": "spartantwilight:halberd_knightly",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 20.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartantwilight:halberd_knightly"
+        },
+        {
+          "entryName": "spartantwilight:hammer_knightly",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 20.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartantwilight:hammer_knightly"
+        },
+        {
+          "entryName": "spartantwilight:javelin_knightly",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 20.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartantwilight:javelin_knightly"
+        },
+        {
+          "entryName": "spartantwilight:katana_knightly",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 20.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartantwilight:katana_knightly"
+        },
+        {
+          "entryName": "spartantwilight:lance_knightly",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 20.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartantwilight:lance_knightly"
+        },
+        {
+          "entryName": "spartantwilight:longbow_knightly",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 20.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartantwilight:longbow_knightly"
+        },
+        {
+          "entryName": "spartantwilight:longsword_knightly",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 20.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartantwilight:longsword_knightly"
+        },
+        {
+          "entryName": "spartantwilight:mace_knightly",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 20.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartantwilight:mace_knightly"
+        },
+        {
+          "entryName": "spartantwilight:pike_knightly",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 20.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartantwilight:pike_knightly"
+        },
+        {
+          "entryName": "spartantwilight:staff_knightly",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 20.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartantwilight:staff_knightly"
+        },
+        {
+          "entryName": "spartantwilight:rapier_knightly",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 20.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartantwilight:rapier_knightly"
+        },
+        {
+          "entryName": "spartantwilight:saber_knightly",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 20.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartantwilight:saber_knightly"
+        },
+        {
+          "entryName": "spartantwilight:spear_knightly",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 20.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartantwilight:spear_knightly"
+        },
+        {
+          "entryName": "spartantwilight:throwing_axe_knightly",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 20.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartantwilight:throwing_axe_knightly"
+        },
+        {
+          "entryName": "spartantwilight:throwing_knife_knightly",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 20.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartantwilight:throwing_knife_knightly"
+        },
+        {
+          "entryName": "spartantwilight:warhammer_knightly",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 20.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartantwilight:warhammer_knightly"
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "chance": 0.4,
+          "condition": "minecraft:random_chance"
+        }
+      ]
+    },
+    {
+      "name": "3rdchance",
+      "entries": [
+        {
+          "entryName": "spartantwilight:battleaxe_knightly",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 20.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartantwilight:battleaxe_knightly"
+        },
+        {
+          "entryName": "spartantwilight:boomerang_knightly",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 20.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartantwilight:boomerang_knightly"
+        },
+        {
+          "entryName": "spartantwilight:crossbow_knightly",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 20.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartantwilight:crossbow_knightly"
+        },
+        {
+          "entryName": "spartantwilight:dagger_knightly",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 20.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartantwilight:dagger_knightly"
+        },
+        {
+          "entryName": "spartantwilight:glaive_knightly",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 20.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartantwilight:glaive_knightly"
+        },
+        {
+          "entryName": "spartantwilight:greatsword_knightly",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 20.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartantwilight:greatsword_knightly"
+        },
+        {
+          "entryName": "spartantwilight:halberd_knightly",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 20.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartantwilight:halberd_knightly"
+        },
+        {
+          "entryName": "spartantwilight:hammer_knightly",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 20.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartantwilight:hammer_knightly"
+        },
+        {
+          "entryName": "spartantwilight:javelin_knightly",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 20.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartantwilight:javelin_knightly"
+        },
+        {
+          "entryName": "spartantwilight:katana_knightly",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 20.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartantwilight:katana_knightly"
+        },
+        {
+          "entryName": "spartantwilight:lance_knightly",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 20.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartantwilight:lance_knightly"
+        },
+        {
+          "entryName": "spartantwilight:longbow_knightly",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 20.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartantwilight:longbow_knightly"
+        },
+        {
+          "entryName": "spartantwilight:longsword_knightly",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 20.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartantwilight:longsword_knightly"
+        },
+        {
+          "entryName": "spartantwilight:mace_knightly",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 20.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartantwilight:mace_knightly"
+        },
+        {
+          "entryName": "spartantwilight:pike_knightly",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 20.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartantwilight:pike_knightly"
+        },
+        {
+          "entryName": "spartantwilight:staff_knightly",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 20.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartantwilight:staff_knightly"
+        },
+        {
+          "entryName": "spartantwilight:rapier_knightly",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 20.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartantwilight:rapier_knightly"
+        },
+        {
+          "entryName": "spartantwilight:saber_knightly",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 20.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartantwilight:saber_knightly"
+        },
+        {
+          "entryName": "spartantwilight:spear_knightly",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 20.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartantwilight:spear_knightly"
+        },
+        {
+          "entryName": "spartantwilight:throwing_axe_knightly",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 20.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartantwilight:throwing_axe_knightly"
+        },
+        {
+          "entryName": "spartantwilight:throwing_knife_knightly",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 20.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartantwilight:throwing_knife_knightly"
+        },
+        {
+          "entryName": "spartantwilight:warhammer_knightly",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 20.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "spartantwilight:warhammer_knightly"
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "chance": 0.4,
+          "condition": "minecraft:random_chance"
+        }
+      ]
+    },
+    {
+      "name": "main",
+      "entries": [],
+      "rolls": {
+        "min": 5.0,
+        "max": 10.0
+      }
+    }
+  ]
+}

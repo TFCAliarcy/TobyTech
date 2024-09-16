@@ -1,0 +1,6 @@
+
+{
+  "Name": "necromancersdelight:mana_leech_minion",
+  "Registry ID": "necromancersdelight:mana_leech_minion",
+  "Class": "com.windanesz.necromancersdelight.entity.living.EntityManaLeechMinion"
+}

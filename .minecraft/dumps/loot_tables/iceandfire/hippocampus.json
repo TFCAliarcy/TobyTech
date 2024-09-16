@@ -1,0 +1,65 @@
+{
+  "pools": [
+    {
+      "name": "hippocampus",
+      "entries": [
+        {
+          "entryName": "iceandfire:shiny_scales",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "min": 0.0,
+                "max": 2.0
+              },
+              "function": "minecraft:looting_enchant"
+            }
+          ],
+          "name": "iceandfire:shiny_scales"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "hippocampus",
+      "entries": [
+        {
+          "entryName": "iceandfire:hippocampus_fin",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "iceandfire:hippocampus_fin"
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "inverse": false,
+          "condition": "minecraft:killed_by_player"
+        },
+        {
+          "chance": 0.025,
+          "looting_multiplier": 0.01,
+          "condition": "minecraft:random_chance_with_looting"
+        }
+      ]
+    },
+    {
+      "name": "main",
+      "entries": [],
+      "rolls": {
+        "min": 5.0,
+        "max": 10.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "bookGuiScale": 0,
+  "clickedVisualize": false,
+  "bookData": {
+    "galacticresearch:galacticresearch_guide": {
+      "viewedEntries": [
+        "galacticresearch:galactircresearch/deep_space",
+        "galacticresearch:galactircresearch/locator",
+        "galacticresearch:galactircresearch/research"
+      ],
+      "bookmarks": [],
+      "history": [
+        "galacticresearch:galactircresearch/research",
+        "galacticresearch:galactircresearch/locator",
+        "galacticresearch:galactircresearch/deep_space"
+      ],
+      "completedManualQuests": []
+    }
+  }
+}

@@ -1,0 +1,6 @@
+
+{
+  "Name": "Stonevoker",
+  "Registry ID": "eim:stonevoker",
+  "Class": "eim.common.entities.creatures.EntityStonevoker"
+}

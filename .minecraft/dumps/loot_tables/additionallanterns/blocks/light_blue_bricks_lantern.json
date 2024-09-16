@@ -1,0 +1,30 @@
+{
+  "pools": [
+    {
+      "name": "pool1",
+      "entries": [
+        {
+          "entryName": "additionallanterns:light_blue_bricks_lantern",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "additionallanterns:light_blue_bricks_lantern"
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "supermartijn642corelib:survives_explosion"
+        }
+      ]
+    },
+    {
+      "name": "main",
+      "entries": [],
+      "rolls": {
+        "min": 5.0,
+        "max": 10.0
+      }
+    }
+  ]
+}

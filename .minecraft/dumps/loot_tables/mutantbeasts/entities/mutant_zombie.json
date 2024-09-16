@@ -1,0 +1,31 @@
+{
+  "pools": [
+    {
+      "name": "hulk_hammer",
+      "entries": [
+        {
+          "entryName": "mutantbeasts:hulk_hammer",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "mutantbeasts:hulk_hammer"
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "inverse": false,
+          "condition": "minecraft:killed_by_player"
+        }
+      ]
+    },
+    {
+      "name": "main",
+      "entries": [],
+      "rolls": {
+        "min": 5.0,
+        "max": 10.0
+      }
+    }
+  ]
+}

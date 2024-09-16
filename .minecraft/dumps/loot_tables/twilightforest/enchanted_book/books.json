@@ -1,0 +1,46 @@
+{
+  "pools": [
+    {
+      "name": "books",
+      "entries": [
+        {
+          "entryName": "twilightforest:enchanted_book/common",
+          "weight": 32,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "twilightforest:enchanted_book/common"
+        },
+        {
+          "entryName": "twilightforest:enchanted_book/uncommon",
+          "weight": 8,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "twilightforest:enchanted_book/uncommon"
+        },
+        {
+          "entryName": "twilightforest:enchanted_book/rare",
+          "weight": 4,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "twilightforest:enchanted_book/rare"
+        },
+        {
+          "entryName": "twilightforest:enchanted_book/ultrarare",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "twilightforest:enchanted_book/ultrarare"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "main",
+      "entries": [],
+      "rolls": {
+        "min": 5.0,
+        "max": 10.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,245 @@
+{
+  "pools": [
+    {
+      "name": "dungeon_tier_2",
+      "entries": [
+        {
+          "entryName": "galacticraftplanets:carbon_fragments",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 2.0,
+                "max": 7.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "galacticraftplanets:carbon_fragments"
+        },
+        {
+          "entryName": "canned_apple",
+          "weight": 6,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 0.0,
+              "function": "minecraft:set_data"
+            },
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "galacticraftcore:food"
+        },
+        {
+          "entryName": "canned_carrot",
+          "weight": 6,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 1.0,
+              "function": "minecraft:set_data"
+            },
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "galacticraftcore:food"
+        },
+        {
+          "entryName": "canned_melon",
+          "weight": 6,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 2.0,
+              "function": "minecraft:set_data"
+            },
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "galacticraftcore:food"
+        },
+        {
+          "entryName": "canned_potato",
+          "weight": 6,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 3.0,
+              "function": "minecraft:set_data"
+            },
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "galacticraftcore:food"
+        },
+        {
+          "entryName": "galacticraftcore:oil_canister_partial",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 1001.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "galacticraftcore:oil_canister_partial"
+        },
+        {
+          "entryName": "galacticraftplanets:desh_boots",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "name": "galacticraftplanets:desh_boots"
+        },
+        {
+          "entryName": "galacticraftplanets:desh_chestplate",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "name": "galacticraftplanets:desh_chestplate"
+        },
+        {
+          "entryName": "galacticraftplanets:desh_helmet",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "name": "galacticraftplanets:desh_helmet"
+        },
+        {
+          "entryName": "galacticraftplanets:desh_leggings",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "name": "galacticraftplanets:desh_leggings"
+        },
+        {
+          "entryName": "minecraft:redstone",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 2.0,
+                "max": 7.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:redstone"
+        },
+        {
+          "entryName": "minecraft:record_mall",
+          "weight": 4,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:record_mall"
+        },
+        {
+          "entryName": "minecraft:record_mellohi",
+          "weight": 4,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:record_mellohi"
+        },
+        {
+          "entryName": "raw_desh",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "galacticraftplanets:item_basic_mars"
+        },
+        {
+          "entryName": "desh_stick",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 1.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "galacticraftplanets:item_basic_mars"
+        },
+        {
+          "entryName": "book22",
+          "weight": 8,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 22.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "minecraft:book"
+        },
+        {
+          "entryName": "book24",
+          "weight": 8,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 24.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "minecraft:book"
+        }
+      ],
+      "rolls": {
+        "min": 6.0,
+        "max": 9.0
+      }
+    },
+    {
+      "name": "main",
+      "entries": [],
+      "rolls": {
+        "min": 5.0,
+        "max": 10.0
+      }
+    }
+  ]
+}

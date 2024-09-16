@@ -1,0 +1,54 @@
+{
+  "pools": [
+    {
+      "name": "main",
+      "entries": [
+        {
+          "entryName": "twilightforest:moonworm_queen",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "twilightforest:moonworm_queen"
+        },
+        {
+          "entryName": "twilightforest:twilight_sapling",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "name": "twilightforest:twilight_sapling"
+        },
+        {
+          "entryName": "minecraft:diamond",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:diamond"
+        },
+        {
+          "entryName": "twilightforest:charm_of_life_1",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "twilightforest:charm_of_life_1"
+        },
+        {
+          "entryName": "twilightforest:charm_of_keeping_1",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "twilightforest:charm_of_keeping_1"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

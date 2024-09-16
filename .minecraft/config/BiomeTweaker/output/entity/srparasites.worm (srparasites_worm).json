@@ -1,0 +1,6 @@
+
+{
+  "Name": "srparasites.worm",
+  "Registry ID": "srparasites:worm",
+  "Class": "com.dhanantry.scapeandrunparasites.entity.monster.deterrent.EntityRof"
+}

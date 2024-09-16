@@ -1,0 +1,6 @@
+
+{
+  "Name": "stone_monster",
+  "Registry ID": "eim:stone_monster",
+  "Class": "eim.common.entities.creatures.EntityStoneMonster"
+}

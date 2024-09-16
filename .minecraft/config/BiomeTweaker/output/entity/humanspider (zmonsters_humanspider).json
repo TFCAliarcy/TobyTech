@@ -1,0 +1,6 @@
+
+{
+  "Name": "humanspider",
+  "Registry ID": "zmonsters:humanspider",
+  "Class": "net.mcreator.zmonsters.entity.EntityHumanSpider.EntityCustom"
+}

@@ -1,0 +1,31 @@
+{
+  "pools": [
+    {
+      "name": "all_biomes",
+      "entries": [
+        {
+          "entryName": "biomesoplenty:record_wanderer",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "biomesoplenty:record_wanderer"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "main",
+      "entries": [],
+      "rolls": {
+        "min": 5.0,
+        "max": 10.0
+      }
+    }
+  ]
+}

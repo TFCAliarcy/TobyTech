@@ -1,0 +1,89 @@
+{
+  "pools": [
+    {
+      "name": "main",
+      "entries": [
+        {
+          "entryName": "minecraft:emerald_block",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:emerald_block"
+        },
+        {
+          "entryName": "minecraft:ender_chest",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:ender_chest"
+        },
+        {
+          "entryName": "twilightforest:steeleaf_pickaxe",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "enchantments": {
+                "minecraft:efficiency": 4,
+                "minecraft:silk_touch": 1
+              },
+              "function": "twilightforest:enchant"
+            }
+          ],
+          "name": "twilightforest:steeleaf_pickaxe"
+        },
+        {
+          "entryName": "sharpknock",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "enchantments": {
+                "minecraft:sharpness": 4,
+                "minecraft:knockback": 2
+              },
+              "function": "twilightforest:enchant"
+            }
+          ],
+          "name": "twilightforest:steeleaf_sword"
+        },
+        {
+          "entryName": "boafire",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "enchantments": {
+                "minecraft:fire_aspect": 2,
+                "minecraft:bane_of_arthropods": 5
+              },
+              "function": "twilightforest:enchant"
+            }
+          ],
+          "name": "twilightforest:steeleaf_sword"
+        },
+        {
+          "entryName": "twilightforest:mazebreaker_pickaxe",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "enchantments": {
+                "minecraft:fortune": 2,
+                "minecraft:efficiency": 4,
+                "minecraft:unbreaking": 3
+              },
+              "function": "twilightforest:enchant"
+            }
+          ],
+          "name": "twilightforest:mazebreaker_pickaxe"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "pools": [
+    {
+      "name": "twilight",
+      "entries": [
+        {
+          "entryName": "twilightforest:entities/redcap",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "twilightforest:entities/redcap"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "main",
+      "entries": [],
+      "rolls": {
+        "min": 5.0,
+        "max": 10.0
+      }
+    }
+  ]
+}

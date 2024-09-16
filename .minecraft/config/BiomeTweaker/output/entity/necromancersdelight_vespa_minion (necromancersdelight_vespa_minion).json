@@ -1,0 +1,6 @@
+
+{
+  "Name": "necromancersdelight:vespa_minion",
+  "Registry ID": "necromancersdelight:vespa_minion",
+  "Class": "com.windanesz.necromancersdelight.entity.living.EntityVespaMinion"
+}

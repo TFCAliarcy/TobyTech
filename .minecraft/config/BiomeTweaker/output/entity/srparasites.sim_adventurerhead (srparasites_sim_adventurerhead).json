@@ -1,0 +1,6 @@
+
+{
+  "Name": "srparasites.sim_adventurerhead",
+  "Registry ID": "srparasites:sim_adventurerhead",
+  "Class": "com.dhanantry.scapeandrunparasites.entity.monster.infected.head.EntityInfPlayerHead"
+}

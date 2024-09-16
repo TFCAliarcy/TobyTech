@@ -1,0 +1,6 @@
+
+{
+  "Name": "Endcator",
+  "Registry ID": "eim:endcator",
+  "Class": "eim.common.entities.creatures.EntityEndcator"
+}

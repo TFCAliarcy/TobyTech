@@ -1,0 +1,217 @@
+{
+  "pools": [
+    {
+      "name": "railcraft_tools",
+      "entries": [
+        {
+          "entryName": "railcraft:tool_crowbar_iron",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "railcraft:tool_crowbar_iron"
+        },
+        {
+          "entryName": "railcraft:tool_spike_maul_iron",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "railcraft:tool_spike_maul_iron"
+        },
+        {
+          "entryName": "railcraft:armor_overalls",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "railcraft:armor_overalls"
+        }
+      ],
+      "rolls": {
+        "min": 0.0,
+        "max": 1.0
+      }
+    },
+    {
+      "name": "railcraft_carts",
+      "entries": [
+        {
+          "entryName": "minecraft:minecart",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:minecart"
+        },
+        {
+          "entryName": "minecraft:chest_minecart",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:chest_minecart"
+        },
+        {
+          "entryName": "minecraft:hopper_minecart",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:hopper_minecart"
+        },
+        {
+          "entryName": "minecraft:tnt_minecart",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:tnt_minecart"
+        },
+        {
+          "entryName": "railcraft:cart_cargo",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "railcraft:cart_cargo"
+        },
+        {
+          "entryName": "railcraft:cart_tank",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "railcraft:cart_tank"
+        },
+        {
+          "entryName": "railcraft:cart_work",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "railcraft:cart_work"
+        },
+        {
+          "entryName": "railcraft:locomotive_steam_solid",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "railcraft:locomotive_steam_solid"
+        }
+      ],
+      "rolls": {
+        "min": 1.0,
+        "max": 2.0
+      }
+    },
+    {
+      "name": "railcraft_resources",
+      "entries": [
+        {
+          "entryName": "minecraft:coal",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 3.0,
+                "max": 8.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:coal"
+        },
+        {
+          "entryName": "railcraft:plate",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": {
+                "min": 0.0,
+                "max": 9.0
+              },
+              "function": "minecraft:set_data"
+            },
+            {
+              "count": {
+                "min": 3.0,
+                "max": 8.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "railcraft:plate"
+        },
+        {
+          "entryName": "railcraft:gear",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": {
+                "min": 0.0,
+                "max": 5.0
+              },
+              "function": "minecraft:set_data"
+            },
+            {
+              "count": {
+                "min": 2.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "railcraft:gear"
+        },
+        {
+          "entryName": "railcraft:ingot",
+          "weight": 4,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": {
+                "min": 0.0,
+                "max": 7.0
+              },
+              "function": "minecraft:set_data"
+            },
+            {
+              "count": {
+                "min": 3.0,
+                "max": 8.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "railcraft:ingot"
+        },
+        {
+          "entryName": "railcraft:fluid_bottle_creosote",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 16.0,
+                "max": 32.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "railcraft:fluid_bottle_creosote"
+        }
+      ],
+      "rolls": {
+        "min": 0.0,
+        "max": 2.0
+      }
+    },
+    {
+      "name": "main",
+      "entries": [],
+      "rolls": {
+        "min": 5.0,
+        "max": 10.0
+      }
+    }
+  ]
+}

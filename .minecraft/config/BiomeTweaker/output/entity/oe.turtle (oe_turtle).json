@@ -1,0 +1,6 @@
+
+{
+  "Name": "oe.turtle",
+  "Registry ID": "oe:turtle",
+  "Class": "com.sirsquidly.oe.entity.EntityTurtle"
+}

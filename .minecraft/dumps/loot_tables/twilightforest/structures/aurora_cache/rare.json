@@ -1,0 +1,47 @@
+{
+  "pools": [
+    {
+      "name": "main",
+      "entries": [
+        {
+          "entryName": "twilightforest:arctic_fur",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 8.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "twilightforest:arctic_fur"
+        },
+        {
+          "entryName": "twilightforest:ice_bow",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "twilightforest:ice_bow"
+        },
+        {
+          "entryName": "twilightforest:ender_bow",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "twilightforest:ender_bow"
+        },
+        {
+          "entryName": "twilightforest:ice_sword",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "twilightforest:ice_sword"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

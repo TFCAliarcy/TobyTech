@@ -1,0 +1,77 @@
+{
+    "ogre_raid": {
+      "name": "Ogre Raid",
+      "selector": {
+        "dimension": {
+          "type": "include",
+          "dimensions": [
+            0
+          ]
+        },
+        "gamestages": {
+                "not": "1"},
+                "weight": 100
+          },
+
+    
+      
+      "earlyEnd": {
+           "maxInvasionDuration": 300,
+            "message": "The Ogres have gotten bored and looked for food elsewhere"
+      },
+      "messages": {
+        "start": "It seems some Ogres picked up your scent, fight them off!",
+        "end": "The Ogres have been neutralized!",
+        "warn": {
+          "message": "You think you hear the stomping of Ogres, perhaps within a day's approach",
+          "ticks": 120
+        }
+      },
+      "commands": {
+        "start": [
+            "/say My invasion is starting!"
+          ],
+          "end": [
+            "/say My invasion has ended!"
+          ]
+      },
+      "waves": [
+        {
+            "delayTicks": [
+              3600,
+              4000
+            ],
+            "groups": [
+                {
+                    "weight": 100,
+                    "forceSpawn": false,
+                    "mobs": [
+                        {
+                            "id": "ogres",
+                            "count": [
+                              8,
+                              16
+                            ],
+                            "spawn": {
+                                "type": "ground",
+                                "light": [
+                                  0,
+                                  7
+                                ],
+                                "rangeXZ": [
+                                  32,
+                                  64
+                                ],
+                                "rangeY": 16,
+                                "stepRadius": 4,
+                                "sampleDistance": 2
+                            }
+                          }
+                    ]
+                  }
+            ]
+          }
+      ]
+    }
+  }
+  

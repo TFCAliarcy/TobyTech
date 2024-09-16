@@ -1,0 +1,6 @@
+
+{
+  "Name": "tree_monster",
+  "Registry ID": "eim:tree_monster",
+  "Class": "eim.common.entities.creatures.EntityLivingTree"
+}

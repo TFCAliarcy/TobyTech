@@ -1,0 +1,6 @@
+
+{
+  "Name": "mod_lavacow.enigmoth",
+  "Registry ID": "mod_lavacow:enigmoth",
+  "Class": "com.Fishmod.mod_LavaCow.entities.flying.EntityEnigmoth"
+}

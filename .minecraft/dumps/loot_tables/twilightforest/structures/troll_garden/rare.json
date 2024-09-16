@@ -1,0 +1,17 @@
+{
+  "pools": [
+    {
+      "name": "main",
+      "entries": [
+        {
+          "entryName": "twilightforest:magic_beans",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "twilightforest:magic_beans"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

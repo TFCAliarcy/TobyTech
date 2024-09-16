@@ -1,0 +1,160 @@
+{
+  "pools": [
+    {
+      "name": "main",
+      "entries": [
+        {
+          "entryName": "spartanweaponry:dagger_iron",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "spartanweaponry:dagger_iron"
+        },
+        {
+          "entryName": "spartanweaponry:longsword_iron",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "spartanweaponry:longsword_iron"
+        },
+        {
+          "entryName": "spartanweaponry:katana_iron",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "spartanweaponry:katana_iron"
+        },
+        {
+          "entryName": "spartanweaponry:saber_iron",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "spartanweaponry:saber_iron"
+        },
+        {
+          "entryName": "spartanweaponry:rapier_iron",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "spartanweaponry:rapier_iron"
+        },
+        {
+          "entryName": "spartanweaponry:greatsword_iron",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "spartanweaponry:greatsword_iron"
+        },
+        {
+          "entryName": "spartanweaponry:caestus",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "spartanweaponry:caestus"
+        },
+        {
+          "entryName": "spartanweaponry:hammer_iron",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "spartanweaponry:hammer_iron"
+        },
+        {
+          "entryName": "spartanweaponry:warhammer_iron",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "spartanweaponry:warhammer_iron"
+        },
+        {
+          "entryName": "spartanweaponry:spear_iron",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "spartanweaponry:spear_iron"
+        },
+        {
+          "entryName": "spartanweaponry:halberd_iron",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "spartanweaponry:halberd_iron"
+        },
+        {
+          "entryName": "spartanweaponry:pike_iron",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "spartanweaponry:pike_iron"
+        },
+        {
+          "entryName": "spartanweaponry:lance_iron",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "spartanweaponry:lance_iron"
+        },
+        {
+          "entryName": "spartanweaponry:throwing_knife_iron",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "spartanweaponry:throwing_knife_iron"
+        },
+        {
+          "entryName": "spartanweaponry:throwing_axe_iron",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "spartanweaponry:throwing_axe_iron"
+        },
+        {
+          "entryName": "spartanweaponry:javelin_iron",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "spartanweaponry:javelin_iron"
+        },
+        {
+          "entryName": "spartanweaponry:boomerang_iron",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "spartanweaponry:boomerang_iron"
+        },
+        {
+          "entryName": "spartanweaponry:battleaxe_iron",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "spartanweaponry:battleaxe_iron"
+        },
+        {
+          "entryName": "spartanweaponry:mace_iron",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "spartanweaponry:mace_iron"
+        },
+        {
+          "entryName": "spartanweaponry:glaive_iron",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "spartanweaponry:glaive_iron"
+        },
+        {
+          "entryName": "spartanweaponry:staff_iron",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "spartanweaponry:staff_iron"
+        }
+      ],
+      "rolls": {
+        "min": 1.0,
+        "max": 2.0
+      }
+    }
+  ]
+}
