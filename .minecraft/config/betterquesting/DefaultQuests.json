@@ -2036,7 +2036,8 @@
     },
     "26:10": {
       "preRequisites:11": [
-        132
+        132,
+        585
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -2069,7 +2070,24 @@
         }
       },
       "questID:3": 26,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 2,
+              "Damage:2": 16,
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {},
+                "wizardryutils:summoneditemdata:10": {}
+              },
+              "OreDict:8": "",
+              "id:8": "galaxyspace:gs_basic"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -2593,7 +2611,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "A hostile planet where the atmosphere itself tries to crushes and burns you both from heat and sulfuric acid rain that eats away at your armor.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -2647,7 +2665,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "Has Solar Radiation and requires tier 1 thermal",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -2708,7 +2726,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "Requires Thermal tier 1 but no radiation or pressure",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -2884,7 +2902,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "No Need for Thermal, Radiation or Pressure Protection",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -23201,6 +23219,9 @@
       }
     },
     "257:10": {
+      "preRequisiteTypes:7": [
+        1
+      ],
       "preRequisites:11": [
         132
       ],
@@ -45172,7 +45193,7 @@
     },
     "547:10": {
       "preRequisites:11": [
-        348
+        36
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -45181,22 +45202,19 @@
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
-            "Damage:2": 13,
+            "Damage:2": 0,
             "ForgeCaps:10": {
-              "Parent:10": {
-                "explosive:10": {}
-              },
               "astralsorcery:cap_item_amulet_holder:10": {},
               "wizardryutils:summoneditemdata:10": {}
             },
             "OreDict:8": "",
-            "id:8": "icbmclassic:explosive_missile"
+            "id:8": "spartanshields:shield_basic_lumium"
           },
           "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "V2 Missiles",
+          "name:8": "Solar Radiation",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -45220,12 +45238,12 @@
           "requiredItems:9": {
             "0:10": {
               "Count:3": 1,
-              "Damage:2": 0,
+              "Damage:2": 9,
               "ForgeCaps:10": {
                 "wizardryutils:summoneditemdata:10": {}
               },
               "OreDict:8": "",
-              "id:8": "contenttweaker:t2bomb"
+              "id:8": "galaxyspace:gs_basic"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -45240,53 +45258,102 @@
           "requiredItems:9": {
             "0:10": {
               "Count:3": 1,
-              "Damage:2": 10,
+              "Damage:2": 200,
               "ForgeCaps:10": {
-                "Parent:10": {},
+                "astralsorcery:cap_item_amulet_holder:10": {},
                 "wizardryutils:summoneditemdata:10": {}
               },
               "OreDict:8": "",
-              "id:8": "icbmclassic:explosives"
+              "id:8": "galaxyspace:space_suit_light_head",
+              "tag:10": {}
             },
             "1:10": {
               "Count:3": 1,
-              "Damage:2": 8,
+              "Damage:2": 200,
               "ForgeCaps:10": {
-                "Parent:10": {},
+                "astralsorcery:cap_item_amulet_holder:10": {},
                 "wizardryutils:summoneditemdata:10": {}
               },
               "OreDict:8": "",
-              "id:8": "icbmclassic:explosives"
+              "id:8": "galaxyspace:space_suit_light_chest",
+              "tag:10": {}
             },
             "2:10": {
               "Count:3": 1,
-              "Damage:2": 11,
+              "Damage:2": 200,
               "ForgeCaps:10": {
-                "Parent:10": {},
+                "astralsorcery:cap_item_amulet_holder:10": {},
                 "wizardryutils:summoneditemdata:10": {}
               },
               "OreDict:8": "",
-              "id:8": "icbmclassic:explosives"
+              "id:8": "galaxyspace:space_suit_light_legs",
+              "tag:10": {}
             },
             "3:10": {
               "Count:3": 1,
-              "Damage:2": 13,
+              "Damage:2": 200,
               "ForgeCaps:10": {
-                "Parent:10": {},
+                "astralsorcery:cap_item_amulet_holder:10": {},
                 "wizardryutils:summoneditemdata:10": {}
               },
               "OreDict:8": "",
-              "id:8": "icbmclassic:explosives"
-            },
-            "4:10": {
+              "id:8": "galaxyspace:space_suit_light_feet",
+              "tag:10": {}
+            }
+          },
+          "taskID:8": "bq_standard:optional_retrieval"
+        },
+        "2:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 2,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
               "Count:3": 1,
-              "Damage:2": 9,
+              "Damage:2": 200,
               "ForgeCaps:10": {
-                "Parent:10": {},
+                "astralsorcery:cap_item_amulet_holder:10": {},
                 "wizardryutils:summoneditemdata:10": {}
               },
               "OreDict:8": "",
-              "id:8": "icbmclassic:explosives"
+              "id:8": "galaxyspace:space_suit_head",
+              "tag:10": {}
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 200,
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {},
+                "wizardryutils:summoneditemdata:10": {}
+              },
+              "OreDict:8": "",
+              "id:8": "galaxyspace:space_suit_chest",
+              "tag:10": {}
+            },
+            "2:10": {
+              "Count:3": 1,
+              "Damage:2": 200,
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {},
+                "wizardryutils:summoneditemdata:10": {}
+              },
+              "OreDict:8": "",
+              "id:8": "galaxyspace:space_suit_legs",
+              "tag:10": {}
+            },
+            "3:10": {
+              "Count:3": 1,
+              "Damage:2": 200,
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {},
+                "wizardryutils:summoneditemdata:10": {}
+              },
+              "OreDict:8": "",
+              "id:8": "galaxyspace:space_suit_feet",
+              "tag:10": {}
             }
           },
           "taskID:8": "bq_standard:optional_retrieval"
@@ -46006,6 +46073,64 @@
     },
     "560:10": {
       "preRequisites:11": [
+        578
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "ForgeCaps:10": {
+              "wizardryutils:summoneditemdata:10": {}
+            },
+            "OreDict:8": "",
+            "id:8": "galaxyspace:radiation_stabiliser"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Protecting against Solar Radiation",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 560,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "ForgeCaps:10": {
+                "wizardryutils:summoneditemdata:10": {}
+              },
+              "OreDict:8": "",
+              "id:8": "galaxyspace:radiation_stabiliser"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "561:10": {
+      "preRequisites:11": [
         580
       ],
       "properties:10": {
@@ -46064,7 +46189,7 @@
         }
       }
     },
-    "561:10": {
+    "562:10": {
       "preRequisites:11": [
         561
       ],
@@ -46122,7 +46247,7 @@
         }
       }
     },
-    "562:10": {
+    "563:10": {
       "preRequisites:11": [
         561
       ],
@@ -46176,7 +46301,7 @@
         }
       }
     },
-    "563:10": {
+    "564:10": {
       "preRequisites:11": [
         146
       ],
@@ -46230,7 +46355,7 @@
         }
       }
     },
-    "564:10": {
+    "565:10": {
       "preRequisites:11": [
         561
       ],
@@ -46284,7 +46409,7 @@
         }
       }
     },
-    "565:10": {
+    "566:10": {
       "preRequisites:11": [
         146
       ],
@@ -46338,7 +46463,7 @@
         }
       }
     },
-    "566:10": {
+    "567:10": {
       "preRequisites:11": [
         561
       ],
@@ -46392,7 +46517,7 @@
         }
       }
     },
-    "567:10": {
+    "568:10": {
       "preRequisites:11": [
         562
       ],
@@ -46446,7 +46571,7 @@
         }
       }
     },
-    "568:10": {
+    "569:10": {
       "preRequisites:11": [
         562
       ],
@@ -46500,7 +46625,7 @@
         }
       }
     },
-    "569:10": {
+    "570:10": {
       "preRequisites:11": [
         146
       ],
@@ -46554,7 +46679,7 @@
         }
       }
     },
-    "570:10": {
+    "571:10": {
       "preRequisites:11": [
         559
       ],
@@ -46608,7 +46733,7 @@
         }
       }
     },
-    "571:10": {
+    "572:10": {
       "preRequisites:11": [
         559
       ],
@@ -46662,7 +46787,7 @@
         }
       }
     },
-    "572:10": {
+    "573:10": {
       "preRequisites:11": [
         562
       ],
@@ -46716,7 +46841,7 @@
         }
       }
     },
-    "573:10": {
+    "574:10": {
       "preRequisites:11": [
         559
       ],
@@ -46770,7 +46895,7 @@
         }
       }
     },
-    "574:10": {
+    "575:10": {
       "preRequisites:11": [
         146
       ],
@@ -46824,7 +46949,7 @@
         }
       }
     },
-    "575:10": {
+    "576:10": {
       "preRequisites:11": [
         559
       ],
@@ -46878,7 +47003,7 @@
         }
       }
     },
-    "576:10": {
+    "577:10": {
       "preRequisites:11": [
         146
       ],
@@ -46932,7 +47057,7 @@
         }
       }
     },
-    "577:10": {
+    "578:10": {
       "preRequisites:11": [
         556
       ],
@@ -46990,7 +47115,7 @@
         }
       }
     },
-    "578:10": {
+    "579:10": {
       "preRequisites:11": [
         570
       ],
@@ -47048,7 +47173,7 @@
         }
       }
     },
-    "579:10": {
+    "580:10": {
       "preRequisites:11": [
         574
       ],
@@ -47106,7 +47231,7 @@
         }
       }
     },
-    "580:10": {
+    "581:10": {
       "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
@@ -47141,7 +47266,7 @@
       "rewards:9": {},
       "tasks:9": {}
     },
-    "581:10": {
+    "582:10": {
       "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
@@ -47229,7 +47354,7 @@
         }
       }
     },
-    "582:10": {
+    "583:10": {
       "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
@@ -47317,7 +47442,7 @@
         }
       }
     },
-    "583:10": {
+    "584:10": {
       "preRequisites:11": [
         580
       ],
@@ -47369,6 +47494,96 @@
               },
               "OreDict:8": "",
               "id:8": "galaxyspace:gravitation_module"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "585:10": {
+      "preRequisites:11": [
+        131
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "Required for Venus",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "ForgeCaps:10": {
+              "astralsorcery:cap_item_amulet_holder:10": {},
+              "wizardryutils:summoneditemdata:10": {}
+            },
+            "OreDict:8": "",
+            "id:8": "galacticraftplanets:thermal_padding_t2"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Tier 2 Thermal Padding",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 585,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {},
+                "wizardryutils:summoneditemdata:10": {}
+              },
+              "OreDict:8": "",
+              "id:8": "galacticraftplanets:thermal_padding_t2"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 1,
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {},
+                "wizardryutils:summoneditemdata:10": {}
+              },
+              "OreDict:8": "",
+              "id:8": "galacticraftplanets:thermal_padding_t2"
+            },
+            "2:10": {
+              "Count:3": 1,
+              "Damage:2": 2,
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {},
+                "wizardryutils:summoneditemdata:10": {}
+              },
+              "OreDict:8": "",
+              "id:8": "galacticraftplanets:thermal_padding_t2"
+            },
+            "3:10": {
+              "Count:3": 1,
+              "Damage:2": 3,
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {},
+                "wizardryutils:summoneditemdata:10": {}
+              },
+              "OreDict:8": "",
+              "id:8": "galacticraftplanets:thermal_padding_t2"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -49257,8 +49472,8 @@
           "id:3": 547,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 156,
-          "y:3": -372
+          "x:3": -108,
+          "y:3": -324
         },
         "107:10": {
           "id:3": 548,
@@ -49421,8 +49636,8 @@
           "id:3": 257,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 48,
-          "y:3": -180
+          "x:3": -36,
+          "y:3": -144
         },
         "19:10": {
           "id:3": 270,
@@ -49941,6 +50156,13 @@
           "sizeY:3": 24,
           "x:3": 264,
           "y:3": -204
+        },
+        "93:10": {
+          "id:3": 585,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -36,
+          "y:3": -96
         }
       }
     },
@@ -50247,167 +50469,174 @@
           "y:3": 84
         },
         "40:10": {
+          "id:3": 560,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 180,
+          "y:3": 12
+        },
+        "41:10": {
           "id:3": 561,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 504,
           "y:3": 84
         },
-        "41:10": {
+        "42:10": {
           "id:3": 562,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 612,
           "y:3": 84
         },
-        "42:10": {
+        "43:10": {
           "id:3": 563,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 552,
           "y:3": 84
         },
-        "43:10": {
+        "44:10": {
           "id:3": 564,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 288,
           "y:3": 120
         },
-        "44:10": {
+        "45:10": {
           "id:3": 565,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 540,
           "y:3": 36
         },
-        "45:10": {
+        "46:10": {
           "id:3": 566,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 288,
           "y:3": 156
         },
-        "46:10": {
+        "47:10": {
           "id:3": 567,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 540,
           "y:3": 132
         },
-        "47:10": {
+        "48:10": {
           "id:3": 568,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 660,
           "y:3": 36
         },
-        "48:10": {
+        "49:10": {
           "id:3": 569,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 660,
           "y:3": 132
         },
-        "49:10": {
+        "50:10": {
           "id:3": 570,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 288,
           "y:3": 84
         },
-        "50:10": {
+        "51:10": {
           "id:3": 571,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 420,
           "y:3": 120
         },
-        "51:10": {
+        "52:10": {
           "id:3": 572,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 420,
           "y:3": 48
         },
-        "52:10": {
+        "53:10": {
           "id:3": 573,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 660,
           "y:3": 84
         },
-        "53:10": {
+        "54:10": {
           "id:3": 574,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 420,
           "y:3": 84
         },
-        "54:10": {
+        "55:10": {
           "id:3": 575,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 288,
           "y:3": 12
         },
-        "55:10": {
+        "56:10": {
           "id:3": 576,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 420,
           "y:3": 156
         },
-        "56:10": {
+        "57:10": {
           "id:3": 577,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 288,
           "y:3": 48
         },
-        "57:10": {
+        "58:10": {
           "id:3": 578,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 132,
           "y:3": 12
         },
-        "58:10": {
+        "59:10": {
           "id:3": 579,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 336,
           "y:3": 36
         },
-        "59:10": {
+        "60:10": {
           "id:3": 580,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 468,
           "y:3": 84
         },
-        "60:10": {
+        "61:10": {
           "id:3": 581,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 228,
           "y:3": -36
         },
-        "61:10": {
+        "62:10": {
           "id:3": 582,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 180,
           "y:3": -36
         },
-        "62:10": {
+        "63:10": {
           "id:3": 583,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 132,
           "y:3": -36
         },
-        "63:10": {
+        "64:10": {
           "id:3": 584,
           "sizeX:3": 24,
           "sizeY:3": 24,
