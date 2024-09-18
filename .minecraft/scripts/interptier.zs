@@ -1,3 +1,4 @@
+#reloadable
 import crafttweaker.oredict.IOreDictEntry;
 
 

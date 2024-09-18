@@ -1970,3 +1970,273 @@ INFO: Initialized logger
 INFO: Loaded 1 mob templates in 6 ms
 [08:25:25.506] com.codetaylor.mc.onslaught.modules.onslaught.template.TemplateLoader loadInvasionTemplateData
 INFO: Loaded 1 invasion templates in 23 ms
+[03:33:00.290] com.codetaylor.mc.onslaught.ModOnslaught onPreInitializationEvent
+INFO: Initialized logger
+[03:33:00.320] com.codetaylor.mc.onslaught.modules.onslaught.template.TemplateLoader loadMobTemplateData
+INFO: Loaded 1 mob templates in 7 ms
+[03:33:00.342] com.codetaylor.mc.onslaught.modules.onslaught.template.TemplateLoader loadInvasionTemplateData
+INFO: Loaded 1 invasion templates in 21 ms
+[03:44:40.003] com.codetaylor.mc.onslaught.modules.onslaught.invasion.selector.InvasionSelectorFunction apply
+SEVERE: Missing the fallback invasion defined in config, skipping invasion for player Toby_Larone
+[03:44:40.004] com.codetaylor.mc.onslaught.modules.onslaught.invasion.state.StateChangeEligibleToPending update
+SEVERE: Unable to select invasion for player: Toby_Larone
+[03:44:40.722] com.codetaylor.mc.onslaught.modules.onslaught.invasion.selector.InvasionSelectorFunction apply
+SEVERE: Missing the fallback invasion defined in config, skipping invasion for player Toby_Larone
+[03:44:40.722] com.codetaylor.mc.onslaught.modules.onslaught.invasion.state.StateChangeEligibleToPending update
+SEVERE: Unable to select invasion for player: Toby_Larone
+[03:44:41.472] com.codetaylor.mc.onslaught.modules.onslaught.invasion.selector.InvasionSelectorFunction apply
+SEVERE: Missing the fallback invasion defined in config, skipping invasion for player Toby_Larone
+[03:44:41.472] com.codetaylor.mc.onslaught.modules.onslaught.invasion.state.StateChangeEligibleToPending update
+SEVERE: Unable to select invasion for player: Toby_Larone
+[03:44:42.222] com.codetaylor.mc.onslaught.modules.onslaught.invasion.selector.InvasionSelectorFunction apply
+SEVERE: Missing the fallback invasion defined in config, skipping invasion for player Toby_Larone
+[03:44:42.222] com.codetaylor.mc.onslaught.modules.onslaught.invasion.state.StateChangeEligibleToPending update
+SEVERE: Unable to select invasion for player: Toby_Larone
+[03:44:42.972] com.codetaylor.mc.onslaught.modules.onslaught.invasion.selector.InvasionSelectorFunction apply
+SEVERE: Missing the fallback invasion defined in config, skipping invasion for player Toby_Larone
+[03:44:42.972] com.codetaylor.mc.onslaught.modules.onslaught.invasion.state.StateChangeEligibleToPending update
+SEVERE: Unable to select invasion for player: Toby_Larone
+[03:44:43.722] com.codetaylor.mc.onslaught.modules.onslaught.invasion.selector.InvasionSelectorFunction apply
+SEVERE: Missing the fallback invasion defined in config, skipping invasion for player Toby_Larone
+[03:44:43.722] com.codetaylor.mc.onslaught.modules.onslaught.invasion.state.StateChangeEligibleToPending update
+SEVERE: Unable to select invasion for player: Toby_Larone
+[03:44:44.474] com.codetaylor.mc.onslaught.modules.onslaught.invasion.selector.InvasionSelectorFunction apply
+SEVERE: Missing the fallback invasion defined in config, skipping invasion for player Toby_Larone
+[03:44:44.474] com.codetaylor.mc.onslaught.modules.onslaught.invasion.state.StateChangeEligibleToPending update
+SEVERE: Unable to select invasion for player: Toby_Larone
+[03:44:45.222] com.codetaylor.mc.onslaught.modules.onslaught.invasion.selector.InvasionSelectorFunction apply
+SEVERE: Missing the fallback invasion defined in config, skipping invasion for player Toby_Larone
+[03:44:45.222] com.codetaylor.mc.onslaught.modules.onslaught.invasion.state.StateChangeEligibleToPending update
+SEVERE: Unable to select invasion for player: Toby_Larone
+[03:44:45.972] com.codetaylor.mc.onslaught.modules.onslaught.invasion.selector.InvasionSelectorFunction apply
+SEVERE: Missing the fallback invasion defined in config, skipping invasion for player Toby_Larone
+[03:44:45.972] com.codetaylor.mc.onslaught.modules.onslaught.invasion.state.StateChangeEligibleToPending update
+SEVERE: Unable to select invasion for player: Toby_Larone
+[03:44:46.722] com.codetaylor.mc.onslaught.modules.onslaught.invasion.selector.InvasionSelectorFunction apply
+SEVERE: Missing the fallback invasion defined in config, skipping invasion for player Toby_Larone
+[03:44:46.722] com.codetaylor.mc.onslaught.modules.onslaught.invasion.state.StateChangeEligibleToPending update
+SEVERE: Unable to select invasion for player: Toby_Larone
+[03:44:47.472] com.codetaylor.mc.onslaught.modules.onslaught.invasion.selector.InvasionSelectorFunction apply
+SEVERE: Missing the fallback invasion defined in config, skipping invasion for player Toby_Larone
+[03:44:47.472] com.codetaylor.mc.onslaught.modules.onslaught.invasion.state.StateChangeEligibleToPending update
+SEVERE: Unable to select invasion for player: Toby_Larone
+[03:44:48.222] com.codetaylor.mc.onslaught.modules.onslaught.invasion.selector.InvasionSelectorFunction apply
+SEVERE: Missing the fallback invasion defined in config, skipping invasion for player Toby_Larone
+[03:44:48.222] com.codetaylor.mc.onslaught.modules.onslaught.invasion.state.StateChangeEligibleToPending update
+SEVERE: Unable to select invasion for player: Toby_Larone
+[03:44:48.972] com.codetaylor.mc.onslaught.modules.onslaught.invasion.selector.InvasionSelectorFunction apply
+SEVERE: Missing the fallback invasion defined in config, skipping invasion for player Toby_Larone
+[03:44:48.972] com.codetaylor.mc.onslaught.modules.onslaught.invasion.state.StateChangeEligibleToPending update
+SEVERE: Unable to select invasion for player: Toby_Larone
+[03:44:49.724] com.codetaylor.mc.onslaught.modules.onslaught.invasion.selector.InvasionSelectorFunction apply
+SEVERE: Missing the fallback invasion defined in config, skipping invasion for player Toby_Larone
+[03:44:49.724] com.codetaylor.mc.onslaught.modules.onslaught.invasion.state.StateChangeEligibleToPending update
+SEVERE: Unable to select invasion for player: Toby_Larone
+[03:44:50.472] com.codetaylor.mc.onslaught.modules.onslaught.invasion.selector.InvasionSelectorFunction apply
+SEVERE: Missing the fallback invasion defined in config, skipping invasion for player Toby_Larone
+[03:44:50.472] com.codetaylor.mc.onslaught.modules.onslaught.invasion.state.StateChangeEligibleToPending update
+SEVERE: Unable to select invasion for player: Toby_Larone
+[03:44:51.222] com.codetaylor.mc.onslaught.modules.onslaught.invasion.selector.InvasionSelectorFunction apply
+SEVERE: Missing the fallback invasion defined in config, skipping invasion for player Toby_Larone
+[03:44:51.222] com.codetaylor.mc.onslaught.modules.onslaught.invasion.state.StateChangeEligibleToPending update
+SEVERE: Unable to select invasion for player: Toby_Larone
+[03:44:51.972] com.codetaylor.mc.onslaught.modules.onslaught.invasion.selector.InvasionSelectorFunction apply
+SEVERE: Missing the fallback invasion defined in config, skipping invasion for player Toby_Larone
+[03:44:51.972] com.codetaylor.mc.onslaught.modules.onslaught.invasion.state.StateChangeEligibleToPending update
+SEVERE: Unable to select invasion for player: Toby_Larone
+[03:44:52.722] com.codetaylor.mc.onslaught.modules.onslaught.invasion.selector.InvasionSelectorFunction apply
+SEVERE: Missing the fallback invasion defined in config, skipping invasion for player Toby_Larone
+[03:44:52.722] com.codetaylor.mc.onslaught.modules.onslaught.invasion.state.StateChangeEligibleToPending update
+SEVERE: Unable to select invasion for player: Toby_Larone
+[03:44:53.472] com.codetaylor.mc.onslaught.modules.onslaught.invasion.selector.InvasionSelectorFunction apply
+SEVERE: Missing the fallback invasion defined in config, skipping invasion for player Toby_Larone
+[03:44:53.472] com.codetaylor.mc.onslaught.modules.onslaught.invasion.state.StateChangeEligibleToPending update
+SEVERE: Unable to select invasion for player: Toby_Larone
+[03:44:54.224] com.codetaylor.mc.onslaught.modules.onslaught.invasion.selector.InvasionSelectorFunction apply
+SEVERE: Missing the fallback invasion defined in config, skipping invasion for player Toby_Larone
+[03:44:54.224] com.codetaylor.mc.onslaught.modules.onslaught.invasion.state.StateChangeEligibleToPending update
+SEVERE: Unable to select invasion for player: Toby_Larone
+[03:44:54.972] com.codetaylor.mc.onslaught.modules.onslaught.invasion.selector.InvasionSelectorFunction apply
+SEVERE: Missing the fallback invasion defined in config, skipping invasion for player Toby_Larone
+[03:44:54.972] com.codetaylor.mc.onslaught.modules.onslaught.invasion.state.StateChangeEligibleToPending update
+SEVERE: Unable to select invasion for player: Toby_Larone
+[03:44:55.722] com.codetaylor.mc.onslaught.modules.onslaught.invasion.selector.InvasionSelectorFunction apply
+SEVERE: Missing the fallback invasion defined in config, skipping invasion for player Toby_Larone
+[03:44:55.722] com.codetaylor.mc.onslaught.modules.onslaught.invasion.state.StateChangeEligibleToPending update
+SEVERE: Unable to select invasion for player: Toby_Larone
+[03:44:56.472] com.codetaylor.mc.onslaught.modules.onslaught.invasion.selector.InvasionSelectorFunction apply
+SEVERE: Missing the fallback invasion defined in config, skipping invasion for player Toby_Larone
+[03:44:56.472] com.codetaylor.mc.onslaught.modules.onslaught.invasion.state.StateChangeEligibleToPending update
+SEVERE: Unable to select invasion for player: Toby_Larone
+[03:44:57.222] com.codetaylor.mc.onslaught.modules.onslaught.invasion.selector.InvasionSelectorFunction apply
+SEVERE: Missing the fallback invasion defined in config, skipping invasion for player Toby_Larone
+[03:44:57.222] com.codetaylor.mc.onslaught.modules.onslaught.invasion.state.StateChangeEligibleToPending update
+SEVERE: Unable to select invasion for player: Toby_Larone
+[03:44:57.973] com.codetaylor.mc.onslaught.modules.onslaught.invasion.selector.InvasionSelectorFunction apply
+SEVERE: Missing the fallback invasion defined in config, skipping invasion for player Toby_Larone
+[03:44:57.973] com.codetaylor.mc.onslaught.modules.onslaught.invasion.state.StateChangeEligibleToPending update
+SEVERE: Unable to select invasion for player: Toby_Larone
+[03:44:58.724] com.codetaylor.mc.onslaught.modules.onslaught.invasion.selector.InvasionSelectorFunction apply
+SEVERE: Missing the fallback invasion defined in config, skipping invasion for player Toby_Larone
+[03:44:58.724] com.codetaylor.mc.onslaught.modules.onslaught.invasion.state.StateChangeEligibleToPending update
+SEVERE: Unable to select invasion for player: Toby_Larone
+[03:44:59.472] com.codetaylor.mc.onslaught.modules.onslaught.invasion.selector.InvasionSelectorFunction apply
+SEVERE: Missing the fallback invasion defined in config, skipping invasion for player Toby_Larone
+[03:44:59.472] com.codetaylor.mc.onslaught.modules.onslaught.invasion.state.StateChangeEligibleToPending update
+SEVERE: Unable to select invasion for player: Toby_Larone
+[03:45:00.223] com.codetaylor.mc.onslaught.modules.onslaught.invasion.selector.InvasionSelectorFunction apply
+SEVERE: Missing the fallback invasion defined in config, skipping invasion for player Toby_Larone
+[03:45:00.223] com.codetaylor.mc.onslaught.modules.onslaught.invasion.state.StateChangeEligibleToPending update
+SEVERE: Unable to select invasion for player: Toby_Larone
+[03:45:00.973] com.codetaylor.mc.onslaught.modules.onslaught.invasion.selector.InvasionSelectorFunction apply
+SEVERE: Missing the fallback invasion defined in config, skipping invasion for player Toby_Larone
+[03:45:00.973] com.codetaylor.mc.onslaught.modules.onslaught.invasion.state.StateChangeEligibleToPending update
+SEVERE: Unable to select invasion for player: Toby_Larone
+[03:45:01.722] com.codetaylor.mc.onslaught.modules.onslaught.invasion.selector.InvasionSelectorFunction apply
+SEVERE: Missing the fallback invasion defined in config, skipping invasion for player Toby_Larone
+[03:45:01.722] com.codetaylor.mc.onslaught.modules.onslaught.invasion.state.StateChangeEligibleToPending update
+SEVERE: Unable to select invasion for player: Toby_Larone
+[03:45:02.473] com.codetaylor.mc.onslaught.modules.onslaught.invasion.selector.InvasionSelectorFunction apply
+SEVERE: Missing the fallback invasion defined in config, skipping invasion for player Toby_Larone
+[03:45:02.473] com.codetaylor.mc.onslaught.modules.onslaught.invasion.state.StateChangeEligibleToPending update
+SEVERE: Unable to select invasion for player: Toby_Larone
+[03:45:03.222] com.codetaylor.mc.onslaught.modules.onslaught.invasion.selector.InvasionSelectorFunction apply
+SEVERE: Missing the fallback invasion defined in config, skipping invasion for player Toby_Larone
+[03:45:03.222] com.codetaylor.mc.onslaught.modules.onslaught.invasion.state.StateChangeEligibleToPending update
+SEVERE: Unable to select invasion for player: Toby_Larone
+[03:45:03.972] com.codetaylor.mc.onslaught.modules.onslaught.invasion.selector.InvasionSelectorFunction apply
+SEVERE: Missing the fallback invasion defined in config, skipping invasion for player Toby_Larone
+[03:45:03.972] com.codetaylor.mc.onslaught.modules.onslaught.invasion.state.StateChangeEligibleToPending update
+SEVERE: Unable to select invasion for player: Toby_Larone
+[03:45:04.722] com.codetaylor.mc.onslaught.modules.onslaught.invasion.selector.InvasionSelectorFunction apply
+SEVERE: Missing the fallback invasion defined in config, skipping invasion for player Toby_Larone
+[03:45:04.722] com.codetaylor.mc.onslaught.modules.onslaught.invasion.state.StateChangeEligibleToPending update
+SEVERE: Unable to select invasion for player: Toby_Larone
+[03:45:05.472] com.codetaylor.mc.onslaught.modules.onslaught.invasion.selector.InvasionSelectorFunction apply
+SEVERE: Missing the fallback invasion defined in config, skipping invasion for player Toby_Larone
+[03:45:05.472] com.codetaylor.mc.onslaught.modules.onslaught.invasion.state.StateChangeEligibleToPending update
+SEVERE: Unable to select invasion for player: Toby_Larone
+[03:45:06.222] com.codetaylor.mc.onslaught.modules.onslaught.invasion.selector.InvasionSelectorFunction apply
+SEVERE: Missing the fallback invasion defined in config, skipping invasion for player Toby_Larone
+[03:45:06.222] com.codetaylor.mc.onslaught.modules.onslaught.invasion.state.StateChangeEligibleToPending update
+SEVERE: Unable to select invasion for player: Toby_Larone
+[03:45:06.972] com.codetaylor.mc.onslaught.modules.onslaught.invasion.selector.InvasionSelectorFunction apply
+SEVERE: Missing the fallback invasion defined in config, skipping invasion for player Toby_Larone
+[03:45:06.972] com.codetaylor.mc.onslaught.modules.onslaught.invasion.state.StateChangeEligibleToPending update
+SEVERE: Unable to select invasion for player: Toby_Larone
+[03:45:07.722] com.codetaylor.mc.onslaught.modules.onslaught.invasion.selector.InvasionSelectorFunction apply
+SEVERE: Missing the fallback invasion defined in config, skipping invasion for player Toby_Larone
+[03:45:07.722] com.codetaylor.mc.onslaught.modules.onslaught.invasion.state.StateChangeEligibleToPending update
+SEVERE: Unable to select invasion for player: Toby_Larone
+[03:45:08.479] com.codetaylor.mc.onslaught.modules.onslaught.invasion.selector.InvasionSelectorFunction apply
+SEVERE: Missing the fallback invasion defined in config, skipping invasion for player Toby_Larone
+[03:45:08.479] com.codetaylor.mc.onslaught.modules.onslaught.invasion.state.StateChangeEligibleToPending update
+SEVERE: Unable to select invasion for player: Toby_Larone
+[03:45:09.222] com.codetaylor.mc.onslaught.modules.onslaught.invasion.selector.InvasionSelectorFunction apply
+SEVERE: Missing the fallback invasion defined in config, skipping invasion for player Toby_Larone
+[03:45:09.222] com.codetaylor.mc.onslaught.modules.onslaught.invasion.state.StateChangeEligibleToPending update
+SEVERE: Unable to select invasion for player: Toby_Larone
+[03:45:09.972] com.codetaylor.mc.onslaught.modules.onslaught.invasion.selector.InvasionSelectorFunction apply
+SEVERE: Missing the fallback invasion defined in config, skipping invasion for player Toby_Larone
+[03:45:09.972] com.codetaylor.mc.onslaught.modules.onslaught.invasion.state.StateChangeEligibleToPending update
+SEVERE: Unable to select invasion for player: Toby_Larone
+[03:45:10.722] com.codetaylor.mc.onslaught.modules.onslaught.invasion.selector.InvasionSelectorFunction apply
+SEVERE: Missing the fallback invasion defined in config, skipping invasion for player Toby_Larone
+[03:45:10.722] com.codetaylor.mc.onslaught.modules.onslaught.invasion.state.StateChangeEligibleToPending update
+SEVERE: Unable to select invasion for player: Toby_Larone
+[03:45:11.472] com.codetaylor.mc.onslaught.modules.onslaught.invasion.selector.InvasionSelectorFunction apply
+SEVERE: Missing the fallback invasion defined in config, skipping invasion for player Toby_Larone
+[03:45:11.472] com.codetaylor.mc.onslaught.modules.onslaught.invasion.state.StateChangeEligibleToPending update
+SEVERE: Unable to select invasion for player: Toby_Larone
+[03:45:12.222] com.codetaylor.mc.onslaught.modules.onslaught.invasion.selector.InvasionSelectorFunction apply
+SEVERE: Missing the fallback invasion defined in config, skipping invasion for player Toby_Larone
+[03:45:12.222] com.codetaylor.mc.onslaught.modules.onslaught.invasion.state.StateChangeEligibleToPending update
+SEVERE: Unable to select invasion for player: Toby_Larone
+[03:45:12.972] com.codetaylor.mc.onslaught.modules.onslaught.invasion.selector.InvasionSelectorFunction apply
+SEVERE: Missing the fallback invasion defined in config, skipping invasion for player Toby_Larone
+[03:45:12.972] com.codetaylor.mc.onslaught.modules.onslaught.invasion.state.StateChangeEligibleToPending update
+SEVERE: Unable to select invasion for player: Toby_Larone
+[03:45:13.723] com.codetaylor.mc.onslaught.modules.onslaught.invasion.selector.InvasionSelectorFunction apply
+SEVERE: Missing the fallback invasion defined in config, skipping invasion for player Toby_Larone
+[03:45:13.723] com.codetaylor.mc.onslaught.modules.onslaught.invasion.state.StateChangeEligibleToPending update
+SEVERE: Unable to select invasion for player: Toby_Larone
+[03:45:14.472] com.codetaylor.mc.onslaught.modules.onslaught.invasion.selector.InvasionSelectorFunction apply
+SEVERE: Missing the fallback invasion defined in config, skipping invasion for player Toby_Larone
+[03:45:14.472] com.codetaylor.mc.onslaught.modules.onslaught.invasion.state.StateChangeEligibleToPending update
+SEVERE: Unable to select invasion for player: Toby_Larone
+[03:45:15.222] com.codetaylor.mc.onslaught.modules.onslaught.invasion.selector.InvasionSelectorFunction apply
+SEVERE: Missing the fallback invasion defined in config, skipping invasion for player Toby_Larone
+[03:45:15.222] com.codetaylor.mc.onslaught.modules.onslaught.invasion.state.StateChangeEligibleToPending update
+SEVERE: Unable to select invasion for player: Toby_Larone
+[03:45:15.972] com.codetaylor.mc.onslaught.modules.onslaught.invasion.selector.InvasionSelectorFunction apply
+SEVERE: Missing the fallback invasion defined in config, skipping invasion for player Toby_Larone
+[03:45:15.972] com.codetaylor.mc.onslaught.modules.onslaught.invasion.state.StateChangeEligibleToPending update
+SEVERE: Unable to select invasion for player: Toby_Larone
+[03:45:16.722] com.codetaylor.mc.onslaught.modules.onslaught.invasion.selector.InvasionSelectorFunction apply
+SEVERE: Missing the fallback invasion defined in config, skipping invasion for player Toby_Larone
+[03:45:16.722] com.codetaylor.mc.onslaught.modules.onslaught.invasion.state.StateChangeEligibleToPending update
+SEVERE: Unable to select invasion for player: Toby_Larone
+[03:45:17.472] com.codetaylor.mc.onslaught.modules.onslaught.invasion.selector.InvasionSelectorFunction apply
+SEVERE: Missing the fallback invasion defined in config, skipping invasion for player Toby_Larone
+[03:45:17.472] com.codetaylor.mc.onslaught.modules.onslaught.invasion.state.StateChangeEligibleToPending update
+SEVERE: Unable to select invasion for player: Toby_Larone
+[03:45:18.222] com.codetaylor.mc.onslaught.modules.onslaught.invasion.selector.InvasionSelectorFunction apply
+SEVERE: Missing the fallback invasion defined in config, skipping invasion for player Toby_Larone
+[03:45:18.222] com.codetaylor.mc.onslaught.modules.onslaught.invasion.state.StateChangeEligibleToPending update
+SEVERE: Unable to select invasion for player: Toby_Larone
+[03:45:18.972] com.codetaylor.mc.onslaught.modules.onslaught.invasion.selector.InvasionSelectorFunction apply
+SEVERE: Missing the fallback invasion defined in config, skipping invasion for player Toby_Larone
+[03:45:18.972] com.codetaylor.mc.onslaught.modules.onslaught.invasion.state.StateChangeEligibleToPending update
+SEVERE: Unable to select invasion for player: Toby_Larone
+[03:45:19.723] com.codetaylor.mc.onslaught.modules.onslaught.invasion.selector.InvasionSelectorFunction apply
+SEVERE: Missing the fallback invasion defined in config, skipping invasion for player Toby_Larone
+[03:45:19.723] com.codetaylor.mc.onslaught.modules.onslaught.invasion.state.StateChangeEligibleToPending update
+SEVERE: Unable to select invasion for player: Toby_Larone
+[03:45:20.471] com.codetaylor.mc.onslaught.modules.onslaught.invasion.selector.InvasionSelectorFunction apply
+SEVERE: Missing the fallback invasion defined in config, skipping invasion for player Toby_Larone
+[03:45:20.471] com.codetaylor.mc.onslaught.modules.onslaught.invasion.state.StateChangeEligibleToPending update
+SEVERE: Unable to select invasion for player: Toby_Larone
+[03:45:21.222] com.codetaylor.mc.onslaught.modules.onslaught.invasion.selector.InvasionSelectorFunction apply
+SEVERE: Missing the fallback invasion defined in config, skipping invasion for player Toby_Larone
+[03:45:21.222] com.codetaylor.mc.onslaught.modules.onslaught.invasion.state.StateChangeEligibleToPending update
+SEVERE: Unable to select invasion for player: Toby_Larone
+[03:45:21.972] com.codetaylor.mc.onslaught.modules.onslaught.invasion.selector.InvasionSelectorFunction apply
+SEVERE: Missing the fallback invasion defined in config, skipping invasion for player Toby_Larone
+[03:45:21.972] com.codetaylor.mc.onslaught.modules.onslaught.invasion.state.StateChangeEligibleToPending update
+SEVERE: Unable to select invasion for player: Toby_Larone
+[03:45:22.721] com.codetaylor.mc.onslaught.modules.onslaught.invasion.selector.InvasionSelectorFunction apply
+SEVERE: Missing the fallback invasion defined in config, skipping invasion for player Toby_Larone
+[03:45:22.721] com.codetaylor.mc.onslaught.modules.onslaught.invasion.state.StateChangeEligibleToPending update
+SEVERE: Unable to select invasion for player: Toby_Larone
+[03:45:23.472] com.codetaylor.mc.onslaught.modules.onslaught.invasion.selector.InvasionSelectorFunction apply
+SEVERE: Missing the fallback invasion defined in config, skipping invasion for player Toby_Larone
+[03:45:23.472] com.codetaylor.mc.onslaught.modules.onslaught.invasion.state.StateChangeEligibleToPending update
+SEVERE: Unable to select invasion for player: Toby_Larone
+[03:45:24.222] com.codetaylor.mc.onslaught.modules.onslaught.invasion.selector.InvasionSelectorFunction apply
+SEVERE: Missing the fallback invasion defined in config, skipping invasion for player Toby_Larone
+[03:45:24.222] com.codetaylor.mc.onslaught.modules.onslaught.invasion.state.StateChangeEligibleToPending update
+SEVERE: Unable to select invasion for player: Toby_Larone
+[03:45:24.972] com.codetaylor.mc.onslaught.modules.onslaught.invasion.selector.InvasionSelectorFunction apply
+SEVERE: Missing the fallback invasion defined in config, skipping invasion for player Toby_Larone
+[03:45:24.973] com.codetaylor.mc.onslaught.modules.onslaught.invasion.state.StateChangeEligibleToPending update
+SEVERE: Unable to select invasion for player: Toby_Larone
+[03:45:25.722] com.codetaylor.mc.onslaught.modules.onslaught.invasion.selector.InvasionSelectorFunction apply
+SEVERE: Missing the fallback invasion defined in config, skipping invasion for player Toby_Larone
+[03:45:25.722] com.codetaylor.mc.onslaught.modules.onslaught.invasion.state.StateChangeEligibleToPending update
+SEVERE: Unable to select invasion for player: Toby_Larone
+[03:45:26.472] com.codetaylor.mc.onslaught.modules.onslaught.invasion.selector.InvasionSelectorFunction apply
+SEVERE: Missing the fallback invasion defined in config, skipping invasion for player Toby_Larone
+[03:45:26.472] com.codetaylor.mc.onslaught.modules.onslaught.invasion.state.StateChangeEligibleToPending update
+SEVERE: Unable to select invasion for player: Toby_Larone
+[03:45:27.223] com.codetaylor.mc.onslaught.modules.onslaught.invasion.selector.InvasionSelectorFunction apply
+SEVERE: Missing the fallback invasion defined in config, skipping invasion for player Toby_Larone
+[03:45:27.223] com.codetaylor.mc.onslaught.modules.onslaught.invasion.state.StateChangeEligibleToPending update
+SEVERE: Unable to select invasion for player: Toby_Larone
+[03:45:27.972] com.codetaylor.mc.onslaught.modules.onslaught.invasion.selector.InvasionSelectorFunction apply
+SEVERE: Missing the fallback invasion defined in config, skipping invasion for player Toby_Larone
+[03:45:27.972] com.codetaylor.mc.onslaught.modules.onslaught.invasion.state.StateChangeEligibleToPending update
+SEVERE: Unable to select invasion for player: Toby_Larone
+[03:45:28.722] com.codetaylor.mc.onslaught.modules.onslaught.invasion.selector.InvasionSelectorFunction apply
+SEVERE: Missing the fallback invasion defined in config, skipping invasion for player Toby_Larone
+[03:45:28.722] com.codetaylor.mc.onslaught.modules.onslaught.invasion.state.StateChangeEligibleToPending update
+SEVERE: Unable to select invasion for player: Toby_Larone

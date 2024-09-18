@@ -1,3 +1,4 @@
+#reloadable
 mods.jei.JEI.hideCategory("techguns.oredrill");
 mods.jei.JEI.hideCategory("techguns.reactionchamber");
 mods.jei.JEI.hideCategory("techguns.reactionchamber");

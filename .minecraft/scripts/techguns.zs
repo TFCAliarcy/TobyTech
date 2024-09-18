@@ -1,3 +1,4 @@
+#reloadable
 import mods.techguns.AmmoPress;
 import mods.techguns.ChemLab;
 import mods.techguns.BlastFurnace;
@@ -175,3 +176,14 @@ recipes.addShaped(<techguns:m4:30>, [ // Empty
 	[null,<ore:paneGlass>,<ore:dustRedstone>], 
 	[<contenttweaker:steelbarrel>,<techguns:itemshared:34>,<contenttweaker:steelstock>],
 	[<ore:nuggetSteel>, <techguns:itemshared:14>, <ore:ingotSteel>]]);
+//Guided Rocket Launcher
+recipes.removeByRecipeName("techguns:guidedmissilelauncher");
+recipes.removeByRecipeName("techguns:guidedmissilelauncher_alt");
+recipes.addShaped(<techguns:guidedmissilelauncher:1>, [ //Full
+	[null,<ore:blockGlassHardened>,<appliedenergistics2:material:24>], 
+	[null,<techguns:itemshared:39>,<techguns:itemshared:39>],
+	[null, <techguns:itemshared:35>, null]]);
+recipes.addShaped(<techguns:guidedmissilelauncher:0>, [ // Empty
+	[null,<ore:blockGlassHardened>,<appliedenergistics2:material:24>], 
+	[<techguns:itemshared:7>,<techguns:itemshared:39>,<techguns:itemshared:39>],
+	[null, <techguns:itemshared:35>, null]]);

@@ -1,3 +1,4 @@
+#reloadable
 import mods.spawntabletweaker;
 
 // Tier 0 is iron-steel

@@ -1,3 +1,4 @@
+#reloadable
 import mods.appliedenergistics2.Inscriber;
 
 ###reinstall Printed Logic Ciruit Recipe

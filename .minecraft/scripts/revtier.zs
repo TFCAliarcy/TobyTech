@@ -1,4 +1,4 @@
-
+#reloadable
 // Tunnel Bore
 recipes.remove(<railcraft:bore>);
 recipes.addShaped(<railcraft:bore>, [

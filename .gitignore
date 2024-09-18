@@ -23,3 +23,6 @@ instance.cfg
 .minecraft/logs/debug.log
 .minecraft/logs/latest.log
 instance.cfg
+.minecraft/config/AppliedEnergistics2/CustomRecipes.cfg
+.minecraft/usercache.json
+instance.cfg

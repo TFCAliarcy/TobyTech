@@ -1,3 +1,4 @@
+#reloadable
 mods.ltt.LootTable.removeModItem("enderio");
 mods.ltt.LootTable.removeGlobalItem("iceandfire:manuscript");
 mods.ltt.LootTable.removeGlobalItem("botania:lexicon");

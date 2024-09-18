@@ -1,3 +1,4 @@
+#reloadable
 import crafttweaker.item.IItemStack;
 
 //Draconium Making

@@ -1,3 +1,4 @@
+#reloadable
 var TitaniumIngot = <ore:ingotTitanium>;
 var EndSteel = <ore:ingotEndSteel>;
 var ToughIngot = <ore:ingotTough>;

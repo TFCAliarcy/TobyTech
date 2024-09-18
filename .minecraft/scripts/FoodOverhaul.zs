@@ -1,3 +1,4 @@
+#reloadable
 import crafttweaker.item.IItemStack;
 import foodtweaker.FoodInfo;
 import mods.foodtweaker.Tweaker;
