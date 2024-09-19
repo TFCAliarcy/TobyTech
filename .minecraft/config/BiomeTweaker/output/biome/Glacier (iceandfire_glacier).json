@@ -22,9 +22,9 @@
   "Dictionary Types": [
     "WASTELAND",
     "DEAD",
-    "SPARSE",
     "SNOWY",
-    "COLD"
+    "COLD",
+    "SPARSE"
   ],
   "BiomeManager Entries": {
     "COOL Weights": [

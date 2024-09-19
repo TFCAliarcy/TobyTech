@@ -22,8 +22,8 @@
   "Dictionary Types": [
     "DRY",
     "DEAD",
-    "SPARSE",
     "COLD",
+    "SPARSE",
     "FOREST"
   ],
   "BiomeManager Entries": {},
