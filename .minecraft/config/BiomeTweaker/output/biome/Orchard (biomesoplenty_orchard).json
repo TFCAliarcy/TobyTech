@@ -22,8 +22,8 @@
   "Dictionary Types": [
     "FOREST",
     "PLAINS",
-    "DENSE",
-    "LUSH"
+    "LUSH",
+    "DENSE"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

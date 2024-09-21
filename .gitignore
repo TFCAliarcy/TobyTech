@@ -38,3 +38,4 @@ instance.cfg
 .minecraft/usercache.json
 instance.cfg
 /.minecraft/logs/buildcraft
+.minecraft/config/startuptimer/startup_times.json
