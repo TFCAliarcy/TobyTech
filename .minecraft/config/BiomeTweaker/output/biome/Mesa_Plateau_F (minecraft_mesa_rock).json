@@ -21,8 +21,8 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "SANDY",
-    "MESA",
     "DRY",
+    "MESA",
     "SPARSE"
   ],
   "BiomeManager Entries": {},

@@ -39,3 +39,9 @@ instance.cfg
 instance.cfg
 /.minecraft/logs/buildcraft
 .minecraft/config/startuptimer/startup_times.json
+.minecraft/patchouli_data.json
+.minecraft/journeymap/config/5.7/journeymap.minimap.config
+.minecraft/journeymap/journeymap.log
+.minecraft/logs/buildcraft/scripts/buildcraft/book.log
+/.minecraft/logs/buildcraft
+.minecraft/dropt.log

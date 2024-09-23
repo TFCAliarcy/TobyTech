@@ -22,10 +22,10 @@
   "Dictionary Types": [
     "WATER",
     "MOUNTAIN",
-    "WASTELAND",
+    "DRY",
     "DEAD",
     "HOT",
-    "DRY"
+    "WASTELAND"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

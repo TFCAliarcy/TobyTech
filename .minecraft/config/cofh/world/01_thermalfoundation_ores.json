@@ -354,6 +354,52 @@
 					]
 				}
 			},
+			"Phobos Thorium": {
+				"enabled": "true",
+				"distribution": "uniform",
+				"generator": {
+					"block": {
+						"name": "nuclearcraft:ore",
+						"metadata": 3
+					},
+					"cluster-size": 8,
+					"material": {"name":"galaxyspace:phobosblocks", "metadata": 1}
+				},
+				"cluster-count": 13,
+				"min-height": 4,
+				"max-height": 200,
+				"retrogen": "true",
+				"biome": "all",
+				"dimension": {
+					"restriction": "whitelist",
+					"value": [
+						-1012
+					]
+				}
+			},
+			"Phobos Uranium": {
+				"enabled": "true",
+				"distribution": "uniform",
+				"generator": {
+					"block": {
+						"name": "nuclearcraft:ore",
+						"metadata": 4
+					},
+					"cluster-size": 8,
+					"material": {"name":"galaxyspace:phobosblocks", "metadata": 1}
+				},
+				"cluster-count": 9,
+				"min-height": 4,
+				"max-height": 200,
+				"retrogen": "true",
+				"biome": "all",
+				"dimension": {
+					"restriction": "whitelist",
+					"value": [
+						-29
+					]
+				}
+			},
 			"Moon Lithium": {
 				"enabled": "true",
 				"distribution": "uniform",
