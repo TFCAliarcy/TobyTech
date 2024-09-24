@@ -1,0 +1,838 @@
+
+#General Config Section. See https://readme.firstdarkdev.xyz/simple-rpc/introduction/
+[general]
+	#The Application ID of the Discord App to use
+	applicationID = 1287963716586831926
+	#Enable/Disable the mod
+	enabled = true
+	#Enable/Disable debugging mode. WARNING: MAY CAUSE LOG SPAM!
+	debugging = false
+	#Enable/Disable the in game config screen. ONLY AVAILABLE WHEN CLOTH CONFIG IS INSTALLED!
+	configScreen = true
+	#Display the Icon and Pack Name in place of LargeImage from compatible launchers. DOES NOT WORK WITH CUSTOM APPS! ONLY THE DEFAULT ONE!
+	launcherIntegration = false
+	#Internal Version Number. NO TOUCHY!
+	version = 16
+
+#The Game Loading event
+[init]
+	#Enable/Disable the Game Loading Event
+	enabled = true
+	#The first line of text under the app name
+	description = "Minecraft is loading"
+	#The second line of text under the app name
+	state = "Game Starting..."
+	#The Asset ID of the image to display as the large image
+	largeImageKey = "mclogonew"
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "It's Minecraft %mcver%, but modded"
+	#The Asset ID of the image to display as the small image
+	smallImageKey = "mclogo"
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%mods% mods installed"
+	#The buttons to display on Discord
+	buttons = []
+
+#The Main Menu event
+[main_menu]
+	#Enable/Disable the Main Menu Event
+	enabled = true
+	#The first line of text under the app name
+	description = "%player% is currently lazy"
+	#The seconds line of text under the app name
+	state = "Chilling in the menu"
+	#The Asset ID of the image to display as the large image
+	largeImageKey = "mclogonew"
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "It's Minecraft %mcver%, but modded"
+	#The Asset ID of the image to display as the small image
+	smallImageKey = "mclogo"
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%mods% mods installed"
+	#The buttons to display on Discord
+	buttons = []
+
+#The Server List event
+[server_list]
+	#Enable/Disable the Server List Event
+	enabled = true
+	#The first line of text under the app name
+	description = "%player% is looking for a server"
+	#The second line of text under the app name
+	state = "Searching for friends"
+	#The Asset ID of the image to display as the large image
+	largeImageKey = "mclogonew"
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "It's Minecraft %mcver%, but modded"
+	#The Asset ID of the image to display as the small image
+	smallImageKey = "mclogo"
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%mods% mods installed"
+	#The buttons to display on Discord
+	buttons = []
+
+#The Realms Screen event
+[realms_list]
+	#Enable/Disable the Realms Screen Event
+	enabled = true
+	#The first line of text under the app name
+	description = "%player% is looking for a Realm"
+	#The second line of text under the app name
+	state = "Browsing Realms"
+	#The Asset ID of the image to display as the large image
+	largeImageKey = "mclogonew"
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "It's Minecraft %mcver%, but modded"
+	#The Asset ID of the image to display as the small image
+	smallImageKey = "mclogo"
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%mods% mods installed"
+	#The buttons to display on Discord
+	buttons = []
+
+#The Join Game Event
+[join_game]
+	#Enable/Disable the Join Game Event
+	enabled = true
+	#The first line of text under the app name
+	description = "%player% is joining a game"
+	#The second line of text under the app name
+	state = "Joining Game"
+	#The Asset ID of the image to display as the large image
+	largeImageKey = "mclogonew"
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "It's Minecraft %mcver%, but modded"
+	#The Asset ID of the image to display as the small image
+	smallImageKey = "mclogo"
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%mods% mods installed"
+	#The buttons to display on Discord
+	buttons = []
+
+#The Single Player Event
+[single_player]
+	#Enable/Disable the Single Player Event
+	enabled = true
+	#The first line of text under the app name
+	description = "Currently In %world%"
+	#The second line of text under the app name
+	state = "Working on Pack"
+	#The Asset ID of the image to display as the large image
+	largeImageKey = "mclogonew"
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "It's Minecraft %mcver%, but modded"
+	#The Asset ID of the image to display as the small image
+	smallImageKey = "mclogo"
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%mods% mods installed"
+	#The buttons to display on Discord
+	buttons = []
+
+#The Multi Player Event
+[multi_player]
+	#Enable/Disable the Multi Player Event
+	enabled = true
+	#The first line of text under the app name
+	description = "Playing on %servername% with %players% players"
+	#The second line of text under the app name
+	state = "Playing online"
+	#The Asset ID of the image to display as the large image
+	largeImageKey = "mclogonew"
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "It's Minecraft %mcver%, but modded"
+	#The Asset ID of the image to display as the small image
+	smallImageKey = "mclogo"
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%mods% mods installed"
+	#The buttons to display on Discord
+	buttons = []
+
+#The Realms Game Event
+[realms]
+	#Enable/Disable the Realms Game Event
+	enabled = true
+	#The first line of text under the app name
+	description = "Playing on %realmname%"
+	#The second line of text under the app name
+	state = "Playing on a Realm"
+	#The Asset ID of the image to display as the large image
+	largeImageKey = "mclogonew"
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "It's Minecraft %mcver%, but modded"
+	#The Asset ID of the image to display as the small image
+	smallImageKey = "mclogo"
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%realmdescription%"
+	#The buttons to display on Discord
+	buttons = []
+
+#Fallback event for disabled events
+[generic]
+	#The first line of text under the app name
+	description = "Playing Minecraft"
+	#The second line of text under the app name
+	state = ""
+	#The Asset ID of the image to display as the large image
+	largeImageKey = "mclogonew"
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "It's Minecraft %mcver%, but modded"
+	#The Asset ID of the image to display as the small image
+	smallImageKey = "mclogo"
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%mods% mods installed"
+	#The buttons to display on Discord
+	buttons = []
+
+#Dimension Information Overrides
+[dimension_overrides]
+	#Allows you to override the displayed values for dimensions
+	enabled = true
+
+	#The Dimensions to override
+	[[dimension_overrides.dimensions]]
+		#The name of the Dimension/Biome to override. FORMAT: modid:dimension or modid:biome
+		name = "overworld"
+		#The first line of text under the app name
+		description = "%player% is in The Overworld"
+		#The second line of text under the app name
+		state = ""
+		#The Asset ID of the image to display as the large image
+		largeImageKey = "overworld"
+		#The text that gets displayed when the large image is hovered
+		largeImageText = "In the Overworld"
+		#The Asset ID of the image to display as the small image
+		smallImageKey = "mclogo"
+		#The text that gets displayed when the small image is hovered
+		smallImageText = "%mods% mods installed"
+		#The buttons to display on Discord
+		buttons = []
+
+	[[dimension_overrides.dimensions]]
+		#The name of the Dimension/Biome to override. FORMAT: modid:dimension or modid:biome
+		name = "the_nether"
+		#The first line of text under the app name
+		description = "%player% is in The Nether"
+		#The second line of text under the app name
+		state = ""
+		#The Asset ID of the image to display as the large image
+		largeImageKey = "nether"
+		#The text that gets displayed when the large image is hovered
+		largeImageText = "In the Nether"
+		#The Asset ID of the image to display as the small image
+		smallImageKey = "mclogo"
+		#The text that gets displayed when the small image is hovered
+		smallImageText = "%mods% mods installed"
+		#The buttons to display on Discord
+		buttons = []
+
+	[[dimension_overrides.dimensions]]
+		#The name of the Dimension/Biome to override. FORMAT: modid:dimension or modid:biome
+		name = "the_end"
+		#The first line of text under the app name
+		description = "%player% is on Mars"
+		#The second line of text under the app name
+		state = ""
+		#The Asset ID of the image to display as the large image
+		largeImageKey = "end"
+		#The text that gets displayed when the large image is hovered
+		largeImageText = "In the End"
+		#The Asset ID of the image to display as the small image
+		smallImageKey = "mclogo"
+		#The text that gets displayed when the small image is hovered
+		smallImageText = "%mods% mods installed"
+		#The buttons to display on Discord
+		buttons = []
+
+	[[dimension_overrides.dimensions]]
+		#The name of the Dimension/Biome to override. FORMAT: modid:dimension or modid:biome
+		name = "planet.venus"
+		#The first line of text under the app name
+		description = "%player% is on Venus"
+		#The second line of text under the app name
+		state = ""
+		#The Asset ID of the image to display as the large image
+		largeImageKey = ""
+		#The text that gets displayed when the large image is hovered
+		largeImageText = "On Venus"
+		#The Asset ID of the image to display as the small image
+		smallImageKey = "mclogo"
+		#The text that gets displayed when the small image is hovered
+		smallImageText = "%mods% mods installed"
+		#The buttons to display on Discord
+		buttons = []
+	
+	[[dimension_overrides.dimensions]]
+		#The name of the Dimension/Biome to override. FORMAT: modid:dimension or modid:biome
+		name = "planet.mercury"
+		#The first line of text under the app name
+		description = "%player% is on Mercury"
+		#The second line of text under the app name
+		state = ""
+		#The Asset ID of the image to display as the large image
+		largeImageKey = ""
+		#The text that gets displayed when the large image is hovered
+		largeImageText = "On Mercury"
+		#The Asset ID of the image to display as the small image
+		smallImageKey = "mclogo"
+		#The text that gets displayed when the small image is hovered
+		smallImageText = "%mods% mods installed"
+		#The buttons to display on Discord
+		buttons = []
+
+	[[dimension_overrides.dimensions]]
+		#The name of the Dimension/Biome to override. FORMAT: modid:dimension or modid:biome
+		name = "planet.mars"
+		#The first line of text under the app name
+		description = "%player% is on Mars"
+		#The second line of text under the app name
+		state = ""
+		#The Asset ID of the image to display as the large image
+		largeImageKey = ""
+		#The text that gets displayed when the large image is hovered
+		largeImageText = "On Mars"
+		#The Asset ID of the image to display as the small image
+		smallImageKey = "mclogo"
+		#The text that gets displayed when the small image is hovered
+		smallImageText = "%mods% mods installed"
+		#The buttons to display on Discord
+		buttons = []
+
+	[[dimension_overrides.dimensions]]
+		#The name of the Dimension/Biome to override. FORMAT: modid:dimension or modid:biome
+		name = "planet.pluto"
+		#The first line of text under the app name
+		description = "%player% is on Pluto"
+		#The second line of text under the app name
+		state = ""
+		#The Asset ID of the image to display as the large image
+		largeImageKey = ""
+		#The text that gets displayed when the large image is hovered
+		largeImageText = "On Pluto"
+		#The Asset ID of the image to display as the small image
+		smallImageKey = "mclogo"
+		#The text that gets displayed when the small image is hovered
+		smallImageText = "%mods% mods installed"
+		#The buttons to display on Discord
+		buttons = []
+
+	[[dimension_overrides.dimensions]]
+		#The name of the Dimension/Biome to override. FORMAT: modid:dimension or modid:biome
+		name = "moon.moon"
+		#The first line of text under the app name
+		description = "%player% is on The Moon"
+		#The second line of text under the app name
+		state = ""
+		#The Asset ID of the image to display as the large image
+		largeImageKey = ""
+		#The text that gets displayed when the large image is hovered
+		largeImageText = "On The Moon"
+		#The Asset ID of the image to display as the small image
+		smallImageKey = "mclogo"
+		#The text that gets displayed when the small image is hovered
+		smallImageText = "%mods% mods installed"
+		#The buttons to display on Discord
+		buttons = []
+
+	[[dimension_overrides.dimensions]]
+		#The name of the Dimension/Biome to override. FORMAT: modid:dimension or modid:biome
+		name = "moon.phobos"
+		#The first line of text under the app name
+		description = "%player% is on Phobos"
+		#The second line of text under the app name
+		state = ""
+		#The Asset ID of the image to display as the large image
+		largeImageKey = ""
+		#The text that gets displayed when the large image is hovered
+		largeImageText = "On Phobos"
+		#The Asset ID of the image to display as the small image
+		smallImageKey = "mclogo"
+		#The text that gets displayed when the small image is hovered
+		smallImageText = "%mods% mods installed"
+		#The buttons to display on Discord
+		buttons = []
+		
+	[[dimension_overrides.dimensions]]
+		#The name of the Dimension/Biome to override. FORMAT: modid:dimension or modid:biome
+		name = "moon.triton"
+		#The first line of text under the app name
+		description = "%player% is on Triton"
+		#The second line of text under the app name
+		state = ""
+		#The Asset ID of the image to display as the large image
+		largeImageKey = ""
+		#The text that gets displayed when the large image is hovered
+		largeImageText = "On Triton"
+		#The Asset ID of the image to display as the small image
+		smallImageKey = "mclogo"
+		#The text that gets displayed when the small image is hovered
+		smallImageText = "%mods% mods installed"
+		#The buttons to display on Discord
+		buttons = []
+				
+	[[dimension_overrides.dimensions]]
+		#The name of the Dimension/Biome to override. FORMAT: modid:dimension or modid:biome
+		name = "moon.io"
+		#The first line of text under the app name
+		description = "%player% is on Io"
+		#The second line of text under the app name
+		state = ""
+		#The Asset ID of the image to display as the large image
+		largeImageKey = ""
+		#The text that gets displayed when the large image is hovered
+		largeImageText = "On Io"
+		#The Asset ID of the image to display as the small image
+		smallImageKey = "mclogo"
+		#The text that gets displayed when the small image is hovered
+		smallImageText = "%mods% mods installed"
+		#The buttons to display on Discord
+		buttons = []
+				
+	[[dimension_overrides.dimensions]]
+		#The name of the Dimension/Biome to override. FORMAT: modid:dimension or modid:biome
+		name = "moon.europa"
+		#The first line of text under the app name
+		description = "%player% is on Europa"
+		#The second line of text under the app name
+		state = ""
+		#The Asset ID of the image to display as the large image
+		largeImageKey = ""
+		#The text that gets displayed when the large image is hovered
+		largeImageText = "On Europa"
+		#The Asset ID of the image to display as the small image
+		smallImageKey = "mclogo"
+		#The text that gets displayed when the small image is hovered
+		smallImageText = "%mods% mods installed"
+		#The buttons to display on Discord
+		buttons = []
+				
+	[[dimension_overrides.dimensions]]
+		#The name of the Dimension/Biome to override. FORMAT: modid:dimension or modid:biome
+		name = "moon.miranda"
+		#The first line of text under the app name
+		description = "%player% is on Miranda"
+		#The second line of text under the app name
+		state = ""
+		#The Asset ID of the image to display as the large image
+		largeImageKey = ""
+		#The text that gets displayed when the large image is hovered
+		largeImageText = "On Miranda"
+		#The Asset ID of the image to display as the small image
+		smallImageKey = "mclogo"
+		#The text that gets displayed when the small image is hovered
+		smallImageText = "%mods% mods installed"
+		#The buttons to display on Discord
+		buttons = []	
+				
+	[[dimension_overrides.dimensions]]
+		#The name of the Dimension/Biome to override. FORMAT: modid:dimension or modid:biome
+		name = "moon.callisto"
+		#The first line of text under the app name
+		description = "%player% is on Callisto"
+		#The second line of text under the app name
+		state = ""
+		#The Asset ID of the image to display as the large image
+		largeImageKey = ""
+		#The text that gets displayed when the large image is hovered
+		largeImageText = "On Callisto"
+		#The Asset ID of the image to display as the small image
+		smallImageKey = "mclogo"
+		#The text that gets displayed when the small image is hovered
+		smallImageText = "%mods% mods installed"
+		#The buttons to display on Discord
+		buttons = []
+				
+	[[dimension_overrides.dimensions]]
+		#The name of the Dimension/Biome to override. FORMAT: modid:dimension or modid:biome
+		name = "moon.ganymede"
+		#The first line of text under the app name
+		description = "%player% is on Ganymede"
+		#The second line of text under the app name
+		state = ""
+		#The Asset ID of the image to display as the large image
+		largeImageKey = ""
+		#The text that gets displayed when the large image is hovered
+		largeImageText = "On Ganymede"
+		#The Asset ID of the image to display as the small image
+		smallImageKey = "mclogo"
+		#The text that gets displayed when the small image is hovered
+		smallImageText = "%mods% mods installed"
+		#The buttons to display on Discord
+		buttons = []
+				
+	[[dimension_overrides.dimensions]]
+		#The name of the Dimension/Biome to override. FORMAT: modid:dimension or modid:biome
+		name = "moon.enceladus"
+		#The first line of text under the app name
+		description = "%player% is on Enceladus"
+		#The second line of text under the app name
+		state = ""
+		#The Asset ID of the image to display as the large image
+		largeImageKey = ""
+		#The text that gets displayed when the large image is hovered
+		largeImageText = "On Enceladus"
+		#The Asset ID of the image to display as the small image
+		smallImageKey = "mclogo"
+		#The text that gets displayed when the small image is hovered
+		smallImageText = "%mods% mods installed"
+		#The buttons to display on Discord
+		buttons = []
+				
+	[[dimension_overrides.dimensions]]
+		#The name of the Dimension/Biome to override. FORMAT: modid:dimension or modid:biome
+		name = "moon.europa"
+		#The first line of text under the app name
+		description = "%player% is on Europa"
+		#The second line of text under the app name
+		state = ""
+		#The Asset ID of the image to display as the large image
+		largeImageKey = ""
+		#The text that gets displayed when the large image is hovered
+		largeImageText = "On Europa"
+		#The Asset ID of the image to display as the small image
+		smallImageKey = "mclogo"
+		#The text that gets displayed when the small image is hovered
+		smallImageText = "%mods% mods installed"
+		#The buttons to display on Discord
+		buttons = []
+				
+	[[dimension_overrides.dimensions]]
+		#The name of the Dimension/Biome to override. FORMAT: modid:dimension or modid:biome
+		name = "moon.titan"
+		#The first line of text under the app name
+		description = "%player% is on Titan"
+		#The second line of text under the app name
+		state = ""
+		#The Asset ID of the image to display as the large image
+		largeImageKey = ""
+		#The text that gets displayed when the large image is hovered
+		largeImageText = "On Titan"
+		#The Asset ID of the image to display as the small image
+		smallImageKey = "mclogo"
+		#The text that gets displayed when the small image is hovered
+		smallImageText = "%mods% mods installed"
+		#The buttons to display on Discord
+		buttons = []	
+				
+	[[dimension_overrides.dimensions]]
+		#The name of the Dimension/Biome to override. FORMAT: modid:dimension or modid:biome
+		name = "planet.tauceti_f"
+		#The first line of text under the app name
+		description = "%player% is on  Tau Ceti F"
+		#The second line of text under the app name
+		state = ""
+		#The Asset ID of the image to display as the large image
+		largeImageKey = ""
+		#The text that gets displayed when the large image is hovered
+		largeImageText = "On Tau Ceti F"
+		#The Asset ID of the image to display as the small image
+		smallImageKey = "mclogo"
+		#The text that gets displayed when the small image is hovered
+		smallImageText = "%mods% mods installed"
+		#The buttons to display on Discord
+		buttons = []
+						
+	[[dimension_overrides.dimensions]]
+		#The name of the Dimension/Biome to override. FORMAT: modid:dimension or modid:biome
+		name = "planet.barnarda_c"
+		#The first line of text under the app name
+		description = "%player% is on Barnarda C"
+		#The second line of text under the app name
+		state = ""
+		#The Asset ID of the image to display as the large image
+		largeImageKey = ""
+		#The text that gets displayed when the large image is hovered
+		largeImageText = "On Barnarda C"
+		#The Asset ID of the image to display as the small image
+		smallImageKey = "mclogo"
+		#The text that gets displayed when the small image is hovered
+		smallImageText = "%mods% mods installed"
+		#The buttons to display on Discord
+		buttons = []
+						
+	[[dimension_overrides.dimensions]]
+		#The name of the Dimension/Biome to override. FORMAT: modid:dimension or modid:biome
+		name = "planet.asteroids"
+		#The first line of text under the app name
+		description = "%player% is in the Asteroid Belt"
+		#The second line of text under the app name
+		state = ""
+		#The Asset ID of the image to display as the large image
+		largeImageKey = ""
+		#The text that gets displayed when the large image is hovered
+		largeImageText = "In The Asteroid Belt"
+		#The Asset ID of the image to display as the small image
+		smallImageKey = "mclogo"
+		#The text that gets displayed when the small image is hovered
+		smallImageText = "%mods% mods installed"
+		#The buttons to display on Discord
+		buttons = []
+								
+	[[dimension_overrides.dimensions]]
+		#The name of the Dimension/Biome to override. FORMAT: modid:dimension or modid:biome
+		name = "planet.kuiperbelt"
+		#The first line of text under the app name
+		description = "%player% is in the Kuiper Belt"
+		#The second line of text under the app name
+		state = ""
+		#The Asset ID of the image to display as the large image
+		largeImageKey = ""
+		#The text that gets displayed when the large image is hovered
+		largeImageText = "In The Kuiper Belt"
+		#The Asset ID of the image to display as the small image
+		smallImageKey = "mclogo"
+		#The text that gets displayed when the small image is hovered
+		smallImageText = "%mods% mods installed"
+		#The buttons to display on Discord
+		buttons = []
+								
+	[[dimension_overrides.dimensions]]
+		#The name of the Dimension/Biome to override. FORMAT: modid:dimension or modid:biome
+		name = "planet.proxima_b"
+		#The first line of text under the app name
+		description = "%player% is on Proxima B"
+		#The second line of text under the app name
+		state = ""
+		#The Asset ID of the image to display as the large image
+		largeImageKey = ""
+		#The text that gets displayed when the large image is hovered
+		largeImageText = "On Proxima B"
+		#The Asset ID of the image to display as the small image
+		smallImageKey = "mclogo"
+		#The text that gets displayed when the small image is hovered
+		smallImageText = "%mods% mods installed"
+		#The buttons to display on Discord
+		buttons = []
+										
+	[[dimension_overrides.dimensions]]
+		#The name of the Dimension/Biome to override. FORMAT: modid:dimension or modid:biome
+		name = "limbo"
+		#The first line of text under the app name
+		description = "%player% is in Limbo"
+		#The second line of text under the app name
+		state = ""
+		#The Asset ID of the image to display as the large image
+		largeImageKey = ""
+		#The text that gets displayed when the large image is hovered
+		largeImageText = "In Limbo"
+		#The Asset ID of the image to display as the small image
+		smallImageKey = "mclogo"
+		#The text that gets displayed when the small image is hovered
+		smallImageText = "%mods% mods installed"
+		#The buttons to display on Discord
+		buttons = []
+										
+	[[dimension_overrides.dimensions]]
+		#The name of the Dimension/Biome to override. FORMAT: modid:dimension or modid:biome
+		name = "emptiness"
+		#The first line of text under the app name
+		description = "%player% is experiencing the Emptiness"
+		#The second line of text under the app name
+		state = ""
+		#The Asset ID of the image to display as the large image
+		largeImageKey = ""
+		#The text that gets displayed when the large image is hovered
+		largeImageText = "With Data"
+		#The Asset ID of the image to display as the small image
+		smallImageKey = "mclogo"
+		#The text that gets displayed when the small image is hovered
+		smallImageText = "%mods% mods installed"
+		#The buttons to display on Discord
+		buttons = []
+												
+	[[dimension_overrides.dimensions]]
+		#The name of the Dimension/Biome to override. FORMAT: modid:dimension or modid:biome
+		name = "Treasure Room"
+		#The first line of text under the app name
+		description = "%player% found their way to the Treasure Room"
+		#The second line of text under the app name
+		state = ""
+		#The Asset ID of the image to display as the large image
+		largeImageKey = ""
+		#The text that gets displayed when the large image is hovered
+		largeImageText = "Looting"
+		#The Asset ID of the image to display as the small image
+		smallImageKey = "mclogo"
+		#The text that gets displayed when the small image is hovered
+		smallImageText = "%mods% mods installed"
+		#The buttons to display on Discord
+		buttons = []
+												
+	[[dimension_overrides.dimensions]]
+		#The name of the Dimension/Biome to override. FORMAT: modid:dimension or modid:biome
+		name = "Anu Lair"
+		#The first line of text under the app name
+		description = "%player% is in Anu's Lair"
+		#The second line of text under the app name
+		state = ""
+		#The Asset ID of the image to display as the large image
+		largeImageKey = ""
+		#The text that gets displayed when the large image is hovered
+		largeImageText = "Fighting"
+		#The Asset ID of the image to display as the small image
+		smallImageKey = "mclogo"
+		#The text that gets displayed when the small image is hovered
+		smallImageText = "%mods% mods installed"
+		#The buttons to display on Discord
+		buttons = []
+												
+	[[dimension_overrides.dimensions]]
+		#The name of the Dimension/Biome to override. FORMAT: modid:dimension or modid:biome
+		name = "planet.haumea"
+		#The first line of text under the app name
+		description = "%player% is on Haumea"
+		#The second line of text under the app name
+		state = ""
+		#The Asset ID of the image to display as the large image
+		largeImageKey = ""
+		#The text that gets displayed when the large image is hovered
+		largeImageText = "On Haumea"
+		#The Asset ID of the image to display as the small image
+		smallImageKey = "mclogo"
+		#The text that gets displayed when the small image is hovered
+		smallImageText = "%mods% mods installed"
+		#The buttons to display on Discord
+		buttons = []
+												
+	[[dimension_overrides.dimensions]]
+		#The name of the Dimension/Biome to override. FORMAT: modid:dimension or modid:biome
+		name = "twilight_forest"
+		#The first line of text under the app name
+		description = "%player% is in the Twilight Forest"
+		#The second line of text under the app name
+		state = ""
+		#The Asset ID of the image to display as the large image
+		largeImageKey = ""
+		#The text that gets displayed when the large image is hovered
+		largeImageText = "Waiting for the Final Boss"
+		#The Asset ID of the image to display as the small image
+		smallImageKey = "mclogo"
+		#The text that gets displayed when the small image is hovered
+		smallImageText = "%mods% mods installed"
+		#The buttons to display on Discord
+		buttons = []
+												
+	[[dimension_overrides.dimensions]]
+		#The name of the Dimension/Biome to override. FORMAT: modid:dimension or modid:biome
+		name = "Storage Cell"
+		#The first line of text under the app name
+		description = "%player% is in a Storage Cell"
+		#The second line of text under the app name
+		state = ""
+		#The Asset ID of the image to display as the large image
+		largeImageKey = ""
+		#The text that gets displayed when the large image is hovered
+		largeImageText = "Made of 0's and 1's"
+		#The Asset ID of the image to display as the small image
+		smallImageKey = "mclogo"
+		#The text that gets displayed when the small image is hovered
+		smallImageText = "%mods% mods installed"
+		#The buttons to display on Discord
+		buttons = []
+												
+	[[dimension_overrides.dimensions]]
+		#The name of the Dimension/Biome to override. FORMAT: modid:dimension or modid:biome
+		name = "public_pockets"
+		#The first line of text under the app name
+		description = "%player% is in a Public Pocket"
+		#The second line of text under the app name
+		state = ""
+		#The Asset ID of the image to display as the large image
+		largeImageKey = ""
+		#The text that gets displayed when the large image is hovered
+		largeImageText = "Dunno what that means"
+		#The Asset ID of the image to display as the small image
+		smallImageKey = "mclogo"
+		#The text that gets displayed when the small image is hovered
+		smallImageText = "%mods% mods installed"
+		#The buttons to display on Discord
+		buttons = []
+												
+	[[dimension_overrides.dimensions]]
+		#The name of the Dimension/Biome to override. FORMAT: modid:dimension or modid:biome
+		name = "Deep Dark"
+		#The first line of text under the app name
+		description = "%player% is in the Deep Dark"
+		#The second line of text under the app name
+		state = ""
+		#The Asset ID of the image to display as the large image
+		largeImageKey = ""
+		#The text that gets displayed when the large image is hovered
+		largeImageText = "what how"
+		#The Asset ID of the image to display as the small image
+		smallImageKey = "mclogo"
+		#The text that gets displayed when the small image is hovered
+		smallImageText = "%mods% mods installed"
+		#The buttons to display on Discord
+		buttons = []
+												
+	[[dimension_overrides.dimensions]]
+		#The name of the Dimension/Biome to override. FORMAT: modid:dimension or modid:biome
+		name = "Ratlantis"
+		#The first line of text under the app name
+		description = "%player% is in Ratlantis"
+		#The second line of text under the app name
+		state = ""
+		#The Asset ID of the image to display as the large image
+		largeImageKey = ""
+		#The text that gets displayed when the large image is hovered
+		largeImageText = "In Ratlantis"
+		#The Asset ID of the image to display as the small image
+		smallImageKey = "mclogo"
+		#The text that gets displayed when the small image is hovered
+		smallImageText = "%mods% mods installed"
+		#The buttons to display on Discord
+		buttons = []
+												
+	[[dimension_overrides.dimensions]]
+		#The name of the Dimension/Biome to override. FORMAT: modid:dimension or modid:biome
+		name = "Wyvern Lair"
+		#The first line of text under the app name
+		description = "%player% is in the Wyvern Lair"
+		#The second line of text under the app name
+		state = ""
+		#The Asset ID of the image to display as the large image
+		largeImageKey = ""
+		#The text that gets displayed when the large image is hovered
+		largeImageText = "In the Wyvern Lair"
+		#The Asset ID of the image to display as the small image
+		smallImageKey = "mclogo"
+		#The text that gets displayed when the small image is hovered
+		smallImageText = "%mods% mods installed"
+		#The buttons to display on Discord
+		buttons = []
+												
+	[[dimension_overrides.dimensions]]
+		#The name of the Dimension/Biome to override. FORMAT: modid:dimension or modid:biome
+		name = "ExtraUtils2_Quarry_Dim"
+		#The first line of text under the app name
+		description = "%player% is in the Exta Utils Quarry Dimension"
+		#The second line of text under the app name
+		state = ""
+		#The Asset ID of the image to display as the large image
+		largeImageKey = ""
+		#The text that gets displayed when the large image is hovered
+		largeImageText = "In the Exta Utils Quarry Dimension"
+		#The Asset ID of the image to display as the small image
+		smallImageKey = "mclogo"
+		#The text that gets displayed when the small image is hovered
+		smallImageText = "%mods% mods installed"
+		#The buttons to display on Discord
+		buttons = []
+														
+	[[dimension_overrides.dimensions]]
+		#The name of the Dimension/Biome to override. FORMAT: modid:dimension or modid:biome
+		name = "nc_wasteland"
+		#The first line of text under the app name
+		description = "%player% is in The Wasteland"
+		#The second line of text under the app name
+		state = ""
+		#The Asset ID of the image to display as the large image
+		largeImageKey = ""
+		#The text that gets displayed when the large image is hovered
+		largeImageText = "In The Wasteland"
+		#The Asset ID of the image to display as the small image
+		smallImageKey = "mclogo"
+		#The text that gets displayed when the small image is hovered
+		smallImageText = "%mods% mods installed"
+		#The buttons to display on Discord
+		buttons = []

@@ -45,3 +45,5 @@ instance.cfg
 .minecraft/logs/buildcraft/scripts/buildcraft/book.log
 /.minecraft/logs/buildcraft
 .minecraft/dropt.log
+.minecraft/hs_err_pid21828.log
+.minecraft/dropt.log

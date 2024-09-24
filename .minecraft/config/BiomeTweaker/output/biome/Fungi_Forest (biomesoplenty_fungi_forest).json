@@ -21,9 +21,9 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "NETHER",
+    "MUSHROOM",
     "DENSE",
-    "HOT",
-    "MUSHROOM"
+    "HOT"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],
