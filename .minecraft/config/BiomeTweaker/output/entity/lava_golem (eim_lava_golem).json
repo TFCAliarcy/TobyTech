@@ -1,6 +1,0 @@
-
-{
-  "Name": "lava_golem",
-  "Registry ID": "eim:lava_golem",
-  "Class": "eim.common.entities.creatures.EntityLavaGolem"
-}

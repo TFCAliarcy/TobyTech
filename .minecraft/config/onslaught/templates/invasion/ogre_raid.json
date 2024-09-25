@@ -5,12 +5,11 @@
         "dimension": {
           "type": "include",
           "dimensions": [
-            0
           ]
         },
         "gamestages": {
                 "not": "1"},
-                "weight": 100
+                "weight": 0
           },
 
     
@@ -24,7 +23,7 @@
         "end": "The Ogres have been neutralized!",
         "warn": {
           "message": "You think you hear the stomping of Ogres, perhaps within a day's approach",
-          "ticks": 120
+          "ticks": 2400
         }
       },
       "commands": {

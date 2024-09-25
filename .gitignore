@@ -50,3 +50,7 @@ instance.cfg
 /.minecraft/journeymap
 .minecraft/dropt.log
 .minecraft/config/AppliedEnergistics2/CustomRecipes.cfg
+.minecraft/usercache.json
+.minecraft/usercache.json
+.minecraft/usernamecache.json
+/.minecraft/config/BiomeTweaker/output

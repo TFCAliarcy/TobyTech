@@ -1,6 +1,0 @@
-
-{
-  "Name": "mod_lavacow.cactoid",
-  "Registry ID": "mod_lavacow:cactoid",
-  "Class": "com.Fishmod.mod_LavaCow.entities.tameable.EntityCactoid"
-}

@@ -83,5 +83,12 @@ recipes.addShaped(<nuclearcraft:fusion_core>,
 [<nuclearcraft:chemical_reactor_idle>, <nuclearcraft:part:10>, <nuclearcraft:chemical_reactor_idle>],
 [<nuclearcraft:part:3>, <ore:blockTitanium>, <nuclearcraft:part:3>]]);
 
-// Thermal Ally Dust Blends
+// Thermal Alloy Dust Blends
 recipes.removeByRecipeName("thermalfoundation:dust_signalum");
+
+// Tesseract
+recipes.remove(<tesseract:tesseract>);
+recipes.addShaped(<tesseract:tesseract>,
+[[<ore:ingotTitanium>, <ore:ingotEnderium>, <ore:ingotTitanium>],
+[<ore:ingotEnderium>, <ore:blockAmethyst>, <ore:ingotEnderium>],
+[<ore:ingotTitanium>, <ore:ingotEnderium>, <ore:ingotTitanium>]]);
