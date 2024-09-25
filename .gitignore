@@ -47,3 +47,5 @@ instance.cfg
 .minecraft/dropt.log
 .minecraft/hs_err_pid21828.log
 .minecraft/dropt.log
+/.minecraft/journeymap
+.minecraft/dropt.log

@@ -1,4 +1,4 @@
-Started at: 2024-09-18T03:35:20.538
+Started at: 2024-09-24T21:50:32.82
 #############
 #
 # Loading
@@ -27,74 +27,74 @@ Found script: buildcraftcore/compat/buildcraft/guide.txt
 
 Adding buildcraftfactory:block/flood_gate as ItemStackValueFilter: 1xtile.floodGateBlock@0
 Adding buildcraftsilicon:item/plug_pulsar as ItemStackValueFilter: 1xitem.pulsar@0
-Adding buildcraftcore:action/machine_control_on as ActionMachineControl: buildcraft.core.statements.ActionMachineControl@35b4d82
+Adding buildcraftcore:action/machine_control_on as ActionMachineControl: buildcraft.core.statements.ActionMachineControl@4f39a28b
 Adding buildcrafttransport:pipe/diamond_fluid as ItemStackValueFilter: 1xitem.PipeFluidsDiamond@0
 Adding buildcraftfactory:block/heat_exchange as ItemStackValueFilter: 1xtile.heat_exchange@0
 Adding buildcrafttransport:pipe/wood_item as ItemStackValueFilter: 1xitem.PipeItemsWood@0
-Adding buildcraftcore:trigger/always_on as TriggerTrue: buildcraft.core.statements.TriggerTrue@7f2e63
+Adding buildcraftcore:trigger/always_on as TriggerTrue: buildcraft.core.statements.TriggerTrue@1caf037e
 Adding buildcrafttransport:pipe/gold_fluid as ItemStackValueFilter: 1xitem.PipeFluidsGold@0
 Adding buildcrafttransport:pipe/clay_fluid as ItemStackValueFilter: 1xitem.PipeFluidsClay@0
-Adding buildcraftsilicon:action/pulsar_single as ActionPowerPulsar: buildcraft.silicon.statement.ActionPowerPulsar@29f04301
-Adding buildcraftcore:trigger/inventory_space as TriggerInventory: buildcraft.core.statements.TriggerInventory@12849ff6
+Adding buildcraftsilicon:action/pulsar_single as ActionPowerPulsar: buildcraft.silicon.statement.ActionPowerPulsar@a8e5181
+Adding buildcraftcore:trigger/inventory_space as TriggerInventory: buildcraft.core.statements.TriggerInventory@5a7dc237
 Adding buildcraftlib:config/guide_page_format as String: Guide Page File Format§r
-Adding buildcraftcore:trigger/inventory_contains as TriggerInventory: buildcraft.core.statements.TriggerInventory@4b6ae779
-Adding buildcraftcore:action/machine_control_loop as ActionMachineControl: buildcraft.core.statements.ActionMachineControl@329fd441
+Adding buildcraftcore:trigger/inventory_contains as TriggerInventory: buildcraft.core.statements.TriggerInventory@58521e09
+Adding buildcraftcore:action/machine_control_loop as ActionMachineControl: buildcraft.core.statements.ActionMachineControl@3c82528e
 Adding buildcraftcore:item/wrench as ItemStackValueFilter: 1xitem.wrenchItem@0
-Adding buildcraftcore:trigger/inventory_below_75 as TriggerInventoryLevel: buildcraft.core.statements.TriggerInventoryLevel@195c6158
-Adding buildcraftcore:trigger/engine_overheat as TriggerEnginePowerStage: buildcraft.core.statements.TriggerEnginePowerStage@2f9126aa
+Adding buildcraftcore:trigger/inventory_below_75 as TriggerInventoryLevel: buildcraft.core.statements.TriggerInventoryLevel@44780ec6
+Adding buildcraftcore:trigger/engine_overheat as TriggerEnginePowerStage: buildcraft.core.statements.TriggerEnginePowerStage@70a00004
 Adding buildcrafttransport:pipe/emzuli_item as ItemStackValueFilter: 1xitem.PipeItemsEmzuli@0
-Adding buildcraftcore:trigger/machine_inactive as TriggerMachine: buildcraft.core.statements.TriggerMachine@33dc5d0e
-Adding buildcraftcore:trigger/inventory_empty as TriggerInventory: buildcraft.core.statements.TriggerInventory@7fadbae8
-Adding buildcraftsilicon:action/pulsar_constant as ActionPowerPulsar: buildcraft.silicon.statement.ActionPowerPulsar@58142e4
-Adding buildcraftcore:trigger/fluid_below_75 as TriggerFluidContainerLevel: buildcraft.core.statements.TriggerFluidContainerLevel@23839088
-Adding buildcraftcore:trigger/engine_green as TriggerEnginePowerStage: buildcraft.core.statements.TriggerEnginePowerStage@72669ddb
+Adding buildcraftcore:trigger/machine_inactive as TriggerMachine: buildcraft.core.statements.TriggerMachine@38cafa4f
+Adding buildcraftcore:trigger/inventory_empty as TriggerInventory: buildcraft.core.statements.TriggerInventory@16f2d9fa
+Adding buildcraftsilicon:action/pulsar_constant as ActionPowerPulsar: buildcraft.silicon.statement.ActionPowerPulsar@12f8fbdc
+Adding buildcraftcore:trigger/fluid_below_75 as TriggerFluidContainerLevel: buildcraft.core.statements.TriggerFluidContainerLevel@622869a7
+Adding buildcraftcore:trigger/engine_green as TriggerEnginePowerStage: buildcraft.core.statements.TriggerEnginePowerStage@ddfef2f
 Adding buildcrafttransport:pipe/daizuli_item as ItemStackValueFilter: 1xitem.PipeItemsDaizuli@0
-Adding buildcraftsilicon:trigger/light_low as TriggerLightSensor: buildcraft.silicon.statement.TriggerLightSensor@600e1385
+Adding buildcraftsilicon:trigger/light_low as TriggerLightSensor: buildcraft.silicon.statement.TriggerLightSensor@de2da67
 Adding buildcraftlib:config/json_insn_format as String: Json Instruction File Format§r
 Adding buildcrafttransport:action/pipe_direction_south as ActionPipeDirection: ActionPipeDirection[south]
-Adding buildcraftcore:trigger/redstone_active as TriggerRedstoneInput: buildcraft.core.statements.TriggerRedstoneInput@6f97eb02
+Adding buildcraftcore:trigger/redstone_active as TriggerRedstoneInput: buildcraft.core.statements.TriggerRedstoneInput@5891e61c
 Adding buildcraftlib:config/registry_overview as String: Json Registry Overview§r
 Adding buildcraftcore:block/engine_wood as ItemStackValueFilter: Matching meta of 1xtile.engineBlock@0
 Adding buildcraftenergy:block/engine_iron as ItemStackValueFilter: Matching meta of 1xtile.engineBlock@2
 Adding buildcraftcore:item/gear_iron as ItemStackValueFilter: 1xitem.ironGearItem@0
-Adding buildcraftcore:trigger/engine_yellow as TriggerEnginePowerStage: buildcraft.core.statements.TriggerEnginePowerStage@502f31a8
+Adding buildcraftcore:trigger/engine_yellow as TriggerEnginePowerStage: buildcraft.core.statements.TriggerEnginePowerStage@7955d9f8
 Adding buildcraftsilicon:item/plug_gate as ItemStackValueFilter: 1xitem.gate@0
 Adding buildcraftsilicon:item/plug_facade as ItemStackValueFilter: 1xitem.Facade@0
 Adding buildcrafttransport:item/plug_blocker as ItemStackValueFilter: 1xitem.PipePlug@0
-Adding buildcrafttransport:action/pipe_colour as ActionPipeColor: buildcraft.transport.statements.ActionPipeColor@16e1e633
-Adding buildcraftcore:trigger/inventory_full as TriggerInventory: buildcraft.core.statements.TriggerInventory@6635d51
-Adding buildcraftcore:trigger/inventory_below_50 as TriggerInventoryLevel: buildcraft.core.statements.TriggerInventoryLevel@567c7964
+Adding buildcrafttransport:action/pipe_colour as ActionPipeColor: buildcraft.transport.statements.ActionPipeColor@b01f76a
+Adding buildcraftcore:trigger/inventory_full as TriggerInventory: buildcraft.core.statements.TriggerInventory@102b258f
+Adding buildcraftcore:trigger/inventory_below_50 as TriggerInventoryLevel: buildcraft.core.statements.TriggerInventoryLevel@475d8090
 Adding buildcrafttransport:item/plug_power_adaptor as ItemStackValueFilter: 1xitem.PipePowerAdapter@0
-Adding buildcraftcore:trigger/fluid_contains as TriggerFluidContainer: buildcraft.core.statements.TriggerFluidContainer@7f77a072
+Adding buildcraftcore:trigger/fluid_contains as TriggerFluidContainer: buildcraft.core.statements.TriggerFluidContainer@10901b9a
 Adding buildcrafttransport:pipe/structure as ItemStackValueFilter: 1xitem.PipeStructureCobblestone@0
 Adding buildcrafttransport:pipe/quartz_item as ItemStackValueFilter: 1xitem.PipeItemsQuartz@0
-Adding buildcraftcore:trigger/fluid_below_50 as TriggerFluidContainerLevel: buildcraft.core.statements.TriggerFluidContainerLevel@663e11d1
+Adding buildcraftcore:trigger/fluid_below_50 as TriggerFluidContainerLevel: buildcraft.core.statements.TriggerFluidContainerLevel@142e1445
 Adding buildcraftfactory:block/tank as ItemStackValueFilter: 1xtile.tankBlock@0
-Adding buildcraftcore:trigger/fluid_empty as TriggerFluidContainer: buildcraft.core.statements.TriggerFluidContainer@7a2b4192
-Adding buildcraftcore:trigger/machine_active as TriggerMachine: buildcraft.core.statements.TriggerMachine@4f29b0ea
+Adding buildcraftcore:trigger/fluid_empty as TriggerFluidContainer: buildcraft.core.statements.TriggerFluidContainer@5d605c12
+Adding buildcraftcore:trigger/machine_active as TriggerMachine: buildcraft.core.statements.TriggerMachine@76121e2e
 Adding buildcraftfactory:block/mining_well as ItemStackValueFilter: 1xtile.miningWellBlock@0
 Adding buildcrafttransport:pipe/diamond_wood_item as ItemStackValueFilter: 1xitem.PipeItemsWoodenDiamond@0
-Adding buildcraftcore:trigger/engine_red as TriggerEnginePowerStage: buildcraft.core.statements.TriggerEnginePowerStage@d1ffd4d
+Adding buildcraftcore:trigger/engine_red as TriggerEnginePowerStage: buildcraft.core.statements.TriggerEnginePowerStage@664e87bd
 Adding buildcrafttransport:pipe/iron_fluid as ItemStackValueFilter: 1xitem.PipeFluidsIron@0
 Adding buildcrafttransport:pipe/gold_item as ItemStackValueFilter: 1xitem.PipeItemsGold@0
-Adding buildcrafttransport:action/extraction_preset as ActionExtractionPreset: buildcraft.transport.statements.ActionExtractionPreset@1b39d5a6
+Adding buildcrafttransport:action/extraction_preset as ActionExtractionPreset: buildcraft.transport.statements.ActionExtractionPreset@2262b0d
 Adding buildcrafttransport:pipe/lapis_item as ItemStackValueFilter: 1xitem.PipeItemsLapis@0
 Adding buildcraftcore:item/volume_box as ItemStackValueFilter: 1xitem.volume_box@0
 Adding buildcrafttransport:action/pipe_direction_west as ActionPipeDirection: ActionPipeDirection[west]
 Adding buildcraftcore:item/gear_stone as ItemStackValueFilter: 1xitem.stoneGearItem@0
 Adding buildcraftcore:item/list as ItemStackValueFilter: 1xitem.list@0
-Adding buildcrafttransport:trigger/items_traversing as TriggerItemsTraversing: buildcraft.transport.statements.TriggerItemsTraversing@7e5329a6
+Adding buildcrafttransport:trigger/items_traversing as TriggerItemsTraversing: buildcraft.transport.statements.TriggerItemsTraversing@50281c73
 Adding buildcraftfactory:block/distiller as ItemStackValueFilter: 1xtile.distiller@0
 Adding buildcrafttransport:pipe/stone_fluid as ItemStackValueFilter: 1xitem.PipeFluidsStone@0
 Adding buildcrafttransport:pipe/sandstone_fluid as ItemStackValueFilter: 1xitem.PipeFluidsSandstone@0
-Adding buildcraftcore:action/machine_control_off as ActionMachineControl: buildcraft.core.statements.ActionMachineControl@1dd5e55f
+Adding buildcraftcore:action/machine_control_off as ActionMachineControl: buildcraft.core.statements.ActionMachineControl@16258ff1
 Adding buildcrafttransport:pipe/clay_item as ItemStackValueFilter: 1xitem.PipeItemsClay@0
 Adding buildcrafttransport:pipe/wood_fluid as ItemStackValueFilter: 1xitem.PipeFluidsWood@0
-Adding buildcraftsilicon:trigger/light_high as TriggerLightSensor: buildcraft.silicon.statement.TriggerLightSensor@208dc597
-Adding buildcrafttransport:trigger/fluids_traversing as TriggerFluidsTraversing: buildcraft.transport.statements.TriggerFluidsTraversing@57249045
-Adding buildcraftcore:action/redstone as ActionRedstoneOutput: buildcraft.core.statements.ActionRedstoneOutput@305d8d1e
+Adding buildcraftsilicon:trigger/light_high as TriggerLightSensor: buildcraft.silicon.statement.TriggerLightSensor@afcda8f
+Adding buildcrafttransport:trigger/fluids_traversing as TriggerFluidsTraversing: buildcraft.transport.statements.TriggerFluidsTraversing@1c348ee1
+Adding buildcraftcore:action/redstone as ActionRedstoneOutput: buildcraft.core.statements.ActionRedstoneOutput@cefc290
 Adding buildcrafttransport:pipe/cobble_item as ItemStackValueFilter: 1xitem.PipeItemsCobblestone@0
-Adding buildcraftcore:trigger/inventory_below_25 as TriggerInventoryLevel: buildcraft.core.statements.TriggerInventoryLevel@2907957
+Adding buildcraftcore:trigger/inventory_below_25 as TriggerInventoryLevel: buildcraft.core.statements.TriggerInventoryLevel@360f9efb
 Adding buildcraftcore:item/marker_path as ItemStackValueFilter: 1xtile.pathMarkerBlock@0
 Adding buildcraftcore:item/gear_wood as ItemStackValueFilter: 1xitem.woodenGearItem@0
 Adding buildcrafttransport:item/wire as ItemStackValueFilter: 1xitem.pipeWire@0
@@ -106,7 +106,7 @@ Adding buildcraftfactory:block/autoworkbench_item as ItemStackValueFilter: 1xtil
 Adding buildcrafttransport:action/pipe_direction_north as ActionPipeDirection: ActionPipeDirection[north]
 Adding buildcrafttransport:action/pipe_direction_above as ActionPipeDirection: ActionPipeDirection[up]
 Adding buildcraftfactory:block/chute as ItemStackValueFilter: 1xtile.chuteBlock@0
-Adding buildcraftcore:trigger/fluid_below_25 as TriggerFluidContainerLevel: buildcraft.core.statements.TriggerFluidContainerLevel@4cffb5ef
+Adding buildcraftcore:trigger/fluid_below_25 as TriggerFluidContainerLevel: buildcraft.core.statements.TriggerFluidContainerLevel@5acb0217
 Adding buildcraftenergy:block/engine_stone as ItemStackValueFilter: Matching meta of 1xtile.engineBlock@1
 Adding buildcrafttransport:pipe/void_item as ItemStackValueFilter: 1xitem.PipeItemsVoid@0
 Adding buildcrafttransport:pipe/stone_item as ItemStackValueFilter: 1xitem.PipeItemsStone@0
@@ -115,7 +115,7 @@ Adding buildcrafttransport:pipe/diamond_item as ItemStackValueFilter: 1xitem.Pip
 Adding buildcraftcore:item/gear_diamond as ItemStackValueFilter: 1xitem.diamondGearItem@0
 Adding buildcrafttransport:pipe/quartz_fluid as ItemStackValueFilter: 1xitem.PipeFluidsQuartz@0
 Adding buildcraftcore:item/gear_gold as ItemStackValueFilter: 1xitem.goldGearItem@0
-Adding buildcraftcore:trigger/engine_blue as TriggerEnginePowerStage: buildcraft.core.statements.TriggerEnginePowerStage@3faaa28d
+Adding buildcraftcore:trigger/engine_blue as TriggerEnginePowerStage: buildcraft.core.statements.TriggerEnginePowerStage@6230cc29
 Adding buildcrafttransport:pipe/iron_item as ItemStackValueFilter: 1xitem.PipeItemsIron@0
 Adding buildcrafttransport:pipe/void_fluid as ItemStackValueFilter: 1xitem.PipeFluidsVoid@0
 Adding buildcrafttransport:pipe/stripes_item as ItemStackValueFilter: 1xitem.PipeItemsStripes@0
@@ -123,15 +123,15 @@ Adding buildcraftsilicon:item/plug_light_sensor as ItemStackValueFilter: 1xitem.
 Adding buildcraftfactory:block/pump as ItemStackValueFilter: 1xtile.pumpBlock@0
 Adding buildcrafttransport:pipe/cobble_fluid as ItemStackValueFilter: 1xitem.PipeFluidsCobblestone@0
 Adding buildcrafttransport:pipe/obsidian_item as ItemStackValueFilter: 1xitem.PipeItemsObsidian@0
-Adding buildcrafttransport:action/pipe_signal_active as ActionPipeSignal: buildcraft.transport.statements.ActionPipeSignal@63c3fd1b
-Adding buildcraftcore:trigger/fluid_space as TriggerFluidContainer: buildcraft.core.statements.TriggerFluidContainer@62987af5
-Adding buildcraftcore:trigger/redstone_inactive as TriggerRedstoneInput: buildcraft.core.statements.TriggerRedstoneInput@5379fb84
+Adding buildcrafttransport:action/pipe_signal_active as ActionPipeSignal: buildcraft.transport.statements.ActionPipeSignal@10b969bd
+Adding buildcraftcore:trigger/fluid_space as TriggerFluidContainer: buildcraft.core.statements.TriggerFluidContainer@5a8bc517
+Adding buildcraftcore:trigger/redstone_inactive as TriggerRedstoneInput: buildcraft.core.statements.TriggerRedstoneInput@5852afeb
 Adding buildcrafttransport:pipe/sandstone_item as ItemStackValueFilter: 1xitem.PipeItemsSandstone@0
-Adding buildcraftcore:trigger/fluid_full as TriggerFluidContainer: buildcraft.core.statements.TriggerFluidContainer@392d85ac
-Adding buildcrafttransport:trigger/pipe_signal_inactive as TriggerPipeSignal: buildcraft.transport.statements.TriggerPipeSignal@45fa9cb7
-Adding buildcrafttransport:trigger/pipe_signal_active as TriggerPipeSignal: buildcraft.transport.statements.TriggerPipeSignal@6494092f
+Adding buildcraftcore:trigger/fluid_full as TriggerFluidContainer: buildcraft.core.statements.TriggerFluidContainer@3c67714c
+Adding buildcrafttransport:trigger/pipe_signal_inactive as TriggerPipeSignal: buildcraft.transport.statements.TriggerPipeSignal@67c803fc
+Adding buildcrafttransport:trigger/pipe_signal_active as TriggerPipeSignal: buildcraft.transport.statements.TriggerPipeSignal@636fd16f
 Adding buildcrafttransport:pipe/diamond_wood_fluid as ItemStackValueFilter: 1xitem.PipeFluidsWoodenDiamond@0
 Unable to load buildcrafttransport:trigger/pipe_empty from {"type":"statement","book":"buildcraftcore:main","tag_type":"trigger","tag_subtype":"pipe_item","statement":"buildcraft:pipe_empty"} because Unknown statement 'buildcraft:pipe_empty'
 Adding buildcraftcore:item/marker_connector as ItemStackValueFilter: 1xitem.markerConnector@0
 Adding buildcraftcore:block/engine_creative as ItemStackValueFilter: Matching meta of 1xtile.engineBlock@1
-Finished at: 2024-09-18T03:35:21.13, took 592ms
+Finished at: 2024-09-24T21:50:33.405, took 585ms

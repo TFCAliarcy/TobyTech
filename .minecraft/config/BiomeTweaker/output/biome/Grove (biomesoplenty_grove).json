@@ -22,8 +22,8 @@
   "Dictionary Types": [
     "PLAINS",
     "LUSH",
-    "SPARSE",
     "WET",
+    "SPARSE",
     "FOREST"
   ],
   "BiomeManager Entries": {},

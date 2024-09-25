@@ -1,6 +1,6 @@
-[03:34:32] [Client thread/INFO] [JMLogger] JourneyMap log initialized.
-[03:34:32] [Client thread/INFO] [JourneymapClient] initialize ENTER
-[03:34:33] [Client thread/INFO] [?] Version: JourneyMap 1.12.2-5.7.1, built with Forge 14.23.5.2768
+[21:49:46] [Client thread/INFO] [JMLogger] JourneyMap log initialized.
+[21:49:46] [Client thread/INFO] [JourneymapClient] initialize ENTER
+[21:49:46] [Client thread/INFO] [?] Version: JourneyMap 1.12.2-5.7.1, built with Forge 14.23.5.2768
 Forge: 14.23.5.2860
 Environment: os.name, os.arch, java.version, user.country, user.language=null, game language=en_us, locale=en_us
 Features: 
@@ -17,697 +17,1142 @@ FullMapProperties{state=Valid, file=journeymap.fullmap.config, configVersion=5.7
 WaypointProperties{state=Valid, file=journeymap.waypoint.config, configVersion=5.7.1, autoRemoveDeathpointDistance=2, createDeathpoints=true, showName=true, dateFormat=MM-dd-yyyy, autoRemoveDeathpoints=false, maxDistance=0, autoHideLabel=true, teleportCommand=/tp {name} {x} {y} {z}, showStaticBeam=true, minDistance=4, timeFormat=HH:mm:ss, boldLabel=false, textureSmall=true, showDeathpointlabel=true, showDistance=true, showRotatingBeam=true, fontScale=2, showTexture=true, managerEnabled=true, beaconEnabled=true}
 WebMapProperties{state=Valid, file=journeymap.webmap.config, configVersion=5.7.1, zoomLevel=0, showWaypoints=true, showCaves=true, showSelf=true, port=8080, showGrid=true, showEntityNames=true, enabled=false, preferredMapType=day}
 CoreProperties{state=Valid, file=journeymap.core.config, configVersion=5.7.1, verboseColorPalette=false, maxPlayersData=32, mapSurfaceAboveCaves=true, optionsManagerViewed=5.7.1, announceMod=true, colorPassive=#bbbbbb, renderOverlayEventTypeName=ALL, mapBlendWater=false, renderDistanceSurfaceMax=7, radarVerticalDistance=16, mapBlendGrass=true, recordCacheStats=false, hideSneakingEntities=true, revealShape=Circle, alwaysMapSurface=false, colorVillager=#88e188, mapPlants=false, colorPet=#0077ff, radarLateralDistance=64, mapBathymetry=false, mapCrops=true, maxMobsData=32, mapPlantShadows=false, alwaysMapCaves=false, checkUpdates=true, browserPoll=2000, mapBlendFoliage=true, mappingEnabled=true, colorPlayer=#ffffff, tileHighDisplayQuality=true, cacheVillagersData=2200, logLevel=INFO, maxVillagersData=32, maxAnimalsData=32, mapTransparency=true, tileRenderType=1, caveIgnoreGlass=true, mapTopography=true, renderDistanceCaveMax=3, mapAntialiasing=true, colorSelf=#0000ff, cachePlayersData=2000, cacheMobsData=3000, cachePlayerData=1000, splashViewed=5.7.1, colorHostile=#ff0000, cacheAnimalsData=3100, themeName=OceanMonument, mapCaveLighting=true, renderDelay=2, renderOverlayPreEvent=true, autoMapPoll=2000}
-[03:34:33] [Client thread/INFO] [ClientAPI] [ClientAPI] built with JourneyMap API 1.4
-[03:34:33] [Client thread/INFO] [PluginHelper] Initializing plugins with Client API: journeymap.client.api.impl.ClientAPI
-[03:34:33] [Client thread/INFO] [PluginHelper] Initialized IClientPlugin: com.feed_the_beast.ftbutilities.integration.JourneyMapIntegration
-[03:34:33] [Client thread/INFO] [PluginHelper] Initialized IClientPlugin: youyihj.zenutils.impl.util.JourneyMapPlugin
-[03:34:33] [Client thread/INFO] [PluginHelper] Initialized IClientPlugin: com.teamacronymcoders.base.modules.journeymap.JourneyMapPlugin
-[03:34:33] [Client thread/INFO] [JourneymapClient] initialize EXIT, elapsed count 0 avg ?ms
-[03:35:28] [Client thread/DEBUG] [JourneymapClient] postInitialize ENTER
-[03:35:28] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.KeyEventHandler
-[03:35:28] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.ChatEventHandler
-[03:35:28] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.StateTickHandler
-[03:35:28] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.WorldEventHandler
-[03:35:28] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.WaypointBeaconHandler
-[03:35:28] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.TextureAtlasHandler
-[03:35:28] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.MiniMapOverlayHandler
-[03:35:28] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.PlayerConnectHandler
-[03:35:28] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.world.ChunkMonitor
-[03:35:28] [Client thread/INFO] [IconSetFileHandler] Added entity icons from journeymap:icon/entity. Success: false
-[03:35:28] [Client thread/TRACE] [ThemeLoader] Initializing themes ...
-[03:35:29] [Client thread/INFO] [ThemeLoader] Preloaded theme textures: 73
-[03:35:29] [Client thread/DEBUG] [JourneymapClient] postInitialize EXIT, elapsed§8 count §r1§8 avg §r623.62§8ms§r
-[03:36:57] [Client thread/DEBUG] [StatTimer] Tick.MappingMonitorTask warmup done, 10
-[03:39:30] [Netty Local Client IO #0/DEBUG] [JourneymapClient] Connection initiated with Journeymap Server: true
-[03:39:30] [Netty Local Client IO #0/DEBUG] [JourneymapClient] Teleport Enabled:true
-[03:39:30] [Netty Local Client IO #0/DEBUG] [JourneymapClient] Server Admin Enabled:true
-[03:39:30] [Netty Local Client IO #0/DEBUG] [JourneymapClient] Connection initiated with Journeymap Server: true
-[03:39:30] [Netty Local Client IO #0/DEBUG] [JourneymapClient] Teleport Enabled:true
-[03:39:30] [Netty Local Client IO #0/DEBUG] [JourneymapClient] Server Admin Enabled:true
-[03:39:31] [Client thread/INFO] [ChatLog] JourneyMap: Press [J]
-[03:39:31] [Client thread/DEBUG] [StatTimer] TileDrawStep.updateRegionTexture warmup done, 5
-[03:39:31] [Client thread/DEBUG] [StatTimer] TileDrawStep.updateScaledTexture warmup done, 5
-[03:39:31] [Client thread/DEBUG] [GridRenderer] Centered on Tile [ r-64, r97 (zoom 0) ] with pixel offsets of 0.0,0.0
-[03:39:31] [Client thread/DEBUG] [GridRenderer] Centered on Tile [ r-64, r97 (zoom 0) ] with pixel offsets of 610.8000000119209,241.36944576328824
-[03:39:31] [Client thread/DEBUG] [GridRenderer] Centered on Tile [ r-64, r97 (zoom 0) ] with pixel offsets of 610.8000000119209,241.36944576328824
-[03:39:31] [Client thread/DEBUG] [GridRenderer] Centered on Tile [ r-64, r97 (zoom 0) ] with pixel offsets of 610.8000000119209,241.36944576328824
-[03:39:31] [Client thread/INFO] [WaypointStore] Loaded 0 waypoints from C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\New World\waypoints
-[03:39:31] [Client thread/DEBUG] [TaskController] Task not initially enabled: MapRegionTask
-[03:39:31] [Client thread/DEBUG] [TaskController] Task not initially enabled: SaveMapTask
-[03:39:31] [Client thread/DEBUG] [TaskController] Task ready: MapPlayerTask
-[03:39:31] [Client thread/DEBUG] [TaskController] Task ready: InitColorManagerTask
-[03:39:31] [Client thread/INFO] [JourneymapClient] Mapping started in C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\New World\DIM-29. Memory: 19143MB total, 13313MB free 
-[03:39:31] [Client thread/DEBUG] [GridRenderer] Centered on Tile [ r-64, r97 (zoom 0) ] with pixel offsets of 610.8000000119209,241.36944576328824
-[03:39:31] [Client thread/DEBUG] [GridRenderer] Centered on Tile [ r-64, r97 (zoom 0) ] with pixel offsets of 610.8000000119209,241.36944576328824
-[03:39:32] [Netty Local Client IO #0/DEBUG] [JourneymapClient] Connection initiated with Journeymap Server: true
-[03:39:32] [Netty Local Client IO #0/DEBUG] [JourneymapClient] Teleport Enabled:true
-[03:39:32] [Netty Local Client IO #0/DEBUG] [JourneymapClient] Server Admin Enabled:true
-[03:39:34] [Client thread/DEBUG] [StatTimer] TaskController.performMultithreadTasks warmup done, 1
-[03:39:34] [Client thread/INFO] [ModBlockDelegate] Custom modded block handling enabled for bibliocraft
-[03:39:34] [Client thread/INFO] [ModBlockDelegate] Custom modded block handling enabled for biomesoplenty
-[03:39:34] [Client thread/DEBUG] [StatTimer] GridRenderer.updateTiles(1) warmup done, 5
-[03:39:34] [Client thread/DEBUG] [StatTimer] GridRenderer.updateTiles(2) warmup done, 5
-[03:39:34] [Client thread/DEBUG] [StatTimer] TileDrawStep.draw(low) warmup done, 10
-[03:39:35] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:39:35] [JM-task-4/DEBUG] [VanillaBlockSpriteProxy] Success during [Solid] class net.minecraftforge.client.model.PerspectiveMapWrapper.getQuads(galacticraftplanets:mars[basictypemars=mars_stone], up, 0)
-[03:39:35] [JM-task-4/DEBUG] [ColorManager] Cached color #471600 for galacticraftplanets:blocks/bottom
-[03:39:35] [JM-task-4/DEBUG] [StatTimer] ImageHolder.partialImageUpdate warmup done, 5
-[03:39:35] [JM-task-4/DEBUG] [StatTimer] TopoRenderer.renderSurface warmup done, 10
-[03:39:36] [Client thread/DEBUG] [StatTimer] MiniMap1.Circle warmup done, 100
-[03:39:36] [Client thread/DEBUG] [KeyEventHandler] [KeyBindingAction{LBRACKET = Change Map Type}]
-[03:39:36] [Client thread/DEBUG] [KeyEventHandler] [KeyBindingAction{BACKSLASH = Switch MiniMap Preset}]
-[03:39:36] [Client thread/DEBUG] [KeyEventHandler] [KeyBindingAction{MINUS = Zoom Out}]
-[03:39:36] [Client thread/DEBUG] [KeyEventHandler] [KeyBindingAction{EQUALS = Zoom In}]
-[03:39:36] [Client thread/DEBUG] [KeyEventHandler] [KeyBindingAction{CTRL + B = Waypoint Manager}, KeyBindingAction{B = Create Waypoint}]
-[03:39:36] [Client thread/DEBUG] [KeyEventHandler] [KeyBindingAction{CTRL + J = Show / Hide MiniMap}, KeyBindingAction{J = Show / Hide Fullscreen Map}]
-[03:39:36] [Client thread/DEBUG] [KeyEventHandler] [KeyBindingAction{LBRACKET = Change Map Type}]
-[03:39:36] [Client thread/DEBUG] [KeyEventHandler] [KeyBindingAction{BACKSLASH = Switch MiniMap Preset}]
-[03:39:36] [Client thread/DEBUG] [KeyEventHandler] [KeyBindingAction{MINUS = Zoom Out}]
-[03:39:36] [Client thread/DEBUG] [KeyEventHandler] [KeyBindingAction{Z = Toggle all Waypoints}]
-[03:39:36] [Client thread/DEBUG] [KeyEventHandler] [KeyBindingAction{EQUALS = Zoom In}]
-[03:39:36] [Client thread/DEBUG] [KeyEventHandler] [KeyBindingAction{CTRL + B = Waypoint Manager}, KeyBindingAction{B = Create Waypoint (at cursor)}]
-[03:39:36] [Client thread/DEBUG] [KeyEventHandler] [KeyBindingAction{DOWN = Pan South (16 Blocks)}]
-[03:39:36] [Client thread/DEBUG] [KeyEventHandler] [KeyBindingAction{NONE = Chat Position (at cursor)}]
-[03:39:36] [Client thread/DEBUG] [KeyEventHandler] [KeyBindingAction{J = Show / Hide Fullscreen Map}]
-[03:39:36] [Client thread/DEBUG] [KeyEventHandler] [KeyBindingAction{O = Options Manager}]
-[03:39:36] [Client thread/DEBUG] [KeyEventHandler] [KeyBindingAction{UP = Pan North (16 Blocks)}]
-[03:39:36] [Client thread/DEBUG] [KeyEventHandler] [KeyBindingAction{LBRACKET = Change Map Type}]
-[03:39:36] [Client thread/DEBUG] [KeyEventHandler] [KeyBindingAction{LEFT = Pan West (16 Blocks)}]
-[03:39:36] [Client thread/DEBUG] [KeyEventHandler] [KeyBindingAction{MINUS = Zoom Out}]
-[03:39:36] [Client thread/DEBUG] [KeyEventHandler] [KeyBindingAction{EQUALS = Zoom In}]
-[03:39:36] [Client thread/DEBUG] [KeyEventHandler] [KeyBindingAction{RIGHT = Pan East (16 Blocks)}]
-[03:39:38] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:39:38] [JM-task-4/DEBUG] [StatTimer] CaveRenderer.render warmup done, 10
-[03:39:39] [Client thread/DEBUG] [StatTimer] Tick.MappingMonitorTask warmup done, 10
-[03:39:40] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:39:42] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:39:42] [JM-task-4/DEBUG] [StatTimer] MapPlayerTask.performTask warmup done, 5
-[03:39:44] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:39:44] [Client thread/DEBUG] [StatTimer] MapState.refresh warmup done, 10
-[03:39:46] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:39:46] [Client thread/DEBUG] [StatTimer] MiniMap1.Circle+refreshState warmup done, 5
-[03:39:48] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:39:50] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:39:52] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:39:55] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:39:57] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:39:57] [Client thread/DEBUG] [StatTimer] MapState.generateDrawSteps warmup done, 10
-[03:39:58] [Client thread/DEBUG] [StatTimer] MapPlayerTask.Manager.getTask warmup done, 10
-[03:39:59] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:40:01] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:40:01] [Client thread/DEBUG] [StatTimer] EntityHelper.getPlayersNearby warmup done, 10
-[03:40:03] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:40:05] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:40:07] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:40:09] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:40:11] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:40:13] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:40:16] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:40:18] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:40:18] [Client thread/DEBUG] [StatTimer] EntityHelper.getVillagersNearby warmup done, 10
-[03:40:18] [Client thread/DEBUG] [StatTimer] EntityHelper.getMobsNearby warmup done, 10
-[03:40:20] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:40:20] [Client thread/DEBUG] [StatTimer] EntityHelper.getAnimalsNearby warmup done, 10
-[03:40:22] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:40:24] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:40:26] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:40:28] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:40:30] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:40:32] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:40:32] [JM-task-4/DEBUG] [RegionImageCache] RegionImageCache auto-flushing
-[03:40:32] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\New World\DIM-29\day\-63,97.png
-[03:40:32] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\New World\DIM-29\5\-63,97.png
-[03:40:32] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\New World\DIM-29\day\-64,97.png
-[03:40:33] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\New World\DIM-29\0\-64,97.png
-[03:40:33] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\New World\DIM-29\topo\-64,97.png
-[03:40:33] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\New World\DIM-29\5\-64,97.png
-[03:40:34] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:40:37] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:40:39] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:40:41] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:40:43] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:40:45] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:40:47] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:40:49] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:40:51] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:40:53] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:40:55] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:40:58] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:41:00] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:41:02] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:41:04] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:41:06] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:41:08] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:41:10] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:41:12] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:41:14] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:41:16] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:41:19] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:41:21] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:41:23] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:41:25] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:41:27] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:41:29] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:41:31] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:41:33] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:41:33] [JM-task-4/DEBUG] [RegionImageCache] RegionImageCache auto-flushing
-[03:41:33] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\New World\DIM-29\topo\-64,97.png
-[03:41:35] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:41:37] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:41:40] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:41:42] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:41:44] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:41:46] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:41:48] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:41:50] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:41:52] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:41:54] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:41:56] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:41:58] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:42:01] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:42:03] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:42:05] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:42:07] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:42:09] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:42:11] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:42:13] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:42:15] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:42:17] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:42:19] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:42:22] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:42:24] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:42:26] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:42:28] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:42:30] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:42:32] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:42:34] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:42:34] [JM-task-4/DEBUG] [RegionImageCache] RegionImageCache auto-flushing
-[03:42:36] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:42:38] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:42:41] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:42:44] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:42:46] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:42:48] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:42:50] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:42:52] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:42:54] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:42:56] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:42:58] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:43:00] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:43:02] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:43:05] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:43:07] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:43:09] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:43:11] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:43:13] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:43:15] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:43:17] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:43:19] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:43:21] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:43:23] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:43:26] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:43:28] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:43:30] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:43:32] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:43:34] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:43:36] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:43:36] [JM-task-4/DEBUG] [RegionImageCache] RegionImageCache auto-flushing
-[03:43:38] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:43:40] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:43:42] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:43:44] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:43:47] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:43:49] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:43:51] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:43:53] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:43:55] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:43:57] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:43:59] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:44:01] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:44:03] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:44:05] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:44:08] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:44:10] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:44:12] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:44:14] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:44:16] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:44:18] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:44:20] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:44:22] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:44:24] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:44:26] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:44:29] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:44:31] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:44:33] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:44:35] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:44:37] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:44:37] [JM-task-4/DEBUG] [RegionImageCache] RegionImageCache auto-flushing
-[03:44:39] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:44:41] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:44:43] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:44:45] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:44:47] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:44:50] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:44:52] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:44:54] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:44:56] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:44:58] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:45:00] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:45:02] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:45:04] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:45:06] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:45:08] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:45:11] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:45:13] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:45:15] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:45:17] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:45:19] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:45:21] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:45:23] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:45:25] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:45:27] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:45:29] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:45:32] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:45:34] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:45:36] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:45:38] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:45:38] [JM-task-4/DEBUG] [RegionImageCache] RegionImageCache auto-flushing
-[03:45:38] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\New World\DIM-29\5\-63,97.png
-[03:45:40] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:45:42] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:45:44] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:45:46] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:45:48] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:45:50] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:45:53] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:45:55] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:45:57] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:45:59] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:46:01] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:46:03] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:46:05] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:46:51] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:46:51] [JM-task-4/DEBUG] [RegionImageCache] RegionImageCache auto-flushing
-[03:46:53] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:46:56] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:46:58] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:47:00] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:47:02] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:47:04] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:47:07] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:47:09] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:47:11] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:47:13] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:47:15] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:47:17] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:47:19] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:47:21] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:47:23] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:47:25] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:47:28] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:47:30] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:47:32] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:47:34] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:47:36] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:47:38] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:47:40] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:47:42] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:47:44] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:47:46] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:47:49] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:47:51] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:47:53] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:47:53] [JM-task-4/DEBUG] [RegionImageCache] RegionImageCache auto-flushing
-[03:47:53] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\New World\DIM-29\5\-63,97.png
-[03:47:53] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\New World\DIM-29\day\-64,97.png
-[03:47:53] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\New World\DIM-29\topo\-64,97.png
-[03:47:53] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\New World\DIM-29\5\-64,97.png
-[03:47:55] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:47:57] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:47:59] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:48:01] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:48:03] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:48:05] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:48:07] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:48:10] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:48:12] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:48:14] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:48:16] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:48:18] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:48:20] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:48:22] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:48:24] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:48:26] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:48:28] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:48:31] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:48:33] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:48:35] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:48:37] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:48:39] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:48:41] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:48:43] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:48:45] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:48:47] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:48:49] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:48:52] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:48:54] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:48:54] [JM-task-4/DEBUG] [RegionImageCache] RegionImageCache auto-flushing
-[03:48:56] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:48:58] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:49:00] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:49:02] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:49:04] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:49:06] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:49:08] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:49:10] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:49:13] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:49:54] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:49:54] [JM-task-4/DEBUG] [ImageHolder] Wrote to disk: C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\New World\DIM-29\5\-63,97.png
-[03:49:54] [JM-task-4/DEBUG] [RegionImageCache$2] Wrote to disk before removal from cache: RegionImageSet{imageHolders=[-29|underground|5=ImageHolder{mapType=-29|underground|5, textureId=499, dirty=false, imagePath=C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\New World\DIM-29\5\-63,97.png}]}
-[03:49:54] [JM-task-4/DEBUG] [RegionImageCache] RegionImageCache auto-flushing
-[03:49:56] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:49:58] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:50:00] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:50:02] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:50:04] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:50:06] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:50:09] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:50:11] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:50:13] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:50:15] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:50:17] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:50:19] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:50:21] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:50:23] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:50:25] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:50:27] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:50:30] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:50:32] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:50:32] [JM-task-4/DEBUG] [ImageHolder] Wrote to disk: C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\New World\DIM-29\5\-63,97.png
-[03:50:32] [JM-task-4/DEBUG] [RegionImageCache$2] Wrote to disk before removal from cache: RegionImageSet{imageHolders=[-29|underground|5=ImageHolder{mapType=-29|underground|5, textureId=501, dirty=false, imagePath=C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\New World\DIM-29\5\-63,97.png}]}
-[03:50:34] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:50:36] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:50:38] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:50:40] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:50:42] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:50:44] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:50:46] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:50:48] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:50:51] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:50:53] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:50:55] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:50:55] [JM-task-4/DEBUG] [RegionImageCache] RegionImageCache auto-flushing
-[03:50:55] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\New World\DIM-29\day\-64,97.png
-[03:50:55] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\New World\DIM-29\topo\-64,97.png
-[03:50:55] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\New World\DIM-29\5\-64,97.png
-[03:50:57] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:50:59] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:51:01] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:51:03] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:51:05] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:51:07] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:51:09] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:51:12] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:51:14] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:51:16] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:51:18] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:51:20] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:51:22] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:51:24] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:51:26] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:51:28] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:51:30] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:51:33] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:51:35] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:51:37] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:51:39] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:51:41] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:51:43] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:51:45] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:51:47] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:51:49] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:51:51] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:51:54] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:51:56] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:51:56] [JM-task-4/DEBUG] [RegionImageCache] RegionImageCache auto-flushing
-[03:51:58] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:52:00] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:52:02] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:52:04] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:52:06] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:52:08] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:52:10] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:52:12] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:52:15] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:52:17] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:52:19] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:52:21] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:52:23] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:52:25] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:52:27] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:53:12] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:53:12] [JM-task-4/DEBUG] [ImageHolder] Wrote to disk: C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\New World\DIM-29\5\-63,97.png
-[03:53:12] [JM-task-4/DEBUG] [RegionImageCache$2] Wrote to disk before removal from cache: RegionImageSet{imageHolders=[-29|underground|5=ImageHolder{mapType=-29|underground|5, textureId=499, dirty=false, imagePath=C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\New World\DIM-29\5\-63,97.png}]}
-[03:53:12] [JM-task-4/DEBUG] [RegionImageCache] RegionImageCache auto-flushing
-[03:53:15] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:53:17] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:53:19] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:53:21] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:53:23] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:53:25] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:53:27] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:53:30] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:53:32] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:53:34] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:53:36] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:53:38] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:53:40] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:53:42] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:53:44] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:53:46] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:53:48] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:53:51] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:53:53] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:53:55] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:53:57] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:53:59] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:54:01] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:54:03] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:54:05] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:54:07] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:54:09] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:54:12] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:54:14] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:54:14] [JM-task-4/DEBUG] [RegionImageCache] RegionImageCache auto-flushing
-[03:54:14] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\New World\DIM-29\day\-64,97.png
-[03:54:14] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\New World\DIM-29\topo\-64,97.png
-[03:54:14] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\New World\DIM-29\5\-64,97.png
-[03:54:17] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:54:19] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:54:21] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:54:23] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:54:25] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:54:27] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:54:29] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:54:31] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:54:34] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:54:36] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:54:38] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:54:40] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:54:42] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:54:44] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:54:46] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:54:48] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:54:50] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:54:52] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:54:55] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:54:57] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:54:59] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:55:01] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:55:03] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:55:05] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:55:07] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:55:09] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:55:11] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:55:13] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:55:16] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:55:16] [JM-task-4/DEBUG] [RegionImageCache] RegionImageCache auto-flushing
-[03:55:18] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:55:20] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:55:22] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:55:24] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:55:26] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:55:28] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:55:30] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:55:32] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:55:34] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:55:37] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:55:39] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:55:41] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:55:43] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:55:45] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:55:47] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:55:49] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:55:51] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:55:53] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:55:55] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:55:58] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:56:00] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:56:02] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:56:04] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:56:06] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:56:08] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:56:10] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:56:12] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:56:14] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:56:16] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:56:16] [JM-task-4/DEBUG] [RegionImageCache] RegionImageCache auto-flushing
-[03:56:19] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:56:21] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:56:23] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:56:25] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:56:27] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:56:29] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:56:31] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:56:33] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:56:35] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:56:37] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:56:40] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:56:42] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:56:44] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:56:46] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:56:48] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:56:50] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:56:52] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:56:54] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:56:56] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:56:58] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:57:41] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:57:41] [JM-task-4/DEBUG] [ImageHolder] Wrote to disk: C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\New World\DIM-29\5\-63,97.png
-[03:57:41] [JM-task-4/DEBUG] [RegionImageCache$2] Wrote to disk before removal from cache: RegionImageSet{imageHolders=[-29|underground|5=ImageHolder{mapType=-29|underground|5, textureId=500, dirty=false, imagePath=C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\New World\DIM-29\5\-63,97.png}]}
-[03:57:41] [JM-task-4/DEBUG] [RegionImageCache] RegionImageCache auto-flushing
-[03:57:44] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:57:46] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:57:48] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:57:50] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:57:52] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:57:54] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:57:57] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:57:59] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:58:01] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:58:03] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:58:05] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:58:07] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:58:09] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:58:11] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:58:13] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:58:15] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:58:18] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:58:20] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:58:22] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:58:24] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:58:26] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:58:28] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:58:30] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:58:32] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:58:34] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:58:36] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:58:39] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:58:41] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:58:41] [JM-task-4/DEBUG] [ImageHolder] Wrote to disk: C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\New World\DIM-29\5\-63,97.png
-[03:58:41] [JM-task-4/DEBUG] [RegionImageCache$2] Wrote to disk before removal from cache: RegionImageSet{imageHolders=[-29|underground|5=ImageHolder{mapType=-29|underground|5, textureId=500, dirty=false, imagePath=C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\New World\DIM-29\5\-63,97.png}]}
-[03:58:43] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:58:43] [JM-task-4/DEBUG] [RegionImageCache] RegionImageCache auto-flushing
-[03:58:43] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\New World\DIM-29\day\-64,97.png
-[03:58:43] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\New World\DIM-29\topo\-64,97.png
-[03:58:43] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\New World\DIM-29\5\-64,97.png
-[03:58:45] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:58:47] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:58:49] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:58:51] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:58:53] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:58:55] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:58:57] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:59:00] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:59:02] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:59:04] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:59:06] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:59:08] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:59:10] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:59:12] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:59:14] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:59:16] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:59:18] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:59:21] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:59:23] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:59:25] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:59:27] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:59:29] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:59:31] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:59:33] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:59:35] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:59:37] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:59:39] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:59:42] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:59:44] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:59:44] [JM-task-4/DEBUG] [RegionImageCache] RegionImageCache auto-flushing
-[03:59:46] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:59:48] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:59:50] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:59:52] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[03:59:54] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[04:00:37] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[04:00:37] [JM-task-4/DEBUG] [ImageHolder] Wrote to disk: C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\New World\DIM-29\5\-63,97.png
-[04:00:37] [JM-task-4/DEBUG] [RegionImageCache$2] Wrote to disk before removal from cache: RegionImageSet{imageHolders=[-29|underground|5=ImageHolder{mapType=-29|underground|5, textureId=500, dirty=false, imagePath=C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\New World\DIM-29\5\-63,97.png}]}
-[04:00:40] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[04:00:42] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[04:00:44] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[04:00:44] [JM-task-4/DEBUG] [RegionImageCache] RegionImageCache auto-flushing
-[04:00:46] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[04:00:48] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[04:01:30] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[04:01:31] [JM-task-4/DEBUG] [ImageHolder] Wrote to disk: C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\New World\DIM-29\day\-64,97.png
-[04:01:31] [JM-task-4/DEBUG] [ImageHolder] Wrote to disk: C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\New World\DIM-29\topo\-64,97.png
-[04:01:31] [JM-task-4/DEBUG] [ImageHolder] Wrote to disk: C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\New World\DIM-29\5\-64,97.png
-[04:01:31] [JM-task-4/DEBUG] [RegionImageCache$2] Wrote to disk before removal from cache: RegionImageSet{imageHolders=[-29|day|_=ImageHolder{mapType=-29|day|_, textureId=-1, dirty=false, imagePath=C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\New World\DIM-29\day\-64,97.png}, -29|topo|_=ImageHolder{mapType=-29|topo|_, textureId=-1, dirty=false, imagePath=C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\New World\DIM-29\topo\-64,97.png}, -29|underground|5=ImageHolder{mapType=-29|underground|5, textureId=501, dirty=false, imagePath=C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\New World\DIM-29\5\-64,97.png}]}
-[04:01:31] [JM-task-4/DEBUG] [ImageHolder] Wrote to disk: C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\New World\DIM-29\5\-63,97.png
-[04:01:31] [JM-task-4/DEBUG] [RegionImageCache$2] Wrote to disk before removal from cache: RegionImageSet{imageHolders=[-29|underground|5=ImageHolder{mapType=-29|underground|5, textureId=502, dirty=false, imagePath=C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\New World\DIM-29\5\-63,97.png}]}
-[04:01:33] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[04:01:36] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[04:01:38] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[04:01:40] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[04:01:42] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[04:01:44] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[04:01:46] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[04:01:46] [JM-task-4/DEBUG] [RegionImageCache] RegionImageCache auto-flushing
-[04:01:46] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\New World\DIM-29\5\-63,97.png
-[04:01:46] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\New World\DIM-29\day\-64,97.png
-[04:01:46] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\New World\DIM-29\topo\-64,97.png
-[04:01:46] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\New World\DIM-29\5\-64,97.png
-[04:01:48] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[04:01:50] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[04:01:52] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[04:01:54] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[04:01:57] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[04:01:59] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[04:02:01] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[04:02:03] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[04:02:05] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[04:02:07] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[04:02:09] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[04:02:11] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[04:02:13] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[04:02:15] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[04:02:18] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[04:02:20] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[04:02:22] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[04:02:24] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[04:02:26] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[04:02:28] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[04:02:30] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[04:02:32] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[04:02:34] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[04:02:36] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[04:02:37] [Client thread/INFO] [JourneymapClient] Mapping halted in C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\New World\DIM-29
-[04:02:37] [Client thread/DEBUG] [TaskController] Task disabled: MapPlayerTask
-[04:02:37] [Client thread/DEBUG] [TaskController] Task disabled: InitColorManagerTask
+[21:49:46] [Client thread/INFO] [ClientAPI] [ClientAPI] built with JourneyMap API 1.4
+[21:49:46] [Client thread/INFO] [PluginHelper] Initializing plugins with Client API: journeymap.client.api.impl.ClientAPI
+[21:49:46] [Client thread/INFO] [PluginHelper] Initialized IClientPlugin: com.feed_the_beast.ftbutilities.integration.JourneyMapIntegration
+[21:49:46] [Client thread/INFO] [PluginHelper] Initialized IClientPlugin: youyihj.zenutils.impl.util.JourneyMapPlugin
+[21:49:46] [Client thread/INFO] [PluginHelper] Initialized IClientPlugin: com.teamacronymcoders.base.modules.journeymap.JourneyMapPlugin
+[21:49:46] [Client thread/INFO] [JourneymapClient] initialize EXIT, elapsed count 0 avg ?ms
+[21:50:40] [Client thread/DEBUG] [JourneymapClient] postInitialize ENTER
+[21:50:40] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.KeyEventHandler
+[21:50:40] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.ChatEventHandler
+[21:50:40] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.StateTickHandler
+[21:50:40] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.WorldEventHandler
+[21:50:40] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.WaypointBeaconHandler
+[21:50:40] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.TextureAtlasHandler
+[21:50:40] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.MiniMapOverlayHandler
+[21:50:40] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.PlayerConnectHandler
+[21:50:40] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.world.ChunkMonitor
+[21:50:40] [Client thread/INFO] [IconSetFileHandler] Added entity icons from journeymap:icon/entity. Success: false
+[21:50:40] [Client thread/TRACE] [ThemeLoader] Initializing themes ...
+[21:50:41] [Client thread/INFO] [ThemeLoader] Preloaded theme textures: 73
+[21:50:41] [Client thread/DEBUG] [JourneymapClient] postInitialize EXIT, elapsed§8 count §r1§8 avg §r589.26§8ms§r
+[21:52:04] [Client thread/DEBUG] [StatTimer] Tick.MappingMonitorTask warmup done, 10
+[22:06:56] [Netty Local Client IO #0/DEBUG] [JourneymapClient] Connection initiated with Journeymap Server: true
+[22:06:56] [Netty Local Client IO #0/DEBUG] [JourneymapClient] Teleport Enabled:true
+[22:06:56] [Netty Local Client IO #0/DEBUG] [JourneymapClient] Server Admin Enabled:true
+[22:06:56] [Netty Local Client IO #0/DEBUG] [JourneymapClient] Connection initiated with Journeymap Server: true
+[22:06:56] [Netty Local Client IO #0/DEBUG] [JourneymapClient] Teleport Enabled:true
+[22:06:56] [Netty Local Client IO #0/DEBUG] [JourneymapClient] Server Admin Enabled:true
+[22:06:57] [Client thread/DEBUG] [StatTimer] TileDrawStep.updateRegionTexture warmup done, 5
+[22:06:57] [Client thread/DEBUG] [StatTimer] TileDrawStep.updateScaledTexture warmup done, 5
+[22:06:57] [Client thread/DEBUG] [GridRenderer] Centered on Tile [ r-1, r-1 (zoom 0) ] with pixel offsets of 0.0,0.0
+[22:06:57] [Client thread/DEBUG] [GridRenderer] Centered on Tile [ r-1, r-1 (zoom 0) ] with pixel offsets of 909.3431298209385,293.91853162434126
+[22:06:58] [Client thread/INFO] [ChatLog] JourneyMap: Press [J]
+[22:06:58] [Client thread/DEBUG] [StatTimer] TileDrawStep.updateRegionTexture warmup done, 5
+[22:06:58] [Client thread/DEBUG] [StatTimer] TileDrawStep.updateScaledTexture warmup done, 5
+[22:06:58] [Client thread/DEBUG] [GridRenderer] Centered on Tile [ r-1, r-1 (zoom 0) ] with pixel offsets of 909.3431298209385,293.91853162434126
+[22:06:58] [Client thread/DEBUG] [GridRenderer] Centered on Tile [ r-1, r-1 (zoom 0) ] with pixel offsets of 909.3431298209385,293.91853162434126
+[22:06:58] [Client thread/DEBUG] [GridRenderer] Centered on Tile [ r-1, r-1 (zoom 0) ] with pixel offsets of 909.3431298209385,293.91853162434126
+[22:06:58] [Client thread/DEBUG] [GridRenderer] Centered on Tile [ r-1, r-1 (zoom 0) ] with pixel offsets of 909.3431298209385,293.91853162434126
+[22:06:58] [Client thread/INFO] [WaypointStore] Loaded 0 waypoints from C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\Copy of New World\waypoints
+[22:06:58] [Client thread/DEBUG] [TaskController] Task not initially enabled: MapRegionTask
+[22:06:58] [Client thread/DEBUG] [TaskController] Task not initially enabled: SaveMapTask
+[22:06:58] [Client thread/DEBUG] [TaskController] Task ready: MapPlayerTask
+[22:06:58] [Client thread/DEBUG] [TaskController] Task ready: InitColorManagerTask
+[22:06:58] [Client thread/INFO] [JourneymapClient] Mapping started in C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\Copy of New World\DIM-8. Memory: 18391MB total, 12002MB free 
+[22:06:58] [Client thread/DEBUG] [GridRenderer] Centered on Tile [ r-1, r-1 (zoom 0) ] with pixel offsets of 909.3431298209385,293.91853162434126
+[22:06:58] [Netty Local Client IO #0/DEBUG] [JourneymapClient] Connection initiated with Journeymap Server: true
+[22:06:58] [Netty Local Client IO #0/DEBUG] [JourneymapClient] Teleport Enabled:true
+[22:06:58] [Netty Local Client IO #0/DEBUG] [JourneymapClient] Server Admin Enabled:true
+[22:06:58] [Client thread/DEBUG] [GridRenderer] Centered on Tile [ r-1, r-1 (zoom 0) ] with pixel offsets of 909.3431298209385,293.91853162434126
+[22:06:58] [Client thread/DEBUG] [StatTimer] Tick.MappingMonitorTask warmup done, 10
+[22:06:59] [Client thread/DEBUG] [StatTimer] TileDrawStep.draw(low) warmup done, 10
+[22:06:59] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:06:59] [JM-task-4/INFO] [ModBlockDelegate] Custom modded block handling enabled for bibliocraft
+[22:06:59] [JM-task-4/INFO] [ModBlockDelegate] Custom modded block handling enabled for biomesoplenty
+[22:06:59] [JM-task-4/DEBUG] [ColorManager] Cached color #939393 for minecraft:blocks/grass_top
+[22:06:59] [JM-task-4/DEBUG] [ColorManager] Cached color #878787 for minecraft:blocks/leaves_oak
+[22:06:59] [JM-task-4/DEBUG] [ColorManager] Cached color #918e86 for minecraft:blocks/leaves_jungle
+[22:06:59] [JM-task-4/DEBUG] [ColorManager] Cached color #6f6f6f for minecraft:blocks/vine
+[22:06:59] [JM-task-4/DEBUG] [VanillaBlockSpriteProxy] Success during [Mipped Cutout] class forestry.arboriculture.models.ModelDefaultLeaves.getQuads(forestry:leaves.default.4[check_decay=false,decayable=true,variant=ebony], up, 0)
+[22:06:59] [JM-task-4/DEBUG] [ColorManager] Cached color #8b8b8b for forestry:blocks/leaves/jungle.fancy
+[22:06:59] [Client thread/DEBUG] [StatTimer] GridRenderer.updateTiles(1) warmup done, 5
+[22:06:59] [Client thread/DEBUG] [StatTimer] GridRenderer.updateTiles(2) warmup done, 5
+[22:06:59] [JM-task-4/DEBUG] [ColorManager] Cached color #2852b1 for minecraft:blocks/water_still
+[22:06:59] [JM-task-4/DEBUG] [ColorManager] Cached color #dbd3a0 for minecraft:blocks/sand
+[22:06:59] [JM-task-4/DEBUG] [VanillaBlockSpriteProxy] Success during [Solid] class net.minecraftforge.client.model.PerspectiveMapWrapper.getQuads(rats:marbled_cheese_brick, up, 0)
+[22:06:59] [JM-task-4/DEBUG] [ColorManager] Cached color #f2edd9 for rats:blocks/marbled_cheese_brick
+[22:06:59] [JM-task-4/DEBUG] [VanillaBlockSpriteProxy] Success during [Solid] class net.minecraftforge.client.model.PerspectiveMapWrapper.getQuads(rats:marbled_cheese_brick_cracked, up, 0)
+[22:06:59] [JM-task-4/DEBUG] [ColorManager] Cached color #e3deca for rats:blocks/marbled_cheese_brick_cracked
+[22:06:59] [JM-task-4/DEBUG] [VanillaBlockSpriteProxy] Success during [Mipped Cutout] class forestry.arboriculture.models.ModelDefaultLeaves.getQuads(forestry:leaves.default.8[check_decay=false,decayable=true,variant=papaya], up, 0)
+[22:06:59] [JM-task-4/DEBUG] [ColorManager] Cached color #767676 for forestry:blocks/leaves/palm.fancy
+[22:06:59] [JM-task-4/DEBUG] [VanillaBlockSpriteProxy] Success during [Solid] class net.minecraftforge.client.model.PerspectiveMapWrapper.getQuads(rats:marbled_cheese_brick_stairs[facing=north,half=bottom,shape=straight], up, 0)
+[22:06:59] [JM-task-4/DEBUG] [VanillaBlockSpriteProxy] Success during [Solid] class net.minecraftforge.client.model.PerspectiveMapWrapper.getQuads(rats:marbled_cheese_tile, up, 0)
+[22:06:59] [JM-task-4/DEBUG] [ColorManager] Cached color #eee9d5 for rats:blocks/marbled_cheese_tile
+[22:06:59] [JM-task-4/DEBUG] [VanillaBlockSpriteProxy] Success during [Solid] class net.minecraftforge.client.model.PerspectiveMapWrapper.getQuads(rats:marbled_cheese_brick_mossy, up, 0)
+[22:06:59] [JM-task-4/DEBUG] [ColorManager] Cached color #c5caa0 for rats:blocks/marbled_cheese_brick_mossy
+[22:06:59] [JM-task-4/DEBUG] [VanillaBlockSpriteProxy] Success during [Solid] class net.minecraftforge.client.model.PerspectiveMapWrapper.getQuads(rats:marbled_cheese_raw, up, 0)
+[22:06:59] [JM-task-4/DEBUG] [ColorManager] Cached color #ded9c5 for rats:blocks/marbled_cheese_raw
+[22:06:59] [JM-task-4/DEBUG] [VanillaBlockSpriteProxy] Success during [Solid] class net.minecraftforge.client.model.PerspectiveMapWrapper.getQuads(rats:marbled_cheese_brick_stairs[facing=east,half=bottom,shape=straight], up, 0)
+[22:06:59] [JM-task-4/DEBUG] [VanillaBlockSpriteProxy] Success during [Solid] class net.minecraftforge.client.model.PerspectiveMapWrapper.getQuads(rats:marbled_cheese_brick_chiseled, up, 0)
+[22:06:59] [JM-task-4/DEBUG] [ColorManager] Cached color #e3dec9 for rats:blocks/marbled_cheese_brick_chiseled
+[22:06:59] [JM-task-4/DEBUG] [VanillaBlockSpriteProxy] Success during [Solid] class net.minecraftforge.client.model.PerspectiveMapWrapper.getQuads(rats:marbled_cheese_brick_stairs[facing=south,half=bottom,shape=straight], up, 0)
+[22:06:59] [JM-task-4/DEBUG] [VanillaBlockSpriteProxy] Success during [Solid] class net.minecraftforge.client.model.PerspectiveMapWrapper.getQuads(rats:marbled_cheese_brick_stairs[facing=south,half=top,shape=straight], up, 0)
+[22:06:59] [JM-task-4/DEBUG] [ColorManager] Cached color #866043 for minecraft:blocks/dirt
+[22:06:59] [JM-task-4/DEBUG] [ColorManager] Cached color #7d7d7d for minecraft:blocks/stone
+[22:06:59] [JM-task-4/DEBUG] [VanillaBlockSpriteProxy] Success during [Solid] class net.minecraftforge.client.model.PerspectiveMapWrapper.getQuads(rats:marbled_cheese_brick_stairs[facing=west,half=top,shape=straight], up, 0)
+[22:06:59] [JM-task-4/DEBUG] [VanillaBlockSpriteProxy] Success during [Solid] class net.minecraftforge.client.model.PerspectiveMapWrapper.getQuads(rats:marbled_cheese_brick_stairs[facing=west,half=bottom,shape=straight], up, 0)
+[22:06:59] [JM-task-4/DEBUG] [VanillaBlockSpriteProxy] Success during [Solid] class net.minecraftforge.client.model.PerspectiveMapWrapper.getQuads(rats:marbled_cheese_stairs[facing=east,half=top,shape=straight], up, 0)
+[22:06:59] [JM-task-4/DEBUG] [ColorManager] Cached color #ebe5d0 for rats:blocks/marbled_cheese
+[22:06:59] [JM-task-4/DEBUG] [VanillaBlockSpriteProxy] Success during [Solid] class net.minecraftforge.client.model.PerspectiveMapWrapper.getQuads(rats:marbled_cheese_stairs[facing=south,half=top,shape=straight], up, 0)
+[22:06:59] [JM-task-4/DEBUG] [VanillaBlockSpriteProxy] Success during [Solid] class net.minecraftforge.client.model.PerspectiveMapWrapper.getQuads(rats:marbled_cheese_stairs[facing=north,half=top,shape=straight], up, 0)
+[22:06:59] [JM-task-4/DEBUG] [VanillaBlockSpriteProxy] Success during [Solid] class net.minecraftforge.client.model.PerspectiveMapWrapper.getQuads(rats:marbled_cheese_stairs[facing=west,half=top,shape=straight], up, 0)
+[22:06:59] [JM-task-4/DEBUG] [VanillaBlockSpriteProxy] Success during [Solid] class net.minecraftforge.client.model.PerspectiveMapWrapper.getQuads(rats:marbled_cheese_pillar[axis=z], up, 0)
+[22:06:59] [JM-task-4/DEBUG] [ColorManager] Cached color #ebe5d0 for rats:blocks/marbled_cheese_pillar
+[22:06:59] [JM-task-4/DEBUG] [VanillaBlockSpriteProxy] Success during [Solid] class net.minecraftforge.client.model.PerspectiveMapWrapper.getQuads(rats:marbled_cheese_pillar[axis=x], up, 0)
+[22:06:59] [JM-task-4/DEBUG] [VanillaBlockSpriteProxy] Success during [Solid] class net.minecraftforge.client.model.PerspectiveMapWrapper.getQuads(forestry:beehives[hive=jungle], up, 0)
+[22:06:59] [JM-task-4/DEBUG] [ColorManager] Cached color #514515 for forestry:blocks/beehives/jungle.top
+[22:06:59] [JM-task-4/DEBUG] [VanillaBlockSpriteProxy] Success during [Solid] class net.minecraftforge.client.model.PerspectiveMapWrapper.getQuads(rats:marbled_cheese_stairs[facing=south,half=bottom,shape=outer_left], up, 0)
+[22:06:59] [JM-task-4/DEBUG] [ColorManager] Cached color #7e7c7a for minecraft:blocks/gravel
+[22:06:59] [JM-task-4/DEBUG] [VanillaBlockSpriteProxy] Success during [Solid] class net.minecraftforge.client.model.PerspectiveMapWrapper.getQuads(forestry:beehives[hive=swamp], up, 0)
+[22:06:59] [JM-task-4/DEBUG] [ColorManager] Cached color #384716 for forestry:blocks/beehives/swamp.top
+[22:06:59] [JM-task-4/DEBUG] [ColorManager] Cached color #f9ec4e for minecraft:blocks/gold_block
+[22:06:59] [JM-task-4/DEBUG] [StatTimer] SurfaceRenderer.renderSurface warmup done, 10
+[22:06:59] [JM-task-4/DEBUG] [VanillaBlockSpriteProxy] Success during [Mipped Cutout] class forestry.arboriculture.models.ModelDefaultLeaves.getQuads(forestry:leaves.default.7[check_decay=false,decayable=true,variant=sipiri], up, 0)
+[22:06:59] [JM-task-4/DEBUG] [ColorManager] Cached color #878787 for forestry:blocks/leaves/deciduous.fancy
+[22:06:59] [JM-task-4/DEBUG] [ColorManager] Cached color #7a7a7a for minecraft:blocks/stonebrick
+[22:06:59] [JM-task-4/DEBUG] [ColorManager] Cached color #767676 for minecraft:blocks/stonebrick_carved
+[22:06:59] [JM-task-4/DEBUG] [VanillaBlockSpriteProxy] Resorted to using BlockModelStates.getTexture() to use missingno as color for dimdoors:dimensional_portal[facing=west,half=lower,hinge=left,open=false,powered=false]
+[22:06:59] [JM-task-4/DEBUG] [VanillaBlockSpriteProxy] Success during [Solid] class net.minecraftforge.client.model.PerspectiveMapWrapper.getQuads(rats:marbled_cheese_brick_stairs[facing=east,half=top,shape=straight], up, 0)
+[22:06:59] [JM-task-4/DEBUG] [VanillaBlockSpriteProxy] Success during [Solid] class net.minecraftforge.client.model.PerspectiveMapWrapper.getQuads(rats:marbled_cheese_brick_stairs[facing=north,half=top,shape=straight], up, 0)
+[22:06:59] [JM-task-4/DEBUG] [VanillaBlockSpriteProxy] Success during [Solid] class net.minecraftforge.client.model.PerspectiveMapWrapper.getQuads(rats:marbled_cheese, up, 0)
+[22:06:59] [JM-task-4/DEBUG] [VanillaBlockSpriteProxy] Success during [Solid] class net.minecraftforge.client.model.PerspectiveMapWrapper.getQuads(rats:marbled_cheese_stairs[facing=east,half=bottom,shape=straight], up, 0)
+[22:06:59] [JM-task-4/DEBUG] [VanillaBlockSpriteProxy] Success during [Solid] class net.minecraftforge.client.model.PerspectiveMapWrapper.getQuads(rats:marbled_cheese_slab[half=bottom], null, 0)
+[22:06:59] [JM-task-4/DEBUG] [VanillaBlockSpriteProxy] Success during [Solid] class net.minecraftforge.client.model.PerspectiveMapWrapper.getQuads(rats:marbled_cheese_stairs[facing=west,half=bottom,shape=straight], up, 0)
+[22:06:59] [JM-task-4/DEBUG] [VanillaBlockSpriteProxy] Success during [Solid] class net.minecraftforge.client.model.PerspectiveMapWrapper.getQuads(rats:marbled_cheese_chiseled, up, 0)
+[22:06:59] [JM-task-4/DEBUG] [ColorManager] Cached color #e7e2d2 for rats:blocks/marbled_cheese_chiseled
+[22:06:59] [JM-task-4/DEBUG] [ColorManager] Cached color #9a7d4d for minecraft:blocks/log_oak_top
+[22:06:59] [JM-task-4/DEBUG] [VanillaBlockSpriteProxy] Success during [Mipped Cutout] class forestry.arboriculture.models.ModelDefaultLeaves.getQuads(forestry:leaves.default.6[check_decay=false,decayable=true,variant=wenge], up, 0)
+[22:06:59] [JM-task-4/DEBUG] [VanillaBlockSpriteProxy] Success during [Solid] class net.minecraftforge.client.model.PerspectiveMapWrapper.getQuads(rats:marbled_cheese_brick_slab[half=bottom], null, 0)
+[22:06:59] [JM-task-4/DEBUG] [ColorManager] Cached color #dad29e for minecraft:blocks/sandstone_top
+[22:06:59] [JM-task-4/DEBUG] [ColorManager] Cached color #997649 for minecraft:blocks/log_jungle_top
+[22:06:59] [JM-task-4/DEBUG] [StatTimer] TopoRenderer.renderSurface warmup done, 10
+[22:07:00] [Client thread/DEBUG] [StatTimer] TaskController.performMultithreadTasks warmup done, 1
+[22:07:01] [Client thread/DEBUG] [StatTimer] MiniMap1.Circle warmup done, 100
+[22:07:01] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:07:01] [JM-task-4/DEBUG] [VanillaBlockSpriteProxy] Success during [Solid] class net.minecraftforge.client.model.PerspectiveMapWrapper.getQuads(rats:marbled_cheese_brick_slab[half=top], up, 0)
+[22:07:01] [JM-task-4/DEBUG] [VanillaBlockSpriteProxy] Success during [Solid] class net.minecraftforge.client.model.PerspectiveMapWrapper.getQuads(rats:marbled_cheese_stairs[facing=north,half=bottom,shape=straight], up, 0)
+[22:07:04] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:07:04] [JM-task-4/DEBUG] [StatTimer] ImageHolder.partialImageUpdate warmup done, 5
+[22:07:06] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:07:06] [JM-task-4/DEBUG] [StatTimer] MapPlayerTask.performTask warmup done, 5
+[22:07:06] [JM-task-4/DEBUG] [VanillaBlockSpriteProxy] Success during [Solid] class net.minecraftforge.client.model.PerspectiveMapWrapper.getQuads(rats:marbled_cheese_pillar[axis=y], up, 0)
+[22:07:06] [JM-task-4/DEBUG] [ColorManager] Cached color #ece6d2 for rats:blocks/marbled_cheese_pillar_top
+[22:07:06] [JM-task-4/DEBUG] [VanillaBlockSpriteProxy] Success during [Mipped Cutout] class forestry.arboriculture.models.ModelDefaultLeaves.getQuads(forestry:leaves.default.8[check_decay=false,decayable=true,variant=date], up, 0)
+[22:07:06] [JM-task-4/DEBUG] [VanillaBlockSpriteProxy] Success during [Mipped Cutout] class forestry.arboriculture.models.ModelDefaultLeaves.getQuads(forestry:leaves.default.4[check_decay=false,decayable=true,variant=teak], up, 0)
+[22:07:09] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:07:09] [JM-task-4/DEBUG] [ColorManager] Cached color #111111 for buildcraftenergy:blocks/fluids/oil_heat_0_still
+[22:07:09] [JM-task-4/DEBUG] [VanillaBlockSpriteProxy] Success during [Mipped Cutout] class forestry.arboriculture.models.ModelDefaultLeavesFruit.getQuads(forestry:leaves.default.fruit.1[check_decay=false,decayable=true,variant=plum], up, 0)
+[22:07:09] [JM-task-4/DEBUG] [ColorManager] Cached color #909090 for forestry:blocks/leaves/deciduous.fancy,forestry:blocks/leaves/fruits.plums
+[22:07:09] [JM-task-4/DEBUG] [VanillaBlockSpriteProxy] Success during [Mipped Cutout] class forestry.arboriculture.models.ModelDefaultLeaves.getQuads(forestry:leaves.default.2[check_decay=false,decayable=true,variant=plum], up, 0)
+[22:07:12] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:07:12] [Client thread/DEBUG] [StatTimer] MapState.refresh warmup done, 10
+[22:07:14] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:07:14] [Client thread/DEBUG] [StatTimer] MiniMap1.Circle+refreshState warmup done, 5
+[22:07:16] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:07:18] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:07:20] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:07:22] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:07:23] [Client thread/DEBUG] [StatTimer] MapPlayerTask.Manager.getTask warmup done, 10
+[22:07:24] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:07:24] [Client thread/DEBUG] [StatTimer] MapState.generateDrawSteps warmup done, 10
+[22:07:24] [Client thread/DEBUG] [StatTimer] EntityHelper.getPlayersNearby warmup done, 10
+[22:07:26] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:07:28] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:07:31] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:07:33] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:07:35] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:07:37] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:07:39] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:07:41] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:07:41] [Client thread/DEBUG] [StatTimer] EntityHelper.getVillagersNearby warmup done, 10
+[22:07:43] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:07:45] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:07:47] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:07:47] [Client thread/DEBUG] [StatTimer] EntityHelper.getAnimalsNearby warmup done, 10
+[22:07:47] [Client thread/DEBUG] [StatTimer] EntityHelper.getMobsNearby warmup done, 10
+[22:07:49] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:07:52] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:07:54] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:07:56] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:07:58] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:07:58] [JM-task-4/DEBUG] [RegionImageCache] RegionImageCache auto-flushing
+[22:07:58] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\Copy of New World\DIM-8\topo\-2,-1.png
+[22:07:58] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\Copy of New World\DIM-8\day\-1,-2.png
+[22:08:00] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:08:02] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:08:04] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:08:06] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:08:08] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:08:10] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:08:13] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:08:15] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:08:17] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:08:19] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:08:21] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:08:23] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:08:25] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:08:27] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:08:29] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:08:31] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:08:34] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:08:36] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:08:38] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:08:40] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:08:42] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:08:44] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:08:46] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:08:48] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:08:50] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:08:52] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:08:55] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:08:57] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:08:59] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:08:59] [JM-task-4/DEBUG] [RegionImageCache] RegionImageCache auto-flushing
+[22:08:59] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\Copy of New World\DIM-8\night\-2,-1.png
+[22:08:59] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\Copy of New World\DIM-8\day\-2,-1.png
+[22:08:59] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\Copy of New World\DIM-8\topo\-1,-1.png
+[22:09:01] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:09:03] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:09:05] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:09:07] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:09:09] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:09:11] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:09:13] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:09:16] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:09:18] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:09:20] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:09:22] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:09:24] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:09:26] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:09:28] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:09:30] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:09:32] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:09:34] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:09:37] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:09:39] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:09:41] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:09:43] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:09:45] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:09:47] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:09:49] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:09:51] [Client thread/DEBUG] [KeyEventHandler] [KeyBindingAction{LBRACKET = Change Map Type}]
+[22:09:51] [Client thread/DEBUG] [KeyEventHandler] [KeyBindingAction{BACKSLASH = Switch MiniMap Preset}]
+[22:09:51] [Client thread/DEBUG] [KeyEventHandler] [KeyBindingAction{MINUS = Zoom Out}]
+[22:09:51] [Client thread/DEBUG] [KeyEventHandler] [KeyBindingAction{EQUALS = Zoom In}]
+[22:09:51] [Client thread/DEBUG] [KeyEventHandler] [KeyBindingAction{CTRL + B = Waypoint Manager}, KeyBindingAction{B = Create Waypoint}]
+[22:09:51] [Client thread/DEBUG] [KeyEventHandler] [KeyBindingAction{CTRL + J = Show / Hide MiniMap}, KeyBindingAction{J = Show / Hide Fullscreen Map}]
+[22:09:51] [Client thread/DEBUG] [KeyEventHandler] [KeyBindingAction{LBRACKET = Change Map Type}]
+[22:09:51] [Client thread/DEBUG] [KeyEventHandler] [KeyBindingAction{BACKSLASH = Switch MiniMap Preset}]
+[22:09:51] [Client thread/DEBUG] [KeyEventHandler] [KeyBindingAction{MINUS = Zoom Out}]
+[22:09:51] [Client thread/DEBUG] [KeyEventHandler] [KeyBindingAction{Z = Toggle all Waypoints}]
+[22:09:51] [Client thread/DEBUG] [KeyEventHandler] [KeyBindingAction{EQUALS = Zoom In}]
+[22:09:51] [Client thread/DEBUG] [KeyEventHandler] [KeyBindingAction{CTRL + B = Waypoint Manager}, KeyBindingAction{B = Create Waypoint (at cursor)}]
+[22:09:51] [Client thread/DEBUG] [KeyEventHandler] [KeyBindingAction{DOWN = Pan South (16 Blocks)}]
+[22:09:51] [Client thread/DEBUG] [KeyEventHandler] [KeyBindingAction{NONE = Chat Position (at cursor)}]
+[22:09:51] [Client thread/DEBUG] [KeyEventHandler] [KeyBindingAction{J = Show / Hide Fullscreen Map}]
+[22:09:51] [Client thread/DEBUG] [KeyEventHandler] [KeyBindingAction{O = Options Manager}]
+[22:09:51] [Client thread/DEBUG] [KeyEventHandler] [KeyBindingAction{UP = Pan North (16 Blocks)}]
+[22:09:51] [Client thread/DEBUG] [KeyEventHandler] [KeyBindingAction{LBRACKET = Change Map Type}]
+[22:09:51] [Client thread/DEBUG] [KeyEventHandler] [KeyBindingAction{LEFT = Pan West (16 Blocks)}]
+[22:09:51] [Client thread/DEBUG] [KeyEventHandler] [KeyBindingAction{MINUS = Zoom Out}]
+[22:09:51] [Client thread/DEBUG] [KeyEventHandler] [KeyBindingAction{EQUALS = Zoom In}]
+[22:09:51] [Client thread/DEBUG] [KeyEventHandler] [KeyBindingAction{RIGHT = Pan East (16 Blocks)}]
+[22:09:51] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:09:53] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:09:55] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:09:58] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:10:00] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:10:00] [JM-task-4/DEBUG] [RegionImageCache] RegionImageCache auto-flushing
+[22:10:02] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:10:04] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:10:06] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:10:08] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:10:10] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:10:12] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:10:14] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:10:18] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:10:20] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:10:22] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:10:24] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:10:26] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:10:28] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:10:30] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:10:32] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:10:34] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:10:36] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:10:39] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:10:41] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:10:43] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:10:45] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:10:47] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:10:49] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:10:49] [JM-task-4/DEBUG] [VanillaBlockSpriteProxy] Success during [Mipped Cutout] class forestry.arboriculture.models.ModelDefaultLeavesFruit.getQuads(forestry:leaves.default.fruit.1[check_decay=true,decayable=true,variant=plum], up, 0)
+[22:10:51] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:10:53] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:10:53] [JM-task-4/DEBUG] [VanillaBlockSpriteProxy] Success during [Mipped Cutout] class forestry.arboriculture.models.ModelDefaultLeaves.getQuads(forestry:leaves.default.8[check_decay=true,decayable=true,variant=date], up, 0)
+[22:10:55] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:10:57] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:11:00] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:11:02] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:11:02] [JM-task-4/DEBUG] [RegionImageCache] RegionImageCache auto-flushing
+[22:11:02] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\Copy of New World\DIM-8\topo\-2,-1.png
+[22:11:04] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:11:06] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:11:08] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:11:10] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:11:12] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:11:14] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:11:16] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:11:18] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:11:21] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:11:23] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:11:25] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:11:27] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:11:29] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:11:31] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:11:33] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:11:35] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:11:37] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:11:39] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:11:42] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:11:44] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:11:46] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:11:48] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:11:50] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:11:52] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:11:54] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:11:56] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:11:58] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:12:00] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:12:03] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:12:03] [JM-task-4/DEBUG] [VanillaBlockSpriteProxy] Success during [Mipped Cutout] class forestry.arboriculture.models.ModelDefaultLeaves.getQuads(forestry:leaves.default.5[check_decay=false,decayable=true,variant=mahogony], up, 0)
+[22:12:03] [JM-task-4/DEBUG] [RegionImageCache] RegionImageCache auto-flushing
+[22:12:03] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\Copy of New World\DIM-8\night\-1,-2.png
+[22:12:03] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\Copy of New World\DIM-8\topo\-1,-1.png
+[22:12:05] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:12:07] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:12:08] [Client thread/DEBUG] [GridRenderer] Centered on Tile [ r-2, r-1 (zoom 0) ] with pixel offsets of 960.3371382836459,298.7116611159146
+[22:12:09] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:12:11] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:12:13] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:12:15] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:12:17] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:12:19] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:12:21] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:12:24] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:12:26] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:12:28] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:12:30] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:12:32] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:12:32] [JM-task-4/DEBUG] [VanillaBlockSpriteProxy] Success during [Translucent] class net.minecraftforge.client.model.PerspectiveMapWrapper.getQuads(adpother:dust[density=light], up, 0)
+[22:12:32] [JM-task-4/DEBUG] [ColorManager] Cached color #bebebe for adpother:blocks/dust_light
+[22:12:34] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:12:35] [Client thread/DEBUG] [GridRenderer] Centered on Tile [ r-1, r-1 (zoom 0) ] with pixel offsets of 448.5296490100958,327.7132122912261
+[22:12:36] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:12:37] [Client thread/DEBUG] [GridRenderer] Centered on Tile [ r-2, r-1 (zoom 0) ] with pixel offsets of 960.4598062404554,328.00234973778527
+[22:12:38] [Client thread/DEBUG] [GridRenderer] Centered on Tile [ r-1, r-1 (zoom 0) ] with pixel offsets of 448.62279207480026,328.5349948248396
+[22:12:38] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:12:40] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:12:42] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:12:45] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:12:47] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:12:49] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:12:51] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:12:53] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:12:55] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:12:57] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:12:59] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:13:01] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:13:03] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:13:03] [JM-task-4/DEBUG] [RegionImageCache] RegionImageCache auto-flushing
+[22:13:03] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\Copy of New World\DIM-8\3\-2,-1.png
+[22:13:04] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\Copy of New World\DIM-8\3\-1,-1.png
+[22:13:06] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:13:08] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:13:10] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:13:12] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:13:14] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:13:16] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:13:18] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:13:18] [JM-task-4/DEBUG] [StatTimer] CaveRenderer.render warmup done, 10
+[22:13:20] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:13:22] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:13:24] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:13:27] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:13:29] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:13:31] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:13:33] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:13:35] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:13:37] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:13:39] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:13:41] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:13:43] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:13:45] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:13:48] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:13:50] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:13:52] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:13:54] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:13:56] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:13:58] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:14:00] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:14:02] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:14:04] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:14:04] [JM-task-4/DEBUG] [RegionImageCache] RegionImageCache auto-flushing
+[22:14:04] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\Copy of New World\DIM-8\night\-2,-1.png
+[22:14:04] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\Copy of New World\DIM-8\topo\-2,-1.png
+[22:14:04] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\Copy of New World\DIM-8\day\-2,-1.png
+[22:14:04] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\Copy of New World\DIM-8\4\-1,-1.png
+[22:14:06] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:14:09] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:14:11] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:14:13] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:14:15] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:14:17] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:14:19] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:14:21] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:14:23] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:14:25] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:14:27] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:14:30] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:14:32] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:14:34] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:14:36] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:14:38] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:14:40] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:14:42] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:14:44] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:14:46] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:14:48] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:14:51] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:14:53] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:14:55] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:14:57] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:14:59] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:15:01] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:15:03] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:15:05] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:15:05] [JM-task-4/DEBUG] [RegionImageCache] RegionImageCache auto-flushing
+[22:15:07] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:15:09] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:15:12] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:15:14] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:15:16] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:15:18] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:15:20] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:15:22] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:15:24] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:15:26] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:15:28] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:15:30] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:15:33] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:15:35] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:15:37] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:15:39] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:15:41] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:15:43] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:15:45] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:15:47] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:15:49] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:15:51] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:15:54] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:15:56] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:15:58] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:16:00] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:16:02] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:16:04] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:16:06] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:16:06] [JM-task-4/DEBUG] [RegionImageCache] RegionImageCache auto-flushing
+[22:16:08] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:16:10] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:16:12] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:16:15] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:16:17] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:16:19] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:16:21] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:16:23] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:16:25] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:16:27] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:16:29] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:16:31] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:16:33] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:16:36] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:16:38] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:16:40] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:16:42] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:16:44] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:16:46] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:16:48] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:16:50] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:16:52] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:16:54] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:16:57] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:16:59] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:17:01] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:17:03] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:17:05] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:17:07] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:17:07] [JM-task-4/DEBUG] [RegionImageCache] RegionImageCache auto-flushing
+[22:17:09] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:17:11] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:17:13] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:17:15] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:17:18] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:17:20] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:17:22] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:17:24] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:17:26] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:17:28] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:17:30] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:17:32] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:17:34] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:17:36] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:17:39] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:17:41] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:17:43] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:17:45] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:17:47] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:17:49] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:17:51] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:17:53] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:17:55] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:17:57] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:18:00] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:18:02] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:18:04] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:18:06] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:18:08] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:18:08] [JM-task-4/DEBUG] [RegionImageCache] RegionImageCache auto-flushing
+[22:18:08] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\Copy of New World\DIM-8\night\-1,-1.png
+[22:18:08] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\Copy of New World\DIM-8\day\-1,-1.png
+[22:18:10] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:18:12] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:18:14] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:18:16] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:18:18] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:18:21] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:18:23] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:18:25] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:18:27] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:18:29] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:18:31] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:18:33] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:18:35] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:18:37] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:18:39] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:18:42] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:18:44] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:18:46] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:18:48] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:18:50] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:18:52] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:18:54] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:18:57] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:18:59] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:19:01] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:19:04] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:19:06] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:19:08] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:19:10] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:19:10] [JM-task-4/DEBUG] [RegionImageCache] RegionImageCache auto-flushing
+[22:19:10] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\Copy of New World\DIM-8\topo\-1,-1.png
+[22:19:12] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:19:14] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:19:16] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:19:18] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:19:20] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:19:22] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:19:25] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:19:27] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:19:29] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:19:31] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:19:33] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:19:35] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:19:37] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:19:39] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:19:41] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:19:43] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:19:47] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:19:49] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:19:51] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:19:53] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:19:55] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:19:57] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:19:59] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:20:01] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:20:03] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:20:06] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:20:08] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:20:10] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:20:12] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:20:12] [JM-task-4/DEBUG] [RegionImageCache] RegionImageCache auto-flushing
+[22:20:14] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:20:16] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:20:18] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:20:20] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:20:22] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:20:24] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:20:27] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:20:29] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:20:29] [JM-task-4/DEBUG] [VanillaBlockSpriteProxy] Success during [Solid] class forestry.core.models.SimpleRetexturedModel.getQuads(forestry:logs.4[axis=z,variant=papaya], up, 0)
+[22:20:29] [JM-task-4/DEBUG] [ColorManager] Cached color #a47f41 for forestry:blocks/wood/bark.papaya
+[22:20:31] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:20:33] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:20:35] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:20:37] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:20:37] [JM-task-4/DEBUG] [VanillaBlockSpriteProxy] Success during [Mipped Cutout] class forestry.arboriculture.models.ModelDefaultLeaves.getQuads(forestry:leaves.default.5[check_decay=false,decayable=true,variant=zebrawood], up, 0)
+[22:20:39] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:20:41] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:20:43] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:20:45] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:20:48] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:20:50] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:20:52] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:20:54] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:20:54] [JM-task-4/DEBUG] [VanillaBlockSpriteProxy] Success during [Mipped Cutout] class forestry.arboriculture.models.ModelDefaultLeaves.getQuads(forestry:leaves.default.5[check_decay=true,decayable=true,variant=zebrawood], up, 0)
+[22:20:56] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:20:58] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:21:00] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:21:02] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:21:04] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:21:06] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:21:09] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:21:11] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:21:13] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:21:13] [JM-task-4/DEBUG] [RegionImageCache] RegionImageCache auto-flushing
+[22:21:13] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\Copy of New World\DIM-8\4\-1,-1.png
+[22:21:13] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\Copy of New World\DIM-8\topo\-1,-1.png
+[22:21:15] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:21:17] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:21:19] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:21:21] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:21:23] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:21:25] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:21:27] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:21:30] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:21:32] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:21:34] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:21:36] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:21:38] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:21:40] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:21:42] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:21:44] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:21:46] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:21:48] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:21:51] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:21:53] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:21:55] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:21:57] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:21:59] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:22:01] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:22:03] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:22:05] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:22:07] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:22:07] [JM-task-4/DEBUG] [VanillaBlockSpriteProxy] Success during [Mipped Cutout] class forestry.arboriculture.models.ModelDefaultLeaves.getQuads(forestry:leaves.default.8[check_decay=true,decayable=true,variant=papaya], up, 0)
+[22:22:07] [JM-task-4/DEBUG] [ColorManager] Cached color #9ea4b0 for minecraft:blocks/clay
+[22:22:09] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:22:12] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:22:14] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:22:14] [JM-task-4/DEBUG] [ColorManager] Cached color #264389 for minecraft:blocks/lapis_block
+[22:22:14] [JM-task-4/DEBUG] [RegionImageCache] RegionImageCache auto-flushing
+[22:22:15] [Client thread/DEBUG] [GridRenderer] Centered on Tile [ r-2, r-1 (zoom 0) ] with pixel offsets of 960.2109233548617,162.48338593109122
+[22:22:16] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:22:18] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:22:20] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:22:22] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:22:24] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:22:26] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:22:28] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:22:30] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:22:33] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:22:35] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:22:37] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:22:37] [Client thread/DEBUG] [GridRenderer] Centered on Tile [ r-2, r0 (zoom 0) ] with pixel offsets of 495.74361698442897,-2.950634389255299
+[22:22:39] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:22:40] [Client thread/DEBUG] [GridRenderer] Centered on Tile [ r-1, r0 (zoom 0) ] with pixel offsets of 449.24106571679204,481.66213758229964
+[22:22:41] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:22:43] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:22:45] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:22:47] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:22:49] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:22:49] [JM-task-4/DEBUG] [VanillaBlockSpriteProxy] Success during [Mipped Cutout] class forestry.arboriculture.models.ModelDefaultLeaves.getQuads(forestry:leaves.default.2[check_decay=true,decayable=true,variant=plum], up, 0)
+[22:22:51] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:22:51] [JM-task-4/DEBUG] [ColorManager] Cached color #77553b for minecraft:blocks/coarse_dirt
+[22:22:54] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:22:56] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:22:58] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:23:00] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:23:02] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:23:04] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:23:06] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:23:08] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:23:10] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:23:12] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:23:15] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:23:15] [JM-task-4/DEBUG] [RegionImageCache] RegionImageCache auto-flushing
+[22:23:15] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\Copy of New World\DIM-8\night\-2,-1.png
+[22:23:15] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\Copy of New World\DIM-8\topo\-2,-1.png
+[22:23:15] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\Copy of New World\DIM-8\day\-2,-1.png
+[22:23:15] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\Copy of New World\DIM-8\night\-1,-1.png
+[22:23:15] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\Copy of New World\DIM-8\topo\-1,-1.png
+[22:23:15] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\Copy of New World\DIM-8\day\-1,-1.png
+[22:23:17] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:23:19] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:23:21] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:23:22] [Client thread/INFO] [JourneymapClient] Mapping halted in C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\Copy of New World\DIM-8
+[22:23:22] [Client thread/DEBUG] [TaskController] Task disabled: MapPlayerTask
+[22:23:22] [Client thread/DEBUG] [TaskController] Task disabled: InitColorManagerTask
+[22:23:22] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\Copy of New World\DIM-8\night\-2,0.png
+[22:23:22] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\Copy of New World\DIM-8\topo\-2,0.png
+[22:23:22] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\Copy of New World\DIM-8\day\-2,0.png
+[22:23:22] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\Copy of New World\DIM-8\night\-1,0.png
+[22:23:22] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\Copy of New World\DIM-8\topo\-1,0.png
+[22:23:22] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\Copy of New World\DIM-8\day\-1,0.png
+[22:29:41] [Netty Local Client IO #1/DEBUG] [JourneymapClient] Connection initiated with Journeymap Server: true
+[22:29:41] [Netty Local Client IO #1/DEBUG] [JourneymapClient] Teleport Enabled:true
+[22:29:41] [Netty Local Client IO #1/DEBUG] [JourneymapClient] Server Admin Enabled:true
+[22:29:41] [Netty Local Client IO #1/DEBUG] [JourneymapClient] Connection initiated with Journeymap Server: true
+[22:29:41] [Netty Local Client IO #1/DEBUG] [JourneymapClient] Teleport Enabled:true
+[22:29:41] [Netty Local Client IO #1/DEBUG] [JourneymapClient] Server Admin Enabled:true
+[22:29:41] [Client thread/DEBUG] [StatTimer] TileDrawStep.updateRegionTexture warmup done, 5
+[22:29:41] [Client thread/DEBUG] [StatTimer] TileDrawStep.updateScaledTexture warmup done, 5
+[22:29:41] [Client thread/DEBUG] [GridRenderer] Centered on Tile [ r-1, r0 (zoom 0) ] with pixel offsets of 923.9240202363223,413.13814731235476
+[22:29:41] [Client thread/DEBUG] [GridRenderer] Centered on Tile [ r-1, r0 (zoom 0) ] with pixel offsets of 923.9240202363223,413.13814731235476
+[22:29:41] [Client thread/DEBUG] [GridRenderer] Centered on Tile [ r-1, r0 (zoom 0) ] with pixel offsets of 923.9240202363223,413.13814731235476
+[22:29:41] [Client thread/DEBUG] [GridRenderer] Centered on Tile [ r-1, r0 (zoom 0) ] with pixel offsets of 923.9240202363223,413.13814731235476
+[22:29:41] [Client thread/INFO] [WaypointStore] Loaded 0 waypoints from C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\Copy of New World\waypoints
+[22:29:41] [Client thread/DEBUG] [TaskController] Task not initially enabled: MapRegionTask
+[22:29:41] [Client thread/DEBUG] [TaskController] Task not initially enabled: SaveMapTask
+[22:29:41] [Client thread/DEBUG] [TaskController] Task ready: MapPlayerTask
+[22:29:41] [Client thread/DEBUG] [TaskController] Task ready: InitColorManagerTask
+[22:29:41] [Client thread/INFO] [JourneymapClient] Mapping started in C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\Copy of New World\DIM-8. Memory: 17167MB total, 11865MB free 
+[22:29:41] [Client thread/DEBUG] [GridRenderer] Centered on Tile [ r-1, r0 (zoom 0) ] with pixel offsets of 923.9240202363223,413.13814731235476
+[22:29:41] [Client thread/DEBUG] [GridRenderer] Centered on Tile [ r-1, r0 (zoom 0) ] with pixel offsets of 923.9240202363223,413.13814731235476
+[22:29:41] [Client thread/DEBUG] [StatTimer] Tick.MappingMonitorTask warmup done, 10
+[22:29:42] [Client thread/DEBUG] [StatTimer] TileDrawStep.draw(low) warmup done, 10
+[22:29:42] [Netty Local Client IO #1/DEBUG] [JourneymapClient] Connection initiated with Journeymap Server: true
+[22:29:42] [Netty Local Client IO #1/DEBUG] [JourneymapClient] Teleport Enabled:true
+[22:29:42] [Netty Local Client IO #1/DEBUG] [JourneymapClient] Server Admin Enabled:true
+[22:29:42] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:29:42] [JM-task-5/DEBUG] [VanillaBlockSpriteProxy] Success during [Solid] class net.minecraftforge.client.model.PerspectiveMapWrapper.getQuads(rats:marbled_cheese_brick_slab[half=bottom], null, 0)
+[22:29:42] [JM-task-5/DEBUG] [VanillaBlockSpriteProxy] Success during [Solid] class net.minecraftforge.client.model.PerspectiveMapWrapper.getQuads(rats:marbled_cheese_brick_mossy, up, 0)
+[22:29:42] [JM-task-5/DEBUG] [VanillaBlockSpriteProxy] Success during [Solid] class net.minecraftforge.client.model.PerspectiveMapWrapper.getQuads(rats:marbled_cheese_brick_cracked, up, 0)
+[22:29:42] [JM-task-5/DEBUG] [VanillaBlockSpriteProxy] Success during [Solid] class net.minecraftforge.client.model.PerspectiveMapWrapper.getQuads(rats:marbled_cheese_brick, up, 0)
+[22:29:42] [JM-task-5/DEBUG] [StatTimer] SurfaceRenderer.renderSurface warmup done, 10
+[22:29:42] [JM-task-5/DEBUG] [VanillaBlockSpriteProxy] Success during [Solid] class net.minecraftforge.client.model.PerspectiveMapWrapper.getQuads(rats:marbled_cheese_brick_stairs[facing=south,half=top,shape=straight], up, 0)
+[22:29:42] [JM-task-5/DEBUG] [VanillaBlockSpriteProxy] Success during [Solid] class net.minecraftforge.client.model.PerspectiveMapWrapper.getQuads(rats:marbled_cheese_brick_stairs[facing=west,half=top,shape=straight], up, 0)
+[22:29:42] [JM-task-5/DEBUG] [VanillaBlockSpriteProxy] Success during [Solid] class net.minecraftforge.client.model.PerspectiveMapWrapper.getQuads(rats:marbled_cheese_brick_stairs[facing=north,half=top,shape=straight], up, 0)
+[22:29:42] [JM-task-5/DEBUG] [VanillaBlockSpriteProxy] Success during [Solid] class net.minecraftforge.client.model.PerspectiveMapWrapper.getQuads(rats:marbled_cheese_brick_stairs[facing=east,half=top,shape=straight], up, 0)
+[22:29:42] [JM-task-5/DEBUG] [VanillaBlockSpriteProxy] Success during [Solid] class net.minecraftforge.client.model.PerspectiveMapWrapper.getQuads(rats:marbled_cheese, up, 0)
+[22:29:42] [JM-task-5/DEBUG] [VanillaBlockSpriteProxy] Success during [Solid] class net.minecraftforge.client.model.PerspectiveMapWrapper.getQuads(rats:marbled_cheese_stairs[facing=east,half=top,shape=outer_right], up, 0)
+[22:29:42] [JM-task-5/DEBUG] [VanillaBlockSpriteProxy] Success during [Solid] class net.minecraftforge.client.model.PerspectiveMapWrapper.getQuads(rats:marbled_cheese_brick_stairs[facing=south,half=bottom,shape=straight], up, 0)
+[22:29:42] [JM-task-5/DEBUG] [VanillaBlockSpriteProxy] Success during [Solid] class net.minecraftforge.client.model.PerspectiveMapWrapper.getQuads(rats:marbled_cheese_stairs[facing=south,half=bottom,shape=straight], up, 0)
+[22:29:42] [JM-task-5/DEBUG] [StatTimer] TopoRenderer.renderSurface warmup done, 10
+[22:29:42] [Client thread/DEBUG] [StatTimer] GridRenderer.updateTiles(1) warmup done, 5
+[22:29:42] [Client thread/DEBUG] [StatTimer] GridRenderer.updateTiles(2) warmup done, 5
+[22:29:43] [Client thread/DEBUG] [StatTimer] MiniMap1.Circle warmup done, 100
+[22:29:44] [Client thread/DEBUG] [StatTimer] TaskController.performMultithreadTasks warmup done, 1
+[22:29:45] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:29:45] [JM-task-5/DEBUG] [VanillaBlockSpriteProxy] Success during [Solid] class net.minecraftforge.client.model.PerspectiveMapWrapper.getQuads(rats:marbled_cheese_brick_stairs[facing=east,half=bottom,shape=straight], up, 0)
+[22:29:45] [JM-task-5/DEBUG] [VanillaBlockSpriteProxy] Success during [Solid] class net.minecraftforge.client.model.PerspectiveMapWrapper.getQuads(rats:marbled_cheese_brick_stairs[facing=west,half=bottom,shape=outer_left], up, 0)
+[22:29:45] [JM-task-5/DEBUG] [VanillaBlockSpriteProxy] Success during [Solid] class net.minecraftforge.client.model.PerspectiveMapWrapper.getQuads(rats:marbled_cheese_brick_stairs[facing=north,half=bottom,shape=outer_right], up, 0)
+[22:29:45] [JM-task-5/DEBUG] [VanillaBlockSpriteProxy] Success during [Solid] class net.minecraftforge.client.model.PerspectiveMapWrapper.getQuads(rats:marbled_cheese_stairs[facing=north,half=bottom,shape=straight], up, 0)
+[22:29:45] [JM-task-5/DEBUG] [VanillaBlockSpriteProxy] Success during [Solid] class net.minecraftforge.client.model.PerspectiveMapWrapper.getQuads(rats:marbled_cheese_stairs[facing=north,half=top,shape=straight], up, 0)
+[22:29:47] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:29:47] [JM-task-5/DEBUG] [VanillaBlockSpriteProxy] Success during [Solid] class net.minecraftforge.client.model.PerspectiveMapWrapper.getQuads(rats:marbled_cheese_pillar[axis=x], up, 0)
+[22:29:47] [JM-task-5/DEBUG] [VanillaBlockSpriteProxy] Success during [Solid] class net.minecraftforge.client.model.PerspectiveMapWrapper.getQuads(rats:marbled_cheese_stairs[facing=east,half=bottom,shape=outer_right], up, 0)
+[22:29:47] [JM-task-5/DEBUG] [VanillaBlockSpriteProxy] Success during [Solid] class net.minecraftforge.client.model.PerspectiveMapWrapper.getQuads(rats:marbled_cheese_raw, up, 0)
+[22:29:47] [JM-task-5/DEBUG] [VanillaBlockSpriteProxy] Success during [Solid] class net.minecraftforge.client.model.PerspectiveMapWrapper.getQuads(rats:marbled_cheese_slab[half=bottom], null, 0)
+[22:29:47] [JM-task-5/DEBUG] [VanillaBlockSpriteProxy] Success during [Solid] class net.minecraftforge.client.model.PerspectiveMapWrapper.getQuads(rats:marbled_cheese_stairs[facing=west,half=bottom,shape=straight], up, 0)
+[22:29:47] [JM-task-5/DEBUG] [VanillaBlockSpriteProxy] Success during [Solid] class net.minecraftforge.client.model.PerspectiveMapWrapper.getQuads(rats:marbled_cheese_stairs[facing=west,half=top,shape=straight], up, 0)
+[22:29:47] [JM-task-5/DEBUG] [VanillaBlockSpriteProxy] Success during [Solid] class net.minecraftforge.client.model.PerspectiveMapWrapper.getQuads(rats:marbled_cheese_stairs[facing=south,half=top,shape=straight], up, 0)
+[22:29:47] [JM-task-5/DEBUG] [VanillaBlockSpriteProxy] Success during [Solid] class net.minecraftforge.client.model.PerspectiveMapWrapper.getQuads(rats:marbled_cheese_tile, up, 0)
+[22:29:47] [JM-task-5/DEBUG] [VanillaBlockSpriteProxy] Success during [Solid] class net.minecraftforge.client.model.PerspectiveMapWrapper.getQuads(rats:marbled_cheese_pillar[axis=y], up, 0)
+[22:29:49] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:29:49] [JM-task-5/DEBUG] [StatTimer] MapPlayerTask.performTask warmup done, 5
+[22:29:49] [JM-task-5/DEBUG] [VanillaBlockSpriteProxy] Success during [Mipped Cutout] class forestry.arboriculture.models.ModelDefaultLeaves.getQuads(forestry:leaves.default.8[check_decay=false,decayable=true,variant=date], up, 0)
+[22:29:49] [JM-task-5/DEBUG] [StatTimer] ImageHolder.partialImageUpdate warmup done, 5
+[22:29:51] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:29:51] [Client thread/DEBUG] [StatTimer] MapState.refresh warmup done, 10
+[22:29:53] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:29:53] [Client thread/DEBUG] [StatTimer] MiniMap1.Circle+refreshState warmup done, 5
+[22:29:56] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:29:58] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:30:00] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:30:02] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:30:04] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:30:04] [Client thread/DEBUG] [StatTimer] MapState.generateDrawSteps warmup done, 10
+[22:30:05] [Client thread/DEBUG] [StatTimer] MapPlayerTask.Manager.getTask warmup done, 10
+[22:30:06] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:30:06] [Client thread/DEBUG] [StatTimer] EntityHelper.getPlayersNearby warmup done, 10
+[22:30:08] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:30:10] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:30:12] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:30:14] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:30:17] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:30:19] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:30:21] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:30:23] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:30:25] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:30:27] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:30:27] [Client thread/DEBUG] [StatTimer] EntityHelper.getVillagersNearby warmup done, 10
+[22:30:29] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:30:29] [Client thread/DEBUG] [StatTimer] EntityHelper.getAnimalsNearby warmup done, 10
+[22:30:29] [Client thread/DEBUG] [StatTimer] EntityHelper.getMobsNearby warmup done, 10
+[22:30:31] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:30:33] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:30:35] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:30:38] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:30:40] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:30:42] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:30:42] [JM-task-5/DEBUG] [RegionImageCache] RegionImageCache auto-flushing
+[22:30:42] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\Copy of New World\DIM-8\night\-2,0.png
+[22:30:42] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\Copy of New World\DIM-8\topo\-2,0.png
+[22:30:42] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\Copy of New World\DIM-8\day\-2,0.png
+[22:30:42] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\Copy of New World\DIM-8\night\-2,-1.png
+[22:30:42] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\Copy of New World\DIM-8\topo\-2,-1.png
+[22:30:42] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\Copy of New World\DIM-8\day\-2,-1.png
+[22:30:42] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\Copy of New World\DIM-8\night\-1,-1.png
+[22:30:42] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\Copy of New World\DIM-8\topo\-1,-1.png
+[22:30:42] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\Copy of New World\DIM-8\day\-1,-1.png
+[22:30:42] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\Copy of New World\DIM-8\night\-1,0.png
+[22:30:42] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\Copy of New World\DIM-8\topo\-1,0.png
+[22:30:42] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\Copy of New World\DIM-8\day\-1,0.png
+[22:30:44] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:30:46] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:30:48] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:30:50] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:30:52] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:30:54] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:30:56] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:30:59] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:31:01] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:31:03] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:31:05] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:31:07] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:31:09] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:31:11] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:31:13] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:31:15] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:31:17] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:31:20] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:31:22] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:31:24] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:31:26] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:31:28] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:31:30] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:31:32] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:31:34] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:31:36] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:31:38] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:31:41] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:31:43] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:31:43] [JM-task-5/DEBUG] [RegionImageCache] RegionImageCache auto-flushing
+[22:31:45] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:31:47] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:31:49] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:31:51] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:31:53] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:31:55] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:31:57] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:31:59] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:32:02] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:32:04] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:32:06] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:32:08] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:32:10] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:32:12] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:32:14] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:32:16] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:32:18] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:32:21] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:32:23] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:32:25] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:32:27] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:32:29] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:32:31] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:32:33] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:32:35] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:32:37] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:32:39] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:32:41] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:32:44] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:32:44] [JM-task-5/DEBUG] [RegionImageCache] RegionImageCache auto-flushing
+[22:32:44] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\Copy of New World\DIM-8\night\-2,0.png
+[22:32:44] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\Copy of New World\DIM-8\topo\-2,0.png
+[22:32:44] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\Copy of New World\DIM-8\day\-2,0.png
+[22:32:44] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\Copy of New World\DIM-8\day\-2,-1.png
+[22:32:44] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\Copy of New World\DIM-8\topo\-1,0.png
+[22:32:46] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:32:48] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:32:50] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:32:52] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:32:54] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:32:56] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:32:58] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:33:00] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:33:02] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:33:05] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:33:07] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:33:09] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:33:11] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:33:13] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:33:15] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:33:17] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:33:19] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:33:21] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:33:23] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:33:26] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:33:28] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:33:30] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:33:32] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:33:34] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:33:36] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:33:38] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:33:40] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:33:42] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:33:44] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:33:44] [JM-task-5/DEBUG] [RegionImageCache] RegionImageCache auto-flushing
+[22:33:44] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\Copy of New World\DIM-8\night\-1,0.png
+[22:33:45] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\Copy of New World\DIM-8\day\-1,0.png
+[22:33:47] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:33:49] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:33:51] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:33:53] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:33:55] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:33:57] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:33:59] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:34:01] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:34:03] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:34:05] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:34:08] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:34:10] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:34:12] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:34:14] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:34:16] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:34:18] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:34:20] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:34:22] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:34:24] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:34:26] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:34:29] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:34:31] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:34:33] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:34:35] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:34:37] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:34:39] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:34:41] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:34:43] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:34:45] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:34:45] [JM-task-5/DEBUG] [RegionImageCache] RegionImageCache auto-flushing
+[22:34:45] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\Copy of New World\DIM-8\night\-2,0.png
+[22:34:45] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\Copy of New World\DIM-8\topo\-2,0.png
+[22:34:45] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\Copy of New World\DIM-8\day\-2,0.png
+[22:34:45] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\Copy of New World\DIM-8\night\-1,0.png
+[22:34:46] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\Copy of New World\DIM-8\topo\-1,0.png
+[22:34:46] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\Copy of New World\DIM-8\day\-1,0.png
+[22:34:47] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:34:50] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:34:52] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:34:54] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:34:56] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:34:58] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:35:00] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:35:02] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:35:04] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:35:06] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:35:08] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:35:11] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:35:13] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:35:15] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:35:17] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:35:19] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:35:21] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:35:23] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:35:25] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:35:27] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:35:29] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:35:32] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:35:34] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:35:36] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:35:38] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:35:40] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:35:42] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:35:44] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:35:46] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:35:46] [JM-task-5/DEBUG] [RegionImageCache] RegionImageCache auto-flushing
+[22:35:46] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\Copy of New World\DIM-8\night\-1,0.png
+[22:35:46] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\Copy of New World\DIM-8\topo\-1,0.png
+[22:35:46] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\Copy of New World\DIM-8\day\-1,0.png
+[22:35:48] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:35:50] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:35:53] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:35:55] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:35:57] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:35:59] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:36:01] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:36:03] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:36:05] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:36:07] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:36:09] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:36:11] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:36:14] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:36:16] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:36:18] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:36:20] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:36:22] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:36:24] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:36:26] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:36:28] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:36:30] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:36:32] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:36:35] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:36:37] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:36:39] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:36:41] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:36:43] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:36:46] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:36:48] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:36:48] [JM-task-5/DEBUG] [RegionImageCache] RegionImageCache auto-flushing
+[22:36:48] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\Copy of New World\DIM-8\night\-1,0.png
+[22:36:48] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\Copy of New World\DIM-8\topo\-1,0.png
+[22:36:48] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\Copy of New World\DIM-8\day\-1,0.png
+[22:36:50] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:36:52] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:36:55] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:36:57] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:36:59] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:37:01] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:37:03] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:37:05] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:37:07] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:37:09] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:37:11] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:37:13] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:37:16] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:37:18] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:37:20] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:37:22] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:37:24] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:37:26] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:37:29] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:37:31] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:37:33] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:37:35] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:37:38] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:37:40] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:37:43] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:37:45] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:37:47] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:37:49] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:37:49] [JM-task-5/DEBUG] [RegionImageCache] RegionImageCache auto-flushing
+[22:37:49] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\Copy of New World\DIM-8\topo\-1,0.png
+[22:37:51] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:37:53] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:37:55] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:37:58] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:38:00] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:38:02] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:38:04] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:38:06] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:38:08] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:38:10] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:38:13] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:38:15] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:38:17] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:38:20] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:38:22] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:38:24] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:38:26] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:38:28] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:38:30] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:38:32] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:38:34] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:38:36] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:38:38] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:38:41] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:38:43] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:38:45] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:38:47] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:38:49] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:38:51] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:38:51] [JM-task-5/DEBUG] [RegionImageCache] RegionImageCache auto-flushing
+[22:38:51] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\Copy of New World\DIM-8\night\-1,0.png
+[22:38:51] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\Copy of New World\DIM-8\day\-1,0.png
+[22:38:53] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:38:55] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:38:57] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:39:00] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:39:02] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:39:04] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:39:06] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:39:08] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:39:10] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:39:12] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:39:14] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:39:16] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:39:18] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:39:20] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:39:23] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:39:25] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:39:27] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:39:29] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:39:31] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:39:33] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:39:35] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:39:37] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:39:39] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:39:41] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:39:41] [JM-task-5/DEBUG] [VanillaBlockSpriteProxy] Success during [Solid] class net.minecraftforge.client.model.PerspectiveMapWrapper.getQuads(forestry:beehives[hive=swamp], up, 0)
+[22:39:44] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:39:46] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:39:48] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:39:49] [Client thread/INFO] [StateTickHandler] Toby_Larone died at BlockPos{x=-490, y=81, z=107}. Deathpoints enabled: true. Deathpoint created: true
+[22:39:49] [Netty Local Client IO #1/DEBUG] [JourneymapClient] Connection initiated with Journeymap Server: true
+[22:39:49] [Netty Local Client IO #1/DEBUG] [JourneymapClient] Teleport Enabled:true
+[22:39:49] [Netty Local Client IO #1/DEBUG] [JourneymapClient] Server Admin Enabled:true
+[22:39:49] [Client thread/DEBUG] [GridRenderer] Centered on Tile [ r0, r-1 (zoom 0) ] with pixel offsets of 938.3537465957749,401.9865494958424
+[22:39:51] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:39:53] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:39:53] [JM-task-5/DEBUG] [StatTimer] CaveRenderer.render warmup done, 10
+[22:39:53] [JM-task-5/DEBUG] [RegionImageCache] RegionImageCache auto-flushing
+[22:39:53] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\Copy of New World\DIM-8\night\-2,-1.png
+[22:39:53] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\Copy of New World\DIM-8\topo\-2,-1.png
+[22:39:53] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\Copy of New World\DIM-8\day\-2,-1.png
+[22:39:53] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\Copy of New World\DIM-8\night\-1,0.png
+[22:39:53] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\Copy of New World\DIM-8\topo\-1,0.png
+[22:39:53] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\Copy of New World\DIM-8\day\-1,0.png
+[22:39:55] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:39:55] [JM-task-5/DEBUG] [VanillaBlockSpriteProxy] Success during [Solid] class net.minecraftforge.client.model.PerspectiveMapWrapper.getQuads(rats:marbled_cheese_pillar[axis=z], up, 0)
+[22:39:55] [JM-task-5/DEBUG] [VanillaBlockSpriteProxy] Success during [Mipped Cutout] class forestry.arboriculture.models.ModelDefaultLeaves.getQuads(forestry:leaves.default.6[check_decay=false,decayable=true,variant=wenge], up, 0)
+[22:39:55] [JM-task-5/DEBUG] [VanillaBlockSpriteProxy] Success during [Mipped Cutout] class forestry.arboriculture.models.ModelDefaultLeaves.getQuads(forestry:leaves.default.6[check_decay=true,decayable=true,variant=wenge], up, 0)
+[22:39:55] [JM-task-5/DEBUG] [VanillaBlockSpriteProxy] Success during [Mipped Cutout] class forestry.arboriculture.models.ModelDefaultLeaves.getQuads(forestry:leaves.default.8[check_decay=true,decayable=true,variant=date], up, 0)
+[22:39:57] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:39:57] [JM-task-5/DEBUG] [VanillaBlockSpriteProxy] Success during [Solid] class net.minecraftforge.client.model.PerspectiveMapWrapper.getQuads(rats:marbled_cheese_brick_chiseled, up, 0)
+[22:39:59] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:39:59] [JM-task-5/DEBUG] [VanillaBlockSpriteProxy] Success during [Mipped Cutout] class forestry.arboriculture.models.ModelDefaultLeaves.getQuads(forestry:leaves.default.8[check_decay=false,decayable=true,variant=papaya], up, 0)
+[22:40:01] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:40:04] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[22:40:06] [Client thread/INFO] [JourneymapClient] Mapping halted in C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\Copy of New World\DIM-8
+[22:40:06] [Client thread/DEBUG] [TaskController] Task disabled: MapPlayerTask
+[22:40:06] [Client thread/DEBUG] [TaskController] Task disabled: InitColorManagerTask
+[22:40:06] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\Copy of New World\DIM-8\night\-2,0.png
+[22:40:06] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\Copy of New World\DIM-8\topo\-2,0.png
+[22:40:06] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\Copy of New World\DIM-8\day\-2,0.png
+[22:40:06] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\Copy of New World\DIM-8\night\-1,-2.png
+[22:40:06] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\Copy of New World\DIM-8\3\-1,-1.png
+[22:40:06] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\Copy of New World\DIM-8\night\0,-1.png
+[22:40:06] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\Copy of New World\DIM-8\3\0,-1.png
+[22:40:06] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\Copy of New World\DIM-8\topo\0,-1.png
+[22:40:06] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\jason\AppData\Roaming\MultiMC\instances\TobyTech\.minecraft\journeymap\data\sp\Copy of New World\DIM-8\day\0,-1.png
