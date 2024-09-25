@@ -54,3 +54,7 @@ instance.cfg
 .minecraft/usercache.json
 .minecraft/usernamecache.json
 /.minecraft/config/BiomeTweaker/output
+.minecraft/config/splash.properties
+.minecraft/crafttweaker.log
+.minecraft/journeymap/journeymap.log
+.minecraft/config/startuptimer/startup_times.json

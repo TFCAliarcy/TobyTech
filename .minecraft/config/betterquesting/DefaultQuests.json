@@ -443,11 +443,13 @@
       }
     },
     "7:10": {
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        602
+      ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "As mentioned in the previous quest you will need to launch a satellite rockets into orbit around a planet in order to unlock it. To do this ",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -457,13 +459,13 @@
               "wizardryutils:summoneditemdata:10": {}
             },
             "OreDict:8": "",
-            "id:8": "forestry:miner_bag"
+            "id:8": "galacticresearch:satellite_rocket"
           },
           "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "Forestry Backpacks",
+          "name:8": "Satellite Rockets",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -475,6 +477,65 @@
         }
       },
       "questID:3": 7,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {},
+                "wizardryutils:summoneditemdata:10": {}
+              },
+              "OreDict:8": "",
+              "id:8": "galacticresearch:satellite_rocket"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "8:10": {
+      "preRequisites:11": [
+        601
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "Vanilla progression has remained unchanged and as such you punch trees and stuff like that.\n\nTimber is included in this and is activated by using an axe on a tree, bigger trees require more time to cut but will cut down the whole tree and can be disabled by holding shift when breaking a log. \n\nNote that it only works on things the game considers trees so don\u0027t worry about chopping down stuff you make.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "ForgeCaps:10": {
+              "wizardryutils:summoneditemdata:10": {}
+            },
+            "OreDict:8": "",
+            "id:8": "minecraft:log"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Wood Age",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 8,
       "rewards:9": {
         "0:10": {
           "choices:9": {
@@ -537,61 +598,40 @@
               },
               "OreDict:8": "",
               "id:8": "forestry:builder_bag"
+            },
+            "6:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {},
+                "wizardryutils:summoneditemdata:10": {}
+              },
+              "OreDict:8": "",
+              "id:8": "railcraft:backpack_apothecary_t1"
+            },
+            "7:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {},
+                "wizardryutils:summoneditemdata:10": {}
+              },
+              "OreDict:8": "",
+              "id:8": "railcraft:backpack_iceman_t1"
+            },
+            "8:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {},
+                "wizardryutils:summoneditemdata:10": {}
+              },
+              "OreDict:8": "",
+              "id:8": "railcraft:backpack_trackman_t1"
             }
           },
           "index:3": 0,
           "rewardID:8": "bq_standard:choice"
-        }
-      },
-      "tasks:9": {
-        "0:10": {
-          "index:3": 0,
-          "taskID:8": "bq_standard:checkbox"
-        }
-      }
-    },
-    "8:10": {
-      "preRequisites:11": [],
-      "properties:10": {
-        "betterquesting:10": {
-          "autoclaim:1": 0,
-          "desc:8": "No Description",
-          "globalshare:1": 0,
-          "icon:10": {
-            "Count:3": 1,
-            "Damage:2": 0,
-            "ForgeCaps:10": {
-              "wizardryutils:summoneditemdata:10": {}
-            },
-            "OreDict:8": "",
-            "id:8": "minecraft:log"
-          },
-          "ignoresview:1": 0,
-          "ismain:1": 0,
-          "issilent:1": 0,
-          "lockedprogress:1": 0,
-          "name:8": "Wood Age",
-          "questlogic:8": "AND",
-          "repeat_relative:1": 1,
-          "repeattime:3": -1,
-          "simultaneous:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
-        }
-      },
-      "questID:3": 8,
-      "rewards:9": {
-        "0:10": {
-          "asScript:1": 1,
-          "command:8": "time set day",
-          "description:8": "",
-          "hideBlockIcon:1": 1,
-          "index:3": 0,
-          "rewardID:8": "bq_standard:command",
-          "title:8": "Restarts the Day",
-          "viaPlayer:1": 0
         }
       },
       "tasks:9": {
@@ -13506,7 +13546,7 @@
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "V1 Missiles",
+          "name:8": "ICBM",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -13548,117 +13588,6 @@
             }
           },
           "taskID:8": "bq_standard:retrieval"
-        },
-        "1:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 2,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "ForgeCaps:10": {
-                "Parent:10": {},
-                "wizardryutils:summoneditemdata:10": {}
-              },
-              "OreDict:8": "",
-              "id:8": "icbmclassic:explosives"
-            },
-            "1:10": {
-              "Count:3": 1,
-              "Damage:2": 5,
-              "ForgeCaps:10": {
-                "Parent:10": {},
-                "wizardryutils:summoneditemdata:10": {}
-              },
-              "OreDict:8": "",
-              "id:8": "icbmclassic:explosives"
-            },
-            "2:10": {
-              "Count:3": 1,
-              "Damage:2": 6,
-              "ForgeCaps:10": {
-                "Parent:10": {},
-                "wizardryutils:summoneditemdata:10": {}
-              },
-              "OreDict:8": "",
-              "id:8": "icbmclassic:explosives"
-            },
-            "3:10": {
-              "Count:3": 1,
-              "Damage:2": 7,
-              "ForgeCaps:10": {
-                "Parent:10": {},
-                "wizardryutils:summoneditemdata:10": {}
-              },
-              "OreDict:8": "",
-              "id:8": "icbmclassic:explosives"
-            },
-            "4:10": {
-              "Count:3": 1,
-              "Damage:2": 2,
-              "ForgeCaps:10": {
-                "Parent:10": {},
-                "wizardryutils:summoneditemdata:10": {}
-              },
-              "OreDict:8": "",
-              "id:8": "icbmclassic:explosives"
-            },
-            "5:10": {
-              "Count:3": 1,
-              "Damage:2": 1,
-              "ForgeCaps:10": {
-                "Parent:10": {},
-                "wizardryutils:summoneditemdata:10": {}
-              },
-              "OreDict:8": "",
-              "id:8": "icbmclassic:explosives"
-            },
-            "6:10": {
-              "Count:3": 1,
-              "Damage:2": 12,
-              "ForgeCaps:10": {
-                "Parent:10": {},
-                "wizardryutils:summoneditemdata:10": {}
-              },
-              "OreDict:8": "",
-              "id:8": "icbmclassic:explosives"
-            },
-            "7:10": {
-              "Count:3": 1,
-              "Damage:2": 3,
-              "ForgeCaps:10": {
-                "Parent:10": {},
-                "wizardryutils:summoneditemdata:10": {}
-              },
-              "OreDict:8": "",
-              "id:8": "icbmclassic:explosives"
-            },
-            "8:10": {
-              "Count:3": 1,
-              "Damage:2": 4,
-              "ForgeCaps:10": {
-                "Parent:10": {},
-                "wizardryutils:summoneditemdata:10": {}
-              },
-              "OreDict:8": "",
-              "id:8": "icbmclassic:explosives"
-            },
-            "9:10": {
-              "Count:3": 1,
-              "Damage:2": 14,
-              "ForgeCaps:10": {
-                "Parent:10": {},
-                "wizardryutils:summoneditemdata:10": {}
-              },
-              "OreDict:8": "",
-              "id:8": "icbmclassic:explosives"
-            }
-          },
-          "taskID:8": "bq_standard:optional_retrieval"
         }
       }
     },
@@ -17985,7 +17914,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "Congrats on your first Aluminum, if you plan on going to space you might want a good chunk more than just one :P\n\nYou should also invest in automating sand production.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -38805,7 +38734,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "Just some blocks using animated textures to look like the void.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -44423,7 +44352,9 @@
       }
     },
     "534:10": {
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        10
+      ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
@@ -47591,233 +47522,6 @@
     },
     "586:10": {
       "preRequisites:11": [
-        39
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "autoclaim:1": 0,
-          "desc:8": "Before you can land on planets you have to find them first! Even the Moon.....\n\nTo use this you must power it and place it next to a mission control next to it. You should place the mission control next to a launch\n\nTo discover planets you use the arrows on the right side of the UI to find and keep a planet in the square focus. The 1 shows how quickly you move your focus and the percentages show where you are within the sky.\n\nThe smaller sky window shows where scannable stuff is with the smaller dots seemingly representing moons and other rocky planets and the larger ones seemingly representing gas giants.\n\nIn order to unlock a destination you will have to launch a satellite mission to get more info on the planet.",
-          "globalshare:1": 0,
-          "icon:10": {
-            "Count:3": 1,
-            "Damage:2": 0,
-            "ForgeCaps:10": {
-              "wizardryutils:summoneditemdata:10": {}
-            },
-            "OreDict:8": "",
-            "id:8": "galacticresearch:telescope"
-          },
-          "ignoresview:1": 0,
-          "ismain:1": 0,
-          "issilent:1": 0,
-          "lockedprogress:1": 0,
-          "name:8": "Finding Planets",
-          "questlogic:8": "AND",
-          "repeat_relative:1": 1,
-          "repeattime:3": -1,
-          "simultaneous:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
-        }
-      },
-      "questID:3": 586,
-      "rewards:9": {},
-      "tasks:9": {
-        "0:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "ForgeCaps:10": {
-                "wizardryutils:summoneditemdata:10": {}
-              },
-              "OreDict:8": "",
-              "id:8": "galacticresearch:telescope"
-            },
-            "1:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "ForgeCaps:10": {
-                "wizardryutils:summoneditemdata:10": {}
-              },
-              "OreDict:8": "",
-              "id:8": "galacticresearch:mission_control_station"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      }
-    },
-    "587:10": {
-      "preRequisites:11": [
-        586
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "autoclaim:1": 0,
-          "desc:8": "No Description",
-          "globalshare:1": 0,
-          "icon:10": {
-            "Count:3": 1,
-            "Damage:2": 0,
-            "ForgeCaps:10": {
-              "wizardryutils:summoneditemdata:10": {}
-            },
-            "OreDict:8": "",
-            "id:8": "galacticresearch:probe"
-          },
-          "ignoresview:1": 0,
-          "ismain:1": 0,
-          "issilent:1": 0,
-          "lockedprogress:1": 0,
-          "name:8": "Automating Exploration",
-          "questlogic:8": "AND",
-          "repeat_relative:1": 1,
-          "repeattime:3": -1,
-          "simultaneous:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
-        }
-      },
-      "questID:3": 587,
-      "rewards:9": {},
-      "tasks:9": {
-        "0:10": {
-          "index:3": 0,
-          "taskID:8": "bq_standard:checkbox"
-        }
-      }
-    },
-    "588:10": {
-      "preRequisites:11": [
-        586
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "autoclaim:1": 0,
-          "desc:8": "No Description",
-          "globalshare:1": 0,
-          "icon:10": {
-            "Count:3": 1,
-            "Damage:2": 0,
-            "ForgeCaps:10": {
-              "wizardryutils:summoneditemdata:10": {}
-            },
-            "OreDict:8": "",
-            "id:8": "galacticresearch:research_paper"
-          },
-          "ignoresview:1": 0,
-          "ismain:1": 0,
-          "issilent:1": 0,
-          "lockedprogress:1": 0,
-          "name:8": "Transferring Research",
-          "questlogic:8": "AND",
-          "repeat_relative:1": 1,
-          "repeattime:3": -1,
-          "simultaneous:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
-        }
-      },
-      "questID:3": 588,
-      "rewards:9": {},
-      "tasks:9": {
-        "0:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "ForgeCaps:10": {
-                "wizardryutils:summoneditemdata:10": {}
-              },
-              "OreDict:8": "",
-              "id:8": "galacticresearch:research_paper"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      }
-    },
-    "589:10": {
-      "preRequisites:11": [
-        586
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "autoclaim:1": 0,
-          "desc:8": "As mentioned in the previous quest you will need to launch a satellite rockets into orbit around a planet in order to unlock it. To do this ",
-          "globalshare:1": 0,
-          "icon:10": {
-            "Count:3": 1,
-            "Damage:2": 0,
-            "ForgeCaps:10": {
-              "astralsorcery:cap_item_amulet_holder:10": {},
-              "wizardryutils:summoneditemdata:10": {}
-            },
-            "OreDict:8": "",
-            "id:8": "galacticresearch:satellite_rocket"
-          },
-          "ignoresview:1": 0,
-          "ismain:1": 0,
-          "issilent:1": 0,
-          "lockedprogress:1": 0,
-          "name:8": "Satellite Rockets",
-          "questlogic:8": "AND",
-          "repeat_relative:1": 1,
-          "repeattime:3": -1,
-          "simultaneous:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
-        }
-      },
-      "questID:3": 589,
-      "rewards:9": {},
-      "tasks:9": {
-        "0:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "ForgeCaps:10": {
-                "astralsorcery:cap_item_amulet_holder:10": {},
-                "wizardryutils:summoneditemdata:10": {}
-              },
-              "OreDict:8": "",
-              "id:8": "galacticresearch:satellite_rocket"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      }
-    },
-    "590:10": {
-      "preRequisites:11": [
         591
       ],
       "properties:10": {
@@ -47876,7 +47580,7 @@
         }
       }
     },
-    "591:10": {
+    "587:10": {
       "preRequisites:11": [
         122
       ],
@@ -47936,7 +47640,7 @@
         }
       }
     },
-    "592:10": {
+    "588:10": {
       "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
@@ -48017,7 +47721,7 @@
         }
       }
     },
-    "593:10": {
+    "589:10": {
       "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
@@ -48073,7 +47777,7 @@
         }
       }
     },
-    "594:10": {
+    "590:10": {
       "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
@@ -48146,7 +47850,7 @@
         }
       }
     },
-    "595:10": {
+    "591:10": {
       "preRequisites:11": [
         596
       ],
@@ -48213,7 +47917,7 @@
         }
       }
     },
-    "596:10": {
+    "592:10": {
       "preRequisites:11": [
         597
       ],
@@ -48271,7 +47975,7 @@
         }
       }
     },
-    "597:10": {
+    "593:10": {
       "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
@@ -48343,7 +48047,7 @@
         }
       }
     },
-    "598:10": {
+    "594:10": {
       "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
@@ -48378,7 +48082,7 @@
       "rewards:9": {},
       "tasks:9": {}
     },
-    "599:10": {
+    "595:10": {
       "preRequisites:11": [
         122
       ],
@@ -48435,6 +48139,276 @@
           "taskID:8": "bq_standard:retrieval"
         }
       }
+    },
+    "596:10": {
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "Night and caves are much more dangerous in this pack, both due to the assortment of new mobs to trouble you, but also due to Hardcore Darkness.\n\nHardcore Darkness makes it so that increasing your darkness in the settings has little to no effect in dark areas with level 0 being pitch black even on your highest brightness setting. You might want to invest in nightvision options.\n\nThere is respite in this however; the moon offers different light levels depending on its phase with a full moon making it very visible while a new moon shines no light.\n\n\n\nThere are also invasions to worry about, every so nights an invasion may appear with a warning of their approach, these are made up of hostile mobs and will seek you out, note that they cannont break blocks and will disappear if the invasion has gone on for too long.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "ForgeCaps:10": {
+              "wizardryutils:summoneditemdata:10": {}
+            },
+            "OreDict:8": "",
+            "id:8": "harvestcraft:candledeco8"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Darkness Comes",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 600,
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 2,
+              "Damage:2": 0,
+              "ForgeCaps:10": {
+                "wizardryutils:summoneditemdata:10": {}
+              },
+              "OreDict:8": "",
+              "id:8": "minecraft:torch"
+            }
+          }
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "597:10": {
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "TobyTech is a pack meant to cater to a variety of players and offer a plethora of playstyles whether that be technology, magic, exploration, farming, building, combat, or just building a little cabin.\n\nThere are however challenges set in place, night and caves are more dangerous, some foods are nerfed, and some more powerful modded items are gated further behind progression than they would be normally.\n\nA bunch of features from more modern versions of minecraft have been backported with the most gamechanging being swimming.\n\nOh also I made it so this quest restarts the day so people joining during the night won\u0027t be stuck in darkness when they join.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "ForgeCaps:10": {
+              "wizardryutils:summoneditemdata:10": {}
+            },
+            "OreDict:8": "",
+            "id:8": "minecraft:sign"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Welcome to TobyTech",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 601,
+      "rewards:9": {
+        "0:10": {
+          "asScript:1": 1,
+          "command:8": "time set day",
+          "description:8": "Restarts the Day",
+          "hideBlockIcon:1": 1,
+          "index:3": 0,
+          "rewardID:8": "bq_standard:command",
+          "title:8": "bq_standard.reward.command",
+          "viaPlayer:1": 0
+        }
+      },
+      "tasks:9": {}
+    },
+    "598:10": {
+      "preRequisites:11": [
+        39
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "Before you can land on planets you have to find them first!\n\nTo use this you must power it and place it next to a mission control next to it. You should place the mission control next to a launch\n\nTo discover planets you use the arrows on the right side of the UI to find and keep a planet in the square focus. The 1 shows how quickly you move your focus and the percentages show where you are within the sky.\n\nThe smaller sky window shows where scannable stuff is with the smaller dots seemingly representing moons and other rocky planets and the larger ones seemingly representing gas giants.\n\nIn order to unlock a destination you will have to launch a satellite mission to get more info on the planet.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "ForgeCaps:10": {
+              "wizardryutils:summoneditemdata:10": {}
+            },
+            "OreDict:8": "",
+            "id:8": "galacticresearch:telescope"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Finding Planets",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 602,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "ForgeCaps:10": {
+                "wizardryutils:summoneditemdata:10": {}
+              },
+              "OreDict:8": "",
+              "id:8": "galacticresearch:telescope"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "ForgeCaps:10": {
+                "wizardryutils:summoneditemdata:10": {}
+              },
+              "OreDict:8": "",
+              "id:8": "galacticresearch:mission_control_station"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "599:10": {
+      "preRequisites:11": [
+        602
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "ForgeCaps:10": {
+              "astralsorcery:cap_item_amulet_holder:10": {},
+              "wizardryutils:summoneditemdata:10": {}
+            },
+            "OreDict:8": "",
+            "id:8": "computercraft:disk"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Automating Research",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 603,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "600:10": {
+      "preRequisites:11": [
+        602
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "ForgeCaps:10": {
+              "wizardryutils:summoneditemdata:10": {}
+            },
+            "OreDict:8": "",
+            "id:8": "galacticresearch:research_paper"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Transferring Research",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 604,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "ForgeCaps:10": {
+                "wizardryutils:summoneditemdata:10": {}
+              },
+              "OreDict:8": "",
+              "id:8": "galacticresearch:research_paper"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
     }
   },
   "questLines:9": {
@@ -48468,333 +48442,340 @@
           "y:3": 60
         },
         "1:10": {
-          "id:3": 7,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -36,
-          "y:3": 60
-        },
-        "2:10": {
           "id:3": 8,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 36,
           "y:3": 96
         },
-        "3:10": {
+        "2:10": {
           "id:3": 9,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 36,
           "y:3": 60
         },
-        "4:10": {
+        "3:10": {
           "id:3": 10,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 36,
           "y:3": 0
         },
-        "5:10": {
+        "4:10": {
           "id:3": 11,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 36,
           "y:3": -84
         },
-        "6:10": {
+        "5:10": {
           "id:3": 12,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 36,
           "y:3": -120
         },
-        "7:10": {
+        "6:10": {
           "id:3": 13,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 36,
           "y:3": -156
         },
-        "8:10": {
+        "7:10": {
           "id:3": 14,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 72,
           "y:3": -156
         },
-        "9:10": {
+        "8:10": {
           "id:3": 15,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 36,
           "y:3": -240
         },
-        "10:10": {
+        "9:10": {
           "id:3": 16,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 36,
           "y:3": -204
         },
-        "11:10": {
+        "10:10": {
           "id:3": 17,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 0,
           "y:3": -156
         },
-        "12:10": {
+        "11:10": {
           "id:3": 18,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 72,
           "y:3": 0
         },
-        "13:10": {
+        "12:10": {
           "id:3": 19,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 120,
           "y:3": 60
         },
-        "14:10": {
+        "13:10": {
           "id:3": 20,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 180,
           "y:3": -72
         },
-        "15:10": {
+        "14:10": {
           "id:3": 22,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 144,
           "y:3": -36
         },
-        "16:10": {
+        "15:10": {
           "id:3": 23,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 204,
           "y:3": -36
         },
-        "17:10": {
+        "16:10": {
           "id:3": 88,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 240,
           "y:3": -60
         },
-        "18:10": {
+        "17:10": {
           "id:3": 89,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 240,
           "y:3": -12
         },
-        "19:10": {
+        "18:10": {
           "id:3": 124,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 0,
           "y:3": -36
         },
-        "20:10": {
+        "19:10": {
           "id:3": 125,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 0,
           "y:3": 0
         },
-        "21:10": {
+        "20:10": {
           "id:3": 126,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -36,
           "y:3": -36
         },
-        "22:10": {
+        "21:10": {
           "id:3": 127,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -36,
           "y:3": 0
         },
-        "23:10": {
+        "22:10": {
           "id:3": 128,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 0,
           "y:3": 60
         },
-        "24:10": {
+        "23:10": {
           "id:3": 129,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 36,
           "y:3": -36
         },
-        "25:10": {
+        "24:10": {
           "id:3": 130,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 120,
           "y:3": 0
         },
-        "26:10": {
+        "25:10": {
           "id:3": 139,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 0,
           "y:3": -72
         },
-        "27:10": {
+        "26:10": {
           "id:3": 140,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 144,
           "y:3": -72
         },
-        "28:10": {
+        "27:10": {
           "id:3": 160,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 156,
           "y:3": -264
         },
-        "29:10": {
+        "28:10": {
           "id:3": 169,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 108,
           "y:3": -156
         },
-        "30:10": {
+        "29:10": {
           "id:3": 170,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 108,
           "y:3": -192
         },
-        "31:10": {
+        "30:10": {
           "id:3": 171,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 108,
           "y:3": -228
         },
-        "32:10": {
+        "31:10": {
           "id:3": 172,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 108,
           "y:3": -264
         },
-        "33:10": {
+        "32:10": {
           "id:3": 173,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 72,
           "y:3": -84
         },
-        "34:10": {
+        "33:10": {
           "id:3": 177,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 108,
           "y:3": -84
         },
-        "35:10": {
+        "34:10": {
           "id:3": 210,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -36,
           "y:3": -120
         },
-        "36:10": {
+        "35:10": {
           "id:3": 244,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 156,
           "y:3": -228
         },
-        "37:10": {
+        "36:10": {
           "id:3": 260,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 240,
           "y:3": -108
         },
-        "38:10": {
+        "37:10": {
           "id:3": 261,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 240,
           "y:3": -144
         },
-        "39:10": {
+        "38:10": {
           "id:3": 262,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 276,
           "y:3": -144
         },
-        "40:10": {
+        "39:10": {
           "id:3": 263,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 276,
           "y:3": -108
         },
-        "41:10": {
+        "40:10": {
           "id:3": 264,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 312,
           "y:3": -108
         },
-        "42:10": {
+        "41:10": {
           "id:3": 265,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 312,
           "y:3": -144
         },
-        "43:10": {
+        "42:10": {
           "id:3": 332,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 0,
           "y:3": -120
         },
-        "44:10": {
+        "43:10": {
           "id:3": 378,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -36,
           "y:3": -72
         },
-        "45:10": {
+        "44:10": {
           "id:3": 476,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 0,
           "y:3": 96
         },
-        "46:10": {
+        "45:10": {
           "id:3": 534,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -36,
-          "y:3": 96
+          "x:3": 72,
+          "y:3": -36
         },
-        "47:10": {
+        "46:10": {
           "id:3": 549,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 72,
           "y:3": -120
+        },
+        "47:10": {
+          "id:3": 600,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -72,
+          "y:3": 96
+        },
+        "48:10": {
+          "id:3": 601,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 36,
+          "y:3": 132
         }
       }
     },
@@ -49547,34 +49528,6 @@
           "sizeY:3": 24,
           "x:3": 204,
           "y:3": -288
-        },
-        "104:10": {
-          "id:3": 586,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 72,
-          "y:3": -648
-        },
-        "105:10": {
-          "id:3": 587,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 120,
-          "y:3": -648
-        },
-        "106:10": {
-          "id:3": 588,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 120,
-          "y:3": -696
-        },
-        "107:10": {
-          "id:3": 589,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 72,
-          "y:3": -696
         }
       }
     },
@@ -49601,760 +49554,788 @@
       },
       "quests:9": {
         "0:10": {
+          "id:3": 7,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 48,
+          "y:3": -48
+        },
+        "1:10": {
           "id:3": 24,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -108,
           "y:3": -96
         },
-        "1:10": {
+        "2:10": {
           "id:3": 36,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -60,
           "y:3": -324
         },
-        "2:10": {
+        "3:10": {
           "id:3": 39,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 12,
           "y:3": -12
         },
-        "3:10": {
+        "4:10": {
           "id:3": 40,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -48,
           "y:3": -36
         },
-        "4:10": {
+        "5:10": {
           "id:3": 41,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 0,
           "y:3": -216
         },
-        "5:10": {
+        "6:10": {
           "id:3": 42,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 12,
           "y:3": -48
         },
-        "6:10": {
+        "7:10": {
           "id:3": 43,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 12,
           "y:3": 24
         },
-        "7:10": {
+        "8:10": {
           "id:3": 118,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -24,
           "y:3": -168
         },
-        "8:10": {
+        "9:10": {
           "id:3": 133,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 12,
           "y:3": -84
         },
-        "9:10": {
+        "10:10": {
           "id:3": 134,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -108,
           "y:3": -132
         },
-        "10:10": {
+        "11:10": {
           "id:3": 141,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -24,
           "y:3": -84
         },
-        "11:10": {
+        "12:10": {
           "id:3": 142,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -60,
           "y:3": -84
         },
-        "12:10": {
+        "13:10": {
           "id:3": 150,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -60,
           "y:3": -120
         },
-        "13:10": {
+        "14:10": {
           "id:3": 151,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -24,
           "y:3": -120
         },
-        "14:10": {
+        "15:10": {
           "id:3": 152,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -84,
           "y:3": -36
         },
-        "15:10": {
+        "16:10": {
           "id:3": 186,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -84,
           "y:3": 168
         },
-        "16:10": {
+        "17:10": {
           "id:3": 268,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 84,
           "y:3": 132
         },
-        "17:10": {
+        "18:10": {
           "id:3": 271,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -60,
           "y:3": -396
         },
-        "18:10": {
+        "19:10": {
           "id:3": 278,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -204,
           "y:3": -108
         },
-        "19:10": {
+        "20:10": {
           "id:3": 279,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -204,
           "y:3": -156
         },
-        "20:10": {
+        "21:10": {
           "id:3": 282,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 84,
           "y:3": 96
         },
-        "21:10": {
+        "22:10": {
           "id:3": 283,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -108,
           "y:3": -192
         },
-        "22:10": {
+        "23:10": {
           "id:3": 316,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 48,
           "y:3": 60
         },
-        "23:10": {
+        "24:10": {
           "id:3": 341,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 48,
           "y:3": -156
         },
-        "24:10": {
+        "25:10": {
           "id:3": 342,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -72,
           "y:3": -204
         },
-        "25:10": {
+        "26:10": {
           "id:3": 346,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 168,
           "y:3": -300
         },
-        "26:10": {
+        "27:10": {
           "id:3": 347,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 120,
           "y:3": -204
         },
-        "27:10": {
+        "28:10": {
           "id:3": 348,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 120,
           "y:3": -300
         },
-        "28:10": {
+        "29:10": {
           "id:3": 349,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 168,
           "y:3": -252
         },
-        "29:10": {
+        "30:10": {
           "id:3": 350,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 204,
           "y:3": -252
         },
-        "30:10": {
+        "31:10": {
           "id:3": 351,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 48,
           "y:3": -228
         },
-        "31:10": {
+        "32:10": {
           "id:3": 352,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 168,
           "y:3": -204
         },
-        "32:10": {
+        "33:10": {
           "id:3": 353,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 60,
           "y:3": -300
         },
-        "33:10": {
+        "34:10": {
           "id:3": 354,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 108,
           "y:3": -96
         },
-        "34:10": {
+        "35:10": {
           "id:3": 355,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 120,
           "y:3": -252
         },
-        "35:10": {
+        "36:10": {
           "id:3": 357,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 120,
           "y:3": -336
         },
-        "36:10": {
+        "37:10": {
           "id:3": 358,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 12,
           "y:3": -300
         },
-        "37:10": {
+        "38:10": {
           "id:3": 359,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 60,
           "y:3": -348
         },
-        "38:10": {
+        "39:10": {
           "id:3": 360,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 120,
           "y:3": -132
         },
-        "39:10": {
+        "40:10": {
           "id:3": 361,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 168,
           "y:3": -132
         },
-        "40:10": {
+        "41:10": {
           "id:3": 362,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -12,
           "y:3": -396
         },
-        "41:10": {
+        "42:10": {
           "id:3": 363,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 168,
           "y:3": -168
         },
-        "42:10": {
+        "43:10": {
           "id:3": 364,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -60,
           "y:3": -432
         },
-        "43:10": {
+        "44:10": {
           "id:3": 365,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 96,
           "y:3": -396
         },
-        "44:10": {
+        "45:10": {
           "id:3": 366,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 48,
           "y:3": -396
         },
-        "45:10": {
+        "46:10": {
           "id:3": 367,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 12,
           "y:3": -348
         },
-        "46:10": {
+        "47:10": {
           "id:3": 368,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 240,
           "y:3": -252
         },
-        "47:10": {
+        "48:10": {
           "id:3": 369,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 276,
           "y:3": -204
         },
-        "48:10": {
+        "49:10": {
           "id:3": 370,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 276,
           "y:3": -300
         },
-        "49:10": {
+        "50:10": {
           "id:3": 371,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 204,
           "y:3": -204
         },
-        "50:10": {
+        "51:10": {
           "id:3": 372,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 288,
           "y:3": -252
         },
-        "51:10": {
+        "52:10": {
           "id:3": 373,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 240,
           "y:3": -300
         },
-        "52:10": {
+        "53:10": {
           "id:3": 374,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 204,
           "y:3": -300
         },
-        "53:10": {
+        "54:10": {
           "id:3": 375,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -120,
           "y:3": 168
         },
-        "54:10": {
+        "55:10": {
           "id:3": 376,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -156,
           "y:3": 168
         },
-        "55:10": {
+        "56:10": {
           "id:3": 412,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 12,
           "y:3": 96
         },
-        "56:10": {
+        "57:10": {
           "id:3": 413,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 12,
           "y:3": 60
         },
-        "57:10": {
+        "58:10": {
           "id:3": 415,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 48,
           "y:3": 132
         },
-        "58:10": {
+        "59:10": {
           "id:3": 418,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -192,
           "y:3": 168
         },
-        "59:10": {
+        "60:10": {
           "id:3": 419,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -120,
           "y:3": 132
         },
-        "60:10": {
+        "61:10": {
           "id:3": 420,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -84,
           "y:3": 204
         },
-        "61:10": {
+        "62:10": {
           "id:3": 421,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -120,
           "y:3": 204
         },
-        "62:10": {
+        "63:10": {
           "id:3": 422,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -156,
           "y:3": 204
         },
-        "63:10": {
+        "64:10": {
           "id:3": 423,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -192,
           "y:3": 204
         },
-        "64:10": {
+        "65:10": {
           "id:3": 424,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -156,
           "y:3": 132
         },
-        "65:10": {
+        "66:10": {
           "id:3": 425,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -192,
           "y:3": 132
         },
-        "66:10": {
+        "67:10": {
           "id:3": 426,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -36,
           "y:3": 168
         },
-        "67:10": {
+        "68:10": {
           "id:3": 427,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 12,
           "y:3": 132
         },
-        "68:10": {
+        "69:10": {
           "id:3": 428,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 12,
           "y:3": 168
         },
-        "69:10": {
+        "70:10": {
           "id:3": 429,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 120,
           "y:3": 204
         },
-        "70:10": {
+        "71:10": {
           "id:3": 430,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 120,
           "y:3": 132
         },
-        "71:10": {
+        "72:10": {
           "id:3": 431,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -36,
           "y:3": 240
         },
-        "72:10": {
+        "73:10": {
           "id:3": 432,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 12,
           "y:3": 240
         },
-        "73:10": {
+        "74:10": {
           "id:3": 433,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 120,
           "y:3": 168
         },
-        "74:10": {
+        "75:10": {
           "id:3": 434,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -36,
           "y:3": 276
         },
-        "75:10": {
+        "76:10": {
           "id:3": 435,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 48,
           "y:3": 240
         },
-        "76:10": {
+        "77:10": {
           "id:3": 436,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 48,
           "y:3": 204
         },
-        "77:10": {
+        "78:10": {
           "id:3": 437,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 156,
           "y:3": 132
         },
-        "78:10": {
+        "79:10": {
           "id:3": 438,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 156,
           "y:3": 204
         },
-        "79:10": {
+        "80:10": {
           "id:3": 439,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -84,
           "y:3": 132
         },
-        "80:10": {
+        "81:10": {
           "id:3": 440,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -84,
           "y:3": 96
         },
-        "81:10": {
+        "82:10": {
           "id:3": 441,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 156,
           "y:3": 240
         },
-        "82:10": {
+        "83:10": {
           "id:3": 442,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 84,
           "y:3": 204
         },
-        "83:10": {
+        "84:10": {
           "id:3": 443,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 156,
           "y:3": 168
         },
-        "84:10": {
+        "85:10": {
           "id:3": 444,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -120,
           "y:3": 96
         },
-        "85:10": {
+        "86:10": {
           "id:3": 445,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -36,
           "y:3": 204
         },
-        "86:10": {
+        "87:10": {
           "id:3": 446,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 120,
           "y:3": 96
         },
-        "87:10": {
+        "88:10": {
           "id:3": 447,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 12,
           "y:3": 204
         },
-        "88:10": {
+        "89:10": {
           "id:3": 450,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 48,
           "y:3": 96
         },
-        "89:10": {
+        "90:10": {
           "id:3": 451,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -84,
           "y:3": 60
         },
-        "90:10": {
+        "91:10": {
           "id:3": 453,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -192,
           "y:3": 240
         },
-        "91:10": {
+        "92:10": {
           "id:3": 454,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -156,
           "y:3": 240
         },
-        "92:10": {
+        "93:10": {
           "id:3": 455,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -120,
           "y:3": 240
         },
-        "93:10": {
+        "94:10": {
           "id:3": 456,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -84,
           "y:3": 240
         },
-        "94:10": {
+        "95:10": {
           "id:3": 457,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -36,
           "y:3": 132
         },
-        "95:10": {
+        "96:10": {
           "id:3": 458,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 84,
           "y:3": 240
         },
-        "96:10": {
+        "97:10": {
           "id:3": 460,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 36,
           "y:3": -120
         },
-        "97:10": {
+        "98:10": {
           "id:3": 461,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 84,
           "y:3": -168
         },
-        "98:10": {
+        "99:10": {
           "id:3": 462,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 60,
           "y:3": -96
         },
-        "99:10": {
+        "100:10": {
           "id:3": 463,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 168,
           "y:3": -336
         },
-        "100:10": {
+        "101:10": {
           "id:3": 464,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 84,
           "y:3": -324
         },
-        "101:10": {
+        "102:10": {
           "id:3": 465,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -60,
           "y:3": -252
         },
-        "102:10": {
+        "103:10": {
           "id:3": 466,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -144,
           "y:3": -132
         },
-        "103:10": {
+        "104:10": {
           "id:3": 467,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -144,
           "y:3": -168
         },
-        "104:10": {
+        "105:10": {
           "id:3": 468,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -12,
           "y:3": -432
         },
-        "105:10": {
+        "106:10": {
           "id:3": 529,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 204,
           "y:3": -336
         },
-        "106:10": {
+        "107:10": {
           "id:3": 547,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -108,
           "y:3": -324
         },
-        "107:10": {
+        "108:10": {
           "id:3": 548,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 204,
           "y:3": -384
+        },
+        "109:10": {
+          "id:3": 602,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 48,
+          "y:3": -12
+        },
+        "110:10": {
+          "id:3": 603,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 84,
+          "y:3": -12
+        },
+        "111:10": {
+          "id:3": 604,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 48,
+          "y:3": 24
         }
       }
     },
