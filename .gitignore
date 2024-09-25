@@ -49,3 +49,4 @@ instance.cfg
 .minecraft/dropt.log
 /.minecraft/journeymap
 .minecraft/dropt.log
+.minecraft/config/AppliedEnergistics2/CustomRecipes.cfg

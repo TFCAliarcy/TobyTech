@@ -1,0 +1,6 @@
+
+{
+  "Name": "oe.tropical_slime",
+  "Registry ID": "oe:tropical_slime",
+  "Class": "com.sirsquidly.oe.entity.EntityTropicalSlime"
+}

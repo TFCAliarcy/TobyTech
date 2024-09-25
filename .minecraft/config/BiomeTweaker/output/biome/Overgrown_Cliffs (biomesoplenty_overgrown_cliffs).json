@@ -20,12 +20,12 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "MOUNTAIN",
-    "DENSE",
-    "LUSH",
     "JUNGLE",
+    "DENSE",
+    "HILLS",
+    "LUSH",
     "WET",
-    "HILLS"
+    "MOUNTAIN"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -432,6 +432,12 @@
     {
       "Entity Class": "com.sirsquidly.oe.entity.EntityGlowSquid",
       "Weight": 20,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "com.sirsquidly.oe.entity.EntityTropicalSlime",
+      "Weight": 4,
       "Min Group Count": 1,
       "Max Group Count": 1
     }
