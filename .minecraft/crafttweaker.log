@@ -1,24 +1,24 @@
 [PREINITIALIZATION][CLIENT][INFO] Thank you to the Patreon supporters below and others who make CraftTweaker possible!
-embeddedt
-Hooley
-Zuniroa
-Spencer Gilbert
 Ivy_
-Pongo Sapiens
-Ncc1702
-Genryu
-Quaternary
-NickT
-Peregrinus11
-Jordan Pineo
-Belathus
-DreamThorn
-Jellycraft
-Jessie Sims
-Lucas
-NerdyWhiteGuy
+Spencer Gilbert
 Phillip Swearingain
+Pongo Sapiens
+Jellycraft
+Quaternary
+Belathus
+Zuniroa
+embeddedt
+Peregrinus11
+NerdyWhiteGuy
+NickT
+DreamThorn
+Jessie Sims
+Jordan Pineo
+Genryu
+Hooley
 Jonathan McManus
+Ncc1702
+Lucas
 If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 
 [PREINITIALIZATION][CLIENT][TRACE] Current loaders after merging: [[preinit]]
@@ -37,7 +37,7 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [PREINITIALIZATION][CLIENT][TRACE] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker|reloadable]: oredict.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][TRACE] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker|reloadable]: revtier.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][TRACE] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker|reloadable]: techguns.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][TRACE] Completed script loading in: 5ms
+[PREINITIALIZATION][CLIENT][TRACE] Completed script loading in: 4ms
 [PREINITIALIZATION][CLIENT][INFO] Hey! Here is ZenUtils.
 [PREINITIALIZATION][CLIENT][TRACE] Current loaders after merging: [[preinit], [contenttweaker]]
 [PREINITIALIZATION][CLIENT][INFO] Loading scripts for loader with names [contenttweaker]
@@ -55,7 +55,7 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [PREINITIALIZATION][CLIENT][TRACE] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker|reloadable]: oredict.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][TRACE] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker|reloadable]: revtier.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][TRACE] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker|reloadable]: techguns.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][TRACE] Completed script loading in: 255ms
+[PREINITIALIZATION][CLIENT][TRACE] Completed script loading in: 236ms
 [INITIALIZATION][CLIENT][INFO] CraftTweaker: Building registry
 [INITIALIZATION][CLIENT][INFO] CraftTweaker: Successfully built item registry
 [INITIALIZATION][CLIENT][TRACE] Current loaders after merging: [[preinit], [contenttweaker], [recipeevent | crafttweaker]]
@@ -195,6 +195,9 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [INITIALIZATION][CLIENT][INFO] Adding Upgrade - Accuracy to ore dictionary entry turret_upgrade
 [INITIALIZATION][CLIENT][TRACE] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker|reloadable]: revtier.zs}
 [INITIALIZATION][CLIENT][TRACE] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker|reloadable]: techguns.zs}
+[INITIALIZATION][CLIENT][ERROR] techguns.zs:192 > a method available but none matches the parameters (ZenTypeNative: crafttweaker.item.IItemStack, ZenTypeNative: crafttweaker.item.IItemStack, ZenTypeNative: crafttweaker.oredict.IOreDictEntry, int)
+This is usually an error in your script, not in the mod
+addRecipe(ZenTypeNative: crafttweaker.item.IItemStack, ZenTypeNative: crafttweaker.item.IItemStack, ZenTypeNative: crafttweaker.item.IItemStack, int, Optional ZenTypeNative: crafttweaker.item.IItemStack, Optional int)
 [INITIALIZATION][CLIENT][INFO] Remove [item.ingotIron] to AmmoPressSlot: Metal2
 [INITIALIZATION][CLIENT][INFO] Remove [item.for.ingot_copper,item.thermalfoundation.material.ingotCopper,item.railcraft.ingot.copper,item.nuclearcraft.ingot.copper,item.projectred.core.itemResource.copper_ingot,item.basic_item.ingot_copper,item.iceandfire.copperIngot,item.techguns.ingotcopper] to AmmoPressSlot: Metal2
 [INITIALIZATION][CLIENT][INFO] Remove [item.for.ingot_tin,item.thermalfoundation.material.ingotTin,item.railcraft.ingot.tin,item.nuclearcraft.ingot.tin,item.projectred.core.itemResource.tin_ingot,item.basic_item.ingot_tin,item.techguns.ingottin] to AmmoPressSlot: Metal2
@@ -214,7 +217,7 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [INITIALIZATION][CLIENT][INFO] Remove Recipe(s) for 1xitem.techguns.itemshared@83 from BlastFurnace
 [INITIALIZATION][CLIENT][INFO] Remove Recipe(s) for 1xitem.techguns.itemshared@84 from BlastFurnace
 [INITIALIZATION][CLIENT][INFO] Remove Recipe(s) for 1xitem.techguns.itemshared@81 from BlastFurnace
-[INITIALIZATION][CLIENT][TRACE] Completed script loading in: 235ms
+[INITIALIZATION][CLIENT][TRACE] Completed script loading in: 220ms
 [INITIALIZATION][CLIENT][INFO] Translating item.projectred.expansion.enderPearlInfused.name to Compressed Draconium Dust
 [INITIALIZATION][CLIENT][INFO] Translating item.datnuclearphysicslite.darkmatter_cell.name to Red Matter Cell
 [POSTINITIALIZATION][CLIENT][INFO] Removing Inscriber Entry for Printed Logic Circuit
@@ -301,6 +304,7 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Wyvern Leggings with name ct_shaped-1091781713
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Wyvern Boots with name ct_shaped309322761
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Fusion Core with name ct_shaped87637221
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Tesseract with name ct_shaped1313242577
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Electromagnet with name ct_shaped1937969555
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Particle Accelerator with name ct_shaped1948809132
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Turret Base (Tier 5) with name ct_shaped-988497353
@@ -441,6 +445,8 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <enderio:item_material:1>
 [AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <nuclearcraft:alloy:6> * 2
 [AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <nuclearcraft:alloy:1> * 2
+[AVAILABLE][CLIENT][INFO] Altering Refinery Recipe(s) for <liquid:refined_fuel>
+[AVAILABLE][CLIENT][INFO] Altering Refinery Recipe(s) for <liquid:fuel_light>
 [AVAILABLE][CLIENT][INFO] Altering Transposer Fill Recipe(s) for <liquid:refined_fuel> * 250
 [AVAILABLE][CLIENT][INFO] Altering Transposer Fill Recipe(s) for <liquid:biofuel> * 250
 [AVAILABLE][CLIENT][INFO] Altering Transposer Fill Recipe(s) for <liquid:refined_biofuel> * 250
@@ -496,6 +502,11 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [AVAILABLE][CLIENT][INFO] Hiding item in JEI: <thermalfoundation:tool.sickle_iron>
 [AVAILABLE][CLIENT][INFO] Hiding item in JEI: <thermalfoundation:tool.sickle_diamond>
 [AVAILABLE][CLIENT][INFO] Hiding item in JEI: <thermalfoundation:tool.sickle_gold>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <rftools:powercell>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <rftools:powercell_advanced>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <rftools:powercell_simple>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <rftools:charged_porter>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <rftools:advanced_charged_porter>
 [SERVER_STARTED][SERVER][INFO] Loading scripts for loader with names [reloadable]
 [SERVER_STARTED][SERVER][TRACE] [reloadable | SIDE_CLIENT]: Skipping file {[0:contenttweaker]: contenttweaker.zs} as we are currently loading with a different loader
 [SERVER_STARTED][SERVER][TRACE] [reloadable | SIDE_CLIENT]: Loading Script: {[0:crafttweaker|reloadable]: fartier.zs}
@@ -633,7 +644,7 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [SERVER_STARTED][SERVER][INFO] Tried to reload action: Remove Recipe(s) for 1xitem.techguns.itemshared@83 from BlastFurnace, which is not reloadable.
 [SERVER_STARTED][SERVER][INFO] Tried to reload action: Remove Recipe(s) for 1xitem.techguns.itemshared@84 from BlastFurnace, which is not reloadable.
 [SERVER_STARTED][SERVER][INFO] Tried to reload action: Remove Recipe(s) for 1xitem.techguns.itemshared@81 from BlastFurnace, which is not reloadable.
-[SERVER_STARTED][SERVER][TRACE] Completed script loading in: 54ms
+[SERVER_STARTED][SERVER][TRACE] Completed script loading in: 51ms
 [SERVER_STARTED][SERVER][INFO] Removing recipes for various outputs
 [SERVER_STARTED][SERVER][INFO] Removing recipe with name "draconicevolution:draconium_ingot_1"
 [SERVER_STARTED][SERVER][INFO] Removing recipe with name "thermalfoundation:dust_signalum"
@@ -804,6 +815,8 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [SERVER_STARTED][SERVER][INFO] Altering InductionSmelter Recipe(s) for <enderio:item_material:1>
 [SERVER_STARTED][SERVER][INFO] Altering InductionSmelter Recipe(s) for <nuclearcraft:alloy:6> * 2
 [SERVER_STARTED][SERVER][INFO] Altering InductionSmelter Recipe(s) for <nuclearcraft:alloy:1> * 2
+[SERVER_STARTED][SERVER][INFO] Altering Refinery Recipe(s) for <liquid:refined_fuel>
+[SERVER_STARTED][SERVER][INFO] Altering Refinery Recipe(s) for <liquid:fuel_light>
 [SERVER_STARTED][SERVER][INFO] Altering Transposer Fill Recipe(s) for <liquid:refined_fuel> * 250
 [SERVER_STARTED][SERVER][INFO] Altering Transposer Fill Recipe(s) for <liquid:biofuel> * 250
 [SERVER_STARTED][SERVER][INFO] Altering Transposer Fill Recipe(s) for <liquid:refined_biofuel> * 250
@@ -812,6 +825,7 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [SERVER_STARTED][SERVER][INFO] Altering Transposer Fill Recipe(s) for <liquid:pyrotheum> * 250
 [SERVER_STARTED][SERVER][INFO] Altering Transposer Fill Recipe(s) for <liquid:pyrotheum> * 250
 [SERVER_STARTED][SERVER][INFO] Altering InductionSmelter Recipe(s) for <techguns:itemshared:84>
+[SERVER_STARTED][SERVER][INFO] Altering InductionSmelter Recipe(s) for <techguns:itemshared:55>
 [SERVER_STARTED][CLIENT][INFO] Hiding category in JEI: techguns.oredrill
 [SERVER_STARTED][CLIENT][INFO] Hiding category in JEI: techguns.reactionchamber
 [SERVER_STARTED][CLIENT][INFO] Hiding category in JEI: techguns.reactionchamber
@@ -859,3 +873,8 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [SERVER_STARTED][CLIENT][INFO] Hiding item in JEI: <thermalfoundation:tool.sickle_iron>
 [SERVER_STARTED][CLIENT][INFO] Hiding item in JEI: <thermalfoundation:tool.sickle_diamond>
 [SERVER_STARTED][CLIENT][INFO] Hiding item in JEI: <thermalfoundation:tool.sickle_gold>
+[SERVER_STARTED][CLIENT][INFO] Hiding item in JEI: <rftools:powercell>
+[SERVER_STARTED][CLIENT][INFO] Hiding item in JEI: <rftools:powercell_advanced>
+[SERVER_STARTED][CLIENT][INFO] Hiding item in JEI: <rftools:powercell_simple>
+[SERVER_STARTED][CLIENT][INFO] Hiding item in JEI: <rftools:charged_porter>
+[SERVER_STARTED][CLIENT][INFO] Hiding item in JEI: <rftools:advanced_charged_porter>

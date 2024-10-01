@@ -58,3 +58,4 @@ instance.cfg
 .minecraft/crafttweaker.log
 .minecraft/journeymap/journeymap.log
 .minecraft/config/startuptimer/startup_times.json
+/.minecraft/crash-reports

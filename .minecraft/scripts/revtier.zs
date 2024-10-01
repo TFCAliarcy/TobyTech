@@ -1,4 +1,7 @@
 #reloadable
+
+import mods.thermalexpansion.Refinery;
+
 // Tunnel Bore
 recipes.remove(<railcraft:bore>);
 recipes.addShaped(<railcraft:bore>, [
@@ -143,3 +146,6 @@ recipes.addShaped(<galacticraftcore:machine2:0>, [
 	[<ore:ingotAluminum>,<ore:ingotBronze>,<ore:ingotAluminum>],
 	[<galacticraftcore:aluminum_wire>, <galacticraftcore:basic_item:14>, <galacticraftcore:aluminum_wire>]]);
 
+//Plastic from Oil
+Refinery.addRecipe(<liquid:refined_fuel> *1, <industrialforegoing:plastic>, <liquid:refined_fuel> *100, 5000);
+Refinery.addRecipe(<liquid:fuel_light> *1, <industrialforegoing:plastic>*2, <liquid:fuel_light> *100, 5000);

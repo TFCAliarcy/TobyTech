@@ -187,3 +187,6 @@ recipes.addShaped(<techguns:guidedmissilelauncher:0>, [ // Empty
 	[null,<ore:blockGlassHardened>,<appliedenergistics2:material:24>], 
 	[<techguns:itemshared:7>,<techguns:itemshared:39>,<techguns:itemshared:39>],
 	[null, <techguns:itemshared:35>, null]]);
+
+// Techguns Plastic
+mods.thermalexpansion.InductionSmelter.addRecipe(<techguns:itemshared:55>, <industrialforegoing:plastic>, <thermalfoundation:material:771>, 3200);

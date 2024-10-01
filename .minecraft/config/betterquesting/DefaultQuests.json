@@ -45013,7 +45013,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "The Ultimate in Missiles, it doesn\u0027t explode, it deletes blocks in a large radius regardless of blast level including blocks meant to be indestructible such as bedrock and forcefields.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -47521,6 +47521,268 @@
       }
     },
     "586:10": {
+      "preRequisiteTypes:7": [
+        0,
+        1
+      ],
+      "preRequisites:11": [
+        43,
+        347
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "ForgeCaps:10": {
+              "wizardryutils:summoneditemdata:10": {}
+            },
+            "OreDict:8": "",
+            "id:8": "rftools:machine_frame"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "RFTools",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 586,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "ForgeCaps:10": {
+                "wizardryutils:summoneditemdata:10": {}
+              },
+              "OreDict:8": "",
+              "id:8": "rftools:machine_frame"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "587:10": {
+      "preRequisites:11": [
+        586
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "ForgeCaps:10": {
+              "wizardryutils:summoneditemdata:10": {}
+            },
+            "OreDict:8": "",
+            "id:8": "rftools:shield_block1"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Forcefields",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 587,
+      "rewards:9": {},
+      "tasks:9": {}
+    },
+    "588:10": {
+      "preRequisites:11": [
+        586
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "ForgeCaps:10": {
+              "wizardryutils:summoneditemdata:10": {}
+            },
+            "OreDict:8": "",
+            "id:8": "rftools:matter_transmitter"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Teleporter Going Up",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 588,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "ForgeCaps:10": {
+                "wizardryutils:summoneditemdata:10": {}
+              },
+              "OreDict:8": "",
+              "id:8": "rftools:matter_transmitter"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "ForgeCaps:10": {
+                "wizardryutils:summoneditemdata:10": {}
+              },
+              "OreDict:8": "",
+              "id:8": "rftools:matter_receiver"
+            },
+            "2:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "ForgeCaps:10": {
+                "wizardryutils:summoneditemdata:10": {}
+              },
+              "OreDict:8": "",
+              "id:8": "rftools:dialing_device"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "ForgeCaps:10": {
+                "wizardryutils:summoneditemdata:10": {}
+              },
+              "OreDict:8": "",
+              "id:8": "rftools:matter_booster"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "ForgeCaps:10": {
+                "wizardryutils:summoneditemdata:10": {}
+              },
+              "OreDict:8": "",
+              "id:8": "rftools:destination_analyzer"
+            }
+          },
+          "taskID:8": "bq_standard:optional_retrieval"
+        }
+      }
+    },
+    "589:10": {
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 18,
+            "ForgeCaps:10": {
+              "wizardryutils:summoneditemdata:10": {}
+            },
+            "OreDict:8": "",
+            "id:8": "bloodmagic:component"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Blood Magic",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 589,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {},
+                "wizardryutils:summoneditemdata:10": {}
+              },
+              "OreDict:8": "",
+              "id:8": "guideapi:bloodmagic-guide"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "590:10": {
       "preRequisites:11": [
         591
       ],
@@ -47580,7 +47842,7 @@
         }
       }
     },
-    "587:10": {
+    "591:10": {
       "preRequisites:11": [
         122
       ],
@@ -47640,7 +47902,7 @@
         }
       }
     },
-    "588:10": {
+    "592:10": {
       "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
@@ -47721,7 +47983,7 @@
         }
       }
     },
-    "589:10": {
+    "593:10": {
       "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
@@ -47777,7 +48039,7 @@
         }
       }
     },
-    "590:10": {
+    "594:10": {
       "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
@@ -47850,7 +48112,7 @@
         }
       }
     },
-    "591:10": {
+    "595:10": {
       "preRequisites:11": [
         596
       ],
@@ -47917,7 +48179,7 @@
         }
       }
     },
-    "592:10": {
+    "596:10": {
       "preRequisites:11": [
         597
       ],
@@ -47975,7 +48237,7 @@
         }
       }
     },
-    "593:10": {
+    "597:10": {
       "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
@@ -48047,8 +48309,10 @@
         }
       }
     },
-    "594:10": {
-      "preRequisites:11": [],
+    "598:10": {
+      "preRequisites:11": [
+        586
+      ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
@@ -48061,13 +48325,13 @@
               "wizardryutils:summoneditemdata:10": {}
             },
             "OreDict:8": "",
-            "id:8": "minecraft:nether_star"
+            "id:8": "rftools:projector"
           },
           "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "New Quest",
+          "name:8": "Holographic Projection",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -48080,9 +48344,30 @@
       },
       "questID:3": 598,
       "rewards:9": {},
-      "tasks:9": {}
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "ForgeCaps:10": {
+                "wizardryutils:summoneditemdata:10": {}
+              },
+              "OreDict:8": "",
+              "id:8": "rftools:projector"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
     },
-    "595:10": {
+    "599:10": {
       "preRequisites:11": [
         122
       ],
@@ -48140,7 +48425,7 @@
         }
       }
     },
-    "596:10": {
+    "600:10": {
       "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
@@ -48196,7 +48481,7 @@
         }
       }
     },
-    "597:10": {
+    "601:10": {
       "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
@@ -48242,7 +48527,7 @@
       },
       "tasks:9": {}
     },
-    "598:10": {
+    "602:10": {
       "preRequisites:11": [
         39
       ],
@@ -48309,7 +48594,7 @@
         }
       }
     },
-    "599:10": {
+    "603:10": {
       "preRequisites:11": [
         602
       ],
@@ -48352,7 +48637,7 @@
         }
       }
     },
-    "600:10": {
+    "604:10": {
       "preRequisites:11": [
         602
       ],
@@ -49557,8 +49842,8 @@
           "id:3": 7,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 48,
-          "y:3": -48
+          "x:3": -60,
+          "y:3": -12
         },
         "1:10": {
           "id:3": 24,
@@ -49585,8 +49870,8 @@
           "id:3": 40,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -48,
-          "y:3": -36
+          "x:3": -24,
+          "y:3": -48
         },
         "5:10": {
           "id:3": 41,
@@ -49662,8 +49947,8 @@
           "id:3": 152,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -84,
-          "y:3": -36
+          "x:3": -60,
+          "y:3": -48
         },
         "16:10": {
           "id:3": 186,
@@ -50317,24 +50602,52 @@
           "y:3": -384
         },
         "109:10": {
+          "id:3": 586,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 216,
+          "y:3": 24
+        },
+        "110:10": {
+          "id:3": 587,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 216,
+          "y:3": -24
+        },
+        "111:10": {
+          "id:3": 588,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 216,
+          "y:3": 84
+        },
+        "112:10": {
+          "id:3": 598,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 252,
+          "y:3": -24
+        },
+        "113:10": {
           "id:3": 602,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 48,
+          "x:3": -24,
           "y:3": -12
         },
-        "110:10": {
+        "114:10": {
           "id:3": 603,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 84,
-          "y:3": -12
+          "x:3": -60,
+          "y:3": 24
         },
-        "111:10": {
+        "115:10": {
           "id:3": 604,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 48,
+          "x:3": -24,
           "y:3": 24
         }
       }
@@ -51017,13 +51330,6 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -36,
-          "y:3": -96
-        },
-        "94:10": {
-          "id:3": 598,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 336,
           "y:3": -96
         }
       }
@@ -52055,6 +52361,13 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 360,
+          "y:3": -288
+        },
+        "4:10": {
+          "id:3": 589,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 288,
           "y:3": -288
         }
       }

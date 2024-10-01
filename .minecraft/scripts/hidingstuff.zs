@@ -48,3 +48,8 @@ mods.jei.JEI.removeAndHide(<enderio:block_alloy_endergy:0>, false);
 mods.jei.JEI.removeAndHide(<thermalfoundation:tool.sickle_iron>);
 mods.jei.JEI.removeAndHide(<thermalfoundation:tool.sickle_diamond>);
 mods.jei.JEI.removeAndHide(<thermalfoundation:tool.sickle_gold>);
+mods.jei.JEI.removeAndHide(<rftools:powercell>);
+mods.jei.JEI.removeAndHide(<rftools:powercell_advanced>);
+mods.jei.JEI.removeAndHide(<rftools:powercell_simple>);
+mods.jei.JEI.removeAndHide(<rftools:charged_porter>);
+mods.jei.JEI.removeAndHide(<rftools:advanced_charged_porter>);
