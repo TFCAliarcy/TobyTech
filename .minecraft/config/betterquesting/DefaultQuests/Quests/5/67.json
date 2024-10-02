@@ -1,0 +1,68 @@
+{
+  "preRequisites:11": [
+    309
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "autoclaim:1": 0,
+      "desc:8": "The process of making GMOs begins with cultivating bacteria in incubators. You start this by making growth medium and dissolving it in water in an incubator and then put the liquid growth medium into another incubator with wheat to make bacteria. From here you should be able to figure out how to make the other bacteria variants.\n\nYou also use bacteria mixed with sugar to make enzymes used in the next step.\n\nSomething to note is that if you have at least 1 mB of a bacteria in an incubator you can make more by feeding in growth medium. You can carry around liquids less than a bucket by making a pippette which is found in the Cool Tools tab.\n\nOh yeah I forgot to mention it takes power, all of the genetics machines take RF/MJ.",
+      "frame:8": "ROUNDED_SQUARE",
+      "globalshare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 2,
+        "ForgeCaps:10": {
+          "wizardryutils:summoneditemdata:10": {}
+        },
+        "OreDict:8": "",
+        "id:8": "genetics:lab_machine"
+      },
+      "ignoresview:1": 0,
+      "ismain:1": 0,
+      "issilent:1": 0,
+      "lockedprogress:1": 0,
+      "name:8": "Making Bacteria",
+      "questlogic:8": "AND",
+      "repeat_relative:1": 1,
+      "repeattime:3": -1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "tasklogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "entryLogic:8": "AND",
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2,
+          "ForgeCaps:10": {
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "OreDict:8": "",
+          "id:8": "genetics:lab_machine"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 4,
+          "ForgeCaps:10": {
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "OreDict:8": "",
+          "id:8": "genetics:misc"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

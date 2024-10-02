@@ -59,3 +59,5 @@ instance.cfg
 .minecraft/journeymap/journeymap.log
 .minecraft/config/startuptimer/startup_times.json
 /.minecraft/crash-reports
+.minecraft/config/UniqueNames.txt
+.minecraft/config/splash.properties

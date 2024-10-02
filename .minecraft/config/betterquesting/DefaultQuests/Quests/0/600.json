@@ -1,0 +1,56 @@
+{
+  "preRequisites:11": [],
+  "properties:10": {
+    "betterquesting:10": {
+      "autoclaim:1": 0,
+      "desc:8": "Night and caves are much more dangerous in this pack, both due to the assortment of new mobs to trouble you, but also due to Hardcore Darkness.\n\nHardcore Darkness makes it so that increasing your darkness in the settings has little to no effect in dark areas with level 0 being pitch black even on your highest brightness setting. You might want to invest in nightvision options.\n\nThere is respite in this however; the moon offers different light levels depending on its phase with a full moon making it very visible while a new moon shines no light.\n\n\n\nThere are also invasions to worry about, every so nights an invasion may appear with a warning of their approach, these are made up of hostile mobs and will seek you out, note that they cannont break blocks and will disappear if the invasion has gone on for too long.",
+      "frame:8": "ROUNDED_SQUARE",
+      "globalshare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "ForgeCaps:10": {
+          "wizardryutils:summoneditemdata:10": {}
+        },
+        "OreDict:8": "",
+        "id:8": "harvestcraft:candledeco8"
+      },
+      "ignoresview:1": 0,
+      "ismain:1": 0,
+      "issilent:1": 0,
+      "lockedprogress:1": 0,
+      "name:8": "Darkness Comes",
+      "questlogic:8": "AND",
+      "repeat_relative:1": 1,
+      "repeattime:3": -1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "tasklogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 2,
+          "Damage:2": 0,
+          "ForgeCaps:10": {
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "OreDict:8": "",
+          "id:8": "minecraft:torch"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

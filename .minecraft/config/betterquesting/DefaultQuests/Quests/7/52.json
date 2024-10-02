@@ -1,0 +1,132 @@
+{
+  "preRequisites:11": [],
+  "properties:10": {
+    "betterquesting:10": {
+      "autoclaim:1": 0,
+      "desc:8": "An imbuement altar is found in ruined libraries found throughout forest biomes and contain an imbuement table along with bookshelves which may contain books and scrolls.\n\nThe imbuement altar is used for three different purposes:\n\n1. Restoring Ruined Spellbooks to gain a new spell\n\n2. Imbuing Crystals to be used in crafting Lore Specifc Items\n\n3. Imbuing Robes with spectral dust to align the robes with that Lore.\n\nThese altars start out in a ruined state and need to have recepticals placed on each of their 4 sides before they can be used. You operate a completed altar by placing the spectral dust in the recepticals by right clicking with them in hand and the item to receive them on the alter itself (also by right clicking.)",
+      "frame:8": "ROUNDED_SQUARE",
+      "globalshare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "ForgeCaps:10": {
+          "wizardryutils:summoneditemdata:10": {}
+        },
+        "OreDict:8": "",
+        "id:8": "ebwizardry:imbuement_altar"
+      },
+      "ignoresview:1": 0,
+      "ismain:1": 0,
+      "issilent:1": 0,
+      "lockedprogress:1": 0,
+      "name:8": "An Altar in a Library",
+      "questlogic:8": "AND",
+      "repeat_relative:1": 1,
+      "repeattime:3": -1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "tasklogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 8,
+          "Damage:2": 1,
+          "ForgeCaps:10": {
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "OreDict:8": "",
+          "id:8": "ebwizardry:spectral_dust"
+        },
+        "1:10": {
+          "Count:3": 8,
+          "Damage:2": 2,
+          "ForgeCaps:10": {
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "OreDict:8": "",
+          "id:8": "ebwizardry:spectral_dust"
+        },
+        "2:10": {
+          "Count:3": 8,
+          "Damage:2": 3,
+          "ForgeCaps:10": {
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "OreDict:8": "",
+          "id:8": "ebwizardry:spectral_dust"
+        },
+        "3:10": {
+          "Count:3": 8,
+          "Damage:2": 4,
+          "ForgeCaps:10": {
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "OreDict:8": "",
+          "id:8": "ebwizardry:spectral_dust"
+        },
+        "4:10": {
+          "Count:3": 8,
+          "Damage:2": 5,
+          "ForgeCaps:10": {
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "OreDict:8": "",
+          "id:8": "ebwizardry:spectral_dust"
+        },
+        "5:10": {
+          "Count:3": 8,
+          "Damage:2": 6,
+          "ForgeCaps:10": {
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "OreDict:8": "",
+          "id:8": "ebwizardry:spectral_dust"
+        },
+        "6:10": {
+          "Count:3": 8,
+          "Damage:2": 7,
+          "ForgeCaps:10": {
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "OreDict:8": "",
+          "id:8": "ebwizardry:spectral_dust"
+        }
+      },
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "advancement_id:8": "ebwizardry:restore_imbuement_altar",
+      "index:3": 0,
+      "taskID:8": "bq_standard:advancement"
+    },
+    "1:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "entryLogic:8": "AND",
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 1,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "ForgeCaps:10": {
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "OreDict:8": "",
+          "id:8": "ebwizardry:receptacle"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

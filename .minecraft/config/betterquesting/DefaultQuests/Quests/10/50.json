@@ -1,0 +1,251 @@
+{
+  "preRequisites:11": [
+    11
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "autoclaim:1": 0,
+      "desc:8": "No Description",
+      "frame:8": "ROUNDED_SQUARE",
+      "globalshare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "ForgeCaps:10": {
+          "astralsorcery:cap_item_amulet_holder:10": {},
+          "wizardryutils:summoneditemdata:10": {}
+        },
+        "OreDict:8": "",
+        "id:8": "iceandfire:dragonbone_sword_ice"
+      },
+      "ignoresview:1": 0,
+      "ismain:1": 0,
+      "issilent:1": 0,
+      "lockedprogress:1": 0,
+      "name:8": "Heater",
+      "questlogic:8": "AND",
+      "repeat_relative:1": 1,
+      "repeattime:3": -1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "tasklogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "damageType:8": "",
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "required:3": 1,
+      "subtypes:1": 1,
+      "target:8": "iceandfire:icedragon",
+      "targetNBT:10": {
+        "AABB:9": {
+          "0:6": -0.38999998569488525,
+          "1:6": 0.0,
+          "2:6": -0.38999998569488525,
+          "3:6": 0.38999998569488525,
+          "4:6": 1.2000000476837158,
+          "5:6": 0.38999998569488525
+        },
+        "AbsorptionAmount:5": 0.0,
+        "Age:3": 1,
+        "AgeTicks:3": 0,
+        "AgingDisabled:1": 0,
+        "Air:2": 300,
+        "ArmorDropChances:9": {
+          "0:5": 0.085,
+          "1:5": 0.085,
+          "2:5": 0.085,
+          "3:5": 0.085
+        },
+        "ArmorItems:9": {
+          "0:10": {},
+          "1:10": {},
+          "2:10": {},
+          "3:10": {}
+        },
+        "AttackDecision:1": 1,
+        "Attributes:9": {
+          "0:10": {
+            "Base:6": 0.0,
+            "Name:8": "techguns.radiationResistance"
+          },
+          "1:10": {
+            "Base:6": 100.0,
+            "Name:8": "cyberware.tolerance"
+          },
+          "2:10": {
+            "Base:6": 20.0,
+            "Name:8": "generic.maxHealth"
+          },
+          "3:10": {
+            "Base:6": 0.0,
+            "Name:8": "generic.knockbackResistance"
+          },
+          "4:10": {
+            "Base:6": 0.15000000596046448,
+            "Name:8": "generic.movementSpeed"
+          },
+          "5:10": {
+            "Base:6": 2.0,
+            "Name:8": "generic.armor"
+          },
+          "6:10": {
+            "Base:6": 0.0,
+            "Name:8": "generic.armorToughness"
+          },
+          "7:10": {
+            "Base:6": 1.0,
+            "Name:8": "forge.swimSpeed"
+          },
+          "8:10": {
+            "Base:6": 128.0,
+            "Name:8": "generic.followRange"
+          },
+          "9:10": {
+            "Base:6": 1.0,
+            "Name:8": "generic.attackDamage"
+          }
+        },
+        "CanPickUpLoot:1": 0,
+        "Command:3": 0,
+        "CrystalBound:1": 0,
+        "DeadProg:5": 0.0,
+        "DeathStage:3": 0,
+        "DeathTime:2": 0,
+        "Dimension:3": 0,
+        "FallDistance:5": 0.0,
+        "FallFlying:1": 0,
+        "Fire:2": -1,
+        "FireBreathing:1": 0,
+        "Flying:1": 0,
+        "ForcedAge:3": 0,
+        "ForgeCaps:10": {
+          "geneticsreborn:genes:10": {},
+          "geneticsreborn:maxhealth:10": {
+            "BonusHealth:5": 0.0
+          },
+          "llibrary:extendedentitydatacapability:10": {
+            "Fossils - Mammal Tracker:10": {
+              "Embryo:3": -1,
+              "EmbryoProgress:3": 0
+            },
+            "Ice And Fire - Chain Property Tracker:10": {
+              "ConnectedEntities:9": {}
+            },
+            "Ice And Fire - Chicken Property Tracker:10": {
+              "TimeUntilNextEgg:3": 1
+            },
+            "Ice And Fire - Frozen Property Tracker:10": {
+              "IsFrozen:1": 0,
+              "TicksUntilUnfrozen:3": 0
+            },
+            "Ice And Fire - Siren Property Tracker:10": {
+              "CharmedBySiren:1": 0,
+              "SirenID:3": 0
+            },
+            "Ice And Fire - Stone Property Tracker:10": {
+              "StoneBreakLvl:3": 0,
+              "TurnedToStone:1": 0
+            },
+            "Ice and Fire - Player Property Tracker:10": {
+              "DismountedDragon:1": 0,
+              "DreadPortalX:3": 0,
+              "DreadPortalY:3": 0,
+              "DreadPortalZ:3": 0,
+              "GauntletDamage:3": 0
+            }
+          },
+          "nuclearcraft:capability_entity_rads:10": {
+            "consumed:1": 0,
+            "externalRadiationResistance:6": 0.0,
+            "internalRadiationResistance:6": 0.0,
+            "maxRads:6": 1000.0,
+            "poisonBuffer:6": 0.0,
+            "radXCooldown:6": 0.0,
+            "radXUsed:1": 0,
+            "radXWoreOff:1": 0,
+            "radawayBuffer:6": 0.0,
+            "radawayBufferSlow:6": 0.0,
+            "radawayCooldown:6": 0.0,
+            "radiationImmunityStage:1": 0,
+            "radiationImmunityTime:6": 0.0,
+            "radiationLevel:6": 0.0,
+            "recentPoisonAddition:6": 0.0,
+            "recentRadXAddition:6": 0.0,
+            "recentRadawayAddition:6": 0.0,
+            "setFromMaxHealth:1": 1,
+            "shouldWarn:1": 0,
+            "totalRads:6": 0.0
+          },
+          "plethora:disableai:10": {},
+          "spellbundle:summonedcreaturedata:10": {},
+          "techguns:deathtype:10": {},
+          "twilightforest:cap_shield:10": {
+            "permshields:3": 0,
+            "tempshields:3": 0
+          },
+          "wizardryutils:summonedcreaturedata:10": {
+            "followOwner:1": 0
+          }
+        },
+        "ForgeData:10": {},
+        "Gender:1": 0,
+        "HandDropChances:9": {
+          "0:5": 0.085,
+          "1:5": 0.085
+        },
+        "HandItems:9": {
+          "0:10": {},
+          "1:10": {}
+        },
+        "HasHomePosition:1": 0,
+        "Health:5": 20.0,
+        "Hovering:1": 0,
+        "Hunger:3": 0,
+        "HurtByTimestamp:3": 0,
+        "HurtTime:2": 0,
+        "InLove:3": 0,
+        "Invulnerable:1": 0,
+        "Items:9": {},
+        "Leashed:1": 0,
+        "LeftHanded:1": 0,
+        "ModelDead:1": 0,
+        "Motion:9": {
+          "0:6": 0.0,
+          "1:6": 0.0,
+          "2:6": 0.0
+        },
+        "OnGround:1": 0,
+        "OwnerUUID:8": "",
+        "PersistenceRequired:1": 0,
+        "PortalCooldown:3": 0,
+        "Pos:9": {
+          "0:6": 0.0,
+          "1:6": 0.0,
+          "2:6": 0.0
+        },
+        "Rotation:9": {
+          "0:5": 3.567016,
+          "1:5": 0.0
+        },
+        "Sitting:1": 0,
+        "Sleeping:1": 0,
+        "Swimming:1": 0,
+        "SwimmingTicks:3": 0,
+        "Tackle:1": 0,
+        "TamedDragon:1": 0,
+        "UUIDLeast:4": -6147549867591800016,
+        "UUIDMost:4": -6540273062073841753,
+        "UpdateBlocked:1": 0,
+        "Variant:3": 0,
+        "id:8": "iceandfire:icedragon"
+      },
+      "taskID:8": "bq_standard:hunt"
+    }
+  }
+}
