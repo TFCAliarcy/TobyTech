@@ -61,3 +61,8 @@ instance.cfg
 /.minecraft/crash-reports
 .minecraft/config/UniqueNames.txt
 .minecraft/config/splash.properties
+/.minecraft/assets/galacticraftMaps
+.minecraft/config/UniqueNames.txt
+.minecraft/crafttweaker.log
+.minecraft/journeymap/config/5.7/journeymap.minimap.config
+instance.cfg

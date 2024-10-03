@@ -84,7 +84,7 @@ recipes.addShaped(<thermalexpansion:dynamo:0>, [
 recipes.remove(<thermalexpansion:dynamo:1>);
 recipes.addShaped(<thermalexpansion:dynamo:1>, [
 	[null,<thermalfoundation:material:514>,null], 
-	[<ore:ingotSteel>,<ore:gearInvar>,<ore:ingotSteel>],
+	[<ore:ingotTough>,<ore:gearInvar>,<ore:ingotTough>],
 	[<ore:ingotInvar>, <ore:dustRedstone>, <ore:ingotInvar>]]);
 recipes.remove(<thermalexpansion:dynamo:2>);
 recipes.addShaped(<thermalexpansion:dynamo:2>, [

@@ -1,24 +1,24 @@
 [PREINITIALIZATION][CLIENT][INFO] Thank you to the Patreon supporters below and others who make CraftTweaker possible!
+DreamThorn
 Ivy_
-Spencer Gilbert
+Ncc1702
+Jellycraft
+Hooley
+Belathus
+Lucas
+Jonathan McManus
+Peregrinus11
+embeddedt
+NickT
 Phillip Swearingain
 Pongo Sapiens
-Jellycraft
-Quaternary
-Belathus
-Zuniroa
-embeddedt
-Peregrinus11
-NerdyWhiteGuy
-NickT
-DreamThorn
-Jessie Sims
-Jordan Pineo
 Genryu
-Hooley
-Jonathan McManus
-Ncc1702
-Lucas
+Spencer Gilbert
+Zuniroa
+NerdyWhiteGuy
+Jordan Pineo
+Quaternary
+Jessie Sims
 If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 
 [PREINITIALIZATION][CLIENT][TRACE] Current loaders after merging: [[preinit]]
@@ -37,7 +37,7 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [PREINITIALIZATION][CLIENT][TRACE] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker|reloadable]: oredict.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][TRACE] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker|reloadable]: revtier.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][TRACE] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker|reloadable]: techguns.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][TRACE] Completed script loading in: 4ms
+[PREINITIALIZATION][CLIENT][TRACE] Completed script loading in: 5ms
 [PREINITIALIZATION][CLIENT][INFO] Hey! Here is ZenUtils.
 [PREINITIALIZATION][CLIENT][TRACE] Current loaders after merging: [[preinit], [contenttweaker]]
 [PREINITIALIZATION][CLIENT][INFO] Loading scripts for loader with names [contenttweaker]
@@ -55,7 +55,7 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [PREINITIALIZATION][CLIENT][TRACE] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker|reloadable]: oredict.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][TRACE] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker|reloadable]: revtier.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][TRACE] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker|reloadable]: techguns.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][TRACE] Completed script loading in: 236ms
+[PREINITIALIZATION][CLIENT][TRACE] Completed script loading in: 240ms
 [INITIALIZATION][CLIENT][INFO] CraftTweaker: Building registry
 [INITIALIZATION][CLIENT][INFO] CraftTweaker: Successfully built item registry
 [INITIALIZATION][CLIENT][TRACE] Current loaders after merging: [[preinit], [contenttweaker], [recipeevent | crafttweaker]]
@@ -195,9 +195,6 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [INITIALIZATION][CLIENT][INFO] Adding Upgrade - Accuracy to ore dictionary entry turret_upgrade
 [INITIALIZATION][CLIENT][TRACE] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker|reloadable]: revtier.zs}
 [INITIALIZATION][CLIENT][TRACE] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker|reloadable]: techguns.zs}
-[INITIALIZATION][CLIENT][ERROR] techguns.zs:192 > a method available but none matches the parameters (ZenTypeNative: crafttweaker.item.IItemStack, ZenTypeNative: crafttweaker.item.IItemStack, ZenTypeNative: crafttweaker.oredict.IOreDictEntry, int)
-This is usually an error in your script, not in the mod
-addRecipe(ZenTypeNative: crafttweaker.item.IItemStack, ZenTypeNative: crafttweaker.item.IItemStack, ZenTypeNative: crafttweaker.item.IItemStack, int, Optional ZenTypeNative: crafttweaker.item.IItemStack, Optional int)
 [INITIALIZATION][CLIENT][INFO] Remove [item.ingotIron] to AmmoPressSlot: Metal2
 [INITIALIZATION][CLIENT][INFO] Remove [item.for.ingot_copper,item.thermalfoundation.material.ingotCopper,item.railcraft.ingot.copper,item.nuclearcraft.ingot.copper,item.projectred.core.itemResource.copper_ingot,item.basic_item.ingot_copper,item.iceandfire.copperIngot,item.techguns.ingotcopper] to AmmoPressSlot: Metal2
 [INITIALIZATION][CLIENT][INFO] Remove [item.for.ingot_tin,item.thermalfoundation.material.ingotTin,item.railcraft.ingot.tin,item.nuclearcraft.ingot.tin,item.projectred.core.itemResource.tin_ingot,item.basic_item.ingot_tin,item.techguns.ingottin] to AmmoPressSlot: Metal2
@@ -217,7 +214,7 @@ addRecipe(ZenTypeNative: crafttweaker.item.IItemStack, ZenTypeNative: crafttweak
 [INITIALIZATION][CLIENT][INFO] Remove Recipe(s) for 1xitem.techguns.itemshared@83 from BlastFurnace
 [INITIALIZATION][CLIENT][INFO] Remove Recipe(s) for 1xitem.techguns.itemshared@84 from BlastFurnace
 [INITIALIZATION][CLIENT][INFO] Remove Recipe(s) for 1xitem.techguns.itemshared@81 from BlastFurnace
-[INITIALIZATION][CLIENT][TRACE] Completed script loading in: 220ms
+[INITIALIZATION][CLIENT][TRACE] Completed script loading in: 234ms
 [INITIALIZATION][CLIENT][INFO] Translating item.projectred.expansion.enderPearlInfused.name to Compressed Draconium Dust
 [INITIALIZATION][CLIENT][INFO] Translating item.datnuclearphysicslite.darkmatter_cell.name to Red Matter Cell
 [POSTINITIALIZATION][CLIENT][INFO] Removing Inscriber Entry for Printed Logic Circuit
@@ -370,7 +367,7 @@ addRecipe(ZenTypeNative: crafttweaker.item.IItemStack, ZenTypeNative: crafttweak
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Machine Frame with name ct_shaped576788904
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Device Frame with name ct_shaped145401662
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Steam Dynamo (Basic) with name ct_shaped471709358
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Magmatic Dynamo (Basic) with name ct_shaped-1813519340
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Magmatic Dynamo (Basic) with name ct_shaped183953940
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Compression Dynamo (Basic) with name ct_shaped446352848
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Reactant Dynamo (Basic) with name ct_shaped2059903058
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Enervation Dynamo (Basic) with name ct_shaped1998515122
@@ -455,6 +452,7 @@ addRecipe(ZenTypeNative: crafttweaker.item.IItemStack, ZenTypeNative: crafttweak
 [AVAILABLE][CLIENT][INFO] Altering Transposer Fill Recipe(s) for <liquid:pyrotheum> * 250
 [AVAILABLE][CLIENT][INFO] Altering Transposer Fill Recipe(s) for <liquid:pyrotheum> * 250
 [AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <techguns:itemshared:84>
+[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <techguns:itemshared:55>
 [AVAILABLE][CLIENT][INFO] Hiding category in JEI: techguns.oredrill
 [AVAILABLE][CLIENT][INFO] Hiding category in JEI: techguns.reactionchamber
 [AVAILABLE][CLIENT][INFO] Hiding category in JEI: techguns.reactionchamber
@@ -507,374 +505,3 @@ addRecipe(ZenTypeNative: crafttweaker.item.IItemStack, ZenTypeNative: crafttweak
 [AVAILABLE][CLIENT][INFO] Hiding item in JEI: <rftools:powercell_simple>
 [AVAILABLE][CLIENT][INFO] Hiding item in JEI: <rftools:charged_porter>
 [AVAILABLE][CLIENT][INFO] Hiding item in JEI: <rftools:advanced_charged_porter>
-[SERVER_STARTED][SERVER][INFO] Loading scripts for loader with names [reloadable]
-[SERVER_STARTED][SERVER][TRACE] [reloadable | SIDE_CLIENT]: Skipping file {[0:contenttweaker]: contenttweaker.zs} as we are currently loading with a different loader
-[SERVER_STARTED][SERVER][TRACE] [reloadable | SIDE_CLIENT]: Loading Script: {[0:crafttweaker|reloadable]: fartier.zs}
-[SERVER_STARTED][SERVER][INFO] Tried to reload action: Translating item.projectred.expansion.enderPearlInfused.name to Compressed Draconium Dust, which is not reloadable.
-[SERVER_STARTED][SERVER][INFO] Tried to reload action: Removing nuclearcraft_infuser recipes for: 1 x item.redstonearsenal.material:32, which is not reloadable.
-[SERVER_STARTED][SERVER][INFO] Tried to reload action: Error: Failed to remove nuclearcraft_infuser recipe with 1 x item.redstonearsenal.material:0 as the output, which is not reloadable.
-[SERVER_STARTED][SERVER][INFO] Tried to reload action: Adding nuclearcraft_infuser recipe: 1 x item.redstonearsenal.material:0, 100 x pyrotheum -> 1 x item.redstonearsenal.material:32, which is not reloadable.
-[SERVER_STARTED][SERVER][TRACE] [reloadable | SIDE_CLIENT]: Loading Script: {[0:crafttweaker|reloadable]: FoodOverhaul.zs}
-[SERVER_STARTED][SERVER][INFO] Tried to reload action: Changed food stats for Cooked Fish has been changed, which is not reloadable.
-[SERVER_STARTED][SERVER][INFO] Tried to reload action: Changed food stats for Cooked Salmon has been changed, which is not reloadable.
-[SERVER_STARTED][SERVER][TRACE] [reloadable | SIDE_CLIENT]: Loading Script: {[0:crafttweaker|reloadable]: galacticraft.zs}
-[SERVER_STARTED][SERVER][INFO] Tried to reload action: Adding dungeon loot to tier 2, which is not reloadable.
-[SERVER_STARTED][SERVER][INFO] Tried to reload action: Adding dungeon loot to tier 4, which is not reloadable.
-[SERVER_STARTED][SERVER][INFO] Tried to reload action: Adding dungeon loot to tier 5, which is not reloadable.
-[SERVER_STARTED][SERVER][INFO] Tried to reload action: Adding dungeon loot to tier 6, which is not reloadable.
-[SERVER_STARTED][SERVER][TRACE] [reloadable | SIDE_CLIENT]: Loading Script: {[0:crafttweaker|reloadable]: hidingstuff.zs}
-[SERVER_STARTED][SERVER][TRACE] [reloadable | SIDE_CLIENT]: Loading Script: {[0:crafttweaker|reloadable]: icbm+turrets.zs}
-[SERVER_STARTED][SERVER][INFO] Tried to reload action: Translating item.datnuclearphysicslite.darkmatter_cell.name to Red Matter Cell, which is not reloadable.
-[SERVER_STARTED][SERVER][TRACE] [reloadable | SIDE_CLIENT]: Loading Script: {[0:crafttweaker|reloadable]: inscriber fix.zs}
-[SERVER_STARTED][SERVER][TRACE] [reloadable | SIDE_CLIENT]: Loading Script: {[0:crafttweaker|reloadable]: interptier.zs}
-[SERVER_STARTED][SERVER][TRACE] [reloadable | SIDE_CLIENT]: Loading Script: {[0:crafttweaker|reloadable]: LootTableTweaker\LootTableTweaker.zs}
-[SERVER_STARTED][SERVER][INFO] Tried to reload action: Added loot removal for Mod Item: enderio, which is not reloadable.
-[SERVER_STARTED][SERVER][INFO] Tried to reload action: Added loot removal for Global Item: iceandfire:manuscript, which is not reloadable.
-[SERVER_STARTED][SERVER][INFO] Tried to reload action: Added loot removal for Global Item: botania:lexicon, which is not reloadable.
-[SERVER_STARTED][SERVER][INFO] Tried to reload action: Added loot removal for Global Item: bewitchment:cypress_sapling, which is not reloadable.
-[SERVER_STARTED][SERVER][INFO] Tried to reload action: Added loot removal for Global Item: bewitchment:elder_sapling, which is not reloadable.
-[SERVER_STARTED][SERVER][INFO] Tried to reload action: Added loot removal for Global Item: bewitchment:juniper_sapling, which is not reloadable.
-[SERVER_STARTED][SERVER][INFO] Tried to reload action: Added loot removal for Global Item: bewitchment:dragons_blood_sapling, which is not reloadable.
-[SERVER_STARTED][SERVER][INFO] Tried to reload action: Added loot removal for Global Item: bewitchment:amethyst, which is not reloadable.
-[SERVER_STARTED][SERVER][INFO] Tried to reload action: Added loot removal for Global Item: bewitchment:opal, which is not reloadable.
-[SERVER_STARTED][SERVER][INFO] Tried to reload action: Added loot removal for Global Item: bewitchment:garnet, which is not reloadable.
-[SERVER_STARTED][SERVER][INFO] Tried to reload action: Added loot removal for Global Item: appliedenergistics2:material, which is not reloadable.
-[SERVER_STARTED][SERVER][INFO] Tried to reload action: Added loot removal for Global Item: railcraft:ingot, which is not reloadable.
-[SERVER_STARTED][SERVER][INFO] Tried to reload action: Added loot removal for Global Item: railcraft:plate, which is not reloadable.
-[SERVER_STARTED][SERVER][INFO] Tried to reload action: Added loot removal for Global Item: bewitchment:silver_ingot, which is not reloadable.
-[SERVER_STARTED][SERVER][TRACE] [reloadable | SIDE_CLIENT]: Loading Script: {[0:crafttweaker|reloadable]: mobstages.zs}
-[SERVER_STARTED][SERVER][INFO] Tried to reload action: Adding Spawns for techguns:bandit with: biome tag blacklist, which is not reloadable.
-[SERVER_STARTED][SERVER][INFO] Tried to reload action: Adding Spawns for techguns:outcast with: biome tag blacklist, which is not reloadable.
-[SERVER_STARTED][SERVER][INFO] Tried to reload action: Adding Spawns for techguns:zombieminer with: biome tag blacklist, which is not reloadable.
-[SERVER_STARTED][SERVER][INFO] Tried to reload action: Adding Spawns for techguns:zombiefarmer with: biome tag blacklist, which is not reloadable.
-[SERVER_STARTED][SERVER][INFO] Tried to reload action: Adding Spawns for techguns:zombiesoldier with: biome tag blacklist, which is not reloadable.
-[SERVER_STARTED][SERVER][INFO] Tried to reload action: Adding Spawns for techguns:zombiepoliceman with: biome tag blacklist, which is not reloadable.
-[SERVER_STARTED][SERVER][INFO] Tried to reload action: Adding Spawns for techguns:armysoldier with: biome tag blacklist, which is not reloadable.
-[SERVER_STARTED][SERVER][INFO] Tried to reload action: Adding Spawns for techguns:commando with: biome tag blacklist, which is not reloadable.
-[SERVER_STARTED][SERVER][INFO] Tried to reload action: Adding Spawns for techguns:stormtrooper with: biome tag blacklist, which is not reloadable.
-[SERVER_STARTED][SERVER][INFO] Tried to reload action: Adding Spawns for techguns:attackhelicopter with: biome tag blacklist, which is not reloadable.
-[SERVER_STARTED][SERVER][INFO] Tried to reload action: Adding Spawns for techguns:supermutantbasic with: biome tag blacklist, which is not reloadable.
-[SERVER_STARTED][SERVER][INFO] Tried to reload action: Adding Spawns for techguns:supermutantheavy with: biome tag blacklist, which is not reloadable.
-[SERVER_STARTED][SERVER][INFO] Tried to reload action: Adding Spawns for techguns:supermutantelite with: biome tag blacklist, which is not reloadable.
-[SERVER_STARTED][SERVER][INFO] Tried to reload action: Adding Spawns for techguns:skeletonsoldier with: biome tag blacklist, which is not reloadable.
-[SERVER_STARTED][SERVER][INFO] Tried to reload action: Adding Spawns for techguns:outcast with: biome tag blacklist, which is not reloadable.
-[SERVER_STARTED][SERVER][INFO] Tried to reload action: Adding Spawns for techguns:armysoldier with: biome tag blacklist, which is not reloadable.
-[SERVER_STARTED][SERVER][INFO] Tried to reload action: Adding Spawns for techguns:dictatordave with: biome tag blacklist, which is not reloadable.
-[SERVER_STARTED][SERVER][INFO] Tried to reload action: Adding Spawns for oe:glow_squid with: biome tag blacklist, which is not reloadable.
-[SERVER_STARTED][SERVER][INFO] Tried to reload action: Adding techguns:attackhelicopter to stage.Tier1, which is not reloadable.
-[SERVER_STARTED][SERVER][INFO] Tried to reload action: Adding techguns:armysoldier to stage.Tier1, which is not reloadable.
-[SERVER_STARTED][SERVER][INFO] Tried to reload action: Adding techguns:bandit to stage.Tier0, which is not reloadable.
-[SERVER_STARTED][SERVER][INFO] Tried to reload action: Adding techguns:outcast to stage.Tier2, which is not reloadable.
-[SERVER_STARTED][SERVER][INFO] Tried to reload action: Adding techguns:stormtrooper to stage.Tier3, which is not reloadable.
-[SERVER_STARTED][SERVER][INFO] Tried to reload action: Adding techguns:supermutantbasic to stage.Tier4, which is not reloadable.
-[SERVER_STARTED][SERVER][INFO] Tried to reload action: Adding techguns:supermutantheavy to stage.Tier4, which is not reloadable.
-[SERVER_STARTED][SERVER][INFO] Tried to reload action: Adding techguns:supermutantelite to stage.Tier4, which is not reloadable.
-[SERVER_STARTED][SERVER][INFO] Tried to reload action: Adding techguns:zombiepoliceman to stage.Tier0, which is not reloadable.
-[SERVER_STARTED][SERVER][INFO] Tried to reload action: Adding techguns:zombiesoldier to stage.Tier0, which is not reloadable.
-[SERVER_STARTED][SERVER][INFO] Tried to reload action: Adding techguns:commando to stage.Tier2, which is not reloadable.
-[SERVER_STARTED][SERVER][INFO] Tried to reload action: Adding techguns:dictatordave to stage.Tier1, which is not reloadable.
-[SERVER_STARTED][SERVER][INFO] Tried to reload action: Adding techguns:skeletonsoldier to stage.Tier0, which is not reloadable.
-[SERVER_STARTED][SERVER][INFO] Tried to reload action: Adding techguns:skeletonsoldier to stage.Tier0, which is not reloadable.
-[SERVER_STARTED][SERVER][TRACE] [reloadable | SIDE_CLIENT]: Loading Script: {[0:crafttweaker|reloadable]: nhtier.zs}
-[SERVER_STARTED][SERVER][INFO] Tried to reload action: Error: Failed to remove nuclearcraft_alloy_furnace recipe with 1 x item.item_alloy_ingot:8 as the output, which is not reloadable.
-[SERVER_STARTED][SERVER][INFO] Tried to reload action: Removing Compressor Recipe: for Output <galacticraftplanets:item_basic_mars:3>, which is not reloadable.
-[SERVER_STARTED][SERVER][INFO] Tried to reload action: Adding Compressor Recipe: Input 1 <galacticraftcore:heavy_plating> Input 2 <galacticraftcore:item_basic_moon> Input 3 <enderio:item_alloy_ingot:2> Input 4 <nuclearcraft:alloy:1> Input 5 null Input 6 null Input 7 null Input 8 null Input 9 null to Output <galacticraftplanets:item_basic_mars:3>, which is not reloadable.
-[SERVER_STARTED][SERVER][TRACE] [reloadable | SIDE_CLIENT]: Loading Script: {[0:crafttweaker|reloadable]: oredict.zs}
-[SERVER_STARTED][SERVER][INFO] Adding Dragon Egg to ore dictionary entry ice&firedragonegg
-[SERVER_STARTED][SERVER][INFO] Adding Dragon Egg to ore dictionary entry ice&firedragonegg
-[SERVER_STARTED][SERVER][INFO] Adding Dragon Egg to ore dictionary entry ice&firedragonegg
-[SERVER_STARTED][SERVER][INFO] Adding Dragon Egg to ore dictionary entry ice&firedragonegg
-[SERVER_STARTED][SERVER][INFO] Adding Dragon Egg to ore dictionary entry ice&firedragonegg
-[SERVER_STARTED][SERVER][INFO] Adding Dragon Egg to ore dictionary entry ice&firedragonegg
-[SERVER_STARTED][SERVER][INFO] Adding Dragon Egg to ore dictionary entry ice&firedragonegg
-[SERVER_STARTED][SERVER][INFO] Adding Dragon Egg to ore dictionary entry ice&firedragonegg
-[SERVER_STARTED][SERVER][INFO] Adding Dragon Egg to ore dictionary entry ice&firedragonegg
-[SERVER_STARTED][SERVER][INFO] Adding Dragon Egg to ore dictionary entry ice&firedragonegg
-[SERVER_STARTED][SERVER][INFO] Adding Dragon Egg to ore dictionary entry ice&firedragonegg
-[SERVER_STARTED][SERVER][INFO] Adding Dragon Egg to ore dictionary entry ice&firedragonegg
-[SERVER_STARTED][SERVER][INFO] Adding Fire Dragon Blood to ore dictionary entry dragonblood
-[SERVER_STARTED][SERVER][INFO] Adding Ice Dragon Blood to ore dictionary entry dragonblood
-[SERVER_STARTED][SERVER][INFO] Adding Lightning Dragon Blood to ore dictionary entry dragonblood
-[SERVER_STARTED][SERVER][INFO] Adding Fire Dragonsteel Ingot to ore dictionary entry ingotDragonSteel
-[SERVER_STARTED][SERVER][INFO] Adding Ice Dragonsteel Ingot to ore dictionary entry ingotDragonSteel
-[SERVER_STARTED][SERVER][INFO] Adding Lightning Dragonsteel Ingot to ore dictionary entry ingotDragonSteel
-[SERVER_STARTED][SERVER][INFO] Adding Dragonforge Lightning Brick to ore dictionary entry blockDragonForgeBrick
-[SERVER_STARTED][SERVER][INFO] Adding Dragonforge Fire Brick to ore dictionary entry blockDragonForgeBrick
-[SERVER_STARTED][SERVER][INFO] Adding Dragonforge Ice Brick to ore dictionary entry blockDragonForgeBrick
-[SERVER_STARTED][SERVER][INFO] Adding Dragonforge Ice Aperture to ore dictionary entry blockDragonForgeInput
-[SERVER_STARTED][SERVER][INFO] Adding Dragonforge Fire Aperture to ore dictionary entry blockDragonForgeInput
-[SERVER_STARTED][SERVER][INFO] Adding Dragonforge Lightning Aperture to ore dictionary entry blockDragonForgeInput
-[SERVER_STARTED][SERVER][INFO] Adding Dragonforge Ice Core to ore dictionary entry blockDragonForgeCore
-[SERVER_STARTED][SERVER][INFO] Adding Dragonforge Fire Core to ore dictionary entry blockDragonForgeCore
-[SERVER_STARTED][SERVER][INFO] Adding Dragonforge Lightning Core to ore dictionary entry blockDragonForgeCore
-[SERVER_STARTED][SERVER][INFO] Adding Arboretum (Managed) to ore dictionary entry forestrysinglefarms
-[SERVER_STARTED][SERVER][INFO] Adding Farm (Managed) to ore dictionary entry forestrysinglefarms
-[SERVER_STARTED][SERVER][INFO] Adding Mushroom Farm (Managed) to ore dictionary entry forestrysinglefarms
-[SERVER_STARTED][SERVER][INFO] Adding Gourd Farm (Managed) to ore dictionary entry forestrysinglefarms
-[SERVER_STARTED][SERVER][INFO] Adding Infernal Farm (Managed) to ore dictionary entry forestrysinglefarms
-[SERVER_STARTED][SERVER][INFO] Adding Ender Farm (Managed) to ore dictionary entry forestrysinglefarms
-[SERVER_STARTED][SERVER][INFO] Adding Peat Bog (Managed) to ore dictionary entry forestrysinglefarms
-[SERVER_STARTED][SERVER][INFO] Adding LEU-233 Fuel to ore dictionary entry ingotUraniumEnriched
-[SERVER_STARTED][SERVER][INFO] Adding Scarecrow Head to ore dictionary entry scarecrowhead
-[SERVER_STARTED][SERVER][INFO] Adding Scarecrow Head to ore dictionary entry scarecrowhead
-[SERVER_STARTED][SERVER][INFO] Adding Scarecrow Head to ore dictionary entry scarecrowhead
-[SERVER_STARTED][SERVER][INFO] Adding Upgrade - Scatter Shot to ore dictionary entry turret_upgrade
-[SERVER_STARTED][SERVER][INFO] Adding Upgrade - Range to ore dictionary entry turret_upgrade
-[SERVER_STARTED][SERVER][INFO] Adding Upgrade - Fire Rate to ore dictionary entry turret_upgrade
-[SERVER_STARTED][SERVER][INFO] Adding Upgrade - Efficiency to ore dictionary entry turret_upgrade
-[SERVER_STARTED][SERVER][INFO] Adding Upgrade - Accuracy to ore dictionary entry turret_upgrade
-[SERVER_STARTED][SERVER][TRACE] [reloadable | SIDE_CLIENT]: Loading Script: {[0:crafttweaker|reloadable]: revtier.zs}
-[SERVER_STARTED][SERVER][TRACE] [reloadable | SIDE_CLIENT]: Loading Script: {[0:crafttweaker|reloadable]: techguns.zs}
-[SERVER_STARTED][SERVER][INFO] Tried to reload action: Remove [item.ingotIron] to AmmoPressSlot: Metal2, which is not reloadable.
-[SERVER_STARTED][SERVER][INFO] Tried to reload action: Remove [item.thermalfoundation.material.ingotCopper,item.for.ingot_copper,item.railcraft.ingot.copper,item.nuclearcraft.ingot.copper,item.projectred.core.itemResource.copper_ingot,item.basic_item.ingot_copper,item.iceandfire.copperIngot,item.techguns.ingotcopper] to AmmoPressSlot: Metal2, which is not reloadable.
-[SERVER_STARTED][SERVER][INFO] Tried to reload action: Remove [item.thermalfoundation.material.ingotTin,item.for.ingot_tin,item.railcraft.ingot.tin,item.nuclearcraft.ingot.tin,item.projectred.core.itemResource.tin_ingot,item.basic_item.ingot_tin,item.techguns.ingottin] to AmmoPressSlot: Metal2, which is not reloadable.
-[SERVER_STARTED][SERVER][INFO] Tried to reload action: Remove [item.thermalfoundation.material.ingotBronze,item.for.ingot_bronze,item.railcraft.ingot.bronze,item.nuclearcraft.alloy.bronze,item.techguns.ingotbronze] to AmmoPressSlot: Metal2, which is not reloadable.
-[SERVER_STARTED][SERVER][INFO] Tried to reload action: Add [item.railcraft.ingot.brass,item.ingot.brass] to AmmoPressSlot: Metal2, which is not reloadable.
-[SERVER_STARTED][SERVER][INFO] Tried to reload action: Removed Recipe(s) for 1xitem.techguns.itemshared@97/NO_FLUID from ChemLab, which is not reloadable.
-[SERVER_STARTED][SERVER][INFO] Tried to reload action: Removed Recipe(s) for 1xitem.techguns.radpills@0/NO_FLUID from ChemLab, which is not reloadable.
-[SERVER_STARTED][SERVER][INFO] Tried to reload action: Removed Recipe(s) for 1xitem.techguns.radaway@0/NO_FLUID from ChemLab, which is not reloadable.
-[SERVER_STARTED][SERVER][INFO] Tried to reload action: Removed Recipe(s) for 1xitem.techguns.itemshared@77/NO_FLUID from ChemLab, which is not reloadable.
-[SERVER_STARTED][SERVER][INFO] Tried to reload action: Removed Recipe(s) for 1xitem.techguns.itemshared@23/NO_FLUID from ChemLab, which is not reloadable.
-[SERVER_STARTED][SERVER][INFO] Tried to reload action: Removed Recipe(s) for 1xitem.techguns.itemshared@31/NO_FLUID from ChemLab, which is not reloadable.
-[SERVER_STARTED][SERVER][INFO] Tried to reload action: Removed Recipe(s) for 1xitem.sulphur@0/NO_FLUID from ChemLab, which is not reloadable.
-[SERVER_STARTED][SERVER][INFO] Tried to reload action: Removed Recipe(s) for 1xitem.techguns.itemshared@96/NO_FLUID from ChemLab, which is not reloadable.
-[SERVER_STARTED][SERVER][INFO] Tried to reload action: Removed Recipe(s) for NO_ITEM/fluid.creeperAcid from ChemLab, which is not reloadable.
-[SERVER_STARTED][SERVER][INFO] Tried to reload action: Removed Recipe(s) for 1xitem.techguns.itemshared@95/NO_FLUID from ChemLab, which is not reloadable.
-[SERVER_STARTED][SERVER][INFO] Tried to reload action: Removed Recipe(s) for 1xitem.techguns.itemshared@27/NO_FLUID from ChemLab, which is not reloadable.
-[SERVER_STARTED][SERVER][INFO] Tried to reload action: Remove Recipe(s) for 1xitem.techguns.itemshared@83 from BlastFurnace, which is not reloadable.
-[SERVER_STARTED][SERVER][INFO] Tried to reload action: Remove Recipe(s) for 1xitem.techguns.itemshared@84 from BlastFurnace, which is not reloadable.
-[SERVER_STARTED][SERVER][INFO] Tried to reload action: Remove Recipe(s) for 1xitem.techguns.itemshared@81 from BlastFurnace, which is not reloadable.
-[SERVER_STARTED][SERVER][TRACE] Completed script loading in: 51ms
-[SERVER_STARTED][SERVER][INFO] Removing recipes for various outputs
-[SERVER_STARTED][SERVER][INFO] Removing recipe with name "draconicevolution:draconium_ingot_1"
-[SERVER_STARTED][SERVER][INFO] Removing recipe with name "thermalfoundation:dust_signalum"
-[SERVER_STARTED][SERVER][INFO] Removing recipe with name "icbmclassic:explosives/redmatter"
-[SERVER_STARTED][SERVER][INFO] Removing recipe with name "icbmclassic:explosives/antimatter"
-[SERVER_STARTED][SERVER][INFO] Removing recipe with name "datnuclearphysicslite:item/cell_empty"
-[SERVER_STARTED][SERVER][INFO] Removing recipe with name "nuclearcraft:item.nuclearcraft.compound.dimensional_blend"
-[SERVER_STARTED][SERVER][INFO] Removing recipe with name "thermalfoundation:dust_enderium"
-[SERVER_STARTED][SERVER][INFO] Removing recipe with name "thermalfoundation:dust_lumium"
-[SERVER_STARTED][SERVER][INFO] Removing recipe with name "thermalfoundation:dust_signalium"
-[SERVER_STARTED][SERVER][INFO] Removing recipe with name "redstonearsenal:dust_electrum_flux_alloy"
-[SERVER_STARTED][SERVER][INFO] Removing recipe with name "redstonearsenal:dust_electrum_flux"
-[SERVER_STARTED][SERVER][INFO] Removing recipe with name "redstonearsenal:gem_crystal_flux"
-[SERVER_STARTED][SERVER][INFO] Removing recipe with name "biomesoplenty:amber"
-[SERVER_STARTED][SERVER][INFO] Removing recipe with name "biomesoplenty:amber_block"
-[SERVER_STARTED][SERVER][INFO] Removing recipe with name "techguns:simplmachine:11"
-[SERVER_STARTED][SERVER][INFO] Removing recipe with name "techguns:scar"
-[SERVER_STARTED][SERVER][INFO] Removing recipe with name "techguns:scar_alt"
-[SERVER_STARTED][SERVER][INFO] Removing recipe with name "techguns:vector"
-[SERVER_STARTED][SERVER][INFO] Removing recipe with name "techguns:vector_alt"
-[SERVER_STARTED][SERVER][INFO] Removing recipe with name "techguns:m4_infiltrator"
-[SERVER_STARTED][SERVER][INFO] Removing recipe with name "techguns:m4_infiltrator_alt"
-[SERVER_STARTED][SERVER][INFO] Removing recipe with name "techguns:minigun"
-[SERVER_STARTED][SERVER][INFO] Removing recipe with name "techguns:minigun_alt"
-[SERVER_STARTED][SERVER][INFO] Removing recipe with name "techguns:ak47"
-[SERVER_STARTED][SERVER][INFO] Removing recipe with name "techguns:ak47_alt"
-[SERVER_STARTED][SERVER][INFO] Removing recipe with name "techguns:boltaction"
-[SERVER_STARTED][SERVER][INFO] Removing recipe with name "techguns:handcannon"
-[SERVER_STARTED][SERVER][INFO] Removing recipe with name "techguns:mac10"
-[SERVER_STARTED][SERVER][INFO] Removing recipe with name "techguns:mac10_alt"
-[SERVER_STARTED][SERVER][INFO] Removing recipe with name "techguns:combatshotgun"
-[SERVER_STARTED][SERVER][INFO] Removing recipe with name "techguns:pistol"
-[SERVER_STARTED][SERVER][INFO] Removing recipe with name "techguns:pistol_alt"
-[SERVER_STARTED][SERVER][INFO] Removing recipe with name "techguns:m4"
-[SERVER_STARTED][SERVER][INFO] Removing recipe with name "techguns:m4_alt"
-[SERVER_STARTED][SERVER][INFO] Removing recipe with name "techguns:guidedmissilelauncher"
-[SERVER_STARTED][SERVER][INFO] Removing recipe with name "techguns:guidedmissilelauncher_alt"
-[SERVER_STARTED][SERVER][INFO] Adding shaped recipe for Draconium Dust with name ct_shaped1692775379
-[SERVER_STARTED][SERVER][INFO] Adding shapeless recipe for Fluxed Electrum Blend with name ct_shapeless289909684
-[SERVER_STARTED][SERVER][INFO] Adding shaped recipe for Axe of the Wyvern with name ct_shaped1586958264
-[SERVER_STARTED][SERVER][INFO] Adding shaped recipe for Bow of the Wyvern with name ct_shaped-1649050560
-[SERVER_STARTED][SERVER][INFO] Adding shaped recipe for Pickaxe of the Wyvern with name ct_shaped-1037989956
-[SERVER_STARTED][SERVER][INFO] Adding shaped recipe for Shovel of the Wyvern with name ct_shaped-1233741258
-[SERVER_STARTED][SERVER][INFO] Adding shaped recipe for Sword of the Wyvern with name ct_shaped1753511770
-[SERVER_STARTED][SERVER][INFO] Adding shaped recipe for Bow of the Wyvern with name ct_shaped-1649050559
-[SERVER_STARTED][SERVER][INFO] Adding shaped recipe for Wyvern Helm with name ct_shaped-1239195730
-[SERVER_STARTED][SERVER][INFO] Adding shaped recipe for Wyvern Chestplate with name ct_shaped994944980
-[SERVER_STARTED][SERVER][INFO] Adding shaped recipe for Wyvern Leggings with name ct_shaped-1091781713
-[SERVER_STARTED][SERVER][INFO] Adding shaped recipe for Wyvern Boots with name ct_shaped309322761
-[SERVER_STARTED][SERVER][INFO] Adding shaped recipe for Fusion Core with name ct_shaped87637221
-[SERVER_STARTED][SERVER][INFO] Adding shaped recipe for Tesseract with name ct_shaped1313242577
-[SERVER_STARTED][SERVER][INFO] Adding shaped recipe for Electromagnet with name ct_shaped1937969555
-[SERVER_STARTED][SERVER][INFO] Adding shaped recipe for Particle Accelerator with name ct_shaped1948809132
-[SERVER_STARTED][SERVER][INFO] Adding shaped recipe for Turret Base (Tier 5) with name ct_shaped-988497353
-[SERVER_STARTED][SERVER][INFO] Adding shaped recipe for Turret Base (Tier 4) with name ct_shaped-1700726827
-[SERVER_STARTED][SERVER][INFO] Adding shaped recipe for Turret Base (Tier 3) with name ct_shaped-1237706901
-[SERVER_STARTED][SERVER][INFO] Adding shaped recipe for Turret Base (Tier 2) with name ct_shaped-1597024980
-[SERVER_STARTED][SERVER][INFO] Adding shaped recipe for Sensor (Tier 5) with name ct_shaped-505149406
-[SERVER_STARTED][SERVER][INFO] Adding shaped recipe for Sensor (Tier 3) with name ct_shaped-1726496556
-[SERVER_STARTED][SERVER][INFO] Adding shaped recipe for Sensor (Tier 2) with name ct_shaped-679132061
-[SERVER_STARTED][SERVER][INFO] Adding shaped recipe for Barrel (Tier 5) with name ct_shaped1065658982
-[SERVER_STARTED][SERVER][INFO] Adding shaped recipe for Barrel (Tier 4) with name ct_shaped-166072530
-[SERVER_STARTED][SERVER][INFO] Adding shaped recipe for Barrel (Tier 3) with name ct_shaped-673863722
-[SERVER_STARTED][SERVER][INFO] Adding shaped recipe for Barrel (Tier 2) with name ct_shaped-1921765514
-[SERVER_STARTED][SERVER][INFO] Adding shaped recipe for Chamber (Tier 5) with name ct_shaped1691129792
-[SERVER_STARTED][SERVER][INFO] Adding shaped recipe for Chamber (Tier 4) with name ct_shaped65046409
-[SERVER_STARTED][SERVER][INFO] Adding shaped recipe for Chamber (Tier 3) with name ct_shaped633832715
-[SERVER_STARTED][SERVER][INFO] Adding shaped recipe for Chamber (Tier 2) with name ct_shaped1742965710
-[SERVER_STARTED][SERVER][INFO] Adding shaped recipe for Base Inventory Expander (Tier 5) with name ct_shaped840669626
-[SERVER_STARTED][SERVER][INFO] Adding shaped recipe for Base Inventory Expander (Tier 4) with name ct_shaped1172896295
-[SERVER_STARTED][SERVER][INFO] Adding shaped recipe for Base Inventory Expander (Tier 3) with name ct_shaped539394797
-[SERVER_STARTED][SERVER][INFO] Adding shaped recipe for Base Inventory Expander (Tier 2) with name ct_shaped-1509107677
-[SERVER_STARTED][SERVER][INFO] Adding shaped recipe for Base Power Expander (Tier 5) with name ct_shaped1350925322
-[SERVER_STARTED][SERVER][INFO] Adding shaped recipe for Base Power Expander (Tier 4) with name ct_shaped-1794241175
-[SERVER_STARTED][SERVER][INFO] Adding shaped recipe for Base Power Expander (Tier 3) with name ct_shaped241748981
-[SERVER_STARTED][SERVER][INFO] Adding shaped recipe for Base Power Expander (Tier 2) with name ct_shaped-52367021
-[SERVER_STARTED][SERVER][INFO] Adding shaped recipe for Gun Turret with name ct_shaped-1176446835
-[SERVER_STARTED][SERVER][INFO] Adding shaped recipe for Incendiary Turret with name ct_shaped910222836
-[SERVER_STARTED][SERVER][INFO] Adding shaped recipe for Grenade Launcher Turret with name ct_shaped-378111502
-[SERVER_STARTED][SERVER][INFO] Adding shaped recipe for Relativistic Turret with name ct_shaped-1190334927
-[SERVER_STARTED][SERVER][INFO] Adding shaped recipe for Rocket Launcher Turret with name ct_shaped1185305288
-[SERVER_STARTED][SERVER][INFO] Adding shaped recipe for Teleporter Turret with name ct_shaped-1101281812
-[SERVER_STARTED][SERVER][INFO] Adding shaped recipe for Laser Turret with name ct_shaped-1050249496
-[SERVER_STARTED][SERVER][INFO] Adding shaped recipe for Rail Gun Turret with name ct_shaped1450410563
-[SERVER_STARTED][SERVER][INFO] Adding shaped recipe for Ammo - Bullet with name ct_shaped-1812704058
-[SERVER_STARTED][SERVER][INFO] Adding shaped recipe for Throwable Grenade with name ct_shaped1265684571
-[SERVER_STARTED][SERVER][INFO] Adding shaped recipe for Ammo - Ferro-Magnetic Slug with name ct_shaped-117193515
-[SERVER_STARTED][SERVER][INFO] Adding shaped recipe for Addon - Turret Concealer with name ct_shaped191212031
-[SERVER_STARTED][SERVER][INFO] Adding shaped recipe for Addon - Damage Boost with name ct_shaped1232014113
-[SERVER_STARTED][SERVER][INFO] Adding shaped recipe for Upgrade - Accuracy with name ct_shaped24350123
-[SERVER_STARTED][SERVER][INFO] Adding shaped recipe for Upgrade - Efficiency with name ct_shaped94308943
-[SERVER_STARTED][SERVER][INFO] Adding shaped recipe for Upgrade - Fire Rate with name ct_shaped-1157380878
-[SERVER_STARTED][SERVER][INFO] Adding shaped recipe for Upgrade - Range with name ct_shaped1147041100
-[SERVER_STARTED][SERVER][INFO] Adding shaped recipe for Upgrade - Scatter Shot with name ct_shaped-629852446
-[SERVER_STARTED][SERVER][INFO] Adding shaped recipe for Nuclear Explosives with name ct_shaped-252079566
-[SERVER_STARTED][SERVER][INFO] Adding shaped recipe for Nuclear Explosives with name ct_shaped-1591601515
-[SERVER_STARTED][SERVER][INFO] Adding shaped recipe for Nuclear Explosives with name ct_shaped557553974
-[SERVER_STARTED][SERVER][INFO] Adding shaped recipe for Nuclear Explosives with name ct_shaped791416661
-[SERVER_STARTED][SERVER][INFO] Adding shaped recipe for Cell with name ct_shaped-1872976400
-[SERVER_STARTED][SERVER][INFO] Adding shaped recipe for Basic Plating with name ct_shaped-1701093789
-[SERVER_STARTED][SERVER][INFO] Adding shaped recipe for Copper Solenoid with name ct_shaped2032121188
-[SERVER_STARTED][SERVER][INFO] Adding shaped recipe for Alloy Smelter with name ct_shaped1681987090
-[SERVER_STARTED][SERVER][INFO] Adding shaped recipe for Industrial Dye Blend with name ct_shaped642940323
-[SERVER_STARTED][SERVER][INFO] Adding shaped recipe for Simple Machine Chassis with name ct_shaped-61667297
-[SERVER_STARTED][SERVER][INFO] Adding shaped recipe for Tier 1 Booster with name ct_shaped-1598761524
-[SERVER_STARTED][SERVER][INFO] Adding shaped recipe for Tunnel Bore with name ct_shaped-2039783731
-[SERVER_STARTED][SERVER][INFO] Adding shaped recipe for Track Layer Cart with name ct_shaped1131886617
-[SERVER_STARTED][SERVER][INFO] Adding shaped recipe for Track Relayer Cart with name ct_shaped-264735618
-[SERVER_STARTED][SERVER][INFO] Adding shaped recipe for Track Remover Cart with name ct_shaped196379350
-[SERVER_STARTED][SERVER][INFO] Adding shaped recipe for Undercutter Cart with name ct_shaped1136294595
-[SERVER_STARTED][SERVER][INFO] Adding shaped recipe for Adv. Item Loader with name ct_shaped-1072481059
-[SERVER_STARTED][SERVER][INFO] Adding shaped recipe for Adv. Item Unloader with name ct_shaped-1813843213
-[SERVER_STARTED][SERVER][INFO] Adding shaped recipe for Feed Station with name ct_shaped941830895
-[SERVER_STARTED][SERVER][INFO] Adding shaped recipe for Machine Frame with name ct_shaped576788904
-[SERVER_STARTED][SERVER][INFO] Adding shaped recipe for Device Frame with name ct_shaped145401662
-[SERVER_STARTED][SERVER][INFO] Adding shaped recipe for Steam Dynamo (Basic) with name ct_shaped471709358
-[SERVER_STARTED][SERVER][INFO] Adding shaped recipe for Magmatic Dynamo (Basic) with name ct_shaped-1813519340
-[SERVER_STARTED][SERVER][INFO] Adding shaped recipe for Compression Dynamo (Basic) with name ct_shaped446352848
-[SERVER_STARTED][SERVER][INFO] Adding shaped recipe for Reactant Dynamo (Basic) with name ct_shaped2059903058
-[SERVER_STARTED][SERVER][INFO] Adding shaped recipe for Enervation Dynamo (Basic) with name ct_shaped1998515122
-[SERVER_STARTED][SERVER][INFO] Adding shaped recipe for Numismatic Dynamo (Basic) with name ct_shaped974727643
-[SERVER_STARTED][SERVER][INFO] Adding shaped recipe for Energy Cell Frame with name ct_shaped1962837302
-[SERVER_STARTED][SERVER][INFO] Adding shaped recipe for Analyzer with name ct_shaped-1699394833
-[SERVER_STARTED][SERVER][INFO] Adding shaped recipe for Culture Vat with name ct_shaped222438365
-[SERVER_STARTED][SERVER][INFO] Adding shaped recipe for Feeder with name ct_shaped509933161
-[SERVER_STARTED][SERVER][INFO] Adding shaped recipe for Quarry with name ct_shaped-585077843
-[SERVER_STARTED][SERVER][INFO] Adding shaped recipe for Electric Compressor with name ct_shaped834739612
-[SERVER_STARTED][SERVER][INFO] Adding shaped recipe for SCAR with name ct_shaped-655851958
-[SERVER_STARTED][SERVER][INFO] Adding shaped recipe for SCAR with name ct_shaped1473861931
-[SERVER_STARTED][SERVER][INFO] Adding shaped recipe for Vector with name ct_shaped1872468347
-[SERVER_STARTED][SERVER][INFO] Adding shaped recipe for Vector with name ct_shaped449343330
-[SERVER_STARTED][SERVER][INFO] Adding shaped recipe for The Infiltrator with name ct_shaped-353407058
-[SERVER_STARTED][SERVER][INFO] Adding shaped recipe for The Infiltrator with name ct_shaped-530557235
-[SERVER_STARTED][SERVER][INFO] Adding shaped recipe for Minigun with name ct_shaped2024763068
-[SERVER_STARTED][SERVER][INFO] Adding shaped recipe for Minigun with name ct_shaped-736253533
-[SERVER_STARTED][SERVER][INFO] Adding shaped recipe for AKM with name ct_shaped-1747618161
-[SERVER_STARTED][SERVER][INFO] Adding shaped recipe for AKM with name ct_shaped-617126989
-[SERVER_STARTED][SERVER][INFO] Adding shaped recipe for Bolt Action Rifle with name ct_shaped-1543104835
-[SERVER_STARTED][SERVER][INFO] Adding shaped recipe for Rifle Rounds with name ct_shaped-1654785070
-[SERVER_STARTED][SERVER][INFO] Adding shaped recipe for Hand Cannon with name ct_shaped-2037538351
-[SERVER_STARTED][SERVER][INFO] Adding shaped recipe for Steel Barrel with name ct_shaped1403813133
-[SERVER_STARTED][SERVER][INFO] Adding shaped recipe for Steel Stock with name ct_shaped-1086479285
-[SERVER_STARTED][SERVER][INFO] Adding shaped recipe for Mac 10 with name ct_shaped35514703
-[SERVER_STARTED][SERVER][INFO] Adding shaped recipe for Mac 10 with name ct_shaped1916538138
-[SERVER_STARTED][SERVER][INFO] Adding shaped recipe for Combat Shotgun with name ct_shaped755102192
-[SERVER_STARTED][SERVER][INFO] Adding shaped recipe for Pistol with name ct_shaped-319597244
-[SERVER_STARTED][SERVER][INFO] Adding shaped recipe for Pistol with name ct_shaped2122144008
-[SERVER_STARTED][SERVER][INFO] Adding shaped recipe for M4 Assault Rifle with name ct_shaped-1107293770
-[SERVER_STARTED][SERVER][INFO] Adding shaped recipe for M4 Assault Rifle with name ct_shaped-1332195162
-[SERVER_STARTED][SERVER][INFO] Adding shaped recipe for Guided Missile-Launcher with name ct_shaped-1998200128
-[SERVER_STARTED][SERVER][INFO] Adding shaped recipe for Guided Missile-Launcher with name ct_shaped1297146064
-[SERVER_STARTED][SERVER][INFO] Removing furnace recipes for: <draconicevolution:draconium_ingot>
-[SERVER_STARTED][SERVER][INFO] 2 recipes removed for: <draconicevolution:draconium_ingot>
-[SERVER_STARTED][SERVER][INFO] Removing furnace recipes for: <ore:ingotFluixSteel>
-[SERVER_STARTED][SERVER][INFO] 1 recipes removed for: <ore:ingotFluixSteel>
-[SERVER_STARTED][SERVER][INFO] Removing furnace recipes for: <ore:ingotAluminum>
-[SERVER_STARTED][SERVER][INFO] 11 recipes removed for: <ore:ingotAluminum>
-[SERVER_STARTED][SERVER][INFO] Altering Transposer Fill Recipe(s) for <thermalfoundation:material:97>
-[SERVER_STARTED][SERVER][INFO] Altering InductionSmelter Recipe(s) for <redstonearsenal:material> and <minecraft:sand>
-[SERVER_STARTED][SERVER][INFO] Altering Crucible Recipe(s) for <thermalfoundation:material:1024>
-[SERVER_STARTED][SERVER][INFO] Altering Crucible Recipe(s) for <thermalfoundation:material:1025>
-[SERVER_STARTED][SERVER][INFO] Altering Crucible Recipe(s) for <thermalfoundation:material:1026>
-[SERVER_STARTED][SERVER][INFO] Altering Crucible Recipe(s) for <thermalfoundation:material:1027>
-[SERVER_STARTED][SERVER][INFO] Altering Compactor Recipe(s) for <projectred-expansion:infused_ender_pearl> in mode: ALL
-[SERVER_STARTED][SERVER][INFO] Altering PhytogenicInsolator Recipe(s) for <galacticraftplanets:bucket_sludge>
-[SERVER_STARTED][SERVER][INFO] Altering PhytogenicInsolator Recipe(s) for <galacticraftplanets:cavern_vines> * 4
-[SERVER_STARTED][SERVER][INFO] Altering InductionSmelter Recipe(s) for <threng:material>
-[SERVER_STARTED][SERVER][INFO] Altering InductionSmelter Recipe(s) for <enderio:item_material:1>
-[SERVER_STARTED][SERVER][INFO] Altering InductionSmelter Recipe(s) for <nuclearcraft:alloy:6> * 2
-[SERVER_STARTED][SERVER][INFO] Altering InductionSmelter Recipe(s) for <nuclearcraft:alloy:1> * 2
-[SERVER_STARTED][SERVER][INFO] Altering Refinery Recipe(s) for <liquid:refined_fuel>
-[SERVER_STARTED][SERVER][INFO] Altering Refinery Recipe(s) for <liquid:fuel_light>
-[SERVER_STARTED][SERVER][INFO] Altering Transposer Fill Recipe(s) for <liquid:refined_fuel> * 250
-[SERVER_STARTED][SERVER][INFO] Altering Transposer Fill Recipe(s) for <liquid:biofuel> * 250
-[SERVER_STARTED][SERVER][INFO] Altering Transposer Fill Recipe(s) for <liquid:refined_biofuel> * 250
-[SERVER_STARTED][SERVER][INFO] Altering Transposer Fill Recipe(s) for <liquid:pyrotheum> * 250
-[SERVER_STARTED][SERVER][INFO] Altering Transposer Fill Recipe(s) for <liquid:pyrotheum> * 250
-[SERVER_STARTED][SERVER][INFO] Altering Transposer Fill Recipe(s) for <liquid:pyrotheum> * 250
-[SERVER_STARTED][SERVER][INFO] Altering Transposer Fill Recipe(s) for <liquid:pyrotheum> * 250
-[SERVER_STARTED][SERVER][INFO] Altering InductionSmelter Recipe(s) for <techguns:itemshared:84>
-[SERVER_STARTED][SERVER][INFO] Altering InductionSmelter Recipe(s) for <techguns:itemshared:55>
-[SERVER_STARTED][CLIENT][INFO] Hiding category in JEI: techguns.oredrill
-[SERVER_STARTED][CLIENT][INFO] Hiding category in JEI: techguns.reactionchamber
-[SERVER_STARTED][CLIENT][INFO] Hiding category in JEI: techguns.reactionchamber
-[SERVER_STARTED][CLIENT][INFO] Hiding category in JEI: techguns.upgradebench
-[SERVER_STARTED][CLIENT][INFO] Hiding category in JEI: techguns.camobench
-[SERVER_STARTED][CLIENT][INFO] Hiding category in JEI: petrified_burn_time
-[SERVER_STARTED][CLIENT][INFO] Hiding category in JEI: ORE_SIEVE
-[SERVER_STARTED][CLIENT][INFO] Hiding category in JEI: ORE_FERMENTER
-[SERVER_STARTED][CLIENT][INFO] Hiding category in JEI: ORE_WASHER
-[SERVER_STARTED][CLIENT][INFO] Hiding category in JEI: xu2_machine_extrautils2:furnace
-[SERVER_STARTED][CLIENT][INFO] Hiding category in JEI: xu2_machine_extrautils2:generator_survival
-[SERVER_STARTED][CLIENT][INFO] Hiding category in JEI: xu2_machine_extrautils2:generator
-[SERVER_STARTED][CLIENT][INFO] Hiding category in JEI: xu2_machine_extrautils2:crusher
-[SERVER_STARTED][CLIENT][INFO] Hiding category in JEI: xu2_machine_extrautils2:generator_culinary
-[SERVER_STARTED][CLIENT][INFO] Hiding category in JEI: xu2_machine_extrautils2:generator_lava
-[SERVER_STARTED][CLIENT][INFO] Hiding category in JEI: xu2_machine_extrautils2:generator_redstone
-[SERVER_STARTED][CLIENT][INFO] Hiding category in JEI: xu2_machine_extrautils2:generator_ender
-[SERVER_STARTED][CLIENT][INFO] Hiding category in JEI: xu2_machine_extrautils2:generator_potion
-[SERVER_STARTED][CLIENT][INFO] Hiding category in JEI: xu2_machine_extrautils2:generator_pink
-[SERVER_STARTED][CLIENT][INFO] Hiding category in JEI: xu2_machine_extrautils2:generator_overclock
-[SERVER_STARTED][CLIENT][INFO] Hiding category in JEI: xu2_machine_extrautils2:generator_tnt
-[SERVER_STARTED][CLIENT][INFO] Hiding category in JEI: xu2_machine_extrautils2:generator_netherstar
-[SERVER_STARTED][CLIENT][INFO] Hiding category in JEI: xu2_machine_extrautils2:generator_ice
-[SERVER_STARTED][CLIENT][INFO] Hiding category in JEI: xu2_machine_extrautils2:generator_death
-[SERVER_STARTED][CLIENT][INFO] Hiding category in JEI: xu2_machine_extrautils2:generator_slime
-[SERVER_STARTED][CLIENT][INFO] Hiding category in JEI: xu2_machine_extrautils2:generator_enchant
-[SERVER_STARTED][CLIENT][INFO] Hiding category in JEI: SagMill
-[SERVER_STARTED][CLIENT][INFO] Hiding category in JEI: StirlingGenerator
-[SERVER_STARTED][CLIENT][INFO] Hiding category in JEI: EIOTank
-[SERVER_STARTED][CLIENT][INFO] Hiding category in JEI: ZombieGenerator
-[SERVER_STARTED][CLIENT][INFO] Hiding category in JEI: EnderGenerator
-[SERVER_STARTED][CLIENT][INFO] Hiding category in JEI: CombustionGenerator
-[SERVER_STARTED][CLIENT][INFO] Hiding category in JEI: GrindingBall
-[SERVER_STARTED][CLIENT][INFO] Hiding category in JEI: SolarPanel
-[SERVER_STARTED][CLIENT][INFO] Hiding category in JEI: EnderGenerator
-[SERVER_STARTED][CLIENT][INFO] Hiding item in JEI: <extrautils2:machine>
-[SERVER_STARTED][CLIENT][INFO] Hiding item in JEI: <enderio:block_stirling_generator>
-[SERVER_STARTED][CLIENT][INFO] Hiding item in JEI: <enderio:block_simple_stirling_generator>
-[SERVER_STARTED][CLIENT][INFO] Hiding item in JEI: <enderio:item_material:9>
-[SERVER_STARTED][CLIENT][INFO] Hiding item in JEI: <enderio:item_material:10>
-[SERVER_STARTED][CLIENT][INFO] Hiding item in JEI: <enderio:item_material:5>
-[SERVER_STARTED][CLIENT][INFO] Hiding item in JEI: <enderio:item_alloy_endergy_ingot>
-[SERVER_STARTED][CLIENT][INFO] Hiding item in JEI: <enderio:item_alloy_endergy_nugget>
-[SERVER_STARTED][CLIENT][INFO] Hiding item in JEI: <enderio:block_alloy_endergy>
-[SERVER_STARTED][CLIENT][INFO] Hiding item in JEI: <thermalfoundation:tool.sickle_iron>
-[SERVER_STARTED][CLIENT][INFO] Hiding item in JEI: <thermalfoundation:tool.sickle_diamond>
-[SERVER_STARTED][CLIENT][INFO] Hiding item in JEI: <thermalfoundation:tool.sickle_gold>
-[SERVER_STARTED][CLIENT][INFO] Hiding item in JEI: <rftools:powercell>
-[SERVER_STARTED][CLIENT][INFO] Hiding item in JEI: <rftools:powercell_advanced>
-[SERVER_STARTED][CLIENT][INFO] Hiding item in JEI: <rftools:powercell_simple>
-[SERVER_STARTED][CLIENT][INFO] Hiding item in JEI: <rftools:charged_porter>
-[SERVER_STARTED][CLIENT][INFO] Hiding item in JEI: <rftools:advanced_charged_porter>

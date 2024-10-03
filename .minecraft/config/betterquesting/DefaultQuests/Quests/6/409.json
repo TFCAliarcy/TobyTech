@@ -14,7 +14,12 @@
           "wizardryutils:summoneditemdata:10": {}
         },
         "OreDict:8": "",
-        "id:8": "astralsorcery:blockaltar"
+        "id:8": "astralsorcery:itemshiftingstar",
+        "tag:10": {
+          "astralsorcery:10": {
+            "starAttunement:8": "astralsorcery.constellation.vicio"
+          }
+        }
       },
       "ignoresview:1": 0,
       "ismain:1": 0,
