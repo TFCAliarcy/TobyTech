@@ -5,7 +5,7 @@
   "properties:10": {
     "betterquesting:10": {
       "autoclaim:1": 0,
-      "desc:8": "Requires tier 3 thermal, rad",
+      "desc:8": "Requires tier 3 thermal, rad\n\nHas aluminum",
       "frame:8": "ROUNDED_SQUARE",
       "globalshare:1": 0,
       "icon:10": {
