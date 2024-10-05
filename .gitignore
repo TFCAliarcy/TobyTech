@@ -3,7 +3,6 @@
 .minecraft/journeymap/journeymap.log
 /.minecraft/logs
 /.minecraft/saves
-instance.cfg
 .minecraft/usercache.json
 .minecraft/options.txt
 .minecraft/logs/onslaught.log.0
@@ -13,7 +12,6 @@ instance.cfg
 .minecraft/logs/onslaught.log.2
 .minecraft/logs/onslaught.log.3
 .minecraft/logs/onslaught.log.4
-instance.cfg
 /natives
 .minecraft/llibrary/debug/net.minecraftforge.client.ForgeHooksClient.class
 .minecraft/llibrary/debug/net.minecraft.client.renderer.RenderGlobal.class
@@ -22,10 +20,8 @@ instance.cfg
 .minecraft/config/splash.properties
 .minecraft/logs/debug.log
 .minecraft/logs/latest.log
-instance.cfg
 .minecraft/config/AppliedEnergistics2/CustomRecipes.cfg
 .minecraft/usercache.json
-instance.cfg
 .minecraft/config/AppliedEnergistics2/items.csv
 .minecraft/config/AppliedEnergistics2/items.csv
 .minecraft/crafttweaker.log
@@ -63,6 +59,4 @@ instance.cfg
 .minecraft/config/splash.properties
 /.minecraft/assets/galacticraftMaps
 .minecraft/config/UniqueNames.txt
-.minecraft/crafttweaker.log
 .minecraft/journeymap/config/5.7/journeymap.minimap.config
-instance.cfg

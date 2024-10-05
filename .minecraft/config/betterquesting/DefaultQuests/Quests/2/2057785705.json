@@ -21,7 +21,7 @@
       "ismain:1": 0,
       "issilent:1": 0,
       "lockedprogress:1": 0,
-      "name:8": "Advanced Compressor",
+      "name:8": "Advanced GC Machines",
       "questlogic:8": "AND",
       "repeat_relative:1": 1,
       "repeattime:3": -1,
@@ -51,6 +51,15 @@
           },
           "OreDict:8": "",
           "id:8": "galacticraftcore:machine4"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 12,
+          "ForgeCaps:10": {
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "OreDict:8": "",
+          "id:8": "galacticraftcore:machine_tiered"
         }
       },
       "taskID:8": "bq_standard:retrieval"
