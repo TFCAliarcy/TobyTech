@@ -12,7 +12,9 @@
         "Count:3": 1,
         "Damage:2": 23,
         "ForgeCaps:10": {
-          "Parent:10": {},
+          "Parent:10": {
+            "customizations:9": {}
+          },
           "wizardryutils:summoneditemdata:10": {}
         },
         "OreDict:8": "",
@@ -48,7 +50,9 @@
           "Count:3": 1,
           "Damage:2": 23,
           "ForgeCaps:10": {
-            "Parent:10": {},
+            "Parent:10": {
+              "customizations:9": {}
+            },
             "wizardryutils:summoneditemdata:10": {}
           },
           "OreDict:8": "",

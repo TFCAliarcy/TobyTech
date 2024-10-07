@@ -1,6 +1,6 @@
 {
   "preRequisites:11": [
-    15
+    190
   ],
   "properties:10": {
     "betterquesting:10": {
@@ -13,7 +13,9 @@
         "Damage:2": 24,
         "ForgeCaps:10": {
           "Parent:10": {
-            "explosive:10": {}
+            "explosive:10": {
+              "customizations:9": {}
+            }
           },
           "astralsorcery:cap_item_amulet_holder:10": {},
           "wizardryutils:summoneditemdata:10": {}

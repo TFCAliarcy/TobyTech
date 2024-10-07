@@ -149,3 +149,42 @@ recipes.addShaped(<galacticraftcore:machine2:0>, [
 //Plastic from Oil
 Refinery.addRecipe(<liquid:refined_fuel> *1, <industrialforegoing:plastic>, <liquid:refined_fuel> *100, 5000);
 Refinery.addRecipe(<liquid:fuel_light> *1, <industrialforegoing:plastic>*2, <liquid:fuel_light> *100, 5000);
+
+// Residue to Concrete
+mods.thermalexpansion.Transposer.addFillRecipe(<minecraft:concrete:15>, <minecraft:sand:*>, <liquid:oil_residue> * 100, 400);
+mods.thermalexpansion.Transposer.addFillRecipe(<minecraft:concrete:15>, <minecraft:gravel>, <liquid:oil_residue> * 100, 400);
+
+// Pump
+recipes.remove(<buildcraftfactory:pump>);
+recipes.addShaped(<buildcraftfactory:pump>, [
+	[<ore:ingotSteel>,<ore:dustRedstone>,<ore:ingotSteel>], 
+	[<ore:ingotSteel>,<ore:gearSteel>,<ore:ingotSteel>],
+	[<buildcraftfactory:tank>, <minecraft:bucket>, <buildcraftfactory:tank>]]);
+
+// Hypoinfuser
+recipes.remove(<thermalinnovation:injector>);
+recipes.addShaped(<thermalinnovation:injector>, [
+	[<ore:itemRubber>,<ore:dustGlowstone>,<ore:itemRubber>], 
+	[<ore:ingotCopper>,<ore:itemRubber>,<ore:ingotCopper>],
+	[null, <ore:ingotSilver>, null]]);
+
+// Rat Tube
+recipes.remove(<rats:rat_tube_white>);
+recipes.addShaped(<rats:rat_tube_white> *16, [
+	[<ore:plastic>,<ore:plastic>,<ore:plastic>], 
+	[null,null,null],
+	[<ore:plastic>, <ore:plastic>, <ore:plastic>]]);
+
+// Rat Igloo
+recipes.remove(<rats:rat_igloo_white>);
+recipes.addShaped(<rats:rat_igloo_white>, [
+	[null,null,null], 
+	[<ore:plastic>,<ore:plastic>,<ore:plastic>],
+	[<ore:plastic>, null, <ore:plastic>]]);
+
+// Rat Seed Bowl
+recipes.remove(<rats:rat_seed_bowl>);
+recipes.addShaped(<rats:rat_seed_bowl>, [
+	[<ore:listAllseed>,<ore:listAllseed>,<ore:listAllseed>], 
+	[<ore:plastic>,null,<ore:plastic>],
+	[<ore:plastic>, <ore:plastic>, <ore:plastic>]]);

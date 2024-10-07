@@ -56,3 +56,6 @@ recipes.removeByRecipeName("biomesoplenty:amber_block");
 <ore:turret_upgrade>.add(<openmodularturrets:upgrade_meta:2>);
 <ore:turret_upgrade>.add(<openmodularturrets:upgrade_meta:1>);
 <ore:turret_upgrade>.add(<openmodularturrets:upgrade_meta:0>);
+
+<ore:ingotPlastic>.add(<industrialforegoing:plastic>);
+<ore:plastic>.add(<industrialforegoing:plastic>);
