@@ -59,3 +59,7 @@ recipes.removeByRecipeName("biomesoplenty:amber_block");
 
 <ore:ingotPlastic>.add(<industrialforegoing:plastic>);
 <ore:plastic>.add(<industrialforegoing:plastic>);
+
+<ore:dyeBlue>.add(<astralsorcery:itemcraftingcomponent:0>);
+<ore:dye>.add(<astralsorcery:itemcraftingcomponent:0>);
+<ore:gemAll>.add(<astralsorcery:itemcraftingcomponent:0>);
