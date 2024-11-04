@@ -1,24 +1,24 @@
 [PREINITIALIZATION][CLIENT][INFO] Thank you to the Patreon supporters below and others who make CraftTweaker possible!
-Ncc1702
-Pongo Sapiens
-Quaternary
-Genryu
-embeddedt
+Jonathan McManus
 Jellycraft
 Zuniroa
-Jessie Sims
-Lucas
-Jonathan McManus
-Peregrinus11
 NickT
-Phillip Swearingain
-NerdyWhiteGuy
-Jordan Pineo
-DreamThorn
-Ivy_
-Belathus
-Hooley
+Jessie Sims
 Spencer Gilbert
+Phillip Swearingain
+Ivy_
+Lucas
+DreamThorn
+Belathus
+Ncc1702
+Genryu
+embeddedt
+Jordan Pineo
+NerdyWhiteGuy
+Quaternary
+Hooley
+Pongo Sapiens
+Peregrinus11
 If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 
 [PREINITIALIZATION][CLIENT][TRACE] Current loaders after merging: [[preinit]]
@@ -57,10 +57,28 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [PREINITIALIZATION][CLIENT][TRACE] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker|reloadable]: revtier.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][TRACE] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: SpartanNetheriteSmithing.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][TRACE] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker|reloadable]: techguns.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][TRACE] Completed script loading in: 274ms
+[PREINITIALIZATION][CLIENT][TRACE] Completed script loading in: 242ms
+[PREINITIALIZATION][CLIENT][TRACE] Current loaders after merging: [[preinit], [contenttweaker], [finalize_contenttweaker]]
+[PREINITIALIZATION][CLIENT][INFO] Loading scripts for loader with names [finalize_contenttweaker]
+[PREINITIALIZATION][CLIENT][TRACE] [finalize_contenttweaker | SIDE_CLIENT]: Skipping file {[0:contenttweaker]: contenttweaker.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][TRACE] [finalize_contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker|reloadable]: fartier.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][TRACE] [finalize_contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker|reloadable]: FoodOverhaul.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][TRACE] [finalize_contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker|reloadable]: galacticraft.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][TRACE] [finalize_contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker|reloadable]: hidingstuff.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][TRACE] [finalize_contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker|reloadable]: icbm+turrets.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][TRACE] [finalize_contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker|reloadable]: inscriber fix.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][TRACE] [finalize_contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker|reloadable]: interptier.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][TRACE] [finalize_contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker|reloadable]: LootTableTweaker\LootTableTweaker.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][TRACE] [finalize_contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker|reloadable]: mobstages.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][TRACE] [finalize_contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker|reloadable]: nhtier.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][TRACE] [finalize_contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker|reloadable]: oredict.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][TRACE] [finalize_contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker|reloadable]: revtier.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][TRACE] [finalize_contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: SpartanNetheriteSmithing.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][TRACE] [finalize_contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker|reloadable]: techguns.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][TRACE] Completed script loading in: 2ms
 [INITIALIZATION][CLIENT][INFO] CraftTweaker: Building registry
 [INITIALIZATION][CLIENT][INFO] CraftTweaker: Successfully built item registry
-[INITIALIZATION][CLIENT][TRACE] Current loaders after merging: [[preinit], [contenttweaker], [recipeevent | crafttweaker]]
+[INITIALIZATION][CLIENT][TRACE] Current loaders after merging: [[preinit], [contenttweaker], [finalize_contenttweaker], [recipeevent | crafttweaker]]
 [INITIALIZATION][CLIENT][INFO] Loading scripts for loader with names [crafttweaker | recipeevent]
 [INITIALIZATION][CLIENT][TRACE] [crafttweaker | SIDE_CLIENT]: Skipping file {[0:contenttweaker]: contenttweaker.zs} as we are currently loading with a different loader
 [INITIALIZATION][CLIENT][TRACE] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker|reloadable]: fartier.zs}
@@ -202,32 +220,32 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [INITIALIZATION][CLIENT][INFO] Adding Aquamarine to ore dictionary entry gemAll
 [INITIALIZATION][CLIENT][TRACE] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker|reloadable]: revtier.zs}
 [INITIALIZATION][CLIENT][TRACE] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: SpartanNetheriteSmithing.zs}
-[INITIALIZATION][CLIENT][INFO] Added a recipe for the smithing table - Input: net.minecraft.item.crafting.Ingredient@6a53ef12, Material: , Output: 1xitem.spartannetherite:battleaxe_netherite@0
-[INITIALIZATION][CLIENT][INFO] Added a recipe for the smithing table - Input: net.minecraft.item.crafting.Ingredient@67e32524, Material: , Output: 1xitem.spartannetherite:boomerang_netherite@0
-[INITIALIZATION][CLIENT][INFO] Added a recipe for the smithing table - Input: net.minecraft.item.crafting.Ingredient@ecaa982, Material: , Output: 1xitem.spartannetherite:spartanweaponry:crossbow_netherite@0
-[INITIALIZATION][CLIENT][INFO] Added a recipe for the smithing table - Input: net.minecraft.item.crafting.Ingredient@6fef6b8a, Material: , Output: 1xitem.spartannetherite:dagger_netherite@0
-[INITIALIZATION][CLIENT][INFO] Added a recipe for the smithing table - Input: net.minecraft.item.crafting.Ingredient@2bfea102, Material: , Output: 1xitem.spartannetherite:glaive_netherite@0
-[INITIALIZATION][CLIENT][INFO] Added a recipe for the smithing table - Input: net.minecraft.item.crafting.Ingredient@737a7911, Material: , Output: 1xitem.spartannetherite:greatsword_netherite@0
-[INITIALIZATION][CLIENT][INFO] Added a recipe for the smithing table - Input: net.minecraft.item.crafting.Ingredient@419ce97e, Material: , Output: 1xitem.spartannetherite:halberd_netherite@0
-[INITIALIZATION][CLIENT][INFO] Added a recipe for the smithing table - Input: net.minecraft.item.crafting.Ingredient@6931a977, Material: , Output: 1xitem.spartannetherite:hammer_netherite@0
-[INITIALIZATION][CLIENT][INFO] Added a recipe for the smithing table - Input: net.minecraft.item.crafting.Ingredient@75275802, Material: , Output: 1xitem.spartannetherite:javelin_netherite@0
-[INITIALIZATION][CLIENT][INFO] Added a recipe for the smithing table - Input: net.minecraft.item.crafting.Ingredient@47d1fcf1, Material: , Output: 1xitem.spartannetherite:katana_netherite@0
-[INITIALIZATION][CLIENT][INFO] Added a recipe for the smithing table - Input: net.minecraft.item.crafting.Ingredient@6f289daa, Material: , Output: 1xitem.spartannetherite:lance_netherite@0
-[INITIALIZATION][CLIENT][INFO] Added a recipe for the smithing table - Input: net.minecraft.item.crafting.Ingredient@7859e7d3, Material: , Output: 1xitem.spartannetherite:longbow_netherite@0
-[INITIALIZATION][CLIENT][INFO] Added a recipe for the smithing table - Input: net.minecraft.item.crafting.Ingredient@7221eac0, Material: , Output: 1xitem.spartannetherite:longsword_netherite@0
-[INITIALIZATION][CLIENT][INFO] Added a recipe for the smithing table - Input: net.minecraft.item.crafting.Ingredient@48c1fdab, Material: , Output: 1xitem.spartannetherite:mace_netherite@0
-[INITIALIZATION][CLIENT][INFO] Added a recipe for the smithing table - Input: net.minecraft.item.crafting.Ingredient@13ee7e42, Material: , Output: 1xitem.spartannetherite:parrying_dagger_netherite@0
-[INITIALIZATION][CLIENT][INFO] Added a recipe for the smithing table - Input: net.minecraft.item.crafting.Ingredient@24b36d7d, Material: , Output: 1xitem.spartannetherite:pike_netherite@0
-[INITIALIZATION][CLIENT][INFO] Added a recipe for the smithing table - Input: net.minecraft.item.crafting.Ingredient@d17c990, Material: , Output: 1xitem.spartannetherite:rapier_netherite@0
-[INITIALIZATION][CLIENT][INFO] Added a recipe for the smithing table - Input: net.minecraft.item.crafting.Ingredient@16cc30df, Material: , Output: 1xitem.spartannetherite:saber_netherite@0
-[INITIALIZATION][CLIENT][INFO] Added a recipe for the smithing table - Input: net.minecraft.item.crafting.Ingredient@15cfc134, Material: , Output: 1xitem.spartanweaponry:scythe_netherite@0
-[INITIALIZATION][CLIENT][INFO] Added a recipe for the smithing table - Input: net.minecraft.item.crafting.Ingredient@10eb5e9a, Material: , Output: 1xitem.spartannetherite:spear_netherite@0
-[INITIALIZATION][CLIENT][INFO] Added a recipe for the smithing table - Input: net.minecraft.item.crafting.Ingredient@63c07b79, Material: , Output: 1xitem.spartannetherite:staff_netherite@0
-[INITIALIZATION][CLIENT][INFO] Added a recipe for the smithing table - Input: net.minecraft.item.crafting.Ingredient@7811cdc2, Material: , Output: 1xitem.spartannetherite:throwing_axe_netherite@0
-[INITIALIZATION][CLIENT][INFO] Added a recipe for the smithing table - Input: net.minecraft.item.crafting.Ingredient@7e883820, Material: , Output: 1xitem.spartannetherite:throwing_knife_netherite@0
-[INITIALIZATION][CLIENT][INFO] Added a recipe for the smithing table - Input: net.minecraft.item.crafting.Ingredient@1801228b, Material: , Output: 1xitem.spartannetherite:warhammer_netherite@0
-[INITIALIZATION][CLIENT][INFO] Added a recipe for the smithing table - Input: net.minecraft.item.crafting.Ingredient@259f1ac9, Material: , Output: 1xitem.spartannetherite:shield_basic_netherite@0
-[INITIALIZATION][CLIENT][INFO] Added a recipe for the smithing table - Input: net.minecraft.item.crafting.Ingredient@1e53b791, Material: , Output: 1xitem.spartannetherite:shield_tower_netherite@0
+[INITIALIZATION][CLIENT][INFO] Added a recipe for the smithing table - Input: net.minecraft.item.crafting.Ingredient@4a0a7636, Material: , Output: 1xitem.spartannetherite:battleaxe_netherite@0
+[INITIALIZATION][CLIENT][INFO] Added a recipe for the smithing table - Input: net.minecraft.item.crafting.Ingredient@7a278db0, Material: , Output: 1xitem.spartannetherite:boomerang_netherite@0
+[INITIALIZATION][CLIENT][INFO] Added a recipe for the smithing table - Input: net.minecraft.item.crafting.Ingredient@65e2f65a, Material: , Output: 1xitem.spartannetherite:spartanweaponry:crossbow_netherite@0
+[INITIALIZATION][CLIENT][INFO] Added a recipe for the smithing table - Input: net.minecraft.item.crafting.Ingredient@1f57e0ef, Material: , Output: 1xitem.spartannetherite:dagger_netherite@0
+[INITIALIZATION][CLIENT][INFO] Added a recipe for the smithing table - Input: net.minecraft.item.crafting.Ingredient@353ea5ae, Material: , Output: 1xitem.spartannetherite:glaive_netherite@0
+[INITIALIZATION][CLIENT][INFO] Added a recipe for the smithing table - Input: net.minecraft.item.crafting.Ingredient@11f2a143, Material: , Output: 1xitem.spartannetherite:greatsword_netherite@0
+[INITIALIZATION][CLIENT][INFO] Added a recipe for the smithing table - Input: net.minecraft.item.crafting.Ingredient@70c56566, Material: , Output: 1xitem.spartannetherite:halberd_netherite@0
+[INITIALIZATION][CLIENT][INFO] Added a recipe for the smithing table - Input: net.minecraft.item.crafting.Ingredient@56e1159c, Material: , Output: 1xitem.spartannetherite:hammer_netherite@0
+[INITIALIZATION][CLIENT][INFO] Added a recipe for the smithing table - Input: net.minecraft.item.crafting.Ingredient@8ef5dca, Material: , Output: 1xitem.spartannetherite:javelin_netherite@0
+[INITIALIZATION][CLIENT][INFO] Added a recipe for the smithing table - Input: net.minecraft.item.crafting.Ingredient@6ea868fa, Material: , Output: 1xitem.spartannetherite:katana_netherite@0
+[INITIALIZATION][CLIENT][INFO] Added a recipe for the smithing table - Input: net.minecraft.item.crafting.Ingredient@186136c4, Material: , Output: 1xitem.spartannetherite:lance_netherite@0
+[INITIALIZATION][CLIENT][INFO] Added a recipe for the smithing table - Input: net.minecraft.item.crafting.Ingredient@5b428528, Material: , Output: 1xitem.spartannetherite:longbow_netherite@0
+[INITIALIZATION][CLIENT][INFO] Added a recipe for the smithing table - Input: net.minecraft.item.crafting.Ingredient@31574c7e, Material: , Output: 1xitem.spartannetherite:longsword_netherite@0
+[INITIALIZATION][CLIENT][INFO] Added a recipe for the smithing table - Input: net.minecraft.item.crafting.Ingredient@ee60537, Material: , Output: 1xitem.spartannetherite:mace_netherite@0
+[INITIALIZATION][CLIENT][INFO] Added a recipe for the smithing table - Input: net.minecraft.item.crafting.Ingredient@29a9bdac, Material: , Output: 1xitem.spartannetherite:parrying_dagger_netherite@0
+[INITIALIZATION][CLIENT][INFO] Added a recipe for the smithing table - Input: net.minecraft.item.crafting.Ingredient@43d1ab66, Material: , Output: 1xitem.spartannetherite:pike_netherite@0
+[INITIALIZATION][CLIENT][INFO] Added a recipe for the smithing table - Input: net.minecraft.item.crafting.Ingredient@34fd6e9b, Material: , Output: 1xitem.spartannetherite:rapier_netherite@0
+[INITIALIZATION][CLIENT][INFO] Added a recipe for the smithing table - Input: net.minecraft.item.crafting.Ingredient@1d0f455, Material: , Output: 1xitem.spartannetherite:saber_netherite@0
+[INITIALIZATION][CLIENT][INFO] Added a recipe for the smithing table - Input: net.minecraft.item.crafting.Ingredient@610b9b8d, Material: , Output: 1xitem.spartanweaponry:scythe_netherite@0
+[INITIALIZATION][CLIENT][INFO] Added a recipe for the smithing table - Input: net.minecraft.item.crafting.Ingredient@f6162e1, Material: , Output: 1xitem.spartannetherite:spear_netherite@0
+[INITIALIZATION][CLIENT][INFO] Added a recipe for the smithing table - Input: net.minecraft.item.crafting.Ingredient@619ee1fd, Material: , Output: 1xitem.spartannetherite:staff_netherite@0
+[INITIALIZATION][CLIENT][INFO] Added a recipe for the smithing table - Input: net.minecraft.item.crafting.Ingredient@46b40fca, Material: , Output: 1xitem.spartannetherite:throwing_axe_netherite@0
+[INITIALIZATION][CLIENT][INFO] Added a recipe for the smithing table - Input: net.minecraft.item.crafting.Ingredient@2a4d2aca, Material: , Output: 1xitem.spartannetherite:throwing_knife_netherite@0
+[INITIALIZATION][CLIENT][INFO] Added a recipe for the smithing table - Input: net.minecraft.item.crafting.Ingredient@3e0d7c58, Material: , Output: 1xitem.spartannetherite:warhammer_netherite@0
+[INITIALIZATION][CLIENT][INFO] Added a recipe for the smithing table - Input: net.minecraft.item.crafting.Ingredient@145bfa63, Material: , Output: 1xitem.spartannetherite:shield_basic_netherite@0
+[INITIALIZATION][CLIENT][INFO] Added a recipe for the smithing table - Input: net.minecraft.item.crafting.Ingredient@1681be98, Material: , Output: 1xitem.spartannetherite:shield_tower_netherite@0
 [INITIALIZATION][CLIENT][TRACE] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker|reloadable]: techguns.zs}
 [INITIALIZATION][CLIENT][INFO] Remove [item.ingotIron] to AmmoPressSlot: Metal2
 [INITIALIZATION][CLIENT][INFO] Remove [item.for.ingot_copper,item.thermalfoundation.material.ingotCopper,item.railcraft.ingot.copper,item.nuclearcraft.ingot.copper,item.projectred.core.itemResource.copper_ingot,item.basic_item.ingot_copper,item.iceandfire.copperIngot,item.techguns.ingotcopper] to AmmoPressSlot: Metal2
@@ -248,301 +266,6 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [INITIALIZATION][CLIENT][INFO] Remove Recipe(s) for 1xitem.techguns.itemshared@83 from BlastFurnace
 [INITIALIZATION][CLIENT][INFO] Remove Recipe(s) for 1xitem.techguns.itemshared@84 from BlastFurnace
 [INITIALIZATION][CLIENT][INFO] Remove Recipe(s) for 1xitem.techguns.itemshared@81 from BlastFurnace
-[INITIALIZATION][CLIENT][TRACE] Completed script loading in: 267ms
+[INITIALIZATION][CLIENT][TRACE] Completed script loading in: 258ms
 [INITIALIZATION][CLIENT][INFO] Translating item.projectred.expansion.enderPearlInfused.name to Compressed Draconium Dust
 [INITIALIZATION][CLIENT][INFO] Translating item.datnuclearphysicslite.darkmatter_cell.name to Red Matter Cell
-[POSTINITIALIZATION][CLIENT][INFO] Removing Inscriber Entry for Printed Logic Circuit
-[POSTINITIALIZATION][CLIENT][INFO] Adding Inscriber Entry for Printed Logic Circuit
-[POSTINITIALIZATION][CLIENT][INFO] Removing Inscriber Entry for Logic Processor
-[POSTINITIALIZATION][CLIENT][INFO] Adding Inscriber Entry for Logic Processor
-[POSTINITIALIZATION][CLIENT][INFO] Removing Inscriber Entry for Calculation Processor
-[POSTINITIALIZATION][CLIENT][INFO] Adding Inscriber Entry for Calculation Processor
-[POSTINITIALIZATION][CLIENT][INFO] Removing Inscriber Entry for Printed Engineering Circuit
-[POSTINITIALIZATION][CLIENT][INFO] Adding Inscriber Entry for Printed Engineering Circuit
-[POSTINITIALIZATION][CLIENT][INFO] Removing Inscriber Entry for Engineering Processor
-[POSTINITIALIZATION][CLIENT][INFO] Adding Inscriber Entry for Engineering Processor
-[POSTINITIALIZATION][CLIENT][INFO] Removing recipes for various outputs
-[POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "draconicevolution:draconium_ingot_1"
-[POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "thermalfoundation:dust_signalum"
-[POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "icbmclassic:explosives/redmatter"
-[POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "icbmclassic:explosives/antimatter"
-[POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "datnuclearphysicslite:item/cell_empty"
-[POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "nuclearcraft:item.nuclearcraft.compound.dimensional_blend"
-[POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "thermalfoundation:dust_enderium"
-[POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "thermalfoundation:dust_lumium"
-[POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "thermalfoundation:dust_signalium"
-[POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "redstonearsenal:dust_electrum_flux_alloy"
-[POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "redstonearsenal:dust_electrum_flux"
-[POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "redstonearsenal:gem_crystal_flux"
-[POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "biomesoplenty:amber"
-[POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "biomesoplenty:amber_block"
-[POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "techguns:simplmachine:11"
-[POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "techguns:scar"
-[POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "techguns:scar_alt"
-[POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "techguns:vector"
-[POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "techguns:vector_alt"
-[POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "techguns:m4_infiltrator"
-[POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "techguns:m4_infiltrator_alt"
-[POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "techguns:minigun"
-[POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "techguns:minigun_alt"
-[POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "techguns:ak47"
-[POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "techguns:ak47_alt"
-[POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "techguns:boltaction"
-[POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "techguns:handcannon"
-[POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "techguns:mac10"
-[POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "techguns:mac10_alt"
-[POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "techguns:combatshotgun"
-[POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "techguns:pistol"
-[POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "techguns:pistol_alt"
-[POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "techguns:m4"
-[POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "techguns:m4_alt"
-[POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "techguns:guidedmissilelauncher"
-[POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "techguns:guidedmissilelauncher_alt"
-[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <ore:dustPyrotheum> and replacing them with <liquid:pyrotheum>
-[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <ore:dustCryotheum> and replacing them with <liquid:cryotheum>
-[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <ore:dustPetrotheum> and replacing them with <liquid:petrotheum>
-[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <ore:dustAerotheum> and replacing them with <liquid:aerotheum>
-[POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "deepmoblearning:data_model/data_model_thermal_elemental"
-[POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "thermalfoundation:upgrade_2"
-[POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "thermalfoundation:upgrade_3"
-[POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "thermalexpansion:capacitor_3"
-[POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "thermalexpansion:capacitor_4"
-[POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "thermalexpansion:reservoir_3"
-[POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "thermalexpansion:reservoir_4"
-[POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "thermalexpansion:augment_4"
-[POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "thermalexpansion:augment_6"
-[POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "thermalexpansion:augment_9"
-[POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "thermalexpansion:augment_25"
-[POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "thermalexpansion:augment_26"
-[POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "thermalexpansion:augment_33"
-[POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "thermalexpansion:augment_34"
-[POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "thermalexpansion:augment_35"
-[POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "thermalexpansion:augment_36"
-[POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "thermalexpansion:augment_37"
-[POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "thermalinnovation:drill_3"
-[POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "thermalinnovation:saw_3"
-[POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "nuclearcraft:tile.nuclearcraft.cooler.cryotheum"
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Draconium Dust with name ct_shaped1692775379
-[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Fluxed Electrum Blend with name ct_shapeless289909684
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Axe of the Wyvern with name ct_shaped1586958264
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Bow of the Wyvern with name ct_shaped-1649050560
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Pickaxe of the Wyvern with name ct_shaped-1037989956
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Shovel of the Wyvern with name ct_shaped-1233741258
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Sword of the Wyvern with name ct_shaped1753511770
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Bow of the Wyvern with name ct_shaped-1649050559
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Wyvern Helm with name ct_shaped-1239195730
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Wyvern Chestplate with name ct_shaped994944980
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Wyvern Leggings with name ct_shaped-1091781713
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Wyvern Boots with name ct_shaped309322761
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Fusion Core with name ct_shaped87637221
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Tesseract with name ct_shaped1313242577
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Electromagnet with name ct_shaped1937969555
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Particle Accelerator with name ct_shaped1948809132
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Turret Base (Tier 5) with name ct_shaped-988497353
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Turret Base (Tier 4) with name ct_shaped-1700726827
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Turret Base (Tier 3) with name ct_shaped-1237706901
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Turret Base (Tier 2) with name ct_shaped-1597024980
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Sensor (Tier 5) with name ct_shaped-505149406
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Sensor (Tier 3) with name ct_shaped-1726496556
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Sensor (Tier 2) with name ct_shaped-679132061
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Barrel (Tier 5) with name ct_shaped1065658982
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Barrel (Tier 4) with name ct_shaped-166072530
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Barrel (Tier 3) with name ct_shaped-673863722
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Barrel (Tier 2) with name ct_shaped-1921765514
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Chamber (Tier 5) with name ct_shaped1691129792
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Chamber (Tier 4) with name ct_shaped65046409
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Chamber (Tier 3) with name ct_shaped633832715
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Chamber (Tier 2) with name ct_shaped1742965710
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Base Inventory Expander (Tier 5) with name ct_shaped840669626
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Base Inventory Expander (Tier 4) with name ct_shaped1172896295
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Base Inventory Expander (Tier 3) with name ct_shaped539394797
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Base Inventory Expander (Tier 2) with name ct_shaped-1509107677
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Base Power Expander (Tier 5) with name ct_shaped1350925322
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Base Power Expander (Tier 4) with name ct_shaped-1794241175
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Base Power Expander (Tier 3) with name ct_shaped241748981
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Base Power Expander (Tier 2) with name ct_shaped-52367021
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Gun Turret with name ct_shaped-1176446835
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Incendiary Turret with name ct_shaped910222836
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Grenade Launcher Turret with name ct_shaped-378111502
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Relativistic Turret with name ct_shaped-1190334927
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Rocket Launcher Turret with name ct_shaped1185305288
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Teleporter Turret with name ct_shaped-1101281812
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Laser Turret with name ct_shaped-1050249496
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Rail Gun Turret with name ct_shaped1450410563
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Ammo - Bullet with name ct_shaped-1812704058
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Throwable Grenade with name ct_shaped1265684571
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Ammo - Ferro-Magnetic Slug with name ct_shaped-117193515
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Addon - Turret Concealer with name ct_shaped191212031
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Addon - Damage Boost with name ct_shaped1232014113
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Upgrade - Accuracy with name ct_shaped24350123
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Upgrade - Efficiency with name ct_shaped94308943
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Upgrade - Fire Rate with name ct_shaped-1157380878
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Upgrade - Range with name ct_shaped1147041100
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Upgrade - Scatter Shot with name ct_shaped-629852446
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Nuclear Explosives with name ct_shaped-252079566
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Nuclear Explosives with name ct_shaped-1591601515
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Nuclear Explosives with name ct_shaped557553974
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Nuclear Explosives with name ct_shaped791416661
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Cell with name ct_shaped-1872976400
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Basic Plating with name ct_shaped-1701093789
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Copper Solenoid with name ct_shaped2032121188
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Alloy Smelter with name ct_shaped1681987090
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Industrial Dye Blend with name ct_shaped642940323
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Simple Machine Chassis with name ct_shaped-61667297
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Tier 1 Booster with name ct_shaped-1598761524
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Tunnel Bore with name ct_shaped-2039783731
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Track Layer Cart with name ct_shaped1131886617
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Track Relayer Cart with name ct_shaped-264735618
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Track Remover Cart with name ct_shaped196379350
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Undercutter Cart with name ct_shaped1136294595
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Adv. Item Loader with name ct_shaped-1072481059
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Adv. Item Unloader with name ct_shaped-1813843213
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Feed Station with name ct_shaped941830895
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Machine Frame with name ct_shaped576788904
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Device Frame with name ct_shaped145401662
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Steam Dynamo (Basic) with name ct_shaped471709358
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Magmatic Dynamo (Basic) with name ct_shaped183953940
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Compression Dynamo (Basic) with name ct_shaped446352848
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Reactant Dynamo (Basic) with name ct_shaped2059903058
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Enervation Dynamo (Basic) with name ct_shaped1998515122
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Numismatic Dynamo (Basic) with name ct_shaped974727643
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Energy Cell Frame with name ct_shaped1962837302
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Analyzer with name ct_shaped-1699394833
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Culture Vat with name ct_shaped222438365
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Feeder with name ct_shaped509933161
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Quarry with name ct_shaped-585077843
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Electric Compressor with name ct_shaped834739612
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Pump with name ct_shaped1615734476
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Hypoinfuser (Basic) with name ct_shaped-1684069094
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for White Rat Tube with name ct_shaped711423169
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for White Rat Igloo with name ct_shaped1983709469
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Rat Seed Bowl with name ct_shaped933055716
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for SCAR with name ct_shaped-655851958
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for SCAR with name ct_shaped1473861931
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Vector with name ct_shaped1872468347
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Vector with name ct_shaped449343330
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for The Infiltrator with name ct_shaped-353407058
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for The Infiltrator with name ct_shaped-530557235
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Minigun with name ct_shaped2024763068
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Minigun with name ct_shaped-736253533
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for AKM with name ct_shaped-1747618161
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for AKM with name ct_shaped-617126989
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Bolt Action Rifle with name ct_shaped-1543104835
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Rifle Rounds with name ct_shaped-1654785070
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Hand Cannon with name ct_shaped-2037538351
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Steel Barrel with name ct_shaped1403813133
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Steel Stock with name ct_shaped-1086479285
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Mac 10 with name ct_shaped35514703
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Mac 10 with name ct_shaped1916538138
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Combat Shotgun with name ct_shaped755102192
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Pistol with name ct_shaped-319597244
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Pistol with name ct_shaped2122144008
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for M4 Assault Rifle with name ct_shaped-1107293770
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for M4 Assault Rifle with name ct_shaped-1332195162
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Guided Missile-Launcher with name ct_shaped-1998200128
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Guided Missile-Launcher with name ct_shaped1297146064
-[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Thermal Elemental Data Model with name deepmoblearning_data_model/data_model_thermal_elemental_modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Signalum Upgrade Kit with name thermalfoundation_upgrade_2_modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Resonant Upgrade Kit with name thermalfoundation_upgrade_3_modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Flux Capacitor (Signalum) with name thermalexpansion_capacitor_3_modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Flux Capacitor (Resonant) with name thermalexpansion_capacitor_4_modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Reservoir (Signalum) with name thermalexpansion_reservoir_3_modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Reservoir (Resonant) with name thermalexpansion_reservoir_4_modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Augment: Flux Anodizers with name thermalexpansion_augment_4_modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Augment: Tectonic Initiator with name thermalexpansion_augment_6_modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Augment: Pyro-Concentrator with name thermalexpansion_augment_9_modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Augment: Pyroclastic Injection with name thermalexpansion_augment_25_modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Augment: Clastic Deposition with name thermalexpansion_augment_26_modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Augment: Isentropic Reservoir with name thermalexpansion_augment_33_modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Augment: Closed-Loop Cooling with name thermalexpansion_augment_34_modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Augment: Ignition Plugs with name thermalexpansion_augment_35_modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Augment: Agitative Manifold with name thermalexpansion_augment_36_modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Augment: Elemental Catalyzer with name thermalexpansion_augment_37_modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Fluxbore (Signalum) with name thermalinnovation_drill_3_modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Fluxsaw (Signalum) with name thermalinnovation_saw_3_modified
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Cryotheum Cooler with name nuclearcraft_tile.nuclearcraft.cooler.cryotheum_modified
-[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <draconicevolution:draconium_ingot>
-[POSTINITIALIZATION][CLIENT][INFO] 2 recipes removed for: <draconicevolution:draconium_ingot>
-[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <ore:ingotFluixSteel>
-[POSTINITIALIZATION][CLIENT][INFO] 1 recipes removed for: <ore:ingotFluixSteel>
-[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <ore:ingotAluminum>
-[POSTINITIALIZATION][CLIENT][INFO] 11 recipes removed for: <ore:ingotAluminum>
-[POSTINITIALIZATION][CLIENT][INFO] Cleaning up Fossils Weights
-[AVAILABLE][CLIENT][INFO] Altering Transposer Fill Recipe(s) for <thermalfoundation:material:97>
-[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <redstonearsenal:material> and <minecraft:sand>
-[AVAILABLE][CLIENT][INFO] Altering Crucible Recipe(s) for <thermalfoundation:material:1024>
-[AVAILABLE][CLIENT][INFO] Altering Crucible Recipe(s) for <thermalfoundation:material:1025>
-[AVAILABLE][CLIENT][INFO] Altering Crucible Recipe(s) for <thermalfoundation:material:1026>
-[AVAILABLE][CLIENT][INFO] Altering Crucible Recipe(s) for <thermalfoundation:material:1027>
-[AVAILABLE][CLIENT][INFO] Altering Compactor Recipe(s) for <projectred-expansion:infused_ender_pearl> in mode: ALL
-[AVAILABLE][CLIENT][INFO] Altering PhytogenicInsolator Recipe(s) for <galacticraftplanets:bucket_sludge>
-[AVAILABLE][CLIENT][INFO] Altering PhytogenicInsolator Recipe(s) for <galacticraftplanets:cavern_vines> * 4
-[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <threng:material>
-[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <enderio:item_material:1>
-[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <nuclearcraft:alloy:6> * 2
-[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <nuclearcraft:alloy:1> * 2
-[AVAILABLE][CLIENT][INFO] Altering Refinery Recipe(s) for <liquid:refined_fuel>
-[AVAILABLE][CLIENT][INFO] Altering Refinery Recipe(s) for <liquid:fuel_light>
-[AVAILABLE][CLIENT][INFO] Altering Transposer Fill Recipe(s) for <liquid:oil_residue> * 100
-[AVAILABLE][CLIENT][INFO] Altering Transposer Fill Recipe(s) for <liquid:oil_residue> * 100
-[AVAILABLE][CLIENT][INFO] Altering Transposer Fill Recipe(s) for <liquid:refined_fuel> * 250
-[AVAILABLE][CLIENT][INFO] Altering Transposer Fill Recipe(s) for <liquid:biofuel> * 250
-[AVAILABLE][CLIENT][INFO] Altering Transposer Fill Recipe(s) for <liquid:refined_biofuel> * 250
-[AVAILABLE][CLIENT][INFO] Altering Transposer Fill Recipe(s) for <liquid:pyrotheum> * 250
-[AVAILABLE][CLIENT][INFO] Altering Transposer Fill Recipe(s) for <liquid:pyrotheum> * 250
-[AVAILABLE][CLIENT][INFO] Altering Transposer Fill Recipe(s) for <liquid:pyrotheum> * 250
-[AVAILABLE][CLIENT][INFO] Altering Transposer Fill Recipe(s) for <liquid:pyrotheum> * 250
-[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <techguns:itemshared:84>
-[AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <techguns:itemshared:55>
-[AVAILABLE][CLIENT][INFO] Hiding category in JEI: techguns.oredrill
-[AVAILABLE][CLIENT][INFO] Hiding category in JEI: techguns.reactionchamber
-[AVAILABLE][CLIENT][INFO] Hiding category in JEI: techguns.reactionchamber
-[AVAILABLE][CLIENT][INFO] Hiding category in JEI: techguns.upgradebench
-[AVAILABLE][CLIENT][INFO] Hiding category in JEI: techguns.camobench
-[AVAILABLE][CLIENT][INFO] Hiding category in JEI: petrified_burn_time
-[AVAILABLE][CLIENT][INFO] Hiding category in JEI: ORE_SIEVE
-[AVAILABLE][CLIENT][INFO] Hiding category in JEI: ORE_FERMENTER
-[AVAILABLE][CLIENT][INFO] Hiding category in JEI: ORE_WASHER
-[AVAILABLE][CLIENT][INFO] Hiding category in JEI: xu2_machine_extrautils2:furnace
-[AVAILABLE][CLIENT][INFO] Hiding category in JEI: xu2_machine_extrautils2:generator_survival
-[AVAILABLE][CLIENT][INFO] Hiding category in JEI: xu2_machine_extrautils2:generator
-[AVAILABLE][CLIENT][INFO] Hiding category in JEI: xu2_machine_extrautils2:crusher
-[AVAILABLE][CLIENT][INFO] Hiding category in JEI: xu2_machine_extrautils2:generator_culinary
-[AVAILABLE][CLIENT][INFO] Hiding category in JEI: xu2_machine_extrautils2:generator_lava
-[AVAILABLE][CLIENT][INFO] Hiding category in JEI: xu2_machine_extrautils2:generator_redstone
-[AVAILABLE][CLIENT][INFO] Hiding category in JEI: xu2_machine_extrautils2:generator_ender
-[AVAILABLE][CLIENT][INFO] Hiding category in JEI: xu2_machine_extrautils2:generator_potion
-[AVAILABLE][CLIENT][INFO] Hiding category in JEI: xu2_machine_extrautils2:generator_pink
-[AVAILABLE][CLIENT][INFO] Hiding category in JEI: xu2_machine_extrautils2:generator_overclock
-[AVAILABLE][CLIENT][INFO] Hiding category in JEI: xu2_machine_extrautils2:generator_tnt
-[AVAILABLE][CLIENT][INFO] Hiding category in JEI: xu2_machine_extrautils2:generator_netherstar
-[AVAILABLE][CLIENT][INFO] Hiding category in JEI: xu2_machine_extrautils2:generator_ice
-[AVAILABLE][CLIENT][INFO] Hiding category in JEI: xu2_machine_extrautils2:generator_death
-[AVAILABLE][CLIENT][INFO] Hiding category in JEI: xu2_machine_extrautils2:generator_slime
-[AVAILABLE][CLIENT][INFO] Hiding category in JEI: xu2_machine_extrautils2:generator_enchant
-[AVAILABLE][CLIENT][INFO] Hiding category in JEI: SagMill
-[AVAILABLE][CLIENT][INFO] Hiding category in JEI: StirlingGenerator
-[AVAILABLE][CLIENT][INFO] Hiding category in JEI: EIOTank
-[AVAILABLE][CLIENT][INFO] Hiding category in JEI: ZombieGenerator
-[AVAILABLE][CLIENT][INFO] Hiding category in JEI: EnderGenerator
-[AVAILABLE][CLIENT][INFO] Hiding category in JEI: CombustionGenerator
-[AVAILABLE][CLIENT][INFO] Hiding category in JEI: GrindingBall
-[AVAILABLE][CLIENT][INFO] Hiding category in JEI: SolarPanel
-[AVAILABLE][CLIENT][INFO] Hiding category in JEI: EnderGenerator
-[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <extrautils2:machine>
-[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <enderio:block_stirling_generator>
-[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <enderio:block_simple_stirling_generator>
-[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <enderio:item_material:9>
-[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <enderio:item_material:10>
-[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <enderio:item_material:5>
-[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <enderio:item_alloy_endergy_ingot>
-[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <enderio:item_alloy_endergy_nugget>
-[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <enderio:block_alloy_endergy>
-[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <thermalfoundation:tool.sickle_iron>
-[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <thermalfoundation:tool.sickle_diamond>
-[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <thermalfoundation:tool.sickle_gold>
-[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <rftools:powercell>
-[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <rftools:powercell_advanced>
-[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <rftools:powercell_simple>
-[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <rftools:charged_porter>
-[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <rftools:advanced_charged_porter>
