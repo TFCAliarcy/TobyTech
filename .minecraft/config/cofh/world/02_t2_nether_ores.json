@@ -73,30 +73,6 @@
 				]
 			}
 		},
-		"nether-gold": {
-			"distribution": "uniform",
-			"generator": {
-				"block": {
-					"name": "netherendingores:ore_nether_vanilla",
-					"properties": {
-						"blocks": "gold_ore"
-					}
-				},
-				"material": "minecraft:netherrack",
-				"cluster-size": 6
-			},
-			"cluster-count": 8,
-			"min-height": 10,
-			"max-height": 118,
-			"retrogen": "true",
-			"biome": "all",
-			"dimension": {
-				"restriction": "whitelist",
-				"value": [
-					-1
-				]
-			}
-		},
 		"nether-redstone": {
 			"distribution": "uniform",
 			"generator": {
@@ -181,7 +157,7 @@
 				"material": "minecraft:netherrack",
 				"cluster-size": 8
 			},
-			"cluster-count": 8,
+			"cluster-count": 10,
 			"min-height": 10,
 			"max-height": 118,
 			"retrogen": "true",
