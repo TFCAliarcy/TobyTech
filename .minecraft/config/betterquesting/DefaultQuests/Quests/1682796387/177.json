@@ -1,0 +1,36 @@
+{
+  "preRequisites:11": [
+    173
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Aluminum Ore is found in the twilight forest and is primarily used as a material for Galacticraft for making spacecraft and other components and machines.\n\nYou can\u0027t refine this in a normal furncae instead having to use an induction furnace.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 132,
+        "ForgeCaps:10": {
+          "wizardryutils:summoneditemdata:10": {}
+        },
+        "id:8": "thermalfoundation:material"
+      },
+      "name:8": "Alumin(i)um Ore"
+    }
+  },
+  "questID:3": 177,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 4,
+          "ForgeCaps:10": {
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "thermalfoundation:ore"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

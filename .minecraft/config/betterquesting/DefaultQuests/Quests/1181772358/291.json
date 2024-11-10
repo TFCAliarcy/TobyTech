@@ -1,0 +1,25 @@
+{
+  "preRequisites:11": [
+    289
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "So you may have noticed that some of the bees you princesses you have harvested say pristine while others say ignoble. Ignoble princesses will have a 2% chance to die off after around 100 uses while pristines will not die off.\n\nThis 2% chance can be modified by stuff such as frames or electrical stimulators and each modifier is multiplicative and is refered to as genetic decay. So if you have an impregnated frame (.4 modifier) and 50% increase decay from electron tubes in an electrical stimulator it will go like this.\n\n.02*.4*1.5\u003d.012\n\nYou get these decimals from dividing the % by 100 or moving it over 2 to the left. Meaning your 2% became 1.2% for each generation. So you will likely get 183 uses out of that princess if you keep it up like that which is a lot, certainly long enough for you to get a swarmer which gives infinite ignoble princesses.\n\nSo them being ignoble or pristine doesn\u0027t matter really unless you are really cheesing crossbreeding by repeatedly killing your princesses since mutations occur at death.\n\nAlso to be clear Pristine are not effected by genetic decay and will not die from that.",
+      "icon:10": {
+        "Count:3": 1,
+        "ForgeCaps:10": {
+          "wizardryutils:summoneditemdata:10": {}
+        },
+        "id:8": "geneticsreborn:dnahelix"
+      },
+      "name:8": "Genetic Decay"
+    }
+  },
+  "questID:3": 291,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

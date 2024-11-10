@@ -1,0 +1,34 @@
+{
+  "preRequisites:11": [
+    313
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The Escritoire is used to increase the mutation rate of crossbreeding a combination 2 different bees for 1 result. You do this by playing a matching minigame whose difficulty is based on the tier of bee and upon completion grants you the bonus to mutation for that combo and also some combs.\n\nYou start by placing the bee you want to investigate in the center question mark. Slots will be then filled with books and the higher tier the bee the more slots will be taken filled.\n\nOn the right there is a microscope with slots underneath which when fed drones and then clicked (doesn\u0027t matter breed) will reveal some of the books to be bees at the cost of the drones fed in. You click on them to match those of the same breed, if you click on a non-matching pair then it will reset making any drones fed in wasted. To restart you just take the center drone out and put it back in.\n\nYou also don\u0027t need to use hints and just guess but that is not advised for high tier bees as that may take a long time.\n\nOnce you\u0027ve matched all of the bees you will get a paper and some combs based on the investigated bee. Right clicking with the paper will give you a bonus for the combo listed. For example it may say that Wintry and Forest will make Common, it gives you a bonus to getting Common from that specific combo.",
+      "icon:10": {
+        "Count:3": 1,
+        "ForgeCaps:10": {
+          "wizardryutils:summoneditemdata:10": {}
+        },
+        "id:8": "forestry:escritoire"
+      },
+      "name:8": "Beeology"
+    }
+  },
+  "questID:3": 308,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "forestry:escritoire"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

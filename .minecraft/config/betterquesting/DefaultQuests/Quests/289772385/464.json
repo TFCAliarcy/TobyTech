@@ -1,0 +1,92 @@
+{
+  "preRequisites:11": [
+    348
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "icon:10": {
+        "Count:3": 1,
+        "ForgeCaps:10": {
+          "astralsorcery:cap_item_amulet_holder:10": {},
+          "wizardryutils:summoneditemdata:10": {}
+        },
+        "id:8": "enderio:item_dark_steel_pickaxe",
+        "tag:10": {
+          "enderio.darksteel.upgrade.carpet:10": {
+            "level:3": 0
+          },
+          "enderio.darksteel.upgrade.depth:10": {
+            "level:3": 0
+          },
+          "enderio.darksteel.upgrade.direct:10": {
+            "level:3": 0
+          },
+          "enderio.darksteel.upgrade.energyUpgrade:10": {
+            "energy:3": 1000000,
+            "level:3": 3
+          },
+          "enderio.darksteel.upgrade.spoon:10": {
+            "level:3": 0
+          },
+          "enderio.darksteel.upgrade.tnt:10": {
+            "level:3": 4
+          },
+          "enderio.darksteel.upgrade.travel:10": {
+            "level:3": 0
+          }
+        }
+      },
+      "name:8": "Dark Steel Tools"
+    }
+  },
+  "questID:3": 464,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "astralsorcery:cap_item_amulet_holder:10": {},
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "enderio:item_dark_steel_pickaxe"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "astralsorcery:cap_item_amulet_holder:10": {},
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "enderio:item_dark_steel_sword"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "astralsorcery:cap_item_amulet_holder:10": {},
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "enderio:item_dark_steel_axe"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "astralsorcery:cap_item_amulet_holder:10": {},
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "enderio:item_dark_steel_crook"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "astralsorcery:cap_item_amulet_holder:10": {},
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "enderio:item_dark_steel_bow"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

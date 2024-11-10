@@ -1,0 +1,41 @@
+{
+  "preRequisites:11": [
+    232
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "icon:10": {
+        "Count:3": 1,
+        "ForgeCaps:10": {
+          "wizardryutils:summoneditemdata:10": {}
+        },
+        "id:8": "industrialforegoing:laser_drill"
+      },
+      "name:8": "Laser Mining"
+    }
+  },
+  "questID:3": 239,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "industrialforegoing:laser_base"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "industrialforegoing:laser_drill"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    36
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Mars has an atmosphere that while strong enough to block out solar radiation, is neither breathable nor warm. This means you\u0027ll need tier 1 thermal padding to survive here as well as the usual oxygen setup.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 6,
+        "ForgeCaps:10": {
+          "wizardryutils:summoneditemdata:10": {}
+        },
+        "id:8": "galacticraftplanets:mars"
+      },
+      "name:8": "The Red Planet"
+    }
+  },
+  "questID:3": 37,
+  "tasks:9": {
+    "0:10": {
+      "dimension:3": -29,
+      "index:3": 0,
+      "name:8": "Mars",
+      "taskID:8": "bq_standard:location"
+    }
+  }
+}

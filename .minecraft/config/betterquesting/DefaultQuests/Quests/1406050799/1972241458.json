@@ -1,0 +1,41 @@
+{
+  "preRequisites:11": [
+    122
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Can Transfer 25 block gap lossless between Galacticraft machines",
+      "icon:10": {
+        "Count:3": 1,
+        "ForgeCaps:10": {
+          "wizardryutils:summoneditemdata:10": {}
+        },
+        "id:8": "galacticraftplanets:beam_reflector"
+      },
+      "name:8": "Wireless Cables?"
+    }
+  },
+  "questID:3": 1972241458,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "galacticraftplanets:beam_reflector"
+        },
+        "1:10": {
+          "Count:3": 2,
+          "ForgeCaps:10": {
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "galacticraftplanets:beam_receiver"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

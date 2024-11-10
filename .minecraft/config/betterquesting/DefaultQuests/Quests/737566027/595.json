@@ -1,0 +1,41 @@
+{
+  "preRequisites:11": [
+    596
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Certain upgrades require configuration. Whitelist, Blacklist, and Miner must be configured by right clicking with them in hand.\n\nCheese production can be automated by setting up a Curdling Station with a rat set to deposit milk into it, either with the Bucket Upgrade or the Milkmaid Upgrade.",
+      "icon:10": {
+        "Count:3": 1,
+        "ForgeCaps:10": {
+          "wizardryutils:summoneditemdata:10": {}
+        },
+        "id:8": "rats:auto_curdler"
+      },
+      "name:8": "Upgrades and Automation"
+    }
+  },
+  "questID:3": 595,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "rats:auto_curdler"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "rats:rat_upgrade_basic"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

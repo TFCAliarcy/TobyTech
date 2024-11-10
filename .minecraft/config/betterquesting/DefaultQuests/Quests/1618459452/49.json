@@ -1,0 +1,42 @@
+{
+  "preRequisites:11": [
+    51,
+    50,
+    73,
+    330
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "icon:10": {
+        "Count:3": 1,
+        "ForgeCaps:10": {
+          "astralsorcery:cap_item_amulet_holder:10": {},
+          "wizardryutils:summoneditemdata:10": {}
+        },
+        "OreDict:8": "ice\u0026firedragonegg",
+        "id:8": "iceandfire:dragonegg_green"
+      },
+      "name:8": "Dragonspawn",
+      "questlogic:8": "OR"
+    }
+  },
+  "questID:3": 49,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "astralsorcery:cap_item_amulet_holder:10": {},
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "OreDict:8": "ice\u0026firedragonegg",
+          "id:8": "iceandfire:dragonegg_red"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    559
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Iron, Diamond, Dolomite, Quartz, Cobalt, Nickel\n\nRequires rad and tier 3 thermal",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 9,
+        "ForgeCaps:10": {
+          "wizardryutils:summoneditemdata:10": {}
+        },
+        "id:8": "galaxyspace:mirandablocks"
+      },
+      "name:8": "Miranda"
+    }
+  },
+  "questID:3": 571,
+  "tasks:9": {
+    "0:10": {
+      "dimension:3": -1024,
+      "index:3": 0,
+      "name:8": "Miranda",
+      "taskID:8": "bq_standard:location"
+    }
+  }
+}

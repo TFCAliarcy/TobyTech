@@ -1,0 +1,44 @@
+{
+  "preRequisiteTypes:7": [
+    0,
+    0,
+    1
+  ],
+  "preRequisites:11": [
+    509,
+    503,
+    485
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1,
+        "ForgeCaps:10": {
+          "wizardryutils:summoneditemdata:10": {}
+        },
+        "id:8": "nuclearcraft:neptunium"
+      },
+      "name:8": "Neptunium",
+      "questlogic:8": "OR"
+    }
+  },
+  "questID:3": 510,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 32767,
+          "ForgeCaps:10": {
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "nuclearcraft:neptunium"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

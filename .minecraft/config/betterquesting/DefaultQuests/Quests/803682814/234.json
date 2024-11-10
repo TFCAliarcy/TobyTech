@@ -1,0 +1,37 @@
+{
+  "preRequisites:11": [
+    230,
+    233,
+    229
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Talk About Eggs, Seeds, Saplings, and Embryos",
+      "icon:10": {
+        "Count:3": 1,
+        "ForgeCaps:10": {
+          "wizardryutils:summoneditemdata:10": {}
+        },
+        "id:8": "fossil:cultivate"
+      },
+      "name:8": "Creating New Life",
+      "questlogic:8": "OR"
+    }
+  },
+  "questID:3": 234,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "fossil:cultivate"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

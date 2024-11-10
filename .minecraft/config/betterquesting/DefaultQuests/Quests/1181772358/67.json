@@ -1,0 +1,44 @@
+{
+  "preRequisites:11": [
+    309
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The process of making GMOs begins with cultivating bacteria in incubators. You start this by making growth medium and dissolving it in water in an incubator and then put the liquid growth medium into another incubator with wheat to make bacteria. From here you should be able to figure out how to make the other bacteria variants.\n\nYou also use bacteria mixed with sugar to make enzymes used in the next step.\n\nSomething to note is that if you have at least 1 mB of a bacteria in an incubator you can make more by feeding in growth medium. You can carry around liquids less than a bucket by making a pippette which is found in the Cool Tools tab.\n\nOh yeah I forgot to mention it takes power, all of the genetics machines take RF/MJ.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 2,
+        "ForgeCaps:10": {
+          "wizardryutils:summoneditemdata:10": {}
+        },
+        "id:8": "genetics:lab_machine"
+      },
+      "name:8": "Making Bacteria"
+    }
+  },
+  "questID:3": 67,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2,
+          "ForgeCaps:10": {
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "genetics:lab_machine"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 4,
+          "ForgeCaps:10": {
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "genetics:misc"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

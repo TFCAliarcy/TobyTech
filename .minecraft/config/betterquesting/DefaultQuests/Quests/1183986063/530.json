@@ -1,0 +1,23 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Press Shift+Z while in inventory will give you a magnified look at any block in your inventory, this is used to get a good look at it for building.\n\nThis counts for stuff in JEI.",
+      "icon:10": {
+        "Count:3": 1,
+        "ForgeCaps:10": {
+          "astralsorcery:cap_item_amulet_holder:10": {},
+          "wizardryutils:summoneditemdata:10": {}
+        },
+        "id:8": "railcraft:tool_magnifying_glass"
+      },
+      "name:8": "Inventory Zoom"
+    }
+  },
+  "questID:3": 530,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

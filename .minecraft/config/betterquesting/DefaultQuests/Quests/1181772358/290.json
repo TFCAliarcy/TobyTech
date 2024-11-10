@@ -1,0 +1,44 @@
+{
+  "preRequisites:11": [
+    10
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "To farm bees you need to get bees. One way is to go steal them from villagers, but that won\u0027t get you nearly enough. Instead you\u0027ll need to find beehives throughout the world, once found you need to break them with the scoop. Before you scoop them you will want to right click on them with a bee smoker otherwise they will attack you, ignoring armor.\n\nYou\u0027ll probably want to make multiple scoops as they has low durability. While the smoker doesn\u0027t have durability.\n\nDifferent biomes will give different bees which will want to live in biomes similar to their own. For example, desert bees will want to live in hot and dry biomes while meadows bees will want to live in temperate and mild biomes. But you can solve this with a habitat former.\n\nThere are also two special cases for getting bees. Valiant are a rare drop from breaking hives and Steadfast are found in dungeon chests.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 2,
+        "ForgeCaps:10": {
+          "wizardryutils:summoneditemdata:10": {}
+        },
+        "id:8": "forestry:beehives"
+      },
+      "name:8": "Getting Bees"
+    }
+  },
+  "questID:3": 290,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "astralsorcery:cap_item_amulet_holder:10": {},
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "forestry:scoop"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "astralsorcery:cap_item_amulet_holder:10": {},
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "forestry:smoker"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

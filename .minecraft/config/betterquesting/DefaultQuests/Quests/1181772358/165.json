@@ -1,0 +1,36 @@
+{
+  "preRequisites:11": [
+    166
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1,
+        "ForgeCaps:10": {
+          "wizardryutils:summoneditemdata:10": {}
+        },
+        "id:8": "mysticalagriculture:chunk"
+      },
+      "name:8": "Tier 2 Mobs"
+    }
+  },
+  "questID:3": 165,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "ForgeCaps:10": {
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "mysticalagriculture:chunk"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

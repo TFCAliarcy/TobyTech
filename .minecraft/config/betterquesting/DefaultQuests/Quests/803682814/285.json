@@ -1,0 +1,21 @@
+{
+  "preRequisites:11": [
+    284
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 4,
+        "ForgeCaps:10": {
+          "wizardryutils:summoneditemdata:10": {}
+        },
+        "id:8": "galacticraftcore:oxygen_compressor"
+      },
+      "name:8": "Unloading Oxygen"
+    }
+  },
+  "questID:3": 285,
+  "tasks:9": {}
+}

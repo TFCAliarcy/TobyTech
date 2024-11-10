@@ -1,0 +1,38 @@
+{
+  "preRequisites:11": [
+    215
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The hypoinfuser allows you to inject yourself or others with potions and can be used to continuously apply potion effects to yourself. You right click on others to inject them and shift right click to inject yourself. \n\nActivating auto-inject will have it continuously apply the effect and is done by pressing the key listing in the tooltip while holding it in your hand, placing it in your bauble slot will have it continue working.\n\nYou fill them by either crafting potion with the hypoinfuser in a crafting table or by placing it in a fluid transposer and can also dye them with dye.\n\nNote that they can\u0027t be filled with splash or lingering potions but can otherwise seeminly use any other potion.",
+      "icon:10": {
+        "Count:3": 1,
+        "ForgeCaps:10": {
+          "astralsorcery:cap_item_amulet_holder:10": {},
+          "wizardryutils:summoneditemdata:10": {}
+        },
+        "id:8": "thermalinnovation:injector",
+        "tag:10": {}
+      },
+      "name:8": "Hook it to my veins!"
+    }
+  },
+  "questID:3": 2034353650,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "astralsorcery:cap_item_amulet_holder:10": {},
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "thermalinnovation:injector",
+          "tag:10": {}
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

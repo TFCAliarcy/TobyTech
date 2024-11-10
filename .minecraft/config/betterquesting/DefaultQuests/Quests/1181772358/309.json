@@ -1,0 +1,43 @@
+{
+  "preRequisites:11": [
+    306
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Before you begin genetically modifying you need to get subjects which you can modify to your desires.\n\nThe Hatchery will provide you with bee Larvae over time. These are used to create genetically modified bees and can be automated.\n\nThe Alveary Sieve will make it so that when butterflies spawn or trees cross pollinate they will instead deposit in here. The purpose of this is so you can genetically alter them. You put a woven silk in the left most slot and it will accumulate your goods in the right slots. You can only automate it using computercraft.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 5,
+        "ForgeCaps:10": {
+          "wizardryutils:summoneditemdata:10": {}
+        },
+        "id:8": "extrabees:alveary"
+      },
+      "name:8": "Getting Malleable Subjects"
+    }
+  },
+  "questID:3": 309,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 5,
+          "ForgeCaps:10": {
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "extrabees:alveary"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "forestry:alveary.sieve"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

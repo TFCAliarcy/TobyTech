@@ -1,0 +1,26 @@
+{
+  "preRequisites:11": [
+    602
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Is searching for planets tedious? Are you too busy to keep an eye out for asteroids? \n\nIf so then I sure hope you know how to use computercraft or can get you someone who can because you can use Computercraft to automatically research planets or asteroids and launch satellites or mining rockets to fulfill their mission. The methods are listed below:\n\ncomponent.telescope\n\n  telescope.getObservationStatus()\n\n  telescope.getResearchedBodies()\n\n  telescope.rotateTelescope(x, y)\n\ncomponent.mission_control_station\n\n  mission_control_station.getMissionsInfo()\n\n  mission_control_station.selectMission(name)\n\n  mission_control_station.activateMission()\n\n  mission_control_station.missionDuration()\n\n  mission_control_station.getSpaceStations()\n\n  mission_control_station.getLocatableObjects()\n\n  mission_control_station.selectSpaceStation(name)\n\n  mission_control_station.selectObjectToLocate(name)\n\n  mission_control_station.locateObject()\n\n  mission_control_station.getLocationData()\n\n  mission_control_station.setCoordinates(x,z)",
+      "icon:10": {
+        "Count:3": 1,
+        "ForgeCaps:10": {
+          "astralsorcery:cap_item_amulet_holder:10": {},
+          "wizardryutils:summoneditemdata:10": {}
+        },
+        "id:8": "computercraft:disk"
+      },
+      "name:8": "Automating Research"
+    }
+  },
+  "questID:3": 603,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

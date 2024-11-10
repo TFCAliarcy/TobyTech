@@ -1,0 +1,53 @@
+{
+  "preRequisites:11": [
+    15
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "icon:10": {
+        "Count:3": 1,
+        "ForgeCaps:10": {
+          "wizardryutils:summoneditemdata:10": {}
+        },
+        "id:8": "thermalexpansion:dynamo",
+        "tag:10": {
+          "Energy:3": 0,
+          "Facing:1": 1,
+          "Level:1": 0,
+          "RSControl:1": 0
+        }
+      },
+      "name:8": "Steam Power"
+    }
+  },
+  "questID:3": 212,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "thermalexpansion:dynamo",
+          "tag:10": {
+            "Energy:3": 0,
+            "Facing:1": 1,
+            "Level:1": 0,
+            "RSControl:1": 0
+          }
+        },
+        "1:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "thermaldynamics:duct_0"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

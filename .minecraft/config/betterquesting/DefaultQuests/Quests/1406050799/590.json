@@ -1,0 +1,36 @@
+{
+  "preRequisites:11": [
+    591
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Sometimes there will appear random asteroids in Space. Observe them in telescope, and in MCS select the asteroid mission.\n\nPlace mining rocket on the pad and via Mission Control interface activate the mission. Rocket will fly to the asteroid, dig it and return back to the same pad.\n\nFrom this you can gain various ores such as Desh, Titanium, Meteoric Iron, Draconium, Solar, and more mundane ores.",
+      "icon:10": {
+        "Count:3": 1,
+        "ForgeCaps:10": {
+          "astralsorcery:cap_item_amulet_holder:10": {},
+          "wizardryutils:summoneditemdata:10": {}
+        },
+        "id:8": "galacticresearch:mining_rocket"
+      },
+      "name:8": "Mining Rockets"
+    }
+  },
+  "questID:3": 590,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "astralsorcery:cap_item_amulet_holder:10": {},
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "galacticresearch:mining_rocket"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

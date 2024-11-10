@@ -1,0 +1,30 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "TobyTech is a pack meant to cater to a variety of players and offer a plethora of playstyles whether that be technology, magic, exploration, farming, building, combat, or just building a little cabin.\n\nThere are however challenges set in place, night and caves are more dangerous, some foods are nerfed, and some more powerful modded items are gated further behind progression than they would be normally.\n\nA bunch of features from more modern versions of minecraft have been backported with the most gamechanging being swimming.\n\nOh also I made it so this quest restarts the day so people joining during the night won\u0027t be stuck in darkness when they join.",
+      "icon:10": {
+        "Count:3": 1,
+        "ForgeCaps:10": {
+          "wizardryutils:summoneditemdata:10": {}
+        },
+        "id:8": "minecraft:sign"
+      },
+      "name:8": "Welcome to TobyTech"
+    }
+  },
+  "questID:3": 601,
+  "rewards:9": {
+    "0:10": {
+      "command:8": "time set day",
+      "description:8": "Restarts the Day",
+      "index:3": 0,
+      "rewardID:8": "bq_standard:command"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

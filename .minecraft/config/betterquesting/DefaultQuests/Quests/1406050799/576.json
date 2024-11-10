@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    559
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Resources\n\nRequires rad and tier 3 padding",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1,
+        "ForgeCaps:10": {
+          "wizardryutils:summoneditemdata:10": {}
+        },
+        "id:8": "galaxyspace:tritonblocks"
+      },
+      "name:8": "Triton"
+    }
+  },
+  "questID:3": 576,
+  "tasks:9": {
+    "0:10": {
+      "dimension:3": -1021,
+      "index:3": 0,
+      "name:8": "Triton",
+      "taskID:8": "bq_standard:location"
+    }
+  }
+}

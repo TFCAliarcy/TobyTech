@@ -1,0 +1,41 @@
+{
+  "preRequisites:11": [
+    187
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "That\u0027s right we got a mail system! This can be used to not only send simple letters but to instantly send items to other people\u0027s mailboxes. Though this is mostly meant for mailing between distant players it is somewhat useful for doing funny stuff.\n\nYou do this by making a letter, you can type out a message and or attach items to the letter. Don\u0027t forget to address it by typing the username of the recipient at the top.\n\nBut here\u0027s the kicker, you must attach stamps to it, each stamp has a certain value to it that being the number with the n next to it (I don\u0027t know what the n stands for so don\u0027t ask me.) The stamps come in different values being 1, 2, 5, 10, 20, 50, 100. You must put enough value to it to pay the postman, it is 1 as the base value, and then 1 addition for each item.\n\nSo if you have a letter with a stack of items attached it needs 65 worth of stamps. Now the second kicker is that you can only put 4 stamps on each letter, not 4 different kinds, 4 total. So for that 65 you might attach a 50 a 10 and a 5 with one slot left.\n\nOnce you have attached written your letter, attached any items, addressed it, and stamped it you can then send it by right clicking on a mailbox. If the recipient has a mailbox it will then send it to their mailbox.\n\nKeep in mind that mailboxes work like vanilla enderchests in that whats in them is tied to the player, not the actual box. So you can open any mailbox to get your mail and only your mail.",
+      "icon:10": {
+        "Count:3": 1,
+        "ForgeCaps:10": {
+          "wizardryutils:summoneditemdata:10": {}
+        },
+        "id:8": "forestry:letters"
+      },
+      "name:8": "All you need is a black and white cat"
+    }
+  },
+  "questID:3": 331,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "forestry:mailbox"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "forestry:letters"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

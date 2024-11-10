@@ -1,0 +1,46 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Just some blocks using animated textures to look like the void.",
+      "icon:10": {
+        "Count:3": 1,
+        "ForgeCaps:10": {
+          "wizardryutils:summoneditemdata:10": {}
+        },
+        "id:8": "enderportaldecoration:gateway"
+      },
+      "name:8": "Void Blocks"
+    }
+  },
+  "questID:3": 449,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "enderportaldecoration:void"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "enderportaldecoration:portal"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "ForgeCaps:10": {
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "enderportaldecoration:gateway"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

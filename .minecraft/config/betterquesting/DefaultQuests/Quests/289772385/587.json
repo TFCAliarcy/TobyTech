@@ -1,0 +1,20 @@
+{
+  "preRequisites:11": [
+    586
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "icon:10": {
+        "Count:3": 1,
+        "ForgeCaps:10": {
+          "wizardryutils:summoneditemdata:10": {}
+        },
+        "id:8": "rftools:shield_block1"
+      },
+      "name:8": "Forcefields"
+    }
+  },
+  "questID:3": 587,
+  "tasks:9": {}
+}

@@ -1,0 +1,41 @@
+{
+  "preRequisites:11": [
+    39
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Before you can land on planets you have to find them first!\n\nTo use this you must power it and place it next to a mission control next to it. You should place the mission control next to a launch\n\nTo discover planets you use the arrows on the right side of the UI to find and keep a planet in the square focus. The 1 shows how quickly you move your focus and the percentages show where you are within the sky.\n\nThe smaller sky window shows where scannable stuff is with the smaller dots seemingly representing moons and other rocky planets and the larger ones seemingly representing gas giants.\n\nIn order to unlock a destination you will need to launch a satellite rockets into orbit around a planet. To do this you place it down on a launchpad with a mission control next to it. You then select the mission fuel it up then it will launch once fueled\n\nOnce the mission is completed you click the \"analyze completed missions\" button and it will discover the planet.\n\nYou can also output telescope and mission control data to screen blocks",
+      "icon:10": {
+        "Count:3": 1,
+        "ForgeCaps:10": {
+          "wizardryutils:summoneditemdata:10": {}
+        },
+        "id:8": "galacticresearch:telescope"
+      },
+      "name:8": "Finding Planets"
+    }
+  },
+  "questID:3": 602,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "galacticresearch:telescope"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "galacticresearch:mission_control_station"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

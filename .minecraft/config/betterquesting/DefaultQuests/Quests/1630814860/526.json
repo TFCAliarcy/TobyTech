@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    482
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "icon:10": {
+        "Count:3": 1,
+        "ForgeCaps:10": {
+          "wizardryutils:summoneditemdata:10": {}
+        },
+        "id:8": "thermalfoundation:fluid_aerotheum"
+      },
+      "name:8": "Zephyrean Aerotheum"
+    }
+  },
+  "questID:3": 526,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredFluids:9": {
+        "0:10": {
+          "Amount:3": 250,
+          "FluidName:8": "aerotheum"
+        }
+      },
+      "taskID:8": "bq_standard:fluid"
+    }
+  }
+}

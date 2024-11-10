@@ -1,0 +1,44 @@
+{
+  "preRequisites:11": [
+    71
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Once you\u0027ve retrieved your sequence you will need to analyze it to figure out what genes it isolated. You put in the sequence and DNA dye and with some power and time it will reveal the gene carried on the sequence.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1,
+        "ForgeCaps:10": {
+          "wizardryutils:summoneditemdata:10": {}
+        },
+        "id:8": "genetics:misc"
+      },
+      "name:8": "Sample Analysis"
+    }
+  },
+  "questID:3": 312,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "ForgeCaps:10": {
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "genetics:lab_machine"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "ForgeCaps:10": {
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "genetics:misc"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

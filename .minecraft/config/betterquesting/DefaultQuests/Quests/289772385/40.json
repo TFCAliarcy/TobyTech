@@ -1,0 +1,25 @@
+{
+  "preRequisites:11": [
+    39
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "ForgeCaps:10": {
+          "wizardryutils:summoneditemdata:10": {}
+        },
+        "id:8": "cyberware:cybereyes"
+      },
+      "name:8": "The Flesh is Weak"
+    }
+  },
+  "questID:3": 40,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

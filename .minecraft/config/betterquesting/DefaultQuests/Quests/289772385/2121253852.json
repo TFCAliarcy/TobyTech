@@ -1,0 +1,25 @@
+{
+  "preRequisites:11": [
+    39
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Space Stations offer a place to build in secret far above any potential chaos in the overworld. They essentially act as a private hub which you can invite people to.\n\nYou invite using:     /ssinvite \u003cplayername\u003e\nAnd kick them out using:     /ssuninvite \u003cplayername\u003e\n\nThey won\u0027t get teleported to your station, they are just allowed to rocket up to your station.\n\nYou construct them from the space screen after getting into space, you click on an eligible planet (just Earth, Mars, \u0026 Venus) and it will show what resources it will cost in the top right corner.\n\nOnce built you can see it when zoomed in on Earth (you will be able to see the moon and your space station in orbit) clicking on the station will allow you to rename it and launching will send you there.\n\nAs for the enviroment there; there is neither oxygen nor gravity, oxygen you can fix easily but gravity will require further progression.\n\nSpace Stations also have a use in that if you place and power a mission control in one then you can use it to locate structures on the planet below. This is very limited in which structures you can find but is somewhat useful.",
+      "icon:10": {
+        "Count:3": 1,
+        "ForgeCaps:10": {
+          "wizardryutils:summoneditemdata:10": {}
+        },
+        "id:8": "galacticresearch:probe"
+      },
+      "name:8": "Space Stations"
+    }
+  },
+  "questID:3": 2121253852,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

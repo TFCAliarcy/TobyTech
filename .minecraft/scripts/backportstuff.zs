@@ -8,7 +8,7 @@ mods.chisel.Carving.addVariation("blockCopper", <deeperdepths:cut_copper>);
 mods.chisel.Carving.addVariation("blockCopper", <deeperdepths:copper_grate>);
 
 //Amethyst
-recipes.addShapeless(<deeperdepths:amethyst_block>,[<ore:gemAmethyst> *9]);
+recipes.addShapeless(<deeperdepths:amethyst_block>,[<ore:gemAmethyst>,<ore:gemAmethyst>,<ore:gemAmethyst>,<ore:gemAmethyst>,<ore:gemAmethyst>,<ore:gemAmethyst>,<ore:gemAmethyst>,<ore:gemAmethyst>,<ore:gemAmethyst>]);
 <ore:blockAmethyst>.add(<deeperdepths:amethyst_block>);
 recipes.removeByRecipeName("deeperdepths:amethyst_block");
 mods.chisel.Carving.addVariation("blockAmethyst", <deeperdepths:amethyst_block>);

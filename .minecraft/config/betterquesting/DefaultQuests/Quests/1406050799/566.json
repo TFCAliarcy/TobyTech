@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    146
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Ilmenite, Magnesium\n\nRequires tier 2 thermal and oxygen, but no radiation",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1,
+        "ForgeCaps:10": {
+          "wizardryutils:summoneditemdata:10": {}
+        },
+        "id:8": "galaxyspace:ganymedeblocks"
+      },
+      "name:8": "Ganymede"
+    }
+  },
+  "questID:3": 566,
+  "tasks:9": {
+    "0:10": {
+      "dimension:3": -1016,
+      "index:3": 0,
+      "name:8": "Ganymede",
+      "taskID:8": "bq_standard:location"
+    }
+  }
+}

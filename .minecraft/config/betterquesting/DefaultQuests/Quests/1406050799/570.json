@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    146
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Copper, Desh, Volcanic\n\nHas Solar Radiation, requires tier 2 thermal padding and oxygen",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1,
+        "ForgeCaps:10": {
+          "wizardryutils:summoneditemdata:10": {}
+        },
+        "id:8": "galaxyspace:dungeon_blocks"
+      },
+      "name:8": "Io"
+    }
+  },
+  "questID:3": 570,
+  "tasks:9": {
+    "0:10": {
+      "dimension:3": -1014,
+      "index:3": 0,
+      "name:8": "Io",
+      "taskID:8": "bq_standard:location"
+    }
+  }
+}

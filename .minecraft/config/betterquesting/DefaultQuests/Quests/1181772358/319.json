@@ -1,0 +1,44 @@
+{
+  "preRequisites:11": [
+    318
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The Database keeps a record of all genese that you can put through the sequencer and is also how you select which genes to implant into your subjects.\n\nYou do this by clicking on the gene in the database with an empty serum vial.\n\nThere are also serum arrays which are able to hold multiple genes, infact 1 of each trait allowing you to do them all at once.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 6,
+        "ForgeCaps:10": {
+          "wizardryutils:summoneditemdata:10": {}
+        },
+        "id:8": "genetics:misc"
+      },
+      "name:8": "Eugenics"
+    }
+  },
+  "questID:3": 319,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "astralsorcery:cap_item_amulet_holder:10": {},
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "genetics:geneticdatabase"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 6,
+          "ForgeCaps:10": {
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "genetics:misc"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

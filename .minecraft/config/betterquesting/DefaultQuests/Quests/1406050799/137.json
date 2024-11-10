@@ -1,0 +1,116 @@
+{
+  "preRequisites:11": [
+    398,
+    404
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Make stuff require blocks to make, also use fluxed equivilent",
+      "icon:10": {
+        "Count:3": 1,
+        "ForgeCaps:10": {
+          "Parent:10": {
+            "Items:9": {},
+            "Size:3": 9
+          },
+          "wizardryutils:summoneditemdata:10": {}
+        },
+        "id:8": "draconicevolution:wyvern_pick",
+        "tag:10": {
+          "Energy:3": 4000000
+        }
+      },
+      "name:8": "Wyvern Equipment"
+    }
+  },
+  "questID:3": 137,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "Parent:10": {
+              "Items:9": {},
+              "Size:3": 9
+            },
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "draconicevolution:wyvern_pick"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "draconicevolution:wyvern_sword"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "Parent:10": {
+              "Items:9": {},
+              "Size:3": 9
+            },
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "draconicevolution:wyvern_shovel"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "Parent:10": {
+              "Items:9": {},
+              "Size:3": 9
+            },
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "draconicevolution:wyvern_axe"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "draconicevolution:wyvern_bow"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "draconicevolution:wyvern_helm"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "draconicevolution:wyvern_chest"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "draconicevolution:wyvern_legs"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "draconicevolution:wyvern_boots"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

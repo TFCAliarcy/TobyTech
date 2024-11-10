@@ -1,0 +1,36 @@
+{
+  "preRequisites:11": [
+    321
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "You use this to inject your serum into your subjects, it takes a long amount of power and time, some of the times given in NEI go up to 2 hours for a full serum array but that can be worth it once you get the max level traits.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 3,
+        "ForgeCaps:10": {
+          "wizardryutils:summoneditemdata:10": {}
+        },
+        "id:8": "genetics:machine"
+      },
+      "name:8": "Playing God"
+    }
+  },
+  "questID:3": 322,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 3,
+          "ForgeCaps:10": {
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "genetics:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

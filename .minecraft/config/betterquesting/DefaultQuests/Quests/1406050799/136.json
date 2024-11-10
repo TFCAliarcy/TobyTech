@@ -1,0 +1,145 @@
+{
+  "preRequisites:11": [
+    399
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Make stuff require blocks to make",
+      "icon:10": {
+        "Count:3": 1,
+        "ForgeCaps:10": {
+          "Parent:10": {
+            "Items:9": {},
+            "Size:3": 27
+          },
+          "wizardryutils:summoneditemdata:10": {}
+        },
+        "id:8": "draconicevolution:draconic_staff_of_power",
+        "tag:10": {
+          "Energy:3": 48000000
+        }
+      },
+      "name:8": "Draconic Tools"
+    }
+  },
+  "questID:3": 136,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "Parent:10": {
+              "Items:9": {},
+              "Size:3": 18
+            },
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "draconicevolution:draconic_pick"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "draconicevolution:draconic_sword"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "Parent:10": {
+              "Items:9": {},
+              "Size:3": 18
+            },
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "draconicevolution:draconic_shovel"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "Parent:10": {
+              "Items:9": {},
+              "Size:3": 18
+            },
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "draconicevolution:draconic_axe"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "draconicevolution:draconic_bow"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "Parent:10": {
+              "Items:9": {},
+              "Size:3": 27
+            },
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "draconicevolution:draconic_staff_of_power"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "2:10": {
+      "index:3": 2,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "draconicevolution:draconic_helm"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "draconicevolution:draconic_chest"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "draconicevolution:draconic_legs"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "draconicevolution:draconic_boots"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "3:10": {
+      "index:3": 3,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "draconicevolution:draconic_hoe"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "preRequisites:11": [
+    100
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 150,
+        "ForgeCaps:10": {
+          "wizardryutils:summoneditemdata:10": {}
+        },
+        "id:8": "fairylights:light"
+      },
+      "name:8": "Ghost Horses"
+    }
+  },
+  "questID:3": 116,
+  "tasks:9": {}
+}

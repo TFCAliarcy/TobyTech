@@ -1,0 +1,43 @@
+{
+  "preRequisites:11": [
+    67
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The Isolator is used for you to take random genes from bees and store them as sequences. You pump in ethanol, and place inside enzymes, blank sequences, and what you want the genes of in and with a good amount of power and a load of time it will output a random sequence.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 5,
+        "ForgeCaps:10": {
+          "wizardryutils:summoneditemdata:10": {}
+        },
+        "id:8": "genetics:misc"
+      },
+      "name:8": "Isolating Genes"
+    }
+  },
+  "questID:3": 71,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "genetics:machine"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 5,
+          "ForgeCaps:10": {
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "genetics:misc"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

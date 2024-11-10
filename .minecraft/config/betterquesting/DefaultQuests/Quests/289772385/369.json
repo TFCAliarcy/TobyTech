@@ -1,0 +1,37 @@
+{
+  "preRequisites:11": [
+    371,
+    374,
+    368
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "icon:10": {
+        "Count:3": 1,
+        "ForgeCaps:10": {
+          "wizardryutils:summoneditemdata:10": {}
+        },
+        "id:8": "enderio:item_conduit_facade"
+      },
+      "name:8": "Hiding Conduits",
+      "questlogic:8": "OR"
+    }
+  },
+  "questID:3": 369,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "enderio:item_conduit_facade"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

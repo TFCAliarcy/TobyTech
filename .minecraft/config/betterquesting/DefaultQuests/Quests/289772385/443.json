@@ -1,0 +1,46 @@
+{
+  "preRequisites:11": [
+    433
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "icon:10": {
+        "Count:3": 1,
+        "ForgeCaps:10": {
+          "wizardryutils:summoneditemdata:10": {}
+        },
+        "id:8": "appliedenergistics2:dense_energy_cell",
+        "tag:10": {
+          "internalCurrentPower:6": 1600000.0,
+          "internalMaxPower:6": 1600000.0
+        }
+      },
+      "name:8": "Energy Management"
+    }
+  },
+  "questID:3": 443,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "appliedenergistics2:energy_cell",
+          "tag:10": {}
+        },
+        "1:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "appliedenergistics2:energy_acceptor"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

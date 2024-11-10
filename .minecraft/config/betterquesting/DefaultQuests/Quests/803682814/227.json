@@ -1,0 +1,34 @@
+{
+  "preRequisites:11": [
+    215
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "icon:10": {
+        "Count:3": 1,
+        "ForgeCaps:10": {
+          "wizardryutils:summoneditemdata:10": {}
+        },
+        "id:8": "industrialforegoing:animal_growth_increaser"
+      },
+      "name:8": "Animal Grower"
+    }
+  },
+  "questID:3": 227,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "industrialforegoing:animal_growth_increaser"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

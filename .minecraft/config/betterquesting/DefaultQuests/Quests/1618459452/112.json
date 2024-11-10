@@ -1,0 +1,38 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Bears come in 4 different flavors, Black, Grizzly, Polar, and Panda and each interact in slightly different ways.\n\nBlack and Grizzly bears act like spiders in that they are neutral in light and hostile in darkness. Polar are always hostile, and Pandas are passive, even when hit. \n\nBears will also attack farm mobs like cows, sheep, pigs and the like.\n\nYou can tame them by giving baby bears fish (raw or cooked), pandas eat sugar cane instead. Once fully grown they can be bred with any meat, note that like any Mo\u0027Creatures mob the pair needs to be seperate from others of their species or they won\u0027t breed.\n\nYou can also ride tamed bears with a saddle and can mount a chest giving 18 slots. Do note that bears are quite slow compared to other mounts.",
+      "icon:10": {
+        "Count:3": 1,
+        "ForgeCaps:10": {
+          "wizardryutils:summoneditemdata:10": {}
+        },
+        "id:8": "harvestcraft:gummybearsitem"
+      },
+      "name:8": "Bears"
+    }
+  },
+  "questID:3": 112,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 4,
+          "Damage:2": 1,
+          "ForgeCaps:10": {
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "minecraft:fish"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

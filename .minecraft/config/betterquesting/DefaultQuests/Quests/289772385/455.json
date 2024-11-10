@@ -1,0 +1,35 @@
+{
+  "preRequisites:11": [
+    375,
+    431
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "icon:10": {
+        "Count:3": 1,
+        "ForgeCaps:10": {
+          "wizardryutils:summoneditemdata:10": {}
+        },
+        "id:8": "appliedenergistics2:crafting_storage_4k"
+      },
+      "name:8": "4k Crafting Capacity"
+    }
+  },
+  "questID:3": 455,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "appliedenergistics2:crafting_storage_4k"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

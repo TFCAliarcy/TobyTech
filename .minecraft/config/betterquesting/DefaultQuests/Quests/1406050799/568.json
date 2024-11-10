@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    562
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Gold, Tin, Copper, Coal, Silicon, Diamond\n\nA dead cold world, Requires radiation protection",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 13,
+        "ForgeCaps:10": {
+          "wizardryutils:summoneditemdata:10": {}
+        },
+        "id:8": "galaxyspace:proxima_b_blocks"
+      },
+      "name:8": "Proxima B"
+    }
+  },
+  "questID:3": 568,
+  "tasks:9": {
+    "0:10": {
+      "dimension:3": -1025,
+      "index:3": 0,
+      "name:8": "Proxima B",
+      "taskID:8": "bq_standard:location"
+    }
+  }
+}

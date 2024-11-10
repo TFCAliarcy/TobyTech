@@ -1,0 +1,211 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "icon:10": {
+        "Count:3": 1,
+        "ForgeCaps:10": {
+          "astralsorcery:cap_item_amulet_holder:10": {},
+          "wizardryutils:summoneditemdata:10": {}
+        },
+        "id:8": "mocreatures:scorpstingnether"
+      },
+      "name:8": "Scorpion Taming"
+    }
+  },
+  "questID:3": 102,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "target:8": "mocreatures:petscorpion",
+      "targetNBT:10": {
+        "AABB:9": {
+          "0:6": -0.699999988079071,
+          "1:6": 0.0,
+          "2:6": -0.699999988079071,
+          "3:6": 0.699999988079071,
+          "4:6": 0.8999999761581421,
+          "5:6": 0.699999988079071
+        },
+        "AbsorptionAmount:5": 0.0,
+        "Adult:1": 0,
+        "Age:3": 1,
+        "Air:2": 300,
+        "ArmorDropChances:9": {
+          "0:5": 0.085,
+          "1:5": 0.085,
+          "2:5": 0.085,
+          "3:5": 0.085
+        },
+        "ArmorItems:9": {
+          "0:10": {},
+          "1:10": {},
+          "2:10": {},
+          "3:10": {}
+        },
+        "Attributes:9": {
+          "0:10": {
+            "Base:6": 0.0,
+            "Name:8": "techguns.radiationResistance"
+          },
+          "1:10": {
+            "Base:6": 100.0,
+            "Name:8": "cyberware.tolerance"
+          },
+          "2:10": {
+            "Base:6": 40.0,
+            "Name:8": "generic.maxHealth"
+          },
+          "3:10": {
+            "Base:6": 0.0,
+            "Name:8": "generic.knockbackResistance"
+          },
+          "4:10": {
+            "Base:6": 0.3,
+            "Name:8": "generic.movementSpeed"
+          },
+          "5:10": {
+            "Base:6": 0.0,
+            "Name:8": "generic.armor"
+          },
+          "6:10": {
+            "Base:6": 0.0,
+            "Name:8": "generic.armorToughness"
+          },
+          "7:10": {
+            "Base:6": 1.0,
+            "Name:8": "forge.swimSpeed"
+          },
+          "8:10": {
+            "Base:6": 16.0,
+            "Name:8": "generic.followRange"
+          },
+          "9:10": {
+            "Base:6": 3.0,
+            "Name:8": "generic.attackDamage"
+          }
+        },
+        "Babies:1": 0,
+        "CanPickUpLoot:1": 0,
+        "DeathTime:2": 0,
+        "Dimension:3": 0,
+        "Edad:3": 20,
+        "FallDistance:5": 0.0,
+        "FallFlying:1": 0,
+        "Fire:2": -1,
+        "ForcedAge:3": 0,
+        "ForgeCaps:10": {
+          "geneticsreborn:genes:10": {},
+          "geneticsreborn:maxhealth:10": {
+            "BonusHealth:5": 0.0
+          },
+          "llibrary:extendedentitydatacapability:10": {
+            "Fossils - Mammal Tracker:10": {
+              "Embryo:3": -1,
+              "EmbryoProgress:3": 0
+            },
+            "Ice And Fire - Chain Property Tracker:10": {
+              "ConnectedEntities:9": {}
+            },
+            "Ice And Fire - Chicken Property Tracker:10": {
+              "TimeUntilNextEgg:3": 1
+            },
+            "Ice And Fire - Frozen Property Tracker:10": {
+              "IsFrozen:1": 0,
+              "TicksUntilUnfrozen:3": 0
+            },
+            "Ice And Fire - Siren Property Tracker:10": {
+              "CharmedBySiren:1": 0,
+              "SirenID:3": 0
+            },
+            "Ice And Fire - Stone Property Tracker:10": {
+              "StoneBreakLvl:3": 0,
+              "TurnedToStone:1": 0
+            },
+            "Ice and Fire - Player Property Tracker:10": {
+              "DismountedDragon:1": 0,
+              "DreadPortalX:3": 0,
+              "DreadPortalY:3": 0,
+              "DreadPortalZ:3": 0,
+              "GauntletDamage:3": 0
+            }
+          },
+          "nuclearcraft:capability_entity_rads:10": {
+            "consumed:1": 0,
+            "externalRadiationResistance:6": 0.0,
+            "internalRadiationResistance:6": 0.0,
+            "maxRads:6": 2000.0,
+            "poisonBuffer:6": 0.0,
+            "radXCooldown:6": 0.0,
+            "radXUsed:1": 0,
+            "radXWoreOff:1": 0,
+            "radawayBuffer:6": 0.0,
+            "radawayBufferSlow:6": 0.0,
+            "radawayCooldown:6": 0.0,
+            "radiationImmunityStage:1": 0,
+            "radiationImmunityTime:6": 0.0,
+            "radiationLevel:6": 0.0,
+            "recentPoisonAddition:6": 0.0,
+            "recentRadXAddition:6": 0.0,
+            "recentRadawayAddition:6": 0.0,
+            "setFromMaxHealth:1": 1,
+            "shouldWarn:1": 0,
+            "totalRads:6": 0.0
+          },
+          "plethora:disableai:10": {},
+          "spellbundle:summonedcreaturedata:10": {},
+          "techguns:deathtype:10": {},
+          "twilightforest:cap_shield:10": {
+            "permshields:3": 0,
+            "tempshields:3": 0
+          },
+          "wizardryutils:summonedcreaturedata:10": {
+            "followOwner:1": 0
+          }
+        },
+        "ForgeData:10": {},
+        "HandDropChances:9": {
+          "0:5": 0.085,
+          "1:5": 0.085
+        },
+        "HandItems:9": {
+          "0:10": {},
+          "1:10": {}
+        },
+        "Health:5": 40.0,
+        "HurtByTimestamp:3": 0,
+        "HurtTime:2": 0,
+        "InLove:3": 0,
+        "Invulnerable:1": 0,
+        "Leashed:1": 0,
+        "LeftHanded:1": 0,
+        "Motion:9": {
+          "0:6": 0.0,
+          "1:6": 0.0,
+          "2:6": 0.0
+        },
+        "Name:8": "",
+        "OnGround:1": 0,
+        "PersistenceRequired:1": 0,
+        "PortalCooldown:3": 0,
+        "Pos:9": {
+          "0:6": 0.0,
+          "1:6": 0.0,
+          "2:6": 0.0
+        },
+        "Rotation:9": {
+          "0:5": 0.39876485,
+          "1:5": 0.0
+        },
+        "Saddled:1": 0,
+        "Tamed:1": 0,
+        "TypeInt:3": 0,
+        "UUIDLeast:4": -8825604474206144163,
+        "UUIDMost:4": -6188740447778485155,
+        "UpdateBlocked:1": 0,
+        "id:8": "mocreatures:petscorpion"
+      },
+      "taskID:8": "bq_standard:tame"
+    }
+  }
+}

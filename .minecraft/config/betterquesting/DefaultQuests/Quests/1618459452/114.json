@@ -1,0 +1,59 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Wolves have some buffs to them to make them more suvival and useful. The first is that you can equip them with armor to protect them, the second is that you can equip them with a chest with 6 slots meaning it is actually good to take them with you on adventures.\n\nMake sure to look into the Etheric Gem otherwise you might bleed through dogs in some fights.",
+      "icon:10": {
+        "Count:3": 1,
+        "ForgeCaps:10": {
+          "astralsorcery:cap_item_amulet_holder:10": {},
+          "wizardryutils:summoneditemdata:10": {}
+        },
+        "id:8": "wolfarmor:iron_wolf_armor"
+      },
+      "name:8": "Better Wolves"
+    }
+  },
+  "questID:3": 114,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 8,
+          "ForgeCaps:10": {
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "minecraft:bone"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:tame"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "astralsorcery:cap_item_amulet_holder:10": {},
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "wolfarmor:iron_wolf_armor"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "minecraft:chest"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

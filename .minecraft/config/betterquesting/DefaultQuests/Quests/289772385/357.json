@@ -1,0 +1,79 @@
+{
+  "preRequisites:11": [
+    348
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "icon:10": {
+        "Count:3": 1,
+        "ForgeCaps:10": {
+          "astralsorcery:cap_item_amulet_holder:10": {},
+          "wizardryutils:summoneditemdata:10": {}
+        },
+        "id:8": "enderio:item_dark_steel_chestplate",
+        "tag:10": {
+          "enderio.darksteel.upgrade.anvil:10": {
+            "level:3": 2
+          },
+          "enderio.darksteel.upgrade.apiarist_armor_chest:10": {
+            "level:3": 0
+          },
+          "enderio.darksteel.upgrade.energyUpgrade:10": {
+            "energy:3": 1000000,
+            "level:3": 3
+          },
+          "enderio.darksteel.upgrade.glide:10": {
+            "level:3": 0
+          },
+          "enderio.darksteel.upgrade.inv:10": {
+            "level:3": 2
+          }
+        }
+      },
+      "name:8": "Power Armor"
+    }
+  },
+  "questID:3": 357,
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "astralsorcery:cap_item_amulet_holder:10": {},
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "enderio:item_dark_steel_helmet"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "astralsorcery:cap_item_amulet_holder:10": {},
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "enderio:item_dark_steel_chestplate"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "astralsorcery:cap_item_amulet_holder:10": {},
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "enderio:item_dark_steel_leggings"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "astralsorcery:cap_item_amulet_holder:10": {},
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "enderio:item_dark_steel_boots"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

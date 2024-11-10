@@ -1,0 +1,71 @@
+{
+  "preRequisites:11": [
+    117
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Cluster bombs are used how you\u0027d think they would in that before detonating they spray out their payload which can be a bunch of different things. You load them by putting the missile with the payload in the crafting table, you can mix different payloads and there doesn\u0027t seem to be a limit to how many you can load.\n\nThe most conventional would be bomblets which are available as seemingly every tier 1 explosive.\n\nYou can also load items attached to parachutes or balloons with parachutes having the item slowly fall to the ground while balloons will make the items float upwards if you want to do that for some reason.\n\nYou can load them without parachutes but they will be harder to recover due to them flying outward. Arrows and other dispenserable projectiles also work.\n\nDue note that they often fail to detonate if you are too close to the target.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 5,
+        "ForgeCaps:10": {
+          "Parent:10": {
+            "explosive:10": {
+              "customizations:9": {}
+            }
+          },
+          "wizardryutils:summoneditemdata:10": {}
+        },
+        "id:8": "icbmclassic:explosive_bomblet"
+      },
+      "name:8": "Cluster Bombs"
+    }
+  },
+  "questID:3": 120643602,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 2,
+          "ForgeCaps:10": {
+            "Parent:10": {
+              "missile:10": {
+                "cluster_action:10": {
+                  "clusterSpawnEntries:9": {}
+                }
+              }
+            },
+            "astralsorcery:cap_item_amulet_holder:10": {},
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "icbmclassic:cluster_missile"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "Parent:10": {
+              "missile:10": {
+                "cluster_action:10": {
+                  "clusterSpawnEntries:9": {}
+                }
+              }
+            },
+            "astralsorcery:cap_item_amulet_holder:10": {},
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "icbmclassic:cluster_missile"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

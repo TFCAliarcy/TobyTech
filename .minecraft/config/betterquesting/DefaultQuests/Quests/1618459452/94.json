@@ -1,0 +1,49 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Ostriches can be tamed and ridden for those that want the worst option. To tame an ostrich you feed a female one (they have brown/bronze necks) melon seeds and after a few minutes it will drop an egg. You then place the egg on the ground and wait for it to hatch, like most Mo\u0027Creatures mobs you need to be nearby when it hatches for it to be tamed.\n\nOnce hatches you wait for it to grow up and you can place a saddle on it and a helmet for armor.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 30,
+        "ForgeCaps:10": {
+          "wizardryutils:summoneditemdata:10": {}
+        },
+        "id:8": "mocreatures:mocegg"
+      },
+      "name:8": "Ostritch Husbandry"
+    }
+  },
+  "questID:3": 94,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "astralsorcery:cap_item_amulet_holder:10": {},
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "minecraft:iron_helmet"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 30,
+          "ForgeCaps:10": {
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "mocreatures:mocegg"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}
