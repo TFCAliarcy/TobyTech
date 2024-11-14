@@ -61,8 +61,10 @@ recipes.removeByRecipeName("biomesoplenty:amber_block");
 <ore:plastic>.add(<industrialforegoing:plastic>);
 
 <ore:dyeBlue>.add(<astralsorcery:itemcraftingcomponent:0>);
-<ore:dye>.add(<astralsorcery:itemcraftingcomponent:0>);
 <ore:gemAll>.add(<astralsorcery:itemcraftingcomponent:0>);
 
 <ore:oreNetherGold>.add(<nb:nether_gold_ore>);
 <ore:obsidian>.add(<nb:cry_obi>);
+
+<ore:listAllfruit>.add(<futuremc:sweet_berries>);
+<ore:listAllberry>.add(<futuremc:sweet_berries>);

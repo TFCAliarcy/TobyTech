@@ -736,5 +736,30 @@
       "entityOffsetX": 4,
       "entityOffsetY": 8
     }
+  },
+  {
+    "id": "breeze",
+    "displayName": "Breeze",
+    "livingMatter": "overworldian",
+    "simulationRFCost": 256,
+    "craftingIngredients": [
+      "deeperdepths:material,1,3"
+    ],
+    "associatedMobs": [
+      "deeperdepths:breeze"
+    ],
+    "lootItems": [
+      "deeperdepths:material,22,3"
+    ],
+    "deepLearnerDisplay": {
+      "hearts": 10,
+      "mobTrivia": [
+        "A Blast from the Future!"
+      ],
+      "entity": "deeperdepths:breeze",
+      "entityScale": 48,
+      "entityOffsetX": 10,
+      "entityOffsetY": 20
+    }
   }
 ]

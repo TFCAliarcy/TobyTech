@@ -60,3 +60,8 @@ instance.cfg
 /.minecraft/assets/galacticraftMaps
 .minecraft/config/UniqueNames.txt
 .minecraft/journeymap/config/5.7/journeymap.minimap.config
+.minecraft/config/AppliedEnergistics2/CustomRecipes.cfg
+.minecraft/config/AppliedEnergistics2/items.csv
+.minecraft/config/AppliedEnergistics2/VersionChecker.cfg
+.minecraft/config/astralsorcery/amulet_enchantments.cfg
+.minecraft/config/buildcraft/detailed.properties
