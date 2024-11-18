@@ -1,1 +1,17 @@
-[]
+[
+    {
+      "mob": "oe:clam",
+      "item": "harvestcraft:clamrawitem",
+      "itemcount": "1/1-2/2-3"
+    },
+    {
+        "mob": "oe:turtle",
+        "item": "mocreatures:turtleraw",
+        "itemcount": "1/1-2/2-3"
+      },
+      {
+        "mob": "oe:crab",
+        "item": "harvestcraft:crabrawitem",
+        "itemcount": "1/1-2/2-3"
+      }
+  ]
