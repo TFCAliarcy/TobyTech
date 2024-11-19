@@ -6,7 +6,12 @@
     },
     {
         "mob": "oe:turtle",
-        "item": "mocreatures:turtleraw",
+        "item": "harvestcraft:turtlerawitem",
+        "itemcount": "1/1-2/2-3"
+      },
+      {
+        "mob": "mocreatures:turtle",
+        "item": "harvestcraft:turtlerawitem",
         "itemcount": "1/1-2/2-3"
       },
       {
