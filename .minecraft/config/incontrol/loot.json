@@ -18,5 +18,15 @@
         "mob": "oe:crab",
         "item": "harvestcraft:crabrawitem",
         "itemcount": "1/1-2/2-3"
+      },
+      {
+        "mob": "mocreatures:duck",
+        "remove": "mocreatures:duckraw"
+      },
+      {
+        "mob": "mocreatures:turkey",
+        "remove": "mocreatures:turkeyraw",
+        "item": "harvestcraft:turkeyrawitem",
+        "itemcount": "1/1-2/2-3"
       }
   ]
