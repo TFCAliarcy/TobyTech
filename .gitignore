@@ -74,3 +74,4 @@ instance.cfg
 .minecraft/config/UniqueNames.txt
 .minecraft/config/UniqueNames.txt
 instance.cfg
+.minecraft/config/buildcraft/detailed.properties
