@@ -73,3 +73,9 @@ recipes.removeByRecipeName("biomesoplenty:amber_block");
 
 <ore:listAllmeatraw>.add(<oe:crab>);
 <ore:listAllmeatcooked>.add(<oe:cooked_crab>);
+
+<ore:grass>.add(<biomesoplenty:grass:2>);
+<ore:grass>.add(<biomesoplenty:grass:3>);
+<ore:grass>.add(<biomesoplenty:grass:4>);
+<ore:grass>.add(<biomesoplenty:grass:5>);
+<ore:grass>.add(<biomesoplenty:grass:6>);

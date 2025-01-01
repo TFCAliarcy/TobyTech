@@ -29,5 +29,23 @@ recipes.replaceAllOccurences(<ore:dustPetrotheum>, <liquid:petrotheum> *1000, <*
 recipes.replaceAllOccurences(<ore:dustAerotheum>, <liquid:aerotheum> *1000, <*>);
 
 // Mars Phyto
-mods.thermalexpansion.Insolator.addRecipe(<galacticraftplanets:bucket_sludge> *2, <galacticraftplanets:bucket_sludge>, <minecraft:bucket>, 9600, <srparasites:itemmobspawner_lodo>, 10, 1000);
+
+mods.nuclearcraft.Enricher.addRecipe(<thermalfoundation:fertilizer:2>, <liquid:bacterialsludge> *1000, <liquid:bacterialsludge> *2000, 2, 2);
+mods.nuclearcraft.crystallizer.addRecipe(<liquid:bacterialsludge> *10000, <srparasites:itemmobspawner_lodo>);
+
 mods.thermalexpansion.Insolator.addRecipe(<galacticraftplanets:cavern_vines> *4, <galacticraftplanets:cavern_vines>, <thermalfoundation:fertilizer>, 9600, null, 0, 1000);
+mods.thermalexpansion.Insolator.addRecipe(<galacticraftplanets:cavern_vines> *6, <galacticraftplanets:cavern_vines>, <thermalfoundation:fertilizer:1>, 9600, null, 0, 1000);
+mods.thermalexpansion.Insolator.addRecipe(<galacticraftplanets:cavern_vines> *8, <galacticraftplanets:cavern_vines>, <thermalfoundation:fertilizer:2>, 9600, null, 0, 1000);
+
+// SRP Medical
+mods.nuclearcraft.Manufactory.addRecipe(<galacticraftplanets:strange_seed:0>, <srp_medical_addon:aconite_root>);
+mods.nuclearcraft.Manufactory.addRecipe(<galacticraftplanets:strange_seed:1>, <srp_medical_addon:mint>);
+
+
+<srp_medical_addon:wild_mint>.displayName = "Space Mint";
+<srp_medical_addon:mint>.displayName = "Space Mint";
+<srp_medical_addon:mint_powder>.displayName = "Space Mint Powder";
+<srp_medical_addon:compressed_mint_powder>.displayName = "Compressed Space Mint Powder";
+
+mods.thermalexpansion.Insolator.addRecipe(<srp_medical_addon:mint> *2, <srp_medical_addon:mint>, <thermalfoundation:fertilizer:2>, 9600, null, 0, 1000);
+mods.thermalexpansion.Insolator.addRecipe(<srp_medical_addon:aconite_root> *2, <srp_medical_addon:aconite_root>, <thermalfoundation:fertilizer:2>, 9600, <srp_medical_addon:aconite_flower>, 100, 1000);

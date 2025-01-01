@@ -1,24 +1,24 @@
 [PREINITIALIZATION][CLIENT][INFO] Thank you to the Patreon supporters below and others who make CraftTweaker possible!
-Jonathan McManus
-NickT
-NerdyWhiteGuy
-Jellycraft
-Jordan Pineo
-Quaternary
-Lucas
-Pongo Sapiens
-Belathus
 Hooley
-embeddedt
-Phillip Swearingain
-Zuniroa
+Jellycraft
 Peregrinus11
-Ivy_
-Ncc1702
-Spencer Gilbert
+Belathus
 Jessie Sims
-DreamThorn
+Jordan Pineo
+Phillip Swearingain
+Jonathan McManus
+Spencer Gilbert
+Ivy_
 Genryu
+Pongo Sapiens
+NickT
+DreamThorn
+NerdyWhiteGuy
+Lucas
+embeddedt
+Quaternary
+Zuniroa
+Ncc1702
 If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 
 [PREINITIALIZATION][CLIENT][TRACE] Current loaders after merging: [[preinit]]
@@ -39,7 +39,7 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [PREINITIALIZATION][CLIENT][TRACE] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker|reloadable]: revtier.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][TRACE] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: SpartanNetheriteSmithing.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][TRACE] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker|reloadable]: techguns.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][TRACE] Completed script loading in: 3ms
+[PREINITIALIZATION][CLIENT][TRACE] Completed script loading in: 4ms
 [PREINITIALIZATION][CLIENT][INFO] Hey! Here is ZenUtils.
 [PREINITIALIZATION][CLIENT][TRACE] Current loaders after merging: [[preinit], [contenttweaker]]
 [PREINITIALIZATION][CLIENT][INFO] Loading scripts for loader with names [contenttweaker]
@@ -59,7 +59,7 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [PREINITIALIZATION][CLIENT][TRACE] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker|reloadable]: revtier.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][TRACE] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: SpartanNetheriteSmithing.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][TRACE] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker|reloadable]: techguns.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][TRACE] Completed script loading in: 259ms
+[PREINITIALIZATION][CLIENT][TRACE] Completed script loading in: 227ms
 [PREINITIALIZATION][CLIENT][TRACE] Current loaders after merging: [[preinit], [contenttweaker], [finalize_contenttweaker]]
 [PREINITIALIZATION][CLIENT][INFO] Loading scripts for loader with names [finalize_contenttweaker]
 [PREINITIALIZATION][CLIENT][TRACE] [finalize_contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker|reloadable]: backportstuff.zs} as we are currently loading with a different loader
@@ -108,6 +108,11 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [INITIALIZATION][CLIENT][INFO] Translating item.datnuclearphysicslite.darkmatter_cell.name to Red Matter Cell
 [INITIALIZATION][CLIENT][TRACE] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker|reloadable]: inscriber fix.zs}
 [INITIALIZATION][CLIENT][TRACE] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker|reloadable]: interptier.zs}
+[INITIALIZATION][CLIENT][INFO] Adding nuclearcraft_crystallizer recipe: 1000 x bacterialsludge -> 1 x item.srparasites.itemmobspawner_lodo:0
+[INITIALIZATION][CLIENT][INFO] Translating tile.wild_mint.name to Space Mint
+[INITIALIZATION][CLIENT][INFO] Translating item.mint.name to Space Mint
+[INITIALIZATION][CLIENT][INFO] Translating item.mint_powder.name to Space Mint Powder
+[INITIALIZATION][CLIENT][INFO] Translating item.compressed_mint_powder.name to Compressed Space Mint Powder
 [INITIALIZATION][CLIENT][TRACE] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker|reloadable]: LootTableTweaker\LootTableTweaker.zs}
 [INITIALIZATION][CLIENT][INFO] Added loot removal for Mod Item: enderio
 [INITIALIZATION][CLIENT][INFO] Added loot removal for Global Item: iceandfire:manuscript
@@ -233,6 +238,11 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [INITIALIZATION][CLIENT][INFO] Adding Cooked Lobster to ore dictionary entry listAllmeatcooked
 [INITIALIZATION][CLIENT][INFO] Adding Raw Crab to ore dictionary entry listAllmeatraw
 [INITIALIZATION][CLIENT][INFO] Adding Cooked Crab to ore dictionary entry listAllmeatcooked
+[INITIALIZATION][CLIENT][INFO] Adding Loamy Grass Block to ore dictionary entry grass
+[INITIALIZATION][CLIENT][INFO] Adding Sandy Grass Block to ore dictionary entry grass
+[INITIALIZATION][CLIENT][INFO] Adding Silty Grass Block to ore dictionary entry grass
+[INITIALIZATION][CLIENT][INFO] Adding Origin Grass Block to ore dictionary entry grass
+[INITIALIZATION][CLIENT][INFO] Adding Overgrown Netherrack to ore dictionary entry grass
 [INITIALIZATION][CLIENT][TRACE] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker|reloadable]: revtier.zs}
 [INITIALIZATION][CLIENT][TRACE] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: SpartanNetheriteSmithing.zs}
 [INITIALIZATION][CLIENT][INFO] Added a recipe for the smithing table - Input: net.minecraft.item.crafting.Ingredient@26194338, Material: , Output: 1xitem.spartannetherite:battleaxe_netherite@0
@@ -281,9 +291,13 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [INITIALIZATION][CLIENT][INFO] Remove Recipe(s) for 1xitem.techguns.itemshared@83 from BlastFurnace
 [INITIALIZATION][CLIENT][INFO] Remove Recipe(s) for 1xitem.techguns.itemshared@84 from BlastFurnace
 [INITIALIZATION][CLIENT][INFO] Remove Recipe(s) for 1xitem.techguns.itemshared@81 from BlastFurnace
-[INITIALIZATION][CLIENT][TRACE] Completed script loading in: 309ms
+[INITIALIZATION][CLIENT][TRACE] Completed script loading in: 280ms
 [INITIALIZATION][CLIENT][INFO] Translating item.projectred.expansion.enderPearlInfused.name to Compressed Draconium Dust
 [INITIALIZATION][CLIENT][INFO] Translating item.datnuclearphysicslite.darkmatter_cell.name to Red Matter Cell
+[INITIALIZATION][CLIENT][INFO] Translating tile.wild_mint.name to Space Mint
+[INITIALIZATION][CLIENT][INFO] Translating item.mint.name to Space Mint
+[INITIALIZATION][CLIENT][INFO] Translating item.mint_powder.name to Space Mint Powder
+[INITIALIZATION][CLIENT][INFO] Translating item.compressed_mint_powder.name to Compressed Space Mint Powder
 [POSTINITIALIZATION][CLIENT][INFO] Removing Inscriber Entry for Printed Logic Circuit
 [POSTINITIALIZATION][CLIENT][INFO] Adding Inscriber Entry for Printed Logic Circuit
 [POSTINITIALIZATION][CLIENT][INFO] Removing Inscriber Entry for Logic Processor
@@ -552,6 +566,8 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [AVAILABLE][CLIENT][INFO] Altering Compactor Recipe(s) for <projectred-expansion:infused_ender_pearl> in mode: ALL
 [AVAILABLE][CLIENT][INFO] Altering PhytogenicInsolator Recipe(s) for <galacticraftplanets:bucket_sludge>
 [AVAILABLE][CLIENT][INFO] Altering PhytogenicInsolator Recipe(s) for <galacticraftplanets:cavern_vines> * 4
+[AVAILABLE][CLIENT][INFO] Altering PhytogenicInsolator Recipe(s) for <srp_medical_addon:mint> * 2
+[AVAILABLE][CLIENT][INFO] Altering PhytogenicInsolator Recipe(s) for <srp_medical_addon:aconite_root> * 2
 [AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <threng:material>
 [AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <enderio:item_material:1>
 [AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <nuclearcraft:alloy:6> * 2
