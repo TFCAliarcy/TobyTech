@@ -1015,8 +1015,93 @@
 					]
 				
 			}
+			},
+			"Permafrost": {
+				"distribution": "uniform",
+				"generator": {
+					"block": {
+						"name": "fossil:permafrost"
+						},
+						"material": "minecraft:stone",
+						"cluster-size": 17
+							},
+				"cluster-count": 20,
+				"min-height": 0,
+				"max-height": 128,
+				"retrogen": false,
+				"biome":{
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "dictionary",
+						"entry": "FROZEN"
+					}, 
+					{
+						"type": "dictionary",
+						"entry": "SNOWY"
+					}
+						]
+						},
+				"dimension": {
+					"restriction": "whitelist",
+					"value": [
+						0
+					]
+				}
+			},
+			"Fossil": {
+				"distribution": "uniform",
+				"generator": {
+					"block": {
+						"name": "fossil:fossil"
+						},
+						"material": "minecraft:stone",
+						"cluster-size": 17
+							},
+				"cluster-count": 20,
+				"min-height": 0,
+				"max-height": 128,
+				"retrogen": false,
+				"biome":{
+				"restriction": "blacklist",
+				"value": [
+					{
+						"type": "dictionary",
+						"entry": "OCEAN"
+					}, 
+					{
+						"type": "dictionary",
+						"entry": "SNOWY"
+					}, 
+					{
+						"type": "dictionary",
+						"entry": "MAGICAL"
+					}, 
+					{
+						"type": "dictionary",
+						"entry": "COLD"
+					}, 
+					{
+						"type": "dictionary",
+						"entry": "PLAINS"
+					}, 
+					{
+						"type": "dictionary",
+						"entry": "MOUNTAIN"
+					}, 
+					{
+						"type": "dictionary",
+						"entry": "FROZEN"
+					}
+						]
+						},
+				"dimension": {
+					"restriction": "whitelist",
+					"value": [
+						0
+					]
+				}
 			}
-			
 		}
 	}
 	

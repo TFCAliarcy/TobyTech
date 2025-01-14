@@ -12,7 +12,6 @@ mods.chisel.Carving.addVariation("blockAmethyst", <deeperdepths:amethyst_block>)
 mods.chisel.Carving.addVariation("blockAmethyst", <biomesoplenty:gem_block:0>);
 mods.chisel.Carving.addVariation("blockAmethyst", <bewitchment:block_of_amethyst>);
 mods.chisel.Carving.addVariation("blockAmethyst", <iceandfire:amythest_block>);
-mods.chisel.Carving.addVariation("blockAmethyst", <netherex:amethyst_block>);
 
 //Copper
 <ore:blockCopper>.add(<deeperdepths:chiseled_copper:0>);
