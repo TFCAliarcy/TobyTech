@@ -37,3 +37,5 @@ mods.chisel.Carving.addVariation("blackstone", <nb:chisled_polished_black_stone>
 mods.chisel.Carving.addVariation("blackstone", <nb:black_stone_bricks>);
 mods.chisel.Carving.addVariation("blackstone", <nb:cracked_stone_bricks>);
 <ore:oreGold>.add(<nb:gilded_blackstone>);
+
+recipes.addShapeless(<minecraft:nether_wart> *9,[<minecraft:nether_wart_block>]);

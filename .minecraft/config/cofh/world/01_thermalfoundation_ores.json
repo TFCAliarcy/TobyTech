@@ -1023,10 +1023,10 @@
 						"name": "fossil:permafrost"
 						},
 						"material": "minecraft:stone",
-						"cluster-size": 17
+						"cluster-size": 9
 							},
-				"cluster-count": 20,
-				"min-height": 0,
+				"cluster-count": 12,
+				"min-height": 32,
 				"max-height": 128,
 				"retrogen": false,
 				"biome":{
@@ -1056,10 +1056,10 @@
 						"name": "fossil:fossil"
 						},
 						"material": "minecraft:stone",
-						"cluster-size": 17
+						"cluster-size": 9
 							},
-				"cluster-count": 20,
-				"min-height": 0,
+				"cluster-count": 12,
+				"min-height": 32,
 				"max-height": 128,
 				"retrogen": false,
 				"biome":{

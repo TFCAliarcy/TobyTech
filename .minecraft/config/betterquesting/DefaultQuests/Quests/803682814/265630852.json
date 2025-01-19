@@ -1,0 +1,49 @@
+{
+  "preRequisites:11": [
+    234
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Most creatures in the mod are simply tamed by imprinting on a player that is standing within a few blocks of the animal when it hatches/is born. Taming animals allows the player to control its whether its movement state is staying, wandering, or following, and also allows the player to ride most animals when right clicked with a whip. \n\nNote that mounted animals won\u0027t attack and don\u0027t need a saddle.\n\nIf a player for whatever reason misses this event, and the creature is untamed, they can also be tamed by feeding them their preferred food (check using the Dinopedia) by hand, or by using a whip, and as a consequence, the poor animal will lower their mood. You monster.\n\nFor larger land predators such as Tyrannosaurus, Allosaurus, and Megalania, this method will not work. Instead, once the creature reaches an adult stage, you must get the creature on to low health (when it falls onto the ground, visibly unconscious), and give it a Scarab Gem. It is best to do this carefully so that you do not accidentally kill the creature but doing so will refills its health.\n\nLarge aquatic predators including Spinosaurus, megalodon, Sarcosuchus, and Mosasaurus must be tamed using the same method as above, but using an Aquatic Scarab Gem instead.",
+      "icon:10": {
+        "Count:3": 1,
+        "ForgeCaps:10": {
+          "astralsorcery:cap_item_amulet_holder:10": {},
+          "wizardryutils:summoneditemdata:10": {}
+        },
+        "id:8": "fossil:whip"
+      },
+      "name:8": "Taming"
+    }
+  },
+  "questID:3": 265630852,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "astralsorcery:cap_item_amulet_holder:10": {},
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "fossil:whip"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "fossil:skull_stick"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "No Description",
+      "desc:8": "An animal\u0027s mood is what dictates the animal\u0027s aggression level. Some animals enjoy large groups; others will not like it. Some animals don\u0027t like being placed with incompatible species. An animal\u0027s mood can be seen in the DinoPedia.\n\n50 to 99 is Content. The animal will not attack you unless you attack first. 100 is Happy, but there is no difference between the two moods.\n\n-49 to 49 is Calm. Herbivores will only attack when provoked, and Carnivores will only attack when hungry. Spinosaurus, Sarcosuchus, Ceratosaurus, Liopleurodon, Mosasaurus, and Tyrannosaurus Rex will attack anyway.\n\n-99 to -50 is Sad. The animal will attack everything on sight, regardless of whether it\u0027s hungry or not. -100 is Angry, but there is no difference between Sad and Angry. \n\n\n\nTo increase an animal\u0027s mood:\n\nGive it an Enrichment Item; like the ball, tethered log, or scratching post for land and bubble blower for water. (Bubbleblowers are toggled with redstone and don\u0027t require power)\n\nAllow it to kill or hunt something. This raises its mood significantly, especially for Carnivores.\n\nAllowing it to eat a dropped food item.\n\nHand-feeding it.\n\nPlacing enough of the same species near it.\n\nGive them live food(dodo and other vanilla mobs) \n\n\n\nTo decrease it:\n\nAttacking it.\n\nPlacing too many or too little of the same species near it.\n\nPlacing incompatible species near it.\n\nLetting it starve. ",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 15,
@@ -13,7 +13,7 @@
         },
         "id:8": "fossil:toyball"
       },
-      "name:8": "Toys for Your Pets"
+      "name:8": "Mood"
     }
   },
   "questID:3": 236,

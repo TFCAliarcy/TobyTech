@@ -4,15 +4,15 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "No Description",
+      "desc:8": "Since not all creatures are obvious to what they are from their name alone I\u0027ve created this list\n\nAquatic:\nAlligator Gar\nIchthyosaurus\nMegalodon\nMosasaurus\nHenodus\nCoelacanth\nPlesiosaurus\nNautilus\nDiplocaulus\nSturgeon\nCrassigyrinus\nTiktaalik\nMegalograptus\n\nBugs:\nArthropleura\nMeganeura\n\nMammal:\nSmilodon\nMammoth\nMegaloceros\nPlatybelodon\nElasmotherium\nQuagga\n\nBirds:\nKelenken\nDodo\nPhorusrhacos\nTitanis\nGastornis\nConfuciusornis\n\nReptiles\nDeinonychus\nAllosaurus\nDilophosaurus\nOrnitholestes\nSpinosaurus\nAnkylosaurus\nPachycephalosaurus\nStegosaurus\nDiplodocus\nParasaurolophus\nBrachiosaurus\nMegalania\nTherizinosaurus\nCeratosaurus\nDryosaurus\nCitipati\nEdaphosaurus\nPteranodon\nTriceratops\nGallimimus\nTyrannosaurus\nCompsognathus\nSarcosuchus\nVelociraptor",
       "icon:10": {
         "Count:3": 1,
         "ForgeCaps:10": {
           "wizardryutils:summoneditemdata:10": {}
         },
-        "id:8": "fossil:failuresaurus_flesh"
+        "id:8": "fossil:dinopedia"
       },
-      "name:8": "Epic Fail!"
+      "name:8": "Featured Creatures"
     }
   },
   "questID:3": 241,
@@ -25,7 +25,7 @@
           "ForgeCaps:10": {
             "wizardryutils:summoneditemdata:10": {}
           },
-          "id:8": "fossil:failuresaurus_flesh"
+          "id:8": "fossil:dinopedia"
         }
       },
       "taskID:8": "bq_standard:retrieval"
