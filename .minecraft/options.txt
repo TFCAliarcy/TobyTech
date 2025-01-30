@@ -2,7 +2,7 @@ version:1343
 invertYMouse:false
 mouseSensitivity:0.5
 fov:0.75
-gamma:1.0
+gamma:0.0
 saturation:0.0
 renderDistance:12
 guiScale:3
@@ -14,9 +14,9 @@ fboEnable:true
 difficulty:2
 fancyGraphics:true
 ao:2
-renderClouds:true
-resourcePacks:["AnimEmis_InF_SW_Blue.zip","Better_Wolves_V2.2.zip","Better_Pigs_V2.zip","Better_Rabbits.zip","Better_Dogs_V0.41.zip","Better_Chickens_V0.04.zip","Better cows - Mrblueyeti.zip"]
-incompatibleResourcePacks:["Better_Wolves_V2.2.zip","Better_Pigs_V2.zip","Better_Rabbits.zip","Better_Dogs_V0.41.zip","Better_Chickens_V0.04.zip","Better cows - Mrblueyeti.zip"]
+renderClouds:false
+resourcePacks:["AnimEmis_InF_SW_Blue.zip","Better_Rabbits.zip","Better_Chickens_V0.04.zip"]
+incompatibleResourcePacks:["Better_Rabbits.zip","Better_Chickens_V0.04.zip"]
 lastServer:
 lang:en_us
 chatVisibility:0
@@ -121,7 +121,6 @@ key_quark.emote.jet:0
 key_quark.emote.exorcist:0
 key_quark.emote.zombie:0
 key_quark.keybind.toggleAutojump:48
-key_quark.keybind.lockBuilding:0
 key_quark.keybind.dropoff:0
 key_quark.keybind.changeHotbar:81
 key_quark.keybind.chestSort:0
@@ -129,6 +128,7 @@ key_quark.keybind.chestDropoff:0
 key_quark.keybind.chestMerge:0
 key_quark.keybind.chestRestock:0
 key_quark.keybind.chestExtract:0
+key_quark.keybind.lockBuilding:0
 key_key.betterquesting.quests:34
 key_key.betterquesting.back:14
 key_bloodmagic.keybind.open_holding:35
@@ -241,6 +241,7 @@ key_key.dragon_strike:81
 key_key.dragon_down:45
 key_key.dragon_change_view:65
 key_key.mod_lavacow.special:81
+key_key.mod_lavacow.down:0
 key_key.porterNextDestination:27
 key_key.porterPrevDestination:26
 key_key.debugDumpNBTItem:0

@@ -1,0 +1,75 @@
+{
+  "preRequisites:11": [
+    513146925
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "If you want to seperate wires from each other you can make them into insulated wires of different colors and they will not attach to wires of other colors (you can\u0027t attach to green to blue as an example) though they can all be attached to uninsulated wires and otherwise function exactly like uninsulated wires.\n\nBundled cables allow you to essentially cross colored wires without them losing their color identity. So if you have an on white wire and an off blue wire feeding into bundled cables then those states shall be the same when they feed out of the bundled cable.\n\nYou can also color bundled cables if you don\u0027t want them to connect to bundled cables of other cables.\n\nDo note that you can\u0027t feed bare wires from bundled cables but can feed colored wires in and out of them.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 17,
+        "ForgeCaps:10": {
+          "wizardryutils:summoneditemdata:10": {}
+        },
+        "id:8": "projectred-transmission:wire"
+      },
+      "name:8": "Colored and Bundled Cables"
+    }
+  },
+  "questID:3": 713089947,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 3,
+          "ForgeCaps:10": {
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "OreDict:8": "projredInsulatedWire",
+          "id:8": "projectred-transmission:wire"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 17,
+          "ForgeCaps:10": {
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "OreDict:8": "projredBundledCable",
+          "id:8": "projectred-transmission:wire"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "2:10": {
+      "index:3": 2,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "ForgeCaps:10": {
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "OreDict:8": "projredInsFramedWire",
+          "id:8": "projectred-transmission:framed_wire"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 17,
+          "ForgeCaps:10": {
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "projectred-transmission:framed_wire"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

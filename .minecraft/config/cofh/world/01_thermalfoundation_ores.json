@@ -319,7 +319,7 @@
 					"cluster-size": 8,
 					"material": {"name":"galacticraftplanets:mars", "metadata": 9}
 				},
-				"cluster-count": 6,
+				"cluster-count": 12,
 				"min-height": 4,
 				"max-height": 200,
 				"retrogen": "true",
@@ -342,7 +342,7 @@
 					"cluster-size": 8,
 					"material": {"name":"galacticraftplanets:mars", "metadata": 9}
 				},
-				"cluster-count": 9,
+				"cluster-count": 15,
 				"min-height": 4,
 				"max-height": 200,
 				"retrogen": "true",
@@ -365,7 +365,7 @@
 					"cluster-size": 8,
 					"material": {"name":"galaxyspace:phobosblocks", "metadata": 1}
 				},
-				"cluster-count": 13,
+				"cluster-count": 18,
 				"min-height": 4,
 				"max-height": 200,
 				"retrogen": "true",
@@ -388,7 +388,7 @@
 					"cluster-size": 8,
 					"material": {"name":"galaxyspace:phobosblocks", "metadata": 1}
 				},
-				"cluster-count": 9,
+				"cluster-count": 15,
 				"min-height": 4,
 				"max-height": 200,
 				"retrogen": "true",
@@ -411,7 +411,7 @@
 					"cluster-size": 8,
 					"material": {"name":"galacticraftplanets:basic_moon_block", "metadata": 4}
 				},
-				"cluster-count": 6,
+				"cluster-count": 18,
 				"min-height": 4,
 				"max-height": 200,
 				"retrogen": "true",
@@ -434,7 +434,7 @@
 					"cluster-size": 8,
 					"material": {"name":"galacticraftplanets:basic_moon_block", "metadata": 4}
 				},
-				"cluster-count": 6,
+				"cluster-count": 18,
 				"min-height": 4,
 				"max-height": 200,
 				"retrogen": "true",
@@ -457,7 +457,7 @@
 					"cluster-size": 8,
 					"material": {"name":"galacticraftplanets:basic_moon_block", "metadata": 4}
 				},
-				"cluster-count": 4,
+				"cluster-count": 12,
 				"min-height": 4,
 				"max-height": 200,
 				"retrogen": "true",
@@ -503,7 +503,7 @@
 					"cluster-size": 8,
 					"material": {"name":"galaxyspace:callistoblocks", "metadata": 1}
 				},
-				"cluster-count": 6,
+				"cluster-count": 20,
 				"min-height": 4,
 				"max-height": 200,
 				"retrogen": "true",
@@ -526,7 +526,7 @@
 					"cluster-size": 8,
 					"material": {"name":"galacticraftplanets:basic_moon_block", "metadata": 4}
 				},
-				"cluster-count": 15,
+				"cluster-count": 25,
 				"min-height": 4,
 				"max-height": 200,
 				"retrogen": "true",

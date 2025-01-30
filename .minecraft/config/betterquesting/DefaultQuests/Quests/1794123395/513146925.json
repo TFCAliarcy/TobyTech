@@ -1,0 +1,55 @@
+{
+  "preRequisites:11": [
+    22
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Have you ever wanted to run a redstone wire up a wall? Along a ceiling? Across a gap? Tired of having place down repeaters to keep their signal? Or redstone not connecting to machines?\n\nWell then I have the perfect mod for you! Introducing Project Red\u0027s Red Alloy Wire !\n\nWith this you can do all of the above, instead of it attaching to the ground you can attach it to the walls and ceilings of blocks and it not only never loses signal stregnth over time but also transfers signal to blocks like dispensers or lamps adjacent to the wire.\n\nYou can also use them to make framed wires which act as their block, not needing to be attached to another block. Though do note that in order to be attached to a signal you need to place a wire underneath them",
+      "icon:10": {
+        "Count:3": 1,
+        "ForgeCaps:10": {
+          "wizardryutils:summoneditemdata:10": {}
+        },
+        "id:8": "projectred-transmission:wire"
+      },
+      "name:8": "Redstone Wires"
+    }
+  },
+  "questID:3": 513146925,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 103,
+          "ForgeCaps:10": {
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "projectred-core:resource_item"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "projectred-transmission:wire"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "projectred-transmission:framed_wire"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}
