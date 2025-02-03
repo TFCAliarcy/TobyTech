@@ -1,0 +1,177 @@
+{
+  "preRequisites:11": [
+    2
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "icon:10": {
+        "Count:3": 1,
+        "ForgeCaps:10": {
+          "wizardryutils:summoneditemdata:10": {}
+        },
+        "id:8": "mutantbeasts:mutant_skeleton_rib_cage"
+      },
+      "name:8": "Lore of Necromancy"
+    }
+  },
+  "questID:3": 48,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 295,
+          "ForgeCaps:10": {
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "ebwizardry:spell_book"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 231,
+          "ForgeCaps:10": {
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "ebwizardry:spell_book"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 112,
+          "ForgeCaps:10": {
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "ebwizardry:spell_book"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 7,
+          "ForgeCaps:10": {
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "ebwizardry:spell_book"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 232,
+          "ForgeCaps:10": {
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "ebwizardry:spell_book"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 175,
+          "ForgeCaps:10": {
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "ebwizardry:spell_book"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 115,
+          "ForgeCaps:10": {
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "ebwizardry:spell_book"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 116,
+          "ForgeCaps:10": {
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "ebwizardry:spell_book"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "Damage:2": 148,
+          "ForgeCaps:10": {
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "ebwizardry:spell_book"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "Damage:2": 31,
+          "ForgeCaps:10": {
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "ebwizardry:spell_book"
+        },
+        "6:10": {
+          "Count:3": 1,
+          "Damage:2": 30,
+          "ForgeCaps:10": {
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "ebwizardry:spell_book"
+        },
+        "7:10": {
+          "Count:3": 1,
+          "Damage:2": 29,
+          "ForgeCaps:10": {
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "ebwizardry:spell_book"
+        },
+        "8:10": {
+          "Count:3": 1,
+          "Damage:2": 28,
+          "ForgeCaps:10": {
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "ebwizardry:spell_book"
+        },
+        "9:10": {
+          "Count:3": 1,
+          "Damage:2": 278,
+          "ForgeCaps:10": {
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "ebwizardry:spell_book"
+        },
+        "10:10": {
+          "Count:3": 1,
+          "Damage:2": 290,
+          "ForgeCaps:10": {
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "ebwizardry:spell_book"
+        },
+        "11:10": {
+          "Count:3": 1,
+          "Damage:2": 296,
+          "ForgeCaps:10": {
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "ebwizardry:spell_book"
+        },
+        "12:10": {
+          "Count:3": 1,
+          "Damage:2": 235,
+          "ForgeCaps:10": {
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "tfspellpack:twilight_spell_book"
+        },
+        "13:10": {
+          "Count:3": 1,
+          "Damage:2": 236,
+          "ForgeCaps:10": {
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "tfspellpack:twilight_spell_book"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

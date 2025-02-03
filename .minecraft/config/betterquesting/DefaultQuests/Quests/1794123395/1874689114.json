@@ -1,0 +1,74 @@
+{
+  "preRequisites:11": [
+    22
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "These lamps are an aesthetically pleasing option for lighting and unlike vanilla redstone lamps can be set to be on by default and off by redstone signal via crafting them as inverted.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 32767,
+        "ForgeCaps:10": {
+          "wizardryutils:summoneditemdata:10": {}
+        },
+        "id:8": "projectred-illumination:lamp"
+      },
+      "name:8": "Lamps"
+    }
+  },
+  "questID:3": 1874689114,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 32767,
+          "ForgeCaps:10": {
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "projectred-illumination:lamp"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 32767,
+          "ForgeCaps:10": {
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "projectred-illumination:inverted_fallout_lamp"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 32767,
+          "ForgeCaps:10": {
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "projectred-illumination:inverted_cage_lamp"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 32767,
+          "ForgeCaps:10": {
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "projectred-illumination:inverted_lantern"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 32767,
+          "ForgeCaps:10": {
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "projectred-illumination:inverted_fixture_light"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

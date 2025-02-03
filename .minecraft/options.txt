@@ -102,6 +102,7 @@ key_key.ebwizardry.spell_8:9:ALT
 key_Galaxy Map:50
 key_Open Spaceship Inventory:33
 key_Toggle Sensor Goggles Mode:37
+key_quark.keybind.toggleAutojump:48
 key_quark.emote.no:0
 key_quark.emote.yes:0
 key_quark.emote.wave:0
@@ -120,7 +121,6 @@ key_quark.emote.dab:0
 key_quark.emote.jet:0
 key_quark.emote.exorcist:0
 key_quark.emote.zombie:0
-key_quark.keybind.toggleAutojump:48
 key_quark.keybind.dropoff:0
 key_quark.keybind.changeHotbar:81
 key_quark.keybind.chestSort:0
@@ -158,6 +158,11 @@ key_key.moreoverlays.chunkbounds.desc:67
 key_openblocks.keybind.vario_switch:47
 key_openblocks.keybind.vario_vol_up:0
 key_openblocks.keybind.vario_vol_down:0
+key_key.ping:47
+key_ping.key.alert:75
+key_ping.key.mine:76
+key_ping.key.look:77
+key_ping.key.goto:72
 key_schematica.key.load:181
 key_schematica.key.save:55
 key_schematica.key.control:74
