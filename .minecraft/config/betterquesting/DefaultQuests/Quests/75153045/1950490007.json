@@ -1,7 +1,7 @@
 {
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "No Description",
+      "desc:8": "Greetings, wizards! Are you looking for a magic mod for Minecraft, but don\u0027t want the hassle that comes with many of the magic mods out there? Do you want to freeze skeletons solid, engulf zombies in slime, and pull creepers into an interdimensional vortex? Do you just want a cool hat to wear?\n\nIntroducing... {Embed}TypeImage;ResourceLocation:\u003cdefault\u003e:textures/embed/electrobob.png;\u003c40\u003e;\u003c40\u003e;\u003c3197\u003e;\u003c2000\u003e{Embed}\n\nWizardry isn\u0027t like most magic mods. It has very few crafting recipes and no complex constructions - instead, you progress by exploring and fighting. Find spell books, wands and scrolls! Visit fellow wizards and buy rare magical items! Explore ancient ruins in search of rare and powerful artefacts! Master the arcane and collect every single spell!\n\n\n\n...actually, that last one might take you a while - there are more spells than I can count in wizardry, and each of them is totally unique!\n\nAs well as finding new spells, there is a world of upgrades, wands, armour and special items to explore - but I\u0027ll let you discover that for yourself...\n\nTo get started, you\u0027ll need to find a magic crystal (hint: you can mine them, but there is a quicker way to find one). Craft this with a book and you\u0027ll get your very own wizard\u0027s handbook, which will tell you everything you need to know.",
       "icon:10": {
         "Count:3": 1,
         "ForgeCaps:10": {
@@ -14,6 +14,21 @@
     }
   },
   "questID:3": 1950490007,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 8,
+          "ForgeCaps:10": {
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "ebwizardry:magic_crystal"
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,

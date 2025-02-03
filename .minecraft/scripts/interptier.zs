@@ -31,7 +31,7 @@ recipes.replaceAllOccurences(<ore:dustAerotheum>, <liquid:aerotheum> *1000, <*>)
 // Mars Phyto
 
 mods.nuclearcraft.dissolver.addRecipe(<thermalfoundation:fertilizer:2>, <liquid:bacterialsludge> *1000, <liquid:bacterialsludge> *2000);
-mods.nuclearcraft.crystallizer.addRecipe(<liquid:bacterialsludge> *10000, <srparasites:itemmobspawner_lodo>);
+mods.nuclearcraft.infuser.addRecipe(<mod_lavacow:parasite_item:0>, <liquid:bacterialsludge> *10000, <srparasites:itemmobspawner_lodo>);
 
 mods.thermalexpansion.Insolator.addRecipe(<galacticraftplanets:cavern_vines> *4, <galacticraftplanets:cavern_vines>, <thermalfoundation:fertilizer>, 9600, null, 0, 1000);
 mods.thermalexpansion.Insolator.addRecipe(<galacticraftplanets:cavern_vines> *6, <galacticraftplanets:cavern_vines>, <thermalfoundation:fertilizer:1>, 9600, null, 0, 1000);
