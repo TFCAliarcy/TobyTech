@@ -13,8 +13,6 @@ Figure out how to balance forestry bees (perhaps requiring multiblock for combs 
 
 Overhaul wyvern armor recipe to require rupter parts
 
-Multiblock for creating parasites
-
 Maybe Anti-matter Reactor (more power than fusion but weaker than draconic)
 
 Food Overhaul (make hunger filled be the sum of components)
