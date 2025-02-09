@@ -39,3 +39,13 @@ mods.chisel.Carving.addVariation("blackstone", <nb:cracked_stone_bricks>);
 <ore:oreGold>.add(<nb:gilded_blackstone>);
 
 recipes.addShapeless(<minecraft:nether_wart> *9,[<minecraft:nether_wart_block>]);
+
+recipes.removeByRecipeName("deepmoblearning:data_model_remnant");
+<ore:dustSpectral>.add(<ebwizardry:spectral_dust:1>);
+<ore:dustSpectral>.add(<ebwizardry:spectral_dust:2>);
+<ore:dustSpectral>.add(<ebwizardry:spectral_dust:3>);
+<ore:dustSpectral>.add(<ebwizardry:spectral_dust:4>);
+<ore:dustSpectral>.add(<ebwizardry:spectral_dust:5>);
+<ore:dustSpectral>.add(<ebwizardry:spectral_dust:6>);
+<ore:dustSpectral>.add(<ebwizardry:spectral_dust:7>);
+recipes.addShapeless(<deepmoblearning:data_model_remnant>,[<deepmoblearning:data_model_blank>, <ore:dustSpectral>]);

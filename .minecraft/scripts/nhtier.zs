@@ -5,6 +5,7 @@ import crafttweaker.liquid.ILiquidStack;
 import crafttweaker.recipes.IRecipeFunction;
 import crafttweaker.data.IData;
 import mods.enderio.AlloySmelter;
+import mods.jei.JEI;
 
 //mods.thermalexpansion.InductionSmelter.addRecipe(IItemStack primaryOutput, IItemStack primaryInput, IItemStack secondaryInput, int energy, @Optional IItemStack secondaryOutput, @Optional int secondaryChance);
 
@@ -58,3 +59,38 @@ recipes.removeByRecipeName("redstonearsenal:gem_crystal_flux");
 mods.thermalexpansion.InductionSmelter.addRecipe(<nuclearcraft:alloy:6> *2, <thermalfoundation:material:160>, <nuclearcraft:ingot:5>, 6000);
 // Tough Alloy
 mods.thermalexpansion.InductionSmelter.addRecipe(<nuclearcraft:alloy:1> *2, <nuclearcraft:alloy:6>, <nuclearcraft:ingot:6>, 9000);
+
+// Deep Mob Evolution
+
+<deepmoblearning:machine_casing>.displayName = "Simulation Machine Casing";
+mods.jei.JEI.removeAndHide(<deepmoblearning:glitch_infused_ingot>);
+mods.jei.JEI.removeAndHide(<deepmoblearning:glitch_fragment>);
+mods.jei.JEI.removeAndHide(<deepmoblearning:glitch_heart>);
+mods.jei.JEI.removeAndHide(<deepmoblearning:trial_key>);
+mods.jei.JEI.removeAndHide(<deepmoblearning:glitch_infused_helmet>);
+mods.jei.JEI.removeAndHide(<deepmoblearning:glitch_infused_chestplate>);
+mods.jei.JEI.removeAndHide(<deepmoblearning:glitch_infused_leggings>);
+mods.jei.JEI.removeAndHide(<deepmoblearning:glitch_infused_boots>);
+mods.jei.JEI.removeAndHide(<deepmoblearning:glitch_infused_sword>);
+mods.jei.JEI.removeAndHide(<deepmoblearning:infused_ingot_block>);
+mods.jei.JEI.removeAndHide(<deepmoblearning:soot_covered_plate>);
+mods.jei.JEI.removeAndHide(<deepmoblearning:soot_covered_redstone>);
+mods.jei.JEI.removeAndHide(<deepmoblearning:data_model_tinker_slime>);
+mods.jei.JEI.removeAndHide(<deepmoblearning:data_model_mo_android>);
+mods.jei.JEI.removeAndHide(<deepmoblearning:pristine_matter_mo_android>);
+mods.jei.JEI.removeAndHide(<deepmoblearning:pristine_matter_tinker_slime>);
+mods.jei.JEI.removeAndHide(<deepmoblearning:trial_keystone>);
+mods.jei.JEI.removeAndHide(<deepmoblearningbm:blood_infused_glitch_ingot>);
+mods.jei.JEI.removeAndHide(<deepmoblearningbm:blood_infused_glitch_nugget>);
+mods.jei.JEI.removeAndHide(<deepmoblearningbm:block_blood_infused_glitch_ingot>);
+
+recipes.remove(<deepmoblearning:machine_casing>);
+recipes.addShaped(<deepmoblearning:machine_casing>,
+[[<ore:ingotTough>, <ore:crystalFluix>, <ore:ingotTough>],
+[<ore:crystalFluix>, <ore:dustRedstone>, <ore:crystalFluix>],
+[<ore:ingotTough>, <ore:crystalFluix>, <ore:ingotTough>]]);
+
+recipes.replaceAllOccurences(<ore:ingotIron>, <ore:ingotPlastic>, <deepmoblearning:polymer_clay>);
+recipes.replaceAllOccurences(<ore:ingotBloodInfusedGlitch>, <bloodmagic:slate:1>, <deepmoblearningbm:digital_agonizer>);
+recipes.replaceAllOccurences(<ore:ingotBloodInfusedGlitch>, <bloodmagic:slate:1>, <deepmoblearningbm:digital_will_injector>);
+recipes.replaceAllOccurences(<deepmoblearning:soot_covered_plate>, <ore:ingotFerroboron>, <deepmoblearningbm:altar_linker>);

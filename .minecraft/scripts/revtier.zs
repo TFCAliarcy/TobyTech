@@ -147,8 +147,10 @@ recipes.addShaped(<galacticraftcore:machine2:0>, [
 	[<galacticraftcore:aluminum_wire>, <galacticraftcore:basic_item:14>, <galacticraftcore:aluminum_wire>]]);
 
 //Plastic from Oil
-Refinery.addRecipe(<liquid:refined_fuel> *1, <industrialforegoing:plastic>, <liquid:refined_fuel> *100, 5000);
-Refinery.addRecipe(<liquid:fuel_light> *1, <industrialforegoing:plastic>*2, <liquid:fuel_light> *100, 5000);
+mods.thermalexpansion.Transposer.addFillRecipe(<industrialforegoing:plastic>, <minecraft:paper>, <liquid:refined_fuel> * 100, 5000);
+mods.thermalexpansion.Transposer.addFillRecipe(<industrialforegoing:plastic>*2, <minecraft:paper>, <liquid:fuel_light> * 100, 5000);
+//Refinery.addRecipe(<liquid:refined_fuel> *1, <industrialforegoing:plastic>, <liquid:refined_fuel> *100, 5000);
+//Refinery.addRecipe(<liquid:fuel_light> *1, <industrialforegoing:plastic>*2, <liquid:fuel_light> *100, 5000);
 
 // Residue to Concrete
 mods.thermalexpansion.Transposer.addFillRecipe(<minecraft:concrete:15>, <minecraft:sand:*>, <liquid:oil_residue> * 100, 400);

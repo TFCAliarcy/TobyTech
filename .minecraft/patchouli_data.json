@@ -15,6 +15,22 @@
         "galacticresearch:galactircresearch/deep_space"
       ],
       "completedManualQuests": []
+    },
+    "deepmoblearning:book": {
+      "viewedEntries": [
+        "deepmoblearning:3_system_malfunction/0_system_glitches",
+        "deepmoblearning:3_system_malfunction/1_glitch_fragments",
+        "deepmoblearning:2_trials/1_trials",
+        "deepmoblearning:0_introduction/0_introduction"
+      ],
+      "bookmarks": [],
+      "history": [
+        "deepmoblearning:0_introduction/0_introduction",
+        "deepmoblearning:2_trials/1_trials",
+        "deepmoblearning:3_system_malfunction/1_glitch_fragments",
+        "deepmoblearning:3_system_malfunction/0_system_glitches"
+      ],
+      "completedManualQuests": []
     }
   }
 }

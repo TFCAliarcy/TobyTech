@@ -761,5 +761,61 @@
       "entityOffsetX": 10,
       "entityOffsetY": 20
     }
+  },
+  {
+    "id": "evil_wizard",
+    "displayName": "Evil Wizard",
+    "livingMatter": "overworldian",
+    "simulationRFCost": 256,
+    "craftingIngredients": [
+      "ebwizardry:magic_crystal,1,0"
+    ],
+    "associatedMobs": [
+      "ebwizardry:evil_wizard"
+    ],
+    "lootItems": [
+      "ebwizardry:magic_crystal,16,0",
+      "ebwizardry:ruined_spell_book,4"
+    ],
+    "deepLearnerDisplay": {
+      "hearts": 20,
+      "mobTrivia": [
+        "This is probably unethical"
+      ],
+      "entity": "ebwizardry:evil_wizard",
+      "entityScale": 48,
+      "entityOffsetX": 10,
+      "entityOffsetY": 20
+    }
+  },
+  {
+    "id": "remnant",
+    "displayName": "Remnant",
+    "livingMatter": "overworldian",
+    "simulationRFCost": 80,
+    "craftingIngredients": [
+    ],
+    "associatedMobs": [
+      "ebwizardry:remnant"
+    ],
+    "lootItems": [
+      "ebwizardry:spectral_dust,16,1",
+      "ebwizardry:spectral_dust,16,2",
+      "ebwizardry:spectral_dust,16,3",
+      "ebwizardry:spectral_dust,16,4",
+      "ebwizardry:spectral_dust,16,5",
+      "ebwizardry:spectral_dust,16,6",
+      "ebwizardry:spectral_dust,16,7"
+    ],
+    "deepLearnerDisplay": {
+      "hearts": 8,
+      "mobTrivia": [
+        "Cubular"
+      ],
+      "entity": "ebwizardry:remnant",
+      "entityScale": 48,
+      "entityOffsetX": 10,
+      "entityOffsetY": 20
+    }
   }
 ]
