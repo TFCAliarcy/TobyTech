@@ -68,8 +68,7 @@
     "lootItems": [
       "minecraft:dragon_breath,32",
       "minecraft:dragon_egg,1",
-      "draconicevolution:dragon_heart,1",
-      "draconicevolution:draconium_dust,64"
+      "draconicevolution:dragon_heart,1"
     ],
     "deepLearnerDisplay": {
       "hearts": 100,
@@ -400,7 +399,9 @@
     ],
     "lootItems": [
       "minecraft:skull,18,1",
-      "minecraft:coal,64"
+      "minecraft:coal,64",
+      "iceandfire:witherbone,32",
+      "extrautils2:ingrdients,48,10"
     ],
     "trial": {
       "entities": "minecraft:wither_skeleton",
@@ -813,6 +814,143 @@
         "Cubular"
       ],
       "entity": "ebwizardry:remnant",
+      "entityScale": 48,
+      "entityOffsetX": 10,
+      "entityOffsetY": 20
+    }
+  },
+  {
+    "id": "dragons",
+    "displayName": "Dragon",
+    "livingMatter": "overworldian",
+    "simulationRFCost": 2560,
+    "craftingIngredients": [
+      "iceandfire:fire_dragon_heart"
+    ],
+    "associatedMobs": [
+      "iceandfire:firedragon",
+      "iceandfire:icedragon",
+      "iceandfire:lightningdragon"
+    ],
+    "lootItems": [
+      "iceandfire:dragonscales_red,64",
+      "iceandfire:dragonscales_green,64",
+      "iceandfire:dragonscales_bronze,64",
+      "iceandfire:dragonscales_gray,64",
+      "iceandfire:dragonegg_green,1",
+      "iceandfire:dragonegg_red,1",
+      "iceandfire:dragonegg_gray,1",
+      "iceandfire:dragonegg_bronze,1",
+      "iceandfire:dragonebone,64",
+      "iceandfire:fire_dragon_blood,64",
+      "iceandfire:fire_dragon_heart,16",
+      "iceandfire:dragonscales_blue,64",
+      "iceandfire:dragonscales_white,64",
+      "iceandfire:dragonscales_sapphire,64",
+      "iceandfire:dragonscales_silver,64",
+      "iceandfire:dragonegg_blue,1",
+      "iceandfire:dragonegg_white,1",
+      "iceandfire:dragonegg_sapphire,1",
+      "iceandfire:dragonegg_silver,1",
+      "iceandfire:ice_dragon_blood,64",
+      "iceandfire:ice_dragon_heart,16",
+      "iceandfire:dragonscales_electric,64",
+      "iceandfire:dragonscales_amythest,64",
+      "iceandfire:dragonscales_copper,64",
+      "iceandfire:dragonscales_black,64",
+      "iceandfire:dragonegg_electric,1",
+      "iceandfire:dragonegg_amythest,1",
+      "iceandfire:dragonegg_copper,1",
+      "iceandfire:dragonegg_black,1",
+      "iceandfire:lightning_dragon_blood,64",
+      "iceandfire:lightning_dragon_heart,16"
+      
+    ],
+    "deepLearnerDisplay": {
+      "hearts": 200,
+      "mobTrivia": [
+        "Burninate the countryside",
+        "Burninate all the peoples"
+      ],
+      "entity": "iceandfire:firedragon",
+      "entityScale": 48,
+      "entityOffsetX": 10,
+      "entityOffsetY": 20
+    }
+  },
+  {
+    "id": "iceandfireaquatics",
+    "displayName": "Ice&Fire Aquatics",
+    "livingMatter": "overworldian",
+    "simulationRFCost": 1280,
+    "craftingIngredients": [
+      "iceandfire:shiny_scales"
+    ],
+    "associatedMobs": [
+      "iceandfire:siren",
+      "iceandfire:seaserpent"
+    ],
+    "lootItems": [
+      "iceandfire:siren_tear,16",
+      "iceandfire:shiny_scales,64",
+      "minecraft:prismarine_crystals,64",
+      "minecraft:prismarine_shard,64",
+      "iceandfire:sea_serpent_fang,64",
+      "iceandfire:sea_serpent_scales_blue,64",
+      "iceandfire:sea_serpent_scales_bronze,64",
+      "iceandfire:sea_serpent_scales_green,64",
+      "iceandfire:sea_serpent_scales_purple,64",
+      "iceandfire:sea_serpent_scales_red,64",
+      "iceandfire:sea_serpent_scales_teal,64",
+      "iceandfire:seaserpent_skull,16"
+    ],
+    "deepLearnerDisplay": {
+      "hearts": 120,
+      "mobTrivia": [
+        "Time to get wet!"
+      ],
+      "entity": "iceandfire:seaserpent",
+      "entityScale": 48,
+      "entityOffsetX": 10,
+      "entityOffsetY": 20
+    }
+  },
+  {
+    "id": "illagers",
+    "displayName": "Illagers",
+    "livingMatter": "overworldian",
+    "simulationRFCost": 256,
+    "craftingIngredients": [
+      "minecraft:emerald"
+    ],
+    "associatedMobs": [
+      "raids:pillager",
+      "raids:ravager",
+      "minecraft:vindicator",
+      "minecraft:evoker",
+      "minecraft:vex",
+      "eim:blazinator",
+      "eim:burn_voker",
+      "eim:dragovoker",
+      "eim:endcator",
+      "eim:forest_voker",
+      "eim:frostvoker",
+      "eim:skelet_voker",
+      "eim:snowicator",
+      "eim:snowman",
+      "eim:stonevoker",
+      "eim:wither_voker"
+    ],
+    "lootItems": [
+      "minecraft:emerald,48",
+      "minecraft:totem_of_undying,3"
+    ],
+    "deepLearnerDisplay": {
+      "hearts": 120,
+      "mobTrivia": [
+        "Here to Pillage!"
+      ],
+      "entity": "iceandfire:seaserpent",
       "entityScale": 48,
       "entityOffsetX": 10,
       "entityOffsetY": 20

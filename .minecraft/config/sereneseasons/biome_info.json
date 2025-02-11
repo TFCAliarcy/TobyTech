@@ -375,8 +375,8 @@
     "disable_crops": false
   },
   "biomesoplenty:white_beach": {
-    "enable_seasonal_effects": true,
-    "use_tropical_seasons": true,
+    "enable_seasonal_effects": false,
+    "use_tropical_seasons": false,
     "disable_crops": false
   },
   "abyssalcraft:darklands_hills": {
