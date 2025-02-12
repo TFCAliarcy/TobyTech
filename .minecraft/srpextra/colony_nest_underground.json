@@ -1,0 +1,23 @@
+{
+  "data_version": 1,
+  "type": 1,
+  "weight": 12,
+  "tier": 0,
+  "phase": 0,
+  "offsetX": 0,
+  "offsetY": -20,
+  "offsetZ": 0,
+  "rotation": true,
+  "structure_location": "nocubessrpnests:structures/flesh_worm",
+  "biomes": [
+    "!hot",
+    "!ocean"
+  ],
+  "dimensions": [
+    0
+  ],
+  "include_entities": [
+    "100;srparasites:rupter;9;12;0;false"
+  ],
+  "include_entities_structure_location": false
+}

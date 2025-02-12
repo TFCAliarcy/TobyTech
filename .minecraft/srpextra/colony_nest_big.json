@@ -1,0 +1,37 @@
+{
+  "data_version": 1,
+  "type": 0,
+  "weight": 15,
+  "tier": 1,
+  "phase": 3,
+  "offsetX": 0,
+  "offsetY": -7,
+  "offsetZ": 0,
+  "rotation": true,
+  "biomes": [
+    "!hot",
+    "!ocean"
+  ],
+  "dimensions": [
+    0
+  ],
+  "structure_location": "srpextra:structures/nest_big",
+  "element_settings": [
+    "16;16;5;5",
+    "0;colony_nest_big",
+    "1;colony_nest_underground",
+    "2;colony_nest"
+  ],
+  "elements": [
+    "10,2;10,2;10,2;20,1;10,2",
+    "20,1;10,2;10,2;10,2;10,2",
+    "10,2;10,2;100,0;10,2;10,2",
+    "10,2;10,2;10,2;30,2;20,1",
+    "20,1;10,2;10,2;10,2;10,2"
+  ],
+  "include_entities": [
+    "100;srparasites:rupter;3;6;0;false",
+    "100;srparasites:sim_human;3;6;0;false",
+    "100;srparasites:pri_longarms;1;2;0;false"
+  ]
+}

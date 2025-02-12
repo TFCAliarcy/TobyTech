@@ -13,3 +13,4 @@ mods.ltt.LootTable.removeGlobalItem("appliedenergistics2:material");
 mods.ltt.LootTable.removeGlobalItem("railcraft:ingot");
 mods.ltt.LootTable.removeGlobalItem("railcraft:plate");
 mods.ltt.LootTable.removeGlobalItem("bewitchment:silver_ingot");
+mods.ltt.LootTable.removeGlobalItem("cyberware:surgery");

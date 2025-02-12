@@ -35,7 +35,7 @@ ofConnectedTextures:2
 ofWeather:true
 ofSky:true
 ofStars:true
-ofSunMoon:false
+ofSunMoon:true
 ofVignette:0
 ofChunkUpdates:1
 ofChunkUpdatesDynamic:false

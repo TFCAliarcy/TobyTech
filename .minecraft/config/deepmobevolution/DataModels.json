@@ -946,12 +946,37 @@
       "minecraft:totem_of_undying,3"
     ],
     "deepLearnerDisplay": {
-      "hearts": 120,
+      "hearts": 10,
       "mobTrivia": [
         "Here to Pillage!"
       ],
-      "entity": "iceandfire:seaserpent",
+      "entity": "raids:pillager",
       "entityScale": 48,
+      "entityOffsetX": 10,
+      "entityOffsetY": 20
+    }
+  },
+  {
+    "id": "wisp",
+    "displayName": "Wisp",
+    "livingMatter": "overworldian",
+    "simulationRFCost": 80,
+    "craftingIngredients": [
+      "thaumcraft:crystal_essence"
+    ],
+    "associatedMobs": [
+      "thaumcraft:wisp"
+    ],
+    "lootItems": [
+      "thaumcraft:crystal_essence"
+    ],
+    "deepLearnerDisplay": {
+      "hearts": 120,
+      "mobTrivia": [
+        "Magic!"
+      ],
+      "entity": "thaumcraft:wisp",
+      "entityScale": 5,
       "entityOffsetX": 10,
       "entityOffsetY": 20
     }

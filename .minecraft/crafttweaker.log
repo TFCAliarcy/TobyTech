@@ -1,30 +1,31 @@
 [PREINITIALIZATION][CLIENT][INFO] Thank you to the Patreon supporters below and others who make CraftTweaker possible!
-NickT
-Ncc1702
-Jellycraft
-Peregrinus11
-Genryu
-Belathus
-Zuniroa
-Pongo Sapiens
-Hooley
-Jessie Sims
-Jordan Pineo
-Lucas
-Spencer Gilbert
-Ivy_
-Phillip Swearingain
-DreamThorn
-embeddedt
 Jonathan McManus
+Jordan Pineo
+Hooley
+Belathus
+Peregrinus11
+Ivy_
+DreamThorn
 Quaternary
+embeddedt
+Pongo Sapiens
+Zuniroa
+Jessie Sims
+Genryu
+Ncc1702
+Spencer Gilbert
+Lucas
+Phillip Swearingain
 NerdyWhiteGuy
+NickT
+Jellycraft
 If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 
 [PREINITIALIZATION][CLIENT][TRACE] Current loaders after merging: [[preinit]]
 [PREINITIALIZATION][CLIENT][INFO] Loading scripts for loader with names [preinit]
 [PREINITIALIZATION][CLIENT][TRACE] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker|reloadable]: backportstuff.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][TRACE] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker|reloadable]: Beestuff.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][TRACE] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker|reloadable]: botania.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][TRACE] [preinit | SIDE_CLIENT]: Skipping file {[0:contenttweaker]: contenttweaker.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][TRACE] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker|reloadable]: fartier.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][TRACE] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker|reloadable]: FoodOverhaul.zs} as we are currently loading with a different loader
@@ -40,12 +41,13 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [PREINITIALIZATION][CLIENT][TRACE] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker|reloadable]: revtier.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][TRACE] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: SpartanNetheriteSmithing.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][TRACE] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker|reloadable]: techguns.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][TRACE] Completed script loading in: 5ms
+[PREINITIALIZATION][CLIENT][TRACE] Completed script loading in: 6ms
 [PREINITIALIZATION][CLIENT][INFO] Hey! Here is ZenUtils.
 [PREINITIALIZATION][CLIENT][TRACE] Current loaders after merging: [[preinit], [contenttweaker]]
 [PREINITIALIZATION][CLIENT][INFO] Loading scripts for loader with names [contenttweaker]
 [PREINITIALIZATION][CLIENT][TRACE] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker|reloadable]: backportstuff.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][TRACE] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker|reloadable]: Beestuff.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][TRACE] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker|reloadable]: botania.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][TRACE] [contenttweaker | SIDE_CLIENT]: Loading Script: {[0:contenttweaker]: contenttweaker.zs}
 [PREINITIALIZATION][CLIENT][TRACE] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker|reloadable]: fartier.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][TRACE] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker|reloadable]: FoodOverhaul.zs} as we are currently loading with a different loader
@@ -61,11 +63,12 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [PREINITIALIZATION][CLIENT][TRACE] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker|reloadable]: revtier.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][TRACE] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: SpartanNetheriteSmithing.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][TRACE] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker|reloadable]: techguns.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][TRACE] Completed script loading in: 240ms
+[PREINITIALIZATION][CLIENT][TRACE] Completed script loading in: 241ms
 [PREINITIALIZATION][CLIENT][TRACE] Current loaders after merging: [[preinit], [contenttweaker], [finalize_contenttweaker]]
 [PREINITIALIZATION][CLIENT][INFO] Loading scripts for loader with names [finalize_contenttweaker]
 [PREINITIALIZATION][CLIENT][TRACE] [finalize_contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker|reloadable]: backportstuff.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][TRACE] [finalize_contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker|reloadable]: Beestuff.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][TRACE] [finalize_contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker|reloadable]: botania.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][TRACE] [finalize_contenttweaker | SIDE_CLIENT]: Skipping file {[0:contenttweaker]: contenttweaker.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][TRACE] [finalize_contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker|reloadable]: fartier.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][TRACE] [finalize_contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker|reloadable]: FoodOverhaul.zs} as we are currently loading with a different loader
@@ -100,6 +103,7 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [INITIALIZATION][CLIENT][INFO] Adding Spectral Dust to ore dictionary entry dustSpectral
 [INITIALIZATION][CLIENT][INFO] Adding Spectral Dust to ore dictionary entry dustSpectral
 [INITIALIZATION][CLIENT][TRACE] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker|reloadable]: Beestuff.zs}
+[INITIALIZATION][CLIENT][TRACE] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker|reloadable]: botania.zs}
 [INITIALIZATION][CLIENT][TRACE] [crafttweaker | SIDE_CLIENT]: Skipping file {[0:contenttweaker]: contenttweaker.zs} as we are currently loading with a different loader
 [INITIALIZATION][CLIENT][TRACE] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker|reloadable]: fartier.zs}
 [INITIALIZATION][CLIENT][INFO] Translating item.projectred.expansion.enderPearlInfused.name to Compressed Draconium Dust
@@ -142,6 +146,7 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [INITIALIZATION][CLIENT][INFO] Added loot removal for Global Item: railcraft:ingot
 [INITIALIZATION][CLIENT][INFO] Added loot removal for Global Item: railcraft:plate
 [INITIALIZATION][CLIENT][INFO] Added loot removal for Global Item: bewitchment:silver_ingot
+[INITIALIZATION][CLIENT][INFO] Added loot removal for Global Item: cyberware:surgery
 [INITIALIZATION][CLIENT][TRACE] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker|reloadable]: mobstages.zs}
 [INITIALIZATION][CLIENT][INFO] Adding Spawns for techguns:bandit with: biome tag blacklist
 [INITIALIZATION][CLIENT][INFO] Successfully added SpawnEntry for: techguns.entities.npcs.Bandit
@@ -260,32 +265,32 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [INITIALIZATION][CLIENT][INFO] Adding Overgrown Netherrack to ore dictionary entry grass
 [INITIALIZATION][CLIENT][TRACE] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker|reloadable]: revtier.zs}
 [INITIALIZATION][CLIENT][TRACE] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: SpartanNetheriteSmithing.zs}
-[INITIALIZATION][CLIENT][INFO] Added a recipe for the smithing table - Input: net.minecraft.item.crafting.Ingredient@2d569fc3, Material: , Output: 1xitem.spartannetherite:battleaxe_netherite@0
-[INITIALIZATION][CLIENT][INFO] Added a recipe for the smithing table - Input: net.minecraft.item.crafting.Ingredient@41ea3e7, Material: , Output: 1xitem.spartannetherite:boomerang_netherite@0
-[INITIALIZATION][CLIENT][INFO] Added a recipe for the smithing table - Input: net.minecraft.item.crafting.Ingredient@206f13c8, Material: , Output: 1xitem.spartannetherite:spartanweaponry:crossbow_netherite@0
-[INITIALIZATION][CLIENT][INFO] Added a recipe for the smithing table - Input: net.minecraft.item.crafting.Ingredient@a4d95af, Material: , Output: 1xitem.spartannetherite:dagger_netherite@0
-[INITIALIZATION][CLIENT][INFO] Added a recipe for the smithing table - Input: net.minecraft.item.crafting.Ingredient@52b72563, Material: , Output: 1xitem.spartannetherite:glaive_netherite@0
-[INITIALIZATION][CLIENT][INFO] Added a recipe for the smithing table - Input: net.minecraft.item.crafting.Ingredient@279aa240, Material: , Output: 1xitem.spartannetherite:greatsword_netherite@0
-[INITIALIZATION][CLIENT][INFO] Added a recipe for the smithing table - Input: net.minecraft.item.crafting.Ingredient@32386921, Material: , Output: 1xitem.spartannetherite:halberd_netherite@0
-[INITIALIZATION][CLIENT][INFO] Added a recipe for the smithing table - Input: net.minecraft.item.crafting.Ingredient@64435dcd, Material: , Output: 1xitem.spartannetherite:hammer_netherite@0
-[INITIALIZATION][CLIENT][INFO] Added a recipe for the smithing table - Input: net.minecraft.item.crafting.Ingredient@32316f46, Material: , Output: 1xitem.spartannetherite:javelin_netherite@0
-[INITIALIZATION][CLIENT][INFO] Added a recipe for the smithing table - Input: net.minecraft.item.crafting.Ingredient@11a9cf5a, Material: , Output: 1xitem.spartannetherite:katana_netherite@0
-[INITIALIZATION][CLIENT][INFO] Added a recipe for the smithing table - Input: net.minecraft.item.crafting.Ingredient@6099bf4c, Material: , Output: 1xitem.spartannetherite:lance_netherite@0
-[INITIALIZATION][CLIENT][INFO] Added a recipe for the smithing table - Input: net.minecraft.item.crafting.Ingredient@2807e44, Material: , Output: 1xitem.spartannetherite:longbow_netherite@0
-[INITIALIZATION][CLIENT][INFO] Added a recipe for the smithing table - Input: net.minecraft.item.crafting.Ingredient@2ba2cac2, Material: , Output: 1xitem.spartannetherite:longsword_netherite@0
-[INITIALIZATION][CLIENT][INFO] Added a recipe for the smithing table - Input: net.minecraft.item.crafting.Ingredient@122899de, Material: , Output: 1xitem.spartannetherite:mace_netherite@0
-[INITIALIZATION][CLIENT][INFO] Added a recipe for the smithing table - Input: net.minecraft.item.crafting.Ingredient@4adcf57b, Material: , Output: 1xitem.spartannetherite:parrying_dagger_netherite@0
-[INITIALIZATION][CLIENT][INFO] Added a recipe for the smithing table - Input: net.minecraft.item.crafting.Ingredient@52c4ca79, Material: , Output: 1xitem.spartannetherite:pike_netherite@0
-[INITIALIZATION][CLIENT][INFO] Added a recipe for the smithing table - Input: net.minecraft.item.crafting.Ingredient@26fe6fcf, Material: , Output: 1xitem.spartannetherite:rapier_netherite@0
-[INITIALIZATION][CLIENT][INFO] Added a recipe for the smithing table - Input: net.minecraft.item.crafting.Ingredient@74e5f5ee, Material: , Output: 1xitem.spartannetherite:saber_netherite@0
-[INITIALIZATION][CLIENT][INFO] Added a recipe for the smithing table - Input: net.minecraft.item.crafting.Ingredient@b19b852, Material: , Output: 1xitem.spartanweaponry:scythe_netherite@0
-[INITIALIZATION][CLIENT][INFO] Added a recipe for the smithing table - Input: net.minecraft.item.crafting.Ingredient@63b93b92, Material: , Output: 1xitem.spartannetherite:spear_netherite@0
-[INITIALIZATION][CLIENT][INFO] Added a recipe for the smithing table - Input: net.minecraft.item.crafting.Ingredient@1af51d6d, Material: , Output: 1xitem.spartannetherite:staff_netherite@0
-[INITIALIZATION][CLIENT][INFO] Added a recipe for the smithing table - Input: net.minecraft.item.crafting.Ingredient@4ff2f8d2, Material: , Output: 1xitem.spartannetherite:throwing_axe_netherite@0
-[INITIALIZATION][CLIENT][INFO] Added a recipe for the smithing table - Input: net.minecraft.item.crafting.Ingredient@6601e18e, Material: , Output: 1xitem.spartannetherite:throwing_knife_netherite@0
-[INITIALIZATION][CLIENT][INFO] Added a recipe for the smithing table - Input: net.minecraft.item.crafting.Ingredient@320e192e, Material: , Output: 1xitem.spartannetherite:warhammer_netherite@0
-[INITIALIZATION][CLIENT][INFO] Added a recipe for the smithing table - Input: net.minecraft.item.crafting.Ingredient@637fb738, Material: , Output: 1xitem.spartannetherite:shield_basic_netherite@0
-[INITIALIZATION][CLIENT][INFO] Added a recipe for the smithing table - Input: net.minecraft.item.crafting.Ingredient@59263ab4, Material: , Output: 1xitem.spartannetherite:shield_tower_netherite@0
+[INITIALIZATION][CLIENT][INFO] Added a recipe for the smithing table - Input: net.minecraft.item.crafting.Ingredient@45afa25a, Material: , Output: 1xitem.spartannetherite:battleaxe_netherite@0
+[INITIALIZATION][CLIENT][INFO] Added a recipe for the smithing table - Input: net.minecraft.item.crafting.Ingredient@48436085, Material: , Output: 1xitem.spartannetherite:boomerang_netherite@0
+[INITIALIZATION][CLIENT][INFO] Added a recipe for the smithing table - Input: net.minecraft.item.crafting.Ingredient@73c321bb, Material: , Output: 1xitem.spartannetherite:spartanweaponry:crossbow_netherite@0
+[INITIALIZATION][CLIENT][INFO] Added a recipe for the smithing table - Input: net.minecraft.item.crafting.Ingredient@68525780, Material: , Output: 1xitem.spartannetherite:dagger_netherite@0
+[INITIALIZATION][CLIENT][INFO] Added a recipe for the smithing table - Input: net.minecraft.item.crafting.Ingredient@18a50022, Material: , Output: 1xitem.spartannetherite:glaive_netherite@0
+[INITIALIZATION][CLIENT][INFO] Added a recipe for the smithing table - Input: net.minecraft.item.crafting.Ingredient@6b077011, Material: , Output: 1xitem.spartannetherite:greatsword_netherite@0
+[INITIALIZATION][CLIENT][INFO] Added a recipe for the smithing table - Input: net.minecraft.item.crafting.Ingredient@20a0ba5c, Material: , Output: 1xitem.spartannetherite:halberd_netherite@0
+[INITIALIZATION][CLIENT][INFO] Added a recipe for the smithing table - Input: net.minecraft.item.crafting.Ingredient@7fb4f3d2, Material: , Output: 1xitem.spartannetherite:hammer_netherite@0
+[INITIALIZATION][CLIENT][INFO] Added a recipe for the smithing table - Input: net.minecraft.item.crafting.Ingredient@6a04d66c, Material: , Output: 1xitem.spartannetherite:javelin_netherite@0
+[INITIALIZATION][CLIENT][INFO] Added a recipe for the smithing table - Input: net.minecraft.item.crafting.Ingredient@16805c8, Material: , Output: 1xitem.spartannetherite:katana_netherite@0
+[INITIALIZATION][CLIENT][INFO] Added a recipe for the smithing table - Input: net.minecraft.item.crafting.Ingredient@1d2c86f2, Material: , Output: 1xitem.spartannetherite:lance_netherite@0
+[INITIALIZATION][CLIENT][INFO] Added a recipe for the smithing table - Input: net.minecraft.item.crafting.Ingredient@5700a357, Material: , Output: 1xitem.spartannetherite:longbow_netherite@0
+[INITIALIZATION][CLIENT][INFO] Added a recipe for the smithing table - Input: net.minecraft.item.crafting.Ingredient@43301116, Material: , Output: 1xitem.spartannetherite:longsword_netherite@0
+[INITIALIZATION][CLIENT][INFO] Added a recipe for the smithing table - Input: net.minecraft.item.crafting.Ingredient@3a447055, Material: , Output: 1xitem.spartannetherite:mace_netherite@0
+[INITIALIZATION][CLIENT][INFO] Added a recipe for the smithing table - Input: net.minecraft.item.crafting.Ingredient@539aa8d5, Material: , Output: 1xitem.spartannetherite:parrying_dagger_netherite@0
+[INITIALIZATION][CLIENT][INFO] Added a recipe for the smithing table - Input: net.minecraft.item.crafting.Ingredient@41226790, Material: , Output: 1xitem.spartannetherite:pike_netherite@0
+[INITIALIZATION][CLIENT][INFO] Added a recipe for the smithing table - Input: net.minecraft.item.crafting.Ingredient@5a1f0144, Material: , Output: 1xitem.spartannetherite:rapier_netherite@0
+[INITIALIZATION][CLIENT][INFO] Added a recipe for the smithing table - Input: net.minecraft.item.crafting.Ingredient@3b8de1a8, Material: , Output: 1xitem.spartannetherite:saber_netherite@0
+[INITIALIZATION][CLIENT][INFO] Added a recipe for the smithing table - Input: net.minecraft.item.crafting.Ingredient@6b3d301a, Material: , Output: 1xitem.spartanweaponry:scythe_netherite@0
+[INITIALIZATION][CLIENT][INFO] Added a recipe for the smithing table - Input: net.minecraft.item.crafting.Ingredient@5e66de68, Material: , Output: 1xitem.spartannetherite:spear_netherite@0
+[INITIALIZATION][CLIENT][INFO] Added a recipe for the smithing table - Input: net.minecraft.item.crafting.Ingredient@45201d9e, Material: , Output: 1xitem.spartannetherite:staff_netherite@0
+[INITIALIZATION][CLIENT][INFO] Added a recipe for the smithing table - Input: net.minecraft.item.crafting.Ingredient@300300a2, Material: , Output: 1xitem.spartannetherite:throwing_axe_netherite@0
+[INITIALIZATION][CLIENT][INFO] Added a recipe for the smithing table - Input: net.minecraft.item.crafting.Ingredient@48ec1d1a, Material: , Output: 1xitem.spartannetherite:throwing_knife_netherite@0
+[INITIALIZATION][CLIENT][INFO] Added a recipe for the smithing table - Input: net.minecraft.item.crafting.Ingredient@48163aa1, Material: , Output: 1xitem.spartannetherite:warhammer_netherite@0
+[INITIALIZATION][CLIENT][INFO] Added a recipe for the smithing table - Input: net.minecraft.item.crafting.Ingredient@44956933, Material: , Output: 1xitem.spartannetherite:shield_basic_netherite@0
+[INITIALIZATION][CLIENT][INFO] Added a recipe for the smithing table - Input: net.minecraft.item.crafting.Ingredient@1c363487, Material: , Output: 1xitem.spartannetherite:shield_tower_netherite@0
 [INITIALIZATION][CLIENT][TRACE] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker|reloadable]: techguns.zs}
 [INITIALIZATION][CLIENT][INFO] Remove [item.ingotIron] to AmmoPressSlot: Metal2
 [INITIALIZATION][CLIENT][INFO] Remove [item.for.ingot_copper,item.thermalfoundation.material.ingotCopper,item.railcraft.ingot.copper,item.nuclearcraft.ingot.copper,item.projectred.core.itemResource.copper_ingot,item.basic_item.ingot_copper,item.iceandfire.copperIngot,item.techguns.ingotcopper,item.deeperdepths.copper_ingot] to AmmoPressSlot: Metal2
@@ -306,7 +311,7 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [INITIALIZATION][CLIENT][INFO] Remove Recipe(s) for 1xitem.techguns.itemshared@83 from BlastFurnace
 [INITIALIZATION][CLIENT][INFO] Remove Recipe(s) for 1xitem.techguns.itemshared@84 from BlastFurnace
 [INITIALIZATION][CLIENT][INFO] Remove Recipe(s) for 1xitem.techguns.itemshared@81 from BlastFurnace
-[INITIALIZATION][CLIENT][TRACE] Completed script loading in: 289ms
+[INITIALIZATION][CLIENT][TRACE] Completed script loading in: 277ms
 [INITIALIZATION][CLIENT][INFO] Translating item.projectred.expansion.enderPearlInfused.name to Compressed Draconium Dust
 [INITIALIZATION][CLIENT][INFO] Translating item.datnuclearphysicslite.darkmatter_cell.name to Red Matter Cell
 [INITIALIZATION][CLIENT][INFO] Translating tile.wild_mint.name to Space Mint
@@ -372,6 +377,27 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <ore:ingotBloodInfusedGlitch> and replacing them with <bloodmagic:slate:1>
 [POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <ore:ingotBloodInfusedGlitch> and replacing them with <bloodmagic:slate:1>
 [POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <deepmoblearning:soot_covered_plate> and replacing them with <ore:ingotFerroboron>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <ore:ingotIron> and replacing them with <ore:ingotVibrantAlloy>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <ore:ingotIron> and replacing them with <ore:ingotVibrantAlloy>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <ore:ingotIron> and replacing them with <ore:ingotVibrantAlloy>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <ore:ingotIron> and replacing them with <ore:ingotVibrantAlloy>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <ore:blockIron> and replacing them with <ore:blockVibrantAlloy>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <ore:ingotIron> and replacing them with <ore:ingotVibrantAlloy>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <ore:ingotIron> and replacing them with <ore:ingotVibrantAlloy>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <ore:ingotIron> and replacing them with <ore:ingotVibrantAlloy>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <ore:gemDiamond> and replacing them with <ore:crystalCertusQuartz>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <ore:ingotIron> and replacing them with <ore:ingotVibrantAlloy>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all occurences of ingredient: <ore:ingotIron> and replacing them with <ore:ingotVibrantAlloy>
+[POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "cyberware:surgery_chamber"
+[POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "cyberware:charger"
+[POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "cyberware:scanner"
+[POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "cyberware:scanner_1"
+[POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "cyberware:engineering_table"
+[POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "cyberware:blueprint_archive"
+[POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "cyberware:component_box"
+[POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "cyberware:beacon"
+[POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "cyberware:beacon_large"
+[POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "cyberware:surgery"
 [POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "deepmoblearning:misc/polymer_clay"
 [POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "deepmoblearningbm:recipe3_digital_will_injector"
 [POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "deepmoblearningbm:recipe2_altar_linker"
@@ -529,6 +555,16 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for M4 Assault Rifle with name ct_shaped-1332195162
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Guided Missile-Launcher with name ct_shaped-1998200128
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Guided Missile-Launcher with name ct_shaped1297146064
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Surgery Chamber with name cyberware_surgery_chamber_modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Cyberware Charger with name cyberware_charger_modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Cyberware Scanner with name cyberware_scanner_modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Cyberware Scanner with name cyberware_scanner_1_modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Cyberware Engineering Table with name cyberware_engineering_table_modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Blueprint Archive with name cyberware_blueprint_archive_modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Component Box with name cyberware_component_box_modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Radio Kit with name cyberware_beacon_modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Radio Beacon with name cyberware_beacon_large_modified
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Robosurgeon with name cyberware_surgery_modified
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Polymer Clay with name deepmoblearning_misc/polymer_clay_modified
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Digital Demon Will Injector with name deepmoblearningbm_recipe3_digital_will_injector_modified
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Altar Linker with name deepmoblearningbm_recipe2_altar_linker_modified
@@ -573,6 +609,14 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [AVAILABLE][CLIENT][INFO] Fixed the RecipeBook
 [AVAILABLE][CLIENT][INFO] Altering Forestry Centrifuge Recipe(s) for <extrabees:honey_comb:4>
 [AVAILABLE][CLIENT][INFO] Altering Forestry Centrifuge Recipe(s) for <extrabees:honey_comb:21>
+[AVAILABLE][CLIENT][INFO] Removing Orechid Ore: oreUranium
+[AVAILABLE][CLIENT][INFO] Removing Orechid Ore: oreEndOsmium
+[AVAILABLE][CLIENT][INFO] Removing Orechid Ore: oreCertusQuartz
+[AVAILABLE][CLIENT][INFO] Removing Orechid Ore: oreEndUranium
+[AVAILABLE][CLIENT][INFO] Removing Orechid Ore: oreEndCertusQuartz
+[AVAILABLE][CLIENT][INFO] Removing Orechid Ore: oreEndYellorium
+[AVAILABLE][CLIENT][INFO] Removing Orechid Ore: oreArdite
+[AVAILABLE][CLIENT][INFO] Removing Orechid Ore: oreCobalt
 [AVAILABLE][CLIENT][INFO] Altering Transposer Fill Recipe(s) for <thermalfoundation:material:97>
 [AVAILABLE][CLIENT][INFO] Altering InductionSmelter Recipe(s) for <redstonearsenal:material> and <minecraft:sand>
 [AVAILABLE][CLIENT][INFO] Altering Crucible Recipe(s) for <thermalfoundation:material:1024>
@@ -696,3 +740,7 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [AVAILABLE][CLIENT][INFO] Hiding item in JEI: <deepmoblearningbm:blood_infused_glitch_ingot>
 [AVAILABLE][CLIENT][INFO] Hiding item in JEI: <deepmoblearningbm:blood_infused_glitch_nugget>
 [AVAILABLE][CLIENT][INFO] Hiding item in JEI: <deepmoblearningbm:block_blood_infused_glitch_ingot>
+[SERVER_STARTED][SERVER][ERROR] botania.zs:3 > No such member: OrechidVacuam
+[SERVER_STARTED][SERVER][ERROR] botania.zs:5 > No such member: OrechidVacuam
+[SERVER_STARTED][SERVER][ERROR] botania.zs:6 > No such member: OrechidVacuam
+[SERVER_STARTED][SERVER][ERROR] botania.zs:7 > No such member: OrechidVacuam

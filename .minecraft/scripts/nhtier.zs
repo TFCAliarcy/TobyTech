@@ -94,3 +94,17 @@ recipes.replaceAllOccurences(<ore:ingotIron>, <ore:ingotPlastic>, <deepmoblearni
 recipes.replaceAllOccurences(<ore:ingotBloodInfusedGlitch>, <bloodmagic:slate:1>, <deepmoblearningbm:digital_agonizer>);
 recipes.replaceAllOccurences(<ore:ingotBloodInfusedGlitch>, <bloodmagic:slate:1>, <deepmoblearningbm:digital_will_injector>);
 recipes.replaceAllOccurences(<deepmoblearning:soot_covered_plate>, <ore:ingotFerroboron>, <deepmoblearningbm:altar_linker>);
+
+
+// Cyberware
+recipes.replaceAllOccurences(<ore:ingotIron>, <ore:ingotVibrantAlloy>, <cyberware:blueprint_archive>);
+recipes.replaceAllOccurences(<ore:ingotIron>, <ore:ingotVibrantAlloy>, <cyberware:component_box>);
+recipes.replaceAllOccurences(<ore:ingotIron>, <ore:ingotVibrantAlloy>, <cyberware:surgery>);
+recipes.replaceAllOccurences(<ore:ingotIron>, <ore:ingotVibrantAlloy>, <cyberware:surgery_chamber>);
+recipes.replaceAllOccurences(<ore:blockIron>, <ore:blockVibrantAlloy>, <cyberware:surgery_chamber>);
+recipes.replaceAllOccurences(<ore:ingotIron>, <ore:ingotVibrantAlloy>, <cyberware:charger>);
+recipes.replaceAllOccurences(<ore:ingotIron>, <ore:ingotVibrantAlloy>, <cyberware:engineering_table>);
+recipes.replaceAllOccurences(<ore:ingotIron>, <ore:ingotVibrantAlloy>, <cyberware:scanner>);
+recipes.replaceAllOccurences(<ore:gemDiamond>, <ore:crystalCertusQuartz>, <cyberware:scanner>);
+recipes.replaceAllOccurences(<ore:ingotIron>, <ore:ingotVibrantAlloy>, <cyberware:beacon>);
+recipes.replaceAllOccurences(<ore:ingotIron>, <ore:ingotVibrantAlloy>, <cyberware:beacon_large>);

@@ -1,0 +1,25 @@
+{
+  "data_version": 1,
+  "type": 0,
+  "weight": 10,
+  "tier": 0,
+  "phase": 2,
+  "offsetX": 0,
+  "offsetY": 0,
+  "offsetZ": 0,
+  "rotation": true,
+  "structure_location": "nocubessrpnests:structures/parasite_nest",
+  "biomes": [
+    "!hot",
+    "!ocean"
+  ],
+  "dimensions": [
+    0
+  ],
+  "include_entities": [
+    "100;srparasites:rupter;3;6;0;false",
+    "70;srparasites:sim_human;2;4;0;false",
+    "100;srparasites:pri_longarms;1;1;0;false"
+  ],
+  "include_entities_structure_location": false
+}

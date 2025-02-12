@@ -1,0 +1,23 @@
+{
+  "data_version": 1,
+  "type": -1,
+  "weight": 15,
+  "tier": 1,
+  "phase": 2,
+  "offsetX": 0,
+  "offsetY": -2,
+  "offsetZ": 0,
+  "rotation": true,
+  "structure_location": "srpquark:structures/ship_pirate",
+  "biomes": [
+    "ocean"
+  ],
+  "dimensions": [
+    0
+  ],
+  "include_entities": [
+    "100;srpquark:hijacked_skeleton_pirate;8;12;0;false",
+    "50;srparasites:pri_vermin;1;1;1;false",
+    "30;srparasites:pri_devourer;1;2;-1;false"
+  ]
+}
