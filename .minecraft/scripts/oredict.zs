@@ -13,7 +13,7 @@ import crafttweaker.oredict.IOreDictEntry;
 <ore:ice&firedragonegg>.add(<iceandfire:dragonegg_sapphire>);
 <ore:ice&firedragonegg>.add(<iceandfire:dragonegg_silver>);
 <ore:ice&firedragonegg>.add(<iceandfire:dragonegg_electric>);
-<ore:ice&firedragonegg>.add(<iceandfire:dragonegg_amythest>);
+<ore:ice&firedragonegg>.add(<iceandfire:dragonegg_amethyst>);
 <ore:ice&firedragonegg>.add(<iceandfire:dragonegg_copper>);
 <ore:ice&firedragonegg>.add(<iceandfire:dragonegg_black>);
 
@@ -21,9 +21,9 @@ import crafttweaker.oredict.IOreDictEntry;
 <ore:dragonblood>.add(<iceandfire:ice_dragon_blood>);
 <ore:dragonblood>.add(<iceandfire:lightning_dragon_blood>);
 
-<ore:ingotDragonSteel>.add(<iceandfire:dragonsteel_fire_ingot>);
-<ore:ingotDragonSteel>.add(<iceandfire:dragonsteel_ice_ingot>);
-<ore:ingotDragonSteel>.add(<iceandfire:dragonsteel_lightning_ingot>);
+//<ore:ingotDragonSteel>.add(<iceandfire:dragonsteel_fire_ingot>);
+//<ore:ingotDragonSteel>.add(<iceandfire:dragonsteel_ice_ingot>);
+//<ore:ingotDragonSteel>.add(<iceandfire:dragonsteel_lightning_ingot>);
 
 <ore:blockDragonForgeBrick>.add(<iceandfire:dragonforge_lightning_brick>);
 <ore:blockDragonForgeBrick>.add(<iceandfire:dragonforge_fire_brick>);
@@ -31,8 +31,8 @@ import crafttweaker.oredict.IOreDictEntry;
 <ore:blockDragonForgeInput>.add(<iceandfire:dragonforge_ice_input>);
 <ore:blockDragonForgeInput>.add(<iceandfire:dragonforge_fire_input>);
 <ore:blockDragonForgeInput>.add(<iceandfire:dragonforge_lightning_input>);
-<ore:blockDragonForgeCore>.add(<iceandfire:dragonforge_ice_core_disabled>);
 <ore:blockDragonForgeCore>.add(<iceandfire:dragonforge_fire_core_disabled>);
+<ore:blockDragonForgeCore>.add(<iceandfire:dragonforge_ice_core_disabled>);
 <ore:blockDragonForgeCore>.add(<iceandfire:dragonforge_lightning_core_disabled>);
 
 <ore:forestrysinglefarms>.add(<forestry:arboretum>);
@@ -79,3 +79,16 @@ recipes.removeByRecipeName("biomesoplenty:amber_block");
 <ore:grass>.add(<biomesoplenty:grass:4>);
 <ore:grass>.add(<biomesoplenty:grass:5>);
 <ore:grass>.add(<biomesoplenty:grass:6>);
+
+recipes.removeByRecipeName("deepmoblearning:data_model_remnant");
+<ore:dustSpectral>.add(<ebwizardry:spectral_dust:1>);
+<ore:dustSpectral>.add(<ebwizardry:spectral_dust:2>);
+<ore:dustSpectral>.add(<ebwizardry:spectral_dust:3>);
+<ore:dustSpectral>.add(<ebwizardry:spectral_dust:4>);
+<ore:dustSpectral>.add(<ebwizardry:spectral_dust:5>);
+<ore:dustSpectral>.add(<ebwizardry:spectral_dust:6>);
+<ore:dustSpectral>.add(<ebwizardry:spectral_dust:7>);
+recipes.addShapeless(<deepmoblearning:data_model_remnant>,[<deepmoblearning:data_model_blank>, <ore:dustSpectral>]);
+
+<ore:listAllsugar>.add(<forestry:honey_drop:0>);
+<ore:foodHoneydrop>.add(<forestry:honey_drop:0>);

@@ -1,4 +1,7 @@
 {
+  "preRequisites:11": [
+    12
+  ],
   "properties:10": {
     "betterquesting:10": {
       "desc:8": "General Layman\u0027s Aesthetic Spying Screen (GLASS) allows you to set up an in game screen showing what your terminal sees. An massive caveat is that it only renders when you\u0027d be in range, so it allows you to see stuff through walls but not from far away.\n\nThe GLASS terminal is essentially your camera. Place this down and right click it to set a channel and if it is a public channel or private channel.\n\nThe GLASS projector shows what is seen by the terminal when powered with redstone, and it also extends that to any neighbouring GLASS extensions. You can set which channel it\u0027s connecting to by placing it and right clicking the block. You can also adjust the order of the wireless extensions connected to it.\n\nConnecting a GLASS wireless extension to a GLASS projector instantly toggles the GLASS projector to wireless mode. In wireless mode, views are drawn in triangles, with the first point of the triangle being the GLASS projector and the next two GLASS wireless extensions in order of addition. Every other triangle after will use the previous last two GLASS wireless extensions for their points. (For the code savvy, look up GL_TRIANGLE_STRIP). You can connect a single wireless extension multiple times to multiple GLASS projectors by right clicking the block.",

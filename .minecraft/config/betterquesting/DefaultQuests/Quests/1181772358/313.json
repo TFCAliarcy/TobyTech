@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Forestry is a mod about using machines to automate your agriculture with machines and also using bees to acquire resources.\n\nMost forestry machines work in that you set a recipe by placing the recipe of what you want to craft in it (it won\u0027t consume them) and then placing said items you craft it with in its internal inventory. It will then need power and potentially liquids put in it before it can work.\n\nThe carpenter will also often require you to place in item in the top slot for it to work.\n\nYou will probably want more than one of these, one for each fluid usually.",
+      "desc:8": "Forestry is a mod about using machines to automate your agriculture with machines and also using bees to acquire resources.\n\nMost forestry machines work in that you set a recipe by placing the recipe of what you want to craft in it (it won\u0027t consume them) and then placing said items you craft it with in its internal inventory. It will then need power and potentially liquids put in it before it can work.\n\nThe carpenter will also often require you to place in item in the top slot for it to work.\n\nYou will probably want more than one of these, one for each fluid usually.\n\nAlso pretty much every forestry machine, ie uses a machine frame, uses power.",
       "icon:10": {
         "Count:3": 1,
         "ForgeCaps:10": {

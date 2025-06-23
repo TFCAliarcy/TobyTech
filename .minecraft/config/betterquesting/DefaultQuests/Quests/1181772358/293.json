@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "The analyzer is used to look at the genes of a bee, tree, or butterfly at the cost of a honey drop (or honeydew) to reveal them.",
+      "desc:8": "The analyzer is used to look at the genes of a bee, tree, or butterfly at the cost of a honey drop (or honeydew) to reveal them.\n\nThe numerals on the side show different information when you place a scanned bee in them.",
       "icon:10": {
         "Count:3": 1,
         "ForgeCaps:10": {

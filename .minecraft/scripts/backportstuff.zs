@@ -11,7 +11,7 @@ mods.chisel.Carving.addGroup("blockAmethyst");
 mods.chisel.Carving.addVariation("blockAmethyst", <deeperdepths:amethyst_block>);
 mods.chisel.Carving.addVariation("blockAmethyst", <biomesoplenty:gem_block:0>);
 mods.chisel.Carving.addVariation("blockAmethyst", <bewitchment:block_of_amethyst>);
-mods.chisel.Carving.addVariation("blockAmethyst", <iceandfire:amythest_block>);
+mods.chisel.Carving.addVariation("blockAmethyst", <iceandfire:amethyst_block>);
 
 //Copper
 <ore:blockCopper>.add(<deeperdepths:chiseled_copper:0>);
@@ -40,12 +40,5 @@ mods.chisel.Carving.addVariation("blackstone", <nb:cracked_stone_bricks>);
 
 recipes.addShapeless(<minecraft:nether_wart> *9,[<minecraft:nether_wart_block>]);
 
-recipes.removeByRecipeName("deepmoblearning:data_model_remnant");
-<ore:dustSpectral>.add(<ebwizardry:spectral_dust:1>);
-<ore:dustSpectral>.add(<ebwizardry:spectral_dust:2>);
-<ore:dustSpectral>.add(<ebwizardry:spectral_dust:3>);
-<ore:dustSpectral>.add(<ebwizardry:spectral_dust:4>);
-<ore:dustSpectral>.add(<ebwizardry:spectral_dust:5>);
-<ore:dustSpectral>.add(<ebwizardry:spectral_dust:6>);
-<ore:dustSpectral>.add(<ebwizardry:spectral_dust:7>);
-recipes.addShapeless(<deepmoblearning:data_model_remnant>,[<deepmoblearning:data_model_blank>, <ore:dustSpectral>]);
+recipes.addShapeless(<forestry:honey_drop> *9,[<futuremc:honey_block>]);
+recipes.addShapeless(<futuremc:honey_block>,[<forestry:honey_drop>,<forestry:honey_drop>,<forestry:honey_drop>,<forestry:honey_drop>,<forestry:honey_drop>,<forestry:honey_drop>,<forestry:honey_drop>,<forestry:honey_drop>,<forestry:honey_drop>]);

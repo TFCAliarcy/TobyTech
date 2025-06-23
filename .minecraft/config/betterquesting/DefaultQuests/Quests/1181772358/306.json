@@ -5,7 +5,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "The Alveary is a customizable multiblock that is a 3x3x3 of alveary blocks with a 3x3 of wooden slabs on the top with a texture being shown on the top layer of the alveary blocks when completed.\n\nAt base the alveary has a bonus to your bee\u0027s production by what sets it apart are the blocks you can customize it with. There are a variety of blocks which you can place in the alveary to give different affects which are listed in quests after this.\n\nNote that you can\u0027t replace the top row of alveary blocks or the mutliblock won\u0027t form but you can mix and match which wooden slabs you use.",
+      "desc:8": "The Alveary is a customizable multiblock that is a 3x3x3 of alveary blocks with a 3x3 of wooden slabs on the top with a texture being shown on the top layer of the alveary blocks when completed.\n\nAt base the alveary has a 10x bonus to your bee\u0027s production but what sets it apart are the blocks you can customize it with. There are a variety of blocks which you can place in the alveary to give different affects which are listed in quests after this.\n\nNote that you can\u0027t replace the top row of alveary blocks or the mutliblock won\u0027t form but you can mix and match which wooden slabs you use.",
       "icon:10": {
         "Count:3": 1,
         "ForgeCaps:10": {

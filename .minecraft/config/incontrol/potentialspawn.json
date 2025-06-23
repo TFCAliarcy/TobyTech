@@ -1,3 +1,35 @@
 [
-    
-]
+  {
+    "dimension": 0,
+    "biome": "minecraft:beach",
+    "mobs": [
+      {
+        "mob": "oe:crab",
+        "weight": 10,
+        "groupcountmin": 1,
+        "groupcountmax": 5
+      }
+    ],
+    "result":"allow"
+  },
+  {
+    "mob": "minecraft:squid",
+    "seesky": true,
+    "biome": ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:beach", "minecraft:frozen_ocean", "buildcraftenergy:oil_ocean", "biomesoplenty:kelp_forest", "biomesoplenty:gravel_beach" ,"biomesoplenty:coral_reef"],
+    "result": "allow"
+  },
+  {
+    "mob": "minecraft:squid",
+    "result": "deny"
+  },
+  {
+    "mob": "oe:salmon",
+    "seesky": true,
+    "result": "allow"
+  },
+  {
+    "mob": "oe:cod",
+    "seesky": true,
+    "result": "allow"
+  }
+  ]

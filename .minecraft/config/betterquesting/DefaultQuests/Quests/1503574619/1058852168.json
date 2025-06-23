@@ -1,0 +1,31 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "While you can\u0027t eat pumpkins directly, you can craft them into a pumpkin item which you can.",
+      "icon:10": {
+        "Count:3": 1,
+        "ForgeCaps:10": {
+          "wizardryutils:summoneditemdata:10": {}
+        },
+        "id:8": "harvestcraft:harvestpumpkinitem"
+      },
+      "name:8": "Eating Pumpkins"
+    }
+  },
+  "questID:3": 1058852168,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "harvestcraft:harvestpumpkinitem"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

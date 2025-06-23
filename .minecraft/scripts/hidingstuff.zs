@@ -54,3 +54,4 @@ mods.jei.JEI.removeAndHide(<rftools:powercell_simple>);
 mods.jei.JEI.removeAndHide(<rftools:charged_porter>);
 mods.jei.JEI.removeAndHide(<rftools:advanced_charged_porter>);
 mods.jei.JEI.removeAndHide(<pollutionplus:tile_alloy_furnace>);
+

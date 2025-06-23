@@ -108,3 +108,4 @@ recipes.replaceAllOccurences(<ore:ingotIron>, <ore:ingotVibrantAlloy>, <cyberwar
 recipes.replaceAllOccurences(<ore:gemDiamond>, <ore:crystalCertusQuartz>, <cyberware:scanner>);
 recipes.replaceAllOccurences(<ore:ingotIron>, <ore:ingotVibrantAlloy>, <cyberware:beacon>);
 recipes.replaceAllOccurences(<ore:ingotIron>, <ore:ingotVibrantAlloy>, <cyberware:beacon_large>);
+recipes.addShapeless(<cyberware:neuropozyne> *8,[<minecraft:glass_bottle>,<ore:dustSilver>,<ore:listAllsugar>, <ore:itemPulsatingPowder>]);

@@ -31,6 +31,22 @@
         "deepmoblearning:3_system_malfunction/0_system_glitches"
       ],
       "completedManualQuests": []
+    },
+    "bewitchment:codex_infernalis": {
+      "viewedEntries": [
+        "bewitchment:transformations/preface",
+        "bewitchment:curses/solar_hatred",
+        "bewitchment:demonic_gear/vampiric_amulet",
+        "bewitchment:greater_demons/mercy"
+      ],
+      "bookmarks": [],
+      "history": [
+        "bewitchment:greater_demons/mercy",
+        "bewitchment:demonic_gear/vampiric_amulet",
+        "bewitchment:curses/solar_hatred",
+        "bewitchment:transformations/preface"
+      ],
+      "completedManualQuests": []
     }
   }
 }

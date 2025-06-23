@@ -1,0 +1,32 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Do you want to show off your hats but have run into the issue of only having one head to wear them? Introducing the Hat Stand! This device can be placed onto a block and when right clicked will allow you to choose one of your hats to display for all to see.",
+      "icon:10": {
+        "Count:3": 1,
+        "ForgeCaps:10": {
+          "astralsorcery:cap_item_amulet_holder:10": {},
+          "wizardryutils:summoneditemdata:10": {}
+        },
+        "id:8": "rats:top_hat"
+      },
+      "name:8": "Displaying your Hats"
+    }
+  },
+  "questID:3": 1211603637,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "hatstand:hatstand"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "preRequisites:11": [
+    10
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Cooking for Blockheads adds many blocks dedicated to making it easier to cook your food, especially Pam\u0027s foods. The main draw of these blocks is that they can access each other when connected by other blocks from cooking with blockheads. Said blocks can be roughly split into two sections, those that process food, and those that store food.\n\nThe first set of blocks required to complete this quest are those required to process food or provide resources. Of special note is that the sink is an infinite source of water that can be pumped out as fast as your pipes can handle.\n\nTo Cow in a Jar acts as an infinite source of milk any recipes. You make it by dropping an anvil on top of a cow on top of a jar.\n\nThe second set of blocks are used to store food, the reason you\u0027d use these over chests (beyond aesthetics) is so your cooking table can access them. Another block of note are the cooking tiles, they count for being able to grant your cooking table access to blocks that would not be otherwise connected.\n\nThe third are upgrade items.\n\nDo note that you can dye much of the blocks provided by right-clicking on them with dye in hand.",
+      "icon:10": {
+        "Count:3": 1,
+        "ForgeCaps:10": {
+          "wizardryutils:summoneditemdata:10": {}
+        },
+        "id:8": "cookingforblockheads:cooking_table"
+      },
+      "name:8": "Cooking for Blockheads"
+    }
+  },
+  "questID:3": 87964442,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "cookingforblockheads:cooking_table"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "cookingforblockheads:oven"
+        },
+        "2:10": {
+          "Count:3": 2,
+          "ForgeCaps:10": {
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "cookingforblockheads:fridge"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "cookingforblockheads:sink"
+        },
+        "4:10": {
+          "Count:3": 2,
+          "ForgeCaps:10": {
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "cookingforblockheads:tool_rack"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "cookingforblockheads:toaster"
+        },
+        "6:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "cookingforblockheads:cow_jar"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "cookingforblockheads:spice_rack"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "cookingforblockheads:counter"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "cookingforblockheads:cabinet"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "cookingforblockheads:corner"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "cookingforblockheads:kitchen_floor"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "cookingforblockheads:fruit_basket"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "2:10": {
+      "index:3": 2,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "astralsorcery:cap_item_amulet_holder:10": {},
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "cookingforblockheads:heating_unit"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "astralsorcery:cap_item_amulet_holder:10": {},
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "cookingforblockheads:ice_unit"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "astralsorcery:cap_item_amulet_holder:10": {},
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "cookingforblockheads:preservation_chamber"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

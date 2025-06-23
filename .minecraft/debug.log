@@ -1,0 +1,34 @@
+[0401/141127.273:INFO:CONSOLE(1)] "Navigation API not supported, loading polyfill", source: https://www.redditstatic.com/shreddit/en-US/shell-278aa844.js (1)
+[0401/141127.622:INFO:CONSOLE(1)] "Navigation listeners online", source: https://www.redditstatic.com/shreddit/en-US/shell-278aa844.js (1)
+[0401/141127.682:INFO:CONSOLE(72)] "[GSI_LOGGER]: Your client application uses one of the Google One Tap prompt UI status methods that may stop functioning when FedCM becomes mandatory. Refer to the migration guide to update your code accordingly and opt-in to FedCM to test your changes. Learn more: https://developers.google.com/identity/gsi/web/guides/fedcm-migration?s=dc#display_moment and https://developers.google.com/identity/gsi/web/guides/fedcm-migration?s=dc#skipped_moment", source: https://accounts.google.com/gsi/client (72)
+[0401/141127.881:WARNING:browser_info.cc(301)] Returning a speculative frame for 34359738373 [8,5]
+[0401/141127.940:WARNING:browser_info.cc(301)] Returning a speculative frame for 34359738373 [8,5]
+[0401/141127.940:WARNING:browser_info.cc(301)] Returning a speculative frame for 34359738373 [8,5]
+[0401/141127.940:WARNING:browser_info.cc(301)] Returning a speculative frame for 34359738373 [8,5]
+[0401/141127.940:WARNING:browser_info.cc(301)] Returning a speculative frame for 34359738373 [8,5]
+[0401/141127.948:WARNING:browser_info.cc(301)] Returning a speculative frame for 34359738379 [8,11]
+[0401/141127.948:WARNING:browser_info.cc(301)] Returning a speculative frame for 34359738379 [8,11]
+[0401/141127.948:WARNING:browser_info.cc(301)] Returning a speculative frame for 34359738379 [8,11]
+[0401/141127.948:WARNING:browser_info.cc(301)] Returning a speculative frame for 34359738379 [8,11]
+[0401/141127.971:WARNING:browser_info.cc(301)] Returning a speculative frame for 34359738376 [8,8]
+[0401/141127.971:WARNING:browser_info.cc(301)] Returning a speculative frame for 34359738376 [8,8]
+[0401/141127.971:WARNING:browser_info.cc(301)] Returning a speculative frame for 34359738376 [8,8]
+[0401/141127.971:WARNING:browser_info.cc(301)] Returning a speculative frame for 34359738376 [8,8]
+[0401/141128.644:INFO:CONSOLE(227)] "Deprecated API for given entry type.", source: https://www.gstatic.com/recaptcha/releases/hbAq-YhJxOnlU-7cpgBoAJHb/recaptcha__en.js (227)
+[0401/141138.935:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'ch-ua-form-factors'.", source:  (0)
+[0401/141139.721:WARNING:browser_info.cc(301)] Returning a speculative frame for 42949672965 [10,5]
+[0401/141139.871:WARNING:browser_info.cc(301)] Returning a speculative frame for 42949672965 [10,5]
+[0401/141139.872:WARNING:browser_info.cc(301)] Returning a speculative frame for 42949672965 [10,5]
+[0401/141139.872:WARNING:browser_info.cc(301)] Returning a speculative frame for 42949672965 [10,5]
+[0401/141139.872:WARNING:browser_info.cc(301)] Returning a speculative frame for 42949672965 [10,5]
+[0401/141139.874:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'ch-ua-form-factors'.", source:  (0)
+[0401/141139.983:INFO:CONSOLE(9679)] "LegacyDataMixin will be applied to all legacy elements.
+Set `_legacyUndefinedCheck: true` on element class to enable.", source: https://www.youtube.com/s/_/ytmainappweb/_/js/k=ytmainappweb.kevlar_base.en_US.902edMZ3vvE.es5.O/d=0/br=1/rs=AGKMywHXUnRhzIDCuaxkVdhpqOTRKEWo9w (9679)
+[0401/141140.517:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'ch-ua-form-factors'.", source:  (0)
+[0401/141141.266:INFO:CONSOLE(9679)] "LegacyDataMixin will be applied to all legacy elements.
+Set `_legacyUndefinedCheck: true` on element class to enable.", source: https://www.youtube.com/s/_/ytmainappweb/_/js/k=ytmainappweb.kevlar_base.en_US.902edMZ3vvE.es5.O/d=0/br=1/rs=AGKMywHXUnRhzIDCuaxkVdhpqOTRKEWo9w (9679)
+[0401/141151.916:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'ch-ua-form-factors'.", source:  (0)
+[0401/141152.292:WARNING:frame_impl.cc(423)] OnDidFinishLoad sent to detached frame 51539607557 [12,5] will be ignored
+[0401/141152.415:WARNING:frame_impl.cc(423)] OnDidFinishLoad sent to detached frame 51539607558 [12,6] will be ignored
+[0401/141154.140:INFO:CONSOLE(0)] "Access to fetch at 'https://googleads.g.doubleclick.net/pagead/viewthroughconversion/962985656/?backend=innertube&cname=56&cver=20250331&foc_id=H-_hzb2ILSCo9ftVSnrCIQ&label=followon_view&ptype=no_rmkt&random=1039266598&cv_attributed=0' (redirected from 'https://www.youtube.com/pagead/viewthroughconversion/962985656/?backend=innertube&cname=56&cver=20250331&foc_id=H-_hzb2ILSCo9ftVSnrCIQ&label=followon_view&ptype=no_rmkt&random=1039266598') from origin 'https://www.youtube.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. If an opaque response serves your needs, set the request's mode to 'no-cors' to fetch the resource with CORS disabled.", source: https://www.youtube.com/embed/6TrQB-02QMM (0)
+[0401/141200.438:WARNING:sync_reader.cc(237)] ASR: No room in socket buffer.: The pipe is being closed. (0xE8)

@@ -29,7 +29,7 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 10,
+          "Damage:2": 16,
           "ForgeCaps:10": {
             "astralsorcery:cap_item_amulet_holder:10": {},
             "wizardryutils:summoneditemdata:10": {}
@@ -37,7 +37,7 @@
           "id:8": "simplyjetpacks:itemjetpack",
           "tag:10": {
             "Energy:3": 0,
-            "JetpackParticleType:3": 0
+            "JetpackParticle:3": 0
           }
         }
       },

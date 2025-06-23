@@ -1,0 +1,64 @@
+{
+  "preRequisites:11": [
+    152
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "If sticking stuff you pulled off of rotten corpses straight into you isn\u0027t your style then you can instead break them down into component parts and manufacture cleaner and more efficient cyberware instead. With them costing half as much tolerance than your salvaged parts!\n\nYou start by crafting parts with a blank blueprint and it will apply the part onto the blueprint while returning your part to you. You then disassemble your salvaged parts in the engineering table to get some of the parts needed to make a manufactured version of it.\n\nBecause of this you\u0027ll need multiple salvaged to get a manufactored, so don\u0027t use up the last copies of your salvaged parts.\n\nThe blocks listed as optional requests allow you to store blueprints and parts within a 2 block radius of your engineering station and placing multple increases your storage.",
+      "icon:10": {
+        "Count:3": 1,
+        "ForgeCaps:10": {
+          "wizardryutils:summoneditemdata:10": {}
+        },
+        "id:8": "cyberware:engineering_table"
+      },
+      "name:8": "Reverse Engineering"
+    }
+  },
+  "questID:3": 22765664,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "cyberware:engineering_table"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "ForgeCaps:10": {
+            "astralsorcery:cap_item_amulet_holder:10": {},
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "cyberware:blueprint"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "cyberware:blueprint_archive"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "astralsorcery:cap_item_amulet_holder:10": {},
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "cyberware:component_box"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

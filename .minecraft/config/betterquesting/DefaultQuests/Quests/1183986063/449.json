@@ -1,4 +1,7 @@
 {
+  "preRequisites:11": [
+    12
+  ],
   "properties:10": {
     "betterquesting:10": {
       "desc:8": "Just some blocks using animated textures to look like the void.",

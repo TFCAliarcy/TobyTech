@@ -5,9 +5,9 @@ import crafttweaker.item.IItemStack;
 furnace.remove(<draconicevolution:draconium_ingot>);
 <projectred-expansion:infused_ender_pearl>.displayName = "Compressed Draconium Dust";
 mods.thermalexpansion.Compactor.addPressRecipe(<projectred-expansion:infused_ender_pearl>, <draconicevolution:draconium_dust> *8, 15000);
-mods.iceandfire.recipes.addFireDragonForgeRecipe(<redstonearsenal:material:32>, <projectred-expansion:infused_ender_pearl>, <draconicevolution:draconium_ingot>);
-mods.iceandfire.recipes.addIceDragonForgeRecipe(<redstonearsenal:material:32>, <projectred-expansion:infused_ender_pearl>, <draconicevolution:draconium_ingot>);
-mods.iceandfire.recipes.addLightningDragonForgeRecipe(<redstonearsenal:material:32>, <projectred-expansion:infused_ender_pearl>, <draconicevolution:draconium_ingot>);
+mods.iceandfire.recipes.addFireDragonForgeRecipe(<redstonearsenal:material:32>, <projectred-expansion:infused_ender_pearl>, <draconicevolution:draconium_ingot>, true);
+mods.iceandfire.recipes.addIceDragonForgeRecipe(<redstonearsenal:material:32>, <projectred-expansion:infused_ender_pearl>, <draconicevolution:draconium_ingot>, true);
+mods.iceandfire.recipes.addLightningDragonForgeRecipe(<redstonearsenal:material:32>, <projectred-expansion:infused_ender_pearl>, <draconicevolution:draconium_ingot>, true);
 recipes.removeByRecipeName("draconicevolution:draconium_ingot_1");
 recipes.addShaped(<draconicevolution:draconium_dust>,
 [[<mysticalagriculture:draconium_essence>, <mysticalagriculture:draconium_essence>, <mysticalagriculture:draconium_essence>],

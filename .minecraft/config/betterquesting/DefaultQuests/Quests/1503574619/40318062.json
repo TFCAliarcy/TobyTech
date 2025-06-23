@@ -1,0 +1,36 @@
+{
+  "preRequisites:11": [
+    10
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The lunchbox is a useful way to carry around multiple stacks of food around with you, some would say 6 stacks even. You might be able to guess as to why having 5 extra slots for food might be good.\n\nIt has two modes, the first it is in when you craft it and allows you to store and remove food from it.\n\nYou access the second mode by shift right-clicking with it and once in that mode will allow you to eat food from it by simply holding right click as though you were eating it.",
+      "icon:10": {
+        "Count:3": 1,
+        "ForgeCaps:10": {
+          "astralsorcery:cap_item_amulet_holder:10": {},
+          "wizardryutils:summoneditemdata:10": {}
+        },
+        "id:8": "spiceoflife:lunchbox"
+      },
+      "name:8": "Lunchbox, Lunchbox, come get your Lunchbox!"
+    }
+  },
+  "questID:3": 40318062,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "astralsorcery:cap_item_amulet_holder:10": {},
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "spiceoflife:lunchbox"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,4 +1,7 @@
 {
+  "preRequisites:11": [
+    540
+  ],
   "properties:10": {
     "betterquesting:10": {
       "desc:8": "Botany is a mod about breeding flowers and using said flowers to make pigments used for ceramic blocks. You start this by using a trowel on an area of grass and placing a flower or two down on the soil. If you place down a flower of a single kind (like just poppies) it will spread to empty soil, but if you place different flowers near each other they will cross pollinate, note that they don\u0027t need to have a space between them, just a space nearby.\n\nWhen flowers cross pollinate the most common result is that they will exchange visual traits such as changing the color of the stem or flower which can get you a new color of pigment. But you can also sometimes get a new kind of flower.\n\nBe aware that leaving empty soil around can spawn weeds, these weeds won\u0027t kill your flowers they spread and eventually die, overall they are pretty harmless.\n\nAlso note that flowers will die overtime but by that point will have probably spread to make more of them.\n\nAlso not all flowers can grow in certain areas and soil from different places have different properties. You can find info on them more in the quest above this one. I recomend just starting out in a plains or forest at around sea level.",

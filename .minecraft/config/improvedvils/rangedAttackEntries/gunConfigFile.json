@@ -1,0 +1,188 @@
+[[
+	{
+	"coolDown":60,
+	"burstCoolDown":0,
+	"shotsForBurst":0,
+	"projectiles":0,
+	"attackRange":0,
+	"meleeInRange":false,
+	"farnessFactor":true,
+	"itemUnlocalizedName":"item.bow"
+	},
+	[{"ballisticData":
+		{
+		"mass":0.0,
+		"low_coefficient":0.0,
+		"high_coefficient":0.0,
+		"velocity":0.0,
+		"inaccuracy":0.0
+		},
+		"type":"BOW",
+		"consumables":
+			{
+			"item.arrow":1
+			}
+	}]
+]
+,
+[
+	{
+	"coolDown":300,
+	"burstCoolDown":0,
+	"shotsForBurst":1,
+	"projectiles":1,
+	"attackRange":32.0,
+	"meleeInRange":false,
+	"farnessFactor":false,
+	"itemUnlocalizedName":"item.musket"
+	},
+	[{"ballisticData":
+		{
+		"mass":20.0,
+		"low_coefficient":0.5,
+		"high_coefficient":0.9,
+		"velocity":30.0,
+		"inaccuracy":3.0
+		},
+		"type":"SINGLESHOT",
+		"consumables":
+			{
+			"item.musket_bullet":1
+			}
+	}]
+]
+,
+[
+	{
+	"coolDown":300,
+	"burstCoolDown":0,
+	"shotsForBurst":1,
+	"projectiles":1,
+	"attackRange":32.0,
+	"meleeInRange":true,
+	"farnessFactor":false,
+	"itemUnlocalizedName":"item.diamond_musket"
+	},
+	[{"ballisticData":
+		{
+		"mass":20.0,
+		"low_coefficient":0.5,
+		"high_coefficient":0.9,
+		"velocity":30.0,
+		"inaccuracy":3.0
+		},
+		"type":"SINGLESHOT",
+		"consumables":
+			{
+			"item.musket_bullet":1
+			}
+	}]
+]
+,
+[
+	{
+	"coolDown":300,
+	"burstCoolDown":0,
+	"shotsForBurst":1,
+	"projectiles":1,
+	"attackRange":32.0,
+	"meleeInRange":true,
+	"farnessFactor":false,
+	"itemUnlocalizedName":"item.iron_musket"
+	},
+	[{"ballisticData":
+		{
+		"mass":20.0,
+		"low_coefficient":0.5,
+		"high_coefficient":0.9,
+		"velocity":30.0,
+		"inaccuracy":3.0
+		},
+		"type":"SINGLESHOT",
+		"consumables":
+			{
+			"item.musket_bullet":1
+			}
+	}]
+]
+,
+[
+	{
+	"coolDown":300,
+	"burstCoolDown":0,
+	"shotsForBurst":1,
+	"projectiles":1,
+	"attackRange":32.0,
+	"meleeInRange":true,
+	"farnessFactor":false,
+	"itemUnlocalizedName":"item.golden_musket"
+	},
+	[{"ballisticData":
+		{
+		"mass":20.0,
+		"low_coefficient":0.5,
+		"high_coefficient":0.9,
+		"velocity":30.0,
+		"inaccuracy":3.0
+		},
+		"type":"SINGLESHOT",
+		"consumables":
+			{
+			"item.musket_bullet":1
+			}
+	}]
+]
+,
+[
+	{
+	"coolDown":300,
+	"burstCoolDown":0,
+	"shotsForBurst":1,
+	"projectiles":1,
+	"attackRange":32.0,
+	"meleeInRange":true,
+	"farnessFactor":false,
+	"itemUnlocalizedName":"item.stone_musket"
+	},
+	[{"ballisticData":
+		{
+		"mass":20.0,
+		"low_coefficient":0.5,
+		"high_coefficient":0.9,
+		"velocity":30.0,
+		"inaccuracy":3.0
+		},
+		"type":"SINGLESHOT",
+		"consumables":
+			{
+			"item.musket_bullet":1
+			}
+	}]
+]
+,
+[
+	{
+	"coolDown":300,
+	"burstCoolDown":0,
+	"shotsForBurst":1,
+	"projectiles":1,
+	"attackRange":32.0,
+	"meleeInRange":true,
+	"farnessFactor":false,
+	"itemUnlocalizedName":"item.wooden_musket"
+	},
+	[{"ballisticData":
+		{
+		"mass":15.0,
+		"low_coefficient":0.5,
+		"high_coefficient":0.9,
+		"velocity":20.0,
+		"inaccuracy":3.0
+		},
+		"type":"SINGLESHOT",
+		"consumables":
+			{
+			"item.musket_bullet":1
+			}
+	}]
+]]

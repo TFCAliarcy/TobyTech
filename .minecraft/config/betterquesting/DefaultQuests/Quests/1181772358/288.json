@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "The centrifuge is used to get items from combs and propoli.",
+      "desc:8": "The centrifuge is used to get items from combs and propoli. Note that you should probably use the thermal expansion centrifuge instead as you can upgrade it.",
       "icon:10": {
         "Count:3": 1,
         "ForgeCaps:10": {

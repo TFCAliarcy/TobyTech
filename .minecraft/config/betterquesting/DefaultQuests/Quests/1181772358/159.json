@@ -1,7 +1,7 @@
 {
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Get from mob drops",
+      "desc:8": "Mystical Agriculture is a mod based around the concept of growing your resources with crops. Use crops to grow essences used to make materials, mob drops, tools, armor and possibly even more!\n\nFeatures:\n\nAdds more than 130 resource crops for tons of Vanilla and Modded ingredients, materials and mob drops!\n§r\nIncrease crop growth speed with Growth Accelerators and Watering Cans.\n§r\nUse your extra resource essences to enchant tools, armor or books with the Enchanter!\n\nInfernium is an essential resource for Mystical Agriculture and is firstly acquired from mob drops, any, even passive mobs. But you will probably want to use essence crops once you get those.",
       "icon:10": {
         "Count:3": 1,
         "ForgeCaps:10": {
@@ -9,7 +9,7 @@
         },
         "id:8": "mysticalagriculture:crafting"
       },
-      "name:8": "Infernium"
+      "name:8": "Infernium \u0026 Mystical Agriculture"
     }
   },
   "questID:3": 159,

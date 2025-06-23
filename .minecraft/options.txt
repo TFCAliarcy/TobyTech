@@ -2,7 +2,7 @@ version:1343
 invertYMouse:false
 mouseSensitivity:0.5
 fov:0.75
-gamma:0.0
+gamma:1.0
 saturation:0.0
 renderDistance:12
 guiScale:3
@@ -29,7 +29,7 @@ fullscreen:false
 enableVsync:true
 useVbo:true
 hideServerAddress:false
-advancedItemTooltips:true
+advancedItemTooltips:false
 pauseOnLostFocus:true
 touchscreen:false
 overrideWidth:0
@@ -129,7 +129,7 @@ key_quark.keybind.chestDropoff:0
 key_quark.keybind.chestMerge:0
 key_quark.keybind.chestRestock:0
 key_quark.keybind.chestExtract:0
-key_key.betterquesting.quests:34
+key_key.betterquesting.quests:41
 key_key.betterquesting.back:14
 key_bloodmagic.keybind.open_holding:35
 key_bloodmagic.keybind.cycle_holding_pos:13:SHIFT
@@ -137,6 +137,7 @@ key_bloodmagic.keybind.cycle_holding_neg:12:SHIFT
 key_keybind.railcraft.cart.bed:208
 key_cos.key.opencosarmorinventory:0
 key_Flying Mount Descent (Mo' Creatures):0
+key_Open sound muffler screen:0
 key_key.exchangers.open_gui:51
 key_key.exchangers.range_switch:0
 key_key.exchangers.mode_switch:0
@@ -155,6 +156,10 @@ key_Dragons Breath:35
 key_Teleport:81
 key_key.moreoverlays.lightoverlay.desc:65
 key_key.moreoverlays.chunkbounds.desc:67
+key_key.musicplayer.open:66
+key_key.musicplayer.pause:72:ALT
+key_key.musicplayer.skip.forward:73:ALT
+key_key.musicplayer.skip.back:71:ALT
 key_openblocks.keybind.vario_switch:47
 key_openblocks.keybind.vario_vol_up:0
 key_openblocks.keybind.vario_vol_down:0
@@ -183,6 +188,7 @@ key_key.open_wireless_terminal.desc:20:SHIFT
 key_key.open_wireless_crafting_terminal.desc:18:SHIFT
 key_key.open_wireless_pattern_terminal.desc:81
 key_key.open_wireless_fluid_terminal.desc:33:SHIFT
+key_key.open_wireless_interface_terminal.desc:23:SHIFT
 key_key.jei.toggleOverlay:24:CONTROL
 key_key.jei.focusSearch:33:CONTROL
 key_key.jei.toggleCheatMode:0
@@ -256,11 +262,6 @@ key_key.itemzoom.toggle:0:SHIFT
 key_key.itemzoom.hold:0
 key_key.itemzoom.zoom.in:0
 key_key.itemzoom.zoom.out:0
-key_mapfrontiers.key.open_settings:66
-key_key.music_player_gui:81
-key_key.music_player_toggle:80
-key_key.music_player_next:81
-key_key.music_player_previous:79
 key_pi.key.open_pi:0
 key_pi.key.et_gui:23
 key_pi.key.et_world:23:CONTROL
@@ -269,7 +270,7 @@ key_keybind.simplyjetpacks.engine:34
 key_keybind.simplyjetpacks.charger:0
 key_keybind.simplyjetpacks.hover:-96
 key_keybind.simplyjetpacks.emergency_hover:0
-key_techguns.key.toggleNightvision:49
+key_techguns.key.toggleNightvision:25
 key_techguns.key.toggleSafemode:48
 key_techguns.key.toggleStepassist:81
 key_techguns.key.forceReload:19

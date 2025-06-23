@@ -1,4 +1,7 @@
 {
+  "preRequisites:11": [
+    294
+  ],
   "properties:10": {
     "betterquesting:10": {
       "desc:8": "So Botany added Electron Tubes which are used to configure circuits used to automate flowers in the Foresty Multiblock farm. I haven\u0027t tried them yet and not even the people who made GT:NH know if they even work but I have this here so you know about them if you want to test them out.\n\nIt seems like their purpose is to ensure the soil is exactly how you want it to be for your picky flowers and maybe auto harvest them but like I said I haven\u0027t tried them yet.",

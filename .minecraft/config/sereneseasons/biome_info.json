@@ -1,4 +1,9 @@
 {
+  "minecraft:beach": {
+    "enable_seasonal_effects": true,
+    "use_tropical_seasons": true,
+    "disable_crops": false
+  },
   "minecraft:jungle_edge": {
     "enable_seasonal_effects": true,
     "use_tropical_seasons": true,

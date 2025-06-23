@@ -59,10 +59,10 @@ recipes.addShaped(<railcraft:equipment:2>, [
 	[<ore:plankWood>, <minecraft:golden_carrot>, <ore:plankWood>]]);
 
 // Dragonsteel
-mods.iceandfire.recipes.removeFireDragonForgeRecipe(<iceandfire:dragonsteel_fire_ingot>);
-mods.iceandfire.recipes.removeIceDragonForgeRecipe(<iceandfire:dragonsteel_ice_ingot>);
-mods.iceandfire.recipes.addFireDragonForgeRecipe(<thermalfoundation:material:160>, <iceandfire:fire_dragon_blood>, <iceandfire:dragonsteel_fire_ingot>);
-mods.iceandfire.recipes.addIceDragonForgeRecipe(<thermalfoundation:material:160>, <iceandfire:ice_dragon_blood>, <iceandfire:dragonsteel_ice_ingot>);
+//mods.iceandfire.recipes.removeFireDragonForgeRecipe(<iceandfire:dragonsteel_fire_ingot>);
+//mods.iceandfire.recipes.removeIceDragonForgeRecipe(<iceandfire:dragonsteel_ice_ingot>);
+//mods.iceandfire.recipes.addFireDragonForgeRecipe(<thermalfoundation:material:160>, <iceandfire:fire_dragon_blood>, <iceandfire:dragonsteel_fire_ingot>);
+//mods.iceandfire.recipes.addIceDragonForgeRecipe(<thermalfoundation:material:160>, <iceandfire:ice_dragon_blood>, <iceandfire:dragonsteel_ice_ingot>);
 
 // Thermal Expansion Recipes
 
@@ -190,3 +190,9 @@ recipes.addShaped(<rats:rat_seed_bowl>, [
 	[<ore:listAllseed>,<ore:listAllseed>,<ore:listAllseed>], 
 	[<ore:plastic>,null,<ore:plastic>],
 	[<ore:plastic>, <ore:plastic>, <ore:plastic>]]);
+
+// Hat Stand
+recipes.addShaped(<hatstand:hatstand>, [
+	[null,null,null], 
+	[null,<ore:stickWood>,null],
+	[null, <ore:plankWood>, null]]);	

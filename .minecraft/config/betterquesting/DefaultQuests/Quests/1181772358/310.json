@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "When fully equipped this set of armor will give you immunity to any of the negative effects given by bees such as jungle bees poisoning you.",
+      "desc:8": "When fully equipped this set of armor will give you immunity to any of the negative effects given by bees such as jungle bees poisoning you or nether/end bees directly harming you.",
       "icon:10": {
         "Count:3": 1,
         "ForgeCaps:10": {

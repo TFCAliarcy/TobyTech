@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Now that you\u0027ve got some salavaged parts from cyber-mobs you can use them to replace your fleshy bits with metal bits!\n\n{Embed}TypeLink;https://github.com/Flaxbeard/Cyberware/wiki/Getting-Started;80;40;Tutorial Here{Embed}",
+      "desc:8": "Now that you\u0027ve got some salavaged parts from cyber-mobs you can use them to replace your fleshy bits with metal bits! To do so you\u0027ll need to place down the surgery chamber and robosurgeon on top and click the attached link below to learn about how to modify your body.\n\n{Embed}TypeLink;https://github.com/Flaxbeard/Cyberware/wiki/Getting-Started;140;40;Surgery Tutorial Here{Embed}\n\nNote that the charger is not required for sugery but is used to charge yourself if you put in parts that require power.\n\nThe Tolerance meter in the Robosurgeon tracks how much tolerance your body has for alien components. If this reaches 0, you will die. If the Tolerance meter dips below 25, you will suffer from Rejection, which will slowly kill you. The only way to stop rejection is by injecting Neuropozyne, a rare drug found in dungeons and other ruins. One shot of Neuropozyne will last you a day.\n\n",
       "icon:10": {
         "Count:3": 1,
         "ForgeCaps:10": {
@@ -17,6 +17,106 @@
     }
   },
   "questID:3": 152,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 8,
+          "ForgeCaps:10": {
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "cyberware:neuropozyne"
+        }
+      }
+    },
+    "1:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 4,
+          "ForgeCaps:10": {
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "cyberware:component"
+        },
+        "1:10": {
+          "Count:3": 4,
+          "Damage:2": 1,
+          "ForgeCaps:10": {
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "cyberware:component"
+        },
+        "2:10": {
+          "Count:3": 4,
+          "Damage:2": 2,
+          "ForgeCaps:10": {
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "cyberware:component"
+        },
+        "3:10": {
+          "Count:3": 4,
+          "Damage:2": 3,
+          "ForgeCaps:10": {
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "cyberware:component"
+        },
+        "4:10": {
+          "Count:3": 4,
+          "Damage:2": 4,
+          "ForgeCaps:10": {
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "cyberware:component"
+        },
+        "5:10": {
+          "Count:3": 4,
+          "Damage:2": 5,
+          "ForgeCaps:10": {
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "cyberware:component"
+        },
+        "6:10": {
+          "Count:3": 4,
+          "Damage:2": 6,
+          "ForgeCaps:10": {
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "cyberware:component"
+        },
+        "7:10": {
+          "Count:3": 4,
+          "Damage:2": 7,
+          "ForgeCaps:10": {
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "cyberware:component"
+        },
+        "8:10": {
+          "Count:3": 4,
+          "Damage:2": 8,
+          "ForgeCaps:10": {
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "cyberware:component"
+        },
+        "9:10": {
+          "Count:3": 4,
+          "Damage:2": 9,
+          "ForgeCaps:10": {
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "cyberware:component"
+        }
+      },
+      "index:3": 1,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,
@@ -44,49 +144,6 @@
         }
       },
       "taskID:8": "bq_standard:retrieval"
-    },
-    "1:10": {
-      "index:3": 1,
-      "requiredItems:9": {
-        "0:10": {
-          "Count:3": 1,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
-          "id:8": "cyberware:engineering_table"
-        },
-        "1:10": {
-          "Count:3": 1,
-          "Damage:2": 1,
-          "ForgeCaps:10": {
-            "astralsorcery:cap_item_amulet_holder:10": {},
-            "wizardryutils:summoneditemdata:10": {}
-          },
-          "id:8": "cyberware:blueprint"
-        }
-      },
-      "taskID:8": "bq_standard:optional_retrieval"
-    },
-    "2:10": {
-      "index:3": 2,
-      "requiredItems:9": {
-        "0:10": {
-          "Count:3": 1,
-          "ForgeCaps:10": {
-            "astralsorcery:cap_item_amulet_holder:10": {},
-            "wizardryutils:summoneditemdata:10": {}
-          },
-          "id:8": "cyberware:component_box"
-        },
-        "1:10": {
-          "Count:3": 1,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
-          "id:8": "cyberware:blueprint_archive"
-        }
-      },
-      "taskID:8": "bq_standard:optional_retrieval"
     }
   }
 }

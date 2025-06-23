@@ -1,7 +1,7 @@
 {
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "You can ping blocks",
+      "desc:8": "You can ping blocks. Look at the controls to set it bound to something if you want it to be bound.",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 31,

@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "No Description",
+      "desc:8": "Bee Houses are an early game way to get combs from bees. Do note that you cannot place frames nor crossbreed in a bee house, for that you\u0027ll need an apiary.\n\nTo get materials from bees you place a princess and drone into an apiary to which will breed to make a queen which follows the breed of the princess. The queen will produce combs over time until it dies which will result in new drones and princesses.\n\nTo the right hand side it will show you the climate which is important as some bees can only live in specific climates based on temperature and humidity.\n\nThe left hand side will show any problems the bee is having such as lacking flowers, it raining, it being an unsuitable climate, or it being night.\n\nNote that for some bees when it says they need flowers it is not refering to flowers but potentially other things whether that be cactus, certain ores, or simply stone.",
       "icon:10": {
         "Count:3": 1,
         "ForgeCaps:10": {

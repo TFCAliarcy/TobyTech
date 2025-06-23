@@ -14,3 +14,8 @@ mods.ltt.LootTable.removeGlobalItem("railcraft:ingot");
 mods.ltt.LootTable.removeGlobalItem("railcraft:plate");
 mods.ltt.LootTable.removeGlobalItem("bewitchment:silver_ingot");
 mods.ltt.LootTable.removeGlobalItem("cyberware:surgery");
+mods.ltt.LootTable.removeGlobalItem("cyberware:neuropozyne");
+mods.ltt.LootTable.removeGlobalItem("mocreatures:ancientsilverscrap");
+mods.ltt.LootTable.removeGlobalItem("oe:crab");
+mods.ltt.LootTable.removeGlobalItem("mocreatures:turkeycooked");
+mods.ltt.LootTable.removeGlobalItem("mocreatures:turtlecooked");
