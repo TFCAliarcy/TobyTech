@@ -2,18 +2,20 @@
 import crafttweaker.item.IItemStack;
 import foodtweaker.FoodInfo;
 import mods.foodtweaker.Tweaker;
- 
-// Tweaker.changeFoodStats(<minecraft:cooked_fish:0>, FoodInfo(hunger filled, saturation times 2 of hunger filled, is meat, can eat when hungry));
-Tweaker.changeFoodStats(<harvestcraft:applejuiceitem>, FoodInfo(5, 0.0, false, false));
-//Tweaker.changeFoodStats(<fossil:velociraptor_meat>, FoodInfo(15, 0.0, true, false));
-recipes.replaceAllOccurences(<oe:cooked_crab>, <ore:foodCrabcooked>);
 
-if (<ore:listAllmeatraw> in "fossil") {
-  <ore:listAllmeatraw>.add(<ore:listAllmeatraw>);
+val oreDictEnt = <ore:meatRaw>;
+// Adds all items in "fossil" that contains an oreDict entry of meatRaw to listAllmeatraw
+// Maybe TODO: Make a nested loop function to apply all raw meat from all mods into listAllmeatraw
+for item in loadedMods["fossil"].items {
+  if(oreDictEnt in item) {
+    <ore:listAllmeatraw>.add(item);
+  }
 }
 
-<ore:listAllmeatraw>.add(<fossil:velociraptor_meat>);
-<ore:listAllmeatraw>.add(<fossil:triceratops_meat>);
+// Tweaker.changeFoodStats(<minecraft:cooked_fish:0>, FoodInfo(hunger filled, saturation times 2 of hunger filled, is meat, can eat when hungry));
+Tweaker.changeFoodStats(<harvestcraft:applejuiceitem>, FoodInfo(5, 0.0, false, false));
+// Tweaker.changeFoodStats(<fossil:velociraptor_meat>, FoodInfo(15, 0.0, true, false));
+recipes.replaceAllOccurences(<oe:cooked_crab>, <ore:foodCrabcooked>);
 
 val fruit = <ore:listAllfruit>;
 
