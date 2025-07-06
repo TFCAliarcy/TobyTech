@@ -37,6 +37,41 @@
       "index:3": 0,
       "requiredItems:9": {
         "0:10": {
+          "Count:3": 8,
+          "ForgeCaps:10": {
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "draconicevolution:draconium_dust"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "astralsorcery:cap_item_amulet_holder:10": {},
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "projectred-expansion:infused_ender_pearl"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 32,
+          "ForgeCaps:10": {
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "redstonearsenal:material"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "2:10": {
+      "index:3": 2,
+      "requiredItems:9": {
+        "0:10": {
           "Count:3": 1,
           "ForgeCaps:10": {
             "wizardryutils:summoneditemdata:10": {}

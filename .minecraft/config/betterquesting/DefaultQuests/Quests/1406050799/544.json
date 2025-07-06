@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "No Description",
+      "desc:8": "The particle accelerator is used in the creation of Antimatter and RedMatter which in turn are currently only used for the ultimate missiles.\n\n{Embed}TypeLink;https://github.com/jtljac/Nuclear-Physics/wiki/Particle-Accelerator#design;150;30;Particle Accelerator Guide{Embed}\n\nAlso amount of electromagnets required is not an exaggeration, it may be a slight miscount but my sleep deprived math says it.",
       "icon:10": {
         "Count:3": 1,
         "ForgeCaps:10": {
@@ -28,7 +28,7 @@
           "id:8": "datnuclearphysicslite:machine"
         },
         "1:10": {
-          "Count:3": 1,
+          "Count:3": 832,
           "ForgeCaps:10": {
             "wizardryutils:summoneditemdata:10": {}
           },

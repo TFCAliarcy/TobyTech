@@ -33,7 +33,7 @@ var PlasticSheet = <ore:sheetPlastic>;
 
 // Particle Accelerator
 recipes.remove(<datnuclearphysicslite:electromagnet:0>);
-recipes.addShaped(<datnuclearphysicslite:electromagnet:0> *2,
+recipes.addShaped(<datnuclearphysicslite:electromagnet:0> *4,
 [[<ore:nuggetSignalum>, TitaniumIngot, <ore:nuggetSignalum>],
 [CopperIngot, <nuclearcraft:part:7>, CopperIngot],
 [<ore:nuggetSignalum>, TitaniumIngot,<ore:nuggetSignalum>]]);
