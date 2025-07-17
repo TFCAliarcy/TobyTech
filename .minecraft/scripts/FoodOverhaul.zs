@@ -2,29 +2,174 @@
 import crafttweaker.item.IItemStack;
 import foodtweaker.FoodInfo;
 import mods.foodtweaker.Tweaker;
-
-val oreDictEnt = <ore:meatRaw>;
-// Adds all items in "fossil" that contains an oreDict entry of meatRaw to listAllmeatraw
-// Maybe TODO: Make a nested loop function to apply all raw meat from all mods into listAllmeatraw
-for item in loadedMods["fossil"].items {
-  if(oreDictEnt in item) {
-    <ore:listAllmeatraw>.add(item);
-  }
-}
+import crafttweaker.item.IItemDefinition;
+import mods.contenttweaker.ItemFood;
 
 // Tweaker.changeFoodStats(<minecraft:cooked_fish:0>, FoodInfo(hunger filled, saturation times 2 of hunger filled, is meat, can eat when hungry));
-Tweaker.changeFoodStats(<harvestcraft:applejuiceitem>, FoodInfo(5, 0.0, false, false));
 // Tweaker.changeFoodStats(<fossil:velociraptor_meat>, FoodInfo(15, 0.0, true, false));
 recipes.replaceAllOccurences(<oe:cooked_crab>, <ore:foodCrabcooked>);
+recipes.replaceAllOccurences(<mocreatures:turtlecooked>, <ore:foodTurtlecooked>);
+recipes.replaceAllOccurences(<mocreatures:ratcooked>, <ore:foodRatcooked>);
+recipes.replaceAllOccurences(<harvestcraft:saltitem>, <ore:dustSalt>);
+recipes.replaceAllOccurences(<harvestcraft:honeyitem>, <ore:dropHoney>);
+recipes.replaceAllOccurences(<harvestcraft:lemonitem>, <ore:cropLemon>);
+recipes.replaceAllOccurences(<minecraft:sugar>, <ore:listAllsugar>, <jaffa:lemoncordial>);
+recipes.replaceAllOccurences(<minecraft:sugar>, <ore:listAllsugar>, <jaffa:pikelets>);
+recipes.replaceAllOccurences(<minecraft:sugar>, <ore:listAllsugar>, <jaffa:jaffas>);
+recipes.replaceAllOccurences(<harvestcraft:orangeitem>, <ore:cropOrange>);
+recipes.replaceAllOccurences(<minecraft:cooked_porkchop>, <ore:listAllporkcooked>, <jaffa:banhmi>);
+recipes.replaceAllOccurences(<minecraft:cooked_chicken>, <ore:listAllchickencooked>, <jaffa:banhmi>);
+recipes.replaceAllOccurences(<minecraft:sugar>, <ore:listAllsugar>, <jaffa:ricekrispies>);
+recipes.replaceAllOccurences(<minecraft:sugar>, <ore:listAllsugar>, <jaffa:weetabix>);
+recipes.replaceAllOccurences(<harvestcraft:honeyitem>, <ore:dropHoney>, <jaffa:granola>);
+recipes.replaceAllOccurences(<minecraft:sugar>, <ore:listAllsugar>, <jaffa:cinnamontoastcrunch>);
+recipes.replaceAllOccurences(<minecraft:sugar>, <ore:listAllsugar>, <jaffa:cocoapuffs>);
+recipes.replaceAllOccurences(<harvestcraft:honeyitem>, <ore:dropHoney>, <jaffa:honeypuffs>);
+recipes.replaceAllOccurences(<harvestcraft:avocadoitem>, <ore:cropAvocado>, <jaffa:kalesandwich>);
+
+<ore:listAllfruit>.add(<minecraft:melon>);
+
+<ore:listAllfruit>.add(<harvestcraft:durianitem>);
+<ore:listAllfruit>.add(<harvestcraft:candleberryitem>);
+<ore:listAllveggie>.add(<harvestcraft:oliveitem>);
+<ore:listAllveggie>.add(<extratrees:food:35>);
+<ore:listAllvegeie>.add(<harvestcraft:avocadoitem>);
+<ore:listAllveggie>.add(<extratrees:food:52>);
+<ore:listAllnut>.add(<harvestcraft:hazelnutitem>);
+<ore:listAlljuice>.add(<harvestcraft:lemonaideitem>);
+
+<ore:listAllfruit>.add(<bewitchment:elderberries>);
+<ore:listAllfruit>.add(<bewitchment:juniper_berries>);
+
+<ore:listAllmeatraw>.add(<twilightforest:raw_meef>);
+<ore:listAllmeatcooked>.add(<twilightforest:cooked_meef>);
+<ore:listAllmeatcooked>.add(<twilightforest:hydra_chop>);
+
+<ore:listAllmeatraw>.add(<zmonsters:rawmonstermeat>);
+<ore:listAllmeatcooked>.add(<zmonsters:cookedmonstermeat>);
+
+<ore:listAllfruit>.add(<forestry:fruits:0>);
+<ore:listAllfruit>.add(<forestry:fruits:3>);
+<ore:listAllfruit>.add(<forestry:fruits:5>);
+<ore:listAllfruit>.add(<forestry:fruits:6>);
+<ore:listAllfruit>.add(<forestry:fruits:4>);
+<ore:listAllnut>.add(<forestry:fruits:1>);
+<ore:listAllnut>.add(<forestry:fruits:2>);
+
+<ore:listAllmeatcooked>.add(<iceandfire:ice_dragon_flesh>);
+<ore:listAllmeatcooked>.add(<iceandfire:fire_dragon_flesh>);
+<ore:listAllmeatcooked>.add(<iceandfire:lightning_dragon_flesh>);
+
+<ore:listAllmeatcooked>.add(<industrialmeat:cooked_meat_ingot>);
+<ore:listAllmeatraw>.add(<industrialmeat:raw_meat_ingot>);
+
+<ore:jellies>.add(<harvestcraft:grapejellyitem>);
+<ore:jellies>.add(<harvestcraft:cranberryjellyitem>);
+<ore:jellies>.add(<harvestcraft:kiwijellyitem>);
+<ore:jellies>.add(<harvestcraft:lemonjellyitem>);
+<ore:jellies>.add(<harvestcraft:limejellyitem>);
+<ore:jellies>.add(<harvestcraft:orangejellyitem>);
+<ore:jellies>.add(<harvestcraft:mangojellyitem>);
+<ore:jellies>.add(<harvestcraft:papayajellyitem>);
+<ore:jellies>.add(<harvestcraft:peachjellyitem>);
+<ore:jellies>.add(<harvestcraft:mangojellyitem>);
+<ore:jellies>.add(<harvestcraft:pomegranatejellyitem>);
+<ore:jellies>.add(<harvestcraft:raspberryjellyitem>);
+<ore:jellies>.add(<harvestcraft:starfruitjellyitem>);
+<ore:jellies>.add(<harvestcraft:strawberryjellyitem>);
+<ore:jellies>.add(<harvestcraft:watermelonjellyitem>);
+<ore:jellies>.add(<harvestcraft:apricotjellyitem>);
+<ore:jellies>.add(<harvestcraft:figjellyitem>);
+<ore:jellies>.add(<harvestcraft:plumjellyitem>);
+<ore:jellies>.add(<harvestcraft:pepperjellyitem>);
+<ore:jellies>.add(<harvestcraft:grapefruitjellyitem>);
+<ore:jellies>.add(<harvestcraft:persimmonjellyitem>);
+<ore:jellies>.add(<harvestcraft:gooseberryjellyitem>);
+<ore:jellies>.add(<harvestcraft:pearjellyitem>);
+<ore:jellies>.add(<harvestcraft:blackberryjellyitem>);
+<ore:jellies>.add(<harvestcraft:blueberryjellyitem>);
+<ore:jellies>.add(<harvestcraft:cherryjellyitem>);
+<ore:jellies>.add(<harvestcraft:applejellyitem>);
+
+val jelly = <ore:jellies>;
+
+for item in jelly.items{
+  Tweaker.changeFoodStats(item, FoodInfo(3, 0.25, false, false));
+}
+
+<ore:jellysandwich>.add(<harvestcraft:pbandjitem>);
+<ore:jellysandwich>.add(<harvestcraft:cranberryjellysandwichitem>);
+<ore:jellysandwich>.add(<harvestcraft:kiwijellysandwichitem>);
+<ore:jellysandwich>.add(<harvestcraft:lemonjellysandwichitem>);
+<ore:jellysandwich>.add(<harvestcraft:limejellysandwichitem>);
+<ore:jellysandwich>.add(<harvestcraft:orangejellysandwichitem>);
+<ore:jellysandwich>.add(<harvestcraft:mangojellysandwichitem>);
+<ore:jellysandwich>.add(<harvestcraft:papayajellysandwichitem>);
+<ore:jellysandwich>.add(<harvestcraft:peachjellysandwichitem>);
+<ore:jellysandwich>.add(<harvestcraft:mangojellysandwichitem>);
+<ore:jellysandwich>.add(<harvestcraft:pomegranatejellysandwichitem>);
+<ore:jellysandwich>.add(<harvestcraft:raspberryjellysandwichitem>);
+<ore:jellysandwich>.add(<harvestcraft:starfruitjellysandwichitem>);
+<ore:jellysandwich>.add(<harvestcraft:strawberryjellysandwichitem>);
+<ore:jellysandwich>.add(<harvestcraft:watermelonjellysandwichitem>);
+<ore:jellysandwich>.add(<harvestcraft:apricotjellysandwichitem>);
+<ore:jellysandwich>.add(<harvestcraft:figjellysandwichitem>);
+<ore:jellysandwich>.add(<harvestcraft:plumjellysandwichitem>);
+<ore:jellysandwich>.add(<harvestcraft:grapefruitjellysandwichitem>);
+<ore:jellysandwich>.add(<harvestcraft:persimmonjellysandwichitem>);
+<ore:jellysandwich>.add(<harvestcraft:gooseberryjellysandwichitem>);
+<ore:jellysandwich>.add(<harvestcraft:pearjellysandwichitem>);
+<ore:jellysandwich>.add(<harvestcraft:blackberryjellysandwichitem>);
+<ore:jellysandwich>.add(<harvestcraft:blueberryjellysandwichitem>);
+<ore:jellysandwich>.add(<harvestcraft:cherryjellysandwichitem>);
+<ore:jellysandwich>.add(<harvestcraft:applejellysandwichitem>);
+
+val jellysandwich = <ore:jellysandwich>;
+
+for item in jellysandwich.items{
+  Tweaker.changeFoodStats(item, FoodInfo(10, 0.5, false, false));
+}
 
 val fruit = <ore:listAllfruit>;
 
 for item in fruit.items{
   Tweaker.changeFoodStats(item, FoodInfo(2, 0.25, false, false));
 }
+
+val coconut = <ore:cropCoconut>;
+
+for item in coconut.items{
+  Tweaker.changeFoodStats(item, FoodInfo(2, 0.25, false, false));
+}
+
+val grain = <ore:listAllgrain>;
+
+for item in grain.items{
+  Tweaker.changeFoodStats(item, FoodInfo(1, 0.125, false, false));
+}
+
+val greenveggie = <ore:listAllgreenveggie>;
+
+for item in greenveggie.items{
+  Tweaker.changeFoodStats(item, FoodInfo(1, 0.25, false, false));
+}
+
+val fiber = <ore:listAllfiber>;
+
+for item in fiber.items{
+  Tweaker.changeFoodStats(item, FoodInfo(0, 0, false, false));
+}
+
+
 val veg = <ore:listAllveggie>;
 
 for item in veg.items{
+  Tweaker.changeFoodStats(item, FoodInfo(2, 0.25, false, false));
+}
+
+val nut = <ore:listAllnut>;
+
+for item in nut.items{
   Tweaker.changeFoodStats(item, FoodInfo(2, 0.25, false, false));
 }
 
@@ -39,3 +184,993 @@ val cook = <ore:listAllmeatcooked>;
 for item in cook.items{
 Tweaker.changeFoodStats(item, FoodInfo(4, 0.5, true, false));
 }
+
+val fcook = <ore:listAllfishcooked>;
+
+for item in fcook.items{
+Tweaker.changeFoodStats(item, FoodInfo(4, 0.5, true, false));
+}
+
+val fraw = <ore:listAllfishraw>;
+
+for item in fraw.items{
+Tweaker.changeFoodStats(item, FoodInfo(1, 0.25, true, false));
+}
+
+<ore:listAlljuice>.add(<jaffa:pineapplejuice>);
+<ore:listAllsoda>.add(<jaffa:pineapplesoda>);
+<ore:listAllsoda>.add(<jaffa:pepsi>);
+<ore:listAllsoda>.add(<jaffa:mtndew>);
+<ore:listAllsoda>.add(<jaffa:cocacola>);
+<ore:listAllsoda>.add(<jaffa:drpepper>);
+<ore:listAllsmoothie>.add(<jaffa:kalesmoothie>);
+
+
+val juice = <ore:listAlljuice>;
+
+for item in juice.items{
+  Tweaker.changeFoodStats(item, FoodInfo(4, 0, false, false));
+}
+
+val smoothie = <ore:listAllsmoothie>;
+
+for item in smoothie.items{
+  Tweaker.changeFoodStats(item, FoodInfo(6, 0.125, false, false));
+}
+
+val cheese = <ore:foodCheese>;
+
+for item in cheese.items{
+  Tweaker.changeFoodStats(item, FoodInfo(3, 0.5, false, false));
+}
+
+val nutbutter = <ore:listAllnutbutter>;
+
+for item in nutbutter.items{
+  Tweaker.changeFoodStats(item, FoodInfo(2, 0.25, false, false));
+}
+val yogurt = <ore:listAllyogurt>;
+
+for item in yogurt.items{
+  Tweaker.changeFoodStats(item, FoodInfo(4, 0.25, false, false));
+}
+
+val soda = <ore:listAllsoda>;
+
+for item in soda.items{
+  Tweaker.changeFoodStats(item, FoodInfo(6, 0.25, false, false));
+}
+
+
+
+Tweaker.changeFoodStats(<fossil:triceratops_meat>, FoodInfo(1, 0.25, true, false));
+Tweaker.changeFoodStats(<fossil:velociraptor_meat>, FoodInfo(1, 0.25, true, false));
+Tweaker.changeFoodStats(<fossil:tyrannosaurus_meat>, FoodInfo(1, 0.25, true, false));
+Tweaker.changeFoodStats(<fossil:pterosaur_meat>, FoodInfo(1, 0.25, true, false));
+Tweaker.changeFoodStats(<fossil:plesiosaur_meat>, FoodInfo(1, 0.25, true, false));
+Tweaker.changeFoodStats(<fossil:mosasaurus_meat>, FoodInfo(1, 0.25, true, false));
+Tweaker.changeFoodStats(<fossil:stegosaurus_meat>, FoodInfo(1, 0.25, true, false));
+Tweaker.changeFoodStats(<fossil:dilophosaurus_meat>, FoodInfo(1, 0.25, true, false));
+Tweaker.changeFoodStats(<fossil:brachiosaurus_meat>, FoodInfo(1, 0.25, true, false));
+Tweaker.changeFoodStats(<fossil:spinosaurus_meat>, FoodInfo(1, 0.25, true, false));
+Tweaker.changeFoodStats(<fossil:compsognathus_meat>, FoodInfo(1, 0.25, true, false));
+Tweaker.changeFoodStats(<fossil:ankylosaurus_meat>, FoodInfo(1, 0.25, true, false));
+Tweaker.changeFoodStats(<fossil:pachycephalosaurus_meat>, FoodInfo(1, 0.25, true, false));
+Tweaker.changeFoodStats(<fossil:deinonychus_meat>, FoodInfo(1, 0.25, true, false));
+Tweaker.changeFoodStats(<fossil:gallimimus_meat>, FoodInfo(1, 0.25, true, false));
+Tweaker.changeFoodStats(<fossil:liopleurodon_meat>, FoodInfo(1, 0.25, true, false));
+Tweaker.changeFoodStats(<fossil:allosaurus_meat>, FoodInfo(1, 0.25, true, false));
+Tweaker.changeFoodStats(<fossil:sarcosuchus_meat>, FoodInfo(1, 0.25, true, false));
+Tweaker.changeFoodStats(<fossil:ceratosaurus_meat>, FoodInfo(1, 0.25, true, false));
+Tweaker.changeFoodStats(<fossil:dryosaurus_meat>, FoodInfo(1, 0.25, true, false));
+Tweaker.changeFoodStats(<fossil:therizinosaurus_meat>, FoodInfo(1, 0.25, true, false));
+Tweaker.changeFoodStats(<fossil:parasaurolophus_meat>, FoodInfo(1, 0.25, true, false));
+Tweaker.changeFoodStats(<fossil:citipati_meat>, FoodInfo(1, 0.25, true, false));
+Tweaker.changeFoodStats(<fossil:diplodocus_meat>, FoodInfo(1, 0.25, true, false));
+Tweaker.changeFoodStats(<fossil:ornitholestes_meat>, FoodInfo(1, 0.25, true, false));
+Tweaker.changeFoodStats(<fossil:henodus_meat>, FoodInfo(1, 0.25, true, false));
+Tweaker.changeFoodStats(<fossil:icthyosaurus_meat>, FoodInfo(1, 0.25, true, false));
+Tweaker.changeFoodStats(<fossil:meganeura_meat>, FoodInfo(1, 0.25, true, false));
+Tweaker.changeFoodStats(<fossil:megalograptus_meat>, FoodInfo(1, 0.25, true, false));
+Tweaker.changeFoodStats(<fossil:confuciusornis_meat>, FoodInfo(1, 0.25, true, false));
+Tweaker.changeFoodStats(<fossil:dodo_meat>, FoodInfo(1, 0.25, true, false));
+Tweaker.changeFoodStats(<fossil:gastornis_meat>, FoodInfo(1, 0.25, true, false));
+Tweaker.changeFoodStats(<fossil:kelenken_meat>, FoodInfo(1, 0.25, true, false));
+Tweaker.changeFoodStats(<fossil:phorusrhacos_meat>, FoodInfo(1, 0.25, true, false));
+Tweaker.changeFoodStats(<fossil:titanis_meat>, FoodInfo(1, 0.25, true, false));
+Tweaker.changeFoodStats(<fossil:mammoth_meat>, FoodInfo(1, 0.25, true, false));
+Tweaker.changeFoodStats(<fossil:smilodon_meat>, FoodInfo(1, 0.25, true, false));
+Tweaker.changeFoodStats(<fossil:quagga_meat>, FoodInfo(1, 0.25, true, false));
+Tweaker.changeFoodStats(<fossil:elasmotherium_meat>, FoodInfo(1, 0.25, true, false));
+Tweaker.changeFoodStats(<fossil:megaloceros_meat>, FoodInfo(1, 0.25, true, false));
+Tweaker.changeFoodStats(<fossil:megalania_meat>, FoodInfo(1, 0.25, true, false));
+Tweaker.changeFoodStats(<fossil:megalodon_meat>, FoodInfo(1, 0.25, true, false));
+Tweaker.changeFoodStats(<fossil:platybelodon_meat>, FoodInfo(1, 0.25, true, false));
+Tweaker.changeFoodStats(<fossil:tiktaalik_meat>, FoodInfo(1, 0.25, true, false));
+Tweaker.changeFoodStats(<fossil:crassigyrinus_meat>, FoodInfo(1, 0.25, true, false));
+Tweaker.changeFoodStats(<fossil:diplocaulus_meat>, FoodInfo(1, 0.25, true, false));
+Tweaker.changeFoodStats(<fossil:edaphosaurus_meat>, FoodInfo(1, 0.25, true, false));
+Tweaker.changeFoodStats(<fossil:arthropleura_meat>, FoodInfo(1, 0.25, true, false));
+Tweaker.changeFoodStats(<fossil:raw_chicken_soup>, FoodInfo(1, 0.25, true, false));
+
+Tweaker.changeFoodStats(<fossil:triceratops_cooked>, FoodInfo(4, 0.5, true, false));
+Tweaker.changeFoodStats(<fossil:velociraptor_cooked>, FoodInfo(4, 0.5, true, false));
+Tweaker.changeFoodStats(<fossil:tyrannosaurus_cooked>, FoodInfo(4, 0.5, true, false));
+Tweaker.changeFoodStats(<fossil:pterosaur_cooked>, FoodInfo(4, 0.5, true, false));
+Tweaker.changeFoodStats(<fossil:plesiosaur_cooked>, FoodInfo(4, 0.5, true, false));
+Tweaker.changeFoodStats(<fossil:mosasaurus_cooked>, FoodInfo(4, 0.5, true, false));
+Tweaker.changeFoodStats(<fossil:stegosaurus_cooked>, FoodInfo(4, 0.5, true, false));
+Tweaker.changeFoodStats(<fossil:dilophosaurus_cooked>, FoodInfo(4, 0.5, true, false));
+Tweaker.changeFoodStats(<fossil:brachiosaurus_cooked>, FoodInfo(4, 0.5, true, false));
+Tweaker.changeFoodStats(<fossil:spinosaurus_cooked>, FoodInfo(4, 0.5, true, false));
+Tweaker.changeFoodStats(<fossil:compsognathus_cooked>, FoodInfo(4, 0.5, true, false));
+Tweaker.changeFoodStats(<fossil:ankylosaurus_cooked>, FoodInfo(4, 0.5, true, false));
+Tweaker.changeFoodStats(<fossil:pachycephalosaurus_cooked>, FoodInfo(4, 0.5, true, false));
+Tweaker.changeFoodStats(<fossil:deinonychus_cooked>, FoodInfo(4, 0.5, true, false));
+Tweaker.changeFoodStats(<fossil:gallimimus_cooked>, FoodInfo(4, 0.5, true, false));
+Tweaker.changeFoodStats(<fossil:liopleurodon_cooked>, FoodInfo(4, 0.5, true, false));
+Tweaker.changeFoodStats(<fossil:allosaurus_cooked>, FoodInfo(4, 0.5, true, false));
+Tweaker.changeFoodStats(<fossil:sarcosuchus_cooked>, FoodInfo(4, 0.5, true, false));
+Tweaker.changeFoodStats(<fossil:ceratosaurus_cooked>, FoodInfo(4, 0.5, true, false));
+Tweaker.changeFoodStats(<fossil:dryosaurus_cooked>, FoodInfo(4, 0.5, true, false));
+Tweaker.changeFoodStats(<fossil:therizinosaurus_cooked>, FoodInfo(4, 0.5, true, false));
+Tweaker.changeFoodStats(<fossil:parasaurolophus_cooked>, FoodInfo(4, 0.5, true, false));
+Tweaker.changeFoodStats(<fossil:citipati_cooked>, FoodInfo(4, 0.5, true, false));
+Tweaker.changeFoodStats(<fossil:diplodocus_cooked>, FoodInfo(4, 0.5, true, false));
+Tweaker.changeFoodStats(<fossil:ornitholestes_cooked>, FoodInfo(4, 0.5, true, false));
+Tweaker.changeFoodStats(<fossil:henodus_cooked>, FoodInfo(4, 0.5, true, false));
+Tweaker.changeFoodStats(<fossil:icthyosaurus_cooked>, FoodInfo(4, 0.5, true, false));
+Tweaker.changeFoodStats(<fossil:meganeura_cooked>, FoodInfo(4, 0.5, true, false));
+Tweaker.changeFoodStats(<fossil:megalograptus_cooked>, FoodInfo(4, 0.5, true, false));
+Tweaker.changeFoodStats(<fossil:confuciusornis_cooked>, FoodInfo(4, 0.5, true, false));
+Tweaker.changeFoodStats(<fossil:dodo_cooked>, FoodInfo(4, 0.5, true, false));
+Tweaker.changeFoodStats(<fossil:gastornis_cooked>, FoodInfo(4, 0.5, true, false));
+Tweaker.changeFoodStats(<fossil:kelenken_cooked>, FoodInfo(4, 0.5, true, false));
+Tweaker.changeFoodStats(<fossil:phorusrhacos_cooked>, FoodInfo(4, 0.5, true, false));
+Tweaker.changeFoodStats(<fossil:titanis_cooked>, FoodInfo(4, 0.5, true, false));
+Tweaker.changeFoodStats(<fossil:mammoth_cooked>, FoodInfo(4, 0.5, true, false));
+Tweaker.changeFoodStats(<fossil:smilodon_cooked>, FoodInfo(4, 0.5, true, false));
+Tweaker.changeFoodStats(<fossil:quagga_cooked>, FoodInfo(4, 0.5, true, false));
+Tweaker.changeFoodStats(<fossil:elasmotherium_cooked>, FoodInfo(4, 0.5, true, false));
+Tweaker.changeFoodStats(<fossil:megaloceros_cooked>, FoodInfo(4, 0.5, true, false));
+Tweaker.changeFoodStats(<fossil:megalania_cooked>, FoodInfo(4, 0.5, true, false));
+Tweaker.changeFoodStats(<fossil:megalodon_cooked>, FoodInfo(4, 0.5, true, false));
+Tweaker.changeFoodStats(<fossil:platybelodon_cooked>, FoodInfo(4, 0.5, true, false));
+Tweaker.changeFoodStats(<fossil:tiktaalik_cooked>, FoodInfo(4, 0.5, true, false));
+Tweaker.changeFoodStats(<fossil:crassigyrinus_cooked>, FoodInfo(4, 0.5, true, false));
+Tweaker.changeFoodStats(<fossil:diplocaulus_cooked>, FoodInfo(4, 0.5, true, false));
+Tweaker.changeFoodStats(<fossil:edaphosaurus_cooked>, FoodInfo(4, 0.5, true, false));
+Tweaker.changeFoodStats(<fossil:arthropleura_cooked>, FoodInfo(4, 0.5, true, false));
+Tweaker.changeFoodStats(<fossil:coelacanth_cooked>, FoodInfo(4, 0.5, true, false));
+Tweaker.changeFoodStats(<fossil:alligator_gar_cooked>, FoodInfo(4, 0.5, true, false));
+Tweaker.changeFoodStats(<fossil:sturgeon_cooked>, FoodInfo(4, 0.5, true, false));
+Tweaker.changeFoodStats(<fossil:sjl>, FoodInfo(4, 0.5, true, false));
+Tweaker.changeFoodStats(<fossil:cooked_egg>, FoodInfo(2, 0.5, true, false));
+Tweaker.changeFoodStats(<fossil:cooked_chicken_soup>, FoodInfo(4, 0.5, true, false));
+
+Tweaker.changeFoodStats(<rats:cooked_rat>, FoodInfo(4, 0.5, true, false));
+Tweaker.changeFoodStats(<rats:raw_rat>, FoodInfo(1, 0.25, true, false));
+Tweaker.changeFoodStats(<rats:cheese>, FoodInfo(2, 0.5, false, false));
+Tweaker.changeFoodStats(<rats:rat_burger>, FoodInfo(10, 0.5, false, false));
+Tweaker.changeFoodStats(<rats:string_cheese>, FoodInfo(1, 0.125, false, false));
+Tweaker.changeFoodStats(<rats:contaminated_food>, FoodInfo(1, 0.125, false, false));
+
+
+Tweaker.changeFoodStats(<oe:lobster>, FoodInfo(1, 0.25, true, false));
+Tweaker.changeFoodStats(<oe:cooked_lobster>, FoodInfo(4, 0.5, true, false));
+Tweaker.changeFoodStats(<oe:dried_dulse>, FoodInfo(1, 0.5, false, false));
+Tweaker.changeFoodStats(<oe:crab_bisque>, FoodInfo(8, 0.5, false, false));
+Tweaker.changeFoodStats(<oe:lobster_bisque>, FoodInfo(8, 0.5, false, false));
+
+Tweaker.changeFoodStats(<mod_lavacow:piranha>, FoodInfo(1, 0.25, true, false));
+Tweaker.changeFoodStats(<mod_lavacow:cheirolepis>, FoodInfo(1, 0.25, true, false));
+Tweaker.changeFoodStats(<mod_lavacow:plagued_porkchop>, FoodInfo(1, 0.25, true, false));
+Tweaker.changeFoodStats(<mod_lavacow:mimic_claw>, FoodInfo(1, 0.25, true, false));
+Tweaker.changeFoodStats(<mod_lavacow:ptera_wing>, FoodInfo(1, 0.25, true, false));
+Tweaker.changeFoodStats(<mod_lavacow:zombiepiranha_item>, FoodInfo(1, 0.25, true, false));
+Tweaker.changeFoodStats(<minecraft:rotten_flesh>, FoodInfo(1, 0.25, true, false));
+Tweaker.changeFoodStats(<mod_lavacow:parasite_item>, FoodInfo(1, 0.25, true, false));
+Tweaker.changeFoodStats(<mod_lavacow:ghost_swarmer_item>, FoodInfo(1, 0.25, true, false));
+Tweaker.changeFoodStats(<mod_lavacow:enigmoth_larva_item>, FoodInfo(1, 0.25, true, false));
+
+Tweaker.changeFoodStats(<mod_lavacow:piranha_cooked>, FoodInfo(4, 0.5, true, false));
+Tweaker.changeFoodStats(<mod_lavacow:cheirolepis_cooked>, FoodInfo(4, 0.5, true, false));
+Tweaker.changeFoodStats(<mod_lavacow:mimic_claw_cooked>, FoodInfo(4, 0.5, true, false));
+Tweaker.changeFoodStats(<mod_lavacow:ptera_wing_cooked>, FoodInfo(4, 0.5, true, false));
+Tweaker.changeFoodStats(<mod_lavacow:zombiepiranha_item_cooked>, FoodInfo(4, 0.5, true, false));
+Tweaker.changeFoodStats(<mod_lavacow:parasite_item_cooked>, FoodInfo(4, 0.5, true, false));
+Tweaker.changeFoodStats(<mod_lavacow:enigmoth_larva_item_cooked>, FoodInfo(4, 0.5, true, false));
+
+Tweaker.changeFoodStats(<mod_lavacow:netherstew>, FoodInfo(2, 0.5, true, false));
+Tweaker.changeFoodStats(<mod_lavacow:canebeef>, FoodInfo(3, 0.5, true, false));
+Tweaker.changeFoodStats(<mod_lavacow:canepork>, FoodInfo(3, 0.5, true, false));
+Tweaker.changeFoodStats(<mod_lavacow:canerottenmeat>, FoodInfo(2, 0.5, true, false));
+Tweaker.changeFoodStats(<mod_lavacow:mousse>, FoodInfo(1, 0.25, true, false));
+Tweaker.changeFoodStats(<mod_lavacow:meatball>, FoodInfo(1, 0.5, true, false));
+Tweaker.changeFoodStats(<mod_lavacow:frozenthigh>, FoodInfo(4, 0.5, true, false));
+Tweaker.changeFoodStats(<mod_lavacow:green_bacon_and_eggs>, FoodInfo(4, 0.5, false, false));
+Tweaker.changeFoodStats(<mod_lavacow:sausage_roll>, FoodInfo(2, 0.5, false, false));
+Tweaker.changeFoodStats(<mod_lavacow:shattered_ice>, FoodInfo(1, 0.125, false, false));
+Tweaker.changeFoodStats(<mod_lavacow:crabcake>, FoodInfo(4, 0.5, false, false));
+Tweaker.changeFoodStats(<mod_lavacow:ghostjelly>, FoodInfo(1, 0.25, false, false));
+Tweaker.changeFoodStats(<mod_lavacow:bonestew>, FoodInfo(1, 0.25, false, false));
+Tweaker.changeFoodStats(<mod_lavacow:cactus_fruit>, FoodInfo(2, 0.5, false, false));
+Tweaker.changeFoodStats(<mod_lavacow:baobing>, FoodInfo(4, 0.5, false, false));
+Tweaker.changeFoodStats(<mod_lavacow:kung_pao_chicken>, FoodInfo(4, 0.5, false, false));
+Tweaker.changeFoodStats(<mod_lavacow:diseased_bread>, FoodInfo(2, 0.25, false, false));
+
+Tweaker.changeFoodStats(<minecraft:rotten_flesh>, FoodInfo(1, 0.25, true, false));
+Tweaker.changeFoodStats(<minecraft:spider_eye>, FoodInfo(1, 0.25, true, false));
+Tweaker.changeFoodStats(<minecraft:baked_potato>, FoodInfo(3, 0.5, false, false));
+Tweaker.changeFoodStats(<minecraft:bread>, FoodInfo(4, 0.5, false, false));
+Tweaker.changeFoodStats(<minecraft:rabbit_stew>, FoodInfo(8, 0.5, false, false));
+Tweaker.changeFoodStats(<minecraft:beetroot_soup>, FoodInfo(7, 0.5, false, false));
+
+Tweaker.changeFoodStats(<bewitchment:heart>, FoodInfo(2, 0.5, true, false));
+Tweaker.changeFoodStats(<bewitchment:stew_of_the_grotesque>, FoodInfo(12, 0.5, false, false));
+Tweaker.changeFoodStats(<bewitchment:elderberry_jelly>, FoodInfo(7, 0.5, false, false));
+Tweaker.changeFoodStats(<bewitchment:juniper_tea>, FoodInfo(7, 0.5, false, false));
+
+Tweaker.changeFoodStats(<mocreatures:mysticpear>, FoodInfo(2, 0.5, false, false));
+Tweaker.changeFoodStats(<mocreatures:ratburger>, FoodInfo(8, 0.5, false, false));
+Tweaker.changeFoodStats(<mocreatures:omelet>, FoodInfo(2, 0.5, false, false));
+
+Tweaker.changeFoodStats(<ee:bug_food>, FoodInfo(1, 0.25, true, false));
+Tweaker.changeFoodStats(<enderio:item_ender_food>, FoodInfo(4, 0.5, false, false));
+
+Tweaker.changeFoodStats(<forestry:honeyed_slice>, FoodInfo(2, 0.5, false, false));
+Tweaker.changeFoodStats(<forestry:ambrosia>, FoodInfo(4, 0.5, false, false));
+
+Tweaker.changeFoodStats(<futuremc:suspicious_stew>, FoodInfo(3, 0.5, false, false));
+
+Tweaker.changeFoodStats(<galacticraftcore:food:*>, FoodInfo(6, 0.5, false, false));
+Tweaker.changeFoodStats(<galacticraftcore:food:5>, FoodInfo(2, 0.5, false, false));
+Tweaker.changeFoodStats(<galacticraftcore:food:6>, FoodInfo(1, 0.25, true, false));
+Tweaker.changeFoodStats(<galacticraftcore:food:7>, FoodInfo(3, 0.5, true, false));
+Tweaker.changeFoodStats(<galacticraftcore:food:8>, FoodInfo(8, 0.5, false, false));
+Tweaker.changeFoodStats(<galacticraftcore:food:9>, FoodInfo(3, 0.25, true, false));
+Tweaker.changeFoodStats(<galaxyspace:br_foods>, FoodInfo(2, 0.5, false, false));
+
+Tweaker.changeFoodStats(<galacticraftcore:food:1>, FoodInfo(6, 0.5, false, false));
+
+Tweaker.changeFoodStats(<iceandfire:ambrosia>, FoodInfo(10, 0.5, false, false));
+
+Tweaker.changeFoodStats(<industrialmeat:raw_meat_nugget>, FoodInfo(1, 0.125, true, false));
+
+Tweaker.changeFoodStats(<nuclearcraft:dominos>, FoodInfo(10, 0.5, false, false));
+
+Tweaker.changeFoodStats(<rewired:powerbar>, FoodInfo(4, 0.5, false, false));
+Tweaker.changeFoodStats(<rewired:energydrink>, FoodInfo(4, 0.25, false, false));
+
+Tweaker.changeFoodStats(<thaumcraft:brain>, FoodInfo(2, 0.5, true, false));
+
+Tweaker.changeFoodStats(<harvestcraft:cottonitem>, FoodInfo(0, 0.0, false, false));
+Tweaker.changeFoodStats(<harvestcraft:grilledasparagusitem>, FoodInfo(3, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:bakedsweetpotatoitem>, FoodInfo(3, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:grilledeggplantitem>, FoodInfo(3, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:toastitem>, FoodInfo(5, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:icecreamitem>, FoodInfo(4, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:grilledcheeseitem>, FoodInfo(10, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:applesauceitem>, FoodInfo(3, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:pumpkinbreaditem>, FoodInfo(5, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:caramelappleitem>, FoodInfo(5, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:applepieitem>, FoodInfo(5, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:teaitem>, FoodInfo(2, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:coffeeitem>, FoodInfo(2, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:popcornitem>, FoodInfo(3, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:pumpkinsoupitem>, FoodInfo(4, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:carrotsoupitem>, FoodInfo(4, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:glazedcarrotsitem>, FoodInfo(4, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:butteredpotatoitem>, FoodInfo(5, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:loadedbakedpotatoitem>, FoodInfo(12, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:mashedpotatoesitem>, FoodInfo(6, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:potatosaladitem>, FoodInfo(5, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:potatosoupitem>, FoodInfo(4, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:friesitem>, FoodInfo(3, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:grilledmushroomitem>, FoodInfo(3, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:stuffedmushroomitem>, FoodInfo(9, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:chickensandwichitem>, FoodInfo(10, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:chickennoodlesoupitem>, FoodInfo(8, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:chickenpotpieitem>, FoodInfo(10, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:breadedporkchopitem>, FoodInfo(6, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:hotdogitem>, FoodInfo(8, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:bakedhamitem>, FoodInfo(7, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:hamburgeritem>, FoodInfo(9, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:cheeseburgeritem>, FoodInfo(11, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:potroastitem>, FoodInfo(9, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:fishsandwichitem>, FoodInfo(9, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:fishsticksitem>, FoodInfo(5, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:fishandchipsitem>, FoodInfo(8, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:scrambledeggitem>, FoodInfo(2, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:friedeggitem>, FoodInfo(2, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:boiledeggitem>, FoodInfo(2, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:eggsaladitem>, FoodInfo(4, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:caramelitem>, FoodInfo(1, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:taffyitem>, FoodInfo(2, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:spidereyesoupitem>, FoodInfo(2, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:zombiejerkyitem>, FoodInfo(2, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:chocolatebaritem>, FoodInfo(1, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:hotchocolateitem>, FoodInfo(3, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:chocolateicecreamitem>, FoodInfo(5, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:vegetablesoupitem>, FoodInfo(7, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:stockitem>, FoodInfo(1, 0.25, false, false));
+Tweaker.changeFoodStats(<harvestcraft:fruitsaladitem>, FoodInfo(4, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:spagettiitem>, FoodInfo(4, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:spagettiandmeatballsitem>, FoodInfo(8, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:tomatosoupitem>, FoodInfo(3, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:chickenparmasanitem>, FoodInfo(8, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:springsaladitem>, FoodInfo(4, 0.25, false, false));
+Tweaker.changeFoodStats(<harvestcraft:porklettucewrapitem>, FoodInfo(6, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:fishlettucewrapitem>, FoodInfo(6, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:bltitem>, FoodInfo(13, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:leafychickensandwichitem>, FoodInfo(12, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:leafyfishsandwichitem>, FoodInfo(12, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:potatocakesitem>, FoodInfo(6, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:hashitem>, FoodInfo(10, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:braisedonionsitem>, FoodInfo(5, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:cornonthecobitem>, FoodInfo(4, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:cornbreaditem>, FoodInfo(5, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:tortillaitem>, FoodInfo(2, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:nachoesitem>, FoodInfo(4, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:tacoitem>, FoodInfo(10, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:fishtacoitem>, FoodInfo(10, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:creamedcornitem>, FoodInfo(6, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:strawberrypieitem>, FoodInfo(5, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:strawberrysaladitem>, FoodInfo(6, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:grapesaladitem>, FoodInfo(6, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:chocolatestrawberryitem>, FoodInfo(3, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:trailmixitem>, FoodInfo(5, 0.75, false, false));
+Tweaker.changeFoodStats(<harvestcraft:pbandjitem>, FoodInfo(9, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:peanutbuttercookiesitem>, FoodInfo(5, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:raisincookiesitem>, FoodInfo(6, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:picklesitem>, FoodInfo(6, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:cucumbersaladitem>, FoodInfo(6, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:cucumbersoupitem>, FoodInfo(5, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:vegetarianlettucewrapitem>, FoodInfo(6, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:marinatedcucumbersitem>, FoodInfo(8, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:ricesoupitem>, FoodInfo(3, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:friedriceitem>, FoodInfo(8, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:mushroomrisottoitem>, FoodInfo(7, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:curryitem>, FoodInfo(9, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:rainbowcurryitem>, FoodInfo(10, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:refriedbeansitem>, FoodInfo(6, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:bakedbeansitem>, FoodInfo(7, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:beansandriceitem>, FoodInfo(10, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:chiliitem>, FoodInfo(8, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:beanburritoitem>, FoodInfo(8, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:stuffedpepperitem>, FoodInfo(6, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:veggiestirfryitem>, FoodInfo(10, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:grilledskewersitem>, FoodInfo(7, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:omeletitem>, FoodInfo(6, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:hotwingsitem>, FoodInfo(5, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:chilipoppersitem>, FoodInfo(6, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:extremechiliitem>, FoodInfo(10, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:chilichocolateitem>, FoodInfo(3, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:lemonbaritem>, FoodInfo(5, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:fishdinneritem>, FoodInfo(10, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:lemonmeringueitem>, FoodInfo(6, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:candiedlemonitem>, FoodInfo(3, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:lemonchickenitem>, FoodInfo(8, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:blueberrypieitem>, FoodInfo(5, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:blueberrymuffinitem>, FoodInfo(4, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:pancakesitem>, FoodInfo(4, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:blueberrypancakesitem>, FoodInfo(6, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:cherrypieitem>, FoodInfo(5, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:chocolatecherryitem>, FoodInfo(3, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:stuffedeggplantitem>, FoodInfo(10, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:eggplantparmitem>, FoodInfo(7, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:raspberryicedteaitem>, FoodInfo(5, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:chaiteaitem>, FoodInfo(5, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:espressoitem>, FoodInfo(4, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:coffeeconlecheitem>, FoodInfo(7, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:mochaicecreamitem>, FoodInfo(6, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:pickledbeetsitem>, FoodInfo(7, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:beetsaladitem>, FoodInfo(9, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:beetsoupitem>, FoodInfo(7, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:bakedbeetsitem>, FoodInfo(5, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:broccolimacitem>, FoodInfo(5, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:broccolindipitem>, FoodInfo(6, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:creamedbroccolisoupitem>, FoodInfo(8, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:marshmellowsitem>, FoodInfo(4, 0.125, false, false));
+Tweaker.changeFoodStats(<harvestcraft:sweetpotatopieitem>, FoodInfo(9, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:candiedsweetpotatoesitem>, FoodInfo(4, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:mashedsweetpotatoesitem>, FoodInfo(4, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:steamedpeasitem>, FoodInfo(4, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:splitpeasoupitem>, FoodInfo(8, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:pineapplehamitem>, FoodInfo(9, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:plainyogurtitem>, FoodInfo(1, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:turnipsoupitem>, FoodInfo(7, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:roastedrootveggiemedleyitem>, FoodInfo(7, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:bakedturnipsitem>, FoodInfo(6, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:gingerbreaditem>, FoodInfo(6, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:gingersnapsitem>, FoodInfo(4, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:candiedgingeritem>, FoodInfo(2, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:softpretzelitem>, FoodInfo(6, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:softpretzelandmustarditem>, FoodInfo(8, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:spicymustardporkitem>, FoodInfo(7, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:spicygreensitem>, FoodInfo(10, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:garlicbreaditem>, FoodInfo(9, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:garlicmashedpotatoesitem>, FoodInfo(8, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:garlicchickenitem>, FoodInfo(11, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:summerradishsaladitem>, FoodInfo(9, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:summersquashwithradishitem>, FoodInfo(8, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:celeryandpeanutbutteritem>, FoodInfo(4, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:chickencelerycasseroleitem>, FoodInfo(12, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:peasandceleryitem>, FoodInfo(7, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:celerysoupitem>, FoodInfo(7, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:zucchinibreaditem>, FoodInfo(7, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:zucchinifriesitem>, FoodInfo(11, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:zestyzucchiniitem>, FoodInfo(9, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:zucchinibakeitem>, FoodInfo(13, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:asparagusquicheitem>, FoodInfo(8, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:asparagussoupitem>, FoodInfo(7, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:walnutraisinbreaditem>, FoodInfo(8, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:candiedwalnutsitem>, FoodInfo(4, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:brownieitem>, FoodInfo(10, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:guacamoleitem>, FoodInfo(9, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:creamofavocadosoupitem>, FoodInfo(9, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:avocadoburritoitem>, FoodInfo(10, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:poachedpearitem>, FoodInfo(5, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:fruitcrumbleitem>, FoodInfo(6, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:bananasplititem>, FoodInfo(12, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:banananutbreaditem>, FoodInfo(8, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:chickencurryitem>, FoodInfo(16, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:coconutshrimpitem>, FoodInfo(10, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:orangechickenitem>, FoodInfo(11, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:peachcobbleritem>, FoodInfo(5, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:keylimepieitem>, FoodInfo(6, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:cinnamonrollitem>, FoodInfo(6, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:frenchtoastitem>, FoodInfo(9, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:donutitem>, FoodInfo(3, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:chocolatedonutitem>, FoodInfo(4, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:powdereddonutitem>, FoodInfo(4, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:jellydonutitem>, FoodInfo(5, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:frosteddonutitem>, FoodInfo(7, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:cactussoupitem>, FoodInfo(3, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:wafflesitem>, FoodInfo(6, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:seedsoupitem>, FoodInfo(2, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:jellybeansitem>, FoodInfo(3, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:biscuititem>, FoodInfo(4, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:creamcookieitem>, FoodInfo(4, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:jaffaitem>, FoodInfo(6, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:friedchickenitem>, FoodInfo(10, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:footlongitem>, FoodInfo(14, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:blackberrycobbleritem>, FoodInfo(5, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:raspberrypieitem>, FoodInfo(5, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:donutitem>, FoodInfo(5, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:saltedsunflowerseedsitem>, FoodInfo(2, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:sunflowerwheatrollsitem>, FoodInfo(5, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:sunflowerbroccolisaladitem>, FoodInfo(10, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:cranberrysauceitem>, FoodInfo(3, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:cranberrybaritem>, FoodInfo(5, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:peppermintitem>, FoodInfo(3, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:baklavaitem>, FoodInfo(8, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:gummybearsitem>, FoodInfo(3, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:fruitpunchitem>, FoodInfo(3, 0.125, false, false));
+Tweaker.changeFoodStats(<harvestcraft:meatystewitem>, FoodInfo(6, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:mixedsaladitem>, FoodInfo(10, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:pinacoladaitem>, FoodInfo(4, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:shepardspieitem>, FoodInfo(12, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:eggnogitem>, FoodInfo(6, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:custarditem>, FoodInfo(6, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:sushiitem>, FoodInfo(8, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:gardensoupitem>, FoodInfo(5, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:caramelicecreamitem>, FoodInfo(5, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:mintchocolatechipicecreamitem>, FoodInfo(6, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:strawberryicecreamitem>, FoodInfo(6, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:vanillaicecreamitem>, FoodInfo(5, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:gingerchickenitem>, FoodInfo(9, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:oldworldveggiesoupitem>, FoodInfo(6, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:spicebunitem>, FoodInfo(8, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:gingeredrhubarbtartitem>, FoodInfo(9, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:lambbarleysoupitem>, FoodInfo(10, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:honeylemonlambitem>, FoodInfo(9, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:pumpkinoatsconesitem>, FoodInfo(6, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:beefjerkyitem>, FoodInfo(6, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:ovenroastedcaulifloweritem>, FoodInfo(7, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:leekbaconsoupitem>, FoodInfo(10, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:herbbutterparsnipsitem>, FoodInfo(5, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:scallionbakedpotatoitem>, FoodInfo(7, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:soymilkitem>, FoodInfo(1, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:firmtofuitem>, FoodInfo(2, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:silkentofuitem>, FoodInfo(2, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:bamboosteamedriceitem>, FoodInfo(4, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:roastedchestnutitem>, FoodInfo(3, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:sweetpotatosouffleitem>, FoodInfo(8, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:cashewchickenitem>, FoodInfo(10, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:apricotglazedporkitem>, FoodInfo(7, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:figbaritem>, FoodInfo(5, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:pistachiobakedsalmonitem>, FoodInfo(6, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:citrussaladitem>, FoodInfo(4, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:pecanpieitem>, FoodInfo(7, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:pralinesitem>, FoodInfo(3, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:baconwrappeddatesitem>, FoodInfo(6, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:datenutbreaditem>, FoodInfo(6, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:maplesyruppancakesitem>, FoodInfo(5, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:maplesyrupwafflesitem>, FoodInfo(7, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:maplesausageitem>, FoodInfo(6, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:mapleoatmealitem>, FoodInfo(3, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:peachesandcreamoatmealitem>, FoodInfo(5, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:cinnamonappleoatmealitem>, FoodInfo(5, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:maplecandiedbaconitem>, FoodInfo(5, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:toastsandwichitem>, FoodInfo(11, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:potatoandcheesepirogiitem>, FoodInfo(6, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:zeppoleitem>, FoodInfo(4, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:sausageinbreaditem>, FoodInfo(14, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:chocolatecaramelfudgeitem>, FoodInfo(2, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:lavendershortbreaditem>, FoodInfo(3, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:beefwellingtonitem>, FoodInfo(10, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:epicbaconitem>, FoodInfo(10, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:manjuuitem>, FoodInfo(5, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:chickengumboitem>, FoodInfo(15, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:generaltsochickenitem>, FoodInfo(12, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:californiarollitem>, FoodInfo(12, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:futomakiitem>, FoodInfo(17, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:vegemiteitem>, FoodInfo(4, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:honeycombchocolatebaritem>, FoodInfo(2, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:cherrycoconutchocolatebaritem>, FoodInfo(6, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:fairybreaditem>, FoodInfo(9, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:timtamitem>, FoodInfo(5, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:damperitem>, FoodInfo(6, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:gherkinitem>, FoodInfo(7, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:ceasarsaladitem>, FoodInfo(12, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:chaoscookieitem>, FoodInfo(3, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:chocolatebaconitem>, FoodInfo(5, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:lambkebabitem>, FoodInfo(8, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:nutellaitem>, FoodInfo(2, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:snickersbaritem>, FoodInfo(4, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:steamedspinachitem>, FoodInfo(3, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:vegemiteontoastitem>, FoodInfo(9, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:clamcookeditem>, FoodInfo(4, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:crabcookeditem>, FoodInfo(4, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:crayfishcookeditem>, FoodInfo(4, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:frogcookeditem>, FoodInfo(4, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:octopuscookeditem>, FoodInfo(4, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:scallopcookeditem>, FoodInfo(4, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:shrimpcookeditem>, FoodInfo(4, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:snailcookeditem>, FoodInfo(4, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:turtlecookeditem>, FoodInfo(4, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:oystercookeditem>, FoodInfo(4, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:applecideritem>, FoodInfo(3, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:porksausageitem>, FoodInfo(6, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:bangersandmashitem>, FoodInfo(12, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:batteredsausageitem>, FoodInfo(8, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:chorizoitem>, FoodInfo(8, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:coleslawitem>, FoodInfo(7, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:energydrinkitem>, FoodInfo(2, 0, false, false));
+Tweaker.changeFoodStats(<harvestcraft:friedonionsitem>, FoodInfo(4, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:onionhamburgeritem>, FoodInfo(13, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:mincepieitem>, FoodInfo(12, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:pepperoniitem>, FoodInfo(9, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:pickledonionsitem>, FoodInfo(6, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:raspberrytrifleitem>, FoodInfo(7, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:pumpkinmuffinitem>, FoodInfo(4, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:suaderoitem>, FoodInfo(5, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:strawberrymilkshakeitem>, FoodInfo(5, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:chocolatemilkshakeitem>, FoodInfo(5, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:bananamilkshakeitem>, FoodInfo(5, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:cornflakesitem>, FoodInfo(4, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:roastchickenitem>, FoodInfo(6, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:roastpotatoesitem>, FoodInfo(4, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:sundayroastitem>, FoodInfo(12, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:bbqpulledporkitem>, FoodInfo(12, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:lambwithmintsauceitem>, FoodInfo(9, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:steakandchipsitem>, FoodInfo(8, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:cherryicecreamitem>, FoodInfo(4, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:pistachioicecreamitem>, FoodInfo(4, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:neapolitanicecreamitem>, FoodInfo(4, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:spumoniicecreamitem>, FoodInfo(4, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:cornishpastyitem>, FoodInfo(11, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:cottagepieitem>, FoodInfo(12, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:croissantitem>, FoodInfo(6, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:dimsumitem>, FoodInfo(12, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:friedpecanokraitem>, FoodInfo(6, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:gooseberrymilkshakeitem>, FoodInfo(5, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:gooseberrypieitem>, FoodInfo(5, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:hushpuppiesitem>, FoodInfo(6, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:kimchiitem>, FoodInfo(14, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:mochiitem>, FoodInfo(4, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:museliitem>, FoodInfo(9, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:naanitem>, FoodInfo(5, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:okrachipsitem>, FoodInfo(4, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:okracreoleitem>, FoodInfo(14, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:porklomeinitem>, FoodInfo(17, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:salmonpattiesitem>, FoodInfo(12, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:sausageitem>, FoodInfo(7, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:sausagerollitem>, FoodInfo(11, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:sesameballitem>, FoodInfo(7, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:sesamesnapsitem>, FoodInfo(3, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:shrimpokrahushpuppiesitem>, FoodInfo(14, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:sweetpickleitem>, FoodInfo(6, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:veggiestripsitem>, FoodInfo(8, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:vindalooitem>, FoodInfo(10, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:cheeseontoastitem>, FoodInfo(7, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:tunapotatoitem>, FoodInfo(11, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:chocolaterollitem>, FoodInfo(4, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:jamrollitem>, FoodInfo(5, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:coconutcreamitem>, FoodInfo(3, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:crackeritem>, FoodInfo(4, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:paneeritem>, FoodInfo(1, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:gravyitem>, FoodInfo(2, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:mangochutneyitem>, FoodInfo(6, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:marzipanitem>, FoodInfo(3, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:paneertikkamasalaitem>, FoodInfo(14, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:peaandhamsoupitem>, FoodInfo(13, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:potatoandleeksoupitem>, FoodInfo(10, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:yorkshirepuddingitem>, FoodInfo(6, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:chickenchowmeinitem>, FoodInfo(12, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:kungpaochickenitem>, FoodInfo(14, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:charsiuitem>, FoodInfo(9, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:sweetandsourchickenitem>, FoodInfo(15, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:baconandeggsitem>, FoodInfo(6, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:biscuitsandgravyitem>, FoodInfo(6, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:applefritteritem>, FoodInfo(6, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:sweetteaitem>, FoodInfo(5, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:creepercookieitem>, FoodInfo(4, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:honeybreaditem>, FoodInfo(5, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:honeybunitem>, FoodInfo(7, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:honeyglazedcarrotsitem>, FoodInfo(7, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:honeyglazedhamitem>, FoodInfo(6, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:honeysoyribsitem>, FoodInfo(12, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:chocovoxelsitem>, FoodInfo(4, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:cinnamontoastitem>, FoodInfo(8, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:cornedbeefitem>, FoodInfo(12, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:cottoncandyitem>, FoodInfo(6, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:crackersitem>, FoodInfo(5, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:creeperwingsitem>, FoodInfo(6, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:dhalitem>, FoodInfo(12, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:durianmilkshakeitem>, FoodInfo(5, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:durianmuffinitem>, FoodInfo(4, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:hummusitem>, FoodInfo(11, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:ironbrewitem>, FoodInfo(6, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:lasagnaitem>, FoodInfo(9, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:lemondrizzlecakeitem>, FoodInfo(7, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:meatloafitem>, FoodInfo(14, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:mushroomlasagnaitem>, FoodInfo(11, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:musselcookeditem>, FoodInfo(4, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:netherwingsitem>, FoodInfo(7, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:pizzasoupitem>, FoodInfo(13, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:poutineitem>, FoodInfo(7, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:salsaitem>, FoodInfo(10, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:sardinesinhotsauceitem>, FoodInfo(5, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:teriyakichickenitem>, FoodInfo(12, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:turkishdelightitem>, FoodInfo(8, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:greeneggsandhamitem>, FoodInfo(7, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:theatreboxitem>, FoodInfo(11, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:cookiesandmilkitem>, FoodInfo(6, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:crackersandcheeseitem>, FoodInfo(7, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:chickendinneritem>, FoodInfo(14, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:corndogitem>, FoodInfo(6, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:hamandcheesesandwichitem>, FoodInfo(10, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:tunasaladitem>, FoodInfo(15, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:gritsitem>, FoodInfo(5, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:buttercookieitem>, FoodInfo(8, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:sugarcookieitem>, FoodInfo(7, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:potatochipsitem>, FoodInfo(5, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:bbqpotatochipsitem>, FoodInfo(11, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:sourcreamandonionpotatochipsitem>, FoodInfo(9, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:cheddarandsourcreampotatochipsitem>, FoodInfo(9, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:tortillachipsitem>, FoodInfo(5, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:chipsanddipitem>, FoodInfo(9, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:cheezepuffsitem>, FoodInfo(4, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:surfandturfitem>, FoodInfo(10, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:liverandonionsitem>, FoodInfo(8, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:fortunecookieitem>, FoodInfo(4, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:deviledeggitem>, FoodInfo(13, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:mozzerellasticksitem>, FoodInfo(5, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:succotashitem>, FoodInfo(12, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:friedgreentomatoesitem>, FoodInfo(5, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:potatoesobrienitem>, FoodInfo(8, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:tatertotsitem>, FoodInfo(5, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:smoresitem>, FoodInfo(10, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:steakfajitaitem>, FoodInfo(14, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:ramenitem>, FoodInfo(4, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:misosoupitem>, FoodInfo(5, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:onigiriitem>, FoodInfo(6, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:grilledcheesevegemitetoastitem>, FoodInfo(14, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:monsterfrieddumplingsitem>, FoodInfo(7, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:crispyricepuffcerealitem>, FoodInfo(4, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:crispyricepuffbarsitem>, FoodInfo(6, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:babaganoushitem>, FoodInfo(9, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:berryvinaigrettesaladitem>, FoodInfo(3, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:tomatoherbchickenitem>, FoodInfo(8, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:pastagardeniaitem>, FoodInfo(8, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:fiestacornsaladitem>, FoodInfo(14, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:threebeansaladitem>, FoodInfo(15, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:sweetandsourmeatballsitem>, FoodInfo(10, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:pepperjellyitem>, FoodInfo(3, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:pepperjellyandcrackersitem>, FoodInfo(8, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:saltedcaramelitem>, FoodInfo(2, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:spidereyepieitem>, FoodInfo(4, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:cheesyshrimpquinoaitem>, FoodInfo(12, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:bulgogiitem>, FoodInfo(14, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:omuriceitem>, FoodInfo(14, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:pemmicanitem>, FoodInfo(9, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:driedsoupitem>, FoodInfo(1, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:crabkimbapitem>, FoodInfo(12, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:froglegstirfryitem>, FoodInfo(12, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:haggisitem>, FoodInfo(8, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:chickenkatsuitem>, FoodInfo(9, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:chocolateorangeitem>, FoodInfo(3, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:festivalbreaditem>, FoodInfo(4, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:fruitcreamfestivalbreaditem>, FoodInfo(7, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:phoitem>, FoodInfo(6, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:bubbleteaitem>, FoodInfo(4, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:wontonsoupitem>, FoodInfo(9, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:springrollitem>, FoodInfo(13, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:meatystirfryitem>, FoodInfo(12, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:potstickersitem>, FoodInfo(13, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:orangeduckitem>, FoodInfo(12, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:pekingduckitem>, FoodInfo(10, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:stuffedduckitem>, FoodInfo(14, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:candiedpecansitem>, FoodInfo(4, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:stuffingitem>, FoodInfo(9, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:greenbeancasseroleitem>, FoodInfo(10, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:hamandpineapplepizzaitem>, FoodInfo(12, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:cobblestonecobbleritem>, FoodInfo(5, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:crayfishsaladitem>, FoodInfo(12, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:cevicheitem>, FoodInfo(12, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:bakedcactusitem>, FoodInfo(2, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:garlicsteakitem>, FoodInfo(7, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:mushroomsteakitem>, FoodInfo(7, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:hotdishcasseroleitem>, FoodInfo(15, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:sausagebeanmeltitem>, FoodInfo(13, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:mettbrotchenitem>, FoodInfo(12, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:chorusfruitsoupitem>, FoodInfo(3, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:akutuqitem>, FoodInfo(8, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:cantonesegreensitem>, FoodInfo(9, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:oystersauceitem>, FoodInfo(7, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:earlgreyteaitem>, FoodInfo(4, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:eggrollitem>, FoodInfo(8, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:eggtartitem>, FoodInfo(8, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:greenteaitem>, FoodInfo(3, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:meesuaitem>, FoodInfo(20, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:squidinkspaghettiitem>, FoodInfo(2, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:steaktartareitem>, FoodInfo(9, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:szechuaneggplantitem>, FoodInfo(16, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:baconpancakesitem>, FoodInfo(8, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:blackpaellaitem>, FoodInfo(12, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:blazingsoupitem>, FoodInfo(4, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:briochebunitem>, FoodInfo(4, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:chickenpaellaitem>, FoodInfo(15, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:escargotitem>, FoodInfo(12, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:gourmetbeefpattyitem>, FoodInfo(7, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:gourmetmuttonpattyitem>, FoodInfo(7, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:gourmetporkpattyitem>, FoodInfo(7, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:gourmetvenisonpattyitem>, FoodInfo(7, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:guisoitem>, FoodInfo(11, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:jelliedeelitem>, FoodInfo(13, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:kalechipsitem>, FoodInfo(3, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:padthaiitem>, FoodInfo(15, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:peanutbutterbananasandwichitem>, FoodInfo(8, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:peanutbuttercupitem>, FoodInfo(4, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:pinkelitem>, FoodInfo(5, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:pitepaltitem>, FoodInfo(10, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:sauerbratenitem>, FoodInfo(12, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:slimepieitem>, FoodInfo(6, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:strawberryrhubarbpieitem>, FoodInfo(7, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:tiropitaitem>, FoodInfo(7, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:rosepetalteaitem>, FoodInfo(2, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:potatoskinsitem>, FoodInfo(11, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:chilidonutitem>, FoodInfo(6, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:bbqsauceitem>, FoodInfo(2, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:vanillacupcakeitem>, FoodInfo(8, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:chocolatecupcakeitem>, FoodInfo(8, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:carrotcupcakeitem>, FoodInfo(8, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:redvelvetcupcakeitem>, FoodInfo(8, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:chilicupcakeitem>, FoodInfo(8, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:peanutbuttercupcakeitem>, FoodInfo(8, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:lemoncupcakeitem>, FoodInfo(8, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:strawberrycupcakeitem>, FoodInfo(8, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:mintcupcakeitem>, FoodInfo(8, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:coffeecupcakeitem>, FoodInfo(8, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:sprinklescupcakeitem>, FoodInfo(8, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:caramelcupcakeitem>, FoodInfo(8, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:cherryslushieitem>, FoodInfo(4, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:pambitsboxitem>, FoodInfo(6, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:stuffedchilipeppersitem>, FoodInfo(12, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:slimegummiesitem>, FoodInfo(5, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:chocolatepuddingitem>, FoodInfo(4, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:bbqchickenpizzaitem>, FoodInfo(12, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:quesadillaitem>, FoodInfo(4, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:bibimbapitem>, FoodInfo(12, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:shrimpcocktailitem>, FoodInfo(9, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:nopalessaladitem>, FoodInfo(10, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:applesnowitem>, FoodInfo(5, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:bakedalaskaitem>, FoodInfo(6, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:berrymeringuenestitem>, FoodInfo(10, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:etonmessitem>, FoodInfo(6, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:meringuebombeitem>, FoodInfo(10, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:meringuebrownieitem>, FoodInfo(6, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:meringuecookieitem>, FoodInfo(5, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:meringuerouladeitem>, FoodInfo(8, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:merveilleuxitem>, FoodInfo(4, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:bbqjackfruititem>, FoodInfo(3, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:mushroomketchupitem>, FoodInfo(2, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:mushroomketchupomeletitem>, FoodInfo(4, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:lycheeteaitem>, FoodInfo(3, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:baconwrappedchiliitem>, FoodInfo(5, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:seedenergygelitem>, FoodInfo(6, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:chickencordonbleuitem>, FoodInfo(11, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:sundayhighteaitem>, FoodInfo(14, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:cucumbersandwichitem>, FoodInfo(10, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:dandelionsaladitem>, FoodInfo(4, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:peanutsoupitem>, FoodInfo(9, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:vanillaconchasbreaditem>, FoodInfo(6, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:chocolatecoconutbaritem>, FoodInfo(3, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:strawberrysouffleitem>, FoodInfo(13, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:gyudonitem>, FoodInfo(12, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:shrimptemperaitem>, FoodInfo(6, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:imagawayakiitem>, FoodInfo(4, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:mochicakeitem>, FoodInfo(10, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:mochidessertitem>, FoodInfo(8, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:taiyakiitem>, FoodInfo(4, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:salmononigiriitem>, FoodInfo(9, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:tunaonigiriitem>, FoodInfo(9, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:bolognaitem>, FoodInfo(3, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:friedbolognasandwichitem>, FoodInfo(9, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:bolognasandwichitem>, FoodInfo(13, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:ricepuddingitem>, FoodInfo(7, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:musubiitem>, FoodInfo(8, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:imitationcrabsticksitem>, FoodInfo(1, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:misopasteitem>, FoodInfo(1, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:dandelionteaitem>, FoodInfo(4, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:gravlaxitem>, FoodInfo(4, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:cheesedanishitem>, FoodInfo(6, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:schnitzelitem>, FoodInfo(7, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:raspberrymilkshakeitem>, FoodInfo(8, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:pumpkinspicelatteitem>, FoodInfo(10, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:rootbeerfloatitem>, FoodInfo(10, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:hotcocoaitem>, FoodInfo(7, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:cinnamonbreaditem>, FoodInfo(5, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:cornchipsitem>, FoodInfo(3, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:marshmellowchicksitem>, FoodInfo(7, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:pizzasliceitem>, FoodInfo(1, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:baconcheeseburgeritem>, FoodInfo(15, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:deluxecheeseburgeritem>, FoodInfo(15, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:beansontoastitem>, FoodInfo(14, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:meatpieitem>, FoodInfo(12, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:chikorollitem>, FoodInfo(15, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:spinachpieitem>, FoodInfo(11, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:coleslawburgeritem>, FoodInfo(16, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:hotandsoursoupitem>, FoodInfo(18, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:patreonpieitem>, FoodInfo(4, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:chilidogitem>, FoodInfo(16, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:tunafishsandwichitem>, FoodInfo(16, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:clamchowderitem>, FoodInfo(17, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:breakfastburritoitem>, FoodInfo(13, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:chipsandsalsaitem>, FoodInfo(15, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:crawfishetoufeeitem>, FoodInfo(14, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:saucedlambkebabitem>, FoodInfo(14, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:cantonesenoodlesitem>, FoodInfo(22, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:dangoitem>, FoodInfo(12, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:takoyakiitem>, FoodInfo(15, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:groiledcheesesandwichitem>, FoodInfo(11, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:cheesesteakitem>, FoodInfo(15, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:swedishmeatballsitem>, FoodInfo(15, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:buttertartitem>, FoodInfo(13, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:battenbergitem>, FoodInfo(11, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:slawdogitem>, FoodInfo(18, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:rivermudcakeitem>, FoodInfo(14, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:fruitcakeitem>, FoodInfo(16, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:springfieldcashewchickenitem>, FoodInfo(21, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:enchiladaitem>, FoodInfo(16, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:pizzaitem>, FoodInfo(10, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:onionsoupitem>, FoodInfo(13, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:baconmushroomburgeritem>, FoodInfo(17, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:toadintheholeitem>, FoodInfo(13, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:homestylelunchitem>, FoodInfo(13, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:montecristosandwichitem>, FoodInfo(20, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:mobsoupitem>, FoodInfo(4, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:randomtacoitem>, FoodInfo(17, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:hamsweetpicklesandwichitem>, FoodInfo(16, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:toastedwesternitem>, FoodInfo(17, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:eggsbenedictitem>, FoodInfo(14, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:glisteningsaladitem>, FoodInfo(6, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:meatloafsandwichitem>, FoodInfo(20, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:mashedpotatoeschickenbiscuititem>, FoodInfo(15, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:cassouletitem>, FoodInfo(25, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:bratwurstitem>, FoodInfo(12, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:chickenbiscuititem>, FoodInfo(14, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:epicbltitem>, FoodInfo(20, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:kohlundpinkelitem>, FoodInfo(21, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:beetburgeritem>, FoodInfo(19, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:anchovypepperonipizzaitem>, FoodInfo(19, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:spaghettidinneritem>, FoodInfo(19, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:gumboitem>, FoodInfo(23, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:jambalayaitem>, FoodInfo(21, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:supremepizzaitem>, FoodInfo(16, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:bbqplatteritem>, FoodInfo(23, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:chickenandwafflesitem>, FoodInfo(16, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:gourmetporkburgeritem>, FoodInfo(21, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:bbqchickenbiscuititem>, FoodInfo(16, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:delightedmealitem>, FoodInfo(24, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:heartybreakfastitem>, FoodInfo(20, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:chocolatemilkitem>, FoodInfo(3, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:mcpamitem>, FoodInfo(24, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:deluxenachoesitem>, FoodInfo(25, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:gourmetmuttonburgeritem>, FoodInfo(21, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:gourmetbeefburgeritem>, FoodInfo(21, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:netherstartoastitem>, FoodInfo(20, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:paradiseburgeritem>, FoodInfo(22, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:chimichangaitem>, FoodInfo(27, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:salisburysteakitem>, FoodInfo(21, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:ploughmanslunchitem>, FoodInfo(22, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:cornedbeefhashitem>, FoodInfo(25, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:bentoboxitem>, FoodInfo(31, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:friedfeastitem>, FoodInfo(25, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:timpanoitem>, FoodInfo(29, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:deluxechickencurryitem>, FoodInfo(29, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:weekendpicnicitem>, FoodInfo(30, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:southernstylebreakfastitem>, FoodInfo(22, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:meatfeastpizzaitem>, FoodInfo(33, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:thankfuldinneritem>, FoodInfo(31, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:koreandinneritem>, FoodInfo(44, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:gourmetvenisonburgeritem>, FoodInfo(21, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:minerstewitem>, FoodInfo(10, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:porkrindsitem>, FoodInfo(3, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:cornedbeefbreakfastitem>, FoodInfo(36, 0.5, false, false));
+Tweaker.changeFoodStats(<harvestcraft:cracklinsitem>, FoodInfo(9, 0.5, false, false));
+
+Tweaker.changeFoodStats(<jaffa:vanillamilkshake>, FoodInfo(8, 0.5, false, false));
+Tweaker.changeFoodStats(<jaffa:chipssaltvinegar>, FoodInfo(7, 0.5, false, false));
+Tweaker.changeFoodStats(<jaffa:chipschicken>, FoodInfo(7, 0.5, false, false));
+Tweaker.changeFoodStats(<jaffa:chocchipcookie>, FoodInfo(5, 0.5, false, false));
+Tweaker.changeFoodStats(<jaffa:lemonsugarpancakes>, FoodInfo(7, 0.5, false, false));
+Tweaker.changeFoodStats(<jaffa:jampancakes>, FoodInfo(7, 0.5, false, false));
+Tweaker.changeFoodStats(<jaffa:honeypancakes>, FoodInfo(5, 0.5, false, false));
+Tweaker.changeFoodStats(<jaffa:bananacupcake>, FoodInfo(8, 0.5, false, false));
+Tweaker.changeFoodStats(<jaffa:savourymuffin>, FoodInfo(6, 0.5, false, false));
+Tweaker.changeFoodStats(<jaffa:chocchipmuffin>, FoodInfo(4, 0.5, false, false));
+Tweaker.changeFoodStats(<jaffa:chickenvegepie>, FoodInfo(12, 0.5, false, false));
+Tweaker.changeFoodStats(<jaffa:baconeggpie>, FoodInfo(15, 0.5, false, false));
+Tweaker.changeFoodStats(<jaffa:bacon>, FoodInfo(5, 0.5, false, false));
+Tweaker.changeFoodStats(<jaffa:fishpie>, FoodInfo(13, 0.5, false, false));
+Tweaker.changeFoodStats(<jaffa:fishquiche>, FoodInfo(14, 0.5, false, false));
+Tweaker.changeFoodStats(<jaffa:macaronicheese>, FoodInfo(7, 0.5, false, false));
+Tweaker.changeFoodStats(<jaffa:roastpork>, FoodInfo(6, 0.5, false, false));
+Tweaker.changeFoodStats(<jaffa:roastbeef>, FoodInfo(6, 0.5, false, false));
+Tweaker.changeFoodStats(<jaffa:roastmutton>, FoodInfo(6, 0.5, false, false));
+Tweaker.changeFoodStats(<jaffa:lemoncordial>, FoodInfo(4, 0.5, false, false));
+Tweaker.changeFoodStats(<jaffa:chickennoodlebake>, FoodInfo(11, 0.5, false, false));
+Tweaker.changeFoodStats(<jaffa:pikelets>, FoodInfo(9, 0.5, false, false));
+Tweaker.changeFoodStats(<jaffa:jaffas>, FoodInfo(5, 0.5, false, false));
+Tweaker.changeFoodStats(<jaffa:fruitpie>, FoodInfo(10, 0.5, false, false));
+Tweaker.changeFoodStats(<jaffa:chickensalad>, FoodInfo(14, 0.5, false, false));
+Tweaker.changeFoodStats(<jaffa:extremebacon>, FoodInfo(16, 0.5, false, false));
+Tweaker.changeFoodStats(<jaffa:jellyburger>, FoodInfo(14, 0.5, false, false));
+Tweaker.changeFoodStats(<jaffa:doritos>, FoodInfo(6, 0.5, false, false));
+Tweaker.changeFoodStats(<jaffa:cocacolafloat>, FoodInfo(10, 0.5, false, false));
+Tweaker.changeFoodStats(<jaffa:orangesodafloat>, FoodInfo(10, 0.5, false, false));
+Tweaker.changeFoodStats(<jaffa:baconicecream>, FoodInfo(9, 0.5, false, false));
+Tweaker.changeFoodStats(<jaffa:beefstroganoff>, FoodInfo(10, 0.5, false, false));
+Tweaker.changeFoodStats(<jaffa:cheesemash>, FoodInfo(8, 0.5, false, false));
+Tweaker.changeFoodStats(<jaffa:chickennuggets>, FoodInfo(6, 0.5, false, false));
+Tweaker.changeFoodStats(<jaffa:honeychickennuggets>, FoodInfo(7, 0.5, false, false));
+Tweaker.changeFoodStats(<jaffa:banhmi>, FoodInfo(16, 0.5, false, false));
+Tweaker.changeFoodStats(<jaffa:crabcakes>, FoodInfo(13, 0.5, false, false));
+Tweaker.changeFoodStats(<jaffa:maplecocoa>, FoodInfo(4, 0.5, false, false));
+Tweaker.changeFoodStats(<jaffa:grilledeel>, FoodInfo(7, 0.5, false, false));
+Tweaker.changeFoodStats(<jaffa:octopusballs>, FoodInfo(10, 0.5, false, false));
+Tweaker.changeFoodStats(<jaffa:puffedrice>, FoodInfo(2, 0.5, false, false));
+Tweaker.changeFoodStats(<jaffa:ricekrispies>, FoodInfo(7, 0.5, false, false));
+Tweaker.changeFoodStats(<jaffa:weetabix>, FoodInfo(3, 0.5, false, false));
+Tweaker.changeFoodStats(<jaffa:weetabixmilk>, FoodInfo(5, 0.5, false, false));
+Tweaker.changeFoodStats(<jaffa:weetabix>, FoodInfo(6, 0.5, false, false));
+Tweaker.changeFoodStats(<jaffa:luckycharms>, FoodInfo(8, 0.5, false, false));
+Tweaker.changeFoodStats(<jaffa:fruitloops>, FoodInfo(6, 0.5, false, false));
+Tweaker.changeFoodStats(<jaffa:granola>, FoodInfo(3, 0.5, false, false));
+Tweaker.changeFoodStats(<jaffa:cinnamontoastcrunch>, FoodInfo(6, 0.5, false, false));
+Tweaker.changeFoodStats(<jaffa:cocoapuffs>, FoodInfo(8, 0.5, false, false));
+Tweaker.changeFoodStats(<jaffa:honeypuffs>, FoodInfo(7, 0.5, false, false));
+Tweaker.changeFoodStats(<jaffa:spinachquiche>, FoodInfo(10, 0.5, false, false));
+Tweaker.changeFoodStats(<jaffa:baconeggquiche>, FoodInfo(15, 0.5, false, false));
+Tweaker.changeFoodStats(<jaffa:salmonquiche>, FoodInfo(12, 0.5, false, false));
+Tweaker.changeFoodStats(<jaffa:kalesandwich>, FoodInfo(10, 0.5, false, false));
+
+recipes.addShapeless(<harvestcraft:garlicsteakitem>,[<ore:toolSkillet>.reuse(),<ore:listAllbeefraw>,<ore:cropGarlic>]);
+recipes.addShapeless(<harvestcraft:bratwurstitem>,[<ore:toolSkillet>.reuse(),<ore:foodBread>,<ore:foodPorksausage>, <ore:cropCabbage>]);
+recipes.addShapeless(<harvestcraft:swedishmeatballsitem>,[<ore:toolSaucepan>.reuse(),<ore:listAllporkraw>,<ore:listAllbeefraw>, <ore:cropOnion>, <ore:foodBatter>,<ore:listAllheavycream>,<ore:dustSalt>]);
+recipes.addShapeless(<harvestcraft:saucedlambkebabitem>,[<harvestcraft:lambkebabitem>,<ore:cropSesame>,<ore:listAllheavycream>, <ore:cropLemon>]);
+recipes.addShapeless(<harvestcraft:schnitzelitem>,[<ore:toolPot>.reuse(),<ore:listAllmeatraw>,<ore:foodBatter>,<ore:foodOliveoil>]);
+recipes.addShapeless(<harvestcraft:cracklinsitem>,[<ore:toolPot>.reuse(),<ore:listAllporkraw>,<ore:foodOliveoil>, <ore:dustSalt>,<ore:cropChilipepper>,<ore:cropGarlic>]);

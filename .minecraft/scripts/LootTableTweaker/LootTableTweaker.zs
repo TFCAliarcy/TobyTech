@@ -18,4 +18,6 @@ mods.ltt.LootTable.removeGlobalItem("cyberware:neuropozyne");
 mods.ltt.LootTable.removeGlobalItem("mocreatures:ancientsilverscrap");
 mods.ltt.LootTable.removeGlobalItem("oe:crab");
 mods.ltt.LootTable.removeGlobalItem("mocreatures:turkeycooked");
+mods.ltt.LootTable.removeGlobalItem("mocreatures:venisoncooked");
 mods.ltt.LootTable.removeGlobalItem("mocreatures:turtlecooked");
+mods.ltt.LootTable.removeGlobalItem("twilightforest:cooked_venison");

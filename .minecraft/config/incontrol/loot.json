@@ -2,12 +2,12 @@
     {
       "mob": "oe:clam",
       "item": "harvestcraft:clamrawitem",
-      "itemcount": "1/1-2/2-3"
+      "itemcount": "1-2/2-3/3-4"
     },
     {
         "mob": "oe:turtle",
         "item": "harvestcraft:turtlerawitem",
-        "itemcount": "1/1-2/2-3"
+        "itemcount": "1-2/2-3/3-4"
       },
       {
         "mob": "mocreatures:turtle",
@@ -21,12 +21,26 @@
       },
       {
         "mob": "mocreatures:duck",
-        "remove": "mocreatures:duckraw"
+        "remove": "mocreatures:duckraw",
+        "item": "harvestcraft:duckrawitem",
+        "itemcount": "1/1-2/2-3"
       },
       {
         "mob": "mocreatures:turkey",
         "remove": "mocreatures:turkeyraw",
         "item": "harvestcraft:turkeyrawitem",
         "itemcount": "1/1-2/2-3"
+      },
+            {
+        "mob": "twilightforest:deer",
+        "remove": "twilightforest:raw_venison",
+        "item": "harvestcraft:venisonrawitem",
+        "itemcount": "1-2/2-3/3-4"
+      },
+                  {
+        "mob": "mocreatures:deer",
+        "remove": "mocreatures:venisonraw",
+        "item": "harvestcraft:venisonrawitem",
+        "itemcount": "1-2/2-3/3-4"
       }
   ]
