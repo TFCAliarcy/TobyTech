@@ -48,11 +48,11 @@ bewitchment:magic_protection
 bibliocraft:bibliocraft.deathcompassench
 bibliocraft:bibliocraft.readingench
 endercore:xpboost
+enderio:witherweapon
+enderio:shimmer
 enderio:repellent
 enderio:witherarrow
-enderio:shimmer
 enderio:soulbound
-enderio:witherweapon
 deeperdepths:breach
 deeperdepths:density
 deeperdepths:wind_burst
@@ -75,7 +75,6 @@ oe:channeling
 oe:riptide
 oe:mobstomp
 oe:rebound
-spartanshields:ssenchspikes
 spartanweaponry:propulsion
 spartanweaponry:razors_edge
 spartanweaponry:incendiary
@@ -87,6 +86,7 @@ spartanweaponry:return
 spartanweaponry:rapid_load
 spartanweaponry:spreadshot
 spartanweaponry:sharpshooter
+spartanshields:ssenchspikes
 srpmixins:parasite_piercer
 srpmixins:parasite_slicer
 thaumictinkerer:ascentboost

@@ -109,3 +109,10 @@ recipes.replaceAllOccurences(<ore:gemDiamond>, <ore:crystalCertusQuartz>, <cyber
 recipes.replaceAllOccurences(<ore:ingotIron>, <ore:ingotVibrantAlloy>, <cyberware:beacon>);
 recipes.replaceAllOccurences(<ore:ingotIron>, <ore:ingotVibrantAlloy>, <cyberware:beacon_large>);
 recipes.addShapeless(<cyberware:neuropozyne> *8,[<minecraft:glass_bottle>,<ore:dustSilver>,<ore:listAllsugar>, <ore:itemPulsatingPowder>]);
+
+//Gravity Module
+recipes.remove(<galaxyspace:gravitation_module>);
+recipes.addShaped(<galaxyspace:gravitation_module>,
+[[<ore:ingotTough>, <galacticraftcore:item_basic_moon:1>, <ore:ingotTough>],
+[<galacticraftcore:aluminum_wire:1>, <galaxyspace:machineframes:0>, <galacticraftcore:aluminum_wire:1>],
+[<galacticraftcore:basic_item:14>, <ore:crystalFluix>, <galacticraftcore:basic_item:14>]]);

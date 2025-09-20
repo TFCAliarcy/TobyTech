@@ -40,6 +40,7 @@ geneticsreborn:mutation
 geneticsreborn:viral
 geneticsreborn:bleed
 geneticsreborn:cure
+srpextra:stung
 ebwizardry:frost
 ebwizardry:transience
 ebwizardry:fireskin

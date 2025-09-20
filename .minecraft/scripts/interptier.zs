@@ -49,3 +49,7 @@ mods.nuclearcraft.manufactory.addRecipe(<galacticraftplanets:strange_seed:1>, <s
 
 mods.thermalexpansion.Insolator.addRecipe(<srp_medical_addon:mint> *2, <srp_medical_addon:mint>, <thermalfoundation:fertilizer:2>, 9600, null, 0, 1000);
 mods.thermalexpansion.Insolator.addRecipe(<srp_medical_addon:aconite_root> *2, <srp_medical_addon:aconite_root>, <thermalfoundation:fertilizer:2>, 9600, <srp_medical_addon:aconite_flower>, 100, 1000);
+
+// Tier 3 Rocket Plate
+mods.GalacticraftTweaker.removeCompressorRecipe(<galacticraftplanets:item_basic_asteroids:5>);
+mods.GalacticraftTweaker.addCompressorShapelessRecipe(<galacticraftplanets:item_basic_asteroids:5>, <galacticraftplanets:item_basic_mars:3>, <galacticraftplanets:item_basic_mars:5>, <nuclearcraft:plutonium:6>, <thermalfoundation:material:166>);
