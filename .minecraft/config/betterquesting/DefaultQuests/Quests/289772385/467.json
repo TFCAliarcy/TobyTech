@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "No Description",
+      "desc:8": "Incendiary Rounds light mobs that were hit on fire, shocking I know.\n\nYou can\u0027t just load them into your gun normally though, you have to switch your gun to being an incendiary version by putting the magazines/bullet/shell with the gun in your crafting square.\n\nYou switch it back by putting normal magazines/bullets/shells with your gun in the crafting square.\n\nThe same applies for explosive rounds but that only works with the AS50.\n\nMind you that if you aren\u0027t in safe mode they can light/explode blocks you hit.",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 110,
@@ -13,7 +13,7 @@
         },
         "id:8": "techguns:itemshared"
       },
-      "name:8": "Incendiary Rounds"
+      "name:8": "Incendiary \u0026 Explosive Rounds"
     }
   },
   "questID:3": 467,
@@ -52,6 +52,20 @@
         "3:10": {
           "Count:3": 1,
           "Damage:2": 110,
+          "ForgeCaps:10": {
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "techguns:itemshared"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "2:10": {
+      "index:3": 2,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 144,
           "ForgeCaps:10": {
             "wizardryutils:summoneditemdata:10": {}
           },

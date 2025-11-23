@@ -1,7 +1,7 @@
 {
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "No Description",
+      "desc:8": "64 String and 8 sticks lets you make a bag which has 27 slots (same as a chest) which you can store in your inventory and color with dye in the crafting table.\n\nYou can store these backpacks in any other inventory making them excellant for large amounts of storage.\n\nMake sure to not go crazy with them though, too much nbt data in a chunk leads to corruption.",
       "icon:10": {
         "Count:3": 1,
         "ForgeCaps:10": {

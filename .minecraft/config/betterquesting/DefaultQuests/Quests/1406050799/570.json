@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Copper, Desh, Volcanic\n\nHas Solar Radiation, requires tier 2 thermal padding and oxygen",
+      "desc:8": "Copper, Volcanic\n\nHas Solar Radiation, requires tier 2 thermal padding and oxygen",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 1,

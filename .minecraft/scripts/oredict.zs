@@ -92,3 +92,9 @@ recipes.addShapeless(<deepmoblearning:data_model_remnant>,[<deepmoblearning:data
 
 <ore:listAllsugar>.add(<forestry:honey_drop:0>);
 <ore:foodHoneydrop>.add(<forestry:honey_drop:0>);
+
+<ore:machineblockBasic>.add(<thermalexpansion:frame:0>);
+<ore:machineblockAdvanced>.add(<enderio:item_material:1>);
+
+<ore:gemSapphire>.add(<galacticraftcore:item_basic_moon:2>);
+

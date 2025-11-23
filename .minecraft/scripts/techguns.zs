@@ -84,7 +84,7 @@ recipes.addShaped(<techguns:m4_infiltrator:0>, [ //Full
 	[<ore:dustRedstone>, <galacticraftcore:basic_item:14>, <ore:ingotSteel>]]);
 recipes.addShaped(<techguns:m4_infiltrator:30>, [ // Empty
 	[<ore:blockGlassHardened>,<ore:plateSteel>,<ore:blockGlassHardened>], 
-	[<ore:wool>,<ore:wool>,<techguns:m4:20>],
+	[<ore:wool>,<ore:wool>,<techguns:m4:30>],
 	[<ore:dustRedstone>, <galacticraftcore:basic_item:14>, <ore:ingotSteel>]]);
 
 // Minigun
@@ -180,13 +180,26 @@ recipes.addShaped(<techguns:m4:30>, [ // Empty
 recipes.removeByRecipeName("techguns:guidedmissilelauncher");
 recipes.removeByRecipeName("techguns:guidedmissilelauncher_alt");
 recipes.addShaped(<techguns:guidedmissilelauncher:1>, [ //Full
-	[null,<ore:blockGlassHardened>,<appliedenergistics2:material:24>], 
+	[null,<ore:blockGlassHardened>,<ore:circuitAdvanced>], 
 	[null,<techguns:itemshared:39>,<techguns:itemshared:39>],
 	[null, <techguns:itemshared:35>, null]]);
 recipes.addShaped(<techguns:guidedmissilelauncher:0>, [ // Empty
-	[null,<ore:blockGlassHardened>,<appliedenergistics2:material:24>], 
+	[null,<ore:blockGlassHardened>,<ore:circuitAdvanced>], 
 	[<techguns:itemshared:7>,<techguns:itemshared:39>,<techguns:itemshared:39>],
 	[null, <techguns:itemshared:35>, null]]);
 
-// Techguns Plastic
+//Techguns Plastic
+<techguns:itemshared:55>.displayName = "Weapons Grade Plastic";
+mods.jei.JEI.removeAndHide(<techguns:itemshared:96>);
 mods.thermalexpansion.InductionSmelter.addRecipe(<techguns:itemshared:55>, <industrialforegoing:plastic>, <thermalfoundation:material:771>, 3200);
+
+//Chemical Laboratory
+recipes.remove(<techguns:basicmachine:2>);
+recipes.addShaped(<techguns:basicmachine:2>, [
+	[<ore:ingotTough>,<minecraft:glass_bottle>,<ore:ingotTough>], 
+	[<minecraft:glass_bottle>,<ore:machineblockAdvanced>,<minecraft:glass_bottle>],
+	[<ore:ingotTough>, <ore:circuitAdvanced>, <ore:ingotTough>]]);
+
+//Pulse Rifle
+recipes.replaceAllOccurences(<ore:circuitElite>, <ore:circuitAdvanced>,<techguns:pulserifle:0>);
+recipes.replaceAllOccurences(<ore:circuitElite>, <ore:circuitAdvanced>,<techguns:pulserifle:12>);

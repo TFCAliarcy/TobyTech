@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "No Description",
+      "desc:8": "The Steam Oven is a multiblock version of the furnace with it being a simple 2x2x2 structure made of 8 blocks.\n\nIt uses steam instead of fuel and when powered it will smelt up to 9 items at once!\n\nFurthermore automating it is simple, everyside counts as an input or an output though it will not push stuff out automatically so you\u0027ll have to pull them out like you would a chest.\n\nOverall a very good machine.",
       "icon:10": {
         "Count:3": 1,
         "ForgeCaps:10": {

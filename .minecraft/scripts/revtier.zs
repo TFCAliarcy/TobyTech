@@ -1,6 +1,7 @@
 #reloadable
 
 import mods.thermalexpansion.Refinery;
+import mods.buildcraft.AssemblyTable;
 
 // Tunnel Bore
 recipes.remove(<railcraft:bore>);
@@ -64,13 +65,13 @@ recipes.addShaped(<railcraft:equipment:2>, [
 //mods.iceandfire.recipes.addFireDragonForgeRecipe(<thermalfoundation:material:160>, <iceandfire:fire_dragon_blood>, <iceandfire:dragonsteel_fire_ingot>);
 //mods.iceandfire.recipes.addIceDragonForgeRecipe(<thermalfoundation:material:160>, <iceandfire:ice_dragon_blood>, <iceandfire:dragonsteel_ice_ingot>);
 
-// Thermal Expansion Recipes
+// Thermal Expansion Dynamos and Frames
 
 recipes.remove(<thermalexpansion:frame:0>);
 recipes.addShaped(<thermalexpansion:frame:0>, [
 	[<ore:ingotSteel>,<ore:blockGlass>,<ore:ingotSteel>], 
 	[<ore:blockGlass>,<ore:gearTin>,<ore:blockGlass>],
-	[<ore:ingotSteel>, <ore:blockGlass>, <ore:ingotSteel>]]);
+	[<ore:ingotSteel>, <thermalfoundation:material:513>, <ore:ingotSteel>]]);
 recipes.remove(<thermalexpansion:frame:64>);
 recipes.addShaped(<thermalexpansion:frame:64>, [
 	[<ore:ingotSteel>,<ore:blockGlass>,<ore:ingotSteel>], 
@@ -84,7 +85,7 @@ recipes.addShaped(<thermalexpansion:dynamo:0>, [
 recipes.remove(<thermalexpansion:dynamo:1>);
 recipes.addShaped(<thermalexpansion:dynamo:1>, [
 	[null,<thermalfoundation:material:514>,null], 
-	[<ore:ingotTough>,<ore:gearInvar>,<ore:ingotTough>],
+	[<ore:ingotSteel>,<ore:gearInvar>,<ore:ingotSteel>],
 	[<ore:ingotInvar>, <ore:dustRedstone>, <ore:ingotInvar>]]);
 recipes.remove(<thermalexpansion:dynamo:2>);
 recipes.addShaped(<thermalexpansion:dynamo:2>, [
@@ -118,14 +119,14 @@ furnace.remove(<ore:ingotAluminum>);
 // Fossil Stuff
 recipes.remove(<fossil:analyzer>);
 recipes.addShaped(<fossil:analyzer>, [
-	[null,null,null], 
-	[<ore:ingotElectrum>,<fossil:biofossil>,<ore:ingotElectrum>],
-	[<ore:ingotElectrum>, <fossil:relic_scrap>, <ore:ingotElectrum>]]);
+	[null,<ore:fossil>,null], 
+	[<ore:ingotElectrum>,<ore:machineblockBasic>,<ore:ingotElectrum>],
+	[<ore:ingotElectrum>, <ore:circuitBasic>, <ore:ingotElectrum>]]);
 recipes.remove(<fossil:cultivate>);
 recipes.addShaped(<fossil:cultivate>, [
 	[<ore:blockGlass>,<ore:slimeball>,<ore:blockGlass>], 
-	[<ore:blockGlass>,<ore:listlistAllwater>,<ore:blockGlass>],
-	[<ore:ingotElectrum>, <ore:ingotElectrum>, <ore:ingotElectrum>]]);
+	[<ore:blockGlass>,<ore:machineblockBasic>,<ore:blockGlass>],
+	[<ore:ingotElectrum>, <ore:circuitBasic>, <ore:ingotElectrum>]]);
 recipes.remove(<fossil:feeder>);
 recipes.addShaped(<fossil:feeder>, [
 	[<ore:ingotElectrum>,<ore:blockGlass>,<ore:ingotElectrum>], 
@@ -135,16 +136,9 @@ recipes.addShaped(<fossil:feeder>, [
 // Quarry
 recipes.remove(<buildcraftbuilders:quarry>);
 recipes.addShaped(<buildcraftbuilders:quarry>, [
-	[<ore:gearAluminum>,<ore:dustRedstone>,<ore:gearAluminum>], 
-	[<ore:gearGold>,<ore:gearAluminum>,<ore:gearGold>],
+	[<ore:gearAluminum>,<ore:circuitBasic>,<ore:gearAluminum>], 
+	[<ore:gearGold>,<ore:machineblockBasic>,<ore:gearGold>],
 	[<ore:gearDiamond>, <minecraft:diamond_pickaxe>, <ore:gearDiamond>]]);
-// Galacticraft Compressor
-recipes.remove(<galacticraftcore:machine:12>);
-recipes.remove(<galacticraftcore:machine2:0>);
-recipes.addShaped(<galacticraftcore:machine2:0>, [
-	[<ore:ingotAluminum>,<railcraft:anvil>,<ore:ingotAluminum>], 
-	[<ore:ingotAluminum>,<ore:ingotBronze>,<ore:ingotAluminum>],
-	[<galacticraftcore:aluminum_wire>, <galacticraftcore:basic_item:14>, <galacticraftcore:aluminum_wire>]]);
 
 //Plastic from Oil
 mods.thermalexpansion.Transposer.addFillRecipe(<industrialforegoing:plastic>, <minecraft:paper>, <liquid:refined_fuel> * 100, 5000);
@@ -196,3 +190,147 @@ recipes.addShaped(<hatstand:hatstand>, [
 	[null,null,null], 
 	[null,<ore:stickWood>,null],
 	[null, <ore:plankWood>, null]]);	
+
+
+// Making Chipsets cheaper
+AssemblyTable.removeByName("buildcraftsilicon:redstone_chipset");
+AssemblyTable.addRecipe(<buildcraftsilicon:redstone_chipset:0>, 2500, [<ore:dustRedstone>]);
+AssemblyTable.removeByName("buildcraftsilicon:iron_chipset");
+AssemblyTable.addRecipe(<buildcraftsilicon:redstone_chipset:1>, 5000, [<ore:dustRedstone>, <ore:ingotIron>]);
+AssemblyTable.removeByName("buildcraftsilicon:gold_chipset");
+AssemblyTable.addRecipe(<buildcraftsilicon:redstone_chipset:2>, 10000, [<ore:dustRedstone>, <ore:ingotGold>]);
+AssemblyTable.removeByName("buildcraftsilicon:quartz_chipset");
+AssemblyTable.addRecipe(<buildcraftsilicon:redstone_chipset:3>, 15000, [<ore:dustRedstone>, <ore:gemQuartz>]);
+AssemblyTable.removeByName("buildcraftsilicon:diamond_chipset");
+AssemblyTable.addRecipe(<buildcraftsilicon:redstone_chipset:4>, 20000, [<ore:dustRedstone>, <ore:gemDiamond>]);
+
+//Copper Wire
+recipes.remove(<techguns:itemshared:62>);
+recipes.addShaped(<techguns:itemshared:62> *6, [
+	[null,null,null], 
+	[<ore:ingotCopper>,<ore:ingotCopper>,<ore:ingotCopper>],
+	[null, null, null]]);
+
+// Basic Circuit
+recipes.remove(<datnuclearphysicslite:circuit_basic>);
+recipes.addShaped(<datnuclearphysicslite:circuit_basic>, [
+	[<buildcraftsilicon:redstone_chipset:0>,<ore:wireCopper>,<buildcraftsilicon:redstone_chipset:0>], 
+	[<ore:wireCopper>,<ore:itemSilicon>,<ore:wireCopper>],
+	[<buildcraftsilicon:redstone_chipset:0>, <ore:wireCopper>, <buildcraftsilicon:redstone_chipset:0>]]);
+
+recipes.addShaped(<datnuclearphysicslite:circuit_basic>, [
+	[<buildcraftsilicon:redstone_chipset:0>,<ore:wireCopper>,<buildcraftsilicon:redstone_chipset:0>], 
+	[<ore:wireCopper>,<ore:waferBasic>,<ore:wireCopper>],
+	[<buildcraftsilicon:redstone_chipset:0>, <ore:wireCopper>, <buildcraftsilicon:redstone_chipset:0>]]);
+
+//				//Revolution Tier Machines
+
+//Thermal Expasion (Also Has Phyto as Mars Age)
+recipes.replaceAllOccurences(<thermalfoundation:material:513>, <ore:circuitBasic>, <thermalexpansion:machine:0>);
+recipes.replaceAllOccurences(<thermalfoundation:material:513>, <ore:circuitBasic>, <thermalexpansion:machine:1>);
+recipes.replaceAllOccurences(<thermalfoundation:material:513>, <ore:circuitBasic>, <thermalexpansion:machine:2>);
+recipes.replaceAllOccurences(<thermalfoundation:material:513>, <ore:circuitBasic>, <thermalexpansion:machine:3>);
+recipes.replaceAllOccurences(<thermalfoundation:material:513>, <ore:circuitElite>, <thermalexpansion:machine:4>);
+recipes.replaceAllOccurences(<thermalfoundation:material:513>, <ore:circuitBasic>, <thermalexpansion:machine:5>);
+recipes.replaceAllOccurences(<thermalfoundation:material:513>, <ore:circuitBasic>, <thermalexpansion:machine:6>);
+recipes.replaceAllOccurences(<thermalfoundation:material:513>, <ore:circuitBasic>, <thermalexpansion:machine:7>);
+recipes.replaceAllOccurences(<thermalfoundation:material:513>, <ore:circuitBasic>, <thermalexpansion:machine:8>);
+recipes.replaceAllOccurences(<thermalfoundation:material:513>, <ore:circuitBasic>, <thermalexpansion:machine:9>);
+recipes.replaceAllOccurences(<thermalfoundation:material:513>, <ore:circuitBasic>, <thermalexpansion:machine:10>);
+recipes.replaceAllOccurences(<thermalfoundation:material:513>, <ore:circuitBasic>, <thermalexpansion:machine:11>);
+recipes.replaceAllOccurences(<thermalfoundation:material:513>, <ore:circuitBasic>, <thermalexpansion:machine:12>);
+recipes.replaceAllOccurences(<thermalfoundation:material:513>, <ore:circuitBasic>, <thermalexpansion:machine:13>);
+recipes.replaceAllOccurences(<thermalfoundation:material:513>, <ore:circuitBasic>, <thermalexpansion:machine:14>);
+recipes.replaceAllOccurences(<thermalfoundation:material:513>, <ore:circuitBasic>, <thermalexpansion:machine:15>);
+
+//Industrial Foregoing
+recipes.removeByInput(<teslacorelib:machine_case>);
+
+//Techguns
+recipes.remove(<techguns:basicmachine:0>);
+recipes.addShaped(<techguns:basicmachine:0>, [
+	[<ore:ingotSteel>,<ore:gearLead>,<ore:ingotSteel>], 
+	[<ore:ingotBrass>,<thermalexpansion:frame:0>,<ore:ingotBrass>],
+	[<ore:ingotSteel>, <ore:circuitBasic>, <ore:ingotSteel>]]);
+
+recipes.remove(<techguns:basicmachine:1>);
+recipes.addShaped(<techguns:basicmachine:1>, [
+	[<ore:ingotSteel>,<ore:blockIron>,<ore:ingotSteel>], 
+	[<ore:ingotIron>,<thermalexpansion:frame:0>,<ore:ingotIron>],
+	[<ore:ingotSteel>, <ore:circuitBasic>, <ore:ingotSteel>]]);
+
+mods.jei.JEI.removeAndHide(<techguns:simplemachine:11>);
+mods.jei.JEI.removeAndHide(<techguns:simplemachine:9>);
+mods.jei.JEI.removeAndHide(<techguns:simplemachine:8>);
+mods.jei.JEI.removeAndHide(<techguns:simplemachine2:9>);
+mods.jei.JEI.removeAndHide(<techguns:simplemachine2:8>);
+mods.jei.JEI.removeAndHide(<techguns:simplemachine:11>);
+
+//Circuit Fabricator
+recipes.remove(<galacticraftcore:machine2:4>);
+recipes.addShaped(<galacticraftcore:machine2:4>, [
+	[<ore:ingotAluminum>,<ore:circuitBasic>,<ore:ingotAluminum>], 
+	[<ore:circuitBasic>,<thermalexpansion:frame:0>,<ore:circuitBasic>],
+	[<galacticraftcore:aluminum_wire:0>, <ore:circuitBasic>, <galacticraftcore:aluminum_wire:0>]]);
+<galacticraftcore:machine2:4>.displayName = "Wafer Fabricator";
+//<galacticraftcore:machine2:4>.clearTooltip(true);
+//<galacticraftcore:machine2:4>.addShiftTooltip("Wafer Fabricator will process silicon into wafers for making circuits.", "Press LSHIFT for more info");
+
+//Electric Compressor
+recipes.remove(<galacticraftcore:machine2:0>);
+recipes.addShaped(<galacticraftcore:machine2:0>, [
+	[<ore:ingotAluminum>,<minecraft:anvil>,<ore:ingotAluminum>], 
+	[<ore:ingotAluminum>,<thermalexpansion:frame:0>,<ore:ingotAluminum>],
+	[<galacticraftcore:aluminum_wire:0>, <ore:circuitBasic>, <galacticraftcore:aluminum_wire:0>]]);
+
+//NASA Workbench
+recipes.remove(<galacticraftcore:rocket_workbench>);
+recipes.addShaped(<galacticraftcore:rocket_workbench>, [
+	[<ore:compressedSteel>,<ore:workbench>,<ore:compressedSteel>], 
+	[<ore:circuitBasic>,<ore:machineblockBasic>,<ore:circuitBasic>],
+	[<ore:compressedSteel>, <ore:circuitBasic>, <ore:compressedSteel>]]);
+
+mods.jei.JEI.removeAndHide(<galacticraftcore:machine:0>);
+mods.jei.JEI.removeAndHide(<galacticraftcore:machine:12>);
+mods.jei.JEI.removeAndHide(<galacticraftcore:machine:0>);
+mods.jei.JEI.removeAndHide(<galacticraftcore:refinery>);
+mods.jei.JEI.removeAndHide(<galacticraftcore:solar:0>);
+mods.jei.JEI.removeAndHide(<galacticraftcore:solar:4>);
+mods.jei.JEI.removeAndHide(<galacticraftcore:machine4:0>);
+mods.jei.JEI.removeAndHide(<galacticraftcore:machine4:12>);
+mods.jei.JEI.removeAndHide(<galacticraftcore:machine4:0>);
+
+
+//Frequency Module
+recipes.replaceAllOccurences(<galacticraftcore:basic_item:13>, <ore:circuitBasic>, <galacticraftcore:basic_item:19>);
+recipes.replaceAllOccurences(<minecraft:repeater>, <ore:circuitBasic>, <galacticraftcore:basic_item:19>);
+
+//Deconstructor
+recipes.replaceAllOccurences(<minecraft:furnace>, <ore:machineblockBasic>, <galacticraftcore:machine2:12>);
+
+//Oxygen Detector
+recipes.replaceAllOccurences(<galacticraftcore:basic_item:13>, <ore:circuitBasic>);
+
+//Display Screen
+recipes.remove(<galacticraftcore:view_screen>);
+recipes.addShaped(<galacticraftcore:view_screen>, [
+	[<ore:compressedSteel>,<ore:blockGlass>,<ore:compressedSteel>], 
+	[<ore:blockGlass>,<ore:circuitBasic>,<ore:blockGlass>],
+	[<ore:compressedSteel>, <ore:blockGlass>, <ore:compressedSteel>]]);
+
+//Basic Wafer
+mods.GalacticraftTweaker.removeCircuitFabricatorRecipe(<galacticraftcore:basic_item:13> * 3); 
+mods.GalacticraftTweaker.addCircuitFabricatorRecipe(<galacticraftcore:basic_item:13> *16, <minecraft:diamond>, <minecraft:redstone>, <minecraft:redstone>, <galacticraftcore:basic_block_core:13>, <minecraft:repeater>);
+
+//Compressed Metal Changes
+mods.GalacticraftTweaker.removeCompressorRecipe(<galacticraftcore:basic_item:9>); 
+mods.GalacticraftTweaker.addCompressorShapelessRecipe(<galacticraftcore:basic_item:9>,<thermalfoundation:material:160>, <thermalfoundation:material:160>);
+
+mods.GalacticraftTweaker.removeCompressorRecipe(<galacticraftcore:basic_item:10>); 
+mods.GalacticraftTweaker.addCompressorShapelessRecipe(<galacticraftcore:basic_item:10>,<thermalfoundation:material:163>, <thermalfoundation:material:163>);
+
+mods.GalacticraftTweaker.removeCompressorRecipe(<galacticraftcore:basic_item:5>); 
+mods.GalacticraftTweaker.addCompressorShapelessRecipe(<galacticraftcore:basic_item:5>,<galacticraftplanets:item_basic_mars:2>, <galacticraftplanets:item_basic_mars:2>);
+
+mods.GalacticraftTweaker.removeCompressorRecipe(<galacticraftcore:basic_item:1>); 
+mods.GalacticraftTweaker.addCompressorShapelessRecipe(<galacticraftcore:basic_item:1>,<galacticraftcore:item_basic_moon:0>, <galacticraftcore:item_basic_moon:0>);

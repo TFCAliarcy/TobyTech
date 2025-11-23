@@ -5,7 +5,7 @@ ofOcclusionFancy:false
 ofSmoothFps:false
 ofSmoothWorld:true
 ofAoLevel:1.0
-ofClouds:3
+ofClouds:2
 ofCloudsHeight:0.0
 ofTrees:0
 ofDroppedItems:0
@@ -53,7 +53,7 @@ ofCustomColors:true
 ofCustomItems:true
 ofCustomSky:true
 ofShowCapes:true
-ofNaturalTextures:false
+ofNaturalTextures:true
 ofEmissiveTextures:true
 ofLazyChunkLoading:true
 ofRenderRegions:false

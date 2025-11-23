@@ -1,2 +1,12 @@
 [
+{"dimension": -1014,"mob": "magma_monsters:magma_monster","mincount": 8,"result": "deny"},
+ {
+    "dimension": -1014,
+    "mob": "magma_monsters:magma_monster",
+    "difficulty":["normal","hard","easy"],
+    "healthmultiply": 3,
+    "damagemultiply": 2,
+    "minlight": 0,
+    "result": "allow"
+  }
 ]

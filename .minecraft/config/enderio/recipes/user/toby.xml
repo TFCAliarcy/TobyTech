@@ -21,4 +21,13 @@
     <recipe name="Alloy: Lumium Blend">
     <disabled/>
   </recipe>
+  <recipe name="Chassis">
+    <disabled/>
+  </recipe>
+  <recipe name="Enhanced Chassis">
+    <disabled/>
+  </recipe>
+  <recipe name="Soul Chassis">
+    <disabled/>
+  </recipe>
   </enderio:recipes>
