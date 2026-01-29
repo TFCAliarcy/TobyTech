@@ -8,9 +8,6 @@
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 32767,
-        "ForgeCaps:10": {
-          "wizardryutils:summoneditemdata:10": {}
-        },
         "id:8": "openblocks:elevator"
       },
       "name:8": "Elevators"
@@ -24,9 +21,6 @@
         "0:10": {
           "Count:3": 1,
           "Damage:2": 32767,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "openblocks:elevator"
         }
       },
@@ -38,9 +32,6 @@
         "0:10": {
           "Count:3": 1,
           "Damage:2": 32767,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "openblocks:elevator_rotating"
         }
       },

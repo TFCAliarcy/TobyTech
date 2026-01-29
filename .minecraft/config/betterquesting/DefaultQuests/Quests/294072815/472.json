@@ -7,9 +7,6 @@
       "desc:8": "These will act as free standing ladders that when placed on a block will place down until there is a block in the way or you use up all of the ladders in your inventory. They work like you should think they work.",
       "icon:10": {
         "Count:3": 1,
-        "ForgeCaps:10": {
-          "wizardryutils:summoneditemdata:10": {}
-        },
         "id:8": "openblocks:rope_ladder"
       },
       "name:8": "Rope Ladders"
@@ -22,9 +19,6 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 8,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "openblocks:rope_ladder"
         }
       },

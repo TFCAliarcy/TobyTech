@@ -8,9 +8,6 @@
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 460,
-        "ForgeCaps:10": {
-          "wizardryutils:summoneditemdata:10": {}
-        },
         "id:8": "appliedenergistics2:part"
       },
       "name:8": "Peer 2 Peer Connections"
@@ -24,8 +21,7 @@
         "0:10": {
           "Count:3": 1,
           "ForgeCaps:10": {
-            "astralsorcery:cap_item_amulet_holder:10": {},
-            "wizardryutils:summoneditemdata:10": {}
+            "astralsorcery:cap_item_amulet_holder:10": {}
           },
           "id:8": "appliedenergistics2:memory_card",
           "tag:10": {}
@@ -39,49 +35,31 @@
         "0:10": {
           "Count:3": 1,
           "Damage:2": 460,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "appliedenergistics2:part"
         },
         "1:10": {
           "Count:3": 1,
           "Damage:2": 462,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "appliedenergistics2:part"
         },
         "2:10": {
           "Count:3": 1,
           "Damage:2": 463,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "appliedenergistics2:part"
         },
         "3:10": {
           "Count:3": 1,
           "Damage:2": 469,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "appliedenergistics2:part"
         },
         "4:10": {
           "Count:3": 1,
           "Damage:2": 461,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "appliedenergistics2:part"
         },
         "5:10": {
           "Count:3": 1,
           "Damage:2": 467,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "appliedenergistics2:part"
         }
       },

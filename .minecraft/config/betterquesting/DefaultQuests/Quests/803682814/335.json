@@ -8,9 +8,6 @@
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 1,
-        "ForgeCaps:10": {
-          "wizardryutils:summoneditemdata:10": {}
-        },
         "id:8": "railcraft:equipment"
       },
       "name:8": "Electric Rolling Machine"
@@ -24,9 +21,6 @@
         "0:10": {
           "Count:3": 1,
           "Damage:2": 1,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "railcraft:equipment"
         }
       },
@@ -37,9 +31,6 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 8,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "railcraft:flux_transformer"
         }
       },

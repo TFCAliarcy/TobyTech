@@ -7,9 +7,6 @@
       "desc:8": "No Description",
       "icon:10": {
         "Count:3": 1,
-        "ForgeCaps:10": {
-          "wizardryutils:summoneditemdata:10": {}
-        },
         "id:8": "draconicevolution:dislocator"
       },
       "name:8": "Dislocating"
@@ -24,9 +21,6 @@
         "0:10": {
           "Count:3": 1,
           "Damage:2": 32767,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "draconicevolution:dislocator"
         }
       },
@@ -37,9 +31,6 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "draconicevolution:dislocator_pedestal"
         }
       },

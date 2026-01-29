@@ -8,9 +8,6 @@
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 32767,
-        "ForgeCaps:10": {
-          "wizardryutils:summoneditemdata:10": {}
-        },
         "id:8": "botany:itemflower",
         "tag:10": {
           "Age:3": 2,
@@ -94,8 +91,7 @@
         "0:10": {
           "Count:3": 1,
           "ForgeCaps:10": {
-            "astralsorcery:cap_item_amulet_holder:10": {},
-            "wizardryutils:summoneditemdata:10": {}
+            "astralsorcery:cap_item_amulet_holder:10": {}
           },
           "id:8": "botany:trowel_iron"
         }

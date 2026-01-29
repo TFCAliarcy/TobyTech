@@ -7,9 +7,6 @@
       "desc:8": "No Description",
       "icon:10": {
         "Count:3": 1,
-        "ForgeCaps:10": {
-          "wizardryutils:summoneditemdata:10": {}
-        },
         "id:8": "galacticraftcore:machine4"
       },
       "name:8": "Advanced GC Machines"
@@ -22,17 +19,11 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "galacticraftcore:machine4"
         },
         "1:10": {
           "Count:3": 1,
           "Damage:2": 12,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "galacticraftcore:machine_tiered"
         }
       },

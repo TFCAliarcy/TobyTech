@@ -7,9 +7,6 @@
       "desc:8": "The analyzer is used in the first step of refining your fossils into embryos and other cool shit, put them in, power it, and you\u0027ll sometimes get stuff you want.",
       "icon:10": {
         "Count:3": 1,
-        "ForgeCaps:10": {
-          "wizardryutils:summoneditemdata:10": {}
-        },
         "id:8": "fossil:analyzer"
       },
       "name:8": "Sorting your Fossils"
@@ -22,9 +19,6 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "fossil:biofossil"
         }
       },
@@ -35,9 +29,6 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "fossil:analyzer"
         }
       },

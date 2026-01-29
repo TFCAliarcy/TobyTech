@@ -7,9 +7,6 @@
       "desc:8": "Turn 8 helixes into a plank plasmid, use this machine to load a gene into that plasmid, note that basic genes of that mob can be used to fill that mob\u0027s trait. (IE skeleton basic mob progresses infinity).",
       "icon:10": {
         "Count:3": 1,
-        "ForgeCaps:10": {
-          "wizardryutils:summoneditemdata:10": {}
-        },
         "id:8": "geneticsreborn:plasmidinfuser"
       },
       "name:8": "Plasmid Infuser"
@@ -22,9 +19,6 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "geneticsreborn:plasmidinfuser"
         }
       },

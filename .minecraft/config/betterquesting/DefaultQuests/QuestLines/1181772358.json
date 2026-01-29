@@ -6,9 +6,6 @@
       "desc:8": "Both Flora and Fauna",
       "icon:10": {
         "Count:3": 1,
-        "ForgeCaps:10": {
-          "wizardryutils:summoneditemdata:10": {}
-        },
         "id:8": "forestry:mouldy_wheat"
       },
       "name:8": "Farms"

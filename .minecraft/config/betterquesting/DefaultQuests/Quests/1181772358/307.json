@@ -7,9 +7,6 @@
       "desc:8": "These blocks when added to your alveary will induce some sort of effect.\n\nThe Alveary Frame Housing allows you to add 5 of the frames to each of these blocks.\n\nThe Alveary Swarmer will, when fed royal jelly, spawn swarmer hives around it which will spawn ignoble princesses of the same genes and breed as the queen in the alveary.\n\nThe Alveary Stabiliser will prevent bees from mutating into a new species.\n\nThe Electrical Stimulator is used to give different effects when given different electron tubes in a circuit when powered at the cost of genetic decay. Note that the production effect caps at 1000% apparently.\n\nThe Alveary Transmission will give power to all blocks in an alveary that need it meaning you only need 1 power input.\n\nThe Mutator will increase the chance of mutation when fed items soul sand, ender pearls, or eyes of ender. Note that having multiple mutators will not stack their effects.",
       "icon:10": {
         "Count:3": 1,
-        "ForgeCaps:10": {
-          "wizardryutils:summoneditemdata:10": {}
-        },
         "id:8": "extrabees:alveary"
       },
       "name:8": "Alveary Modifiers"
@@ -23,46 +20,28 @@
         "0:10": {
           "Count:3": 1,
           "Damage:2": 1,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "extrabees:alveary"
         },
         "1:10": {
           "Count:3": 1,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "forestry:alveary.swarmer"
         },
         "2:10": {
           "Count:3": 1,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "forestry:alveary.stabiliser"
         },
         "3:10": {
           "Count:3": 1,
           "Damage:2": 4,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "extrabees:alveary"
         },
         "4:10": {
           "Count:3": 1,
           "Damage:2": 6,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "extrabees:alveary"
         },
         "5:10": {
           "Count:3": 1,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "extrabees:alveary"
         }
       },

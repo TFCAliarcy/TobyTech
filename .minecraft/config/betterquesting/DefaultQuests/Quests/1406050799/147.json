@@ -8,9 +8,6 @@
       "desc:8": "No Description",
       "icon:10": {
         "Count:3": 1,
-        "ForgeCaps:10": {
-          "wizardryutils:summoneditemdata:10": {}
-        },
         "id:8": "harvestcraft:dragonfruititem"
       },
       "name:8": "Draconium Refining"
@@ -24,9 +21,6 @@
       "rewards:9": {
         "0:10": {
           "Count:3": 1,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "draconicevolution:info_tablet"
         }
       }
@@ -38,9 +32,6 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 8,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "draconicevolution:draconium_dust"
         }
       },
@@ -52,17 +43,13 @@
         "0:10": {
           "Count:3": 1,
           "ForgeCaps:10": {
-            "astralsorcery:cap_item_amulet_holder:10": {},
-            "wizardryutils:summoneditemdata:10": {}
+            "astralsorcery:cap_item_amulet_holder:10": {}
           },
           "id:8": "projectred-expansion:infused_ender_pearl"
         },
         "1:10": {
           "Count:3": 1,
           "Damage:2": 32,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "redstonearsenal:material"
         }
       },
@@ -73,9 +60,6 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "draconicevolution:draconium_ingot"
         }
       },

@@ -8,9 +8,6 @@
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 360,
-        "ForgeCaps:10": {
-          "wizardryutils:summoneditemdata:10": {}
-        },
         "id:8": "appliedenergistics2:part"
       },
       "name:8": "Terminals"
@@ -24,17 +21,11 @@
         "0:10": {
           "Count:3": 1,
           "Damage:2": 380,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "appliedenergistics2:part"
         },
         "1:10": {
           "Count:3": 1,
           "Damage:2": 360,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "appliedenergistics2:part"
         }
       },
@@ -46,9 +37,6 @@
         "0:10": {
           "Count:3": 1,
           "Damage:2": 520,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "appliedenergistics2:part"
         }
       },

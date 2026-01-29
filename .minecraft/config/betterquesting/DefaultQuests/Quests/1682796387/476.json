@@ -4,9 +4,6 @@
       "desc:8": "No Description",
       "icon:10": {
         "Count:3": 1,
-        "ForgeCaps:10": {
-          "wizardryutils:summoneditemdata:10": {}
-        },
         "id:8": "rats:rattrap"
       },
       "name:8": "Pest Control"
@@ -20,16 +17,10 @@
       "rewards:9": {
         "0:10": {
           "Count:3": 1,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "rats:rattrap"
         },
         "1:10": {
           "Count:3": 1,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "rats:cheese"
         }
       }

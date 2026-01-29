@@ -7,9 +7,6 @@
       "desc:8": "No Description",
       "icon:10": {
         "Count:3": 1,
-        "ForgeCaps:10": {
-          "wizardryutils:summoneditemdata:10": {}
-        },
         "id:8": "draconicevolution:draconic_core"
       },
       "name:8": "Draconic Core"
@@ -22,9 +19,6 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "draconicevolution:draconic_core"
         }
       },

@@ -6,9 +6,6 @@
       "desc:8": "To Infinity and Beyond",
       "icon:10": {
         "Count:3": 1,
-        "ForgeCaps:10": {
-          "wizardryutils:summoneditemdata:10": {}
-        },
         "id:8": "galacticraftcore:meteoric_iron_raw"
       },
       "name:8": "Far Afield"

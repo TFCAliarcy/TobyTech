@@ -7,9 +7,6 @@
       "desc:8": "Cyberware allows the player to augment their own body. Utilizing a surgery chamber, the player is able to install pieces of \"cyberware\", advanced technological augmentations, into their body. Here\u0027s a list of just a few of the things you can do with Cyberware:\n\n*    Replace your heart with a mechanical pump\n*   Implant an experience storage canister in your cranium\n*    Boost your oxygen supply with built-in oxygen canisters\n*    Replace entire limbs with robotic Cyberlimbs\n*    Install upgrades that range from deployable claws to jump-boosting actuators in these Cyberlimbs\n*    Replace your eyes with advanced Cybereyes, which can be upgraded to enable night vision, underwater vision, and tar      get tracking\n*    Line your bones with advanced polymers, enabling you to take more of a beating\n*    Install a processor in your brain, giving you lightning-fast reflexes that let you dodge certain attacks\n\nTo get pieces of cyberware, you\u0027ll need to fight cybered-up zombies and skeletons. You\u0027ll need to pay for the cyberware you obtain - either through power consumption or by sacrificing a little of what makes you, you.",
       "icon:10": {
         "Count:3": 1,
-        "ForgeCaps:10": {
-          "wizardryutils:summoneditemdata:10": {}
-        },
         "id:8": "cyberware:cybereyes"
       },
       "name:8": "The Flesh is Weak"

@@ -9,9 +9,6 @@
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 8,
-        "ForgeCaps:10": {
-          "wizardryutils:summoneditemdata:10": {}
-        },
         "id:8": "nuclearcraft:uranium"
       },
       "name:8": "Uranium",
@@ -26,9 +23,6 @@
         "0:10": {
           "Count:3": 1,
           "Damage:2": 32767,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "nuclearcraft:uranium"
         }
       },

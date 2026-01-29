@@ -8,9 +8,6 @@
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 1,
-        "ForgeCaps:10": {
-          "wizardryutils:summoneditemdata:10": {}
-        },
         "id:8": "forestry:fruits"
       },
       "name:8": "Arboriculture"
@@ -24,9 +21,6 @@
         "0:10": {
           "Count:3": 1,
           "Damage:2": 32767,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "forestry:sapling",
           "tag:10": {
             "Genome:10": {
@@ -95,8 +89,7 @@
         "0:10": {
           "Count:3": 1,
           "ForgeCaps:10": {
-            "astralsorcery:cap_item_amulet_holder:10": {},
-            "wizardryutils:summoneditemdata:10": {}
+            "astralsorcery:cap_item_amulet_holder:10": {}
           },
           "id:8": "forestry:grafter"
         }

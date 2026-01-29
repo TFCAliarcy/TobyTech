@@ -4,13 +4,10 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "No Description",
+      "desc:8": "An ore found in the end, used for various Project Red machines that require their power system, mostly machine frames.",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 105,
-        "ForgeCaps:10": {
-          "wizardryutils:summoneditemdata:10": {}
-        },
         "id:8": "projectred-core:resource_item"
       },
       "name:8": "Electrotine"
@@ -24,9 +21,6 @@
         "0:10": {
           "Count:3": 1,
           "Damage:2": 105,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "projectred-core:resource_item"
         }
       },

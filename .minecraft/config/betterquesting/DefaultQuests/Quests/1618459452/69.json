@@ -4,9 +4,6 @@
       "desc:8": "No Description",
       "icon:10": {
         "Count:3": 1,
-        "ForgeCaps:10": {
-          "wizardryutils:summoneditemdata:10": {}
-        },
         "id:8": "mod_lavacow:scarecrowhead_straw"
       },
       "name:8": "The Scarecrow Walks at Midnight"
@@ -19,23 +16,14 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 2,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "minecraft:hay_block"
         },
         "1:10": {
           "Count:3": 1,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "mod_lavacow:undyingheart"
         },
         "2:10": {
           "Count:3": 1,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "OreDict:8": "scarecrowhead",
           "id:8": "mod_lavacow:scarecrowhead_common"
         }

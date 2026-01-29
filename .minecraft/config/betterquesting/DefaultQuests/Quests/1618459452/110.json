@@ -4,9 +4,6 @@
       "desc:8": "No Description",
       "icon:10": {
         "Count:3": 1,
-        "ForgeCaps:10": {
-          "wizardryutils:summoneditemdata:10": {}
-        },
         "id:8": "bewitchment:ravens_feather"
       },
       "name:8": "Manticores"

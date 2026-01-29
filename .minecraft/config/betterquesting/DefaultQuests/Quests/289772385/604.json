@@ -7,9 +7,6 @@
       "desc:8": "Research papers allow you to transfer completed missions from one mission control to another if you for whatever reason need to do that.",
       "icon:10": {
         "Count:3": 1,
-        "ForgeCaps:10": {
-          "wizardryutils:summoneditemdata:10": {}
-        },
         "id:8": "galacticresearch:research_paper"
       },
       "name:8": "Transferring Research"
@@ -22,9 +19,6 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "galacticresearch:research_paper"
         }
       },

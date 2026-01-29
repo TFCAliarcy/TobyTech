@@ -2,7 +2,7 @@ version:1343
 invertYMouse:false
 mouseSensitivity:0.5
 fov:0.75
-gamma:0.0
+gamma:1.0
 saturation:0.0
 renderDistance:12
 guiScale:3
@@ -97,6 +97,14 @@ key_key.ebwizardry.spell_3:4:ALT
 key_Galaxy Map:50
 key_Open Spaceship Inventory:0
 key_Toggle Sensor Goggles Mode:37
+key_quark.keybind.toggleAutojump:48
+key_quark.keybind.dropoff:0
+key_quark.keybind.changeHotbar:81
+key_quark.keybind.chestSort:0
+key_quark.keybind.chestDropoff:0
+key_quark.keybind.chestMerge:0
+key_quark.keybind.chestRestock:0
+key_quark.keybind.chestExtract:0
 key_quark.emote.no:0
 key_quark.emote.yes:0
 key_quark.emote.wave:0
@@ -116,14 +124,6 @@ key_quark.emote.jet:0
 key_quark.emote.exorcist:0
 key_quark.emote.zombie:0
 key_quark.keybind.lockBuilding:0
-key_quark.keybind.dropoff:0
-key_quark.keybind.changeHotbar:81
-key_quark.keybind.chestSort:0
-key_quark.keybind.chestDropoff:0
-key_quark.keybind.chestMerge:0
-key_quark.keybind.chestRestock:0
-key_quark.keybind.chestExtract:0
-key_quark.keybind.toggleAutojump:48
 key_key.betterquesting.quests:41
 key_key.betterquesting.back:14
 key_bloodmagic.keybind.open_holding:35
@@ -272,6 +272,7 @@ key_techguns.key.toggleSafemode:48
 key_techguns.key.toggleStepassist:81
 key_techguns.key.forceReload:19
 key_techguns.key.toggleJetpack:36
+key_techguns.key.switchAmmo:20
 key_key.toolbelt.open:81
 key_key.toolbelt.cycle.left:0
 key_key.toolbelt.cycle.right:0
@@ -281,6 +282,7 @@ key_key.travelersbackpack.inventory:47
 key_key.travelersbackpack.toggle_tank:49
 key_key.travelersbackpack.cycle_tool:0
 key_keybind.universaltweaks.clear_toasts:11:CONTROL
+key_key.morphspellpack.activate_morph_ability:37
 key_keybind.railcraft.loco.reverse:53:ALT
 key_keybind.railcraft.loco.faster:52:ALT
 key_keybind.railcraft.loco.slower:51:ALT
@@ -325,9 +327,9 @@ key_enderio.keybind.fovplus:0
 key_enderio.keybind.fovminus:0
 key_enderio.keybind.fovplusfast:0
 key_enderio.keybind.fovminusfast:0
-soundCategory_master:0.5066225
+soundCategory_master:0.0
 soundCategory_music:0.0
-soundCategory_record:1.0
+soundCategory_record:0.0
 soundCategory_weather:0.0
 soundCategory_block:0.0
 soundCategory_hostile:0.0

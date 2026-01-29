@@ -13,8 +13,7 @@
             "explosive:10": {
               "customizations:9": {}
             }
-          },
-          "wizardryutils:summoneditemdata:10": {}
+          }
         },
         "id:8": "icbmclassic:explosive_bomblet"
       },
@@ -37,8 +36,7 @@
                 }
               }
             },
-            "astralsorcery:cap_item_amulet_holder:10": {},
-            "wizardryutils:summoneditemdata:10": {}
+            "astralsorcery:cap_item_amulet_holder:10": {}
           },
           "id:8": "icbmclassic:cluster_missile"
         }
@@ -59,8 +57,7 @@
                 }
               }
             },
-            "astralsorcery:cap_item_amulet_holder:10": {},
-            "wizardryutils:summoneditemdata:10": {}
+            "astralsorcery:cap_item_amulet_holder:10": {}
           },
           "id:8": "icbmclassic:cluster_missile"
         }

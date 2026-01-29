@@ -9,9 +9,6 @@
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 1,
-        "ForgeCaps:10": {
-          "wizardryutils:summoneditemdata:10": {}
-        },
         "id:8": "draconicevolution:crafting_injector"
       },
       "name:8": "Wyvern Crafting"
@@ -25,9 +22,6 @@
         "0:10": {
           "Count:3": 8,
           "Damage:2": 1,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "draconicevolution:crafting_injector"
         }
       },

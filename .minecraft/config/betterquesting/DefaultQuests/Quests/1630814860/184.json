@@ -7,9 +7,6 @@
       "desc:8": "Refines blood, must be done after extracting and before inserting.",
       "icon:10": {
         "Count:3": 1,
-        "ForgeCaps:10": {
-          "wizardryutils:summoneditemdata:10": {}
-        },
         "id:8": "geneticsreborn:bloodpurifier"
       },
       "name:8": "Blood Purifier"
@@ -22,9 +19,6 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "geneticsreborn:bloodpurifier"
         }
       },

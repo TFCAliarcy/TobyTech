@@ -14,9 +14,6 @@
       "desc:8": "No Description",
       "icon:10": {
         "Count:3": 1,
-        "ForgeCaps:10": {
-          "wizardryutils:summoneditemdata:10": {}
-        },
         "id:8": "nuclearcraft:smore"
       },
       "name:8": "S\u0027moe\u0027s"
@@ -29,9 +26,6 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "nuclearcraft:smore"
         }
       },

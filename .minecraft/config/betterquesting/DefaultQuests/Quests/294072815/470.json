@@ -7,9 +7,6 @@
       "desc:8": "The Hang Glider is an early game alternative to the elytra. This tool allows the player to glide through the air, when holding it. Changing items while gliding will make the glide stop, resulting in a fall that can result in damage. \n\nThe glide can be sped up by holding shift, though the player will also descend faster. The Hang Glider must be activated with the use key before attempting to use it. ",
       "icon:10": {
         "Count:3": 1,
-        "ForgeCaps:10": {
-          "wizardryutils:summoneditemdata:10": {}
-        },
         "id:8": "openblocks:hang_glider"
       },
       "name:8": "Hang Glider"
@@ -22,9 +19,6 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "openblocks:hang_glider"
         }
       },

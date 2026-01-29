@@ -4,12 +4,9 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "No Description",
+      "desc:8": "The end is the home of the enderdragon, elytras, lots of endermen, various ores listed below and also has a good amount of added exploration content.\n\nThe ores you can find are Electrotine, Prosperity Shards, and Iron.\n\nAlso beware the Chaos Dragon found at every multiple of 10,000 on a large obsidian and endstone island with a ring of endstone,§l§4 it can kill you in creative mode §rand as such you should only try to fight it after trying out your gear against it in a singleplayer world.",
       "icon:10": {
         "Count:3": 1,
-        "ForgeCaps:10": {
-          "wizardryutils:summoneditemdata:10": {}
-        },
         "id:8": "minecraft:end_stone"
       },
       "name:8": "The End"

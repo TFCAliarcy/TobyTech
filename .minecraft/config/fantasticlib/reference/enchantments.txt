@@ -48,11 +48,11 @@ bewitchment:magic_protection
 bibliocraft:bibliocraft.deathcompassench
 bibliocraft:bibliocraft.readingench
 endercore:xpboost
-enderio:witherweapon
 enderio:shimmer
-enderio:repellent
 enderio:witherarrow
+enderio:witherweapon
 enderio:soulbound
+enderio:repellent
 deeperdepths:breach
 deeperdepths:density
 deeperdepths:wind_burst
@@ -60,6 +60,7 @@ mod_lavacow:poisonous
 mod_lavacow:lifesteal
 mod_lavacow:corrosive
 mod_lavacow:critical_boost
+mod_lavacow:dominion
 fossil:archeology
 fossil:paleontology
 futuremc:loyalty

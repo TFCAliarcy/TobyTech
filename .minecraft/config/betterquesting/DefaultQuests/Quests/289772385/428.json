@@ -8,9 +8,6 @@
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 2,
-        "ForgeCaps:10": {
-          "wizardryutils:summoneditemdata:10": {}
-        },
         "id:8": "chisel:futura"
       },
       "name:8": "Basic System"
@@ -23,32 +20,20 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "appliedenergistics2:controller"
         },
         "1:10": {
           "Count:3": 1,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "appliedenergistics2:drive"
         },
         "2:10": {
           "Count:3": 1,
           "Damage:2": 380,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "appliedenergistics2:part"
         },
         "3:10": {
           "Count:3": 10,
           "Damage:2": 16,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "appliedenergistics2:part"
         }
       },

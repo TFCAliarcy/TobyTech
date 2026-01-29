@@ -8,9 +8,6 @@
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 110,
-        "ForgeCaps:10": {
-          "wizardryutils:summoneditemdata:10": {}
-        },
         "id:8": "techguns:itemshared"
       },
       "name:8": "Incendiary \u0026 Explosive Rounds"
@@ -28,33 +25,21 @@
         "0:10": {
           "Count:3": 1,
           "Damage:2": 106,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "techguns:itemshared"
         },
         "1:10": {
           "Count:3": 1,
           "Damage:2": 108,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "techguns:itemshared"
         },
         "2:10": {
           "Count:3": 1,
           "Damage:2": 109,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "techguns:itemshared"
         },
         "3:10": {
           "Count:3": 1,
           "Damage:2": 110,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "techguns:itemshared"
         }
       },
@@ -66,9 +51,6 @@
         "0:10": {
           "Count:3": 1,
           "Damage:2": 144,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "techguns:itemshared"
         }
       },

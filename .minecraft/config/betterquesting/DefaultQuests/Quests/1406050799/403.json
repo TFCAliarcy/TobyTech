@@ -7,9 +7,6 @@
       "desc:8": "Draconium Dust can be found at any height level on Venus, you\u0027ll need to do some refining if you want turn it into Draconium.",
       "icon:10": {
         "Count:3": 1,
-        "ForgeCaps:10": {
-          "wizardryutils:summoneditemdata:10": {}
-        },
         "id:8": "draconicevolution:draconium_dust"
       },
       "name:8": "Raw Draconium"
@@ -22,9 +19,6 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "draconicevolution:draconium_dust"
         }
       },

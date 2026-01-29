@@ -1,0 +1,13 @@
+{
+    "balloonboy": {
+      "id": "fnafrebornmod:balloonboy",
+      "effects": [
+        {
+          "id": "minecraft:resistance",
+          "amplifier": 1,
+          "duration": 600000,
+          "show_particles": false
+        }
+      ]
+    }
+  }

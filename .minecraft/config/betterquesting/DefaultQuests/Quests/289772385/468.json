@@ -7,9 +7,6 @@
       "desc:8": "The Inhibitor Obelisk prevents teleportation both to and from its radius. This radius is determined by which capacitor is placed inside it, below are the listed radius:\n\nBasic Capacitor:              32\nDouble Layered Capacitor: 48\nOctadic Capacitor:            80",
       "icon:10": {
         "Count:3": 1,
-        "ForgeCaps:10": {
-          "wizardryutils:summoneditemdata:10": {}
-        },
         "id:8": "enderio:block_inhibitor_obelisk"
       },
       "name:8": "Inhibiting Teleportation"
@@ -22,9 +19,6 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "enderio:block_inhibitor_obelisk"
         }
       },

@@ -1,12 +1,192 @@
 [
-{"dimension": -1014,"mob": "magma_monsters:magma_monster","mincount": 8,"result": "deny"},
  {
     "dimension": -1014,
     "mob": "magma_monsters:magma_monster",
-    "difficulty":["normal","hard","easy"],
-    "healthmultiply": 3,
-    "damagemultiply": 2,
-    "minlight": 0,
+    "mincount": {
+      "amount": 50,
+      "mob": "magma_monsters:magma_monster",
+      "perchunk": true
+    },
+    "result": "deny"
+ },
+ {
+    "dimension": -1014,
+    "mob": "magma_monsters:magma_monster",
+    "difficulty": "peaceful",
+    "result": "deny"
+ },
+ {
+    "dimension": -1014,
+    "mob": "rats:illager_piper",
+    "result": "deny"
+ },
+ {
+    "dimension": -1014,
+    "mob": "rats:rat",
+    "result": "deny"
+ },
+ {
+    "dimension": -1014,
+    "mobs":
+    [
+        {
+        "mob": "magma_monsters:magma_monster",
+        "difficulty":["normal","hard","easy"],
+        "healthmultiply": 3,
+        "damagemultiply": 2,
+        "maxlight": 7
+        }
+    ],
     "result": "allow"
-  }
+  },
+ {
+    "dimension": -1030,
+    "mob": ["minecraft:zombie", "minecraft:skeleton", "minecraft:creeper", "minecraft:spider", "minecraft:enderman", "minecraft:witch", "minecraft:cow", "minecraft:pig", "minecraft:sheep", "minecraft:chicken", "minecraft:polar_bear", "minecraft:slime", "minecraft:ocelot"
+    ],
+    "result": "deny"
+ },
+  {
+    "dimension": -1030,
+    "mod": "fossil",
+    "mincount": {
+      "amount": 500,
+      "mod": "fossil",
+      "perchunk": true
+    },
+    "result": "deny"
+   },
+   {
+    "dimension": -1030,
+    "mob":"fossil:fossil.tyrannosaurus",
+    "block": "galaxyspace:barnarda_c_grasses",
+    "result": "allow"
+  },
+   {
+    "dimension": -1030,
+    "mob":"fossil:fossil.triceratops",
+    "block": "galaxyspace:barnarda_c_grasses",
+    "result": "allow"
+  },
+   {
+    "dimension": -1030,
+    "mob":"fossil:fossil.allosaurus",
+    "block": "galaxyspace:barnarda_c_grasses",
+    "result": "allow"
+  },
+   {
+    "dimension": -1030,
+    "mob":"fossil:fossil.stegosaurus",
+    "block": "galaxyspace:barnarda_c_grasses",
+    "result": "allow"
+  },
+   {
+    "dimension": -1030,
+    "mob":"fossil:fossil.ankyloaurus",
+    "block": "galaxyspace:barnarda_c_grasses",
+    "result": "allow"
+  },
+   {
+    "dimension": -1030,
+    "mob":"fossil:fossil.pachycephalosaurus",
+    "block": "galaxyspace:barnarda_c_grasses",
+    "result": "allow"
+  },
+   {
+    "dimension": -1030,
+    "mob":"fossil:fossil.pterosaur",
+    "block": "galaxyspace:barnarda_c_grasses",
+    "result": "allow"
+  },
+   {
+    "dimension": -1030,
+    "mob":"fossil:fossil.velociraptor",
+    "block": "galaxyspace:barnarda_c_grasses",
+    "result": "allow"
+  },
+   {
+    "dimension": -1030,
+    "mob":"fossil:fossil.diplodocus",
+    "block": "galaxyspace:barnarda_c_grasses",
+    "result": "allow"
+  },
+   {
+    "dimension": -1030,
+    "mob":"fossil:fossil.mosasaurus",
+    "block": "minecraft:water",
+    "result": "allow"
+  },
+   {
+    "dimension": -1030,
+    "mob":"fossil:fossil.plesiosaur",
+    "block": "minecraft:water",
+    "result": "allow"
+  },
+   {
+    "dimension": -1030,
+    "mob":"fossil:fossil.coelecanth",
+    "block": "minecraft:water",
+    "result": "allow"
+  },
+   {
+    "dimension": -1030,
+    "mob":"fossil:fossil.brachiosaurus",
+    "block": "galaxyspace:barnarda_c_grasses",
+    "result": "allow"
+  },
+   {
+    "dimension": -1030,
+    "mob":"fossil:fossil.icthyosaurus",
+    "block": "minecraft:water",
+    "result": "allow"
+  },
+   {
+    "dimension": -1030,
+    "mob":"fossil:fossil.megalodon",
+    "block": "minecraft:water",
+    "result": "allow"
+  },
+   {
+    "dimension": -1030,
+    "mob":"fossil:fossil.parasaurolophus",
+    "block": "galaxyspace:barnarda_c_grasses",
+    "result": "allow"
+  },
+   {
+    "dimension": -1030,
+    "mob":"fossil:fossil.sturgeon",
+    "block": "minecraft:water",
+    "result": "allow"
+  },
+   {
+    "dimension": -1030,
+    "mob":"fossil:fossil.nautilus",
+    "block": "minecraft:water",
+    "result": "allow"
+  },
+   {
+    "dimension": -1030,
+    "mob":"fossil:fossil.spinosaurus",
+    "block": "galaxyspace:barnarda_c_grasses",
+    "result": "allow"
+  },
+   {
+    "dimension": -1030,
+    "mob":"fossil:fossil.dryosaurus",
+    "block": "galaxyspace:barnarda_c_grasses",
+    "result": "allow"
+  },
+  {
+    "dimension": -1015,
+    "mob": "minecraft:guardian",
+    "mincount": {
+      "amount": 25,
+      "mob": "minecraft:guardian",
+      "perchunk": true
+    },
+    "result": "deny"
+   },
+  {
+    "mod": "fnafrebornmod",
+    "result": "deny"
+   }
 ]

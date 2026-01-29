@@ -62,6 +62,7 @@ thaumicaugmentation:entity/taint
 mod_lavacow:gameplay/graverobber_bartering
 minecraft:entities/stray
 arcaneapprentices:adventure/nether_adventure_medium_duration
+mod_lavacow:entities/ghoul
 fossil:aztec_weapons_shop
 minecraft:entities/sheep/magenta
 mod_lavacow:entities/undead_swine
@@ -228,7 +229,6 @@ minecraft:entities/ocelot
 bewitchment:chests/nether_materials
 minecraft:entities/llama
 quark:chests/pirate_chest
-quark:entities/crab
 twilightforest:entities/death_tome_hurt
 twilightforest:entities/snow_guardian
 minecraft:entities/sheep/brown
@@ -362,6 +362,7 @@ thaumicaugmentation:entity/eldritch_golem
 twilightforest:entities/bighorn_sheep/cyan
 bewitchment:entities/snake
 railcraft:chests/village_workshop
+arcaneapprentices:chests/school_shelf
 twilightforest:entities/bighorn_sheep/silver
 twilightforest:entities/giant_miner
 ebwizardry:gameplay/fishing/junk_additions

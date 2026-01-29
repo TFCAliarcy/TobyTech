@@ -8,9 +8,6 @@
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 9,
-        "ForgeCaps:10": {
-          "wizardryutils:summoneditemdata:10": {}
-        },
         "id:8": "railcraft:ingot"
       },
       "name:8": "Brass"
@@ -24,9 +21,6 @@
         "0:10": {
           "Count:3": 4,
           "Damage:2": 9,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "railcraft:ingot"
         }
       },

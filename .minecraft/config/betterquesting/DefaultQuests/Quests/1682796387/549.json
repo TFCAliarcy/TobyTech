@@ -7,9 +7,6 @@
       "desc:8": "Congrats on your Netherite, just as good as in modern versions but will lag behind once you get better modded stuff.\n\nStill worth using till you get them though.\n\nOh also you don\u0027t need a smithing template as trims and stuff like that haven\u0027t been backported.",
       "icon:10": {
         "Count:3": 1,
-        "ForgeCaps:10": {
-          "wizardryutils:summoneditemdata:10": {}
-        },
         "id:8": "futuremc:netherite_scrap"
       },
       "name:8": "Netherite"
@@ -22,9 +19,6 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "futuremc:ancient_debris"
         }
       },
@@ -35,9 +29,6 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "futuremc:netherite_ingot"
         }
       },

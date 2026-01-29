@@ -7,9 +7,6 @@
       "desc:8": "Need more parts for upgrading yourself? You have two options for farming cyber mobs, you could use a powered spawner, but those require power.\n\nThe radio tower can be used to increase the spawn rate of cyber mobs for your vanilla style mob farms and don\u0027t require power.\n\nTo build it follow the instructions on the radio tower component and then place the beacon on top of the tower, you will know it is working when it splurts out smoke.\n\nA cheaper option is the radio kit but it says to be worse.",
       "icon:10": {
         "Count:3": 1,
-        "ForgeCaps:10": {
-          "wizardryutils:summoneditemdata:10": {}
-        },
         "id:8": "cyberware:radio_post"
       },
       "name:8": "Attracting Cyborgs"
@@ -22,16 +19,10 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 42,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "cyberware:radio_post"
         },
         "1:10": {
           "Count:3": 1,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "cyberware:beacon_large"
         }
       },
@@ -42,9 +33,6 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "cyberware:beacon"
         }
       },

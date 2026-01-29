@@ -334,3 +334,6 @@ mods.GalacticraftTweaker.addCompressorShapelessRecipe(<galacticraftcore:basic_it
 
 mods.GalacticraftTweaker.removeCompressorRecipe(<galacticraftcore:basic_item:1>); 
 mods.GalacticraftTweaker.addCompressorShapelessRecipe(<galacticraftcore:basic_item:1>,<galacticraftcore:item_basic_moon:0>, <galacticraftcore:item_basic_moon:0>);
+
+// Manual Rolling Machine
+recipes.replaceAllOccurences(<ore:gearBronze>, <ore:gearCopper>, <railcraft:equipment:0>);

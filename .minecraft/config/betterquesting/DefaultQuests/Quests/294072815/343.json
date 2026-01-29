@@ -9,8 +9,7 @@
         "Count:3": 1,
         "Damage:2": 18,
         "ForgeCaps:10": {
-          "astralsorcery:cap_item_amulet_holder:10": {},
-          "wizardryutils:summoneditemdata:10": {}
+          "astralsorcery:cap_item_amulet_holder:10": {}
         },
         "id:8": "simplyjetpacks:itemjetpack",
         "tag:10": {
@@ -31,8 +30,7 @@
           "Count:3": 1,
           "Damage:2": 18,
           "ForgeCaps:10": {
-            "astralsorcery:cap_item_amulet_holder:10": {},
-            "wizardryutils:summoneditemdata:10": {}
+            "astralsorcery:cap_item_amulet_holder:10": {}
           },
           "id:8": "simplyjetpacks:itemjetpack",
           "tag:10": {

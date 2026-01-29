@@ -7,9 +7,6 @@
       "desc:8": "These tracks are special in that they can be used to project a beam of light that functions like a track for a minecart. You activate them with a redstone signal (note that cutting off signal cuts off track) and the beam will reach 49 blocks out on each side until it hits another block.\n\nTheir design makes them well suited for a sci-fi themed base.",
       "icon:10": {
         "Count:3": 1,
-        "ForgeCaps:10": {
-          "wizardryutils:summoneditemdata:10": {}
-        },
         "id:8": "lb:blockfrail"
       },
       "name:8": "Tracks made of Light"
@@ -22,9 +19,6 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "lb:blockfsource"
         }
       },

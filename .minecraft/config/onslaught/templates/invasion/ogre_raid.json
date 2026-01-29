@@ -11,9 +11,6 @@
                 "not": "1"},
                 "weight": 0
           },
-
-    
-      
       "earlyEnd": {
            "maxInvasionDuration": 300,
             "message": "The Ogres have gotten bored and looked for food elsewhere"

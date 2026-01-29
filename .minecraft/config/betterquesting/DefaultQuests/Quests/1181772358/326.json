@@ -7,9 +7,6 @@
       "desc:8": "Butterflies are created from forestry trees and only serve the purpose of making them cross pollinate. You can of course use them for decoration and as bragging rights.\n\nYou collect them by right clicking on them with a scoop and can be released by dropping them on the ground while it isn\u0027t raining and wait a second or two.\n\nIt seems that which butterfly you get depends on the biome but you\u0027d have to look into that yourself.",
       "icon:10": {
         "Count:3": 1,
-        "ForgeCaps:10": {
-          "wizardryutils:summoneditemdata:10": {}
-        },
         "id:8": "forestry:butterfly_ge",
         "tag:10": {
           "Genome:10": {
@@ -102,9 +99,6 @@
         "0:10": {
           "Count:3": 1,
           "Damage:2": 32767,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "forestry:butterfly_ge",
           "tag:10": {
             "Genome:10": {

@@ -7,9 +7,6 @@
       "desc:8": "Your critters will need to eat and can eat food found dropped, placed in world (as blocks or as mobs to hunt), and from feeders.\n\nFor feeders try to have them placed so they are on top of the ground rather than embedded into the ground as they are quite stupid. But they don\u0027t require power to work and items can be piped in from any side.\n\nKeep in mind that in terms of mood hand feeding is best, then hunting, then a feeder but a feeder is better than them starving :P",
       "icon:10": {
         "Count:3": 1,
-        "ForgeCaps:10": {
-          "wizardryutils:summoneditemdata:10": {}
-        },
         "id:8": "fossil:feeder"
       },
       "name:8": "Feeding Your Pets"
@@ -22,9 +19,6 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "fossil:feeder"
         }
       },

@@ -7,9 +7,6 @@
       "desc:8": "Woah, you got Iron, you\u0027re going to need a lot of it.\n\nFortunately there are a ton of ways to get more",
       "icon:10": {
         "Count:3": 1,
-        "ForgeCaps:10": {
-          "wizardryutils:summoneditemdata:10": {}
-        },
         "id:8": "minecraft:iron_ingot"
       },
       "name:8": "The Iron Age"
@@ -22,9 +19,6 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "minecraft:iron_ingot"
         }
       },

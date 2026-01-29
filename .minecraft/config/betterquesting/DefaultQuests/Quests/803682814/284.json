@@ -7,9 +7,6 @@
       "desc:8": "No Description",
       "icon:10": {
         "Count:3": 1,
-        "ForgeCaps:10": {
-          "wizardryutils:summoneditemdata:10": {}
-        },
         "id:8": "cyberware:lungs_upgrades"
       },
       "name:8": "WHAT KIND OF PLACE IS THIS!?!?"
@@ -22,16 +19,10 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "galacticraftcore:oxygen_compressor"
         },
         "1:10": {
           "Count:3": 1,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "galacticraftcore:collector"
         }
       },
@@ -42,24 +33,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "galacticraftcore:oxygen_mask"
         },
         "1:10": {
           "Count:3": 1,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "galacticraftcore:oxygen_gear"
         },
         "2:10": {
           "Count:3": 2,
           "Damage:2": 32767,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "galacticraftcore:oxygen_tank_light_full"
         }
       },
@@ -71,9 +53,6 @@
         "0:10": {
           "Count:3": 1,
           "Damage:2": 19,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "galacticraftcore:basic_item"
         }
       },

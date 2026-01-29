@@ -21,3 +21,4 @@ mods.ltt.LootTable.removeGlobalItem("mocreatures:turkeycooked");
 mods.ltt.LootTable.removeGlobalItem("mocreatures:venisoncooked");
 mods.ltt.LootTable.removeGlobalItem("mocreatures:turtlecooked");
 mods.ltt.LootTable.removeGlobalItem("twilightforest:cooked_venison");
+mods.ltt.LootTable.removeGlobalItem("mocreatures:duckcooked");

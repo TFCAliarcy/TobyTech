@@ -258,6 +258,9 @@ keybind.railcraft.loco.reverse
 keybind.railcraft.loco.slower
 keybind.railcraft.loco.whistle
 
+key.morphspellpack.category
+key.morphspellpack.activate_morph_ability
+
 schematica.key.category
 schematica.key.load
 schematica.key.control
@@ -282,6 +285,7 @@ key.spartanweaponry.access_quiver
 
 techguns.key.categories.techguns
 techguns.key.forceReload
+techguns.key.switchAmmo
 techguns.key.toggleJetpack
 techguns.key.toggleNightvision
 techguns.key.toggleSafemode

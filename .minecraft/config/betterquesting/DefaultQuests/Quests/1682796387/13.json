@@ -4,12 +4,9 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "No Description",
+      "desc:8": "This should be the easiest part of making a blast furnace, either find a nether fortress or just smelt some netherrack into bricks.",
       "icon:10": {
         "Count:3": 1,
-        "ForgeCaps:10": {
-          "wizardryutils:summoneditemdata:10": {}
-        },
         "id:8": "minecraft:nether_brick"
       },
       "name:8": "Flesh and Stone Carved into Bricks"
@@ -22,9 +19,6 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 36,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "minecraft:nether_brick"
         }
       },

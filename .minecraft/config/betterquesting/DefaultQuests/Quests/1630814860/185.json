@@ -7,9 +7,6 @@
       "desc:8": "Injects gene from loaded plasmid into blood sample, purify that blood and you can inject that gene.",
       "icon:10": {
         "Count:3": 1,
-        "ForgeCaps:10": {
-          "wizardryutils:summoneditemdata:10": {}
-        },
         "id:8": "geneticsreborn:plasmidinjector"
       },
       "name:8": "Plasmid Injector"
@@ -22,9 +19,6 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "geneticsreborn:plasmidinjector"
         }
       },

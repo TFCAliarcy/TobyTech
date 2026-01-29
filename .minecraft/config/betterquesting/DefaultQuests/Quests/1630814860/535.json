@@ -5,8 +5,7 @@
       "icon:10": {
         "Count:3": 1,
         "ForgeCaps:10": {
-          "astralsorcery:cap_item_amulet_holder:10": {},
-          "wizardryutils:summoneditemdata:10": {}
+          "astralsorcery:cap_item_amulet_holder:10": {}
         },
         "id:8": "srparasites:itemtab"
       },
@@ -25,9 +24,6 @@
       "index:3": 0,
       "item:10": {
         "Count:3": 1,
-        "ForgeCaps:10": {
-          "wizardryutils:summoneditemdata:10": {}
-        },
         "id:8": "srparasites:itemmobspawner_lodo"
       },
       "requiredUses:3": 4,

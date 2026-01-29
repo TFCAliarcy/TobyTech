@@ -8,9 +8,6 @@
       "desc:8": "The Alveary is a customizable multiblock that is a 3x3x3 of alveary blocks with a 3x3 of wooden slabs on the top with a texture being shown on the top layer of the alveary blocks when completed.\n\nAt base the alveary has a 10x bonus to your bee\u0027s production but what sets it apart are the blocks you can customize it with. There are a variety of blocks which you can place in the alveary to give different affects which are listed in quests after this.\n\nNote that you can\u0027t replace the top row of alveary blocks or the mutliblock won\u0027t form but you can mix and match which wooden slabs you use.",
       "icon:10": {
         "Count:3": 1,
-        "ForgeCaps:10": {
-          "wizardryutils:summoneditemdata:10": {}
-        },
         "id:8": "forestry:alveary.plain"
       },
       "name:8": "Alvearies, Gotta Bee......"
@@ -23,16 +20,10 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 27,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "forestry:alveary.plain"
         },
         "1:10": {
           "Count:3": 9,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "OreDict:8": "slabWood",
           "id:8": "minecraft:wooden_slab"
         }

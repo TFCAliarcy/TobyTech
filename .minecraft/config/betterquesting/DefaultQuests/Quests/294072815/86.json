@@ -5,8 +5,7 @@
       "icon:10": {
         "Count:3": 1,
         "ForgeCaps:10": {
-          "astralsorcery:cap_item_amulet_holder:10": {},
-          "wizardryutils:summoneditemdata:10": {}
+          "astralsorcery:cap_item_amulet_holder:10": {}
         },
         "OreDict:8": "prbackpack",
         "id:8": "projectred-exploration:backpack"
@@ -22,8 +21,7 @@
         "0:10": {
           "Count:3": 1,
           "ForgeCaps:10": {
-            "astralsorcery:cap_item_amulet_holder:10": {},
-            "wizardryutils:summoneditemdata:10": {}
+            "astralsorcery:cap_item_amulet_holder:10": {}
           },
           "OreDict:8": "prbackpack",
           "id:8": "projectred-exploration:backpack"

@@ -7,14 +7,40 @@
       "desc:8": "No Description",
       "icon:10": {
         "Count:3": 1,
-        "ForgeCaps:10": {
-          "wizardryutils:summoneditemdata:10": {}
-        },
         "id:8": "minecraft:chest_minecart"
       },
       "name:8": "Automation Using Carts"
     }
   },
   "questID:3": 129,
-  "tasks:9": {}
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:hopper_minecart"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:rail"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:chest_minecart"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:hopper"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
 }

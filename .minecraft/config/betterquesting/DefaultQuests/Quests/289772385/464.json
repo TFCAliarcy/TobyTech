@@ -8,8 +8,7 @@
       "icon:10": {
         "Count:3": 1,
         "ForgeCaps:10": {
-          "astralsorcery:cap_item_amulet_holder:10": {},
-          "wizardryutils:summoneditemdata:10": {}
+          "astralsorcery:cap_item_amulet_holder:10": {}
         },
         "id:8": "enderio:item_dark_steel_pickaxe",
         "tag:10": {
@@ -48,40 +47,35 @@
         "0:10": {
           "Count:3": 1,
           "ForgeCaps:10": {
-            "astralsorcery:cap_item_amulet_holder:10": {},
-            "wizardryutils:summoneditemdata:10": {}
+            "astralsorcery:cap_item_amulet_holder:10": {}
           },
           "id:8": "enderio:item_dark_steel_pickaxe"
         },
         "1:10": {
           "Count:3": 1,
           "ForgeCaps:10": {
-            "astralsorcery:cap_item_amulet_holder:10": {},
-            "wizardryutils:summoneditemdata:10": {}
+            "astralsorcery:cap_item_amulet_holder:10": {}
           },
           "id:8": "enderio:item_dark_steel_sword"
         },
         "2:10": {
           "Count:3": 1,
           "ForgeCaps:10": {
-            "astralsorcery:cap_item_amulet_holder:10": {},
-            "wizardryutils:summoneditemdata:10": {}
+            "astralsorcery:cap_item_amulet_holder:10": {}
           },
           "id:8": "enderio:item_dark_steel_axe"
         },
         "3:10": {
           "Count:3": 1,
           "ForgeCaps:10": {
-            "astralsorcery:cap_item_amulet_holder:10": {},
-            "wizardryutils:summoneditemdata:10": {}
+            "astralsorcery:cap_item_amulet_holder:10": {}
           },
           "id:8": "enderio:item_dark_steel_crook"
         },
         "4:10": {
           "Count:3": 1,
           "ForgeCaps:10": {
-            "astralsorcery:cap_item_amulet_holder:10": {},
-            "wizardryutils:summoneditemdata:10": {}
+            "astralsorcery:cap_item_amulet_holder:10": {}
           },
           "id:8": "enderio:item_dark_steel_bow"
         }

@@ -12,8 +12,8 @@ rats:plague_doctor
 rewired:runner
 bewitchment:hedge_witch
 bewitchment:alchemist
-forestry:arborist
 forestry:apiarist
+forestry:arborist
 railcraft:trackman
 iceandfire:scriber
 extrautils2:alchemist

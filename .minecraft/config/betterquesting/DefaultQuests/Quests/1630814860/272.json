@@ -7,15 +7,15 @@
       "desc:8": "No Description",
       "icon:10": {
         "Count:3": 1,
-        "ForgeCaps:10": {
-          "astralsorcery:cap_item_amulet_holder:10": {},
-          "wizardryutils:summoneditemdata:10": {}
-        },
-        "id:8": "techguns:alienblaster",
+        "id:8": "betterquesting:placeholder",
         "tag:10": {
-          "ammo:2": 10,
-          "ammovariant:8": "default",
-          "camo:1": 0
+          "orig_id:8": "techguns:alienblaster",
+          "orig_meta:3": 0,
+          "orig_tag:10": {
+            "ammo:2": 10,
+            "ammovariant:8": "default",
+            "camo:1": 0
+          }
         }
       },
       "name:8": "Alien Blaster"
@@ -29,15 +29,15 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "ForgeCaps:10": {
-            "astralsorcery:cap_item_amulet_holder:10": {},
-            "wizardryutils:summoneditemdata:10": {}
-          },
-          "id:8": "techguns:alienblaster",
+          "id:8": "betterquesting:placeholder",
           "tag:10": {
-            "ammo:2": 10,
-            "ammovariant:8": "default",
-            "camo:1": 0
+            "orig_id:8": "techguns:alienblaster",
+            "orig_meta:3": 0,
+            "orig_tag:10": {
+              "ammo:2": 10,
+              "ammovariant:8": "default",
+              "camo:1": 0
+            }
           }
         }
       },

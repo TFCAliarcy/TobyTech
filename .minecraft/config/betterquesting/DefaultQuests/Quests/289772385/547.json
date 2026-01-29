@@ -8,9 +8,6 @@
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 2,
-        "ForgeCaps:10": {
-          "wizardryutils:summoneditemdata:10": {}
-        },
         "id:8": "galacticraftplanets:basic_item_venus"
       },
       "name:8": "Solar Radiation"
@@ -24,9 +21,6 @@
         "0:10": {
           "Count:3": 1,
           "Damage:2": 9,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "galaxyspace:gs_basic"
         }
       },
@@ -39,8 +33,7 @@
           "Count:3": 1,
           "Damage:2": 200,
           "ForgeCaps:10": {
-            "astralsorcery:cap_item_amulet_holder:10": {},
-            "wizardryutils:summoneditemdata:10": {}
+            "astralsorcery:cap_item_amulet_holder:10": {}
           },
           "id:8": "galaxyspace:space_suit_light_head",
           "tag:10": {}
@@ -49,8 +42,7 @@
           "Count:3": 1,
           "Damage:2": 200,
           "ForgeCaps:10": {
-            "astralsorcery:cap_item_amulet_holder:10": {},
-            "wizardryutils:summoneditemdata:10": {}
+            "astralsorcery:cap_item_amulet_holder:10": {}
           },
           "id:8": "galaxyspace:space_suit_light_chest",
           "tag:10": {}
@@ -59,8 +51,7 @@
           "Count:3": 1,
           "Damage:2": 200,
           "ForgeCaps:10": {
-            "astralsorcery:cap_item_amulet_holder:10": {},
-            "wizardryutils:summoneditemdata:10": {}
+            "astralsorcery:cap_item_amulet_holder:10": {}
           },
           "id:8": "galaxyspace:space_suit_light_legs",
           "tag:10": {}
@@ -69,8 +60,7 @@
           "Count:3": 1,
           "Damage:2": 200,
           "ForgeCaps:10": {
-            "astralsorcery:cap_item_amulet_holder:10": {},
-            "wizardryutils:summoneditemdata:10": {}
+            "astralsorcery:cap_item_amulet_holder:10": {}
           },
           "id:8": "galaxyspace:space_suit_light_feet",
           "tag:10": {}
@@ -85,8 +75,7 @@
           "Count:3": 1,
           "Damage:2": 200,
           "ForgeCaps:10": {
-            "astralsorcery:cap_item_amulet_holder:10": {},
-            "wizardryutils:summoneditemdata:10": {}
+            "astralsorcery:cap_item_amulet_holder:10": {}
           },
           "id:8": "galaxyspace:space_suit_head",
           "tag:10": {}
@@ -95,8 +84,7 @@
           "Count:3": 1,
           "Damage:2": 200,
           "ForgeCaps:10": {
-            "astralsorcery:cap_item_amulet_holder:10": {},
-            "wizardryutils:summoneditemdata:10": {}
+            "astralsorcery:cap_item_amulet_holder:10": {}
           },
           "id:8": "galaxyspace:space_suit_chest",
           "tag:10": {}
@@ -105,8 +93,7 @@
           "Count:3": 1,
           "Damage:2": 200,
           "ForgeCaps:10": {
-            "astralsorcery:cap_item_amulet_holder:10": {},
-            "wizardryutils:summoneditemdata:10": {}
+            "astralsorcery:cap_item_amulet_holder:10": {}
           },
           "id:8": "galaxyspace:space_suit_legs",
           "tag:10": {}
@@ -115,8 +102,7 @@
           "Count:3": 1,
           "Damage:2": 200,
           "ForgeCaps:10": {
-            "astralsorcery:cap_item_amulet_holder:10": {},
-            "wizardryutils:summoneditemdata:10": {}
+            "astralsorcery:cap_item_amulet_holder:10": {}
           },
           "id:8": "galaxyspace:space_suit_feet",
           "tag:10": {}

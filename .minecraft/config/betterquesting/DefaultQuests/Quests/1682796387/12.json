@@ -7,9 +7,6 @@
       "desc:8": "Welcome to Hell!\n\nThe Nether has received signifigant changes with new biomes, mobs, and just about all of the features from 1.16 backported as well as slightly expanded.\n\nIt is also essential for progression both in the vanilla ways but also for technologic: Zinc and Nether Quartz are found here with nether ores giving double the output of ores from the overworld or other places.",
       "icon:10": {
         "Count:3": 1,
-        "ForgeCaps:10": {
-          "wizardryutils:summoneditemdata:10": {}
-        },
         "id:8": "minecraft:obsidian"
       },
       "name:8": "Passing Through the Gates of Hell"

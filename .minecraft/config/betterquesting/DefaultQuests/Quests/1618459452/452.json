@@ -4,9 +4,6 @@
       "desc:8": "Cats taming in this pack is a mix of both modern and in 1.12, you can tame both Ocelots and Stray cats found in villages. You tame them by feeding them fish, but you cannot just spam them with the fish, you get near them and wait for them to come to you before you can tame them. You know it works when they have smoke particles.\n\nNote that tamed Ocelots do not change texture.\n\nAlso make sure to not overfeed them as they bug out for some reason and will refuse to move or sit, you fix them by punching them, not even joking. Make sure you don\u0027t have any animals that will fight for you nearby or you might be down a cat.\n\nAlso you can dye their collar with dye like with dogs (this is a mod, not vanilla.)\n\nYou can find black cats at witch huts.",
       "icon:10": {
         "Count:3": 1,
-        "ForgeCaps:10": {
-          "wizardryutils:summoneditemdata:10": {}
-        },
         "id:8": "mocreatures:kittybed_white"
       },
       "name:8": "Cats"

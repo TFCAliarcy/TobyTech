@@ -8,9 +8,6 @@
       "desc:8": "Forestry offers singleblock farms which will farm materials when provided with dirt, water, power, and fertilizer. Each kind of farm comes in two variants of each farm: managed and manual. Managed farms will automatically place down blocks and harvest them when ready, manual will require you to place them down so managed are best of them. The farms will place blocks in a 3 thick square ring 4 blocks away from the farm block and 1 block below it.\n\nNote that these farms take very little power so you can run multiple of them based off of a single stirling engine.\n\nBelow are the different variants and any quirks with them:\n\nArboretum:\nLets you place based on cardinal directions. If you put it fruit trees it just cuts them down, you\u0027ll need a multiblock farm for them.\n\nPeat Bog:\nTakes in Bog Earth and outputs Peat and dirt\n\nCrop Farm:\nSame as Arboretum\n\nShroom Farm:\nTakes in Mycelium or Podzol then works same as arboretum farm, chopping them down when they grow up\n\nGourd Farm:\nSame as the crop farm.\n\nNetherwart:\nUses soulsand instead of dirt and doesn\u0027t need water\n\nEnd Flower:\nUses endstone instead of dirt and doesn\u0027t need water, it also doesn\u0027t filter chorus flower back into input so you will need to do that.",
       "icon:10": {
         "Count:3": 1,
-        "ForgeCaps:10": {
-          "wizardryutils:summoneditemdata:10": {}
-        },
         "OreDict:8": "forestrysinglefarms",
         "id:8": "forestry:arboretum"
       },
@@ -24,9 +21,6 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "OreDict:8": "forestrysinglefarms",
           "id:8": "forestry:arboretum"
         }

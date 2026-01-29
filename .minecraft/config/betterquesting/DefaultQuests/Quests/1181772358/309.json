@@ -8,9 +8,6 @@
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 5,
-        "ForgeCaps:10": {
-          "wizardryutils:summoneditemdata:10": {}
-        },
         "id:8": "extrabees:alveary"
       },
       "name:8": "Getting Malleable Subjects"
@@ -24,16 +21,10 @@
         "0:10": {
           "Count:3": 1,
           "Damage:2": 5,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "extrabees:alveary"
         },
         "1:10": {
           "Count:3": 1,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "forestry:alveary.sieve"
         }
       },

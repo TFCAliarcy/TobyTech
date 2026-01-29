@@ -7,9 +7,6 @@
       "desc:8": "The Ultimate in Missiles, it doesn\u0027t explode, it deletes blocks in a large radius regardless of blast level including blocks meant to be indestructible such as bedrock and forcefields.",
       "icon:10": {
         "Count:3": 1,
-        "ForgeCaps:10": {
-          "wizardryutils:summoneditemdata:10": {}
-        },
         "id:8": "datnuclearphysicslite:antimatter_cell"
       },
       "name:8": "AntiMatter"
@@ -22,9 +19,6 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "datnuclearphysicslite:antimatter_cell"
         }
       },

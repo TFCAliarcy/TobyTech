@@ -1,0 +1,68 @@
+{
+  "preRequisites:11": [
+    22
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Pipes and their upgrades are how you move items around in the majority of modded minecraft. These are the most primitive within Tobytech.\n\nWooden Pipes are used to extract items from inventories but need to be powered by a redstone engine (which in turn needs a redstone signal), some machines require you to pull from certain sides of them.\n\nCobblestone pipes are your transport pipes, they move items from point A to B, some machines will only accept from certain sides.\n\nIron pipes only allow 1 output and many filled input sides and can be adjusted with a builcraft wrench.\n\nDiamond pipes are color coordinated filter pipes.\n\nGold pipes speed up items passed through them.\n\nFluid Pipes act like item pipes but, as you might guess, with liquids.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "buildcrafttransport:pipe_cobble_item"
+      },
+      "name:8": "Pipes"
+    }
+  },
+  "questID:3": 1471133474,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "buildcraftcore:engine"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "buildcrafttransport:pipe_wood_item"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "buildcrafttransport:pipe_cobble_item"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "buildcrafttransport:pipe_iron_item"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "buildcrafttransport:pipe_diamond_item"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "buildcrafttransport:pipe_gold_item"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "2:10": {
+      "index:3": 2,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "buildcrafttransport:pipe_wood_fluid"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "buildcrafttransport:pipe_cobble_fluid"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

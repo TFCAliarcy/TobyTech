@@ -8,8 +8,7 @@
       "icon:10": {
         "Count:3": 1,
         "ForgeCaps:10": {
-          "astralsorcery:cap_item_amulet_holder:10": {},
-          "wizardryutils:summoneditemdata:10": {}
+          "astralsorcery:cap_item_amulet_holder:10": {}
         },
         "id:8": "spartanweaponry:hammer_stone"
       },
@@ -24,129 +23,81 @@
         "0:10": {
           "Count:3": 1,
           "Damage:2": 192,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "ebwizardry:spell_book"
         },
         "1:10": {
           "Count:3": 1,
           "Damage:2": 180,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "ebwizardry:spell_book"
         },
         "2:10": {
           "Count:3": 1,
           "Damage:2": 131,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "ebwizardry:spell_book"
         },
         "3:10": {
           "Count:3": 1,
           "Damage:2": 77,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "ebwizardry:spell_book"
         },
         "4:10": {
           "Count:3": 1,
           "Damage:2": 76,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "ebwizardry:spell_book"
         },
         "5:10": {
           "Count:3": 1,
           "Damage:2": 75,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "ebwizardry:spell_book"
         },
         "6:10": {
           "Count:3": 1,
           "Damage:2": 74,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "ebwizardry:spell_book"
         },
         "7:10": {
           "Count:3": 1,
           "Damage:2": 73,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "ebwizardry:spell_book"
         },
         "8:10": {
           "Count:3": 1,
           "Damage:2": 72,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "ebwizardry:spell_book"
         },
         "9:10": {
           "Count:3": 1,
           "Damage:2": 207,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "ebwizardry:spell_book"
         },
         "10:10": {
           "Count:3": 1,
           "Damage:2": 208,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "ebwizardry:spell_book"
         },
         "11:10": {
           "Count:3": 1,
           "Damage:2": 221,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "ebwizardry:spell_book"
         },
         "12:10": {
           "Count:3": 1,
           "Damage:2": 230,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "ebwizardry:spell_book"
         },
         "13:10": {
           "Count:3": 1,
           "Damage:2": 288,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "ebwizardry:spell_book"
         },
         "14:10": {
           "Count:3": 1,
           "Damage:2": 293,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "ebwizardry:spell_book"
         },
         "15:10": {
           "Count:3": 1,
           "Damage:2": 253,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "tfspellpack:twilight_spell_book"
         }
       },
@@ -158,65 +109,41 @@
         "0:10": {
           "Count:3": 1,
           "Damage:2": 187,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "ebwizardry:spell_book"
         },
         "1:10": {
           "Count:3": 1,
           "Damage:2": 169,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "ebwizardry:spell_book"
         },
         "2:10": {
           "Count:3": 1,
           "Damage:2": 209,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "ebwizardry:spell_book"
         },
         "3:10": {
           "Count:3": 1,
           "Damage:2": 139,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "ebwizardry:spell_book"
         },
         "4:10": {
           "Count:3": 1,
           "Damage:2": 104,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "ebwizardry:spell_book"
         },
         "5:10": {
           "Count:3": 1,
           "Damage:2": 103,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "ebwizardry:spell_book"
         },
         "6:10": {
           "Count:3": 1,
           "Damage:2": 102,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "ebwizardry:spell_book"
         },
         "7:10": {
           "Count:3": 1,
           "Damage:2": 263,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "tfspellpack:twilight_spell_book"
         }
       },

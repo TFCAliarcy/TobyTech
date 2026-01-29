@@ -7,9 +7,6 @@
       "desc:8": "No Description",
       "icon:10": {
         "Count:3": 1,
-        "ForgeCaps:10": {
-          "wizardryutils:summoneditemdata:10": {}
-        },
         "id:8": "buildcraftsilicon:plug_gate",
         "tag:10": {
           "gate:10": {
@@ -30,9 +27,6 @@
         "0:10": {
           "Count:3": 1,
           "Damage:2": 32767,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "buildcraftsilicon:plug_gate",
           "tag:10": {
             "gate:10": {
@@ -45,9 +39,6 @@
         "1:10": {
           "Count:3": 1,
           "Damage:2": 32767,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "buildcrafttransport:wire"
         }
       },

@@ -9,9 +9,6 @@
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 16,
-        "ForgeCaps:10": {
-          "wizardryutils:summoneditemdata:10": {}
-        },
         "id:8": "mysticalagriculture:crafting"
       },
       "name:8": "Crafting Seeds"
@@ -25,9 +22,6 @@
         "0:10": {
           "Count:3": 1,
           "Damage:2": 16,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "mysticalagriculture:crafting"
         }
       },

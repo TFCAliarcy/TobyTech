@@ -7,9 +7,6 @@
       "desc:8": "Now that you\u0027ve got your DNA you put it in the culture vat along with a Bio-Goo and power to get your turn your DNA/seeds into eggs, embryos, or sacs.\n\nNote that each run takes a single bio-goo and it can sometimes fail resulting in bad stuff like the block turning to water and spawning a failasaurus.\n\nThe plant stuff you can simply place down on the dirt and grow it\n\nDino/Lizard eggs are placed down and need a light source near them and will eventually hatch\n\nBird eggs are thrown to hatch like chicken eggs\n\nBug eggs are placed and hatch imediately\n\nAquatic creatures have their eggs place in water and will imediately hatch\n\nEmbryos are right clicked on vanilla mammals and will pop out when they give birth after a good while\n\nTo see which is which check the \"Featured Creatures\" quest above this one",
       "icon:10": {
         "Count:3": 1,
-        "ForgeCaps:10": {
-          "wizardryutils:summoneditemdata:10": {}
-        },
         "id:8": "fossil:cultivate"
       },
       "name:8": "Creating New Life",
@@ -23,9 +20,6 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "fossil:cultivate"
         }
       },

@@ -4,12 +4,9 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "No Description",
+      "desc:8": "Welcome to the Twilight Forest, a magical land home to magical ores and magical mobs and magical bosses and magical plants and magical................. air?\n\nThe twilight forest as a base is based around exploring a dimension of magic and fighting bosses to unlock gear and while cool I thought to go a bit further than that. TobyTech treats the twlightlight forest as your source for magic ores needed for Thaumcraft and Witchery.\n\nDon\u0027t worry tech people though, you still need to go here for Aluminum for going to space though you can\u0027t refine it for a while.",
       "icon:10": {
         "Count:3": 1,
-        "ForgeCaps:10": {
-          "wizardryutils:summoneditemdata:10": {}
-        },
         "id:8": "twilightforest:miniature_structure"
       },
       "name:8": "Ever Between Night and Day"

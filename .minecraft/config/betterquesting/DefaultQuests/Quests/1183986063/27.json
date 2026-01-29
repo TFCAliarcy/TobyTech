@@ -7,9 +7,6 @@
       "desc:8": "Angel blocks are used for the quite niche purpose of building when there are no blocks around.\n\nTo use them you place them down forehead.",
       "icon:10": {
         "Count:3": 1,
-        "ForgeCaps:10": {
-          "wizardryutils:summoneditemdata:10": {}
-        },
         "id:8": "extrautils2:angelblock"
       },
       "name:8": "Building in Nothing"
@@ -22,9 +19,6 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "extrautils2:angelblock"
         }
       },

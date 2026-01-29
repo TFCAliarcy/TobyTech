@@ -7,9 +7,6 @@
       "desc:8": "You ever dug a hole and wanted it filled with water? Normally you\u0027d have to bucket it in manually but not anymore with the flood gate. You simply pump in any liquid and it will fill in any area until it reaches the block. The range is quite long (measured in chunks).\n\nSo if you want to fill in a lake, you place it at the level you want the water to be at.\n\nThis works with any fluid, not just water.",
       "icon:10": {
         "Count:3": 1,
-        "ForgeCaps:10": {
-          "wizardryutils:summoneditemdata:10": {}
-        },
         "id:8": "buildcraftfactory:flood_gate"
       },
       "name:8": "Making Lakes"
@@ -22,9 +19,6 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "buildcraftfactory:flood_gate"
         }
       },

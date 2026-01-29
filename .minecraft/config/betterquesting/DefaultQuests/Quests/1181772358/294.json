@@ -7,9 +7,6 @@
       "desc:8": "The primary use of the Thermionic Fabricator is to make electron tubes which are needed for crafting farms and also for customizing circuits. This works by melting glass in the left slot and powering it until it melts and then it can craft in the recipe put in the table. \n\nYou will need to provide it with power to keep the temperature high and the glass liquid. Otherwise it will lower the temp and and drain any liquid glass.",
       "icon:10": {
         "Count:3": 1,
-        "ForgeCaps:10": {
-          "wizardryutils:summoneditemdata:10": {}
-        },
         "id:8": "forestry:fabricator"
       },
       "name:8": "Thermionic Fabrication 64"
@@ -22,9 +19,6 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "forestry:fabricator"
         }
       },

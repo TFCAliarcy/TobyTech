@@ -7,9 +7,6 @@
       "desc:8": "The still is primarily used to turn biomas into Ethanol using power, it does so very slowly but Ethanol provides a decent amount of power. Though if you intend to use ethanol as your main power you will want to try and get your biomass production to be as efficient as possible and use plenty of stills.\n\nDo note that the fractioning still also turns biomass to ehtanol but this is way quicker.",
       "icon:10": {
         "Count:3": 1,
-        "ForgeCaps:10": {
-          "wizardryutils:summoneditemdata:10": {}
-        },
         "id:8": "forestry:still"
       },
       "name:8": "Ethanol Distillation"
@@ -22,9 +19,6 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "forestry:still"
         }
       },

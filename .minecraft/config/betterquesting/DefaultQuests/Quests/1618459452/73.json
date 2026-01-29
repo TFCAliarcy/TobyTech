@@ -8,9 +8,6 @@
       "desc:8": "These function like Eyes of Ender except but are for finding the dens of tier 4 or 5 dragons. Like eyes of ender they can break when being used so you should be careful to have a few on hand.\n\n\nThey do have an upside in that if you are too far away from a dragon den it will inform you and not use the eye.\n\nDo note that there isn\u0027t one for lightning dragons, just hope you find one I guess.",
       "icon:10": {
         "Count:3": 1,
-        "ForgeCaps:10": {
-          "wizardryutils:summoneditemdata:10": {}
-        },
         "id:8": "eyeofdragons:eye_of_firedragon"
       },
       "name:8": "Finding Dragon Dens",
@@ -24,16 +21,10 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "eyeofdragons:eye_of_firedragon"
         },
         "1:10": {
           "Count:3": 1,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "eyeofdragons:eye_of_icedragon"
         }
       },

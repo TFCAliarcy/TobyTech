@@ -7,9 +7,6 @@
       "desc:8": "You finally have access to Certus Quartz and can work towards getting your AE setup, you\u0027re going to need more than you have.",
       "icon:10": {
         "Count:3": 1,
-        "ForgeCaps:10": {
-          "wizardryutils:summoneditemdata:10": {}
-        },
         "id:8": "appliedenergistics2:material"
       },
       "name:8": "Certus Quartz"
@@ -22,9 +19,6 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "appliedenergistics2:material"
         }
       },

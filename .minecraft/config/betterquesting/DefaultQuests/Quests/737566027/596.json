@@ -7,9 +7,6 @@
       "desc:8": "Bind your rat to a Cheese Staff to set where they can take and deposit items. You can also set the Rats Home to give them an area to wander around. \n\nMake sure your rat is set to Hunt, Harvest, Gather, or Transport Items to make use of the staff.\n\nThe Rat Flute can be used to command multiple rats at once.",
       "icon:10": {
         "Count:3": 1,
-        "ForgeCaps:10": {
-          "wizardryutils:summoneditemdata:10": {}
-        },
         "id:8": "rats:cheese_stick"
       },
       "name:8": "Commanding Rats"
@@ -22,9 +19,6 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "rats:cheese_stick"
         }
       },

@@ -7,9 +7,6 @@
       "desc:8": "This block is functionally identical to the Vanilla Button, though it is much larger visually, and adds a couple of unique features. Sneak+right clicking on the Big Button by an empty hand will open its inventory. It has an inventory of one slot, and putting items in it will increase the tick delay. \n\nEvery item put into it will add 1 tick to the delay. There is a maximum of 64 ticks (3.2 seconds) delay for the Big Button; adding any more items will not add more tick delay, and is also likely impossible due to standardized stack sizes. ",
       "icon:10": {
         "Count:3": 1,
-        "ForgeCaps:10": {
-          "wizardryutils:summoneditemdata:10": {}
-        },
         "id:8": "openblocks:big_button"
       },
       "name:8": "The Big Button"
@@ -22,9 +19,6 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "openblocks:big_button"
         }
       },

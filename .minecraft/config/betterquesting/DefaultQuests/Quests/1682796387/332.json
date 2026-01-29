@@ -4,12 +4,9 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "No Description",
+      "desc:8": "Zinc is primarily used to make brass which is mostly for making more efficient bullets but does see the odd use for other things.\n\nIt can only be found in the nether (at this point in the quest book).",
       "icon:10": {
         "Count:3": 1,
-        "ForgeCaps:10": {
-          "wizardryutils:summoneditemdata:10": {}
-        },
         "id:8": "netherendingores:ore_nether_modded_2"
       },
       "name:8": "Zinc"
@@ -22,9 +19,6 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "netherendingores:ore_nether_modded_2"
         }
       },

@@ -7,9 +7,6 @@
       "desc:8": "This machine is primarilty used for getting seed oil or other forestry liquids, do note that you can get most recipes in the fluid transposer but not all.",
       "icon:10": {
         "Count:3": 1,
-        "ForgeCaps:10": {
-          "wizardryutils:summoneditemdata:10": {}
-        },
         "id:8": "forestry:squeezer"
       },
       "name:8": "Squeezer"
@@ -22,9 +19,6 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "forestry:squeezer"
         }
       },

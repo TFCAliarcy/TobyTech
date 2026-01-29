@@ -7,12 +7,9 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "No Description",
+      "desc:8": "Coke Ovens are a multiblock structure used to turn logs/coal into charcoal/coke coal and produce creosote.\n\nYou construct them as a 3x3 cube with an empty middle block, using 26 blocks.\n\nUnless you have excess clay lying around these aren\u0027t all that worth it unless you want creosote for rails now. Though it is worth noting that since they don\u0027t require fuel or power they are the most efficient method of getting creosote, charcoal, and coke coal.",
       "icon:10": {
         "Count:3": 1,
-        "ForgeCaps:10": {
-          "wizardryutils:summoneditemdata:10": {}
-        },
         "id:8": "railcraft:coke_oven"
       },
       "name:8": "Coke Oven"
@@ -24,10 +21,7 @@
       "index:3": 0,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 35,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
+          "Count:3": 26,
           "id:8": "railcraft:coke_oven"
         }
       },

@@ -7,9 +7,6 @@
       "desc:8": "No Description",
       "icon:10": {
         "Count:3": 1,
-        "ForgeCaps:10": {
-          "wizardryutils:summoneditemdata:10": {}
-        },
         "id:8": "iceandfire:dragonforge_ice_core"
       },
       "name:8": "Putting Your Kids to Work"
@@ -22,17 +19,11 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "OreDict:8": "blockDragonForgeCore",
           "id:8": "iceandfire:dragonforge_fire_core_disabled"
         },
         "1:10": {
           "Count:3": 1,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "OreDict:8": "blockDragonForgeInput",
           "id:8": "iceandfire:dragonforge_fire_input"
         }
@@ -44,17 +35,11 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 17,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "OreDict:8": "blockDragonForgeBrick",
           "id:8": "iceandfire:dragonforge_ice_brick"
         },
         "1:10": {
           "Count:3": 8,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "iceandfire:dragon_bone_block"
         }
       },

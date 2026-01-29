@@ -8,9 +8,6 @@
       "desc:8": "No Description",
       "icon:10": {
         "Count:3": 1,
-        "ForgeCaps:10": {
-          "wizardryutils:summoneditemdata:10": {}
-        },
         "id:8": "buildcraftsilicon:laser"
       },
       "name:8": "Crafting With Lasers",
@@ -25,9 +22,6 @@
       "rewards:9": {
         "0:10": {
           "Count:3": 1,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "buildcraftsilicon:laser"
         }
       }
@@ -39,9 +33,6 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "buildcraftsilicon:assembly_table"
         }
       },
@@ -52,9 +43,6 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "buildcraftsilicon:laser"
         }
       },

@@ -7,9 +7,6 @@
       "desc:8": "No Description",
       "icon:10": {
         "Count:3": 1,
-        "ForgeCaps:10": {
-          "wizardryutils:summoneditemdata:10": {}
-        },
         "id:8": "minecraft:soul_sand"
       },
       "name:8": "The Weariest Form the Silt Beneath Our Feet"
@@ -21,11 +18,8 @@
       "index:3": 0,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 36,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
-          "id:8": "minecraft:stone"
+          "Count:3": 1,
+          "id:8": "minecraft:soul_sand"
         }
       },
       "taskID:8": "bq_standard:retrieval"

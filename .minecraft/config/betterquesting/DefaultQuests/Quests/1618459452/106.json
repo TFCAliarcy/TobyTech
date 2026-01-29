@@ -4,9 +4,6 @@
       "desc:8": "Ravens are a tameable mob found in Roofed Forest biomes ",
       "icon:10": {
         "Count:3": 1,
-        "ForgeCaps:10": {
-          "wizardryutils:summoneditemdata:10": {}
-        },
         "id:8": "twilightforest:raven_feather"
       },
       "name:8": "Quoth the Raven"

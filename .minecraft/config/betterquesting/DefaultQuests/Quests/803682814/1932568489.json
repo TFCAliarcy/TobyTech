@@ -7,9 +7,6 @@
       "desc:8": "The Dinopedia is your tool for checking info and status for each dino, it allows you to see their health, hunger, mood, what they eat, when they\u0027re active, and a good amount of other information needed in the caring of your dinos.",
       "icon:10": {
         "Count:3": 1,
-        "ForgeCaps:10": {
-          "wizardryutils:summoneditemdata:10": {}
-        },
         "id:8": "fossil:dinopedia"
       },
       "name:8": "Dinopedia \u0026 Housing"
@@ -22,9 +19,6 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "fossil:dinopedia"
         }
       },

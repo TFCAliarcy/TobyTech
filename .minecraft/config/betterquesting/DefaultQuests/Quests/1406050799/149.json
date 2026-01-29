@@ -11,8 +11,7 @@
         "ForgeCaps:10": {
           "Parent:10": {
             "customizations:9": {}
-          },
-          "wizardryutils:summoneditemdata:10": {}
+          }
         },
         "id:8": "icbmclassic:explosives"
       },
@@ -30,8 +29,7 @@
           "ForgeCaps:10": {
             "Parent:10": {
               "customizations:9": {}
-            },
-            "wizardryutils:summoneditemdata:10": {}
+            }
           },
           "id:8": "icbmclassic:explosives"
         }

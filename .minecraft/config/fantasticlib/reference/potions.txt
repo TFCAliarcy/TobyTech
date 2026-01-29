@@ -41,6 +41,7 @@ geneticsreborn:viral
 geneticsreborn:bleed
 geneticsreborn:cure
 srpextra:stung
+srpextra:confused
 ebwizardry:frost
 ebwizardry:transience
 ebwizardry:fireskin
@@ -68,7 +69,6 @@ ebwizardry:mirage
 ebwizardry:oakflesh
 ebwizardry:ironflesh
 ebwizardry:diamondflesh
-quark:resilience
 quark:curse
 quark:danger_sight
 thaumcraft:fluxtaint
@@ -195,6 +195,13 @@ techguns:radresistance
 techguns:radregeneration
 tfspellpack:mist_cloak
 tfspellpack:ironwood_heart
+morphspellpack:shape_lock
+morphspellpack:curse_of_transformation
+morphspellpack:curse_of_lycanthropy
+morphspellpack:conjured_soul
+morphspellpack:fleshcloak
+morphspellpack:phylacterys_grasp
+morphspellpack:umbral_veil
 spellbundle:curse_of_haunting
 necromancersdelight:locusts
 necromancersdelight:poisonous_spore

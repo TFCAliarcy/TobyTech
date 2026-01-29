@@ -4,9 +4,6 @@
       "desc:8": "Putting rats in a cage decorated with a Rat Breeding Lantern will breed them. Cages are also multiblock structures that can eb linked to each other with Rat Tubes.",
       "icon:10": {
         "Count:3": 1,
-        "ForgeCaps:10": {
-          "wizardryutils:summoneditemdata:10": {}
-        },
         "id:8": "rats:rat_cage"
       },
       "name:8": "Breeding"
@@ -18,16 +15,10 @@
       "choices:9": {
         "0:10": {
           "Count:3": 1,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "rats:rat_water_bottle"
         },
         "1:10": {
           "Count:3": 2,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "rats:rat_tube_orange"
         }
       },
@@ -41,9 +32,6 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "rats:rat_cage"
         }
       },

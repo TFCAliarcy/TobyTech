@@ -7,9 +7,6 @@
       "desc:8": "Hey look you can have your turrets shoot actual bullets instead of random items and potatoes.\n\nThe incendiary turret shoots flaming bullets which is good against mobs vulnerable to them but does not shoot actual flames.",
       "icon:10": {
         "Count:3": 1,
-        "ForgeCaps:10": {
-          "wizardryutils:summoneditemdata:10": {}
-        },
         "id:8": "openmodularturrets:machine_gun_turret"
       },
       "name:8": "Better Turrets"
@@ -22,16 +19,10 @@
         "0:10": {
           "Count:3": 32,
           "Damage:2": 1,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "openmodularturrets:ammo_meta"
         },
         "1:10": {
           "Count:3": 16,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "openmodularturrets:ammo_meta"
         }
       },
@@ -46,9 +37,6 @@
         "0:10": {
           "Count:3": 1,
           "Damage:2": 1,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "openmodularturrets:turret_base"
         }
       },
@@ -59,16 +47,10 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "openmodularturrets:machine_gun_turret"
         },
         "1:10": {
           "Count:3": 1,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "openmodularturrets:incendiary_turret"
         }
       },

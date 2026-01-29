@@ -4,9 +4,6 @@
       "desc:8": "Make your first Block of Cheese by filling a cauldron with a bucket of milk.\n\nTame a Rat by dropping Cheese made from a Block of Cheese near them. 10 Cheese is needed for the rat to no longer fear you and up to another 5 Cheese is needed to tame them.\n\nRats can be found in the dark and from Garbage.\n\nOnce tamed you can right click them to open their GUI.",
       "icon:10": {
         "Count:3": 1,
-        "ForgeCaps:10": {
-          "wizardryutils:summoneditemdata:10": {}
-        },
         "id:8": "rats:cauldron_cheese"
       },
       "name:8": "Cheese and Taming"
@@ -20,9 +17,6 @@
       "rewards:9": {
         "0:10": {
           "Count:3": 2,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "rats:cheese"
         }
       }
@@ -34,9 +28,6 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "rats:block_of_cheese"
         }
       },

@@ -13,9 +13,6 @@
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 2,
-        "ForgeCaps:10": {
-          "wizardryutils:summoneditemdata:10": {}
-        },
         "id:8": "thermaldynamics:duct_16"
       },
       "name:8": "Fluid Transport"
@@ -29,9 +26,6 @@
         "0:10": {
           "Count:3": 1,
           "Damage:2": 2,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "thermaldynamics:duct_16"
         }
       },

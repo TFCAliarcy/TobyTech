@@ -1,0 +1,70 @@
+{
+  "preRequisites:11": [
+    1471133474
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Here\u0027s some additonal pipes, thankfully they have what they do say in their tooltip.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "additionalpipes:pipe_items_teleport"
+      },
+      "name:8": "Additional Pipes"
+    }
+  },
+  "questID:3": 288806086,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "additionalpipes:pipe_items_gravity_feed"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "additionalpipes:pipe_fluids_water_pump"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "additionalpipes:pipe_items_switch"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "additionalpipes:pipe_items_priority"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "additionalpipes:pipe_items_teleport"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "additionalpipes:pipe_items_jeweled"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "id:8": "additionalpipes:pipe_items_distribution"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "id:8": "additionalpipes:pipe_items_adv_wood"
+        },
+        "6:10": {
+          "Count:3": 1,
+          "id:8": "additionalpipes:pipe_items_addition"
+        },
+        "7:10": {
+          "Count:3": 1,
+          "id:8": "additionalpipes:pipe_items_closed"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

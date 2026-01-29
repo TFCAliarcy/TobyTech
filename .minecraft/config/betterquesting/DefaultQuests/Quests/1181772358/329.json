@@ -7,9 +7,6 @@
       "desc:8": "Seed oil is necesarry for making a lot of different things in forestry and in large quantities so I recommend automating it. The easiest way to get it is from seeds but they give you a miniscule amount so I recomend farming peanuts as they\u0027re the best source until you can automate nuts from trees. At that point coconut is the best.",
       "icon:10": {
         "Count:3": 1,
-        "ForgeCaps:10": {
-          "wizardryutils:summoneditemdata:10": {}
-        },
         "id:8": "harvestcraft:peanutitem"
       },
       "name:8": "Sourcing Seed Oil"
@@ -22,9 +19,6 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 10,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "OreDict:8": "seed",
           "id:8": "minecraft:wheat_seeds"
         }
@@ -36,9 +30,6 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "harvestcraft:peanutitem"
         }
       },

@@ -7,9 +7,6 @@
       "desc:8": "The Habitat former lets you change the climate for apiaries/alvearies, you give them power for temperature as well as water to humidify and lava to dehumidify. This is meant to allow you to meet the climatory needs of your bees without having to have a setup in each area.\n\nThey overall don\u0027t take up much power, a single stirling engine is enough to power a few though they are very slow when you have them covering even a medium area so keep that in mind. \n\nNote that the range listed in its UI is radius, meaning that many blocks in each direction.\n\nIt can also take crushed ice in place of water but I don\u0027t know if it is better than water, I would think so though.",
       "icon:10": {
         "Count:3": 1,
-        "ForgeCaps:10": {
-          "wizardryutils:summoneditemdata:10": {}
-        },
         "id:8": "forestry:habitat_former"
       },
       "name:8": "Habitat Terraformer"
@@ -22,9 +19,6 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "forestry:habitat_former"
         }
       },

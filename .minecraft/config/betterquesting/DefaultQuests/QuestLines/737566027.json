@@ -6,9 +6,6 @@
       "desc:8": "No Description",
       "icon:10": {
         "Count:3": 1,
-        "ForgeCaps:10": {
-          "wizardryutils:summoneditemdata:10": {}
-        },
         "id:8": "rats:chunky_cheese_token"
       },
       "name:8": "We\u0027re the Rats"

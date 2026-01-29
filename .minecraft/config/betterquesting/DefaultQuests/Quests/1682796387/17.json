@@ -4,12 +4,9 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "No Description",
+      "desc:8": "Gotta kill yourself some magma cubes to make some blast furnaces. Basalt Deltas are a good source of them, or you can make them with blaze powder and slimeballs if that\u0027s easier for you.",
       "icon:10": {
         "Count:3": 1,
-        "ForgeCaps:10": {
-          "wizardryutils:summoneditemdata:10": {}
-        },
         "id:8": "minecraft:magma_cream"
       },
       "name:8": "Fire that Spills and Sticks"
@@ -22,9 +19,6 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 9,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "minecraft:magma_cream"
         }
       },

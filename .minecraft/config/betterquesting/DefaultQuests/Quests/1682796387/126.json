@@ -5,12 +5,9 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "No Description",
+      "desc:8": "Using your rolling machine and creosote you can make rails more efficiently than in vanilla, more than doubly so!\n\nYou\u0027ll also need these for making various other rails such as elevator rails or advanced rails like high speed or electric.",
       "icon:10": {
         "Count:3": 1,
-        "ForgeCaps:10": {
-          "wizardryutils:summoneditemdata:10": {}
-        },
         "id:8": "minecraft:golden_rail"
       },
       "name:8": "More Efficient Tracks"
@@ -23,20 +20,25 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "railcraft:rail"
         },
         "1:10": {
           "Count:3": 1,
-          "ForgeCaps:10": {
-            "wizardryutils:summoneditemdata:10": {}
-          },
           "id:8": "railcraft:tie"
         }
       },
       "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "railcraft:rail"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
     }
   }
 }

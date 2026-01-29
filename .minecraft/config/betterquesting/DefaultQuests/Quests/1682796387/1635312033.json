@@ -1,0 +1,70 @@
+{
+  "preRequisites:11": [
+    1471133474
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Those basic pipes not enough for you? Here\u0027s some more! Do note that most of these come in fluid variants.\n\nStone pipes act like cobblestone pipes but don\u0027t connect to cobblestone pipes, think oil and water, they don\u0027t mix. They can mix to other kinds of pipes though like iron or gold. Useful if you need parallel lines of pipes. \n\nVoid pipes delete anything that go into them, good for getting rid of excess or unwanted items.\n\nQuartz pipes act like stone in that they don\u0027t connect with cobblestone or stone pipes but they do have the niche use in that items sped up by gold pipes maintain speed longer in quartz pipes than stone or cobblestone.\n\nClay pipes will insert into any connected inventory before moving on unlike cobblestone pipes which will split.\n\nSandstone pipes connect only to pipes.\n\nObsidian pipes suck up items that hit them like hoppers but imediate, they can have their range increased by using engines/dynamos on them.\n\nWooden Diamond pipes are an upgrade to wooden pipes by allowing filtering and some additonal options.\n\nApiarist pipes are used to filter based on different bee traits.\n\nLazuli and Dazuli pipes are used to paint items a color and only let through their color respectively. You set their color by right clicking on them with pipes. Don\u0027t worry about knowing how to use them as I\u0027ve never seen anyone use them ever.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "buildcrafttransport:pipe_obsidian_item"
+      },
+      "name:8": "More Pipes"
+    }
+  },
+  "questID:3": 1635312033,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "buildcrafttransport:pipe_stone_item"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "buildcrafttransport:pipe_void_item"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "buildcrafttransport:pipe_quartz_item"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "buildcrafttransport:pipe_clay_item"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "buildcrafttransport:pipe_sandstone_item"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "buildcrafttransport:pipe_obsidian_item"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "id:8": "buildcrafttransport:pipe_diamond_wood_item"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "id:8": "buildcraftcompat:pipe_item_propolis"
+        },
+        "6:10": {
+          "Count:3": 1,
+          "id:8": "buildcrafttransport:pipe_lapis_item"
+        },
+        "7:10": {
+          "Count:3": 1,
+          "id:8": "buildcrafttransport:pipe_daizuli_item"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

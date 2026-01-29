@@ -1,13 +1,170 @@
 [
-  {
-    "dimension": [-1014],
+    {
+    "dimension": 0,
+    "biome": "minecraft:beach",
     "mobs": [
+      {
+        "mob": "oe:crab",
+        "weight": 10,
+        "groupcountmin": 1,
+        "groupcountmax": 5
+      }
+    ],
+    "result":"allow"
+  },
+  {
+    "dimension": -1014,
+    "mobs":
+    [
       {
         "mob": "magma_monsters:magma_monster",
         "weight": 3,
         "groupcountmin": 1,
         "groupcountmax": 2
       }
-    ]
+    ],
+      "result":"allow"
+  },
+
+  {
+    "dimension": -1030,
+    "mobs":
+    [
+      {
+        "mob": "fossil:fossil.tyrannosaurus",
+        "weight": 3,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      },
+      {
+        "mob": "fossil:fossil.triceratops",
+        "weight": 3,
+        "groupcountmin": 2,
+        "groupcountmax": 6
+      },
+      {
+        "mob": "fossil:fossil.allosaurus",
+        "weight": 3,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      },
+      {
+        "mob": "fossil:fossil.stegosaurus",
+        "weight": 3,
+        "groupcountmin": 1,
+        "groupcountmax": 4
+      },
+      {
+        "mob": "fossil:fossil.ankylosaurus",
+        "weight": 3,
+        "groupcountmin": 1,
+        "groupcountmax": 4
+      },
+      {
+        "mob": "fossil:fossil.pachycephalosaurus",
+        "weight": 3,
+        "groupcountmin": 4,
+        "groupcountmax": 10
+      },
+      {
+        "mob": "fossil:fossil.pterosaur",
+        "weight": 3,
+        "groupcountmin": 1,
+        "groupcountmax": 5
+      },
+      {
+        "mob": "fossil:fossil.velociraptor",
+        "weight": 3,
+        "groupcountmin": 3,
+        "groupcountmax": 6
+      },
+      {
+        "mob": "fossil:fossil.diplodocus",
+        "weight": 3,
+        "groupcountmin": 2,
+        "groupcountmax": 4
+      },
+      {
+        "mob": "fossil:fossil.mosasaurus",
+        "weight": 3,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      },
+      {
+        "mob": "fossil:fossil.plesiosaur",
+        "weight": 3,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      },
+      {
+        "mob": "fossil:fossil.coelacanth",
+        "weight": 3,
+        "groupcountmin": 1,
+        "groupcountmax": 5
+      },
+      {
+        "mob": "fossil:fossil.brachiosaurus",
+        "weight": 3,
+        "groupcountmin": 2,
+        "groupcountmax": 4
+      },
+      {
+        "mob": "fossil:fossil.icthyosaurus",
+        "weight": 3,
+        "groupcountmin": 2,
+        "groupcountmax": 6
+      },
+      {
+        "mob": "fossil:fossil.megalodon",
+        "weight": 3,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      },
+      {
+        "mob": "fossil:fossil.parasaurolophus",
+        "weight": 3,
+        "groupcountmin": 2,
+        "groupcountmax": 6
+      },
+      {
+        "mob": "fossil:fossil.sturgeon",
+        "weight": 3,
+        "groupcountmin": 1,
+        "groupcountmax": 5
+      },
+      {
+        "mob": "fossil:fossil.nautilus",
+        "weight": 3,
+        "groupcountmin": 1,
+        "groupcountmax": 4
+      },
+      {
+        "mob": "fossil:fossil.spinosaurus",
+        "weight": 3,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      },
+      {
+        "mob": "fossil:fossil.dryosaurus",
+        "weight": 3,
+        "groupcountmin": 4,
+        "groupcountmax": 10
+      }
+    ],
+    
+      "result":"allow"
+  },
+ {
+    "dimension": -1015,
+    "mobs":
+    [
+      {
+        "mob": "minecraft:guardian",
+        "weight": 30,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      }
+    ],
+      "result":"allow"
   }
   ]

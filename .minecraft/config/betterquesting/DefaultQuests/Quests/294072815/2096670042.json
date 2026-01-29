@@ -1,0 +1,25 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Do the depths of caves seem unending? Find their end with the torch arrow!\n\nPerfect for placing torches where you can\u0027t reach and finding ceilings in caves!\n\nSimply shoot them from your bow!\n\nDo note that they don\u0027t place arrows down on the bottom of blocks, just the sides and tops so aim well.\n\nShould work with most bows (not crossbows though).",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "quark:arrow_torch"
+      },
+      "name:8": "Torch Arrows"
+    }
+  },
+  "questID:3": 2096670042,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "quark:arrow_torch"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

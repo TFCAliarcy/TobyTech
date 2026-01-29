@@ -1,0 +1,19 @@
+{
+    "puppet": {
+      "id": "fnafrebornmod:puppet",
+      "effects": [
+        {
+          "id": "minecraft:strength",
+          "amplifier": 5,
+          "duration": 600000,
+          "show_particles": false
+        },
+        {
+          "id": "minecraft:resistance",
+          "amplifier": 1,
+          "duration": 600000,
+          "show_particles": false
+        }
+      ]
+    }
+  }

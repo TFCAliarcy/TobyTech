@@ -1,0 +1,63 @@
+{
+  "preRequisites:11": [
+    14
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Now you\u0027ve got to the real purpose of the pack Clay Soldiers!\n\nDespite their name their job isn\u0027t to fight for you, it\u0027s to fight each other for your amusement. You can give them items to upgrade them like sticks to make them hit harder or leather to make them tankier, don\u0027t worry about losing said items though, they drop any items they equipped when they die.\n\nYou can also mount them on clay horses, pegasi, and turtles.\n\nIf they sound fun to you then go ahead and build yourself a pit for them to fight in, hayhaps even setup some redstone to automatically release them and some other cool stuff.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "claysoldiers:doll_soldier",
+        "tag:10": {
+          "dollSoldier:10": {
+            "team:8": "ca383b5d-ddaf-4523-9001-5a5685ef5fba"
+          }
+        }
+      },
+      "name:8": "Clay Soldiers"
+    }
+  },
+  "questID:3": 916199815,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 4,
+          "id:8": "minecraft:leather"
+        },
+        "1:10": {
+          "Count:3": 16,
+          "id:8": "claysoldiers:doll_soldier",
+          "tag:10": {
+            "dollSoldier:10": {
+              "team:8": "ca383b5d-ddaf-4523-9001-5a5685ef5fba"
+            }
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "claysoldiers:lexicon"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "claysoldiers:doll_soldier",
+          "tag:10": {
+            "dollSoldier:10": {
+              "team:8": "ca383b5d-ddaf-4523-9001-5a5685ef5fba"
+            }
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}
