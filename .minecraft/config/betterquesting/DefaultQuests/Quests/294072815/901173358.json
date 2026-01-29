@@ -1,0 +1,45 @@
+{
+  "preRequisites:11": [
+    10
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Do you want to follow modern minecraft design and place a palette of blocks randomly?\n\nThe Trowel lets you placing blocks from your inventory chosen from the slots filled with placable blocks. You can increase the chance of it placing a block by having more slots in your inventory taken up by that block.",
+      "icon:10": {
+        "Count:3": 1,
+        "ForgeCaps:10": {
+          "astralsorcery:cap_item_amulet_holder:10": {
+            "AS_Amulet_HolderLeast:4": -7856832193709446652,
+            "AS_Amulet_HolderMost:4": 5100163605150778045
+          }
+        },
+        "id:8": "quark:trowel",
+        "tag:10": {
+          "last_stack:10": {
+            "Count:3": 1,
+            "Damage:2": 2,
+            "id:8": "minecraft:dirt"
+          },
+          "placing_seed:4": 4152650890530247911
+        }
+      },
+      "name:8": "Placing Random Blocks"
+    }
+  },
+  "questID:3": 901173358,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "astralsorcery:cap_item_amulet_holder:10": {}
+          },
+          "id:8": "quark:trowel"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

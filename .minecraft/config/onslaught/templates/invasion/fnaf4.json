@@ -1,0 +1,813 @@
+{
+    "fnaf4": {
+      "name": "FNAF4",
+      "selector": {
+        "dimension": {
+          "type": "include",
+          "dimensions": [
+          ]
+        },
+        "gamestages": {
+                "not": "1"},
+                "weight": 0
+          },
+      "earlyEnd": {
+           "maxInvasionDuration": 600,
+            "message": "6AM Ding Dong Ding Dong"
+      },
+      "messages": {
+        "start": "Har Har Har Har Har Har Har Har Har",
+        "end": "6AM Ding Dong Ding Dong",
+        "warn": {
+          "message": "Hello? Hello, hello? Uh, I wanted to record a message for you to help you get settled in on your first night.",
+          "ticks": 2400
+        }
+      },
+      "waves": [
+        {
+            "delayTicks": [
+              6000
+            ],
+            "groups": [
+                {
+                    "weight": 99,
+                    "forceSpawn": false,
+                    "mobs": [
+                        {
+                            "id": "fnaf4night1bonnie",
+                            "count": [
+                              1
+                            ],
+                            "spawn": {
+                                "type": "ground",
+                                "light": [
+                                  0,
+                                  15
+                                ],
+                                "rangeXZ": [
+                                  4,
+                                  8
+                                ],
+                                "rangeY": 16,
+                                "stepRadius": 4,
+                                "sampleDistance": 2
+                            }
+                          },
+                          {
+                            "id": "fnaf4night1chica",
+                            "count": [
+                              1
+                            ],
+                            "spawn": {
+                                "type": "ground",
+                                "light": [
+                                  0,
+                                  15
+                                ],
+                                "rangeXZ": [
+                                  4,
+                                  8
+                                ],
+                                "rangeY": 16,
+                                "stepRadius": 4,
+                                "sampleDistance": 2
+                            }
+                          },
+                          {
+                            "id": "fnaf4night1freddy",
+                            "count": [
+                              1
+                            ],
+                            "spawn": {
+                                "type": "ground",
+                                "light": [
+                                  0,
+                                  15
+                                ],
+                                "rangeXZ": [
+                                  4,
+                                  8
+                                ],
+                                "rangeY": 16,
+                                "stepRadius": 4,
+                                "sampleDistance": 2
+                            }
+                          }
+                    ]
+                  }
+            ]
+          },
+          {
+            "delayTicks": [
+              6000
+            ],
+            "groups": [
+                {
+                    "weight": 99,
+                    "forceSpawn": false,
+                    "mobs": [
+                        {
+                            "id": "fnaf4night2bonnie",
+                            "count": [
+                              1
+                            ],
+                            "spawn": {
+                                "type": "ground",
+                                "light": [
+                                  0,
+                                  15
+                                ],
+                                "rangeXZ": [
+                                  4,
+                                  8
+                                ],
+                                "rangeY": 16,
+                                "stepRadius": 4,
+                                "sampleDistance": 2
+                            }
+                          },
+                          {
+                            "id": "fnaf4night2chica",
+                            "count": [
+                              1
+                            ],
+                            "spawn": {
+                                "type": "ground",
+                                "light": [
+                                  0,
+                                  15
+                                ],
+                                "rangeXZ": [
+                                  4,
+                                  8
+                                ],
+                                "rangeY": 16,
+                                "stepRadius": 4,
+                                "sampleDistance": 2
+                            }
+                          },
+                          {
+                            "id": "fnaf4night2foxy",
+                            "count": [
+                              1
+                            ],
+                            "spawn": {
+                                "type": "ground",
+                                "light": [
+                                  0,
+                                  15
+                                ],
+                                "rangeXZ": [
+                                  4,
+                                  8
+                                ],
+                                "rangeY": 16,
+                                "stepRadius": 4,
+                                "sampleDistance": 2
+                            }
+                          },
+                          {
+                            "id": "fnaf4night2freddy",
+                            "count": [
+                              1
+                            ],
+                            "spawn": {
+                                "type": "ground",
+                                "light": [
+                                  0,
+                                  15
+                                ],
+                                "rangeXZ": [
+                                  4,
+                                  8
+                                ],
+                                "rangeY": 16,
+                                "stepRadius": 4,
+                                "sampleDistance": 2
+                            }
+                          }
+                    ]
+                  }
+            ]
+          },
+          {
+            "delayTicks": [
+              6000
+            ],
+            "groups": [
+                {
+                    "weight": 99,
+                    "forceSpawn": false,
+                    "mobs": [
+                        {
+                            "id": "fnaf4night3bonnie",
+                            "count": [
+                              1
+                            ],
+                            "spawn": {
+                                "type": "ground",
+                                "light": [
+                                  0,
+                                  15
+                                ],
+                                "rangeXZ": [
+                                  4,
+                                  8
+                                ],
+                                "rangeY": 16,
+                                "stepRadius": 4,
+                                "sampleDistance": 2
+                            }
+                          },
+                          {
+                            "id": "fnaf4night3freddy",
+                            "count": [
+                              1
+                            ],
+                            "spawn": {
+                                "type": "ground",
+                                "light": [
+                                  0,
+                                  15
+                                ],
+                                "rangeXZ": [
+                                  4,
+                                  8
+                                ],
+                                "rangeY": 16,
+                                "stepRadius": 4,
+                                "sampleDistance": 2
+                            }
+                          },
+                          {
+                            "id": "fnaf4night3chica",
+                            "count": [
+                              1
+                            ],
+                            "spawn": {
+                                "type": "ground",
+                                "light": [
+                                  0,
+                                  15
+                                ],
+                                "rangeXZ": [
+                                  4,
+                                  8
+                                ],
+                                "rangeY": 16,
+                                "stepRadius": 4,
+                                "sampleDistance": 2
+                            }
+                          },
+                          {
+                            "id": "fnaf4night3foxy",
+                            "count": [
+                              1
+                            ],
+                            "spawn": {
+                                "type": "ground",
+                                "light": [
+                                  0,
+                                  15
+                                ],
+                                "rangeXZ": [
+                                  4,
+                                  8
+                                ],
+                                "rangeY": 16,
+                                "stepRadius": 4,
+                                "sampleDistance": 2
+                            }
+                          }
+                    ]
+                  }
+            ]
+          },
+          {
+            "delayTicks": [
+              6000
+            ],
+            "groups": [
+                {
+                    "weight": 99,
+                    "forceSpawn": false,
+                    "mobs": [
+                        {
+                            "id": "fnaf4night4bonnie",
+                            "count": [
+                              1
+                            ],
+                            "spawn": {
+                                "type": "ground",
+                                "light": [
+                                  0,
+                                  15
+                                ],
+                                "rangeXZ": [
+                                  4,
+                                  8
+                                ],
+                                "rangeY": 16,
+                                "stepRadius": 4,
+                                "sampleDistance": 2
+                            }
+                          },
+                          {
+                            "id": "fnaf4night4chica",
+                            "count": [
+                              1
+                            ],
+                            "spawn": {
+                                "type": "ground",
+                                "light": [
+                                  0,
+                                  15
+                                ],
+                                "rangeXZ": [
+                                  4,
+                                  8
+                                ],
+                                "rangeY": 16,
+                                "stepRadius": 4,
+                                "sampleDistance": 2
+                            }
+                          },
+                          {
+                            "id": "fnaf4night4foxy",
+                            "count": [
+                              1
+                            ],
+                            "spawn": {
+                                "type": "ground",
+                                "light": [
+                                  0,
+                                  15
+                                ],
+                                "rangeXZ": [
+                                  4,
+                                  8
+                                ],
+                                "rangeY": 16,
+                                "stepRadius": 4,
+                                "sampleDistance": 2
+                            }
+                          },
+                          {
+                            "id": "fnaf4night4freddy",
+                            "count": [
+                              1
+                            ],
+                            "spawn": {
+                                "type": "ground",
+                                "light": [
+                                  0,
+                                  15
+                                ],
+                                "rangeXZ": [
+                                  4,
+                                  8
+                                ],
+                                "rangeY": 16,
+                                "stepRadius": 4,
+                                "sampleDistance": 2
+                            }
+                          }
+                    ]
+                  }
+            ]
+          },
+          {
+            "delayTicks": [
+              6000
+            ],
+            "groups": [
+                {
+                    "weight": 99,
+                    "forceSpawn": false,
+                    "mobs": [
+                        {
+                            "id": "fnaf4night5bonnie",
+                            "count": [
+                              1
+                            ],
+                            "spawn": {
+                                "type": "ground",
+                                "light": [
+                                  0,
+                                  15
+                                ],
+                                "rangeXZ": [
+                                  4,
+                                  8
+                                ],
+                                "rangeY": 16,
+                                "stepRadius": 4,
+                                "sampleDistance": 2
+                            }
+                          },
+                          {
+                            "id": "nightmarepuppet",
+                            "count": [
+                              1
+                            ],
+                            "spawn": {
+                                "type": "ground",
+                                "light": [
+                                  0,
+                                  15
+                                ],
+                                "rangeXZ": [
+                                  4,
+                                  8
+                                ],
+                                "rangeY": 16,
+                                "stepRadius": 4,
+                                "sampleDistance": 2
+                            }
+                          },
+                          {
+                            "id": "fnaf4night5chica",
+                            "count": [
+                              1
+                            ],
+                            "spawn": {
+                                "type": "ground",
+                                "light": [
+                                  0,
+                                  15
+                                ],
+                                "rangeXZ": [
+                                  4,
+                                  8
+                                ],
+                                "rangeY": 16,
+                                "stepRadius": 4,
+                                "sampleDistance": 2
+                            }
+                          },
+                          {
+                            "id": "fnaf4night5foxy",
+                            "count": [
+                              1
+                            ],
+                            "spawn": {
+                                "type": "ground",
+                                "light": [
+                                  0,
+                                  15
+                                ],
+                                "rangeXZ": [
+                                  4,
+                                  8
+                                ],
+                                "rangeY": 16,
+                                "stepRadius": 4,
+                                "sampleDistance": 2
+                            }
+                          }
+                    ]
+                  }
+            ]
+          },
+          {
+            "delayTicks": [
+              6000
+            ],
+            "groups": [
+                {
+                    "weight": 99,
+                    "forceSpawn": false,
+                    "mobs": [
+                        {
+                            "id": "fnaf4night6bonnie",
+                            "count": [
+                              1
+                            ],
+                            "spawn": {
+                                "type": "ground",
+                                "light": [
+                                  0,
+                                  15
+                                ],
+                                "rangeXZ": [
+                                  4,
+                                  8
+                                ],
+                                "rangeY": 16,
+                                "stepRadius": 4,
+                                "sampleDistance": 2
+                            }
+                          },
+                          {
+                            "id": "fnaf4night6nightmare",
+                            "count": [
+                              1
+                            ],
+                            "spawn": {
+                                "type": "ground",
+                                "light": [
+                                  0,
+                                  15
+                                ],
+                                "rangeXZ": [
+                                  4,
+                                  8
+                                ],
+                                "rangeY": 16,
+                                "stepRadius": 4,
+                                "sampleDistance": 2
+                            }
+                          },
+                          {
+                            "id": "fnaf4night6nightmarefredbear",
+                            "count": [
+                              1
+                            ],
+                            "spawn": {
+                                "type": "ground",
+                                "light": [
+                                  0,
+                                  15
+                                ],
+                                "rangeXZ": [
+                                  4,
+                                  8
+                                ],
+                                "rangeY": 16,
+                                "stepRadius": 4,
+                                "sampleDistance": 2
+                            }
+                          },
+                          {
+                            "id": "fnaf4night6chica",
+                            "count": [
+                              1
+                            ],
+                            "spawn": {
+                                "type": "ground",
+                                "light": [
+                                  0,
+                                  15
+                                ],
+                                "rangeXZ": [
+                                  4,
+                                  8
+                                ],
+                                "rangeY": 16,
+                                "stepRadius": 4,
+                                "sampleDistance": 2
+                            }
+                          },
+                          {
+                            "id": "fnaf4night6foxy",
+                            "count": [
+                              1
+                            ],
+                            "spawn": {
+                                "type": "ground",
+                                "light": [
+                                  0,
+                                  15
+                                ],
+                                "rangeXZ": [
+                                  4,
+                                  8
+                                ],
+                                "rangeY": 16,
+                                "stepRadius": 4,
+                                "sampleDistance": 2
+                            }
+                          }
+                    ]
+                  }
+            ]
+          },
+          {
+            "delayTicks": [
+              6000
+            ],
+            "groups": [
+                {
+                    "weight": 99,
+                    "forceSpawn": false,
+                    "mobs": [
+                        {
+                            "id": "fnaf4night7bonnie",
+                            "count": [
+                              1
+                            ],
+                            "spawn": {
+                                "type": "ground",
+                                "light": [
+                                  0,
+                                  15
+                                ],
+                                "rangeXZ": [
+                                  4,
+                                  8
+                                ],
+                                "rangeY": 16,
+                                "stepRadius": 4,
+                                "sampleDistance": 2
+                            }
+                          },
+                          {
+                            "id": "fnaf4night7nightmare",
+                            "count": [
+                              1
+                            ],
+                            "spawn": {
+                                "type": "ground",
+                                "light": [
+                                  0,
+                                  15
+                                ],
+                                "rangeXZ": [
+                                  4,
+                                  8
+                                ],
+                                "rangeY": 16,
+                                "stepRadius": 4,
+                                "sampleDistance": 2
+                            }
+                          },
+                          {
+                            "id": "fnaf4night7nightmarefredbear",
+                            "count": [
+                              1
+                            ],
+                            "spawn": {
+                                "type": "ground",
+                                "light": [
+                                  0,
+                                  15
+                                ],
+                                "rangeXZ": [
+                                  4,
+                                  8
+                                ],
+                                "rangeY": 16,
+                                "stepRadius": 4,
+                                "sampleDistance": 2
+                            }
+                          },
+                          {
+                            "id": "fnaf4night7chica",
+                            "count": [
+                              1
+                            ],
+                            "spawn": {
+                                "type": "ground",
+                                "light": [
+                                  0,
+                                  15
+                                ],
+                                "rangeXZ": [
+                                  4,
+                                  8
+                                ],
+                                "rangeY": 16,
+                                "stepRadius": 4,
+                                "sampleDistance": 2
+                            }
+                          },
+                          {
+                            "id": "fnaf4night7foxy",
+                            "count": [
+                              1
+                            ],
+                            "spawn": {
+                                "type": "ground",
+                                "light": [
+                                  0,
+                                  15
+                                ],
+                                "rangeXZ": [
+                                  4,
+                                  8
+                                ],
+                                "rangeY": 16,
+                                "stepRadius": 4,
+                                "sampleDistance": 2
+                            }
+                          }
+                    ]
+                  }
+            ]
+          },
+          {
+            "delayTicks": [
+              6000
+            ],
+            "groups": [
+                {
+                    "weight": 99,
+                    "forceSpawn": false,
+                    "mobs": [
+                        {
+                            "id": "fnaf4night8bonnie",
+                            "count": [
+                              1
+                            ],
+                            "spawn": {
+                                "type": "ground",
+                                "light": [
+                                  0,
+                                  15
+                                ],
+                                "rangeXZ": [
+                                  4,
+                                  8
+                                ],
+                                "rangeY": 16,
+                                "stepRadius": 4,
+                                "sampleDistance": 2
+                            }
+                          },
+                          {
+                            "id": "fnaf4night8nightmare",
+                            "count": [
+                              1
+                            ],
+                            "spawn": {
+                                "type": "ground",
+                                "light": [
+                                  0,
+                                  15
+                                ],
+                                "rangeXZ": [
+                                  4,
+                                  8
+                                ],
+                                "rangeY": 16,
+                                "stepRadius": 4,
+                                "sampleDistance": 2
+                            }
+                          },
+                          {
+                            "id": "fnaf4night8nightmarefredbear",
+                            "count": [
+                              1
+                            ],
+                            "spawn": {
+                                "type": "ground",
+                                "light": [
+                                  0,
+                                  15
+                                ],
+                                "rangeXZ": [
+                                  4,
+                                  8
+                                ],
+                                "rangeY": 16,
+                                "stepRadius": 4,
+                                "sampleDistance": 2
+                            }
+                          },
+                          {
+                            "id": "fnaf4night8chica",
+                            "count": [
+                              1
+                            ],
+                            "spawn": {
+                                "type": "ground",
+                                "light": [
+                                  0,
+                                  15
+                                ],
+                                "rangeXZ": [
+                                  4,
+                                  8
+                                ],
+                                "rangeY": 16,
+                                "stepRadius": 4,
+                                "sampleDistance": 2
+                            }
+                          },
+                          {
+                            "id": "fnaf4night8foxy",
+                            "count": [
+                              1
+                            ],
+                            "spawn": {
+                                "type": "ground",
+                                "light": [
+                                  0,
+                                  15
+                                ],
+                                "rangeXZ": [
+                                  4,
+                                  8
+                                ],
+                                "rangeY": 16,
+                                "stepRadius": 4,
+                                "sampleDistance": 2
+                            }
+                          }
+                    ]
+                  }
+            ]
+          }
+      ]
+    }
+  }

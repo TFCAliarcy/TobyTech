@@ -1011,96 +1011,8 @@ forestry:resource_storage:2, Block of Tin
 forestry:resource_storage:3, Block of Bronze
 forestry:ash_brick:0, Ash Bricks
 forestry:ash_stairs:0, Ash Brick Stairs
-forestry:greenhouse:0, Greenhouse Block
-forestry:greenhouse:3, Greenhouse Energy Distributor
-forestry:greenhouse:4, Greenhouse Control
-forestry:greenhouse:5, Greenhouse Screen
-forestry:climatiser:0, Greenhouse Hygroregulator
-forestry:climatiser:1, Greenhouse Heater
-forestry:climatiser:2, Greenhouse Fan
-forestry:climatiser:3, Greenhouse Humidifier
-forestry:climatiser:4, Greenhouse Dehumidifier
-forestry:greenhouse.window:0, Greenhouse Window
-forestry:greenhouse.window_up:0, Greenhouse Roof Window
-forestry:book_forester, Forester's Manual
-forestry:genetic_filter:0, Genetic Filter
-forestry:engine_peat:0, Peat-fired Engine
-forestry:engine_biogas:0, Biogas Engine
-forestry:engine_clockwork:0, Clockwork Engine
 forestry:habitat_former:0, Habitat Former
 forestry:habitat_screen, Habitat Screen
-forestry:database:0, Database
-forestry:habitat_locator, Habitat Locator
-forestry:imprinter, Imprinter
-forestry:cart.beehouse:0, Minecart with Bee House
-forestry:cart.beehouse:1, Minecart with Apiary
-forestry:frame_untreated, Untreated Frame
-forestry:frame_impregnated, Impregnated Frame
-forestry:frame_proven, Proven Frame
-forestry:honey_drop:0, Honey Drop
-forestry:pollen:0, Pollen Cluster
-forestry:pollen:1, Crystalline Pollen Cluster
-forestry:propolis:0, Propolis
-forestry:propolis:1, Sticky Propolis
-forestry:propolis:3, Silky Propolis
-forestry:honeydew, Honeydew
-forestry:royal_jelly, Royal Jelly
-forestry:wax_cast, Wax Cast
-forestry:bee_combs:0, Honey Comb
-forestry:bee_combs:2, Simmering Comb
-forestry:bee_combs:3, Stringy Comb
-forestry:bee_combs:4, Frozen Comb
-forestry:bee_combs:5, Dripping Comb
-forestry:bee_combs:6, Silky Comb
-forestry:bee_combs:7, Parched Comb
-forestry:bee_combs:15, Mossy Comb
-forestry:bee_combs:16, Mellow Comb
-forestry:apiarist_helmet, Apiarist's Hat
-forestry:apiarist_chest, Apiarist's Shirt
-forestry:apiarist_legs, Apiarist's Pants
-forestry:apiarist_boots, Apiarist's Shoes
-forestry:scoop, Scoop
-forestry:smoker, Bee Smoker
-forestry:apiary:0, Apiary
-forestry:bee_house:0, Bee House
-forestry:bee_chest:0, Apiarist's Chest
-forestry:beehives:0, Forest Hive
-forestry:beehives:1, Meadows Hive
-forestry:beehives:2, Modest Hive
-forestry:beehives:3, Tropical Hive
-forestry:beehives:4, Ender Hive
-forestry:beehives:5, Wintry Hive
-forestry:beehives:6, Marshy Hive
-forestry:candle:0, Unlit Candle
-forestry:stump:0, Candle Stump
-forestry:bee_combs_0:0, Honey Comb Block
-forestry:bee_combs_0:2, Simmering Comb Block
-forestry:bee_combs_0:3, Stringy Comb Block
-forestry:bee_combs_0:4, Frozen Comb Block
-forestry:bee_combs_0:5, Dripping Comb Block
-forestry:bee_combs_0:6, Silky Comb Block
-forestry:bee_combs_0:7, Parched Comb Block
-forestry:bee_combs_0:15, Mossy Comb Block
-forestry:bee_combs_1:0, Mellow Comb Block
-forestry:alveary.plain:0, Alveary
-forestry:alveary.swarmer:0, Alveary Swarmer
-forestry:alveary.fan:0, Alveary Fan
-forestry:alveary.heater:0, Alveary Heater
-forestry:alveary.hygro:0, Alveary Hygroregulator
-forestry:alveary.stabiliser:0, Alveary Stabiliser
-forestry:alveary.sieve:0, Alveary Sieve
-forestry:stamps:0, Stamp (1n)
-forestry:stamps:1, Stamp (2n)
-forestry:stamps:2, Stamp (5n)
-forestry:stamps:3, Stamp (10n)
-forestry:stamps:4, Stamp (20n)
-forestry:stamps:5, Stamp (50n)
-forestry:stamps:6, Stamp (100n)
-forestry:letters, Letter
-forestry:catalogue, Catalogue
-forestry:mailbox:0, Mailbox
-forestry:trade_station:0, Trade Station
-forestry:stamp_collector:0, Stamp Collector
 forestry:apiarist_bag, Apiarist's Backpack
 forestry:lepidopterist_bag, Lepidopterist's Backpack
 forestry:miner_bag, Mining Backpack
@@ -1115,25 +1027,6 @@ forestry:adventurer_bag, Adventuring Backpack
 forestry:adventurer_bag_t2, Woven Adventuring Backpack
 forestry:builder_bag, Building Backpack
 forestry:builder_bag_t2, Woven Building Backpack
-forestry:bottler:0, Bottler
-forestry:carpenter:0, Carpenter
-forestry:centrifuge:0, Centrifuge
-forestry:fermenter:0, Fermenter
-forestry:moistener:0, Moistener
-forestry:squeezer:0, Squeezer
-forestry:still:0, Still
-forestry:rainmaker:0, Rainmaker
-forestry:fabricator:0, Thermionic Fabricator
-forestry:raintank:0, Rain Tank
-forestry:crate, Crate
-forestry:charcoal:0, Block of Charcoal
-forestry:wood_pile:0, Wood Pile
-forestry:wood_pile_decorative:0, Decorative Wood Pile
-forestry:ash_block_0:0, Ash Block
-forestry:ash_block_1:0, Ash Block
-forestry:ash_block_2:0, Ash Block
-forestry:ash_block_3:0, Ash Block
-forestry:loam:0, Loam
 forestry:fluid.bio.ethanol, Ethanol
 forestry:fluid.biomass, Biomass
 forestry:fluid.glass, Liquid Glass
@@ -1146,10 +1039,114 @@ forestry:fluid.short.mead, Short Mead
 forestry:can, item.for.can.name
 forestry:capsule, item.for.capsule.name
 forestry:refractory, item.for.refractory.name
+forestry:bottler:0, Bottler
+forestry:carpenter:0, Carpenter
+forestry:centrifuge:0, Centrifuge
+forestry:fermenter:0, Fermenter
+forestry:moistener:0, Moistener
+forestry:squeezer:0, Squeezer
+forestry:still:0, Still
+forestry:rainmaker:0, Rainmaker
+forestry:fabricator:0, Thermionic Fabricator
+forestry:raintank:0, Rain Tank
+forestry:crate, Crate
+forestry:database:0, Database
 forestry:honeyed_slice, Honeyed Slice
 forestry:ambrosia, Ambrosia
 forestry:honey_pot, Honey Pot
 forestry:worktable:0, Worktable
+forestry:mushroom:0, tile.for.mushroom.name
+forestry:mushroom:1, tile.for.mushroom.name
+forestry:ffarm:0, Farm Block
+forestry:ffarm:0, Farm Block
+forestry:ffarm:0, Farm Block
+forestry:ffarm:0, Farm Block
+forestry:ffarm:0, Farm Block
+forestry:ffarm:0, Farm Block
+forestry:ffarm:0, Farm Block
+forestry:ffarm:0, Farm Block
+forestry:ffarm:0, Farm Block
+forestry:ffarm:0, Farm Block
+forestry:ffarm:0, Farm Block
+forestry:ffarm:2, Farm Gearbox
+forestry:ffarm:2, Farm Gearbox
+forestry:ffarm:2, Farm Gearbox
+forestry:ffarm:2, Farm Gearbox
+forestry:ffarm:2, Farm Gearbox
+forestry:ffarm:2, Farm Gearbox
+forestry:ffarm:2, Farm Gearbox
+forestry:ffarm:2, Farm Gearbox
+forestry:ffarm:2, Farm Gearbox
+forestry:ffarm:2, Farm Gearbox
+forestry:ffarm:2, Farm Gearbox
+forestry:ffarm:3, Farm Hatch
+forestry:ffarm:3, Farm Hatch
+forestry:ffarm:3, Farm Hatch
+forestry:ffarm:3, Farm Hatch
+forestry:ffarm:3, Farm Hatch
+forestry:ffarm:3, Farm Hatch
+forestry:ffarm:3, Farm Hatch
+forestry:ffarm:3, Farm Hatch
+forestry:ffarm:3, Farm Hatch
+forestry:ffarm:3, Farm Hatch
+forestry:ffarm:3, Farm Hatch
+forestry:ffarm:4, Farm Valve
+forestry:ffarm:4, Farm Valve
+forestry:ffarm:4, Farm Valve
+forestry:ffarm:4, Farm Valve
+forestry:ffarm:4, Farm Valve
+forestry:ffarm:4, Farm Valve
+forestry:ffarm:4, Farm Valve
+forestry:ffarm:4, Farm Valve
+forestry:ffarm:4, Farm Valve
+forestry:ffarm:4, Farm Valve
+forestry:ffarm:4, Farm Valve
+forestry:ffarm:5, Farm Control
+forestry:ffarm:5, Farm Control
+forestry:ffarm:5, Farm Control
+forestry:ffarm:5, Farm Control
+forestry:ffarm:5, Farm Control
+forestry:ffarm:5, Farm Control
+forestry:ffarm:5, Farm Control
+forestry:ffarm:5, Farm Control
+forestry:ffarm:5, Farm Control
+forestry:ffarm:5, Farm Control
+forestry:ffarm:5, Farm Control
+forestry:arboretum:0, Arboretum (Managed)
+forestry:arboretum:1, Arboretum (Manual)
+forestry:farm_crops:0, Farm (Managed)
+forestry:farm_crops:1, Farm (Manual)
+forestry:farm_mushroom:0, Mushroom Farm (Managed)
+forestry:farm_mushroom:1, Mushroom Farm (Manual)
+forestry:farm_gourd:0, Gourd Farm (Managed)
+forestry:farm_gourd:1, Gourd Farm (Manual)
+forestry:farm_nether:0, Infernal Farm (Managed)
+forestry:farm_nether:1, Infernal Farm (Manual)
+forestry:farm_ender:0, Ender Farm (Managed)
+forestry:farm_ender:1, Ender Farm (Manual)
+forestry:peat_bog:0, Peat Bog (Managed)
+forestry:peat_bog:1, Peat Bog (Manual)
+forestry:genetic_filter:0, Genetic Filter
+forestry:greenhouse:0, Greenhouse Block
+forestry:greenhouse:3, Greenhouse Energy Distributor
+forestry:greenhouse:4, Greenhouse Control
+forestry:greenhouse:5, Greenhouse Screen
+forestry:climatiser:0, Greenhouse Hygroregulator
+forestry:climatiser:1, Greenhouse Heater
+forestry:climatiser:2, Greenhouse Fan
+forestry:climatiser:3, Greenhouse Humidifier
+forestry:climatiser:4, Greenhouse Dehumidifier
+forestry:greenhouse.window:0, Greenhouse Window
+forestry:greenhouse.window_up:0, Greenhouse Roof Window
+forestry:charcoal:0, Block of Charcoal
+forestry:wood_pile:0, Wood Pile
+forestry:wood_pile_decorative:0, Decorative Wood Pile
+forestry:ash_block_0:0, Ash Block
+forestry:ash_block_1:0, Ash Block
+forestry:ash_block_2:0, Ash Block
+forestry:ash_block_3:0, Ash Block
+forestry:loam:0, Loam
+forestry:book_forester, Forester's Manual
 forestry:grafter, Grafter
 forestry:grafter_proven, Proven Grafter
 forestry:logs.0:0, Larch Wood
@@ -1605,77 +1602,80 @@ forestry:tree_chest:0, Arborist's Chest
 forestry:butterfly_chest:0, Lepidopterist's Chest
 forestry:cocoon:0, tile.for.cocoon.name
 forestry:cocoon.solid:0, tile.for.cocoon.solid.name
-forestry:mushroom:0, tile.for.mushroom.name
-forestry:mushroom:1, tile.for.mushroom.name
-forestry:ffarm:0, Farm Block
-forestry:ffarm:0, Farm Block
-forestry:ffarm:0, Farm Block
-forestry:ffarm:0, Farm Block
-forestry:ffarm:0, Farm Block
-forestry:ffarm:0, Farm Block
-forestry:ffarm:0, Farm Block
-forestry:ffarm:0, Farm Block
-forestry:ffarm:0, Farm Block
-forestry:ffarm:0, Farm Block
-forestry:ffarm:0, Farm Block
-forestry:ffarm:2, Farm Gearbox
-forestry:ffarm:2, Farm Gearbox
-forestry:ffarm:2, Farm Gearbox
-forestry:ffarm:2, Farm Gearbox
-forestry:ffarm:2, Farm Gearbox
-forestry:ffarm:2, Farm Gearbox
-forestry:ffarm:2, Farm Gearbox
-forestry:ffarm:2, Farm Gearbox
-forestry:ffarm:2, Farm Gearbox
-forestry:ffarm:2, Farm Gearbox
-forestry:ffarm:2, Farm Gearbox
-forestry:ffarm:3, Farm Hatch
-forestry:ffarm:3, Farm Hatch
-forestry:ffarm:3, Farm Hatch
-forestry:ffarm:3, Farm Hatch
-forestry:ffarm:3, Farm Hatch
-forestry:ffarm:3, Farm Hatch
-forestry:ffarm:3, Farm Hatch
-forestry:ffarm:3, Farm Hatch
-forestry:ffarm:3, Farm Hatch
-forestry:ffarm:3, Farm Hatch
-forestry:ffarm:3, Farm Hatch
-forestry:ffarm:4, Farm Valve
-forestry:ffarm:4, Farm Valve
-forestry:ffarm:4, Farm Valve
-forestry:ffarm:4, Farm Valve
-forestry:ffarm:4, Farm Valve
-forestry:ffarm:4, Farm Valve
-forestry:ffarm:4, Farm Valve
-forestry:ffarm:4, Farm Valve
-forestry:ffarm:4, Farm Valve
-forestry:ffarm:4, Farm Valve
-forestry:ffarm:4, Farm Valve
-forestry:ffarm:5, Farm Control
-forestry:ffarm:5, Farm Control
-forestry:ffarm:5, Farm Control
-forestry:ffarm:5, Farm Control
-forestry:ffarm:5, Farm Control
-forestry:ffarm:5, Farm Control
-forestry:ffarm:5, Farm Control
-forestry:ffarm:5, Farm Control
-forestry:ffarm:5, Farm Control
-forestry:ffarm:5, Farm Control
-forestry:ffarm:5, Farm Control
-forestry:arboretum:0, Arboretum (Managed)
-forestry:arboretum:1, Arboretum (Manual)
-forestry:farm_crops:0, Farm (Managed)
-forestry:farm_crops:1, Farm (Manual)
-forestry:farm_mushroom:0, Mushroom Farm (Managed)
-forestry:farm_mushroom:1, Mushroom Farm (Manual)
-forestry:farm_gourd:0, Gourd Farm (Managed)
-forestry:farm_gourd:1, Gourd Farm (Manual)
-forestry:farm_nether:0, Infernal Farm (Managed)
-forestry:farm_nether:1, Infernal Farm (Manual)
-forestry:farm_ender:0, Ender Farm (Managed)
-forestry:farm_ender:1, Ender Farm (Manual)
-forestry:peat_bog:0, Peat Bog (Managed)
-forestry:peat_bog:1, Peat Bog (Manual)
+forestry:stamps:0, Stamp (1n)
+forestry:stamps:1, Stamp (2n)
+forestry:stamps:2, Stamp (5n)
+forestry:stamps:3, Stamp (10n)
+forestry:stamps:4, Stamp (20n)
+forestry:stamps:5, Stamp (50n)
+forestry:stamps:6, Stamp (100n)
+forestry:letters, Letter
+forestry:catalogue, Catalogue
+forestry:mailbox:0, Mailbox
+forestry:trade_station:0, Trade Station
+forestry:stamp_collector:0, Stamp Collector
+forestry:habitat_locator, Habitat Locator
+forestry:imprinter, Imprinter
+forestry:cart.beehouse:0, Minecart with Bee House
+forestry:cart.beehouse:1, Minecart with Apiary
+forestry:frame_untreated, Untreated Frame
+forestry:frame_impregnated, Impregnated Frame
+forestry:frame_proven, Proven Frame
+forestry:honey_drop:0, Honey Drop
+forestry:pollen:0, Pollen Cluster
+forestry:pollen:1, Crystalline Pollen Cluster
+forestry:propolis:0, Propolis
+forestry:propolis:1, Sticky Propolis
+forestry:propolis:3, Silky Propolis
+forestry:honeydew, Honeydew
+forestry:royal_jelly, Royal Jelly
+forestry:wax_cast, Wax Cast
+forestry:bee_combs:0, Honey Comb
+forestry:bee_combs:2, Simmering Comb
+forestry:bee_combs:3, Stringy Comb
+forestry:bee_combs:4, Frozen Comb
+forestry:bee_combs:5, Dripping Comb
+forestry:bee_combs:6, Silky Comb
+forestry:bee_combs:7, Parched Comb
+forestry:bee_combs:15, Mossy Comb
+forestry:bee_combs:16, Mellow Comb
+forestry:apiarist_helmet, Apiarist's Hat
+forestry:apiarist_chest, Apiarist's Shirt
+forestry:apiarist_legs, Apiarist's Pants
+forestry:apiarist_boots, Apiarist's Shoes
+forestry:scoop, Scoop
+forestry:smoker, Bee Smoker
+forestry:apiary:0, Apiary
+forestry:bee_house:0, Bee House
+forestry:bee_chest:0, Apiarist's Chest
+forestry:beehives:0, Forest Hive
+forestry:beehives:1, Meadows Hive
+forestry:beehives:2, Modest Hive
+forestry:beehives:3, Tropical Hive
+forestry:beehives:4, Ender Hive
+forestry:beehives:5, Wintry Hive
+forestry:beehives:6, Marshy Hive
+forestry:candle:0, Unlit Candle
+forestry:stump:0, Candle Stump
+forestry:bee_combs_0:0, Honey Comb Block
+forestry:bee_combs_0:2, Simmering Comb Block
+forestry:bee_combs_0:3, Stringy Comb Block
+forestry:bee_combs_0:4, Frozen Comb Block
+forestry:bee_combs_0:5, Dripping Comb Block
+forestry:bee_combs_0:6, Silky Comb Block
+forestry:bee_combs_0:7, Parched Comb Block
+forestry:bee_combs_0:15, Mossy Comb Block
+forestry:bee_combs_1:0, Mellow Comb Block
+forestry:alveary.plain:0, Alveary
+forestry:alveary.swarmer:0, Alveary Swarmer
+forestry:alveary.fan:0, Alveary Fan
+forestry:alveary.heater:0, Alveary Heater
+forestry:alveary.hygro:0, Alveary Hygroregulator
+forestry:alveary.stabiliser:0, Alveary Stabiliser
+forestry:alveary.sieve:0, Alveary Sieve
+forestry:engine_peat:0, Peat-fired Engine
+forestry:engine_biogas:0, Biogas Engine
+forestry:engine_clockwork:0, Clockwork Engine
 binniecore:glass:0, Empty Bottle
 binniecore:glass:1, Apple Juice Bottle
 binniecore:glass:1, Apricot Juice Bottle
@@ -1818,80 +1818,6 @@ genetics:lab_machine:2, Incubator
 genetics:lab_machine:3, Genepool
 genetics:lab_machine:4, Acclimatiser
 genetics:adv_machine:0, Splicer
-botany:plant:0, Weed
-botany:plant:1, Weed Long
-botany:plant:2, Weed Very Long
-botany:plant:3, Dead Flower
-botany:plant:4, Decaying Flower
-botany:soil:0, Soil
-botany:soil:1, Soil
-botany:soil:2, Soil
-botany:soil:3, Soil
-botany:soil:4, Soil
-botany:soil:5, Soil
-botany:soil:6, Soil
-botany:soil:7, Soil
-botany:soil:8, Soil
-botany:loam:0, Loam
-botany:loam:1, Loam
-botany:loam:2, Loam
-botany:loam:3, Loam
-botany:loam:4, Loam
-botany:loam:5, Loam
-botany:loam:6, Loam
-botany:loam:7, Loam
-botany:loam:8, Loam
-botany:flowerbed:0, Flowerbed
-botany:flowerbed:1, Flowerbed
-botany:flowerbed:2, Flowerbed
-botany:flowerbed:3, Flowerbed
-botany:flowerbed:4, Flowerbed
-botany:flowerbed:5, Flowerbed
-botany:flowerbed:6, Flowerbed
-botany:flowerbed:7, Flowerbed
-botany:flowerbed:8, Flowerbed
-botany:soil_no_weed:0, Soil
-botany:soil_no_weed:1, Soil
-botany:soil_no_weed:2, Soil
-botany:soil_no_weed:3, Soil
-botany:soil_no_weed:4, Soil
-botany:soil_no_weed:5, Soil
-botany:soil_no_weed:6, Soil
-botany:soil_no_weed:7, Soil
-botany:soil_no_weed:8, Soil
-botany:loam_no_weed:0, Loam
-botany:loam_no_weed:1, Loam
-botany:loam_no_weed:2, Loam
-botany:loam_no_weed:3, Loam
-botany:loam_no_weed:4, Loam
-botany:loam_no_weed:5, Loam
-botany:loam_no_weed:6, Loam
-botany:loam_no_weed:7, Loam
-botany:loam_no_weed:8, Loam
-botany:flowerbed_no_weed:0, Flowerbed
-botany:flowerbed_no_weed:1, Flowerbed
-botany:flowerbed_no_weed:2, Flowerbed
-botany:flowerbed_no_weed:3, Flowerbed
-botany:flowerbed_no_weed:4, Flowerbed
-botany:flowerbed_no_weed:5, Flowerbed
-botany:flowerbed_no_weed:6, Flowerbed
-botany:flowerbed_no_weed:7, Flowerbed
-botany:flowerbed_no_weed:8, Flowerbed
-botany:soil_meter, Soil Meter
-botany:trowel_wood, Wooden Trowel
-botany:trowel_stone, Stone Trowel
-botany:trowel_iron, Iron Trowel
-botany:trowel_diamond, Diamond Trowel
-botany:trowel_gold, Gold Trowel
-botany:misc:0, Ash Powder
-botany:misc:1, Wood Pulp Powder
-botany:misc:2, Mulch Powder
-botany:misc:3, Sulphur Powder
-botany:misc:4, Fertilizer Powder
-botany:misc:5, Compost Powder
-botany:misc:6, Mortar
-botany:misc:7, Weedkiller
-botany:machine:0, Tileworker
 botany:ceramic:0, Aquamarine Ceramic Block
 botany:ceramic:1, Black Ceramic Block
 botany:ceramic:2, Deep Blue Ceramic Block
@@ -2227,9 +2153,80 @@ botany:clay:77, White Clay
 botany:clay:78, Yellow Clay
 botany:clay:79, Yellow-Green Clay
 botany:misc_ceramic:0, Mortar
+botany:plant:0, Weed
+botany:plant:1, Weed Long
+botany:plant:2, Weed Very Long
+botany:plant:3, Dead Flower
+botany:plant:4, Decaying Flower
+botany:soil:0, Soil
+botany:soil:1, Soil
+botany:soil:2, Soil
+botany:soil:3, Soil
+botany:soil:4, Soil
+botany:soil:5, Soil
+botany:soil:6, Soil
+botany:soil:7, Soil
+botany:soil:8, Soil
+botany:loam:0, Loam
+botany:loam:1, Loam
+botany:loam:2, Loam
+botany:loam:3, Loam
+botany:loam:4, Loam
+botany:loam:5, Loam
+botany:loam:6, Loam
+botany:loam:7, Loam
+botany:loam:8, Loam
+botany:flowerbed:0, Flowerbed
+botany:flowerbed:1, Flowerbed
+botany:flowerbed:2, Flowerbed
+botany:flowerbed:3, Flowerbed
+botany:flowerbed:4, Flowerbed
+botany:flowerbed:5, Flowerbed
+botany:flowerbed:6, Flowerbed
+botany:flowerbed:7, Flowerbed
+botany:flowerbed:8, Flowerbed
+botany:soil_no_weed:0, Soil
+botany:soil_no_weed:1, Soil
+botany:soil_no_weed:2, Soil
+botany:soil_no_weed:3, Soil
+botany:soil_no_weed:4, Soil
+botany:soil_no_weed:5, Soil
+botany:soil_no_weed:6, Soil
+botany:soil_no_weed:7, Soil
+botany:soil_no_weed:8, Soil
+botany:loam_no_weed:0, Loam
+botany:loam_no_weed:1, Loam
+botany:loam_no_weed:2, Loam
+botany:loam_no_weed:3, Loam
+botany:loam_no_weed:4, Loam
+botany:loam_no_weed:5, Loam
+botany:loam_no_weed:6, Loam
+botany:loam_no_weed:7, Loam
+botany:loam_no_weed:8, Loam
+botany:flowerbed_no_weed:0, Flowerbed
+botany:flowerbed_no_weed:1, Flowerbed
+botany:flowerbed_no_weed:2, Flowerbed
+botany:flowerbed_no_weed:3, Flowerbed
+botany:flowerbed_no_weed:4, Flowerbed
+botany:flowerbed_no_weed:5, Flowerbed
+botany:flowerbed_no_weed:6, Flowerbed
+botany:flowerbed_no_weed:7, Flowerbed
+botany:flowerbed_no_weed:8, Flowerbed
+botany:soil_meter, Soil Meter
+botany:trowel_wood, Wooden Trowel
+botany:trowel_stone, Stone Trowel
+botany:trowel_iron, Iron Trowel
+botany:trowel_diamond, Diamond Trowel
+botany:trowel_gold, Gold Trowel
+botany:misc:0, Ash Powder
+botany:misc:1, Wood Pulp Powder
+botany:misc:2, Mulch Powder
+botany:misc:3, Sulphur Powder
+botany:misc:4, Fertilizer Powder
+botany:misc:5, Compost Powder
+botany:misc:6, Mortar
+botany:misc:7, Weedkiller
 botany:botanist_bag, Botanist's Backpack
-botany:database:0, Botanist Database
-botany:database:1, Master Botanist Database
 botany:insulated_tube:0, Copper Clay Insulated Electron Tube
 botany:insulated_tube:128, Copper Cobblestone Insulated Electron Tube
 botany:insulated_tube:256, Copper Sandstone Insulated Electron Tube
@@ -2254,6 +2251,9 @@ botany:insulated_tube:259, Iron Sandstone Insulated Electron Tube
 botany:insulated_tube:387, Iron Hardened Clay Insulated Electron Tube
 botany:insulated_tube:515, Iron Smooth Stone Insulated Electron Tube
 botany:insulated_tube:643, Iron Sandstone Insulated Electron Tube
+botany:database:0, Botanist Database
+botany:database:1, Master Botanist Database
+botany:machine:0, Tileworker
 extrabees:honey_crystal, item.honey_crystal.name
 extrabees:honey_drop:0, Energy Drop
 extrabees:honey_drop:1, Acidic Drop
@@ -2488,7 +2488,10 @@ extratrees:machine:4, Fruit Press
 extratrees:machine:5, Brewery
 extratrees:machine:6, Distillery
 extratrees:machine:7, Glassworker
-extratrees:databasetree, item.databaseTree.name
+extratrees:carpentry, tile.null.name
+extratrees:carpentrypanel, tile.null.name
+extratrees:stainedglass, tile.null.name
+extratrees:databaselepi, item.databaseLepi.name
 extratrees:drink:0, Beer Mug
 extratrees:drink:0, Pint Glass
 extratrees:drink:0, Snifter Glass
@@ -2505,9 +2508,7 @@ extratrees:drink:0, Shot Glass
 extratrees:drink:0, Sherry Glass
 extratrees:drink:0, Coupe Glass
 extratrees:drink:0, Wine Glass
-extratrees:carpentry, tile.null.name
-extratrees:carpentrypanel, tile.null.name
-extratrees:stainedglass, tile.null.name
+extratrees:databasetree, item.databaseTree.name
 extratrees:logs.0:0, Apple Wood
 extratrees:logs.0:1, Fig Wood
 extratrees:logs.0:2, Butternut Wood
@@ -3083,7 +3084,6 @@ extratrees:leaves.decorative.5:14, Leaves
 extratrees:leaves.decorative.5:15, Leaves
 extratrees:leaves.decorative.6:0, Leaves
 extratrees:shrub_log:0, Shrub Wood
-extratrees:databaselepi, item.databaseLepi.name
 extratrees:binnie.juice.apple, Apple Juice
 extratrees:binnie.juice.apricot, Apricot Juice
 extratrees:binnie.juice.banana, Banana Juice
@@ -7155,16 +7155,6 @@ thermaldynamics:cover:0, Block of Tin Cover
 thermaldynamics:cover:0, Block of Bronze Cover
 thermaldynamics:cover:0, Ash Bricks Cover
 thermaldynamics:cover:0, Ash Brick Stairs Cover
-thermaldynamics:cover:0, Candle Stump Cover
-thermaldynamics:cover:0, Honey Comb Block Cover
-thermaldynamics:cover:0, Simmering Comb Block Cover
-thermaldynamics:cover:0, Stringy Comb Block Cover
-thermaldynamics:cover:0, Frozen Comb Block Cover
-thermaldynamics:cover:0, Dripping Comb Block Cover
-thermaldynamics:cover:0, Silky Comb Block Cover
-thermaldynamics:cover:0, Parched Comb Block Cover
-thermaldynamics:cover:0, Mossy Comb Block Cover
-thermaldynamics:cover:0, Mellow Comb Block Cover
 thermaldynamics:cover:0, Block of Charcoal Cover
 thermaldynamics:cover:0, Wood Pile Cover
 thermaldynamics:cover:0, Decorative Wood Pile Cover
@@ -7617,6 +7607,16 @@ thermaldynamics:cover:0, Sipiri Leaves Cover
 thermaldynamics:cover:0, Papaya Leaves Cover
 thermaldynamics:cover:0, Date Palm Leaves Cover
 thermaldynamics:cover:0, White Poplar Leaves Cover
+thermaldynamics:cover:0, Candle Stump Cover
+thermaldynamics:cover:0, Honey Comb Block Cover
+thermaldynamics:cover:0, Simmering Comb Block Cover
+thermaldynamics:cover:0, Stringy Comb Block Cover
+thermaldynamics:cover:0, Frozen Comb Block Cover
+thermaldynamics:cover:0, Dripping Comb Block Cover
+thermaldynamics:cover:0, Silky Comb Block Cover
+thermaldynamics:cover:0, Parched Comb Block Cover
+thermaldynamics:cover:0, Mossy Comb Block Cover
+thermaldynamics:cover:0, Mellow Comb Block Cover
 thermaldynamics:cover:0, Weed Cover
 thermaldynamics:cover:0, Weed Long Cover
 thermaldynamics:cover:0, Weed Very Long Cover
@@ -9106,13 +9106,13 @@ solarflux:solar_panel_5, Solar Panel V
 solarflux:solar_panel_6, Solar Panel VI
 solarflux:solar_panel_7, Solar Panel VII
 solarflux:solar_panel_8, Solar Panel VIII
-solarflux:solar_panel_wyvern, Wyvern Solar Panel
-solarflux:solar_panel_draconic, Draconic Solar Panel
-solarflux:solar_panel_chaotic, Chaotic Solar Panel
 solarflux:solar_panel_alchemical, Alchemical Solar Panel
 solarflux:solar_panel_alchemical_brass, Brass Solar Panel
 solarflux:solar_panel_thaumium, Thaumium Solar Panel
 solarflux:solar_panel_void_metal, Void Metal Solar Panel
+solarflux:solar_panel_wyvern, Wyvern Solar Panel
+solarflux:solar_panel_draconic, Draconic Solar Panel
+solarflux:solar_panel_chaotic, Chaotic Solar Panel
 solarflux:mirror, Mirror
 solarflux:photovoltaic_cell_1, Photovoltaic Cell I
 solarflux:photovoltaic_cell_2, Photovoltaic Cell II
@@ -12507,15 +12507,6 @@ appliedenergistics2:facade:0, Cable Facade - Greenhouse Heater
 appliedenergistics2:facade:0, Cable Facade - Greenhouse Fan
 appliedenergistics2:facade:0, Cable Facade - Greenhouse Humidifier
 appliedenergistics2:facade:0, Cable Facade - Greenhouse Dehumidifier
-appliedenergistics2:facade:0, Cable Facade - Honey Comb Block
-appliedenergistics2:facade:0, Cable Facade - Simmering Comb Block
-appliedenergistics2:facade:0, Cable Facade - Stringy Comb Block
-appliedenergistics2:facade:0, Cable Facade - Frozen Comb Block
-appliedenergistics2:facade:0, Cable Facade - Dripping Comb Block
-appliedenergistics2:facade:0, Cable Facade - Silky Comb Block
-appliedenergistics2:facade:0, Cable Facade - Parched Comb Block
-appliedenergistics2:facade:0, Cable Facade - Mossy Comb Block
-appliedenergistics2:facade:0, Cable Facade - Mellow Comb Block
 appliedenergistics2:facade:0, Cable Facade - Block of Charcoal
 appliedenergistics2:facade:0, Cable Facade - Wood Pile
 appliedenergistics2:facade:0, Cable Facade - Decorative Wood Pile
@@ -12687,6 +12678,15 @@ appliedenergistics2:facade:0, Cable Facade - Sipiri Leaves
 appliedenergistics2:facade:0, Cable Facade - Papaya Leaves
 appliedenergistics2:facade:0, Cable Facade - Date Palm Leaves
 appliedenergistics2:facade:0, Cable Facade - White Poplar Leaves
+appliedenergistics2:facade:0, Cable Facade - Honey Comb Block
+appliedenergistics2:facade:0, Cable Facade - Simmering Comb Block
+appliedenergistics2:facade:0, Cable Facade - Stringy Comb Block
+appliedenergistics2:facade:0, Cable Facade - Frozen Comb Block
+appliedenergistics2:facade:0, Cable Facade - Dripping Comb Block
+appliedenergistics2:facade:0, Cable Facade - Silky Comb Block
+appliedenergistics2:facade:0, Cable Facade - Parched Comb Block
+appliedenergistics2:facade:0, Cable Facade - Mossy Comb Block
+appliedenergistics2:facade:0, Cable Facade - Mellow Comb Block
 appliedenergistics2:facade:0, Cable Facade - Apple Wood
 appliedenergistics2:facade:0, Cable Facade - Fig Wood
 appliedenergistics2:facade:0, Cable Facade - Butternut Wood
@@ -15507,9 +15507,6 @@ appliedenergistics2:facade:0, Cable Facade - Triton Subsurface Rock
 appliedenergistics2:facade:0, Cable Facade - Triton Stone
 appliedenergistics2:facade:0, Cable Facade - Triton Geyser
 appliedenergistics2:facade:0, Cable Facade - Small Triton Geyser
-appliedenergistics2:facade:0, Cable Facade - τ Ceti F Dirt
-appliedenergistics2:facade:0, Cable Facade - τ Ceti F Grass
-appliedenergistics2:facade:0, Cable Facade - τ Ceti F Stone
 appliedenergistics2:facade:0, Cable Facade - Proxima B Surface
 appliedenergistics2:facade:0, Cable Facade - Proxima B Subsurface
 appliedenergistics2:facade:0, Cable Facade - Proxima B Stone
@@ -15529,6 +15526,9 @@ appliedenergistics2:facade:0, Cable Facade - Proxima B Burnt Wood
 appliedenergistics2:facade:0, Cable Facade - Proxima B Frozen Wood
 appliedenergistics2:facade:0, Cable Facade - Proxima B Mushroom Stem
 appliedenergistics2:facade:0, Cable Facade - Proxima B Grass
+appliedenergistics2:facade:0, Cable Facade - τ Ceti F Dirt
+appliedenergistics2:facade:0, Cable Facade - τ Ceti F Grass
+appliedenergistics2:facade:0, Cable Facade - τ Ceti F Stone
 appliedenergistics2:facade:0, Cable Facade - Barnard C Grass
 appliedenergistics2:facade:0, Cable Facade - tile.barnarda_c_grass_1.name
 appliedenergistics2:facade:0, Cable Facade - Barnard C Dirt
@@ -15564,6 +15564,9 @@ appliedenergistics2:facade:0, Cable Facade - Iron Ore
 appliedenergistics2:facade:0, Cable Facade - Copper Ore
 appliedenergistics2:facade:0, Cable Facade - Tin Ore
 appliedenergistics2:facade:0, Cable Facade - Block of Starmetal
+appliedenergistics2:facade:0, Cable Facade - Sugar Block
+appliedenergistics2:facade:0, Cable Facade - Red Slime Block
+appliedenergistics2:facade:0, Cable Facade - Gravisand
 appliedenergistics2:facade:0, Cable Facade - Spruce Bookshelf
 appliedenergistics2:facade:0, Cable Facade - Lit Redstone Lamp
 appliedenergistics2:facade:0, Cable Facade - Blaze Lantern
@@ -15608,9 +15611,6 @@ appliedenergistics2:facade:0, Cable Facade - Soul Sandstone
 appliedenergistics2:facade:0, Cable Facade - Turf Block
 appliedenergistics2:facade:0, Cable Facade - Netherwrought Stone
 appliedenergistics2:facade:0, Cable Facade - White Quilted Wool
-appliedenergistics2:facade:0, Cable Facade - Sugar Block
-appliedenergistics2:facade:0, Cable Facade - Red Slime Block
-appliedenergistics2:facade:0, Cable Facade - Gravisand
 appliedenergistics2:facade:0, Cable Facade - Amber Bearing Stone
 appliedenergistics2:facade:0, Cable Facade - Cinnabar Ore
 appliedenergistics2:facade:0, Cable Facade - Quartz Ore
@@ -15647,6 +15647,65 @@ appliedenergistics2:facade:0, Cable Facade - Infusion Speed Stone
 appliedenergistics2:facade:0, Cable Facade - Infusion Cost Stone
 appliedenergistics2:facade:0, Cable Facade - Vis Battery
 appliedenergistics2:facade:0, Cable Facade - Empty Space
+appliedenergistics2:facade:0, Cable Facade - Block of Smokey Quartz
+appliedenergistics2:facade:0, Cable Facade - Chiseled Smokey Quartz Block
+appliedenergistics2:facade:0, Cable Facade - Pillar Smokey Quartz Block
+appliedenergistics2:facade:0, Cable Facade - Block of Mana Quartz
+appliedenergistics2:facade:0, Cable Facade - Chiseled Mana Quartz Block
+appliedenergistics2:facade:0, Cable Facade - Pillar Mana Quartz Block
+appliedenergistics2:facade:0, Cable Facade - Block of Blaze Quartz
+appliedenergistics2:facade:0, Cable Facade - Chiseled Blaze Quartz Block
+appliedenergistics2:facade:0, Cable Facade - Pillar Blaze Quartz Block
+appliedenergistics2:facade:0, Cable Facade - Block of Lavender Quartz
+appliedenergistics2:facade:0, Cable Facade - Chiseled Lavender Quartz Block
+appliedenergistics2:facade:0, Cable Facade - Pillar Lavender Quartz Block
+appliedenergistics2:facade:0, Cable Facade - Block of Redquartz
+appliedenergistics2:facade:0, Cable Facade - Chiseled Redquartz Block
+appliedenergistics2:facade:0, Cable Facade - Pillar Redquartz Block
+appliedenergistics2:facade:0, Cable Facade - Block of Elven Quartz
+appliedenergistics2:facade:0, Cable Facade - Chiseled Elven Quartz Block
+appliedenergistics2:facade:0, Cable Facade - Pillar Elven Quartz Block
+appliedenergistics2:facade:0, Cable Facade - Block of Sunny Quartz
+appliedenergistics2:facade:0, Cable Facade - Chiseled Sunny Quartz Block
+appliedenergistics2:facade:0, Cable Facade - Pillar Sunny Quartz Block
+appliedenergistics2:facade:0, Cable Facade - Metamorphic Forest Stone
+appliedenergistics2:facade:0, Cable Facade - Metamorphic Plains Stone
+appliedenergistics2:facade:0, Cable Facade - Metamorphic Mountain Stone
+appliedenergistics2:facade:0, Cable Facade - Metamorphic Fungal Stone
+appliedenergistics2:facade:0, Cable Facade - Metamorphic Swamp Stone
+appliedenergistics2:facade:0, Cable Facade - Metamorphic Desert Stone
+appliedenergistics2:facade:0, Cable Facade - Metamorphic Taiga Stone
+appliedenergistics2:facade:0, Cable Facade - Metamorphic Mesa Stone
+appliedenergistics2:facade:0, Cable Facade - Metamorphic Forest Cobblestone
+appliedenergistics2:facade:0, Cable Facade - Metamorphic Plains Cobblestone
+appliedenergistics2:facade:0, Cable Facade - Metamorphic Mountain Cobblestone
+appliedenergistics2:facade:0, Cable Facade - Metamorphic Fungal Cobblestone
+appliedenergistics2:facade:0, Cable Facade - Metamorphic Swamp Cobblestone
+appliedenergistics2:facade:0, Cable Facade - Metamorphic Desert Cobblestone
+appliedenergistics2:facade:0, Cable Facade - Metamorphic Taiga Cobblestone
+appliedenergistics2:facade:0, Cable Facade - Metamorphic Mesa Cobblestone
+appliedenergistics2:facade:0, Cable Facade - Metamorphic Forest Stone Bricks
+appliedenergistics2:facade:0, Cable Facade - Metamorphic Plains Stone Bricks
+appliedenergistics2:facade:0, Cable Facade - Metamorphic Mountain Stone Bricks
+appliedenergistics2:facade:0, Cable Facade - Metamorphic Fungal Stone Bricks
+appliedenergistics2:facade:0, Cable Facade - Metamorphic Swamp Stone Bricks
+appliedenergistics2:facade:0, Cable Facade - Metamorphic Desert Stone Bricks
+appliedenergistics2:facade:0, Cable Facade - Metamorphic Taiga Stone Bricks
+appliedenergistics2:facade:0, Cable Facade - Metamorphic Mesa Stone Bricks
+appliedenergistics2:facade:0, Cable Facade - Chiseled Metamorphic Forest Stone Brick
+appliedenergistics2:facade:0, Cable Facade - Chiseled Metamorphic Plains Stone Brick
+appliedenergistics2:facade:0, Cable Facade - Chiseled Metamorphic Mountain Stone Brick
+appliedenergistics2:facade:0, Cable Facade - Chiseled Metamorphic Fungal Stone Brick
+appliedenergistics2:facade:0, Cable Facade - Chiseled Metamorphic Swamp Stone Brick
+appliedenergistics2:facade:0, Cable Facade - Chiseled Metamorphic Desert Stone Brick
+appliedenergistics2:facade:0, Cable Facade - Chiseled Metamorphic Taiga Stone Brick
+appliedenergistics2:facade:0, Cable Facade - Chiseled Metamorphic Mesa Stone Brick
+appliedenergistics2:facade:0, Cable Facade - White Portuguese Pavement
+appliedenergistics2:facade:0, Cable Facade - Black Portuguese Pavement
+appliedenergistics2:facade:0, Cable Facade - Blue Portuguese Pavement
+appliedenergistics2:facade:0, Cable Facade - Red Portuguese Pavement
+appliedenergistics2:facade:0, Cable Facade - Yellow Portuguese Pavement
+appliedenergistics2:facade:0, Cable Facade - Green Portuguese Pavement
 appliedenergistics2:facade:0, Cable Facade - Livingrock
 appliedenergistics2:facade:0, Cable Facade - Livingrock Brick
 appliedenergistics2:facade:0, Cable Facade - Mossy Livingrock Brick
@@ -15717,65 +15776,6 @@ appliedenergistics2:facade:0, Cable Facade - Vivid Grass
 appliedenergistics2:facade:0, Cable Facade - Scorched Grass
 appliedenergistics2:facade:0, Cable Facade - Infused Grass
 appliedenergistics2:facade:0, Cable Facade - Mutated Grass
-appliedenergistics2:facade:0, Cable Facade - Block of Smokey Quartz
-appliedenergistics2:facade:0, Cable Facade - Chiseled Smokey Quartz Block
-appliedenergistics2:facade:0, Cable Facade - Pillar Smokey Quartz Block
-appliedenergistics2:facade:0, Cable Facade - Block of Mana Quartz
-appliedenergistics2:facade:0, Cable Facade - Chiseled Mana Quartz Block
-appliedenergistics2:facade:0, Cable Facade - Pillar Mana Quartz Block
-appliedenergistics2:facade:0, Cable Facade - Block of Blaze Quartz
-appliedenergistics2:facade:0, Cable Facade - Chiseled Blaze Quartz Block
-appliedenergistics2:facade:0, Cable Facade - Pillar Blaze Quartz Block
-appliedenergistics2:facade:0, Cable Facade - Block of Lavender Quartz
-appliedenergistics2:facade:0, Cable Facade - Chiseled Lavender Quartz Block
-appliedenergistics2:facade:0, Cable Facade - Pillar Lavender Quartz Block
-appliedenergistics2:facade:0, Cable Facade - Block of Redquartz
-appliedenergistics2:facade:0, Cable Facade - Chiseled Redquartz Block
-appliedenergistics2:facade:0, Cable Facade - Pillar Redquartz Block
-appliedenergistics2:facade:0, Cable Facade - Block of Elven Quartz
-appliedenergistics2:facade:0, Cable Facade - Chiseled Elven Quartz Block
-appliedenergistics2:facade:0, Cable Facade - Pillar Elven Quartz Block
-appliedenergistics2:facade:0, Cable Facade - Block of Sunny Quartz
-appliedenergistics2:facade:0, Cable Facade - Chiseled Sunny Quartz Block
-appliedenergistics2:facade:0, Cable Facade - Pillar Sunny Quartz Block
-appliedenergistics2:facade:0, Cable Facade - Metamorphic Forest Stone
-appliedenergistics2:facade:0, Cable Facade - Metamorphic Plains Stone
-appliedenergistics2:facade:0, Cable Facade - Metamorphic Mountain Stone
-appliedenergistics2:facade:0, Cable Facade - Metamorphic Fungal Stone
-appliedenergistics2:facade:0, Cable Facade - Metamorphic Swamp Stone
-appliedenergistics2:facade:0, Cable Facade - Metamorphic Desert Stone
-appliedenergistics2:facade:0, Cable Facade - Metamorphic Taiga Stone
-appliedenergistics2:facade:0, Cable Facade - Metamorphic Mesa Stone
-appliedenergistics2:facade:0, Cable Facade - Metamorphic Forest Cobblestone
-appliedenergistics2:facade:0, Cable Facade - Metamorphic Plains Cobblestone
-appliedenergistics2:facade:0, Cable Facade - Metamorphic Mountain Cobblestone
-appliedenergistics2:facade:0, Cable Facade - Metamorphic Fungal Cobblestone
-appliedenergistics2:facade:0, Cable Facade - Metamorphic Swamp Cobblestone
-appliedenergistics2:facade:0, Cable Facade - Metamorphic Desert Cobblestone
-appliedenergistics2:facade:0, Cable Facade - Metamorphic Taiga Cobblestone
-appliedenergistics2:facade:0, Cable Facade - Metamorphic Mesa Cobblestone
-appliedenergistics2:facade:0, Cable Facade - Metamorphic Forest Stone Bricks
-appliedenergistics2:facade:0, Cable Facade - Metamorphic Plains Stone Bricks
-appliedenergistics2:facade:0, Cable Facade - Metamorphic Mountain Stone Bricks
-appliedenergistics2:facade:0, Cable Facade - Metamorphic Fungal Stone Bricks
-appliedenergistics2:facade:0, Cable Facade - Metamorphic Swamp Stone Bricks
-appliedenergistics2:facade:0, Cable Facade - Metamorphic Desert Stone Bricks
-appliedenergistics2:facade:0, Cable Facade - Metamorphic Taiga Stone Bricks
-appliedenergistics2:facade:0, Cable Facade - Metamorphic Mesa Stone Bricks
-appliedenergistics2:facade:0, Cable Facade - Chiseled Metamorphic Forest Stone Brick
-appliedenergistics2:facade:0, Cable Facade - Chiseled Metamorphic Plains Stone Brick
-appliedenergistics2:facade:0, Cable Facade - Chiseled Metamorphic Mountain Stone Brick
-appliedenergistics2:facade:0, Cable Facade - Chiseled Metamorphic Fungal Stone Brick
-appliedenergistics2:facade:0, Cable Facade - Chiseled Metamorphic Swamp Stone Brick
-appliedenergistics2:facade:0, Cable Facade - Chiseled Metamorphic Desert Stone Brick
-appliedenergistics2:facade:0, Cable Facade - Chiseled Metamorphic Taiga Stone Brick
-appliedenergistics2:facade:0, Cable Facade - Chiseled Metamorphic Mesa Stone Brick
-appliedenergistics2:facade:0, Cable Facade - White Portuguese Pavement
-appliedenergistics2:facade:0, Cable Facade - Black Portuguese Pavement
-appliedenergistics2:facade:0, Cable Facade - Blue Portuguese Pavement
-appliedenergistics2:facade:0, Cable Facade - Red Portuguese Pavement
-appliedenergistics2:facade:0, Cable Facade - Yellow Portuguese Pavement
-appliedenergistics2:facade:0, Cable Facade - Green Portuguese Pavement
 appliedenergistics2:facade:0, Cable Facade - Blessed Stone
 appliedenergistics2:facade:0, Cable Facade - Block of Amethyst
 appliedenergistics2:facade:0, Cable Facade - Block of Garnet
@@ -17323,11 +17323,11 @@ appliedenergistics2:facade:0, Cable Facade - Honey Block
 appliedenergistics2:facade:0, Cable Facade - Honeycomb Block
 appliedenergistics2:facade:0, Cable Facade - Pressed Wax Block
 appliedenergistics2:facade:0, Cable Facade - Waxcomb Block
+appliedenergistics2:facade:0, Cable Facade - Block of Charcoal
 appliedenergistics2:facade:0, Cable Facade - Quarry Fixer
-appliedenergistics2:facade:0, Cable Facade - Variable Redstone Emitter
 appliedenergistics2:facade:0, Cable Facade - Block of Sulfur
 appliedenergistics2:facade:0, Cable Facade - Block of Graphite
-appliedenergistics2:facade:0, Cable Facade - Block of Charcoal
+appliedenergistics2:facade:0, Cable Facade - Variable Redstone Emitter
 appliedenergistics2:facade:0, Cable Facade - Red Bulblight
 appliedenergistics2:facade:0, Cable Facade - Orange Bulblight
 appliedenergistics2:facade:0, Cable Facade - Yellow Bulblight
@@ -19227,6 +19227,27 @@ galaxyspace:plasma_pickaxe, Plasma Pickaxe
 galaxyspace:jetpack, Electric Jetpack
 galaxyspace:geo_scanner:100, Geological Scanner
 galaxyspace:gas_extractor:100, Gas Extractor
+galaxyspace:proxima_b_blocks:0, Proxima B Surface
+galaxyspace:proxima_b_blocks:1, Proxima B Subsurface
+galaxyspace:proxima_b_blocks:2, Proxima B Stone
+galaxyspace:proxima_b_blocks:3, Proxima B Ice Surface
+galaxyspace:proxima_b_blocks:4, Proxima B Ash Rock
+galaxyspace:proxima_b_blocks:5, Gold Ore
+galaxyspace:proxima_b_blocks:6, Tin Ore
+galaxyspace:proxima_b_blocks:7, Copper Ore
+galaxyspace:proxima_b_blocks:8, Coal Ore
+galaxyspace:proxima_b_blocks:9, Silicon Ore
+galaxyspace:proxima_b_blocks:10, Diamond Ore
+galaxyspace:proxima_b_blocks:11, Proxima B Rocky Surface
+galaxyspace:proxima_b_blocks:12, Proxima B Mushroom Skin
+galaxyspace:proxima_b_blocks:13, Proxima B Mushroom Geyser
+galaxyspace:proxima_b_blocks:14, Proxima B Mud
+galaxyspace:proxima_b_log_1, Proxima B Burnt Wood
+galaxyspace:proxima_b_log_2, Proxima B Frozen Wood
+galaxyspace:proxima_b_mushroom_log, Proxima B Mushroom Stem
+galaxyspace:proxima_b_grasses, Proxima B Grass
+galaxyspace:proxima_b_dandelions:0, Proxima B Red Tallgrass
+galaxyspace:proxima_b_dandelions:1, Proxima B Red Tallgrass
 galaxyspace:tauceti_f_blocks:0, τ Ceti F Dirt
 galaxyspace:tauceti_f_blocks:1, τ Ceti F Grass
 galaxyspace:tauceti_f_blocks:2, τ Ceti F Stone
@@ -19249,27 +19270,6 @@ galaxyspace:tauceti_f_corals:7, Horn Coral Fan
 galaxyspace:tauceti_f_corals:8, Tube Coral
 galaxyspace:tauceti_f_corals:9, Tube Coral Fan
 galaxyspace:tauceti_f_corals:10, Sponge Coral
-galaxyspace:proxima_b_blocks:0, Proxima B Surface
-galaxyspace:proxima_b_blocks:1, Proxima B Subsurface
-galaxyspace:proxima_b_blocks:2, Proxima B Stone
-galaxyspace:proxima_b_blocks:3, Proxima B Ice Surface
-galaxyspace:proxima_b_blocks:4, Proxima B Ash Rock
-galaxyspace:proxima_b_blocks:5, Gold Ore
-galaxyspace:proxima_b_blocks:6, Tin Ore
-galaxyspace:proxima_b_blocks:7, Copper Ore
-galaxyspace:proxima_b_blocks:8, Coal Ore
-galaxyspace:proxima_b_blocks:9, Silicon Ore
-galaxyspace:proxima_b_blocks:10, Diamond Ore
-galaxyspace:proxima_b_blocks:11, Proxima B Rocky Surface
-galaxyspace:proxima_b_blocks:12, Proxima B Mushroom Skin
-galaxyspace:proxima_b_blocks:13, Proxima B Mushroom Geyser
-galaxyspace:proxima_b_blocks:14, Proxima B Mud
-galaxyspace:proxima_b_log_1, Proxima B Burnt Wood
-galaxyspace:proxima_b_log_2, Proxima B Frozen Wood
-galaxyspace:proxima_b_mushroom_log, Proxima B Mushroom Stem
-galaxyspace:proxima_b_grasses, Proxima B Grass
-galaxyspace:proxima_b_dandelions:0, Proxima B Red Tallgrass
-galaxyspace:proxima_b_dandelions:1, Proxima B Red Tallgrass
 galaxyspace:barnarda_c_grasses:0, Barnard C Grass
 galaxyspace:barnarda_c_grasses:1, tile.barnarda_c_grass_1.name
 galaxyspace:barnarda_c_blocks:0, Barnard C Dirt
@@ -19358,6 +19358,39 @@ astraladditions:block_black_marble_chiseled_wall, Sooty Chiseled Marble Wall
 astraladditions:block_black_marble_engraved_wall, Sooty Engraved Marble Wall
 astraladditions:block_black_marble_runed_wall, Sooty Runed Marble Wall
 astraladditions:block_starmetal, Block of Starmetal
+quark:glass_shards:0, Glass Shard
+quark:glass_shards:1, White Glass Shard
+quark:glass_shards:2, Orange Glass Shard
+quark:glass_shards:3, Magenta Glass Shard
+quark:glass_shards:4, Light Blue Glass Shard
+quark:glass_shards:5, Yellow Glass Shard
+quark:glass_shards:6, Lime Glass Shard
+quark:glass_shards:7, Pink Glass Shard
+quark:glass_shards:8, Gray Glass Shard
+quark:glass_shards:9, Light Gray Glass Shard
+quark:glass_shards:10, Cyan Glass Shard
+quark:glass_shards:11, Purple Glass Shard
+quark:glass_shards:12, Blue Glass Shard
+quark:glass_shards:13, Brown Glass Shard
+quark:glass_shards:14, Green Glass Shard
+quark:glass_shards:15, Red Glass Shard
+quark:glass_shards:16, Black Glass Shard
+quark:chute, tile.chute.name
+quark:sugar_block, tile.sugar_block.name
+quark:redstone_randomizer, tile.redstone_randomizer.name
+quark:iron_button, tile.iron_button.name
+quark:gold_button, tile.gold_button.name
+quark:iron_rod, tile.iron_rod.name
+quark:color_slime:0, Red Slime Block
+quark:color_slime:1, Blue Slime Block
+quark:color_slime:2, Cyan Slime Block
+quark:color_slime:3, Magenta Slime Block
+quark:color_slime:4, Yellow Slime Block
+quark:gravisand, tile.gravisand.name
+quark:redstone_inductor, tile.redstone_inductor.name
+quark:obsidian_pressure_plate, tile.obsidian_pressure_plate.name
+quark:rain_detector, tile.rain_detector.name
+quark:chain, item.chain.name
 quark:paper_wall, tile.paper_wall.name
 quark:paper_wall_big, tile.paper_wall_big.name
 quark:paper_wall_sakura, tile.paper_wall_sakura.name
@@ -19453,23 +19486,38 @@ quark:dark_oak_button, tile.dark_oak_button.name
 quark:grate, tile.grate.name
 quark:charcoal_block, tile.charcoal_block.name
 quark:glass_item_frame, item.glass_item_frame.name
-quark:glass_shards:0, Glass Shard
-quark:glass_shards:1, White Glass Shard
-quark:glass_shards:2, Orange Glass Shard
-quark:glass_shards:3, Magenta Glass Shard
-quark:glass_shards:4, Light Blue Glass Shard
-quark:glass_shards:5, Yellow Glass Shard
-quark:glass_shards:6, Lime Glass Shard
-quark:glass_shards:7, Pink Glass Shard
-quark:glass_shards:8, Gray Glass Shard
-quark:glass_shards:9, Light Gray Glass Shard
-quark:glass_shards:10, Cyan Glass Shard
-quark:glass_shards:11, Purple Glass Shard
-quark:glass_shards:12, Blue Glass Shard
-quark:glass_shards:13, Brown Glass Shard
-quark:glass_shards:14, Green Glass Shard
-quark:glass_shards:15, Red Glass Shard
-quark:glass_shards:16, Black Glass Shard
+quark:pickarang, item.pickarang.name
+quark:arrow_ender, item.arrow_ender.name
+quark:arrow_explosive, item.arrow_explosive.name
+quark:arrow_torch, item.arrow_torch.name
+quark:slime_bucket:0, Slime in a Bucket
+quark:rune:0, White Rune
+quark:rune:1, Orange Rune
+quark:rune:2, Magenta Rune
+quark:rune:3, Light Blue Rune
+quark:rune:4, Yellow Rune
+quark:rune:5, Lime Rune
+quark:rune:6, Pink Rune
+quark:rune:7, Gray Rune
+quark:rune:8, Light Gray Rune
+quark:rune:9, Cyan Rune
+quark:rune:10, Purple Rune
+quark:rune:11, Blue Rune
+quark:rune:12, Brown Rune
+quark:rune:13, Green Rune
+quark:rune:14, Red Rune
+quark:rune:15, Black Rune
+quark:rune:16, Rainbow Rune
+quark:black_ash, tile.black_ash.name
+quark:ancient_tome, item.ancient_tome.name
+quark:horse_whistle, item.horse_whistle.name
+quark:soul_powder, item.soul_powder.name
+quark:parrot_egg:0, Red Parrot Egg
+quark:parrot_egg:1, Blue Parrot Egg
+quark:parrot_egg:2, Green Parrot Egg
+quark:parrot_egg:3, Cyan Parrot Egg
+quark:parrot_egg:4, Gray Parrot Egg
+quark:enderdragon_scale, item.enderdragon_scale.name
 quark:diamond_heart, item.diamond_heart.name
 quark:variant_leaves:0, Swamp Oak Leaves
 quark:variant_leaves:1, Blossoming Leaves
@@ -19814,7 +19862,7 @@ quark:polished_netherrack:1, Netherwrought Bricks
 quark:polished_netherrack_bricks_stairs, tile.polished_netherrack_bricks_stairs.name
 quark:polished_netherrack_bricks_slab:0, Netherwrought Brick Slab
 quark:polished_netherrack_bricks_wall, tile.polished_netherrack_bricks_wall.name
-quark:trowel, Trowel
+quark:trowel, item.trowel.name
 quark:quilted_wool:0, White Quilted Wool
 quark:quilted_wool:1, Orange Quilted Wool
 quark:quilted_wool:2, Magenta Quilted Wool
@@ -19831,59 +19879,11 @@ quark:quilted_wool:12, Brown Quilted Wool
 quark:quilted_wool:13, Green Quilted Wool
 quark:quilted_wool:14, Red Quilted Wool
 quark:quilted_wool:15, Black Quilted Wool
-quark:chute, tile.chute.name
-quark:sugar_block, tile.sugar_block.name
-quark:redstone_randomizer, tile.redstone_randomizer.name
-quark:iron_button, tile.iron_button.name
-quark:gold_button, tile.gold_button.name
-quark:iron_rod, tile.iron_rod.name
-quark:color_slime:0, Red Slime Block
-quark:color_slime:1, Blue Slime Block
-quark:color_slime:2, Cyan Slime Block
-quark:color_slime:3, Magenta Slime Block
-quark:color_slime:4, Yellow Slime Block
-quark:gravisand, tile.gravisand.name
-quark:redstone_inductor, tile.redstone_inductor.name
-quark:obsidian_pressure_plate, tile.obsidian_pressure_plate.name
-quark:rain_detector, tile.rain_detector.name
-quark:chain, item.chain.name
 quark:witch_hat, item.witch_hat.name
-quark:pickarang, item.pickarang.name
-quark:arrow_ender, item.arrow_ender.name
-quark:arrow_explosive, item.arrow_explosive.name
-quark:arrow_torch, item.arrow_torch.name
-quark:slime_bucket:0, Slime in a Bucket
-quark:rune:0, White Rune
-quark:rune:1, Orange Rune
-quark:rune:2, Magenta Rune
-quark:rune:3, Light Blue Rune
-quark:rune:4, Yellow Rune
-quark:rune:5, Lime Rune
-quark:rune:6, Pink Rune
-quark:rune:7, Gray Rune
-quark:rune:8, Light Gray Rune
-quark:rune:9, Cyan Rune
-quark:rune:10, Purple Rune
-quark:rune:11, Blue Rune
-quark:rune:12, Brown Rune
-quark:rune:13, Green Rune
-quark:rune:14, Red Rune
-quark:rune:15, Black Rune
-quark:rune:16, Rainbow Rune
-quark:black_ash, tile.black_ash.name
-quark:ancient_tome, item.ancient_tome.name
-quark:horse_whistle, item.horse_whistle.name
-quark:soul_powder, item.soul_powder.name
-quark:parrot_egg:0, Red Parrot Egg
-quark:parrot_egg:1, Blue Parrot Egg
-quark:parrot_egg:2, Green Parrot Egg
-quark:parrot_egg:3, Cyan Parrot Egg
-quark:parrot_egg:4, Gray Parrot Egg
-quark:enderdragon_scale, item.enderdragon_scale.name
-bc_ex_laser:ex_laser_mk3, EX Laser MK3
 bc_ex_laser:ex_laser_mk4, EX Laser MK4
-bc_ex_laser:ex_laser_mk5, EX Laser MK5
 bc_ex_laser:ex_laser_mk2, EX Laser MK2
+bc_ex_laser:ex_laser_mk5, EX Laser MK5
+bc_ex_laser:ex_laser_mk3, EX Laser MK3
 bc_ex_laser:heatproof_diamond_powder, Heatproof Diamond Powder
 betterquesting:placeholder, Item Placeholder
 betterquesting:extra_life:0, Extra Life
@@ -20125,6 +20125,169 @@ thaumcraft:seal:15, Control Seal: Stock
 thaumcraft:seal:16, Control Seal: Advanced Block Breaker
 thaumcraft:seal:17, Control Seal: Secure
 thaumcraft:seal:18, Advanced Control Seal: Secure
+botania:livingwood0stairs, tile.livingwood0Stairs.name
+botania:livingwood0slab:0, Livingwood Slab
+botania:livingwood0wall, tile.livingwood0Wall.name
+botania:livingwood1stairs, tile.livingwood1Stairs.name
+botania:livingwood1slab:0, Livingwood Plank Slab
+botania:livingrock0stairs, tile.livingrock0Stairs.name
+botania:livingrock0slab:0, Livingrock Slab
+botania:livingrock0wall, tile.livingrock0Wall.name
+botania:livingrock1stairs, tile.livingrock1Stairs.name
+botania:livingrock1slab:0, Livingrock Brick Slab
+botania:dreamwood0stairs, tile.dreamwood0Stairs.name
+botania:dreamwood0slab:0, Dreamwood Slab
+botania:dreamwood0wall, tile.dreamwood0Wall.name
+botania:dreamwood1stairs, tile.dreamwood1Stairs.name
+botania:dreamwood1slab:0, Dreamwood Plank Slab
+botania:quartztypedark:0, Block of Smokey Quartz
+botania:quartztypedark:1, Chiseled Smokey Quartz Block
+botania:quartztypedark:2, Pillar Smokey Quartz Block
+botania:quartzslabdarkhalf:0, Smokey Quartz Slab
+botania:quartzstairsdark, tile.quartzStairsDark.name
+botania:quartztypemana:0, Block of Mana Quartz
+botania:quartztypemana:1, Chiseled Mana Quartz Block
+botania:quartztypemana:2, Pillar Mana Quartz Block
+botania:quartzslabmanahalf:0, Mana Quartz Slab
+botania:quartzstairsmana, tile.quartzStairsMana.name
+botania:quartztypeblaze:0, Block of Blaze Quartz
+botania:quartztypeblaze:1, Chiseled Blaze Quartz Block
+botania:quartztypeblaze:2, Pillar Blaze Quartz Block
+botania:quartzslabblazehalf:0, Blaze Quartz Slab
+botania:quartzstairsblaze, tile.quartzStairsBlaze.name
+botania:quartztypelavender:0, Block of Lavender Quartz
+botania:quartztypelavender:1, Chiseled Lavender Quartz Block
+botania:quartztypelavender:2, Pillar Lavender Quartz Block
+botania:quartzslablavenderhalf:0, Lavender Quartz Slab
+botania:quartzstairslavender, tile.quartzStairsLavender.name
+botania:quartztypered:0, Block of Redquartz
+botania:quartztypered:1, Chiseled Redquartz Block
+botania:quartztypered:2, Pillar Redquartz Block
+botania:quartzslabredhalf:0, Redquartz Slab
+botania:quartzstairsred, tile.quartzStairsRed.name
+botania:quartztypeelf:0, Block of Elven Quartz
+botania:quartztypeelf:1, Chiseled Elven Quartz Block
+botania:quartztypeelf:2, Pillar Elven Quartz Block
+botania:quartzslabelfhalf:0, Elven Quartz Slab
+botania:quartzstairself, tile.quartzStairsElf.name
+botania:quartztypesunny:0, Block of Sunny Quartz
+botania:quartztypesunny:1, Chiseled Sunny Quartz Block
+botania:quartztypesunny:2, Pillar Sunny Quartz Block
+botania:quartzslabsunnyhalf:0, Sunny Quartz Slab
+botania:quartzstairssunny, tile.quartzStairsSunny.name
+botania:biomestonea:0, Metamorphic Forest Stone
+botania:biomestonea:1, Metamorphic Plains Stone
+botania:biomestonea:2, Metamorphic Mountain Stone
+botania:biomestonea:3, Metamorphic Fungal Stone
+botania:biomestonea:4, Metamorphic Swamp Stone
+botania:biomestonea:5, Metamorphic Desert Stone
+botania:biomestonea:6, Metamorphic Taiga Stone
+botania:biomestonea:7, Metamorphic Mesa Stone
+botania:biomestonea:8, Metamorphic Forest Cobblestone
+botania:biomestonea:9, Metamorphic Plains Cobblestone
+botania:biomestonea:10, Metamorphic Mountain Cobblestone
+botania:biomestonea:11, Metamorphic Fungal Cobblestone
+botania:biomestonea:12, Metamorphic Swamp Cobblestone
+botania:biomestonea:13, Metamorphic Desert Cobblestone
+botania:biomestonea:14, Metamorphic Taiga Cobblestone
+botania:biomestonea:15, Metamorphic Mesa Cobblestone
+botania:biomestoneb:0, Metamorphic Forest Stone Bricks
+botania:biomestoneb:1, Metamorphic Plains Stone Bricks
+botania:biomestoneb:2, Metamorphic Mountain Stone Bricks
+botania:biomestoneb:3, Metamorphic Fungal Stone Bricks
+botania:biomestoneb:4, Metamorphic Swamp Stone Bricks
+botania:biomestoneb:5, Metamorphic Desert Stone Bricks
+botania:biomestoneb:6, Metamorphic Taiga Stone Bricks
+botania:biomestoneb:7, Metamorphic Mesa Stone Bricks
+botania:biomestoneb:8, Chiseled Metamorphic Forest Stone Brick
+botania:biomestoneb:9, Chiseled Metamorphic Plains Stone Brick
+botania:biomestoneb:10, Chiseled Metamorphic Mountain Stone Brick
+botania:biomestoneb:11, Chiseled Metamorphic Fungal Stone Brick
+botania:biomestoneb:12, Chiseled Metamorphic Swamp Stone Brick
+botania:biomestoneb:13, Chiseled Metamorphic Desert Stone Brick
+botania:biomestoneb:14, Chiseled Metamorphic Taiga Stone Brick
+botania:biomestoneb:15, Chiseled Metamorphic Mesa Stone Brick
+botania:pavement:0, White Portuguese Pavement
+botania:pavement:1, Black Portuguese Pavement
+botania:pavement:2, Blue Portuguese Pavement
+botania:pavement:3, Red Portuguese Pavement
+botania:pavement:4, Yellow Portuguese Pavement
+botania:pavement:5, Green Portuguese Pavement
+botania:biomestonea0stairs, tile.biomeStoneA0Stairs.name
+botania:biomestonea0slab:0, Metamorphic Forest Stone Slab
+botania:biomestonea1stairs, tile.biomeStoneA1Stairs.name
+botania:biomestonea1slab:0, Metamorphic Plains Stone Slab
+botania:biomestonea2stairs, tile.biomeStoneA2Stairs.name
+botania:biomestonea2slab:0, Metamorphic Mountain Stone Slab
+botania:biomestonea3stairs, tile.biomeStoneA3Stairs.name
+botania:biomestonea3slab:0, Metamorphic Fungal Stone Slab
+botania:biomestonea4stairs, tile.biomeStoneA4Stairs.name
+botania:biomestonea4slab:0, Metamorphic Swamp Stone Slab
+botania:biomestonea5stairs, tile.biomeStoneA5Stairs.name
+botania:biomestonea5slab:0, Metamorphic Desert Stone Slab
+botania:biomestonea6stairs, tile.biomeStoneA6Stairs.name
+botania:biomestonea6slab:0, Metamorphic Taiga Stone Slab
+botania:biomestonea7stairs, tile.biomeStoneA7Stairs.name
+botania:biomestonea7slab:0, Metamorphic Mesa Stone Slab
+botania:biomestonea8stairs, tile.biomeStoneA8Stairs.name
+botania:biomestonea8slab:0, Metamorphic Forest Cobblestone Slab
+botania:biomestonea9stairs, tile.biomeStoneA9Stairs.name
+botania:biomestonea9slab:0, Metamorphic Plains Cobblestone Slab
+botania:biomestonea10stairs, tile.biomeStoneA10Stairs.name
+botania:biomestonea10slab:0, Metamorphic Mountain Cobblestone Slab
+botania:biomestonea11stairs, tile.biomeStoneA11Stairs.name
+botania:biomestonea11slab:0, Metamorphic Fungal Cobblestone Slab
+botania:biomestonea12stairs, tile.biomeStoneA12Stairs.name
+botania:biomestonea12slab:0, Metamorphic Swamp Cobblestone Slab
+botania:biomestonea13stairs, tile.biomeStoneA13Stairs.name
+botania:biomestonea13slab:0, Metamorphic Desert Cobblestone Slab
+botania:biomestonea14stairs, tile.biomeStoneA14Stairs.name
+botania:biomestonea14slab:0, Metamorphic Taiga Cobblestone Slab
+botania:biomestonea15stairs, tile.biomeStoneA15Stairs.name
+botania:biomestonea15slab:0, Metamorphic Mesa Cobblestone Slab
+botania:biomestoneb0stairs, tile.biomeStoneB0Stairs.name
+botania:biomestoneb0slab:0, Metamorphic Forest Stone Brick Slab
+botania:biomestoneb1stairs, tile.biomeStoneB1Stairs.name
+botania:biomestoneb1slab:0, Metamorphic Plains Stone Brick Slab
+botania:biomestoneb2stairs, tile.biomeStoneB2Stairs.name
+botania:biomestoneb2slab:0, Metamorphic Mountain Stone Brick Slab
+botania:biomestoneb3stairs, tile.biomeStoneB3Stairs.name
+botania:biomestoneb3slab:0, Metamorphic Fungal Stone Brick Slab
+botania:biomestoneb4stairs, tile.biomeStoneB4Stairs.name
+botania:biomestoneb4slab:0, Metamorphic Swamp Stone Brick Slab
+botania:biomestoneb5stairs, tile.biomeStoneB5Stairs.name
+botania:biomestoneb5slab:0, Metamorphic Desert Stone Brick Slab
+botania:biomestoneb6stairs, tile.biomeStoneB6Stairs.name
+botania:biomestoneb6slab:0, Metamorphic Taiga Stone Brick Slab
+botania:biomestoneb7stairs, tile.biomeStoneB7Stairs.name
+botania:biomestoneb7slab:0, Metamorphic Mesa Stone Bricks Slab
+botania:biomestonea0wall:0, Metamorphic Forest Cobblestone Wall
+botania:biomestonea0wall:1, Metamorphic Plains Cobblestone Wall
+botania:biomestonea0wall:2, Metamorphic Mountain Cobblestone Wall
+botania:biomestonea0wall:3, Metamorphic Fungal Cobblestone Wall
+botania:biomestonea0wall:4, Metamorphic Swamp Cobblestone Wall
+botania:biomestonea0wall:5, Metamorphic Desert Cobblestone Wall
+botania:biomestonea0wall:6, Metamorphic Taiga Cobblestone Wall
+botania:biomestonea0wall:7, Metamorphic Mesa Cobblestone Wall
+botania:pavement0stairs, tile.pavement0Stairs.name
+botania:pavement0slab:0, White Portuguese Pavement Slab
+botania:pavement1stairs, tile.pavement1Stairs.name
+botania:pavement1slab:0, Black Portuguese Pavement Slab
+botania:pavement2stairs, tile.pavement2Stairs.name
+botania:pavement2slab:0, Blue Portuguese Pavement Slab
+botania:pavement3stairs, tile.pavement3Stairs.name
+botania:pavement3slab:0, Red Portuguese Pavement Slab
+botania:pavement4stairs, tile.pavement4Stairs.name
+botania:pavement4slab:0, Yellow Portuguese Pavement Slab
+botania:pavement5stairs, tile.pavement5Stairs.name
+botania:pavement5slab:0, Green Portuguese Pavement Slab
+botania:shimmerrock0slab:0, Shimmerrock Slab
+botania:shimmerrock0stairs, tile.shimmerrock0Stairs.name
+botania:shimmerwoodplanks0slab:0, Shimmerwood Plank Slab
+botania:shimmerwoodplanks0stairs, tile.shimmerwoodPlanks0Stairs.name
+botania:managlasspane, tile.manaGlassPane.name
+botania:elfglasspane, tile.elfGlassPane.name
+botania:bifrostpermpane, tile.bifrostPermPane.name
 botania:flower:0, Mystical White Flower
 botania:flower:1, Mystical Orange Flower
 botania:flower:2, Mystical Magenta Flower
@@ -20452,169 +20615,6 @@ botania:altgrass:3, Scorched Grass
 botania:altgrass:4, Infused Grass
 botania:altgrass:5, Mutated Grass
 botania:animatedtorch, tile.animatedTorch.name
-botania:livingwood0stairs, tile.livingwood0Stairs.name
-botania:livingwood0slab:0, Livingwood Slab
-botania:livingwood0wall, tile.livingwood0Wall.name
-botania:livingwood1stairs, tile.livingwood1Stairs.name
-botania:livingwood1slab:0, Livingwood Plank Slab
-botania:livingrock0stairs, tile.livingrock0Stairs.name
-botania:livingrock0slab:0, Livingrock Slab
-botania:livingrock0wall, tile.livingrock0Wall.name
-botania:livingrock1stairs, tile.livingrock1Stairs.name
-botania:livingrock1slab:0, Livingrock Brick Slab
-botania:dreamwood0stairs, tile.dreamwood0Stairs.name
-botania:dreamwood0slab:0, Dreamwood Slab
-botania:dreamwood0wall, tile.dreamwood0Wall.name
-botania:dreamwood1stairs, tile.dreamwood1Stairs.name
-botania:dreamwood1slab:0, Dreamwood Plank Slab
-botania:quartztypedark:0, Block of Smokey Quartz
-botania:quartztypedark:1, Chiseled Smokey Quartz Block
-botania:quartztypedark:2, Pillar Smokey Quartz Block
-botania:quartzslabdarkhalf:0, Smokey Quartz Slab
-botania:quartzstairsdark, tile.quartzStairsDark.name
-botania:quartztypemana:0, Block of Mana Quartz
-botania:quartztypemana:1, Chiseled Mana Quartz Block
-botania:quartztypemana:2, Pillar Mana Quartz Block
-botania:quartzslabmanahalf:0, Mana Quartz Slab
-botania:quartzstairsmana, tile.quartzStairsMana.name
-botania:quartztypeblaze:0, Block of Blaze Quartz
-botania:quartztypeblaze:1, Chiseled Blaze Quartz Block
-botania:quartztypeblaze:2, Pillar Blaze Quartz Block
-botania:quartzslabblazehalf:0, Blaze Quartz Slab
-botania:quartzstairsblaze, tile.quartzStairsBlaze.name
-botania:quartztypelavender:0, Block of Lavender Quartz
-botania:quartztypelavender:1, Chiseled Lavender Quartz Block
-botania:quartztypelavender:2, Pillar Lavender Quartz Block
-botania:quartzslablavenderhalf:0, Lavender Quartz Slab
-botania:quartzstairslavender, tile.quartzStairsLavender.name
-botania:quartztypered:0, Block of Redquartz
-botania:quartztypered:1, Chiseled Redquartz Block
-botania:quartztypered:2, Pillar Redquartz Block
-botania:quartzslabredhalf:0, Redquartz Slab
-botania:quartzstairsred, tile.quartzStairsRed.name
-botania:quartztypeelf:0, Block of Elven Quartz
-botania:quartztypeelf:1, Chiseled Elven Quartz Block
-botania:quartztypeelf:2, Pillar Elven Quartz Block
-botania:quartzslabelfhalf:0, Elven Quartz Slab
-botania:quartzstairself, tile.quartzStairsElf.name
-botania:quartztypesunny:0, Block of Sunny Quartz
-botania:quartztypesunny:1, Chiseled Sunny Quartz Block
-botania:quartztypesunny:2, Pillar Sunny Quartz Block
-botania:quartzslabsunnyhalf:0, Sunny Quartz Slab
-botania:quartzstairssunny, tile.quartzStairsSunny.name
-botania:biomestonea:0, Metamorphic Forest Stone
-botania:biomestonea:1, Metamorphic Plains Stone
-botania:biomestonea:2, Metamorphic Mountain Stone
-botania:biomestonea:3, Metamorphic Fungal Stone
-botania:biomestonea:4, Metamorphic Swamp Stone
-botania:biomestonea:5, Metamorphic Desert Stone
-botania:biomestonea:6, Metamorphic Taiga Stone
-botania:biomestonea:7, Metamorphic Mesa Stone
-botania:biomestonea:8, Metamorphic Forest Cobblestone
-botania:biomestonea:9, Metamorphic Plains Cobblestone
-botania:biomestonea:10, Metamorphic Mountain Cobblestone
-botania:biomestonea:11, Metamorphic Fungal Cobblestone
-botania:biomestonea:12, Metamorphic Swamp Cobblestone
-botania:biomestonea:13, Metamorphic Desert Cobblestone
-botania:biomestonea:14, Metamorphic Taiga Cobblestone
-botania:biomestonea:15, Metamorphic Mesa Cobblestone
-botania:biomestoneb:0, Metamorphic Forest Stone Bricks
-botania:biomestoneb:1, Metamorphic Plains Stone Bricks
-botania:biomestoneb:2, Metamorphic Mountain Stone Bricks
-botania:biomestoneb:3, Metamorphic Fungal Stone Bricks
-botania:biomestoneb:4, Metamorphic Swamp Stone Bricks
-botania:biomestoneb:5, Metamorphic Desert Stone Bricks
-botania:biomestoneb:6, Metamorphic Taiga Stone Bricks
-botania:biomestoneb:7, Metamorphic Mesa Stone Bricks
-botania:biomestoneb:8, Chiseled Metamorphic Forest Stone Brick
-botania:biomestoneb:9, Chiseled Metamorphic Plains Stone Brick
-botania:biomestoneb:10, Chiseled Metamorphic Mountain Stone Brick
-botania:biomestoneb:11, Chiseled Metamorphic Fungal Stone Brick
-botania:biomestoneb:12, Chiseled Metamorphic Swamp Stone Brick
-botania:biomestoneb:13, Chiseled Metamorphic Desert Stone Brick
-botania:biomestoneb:14, Chiseled Metamorphic Taiga Stone Brick
-botania:biomestoneb:15, Chiseled Metamorphic Mesa Stone Brick
-botania:pavement:0, White Portuguese Pavement
-botania:pavement:1, Black Portuguese Pavement
-botania:pavement:2, Blue Portuguese Pavement
-botania:pavement:3, Red Portuguese Pavement
-botania:pavement:4, Yellow Portuguese Pavement
-botania:pavement:5, Green Portuguese Pavement
-botania:biomestonea0stairs, tile.biomeStoneA0Stairs.name
-botania:biomestonea0slab:0, Metamorphic Forest Stone Slab
-botania:biomestonea1stairs, tile.biomeStoneA1Stairs.name
-botania:biomestonea1slab:0, Metamorphic Plains Stone Slab
-botania:biomestonea2stairs, tile.biomeStoneA2Stairs.name
-botania:biomestonea2slab:0, Metamorphic Mountain Stone Slab
-botania:biomestonea3stairs, tile.biomeStoneA3Stairs.name
-botania:biomestonea3slab:0, Metamorphic Fungal Stone Slab
-botania:biomestonea4stairs, tile.biomeStoneA4Stairs.name
-botania:biomestonea4slab:0, Metamorphic Swamp Stone Slab
-botania:biomestonea5stairs, tile.biomeStoneA5Stairs.name
-botania:biomestonea5slab:0, Metamorphic Desert Stone Slab
-botania:biomestonea6stairs, tile.biomeStoneA6Stairs.name
-botania:biomestonea6slab:0, Metamorphic Taiga Stone Slab
-botania:biomestonea7stairs, tile.biomeStoneA7Stairs.name
-botania:biomestonea7slab:0, Metamorphic Mesa Stone Slab
-botania:biomestonea8stairs, tile.biomeStoneA8Stairs.name
-botania:biomestonea8slab:0, Metamorphic Forest Cobblestone Slab
-botania:biomestonea9stairs, tile.biomeStoneA9Stairs.name
-botania:biomestonea9slab:0, Metamorphic Plains Cobblestone Slab
-botania:biomestonea10stairs, tile.biomeStoneA10Stairs.name
-botania:biomestonea10slab:0, Metamorphic Mountain Cobblestone Slab
-botania:biomestonea11stairs, tile.biomeStoneA11Stairs.name
-botania:biomestonea11slab:0, Metamorphic Fungal Cobblestone Slab
-botania:biomestonea12stairs, tile.biomeStoneA12Stairs.name
-botania:biomestonea12slab:0, Metamorphic Swamp Cobblestone Slab
-botania:biomestonea13stairs, tile.biomeStoneA13Stairs.name
-botania:biomestonea13slab:0, Metamorphic Desert Cobblestone Slab
-botania:biomestonea14stairs, tile.biomeStoneA14Stairs.name
-botania:biomestonea14slab:0, Metamorphic Taiga Cobblestone Slab
-botania:biomestonea15stairs, tile.biomeStoneA15Stairs.name
-botania:biomestonea15slab:0, Metamorphic Mesa Cobblestone Slab
-botania:biomestoneb0stairs, tile.biomeStoneB0Stairs.name
-botania:biomestoneb0slab:0, Metamorphic Forest Stone Brick Slab
-botania:biomestoneb1stairs, tile.biomeStoneB1Stairs.name
-botania:biomestoneb1slab:0, Metamorphic Plains Stone Brick Slab
-botania:biomestoneb2stairs, tile.biomeStoneB2Stairs.name
-botania:biomestoneb2slab:0, Metamorphic Mountain Stone Brick Slab
-botania:biomestoneb3stairs, tile.biomeStoneB3Stairs.name
-botania:biomestoneb3slab:0, Metamorphic Fungal Stone Brick Slab
-botania:biomestoneb4stairs, tile.biomeStoneB4Stairs.name
-botania:biomestoneb4slab:0, Metamorphic Swamp Stone Brick Slab
-botania:biomestoneb5stairs, tile.biomeStoneB5Stairs.name
-botania:biomestoneb5slab:0, Metamorphic Desert Stone Brick Slab
-botania:biomestoneb6stairs, tile.biomeStoneB6Stairs.name
-botania:biomestoneb6slab:0, Metamorphic Taiga Stone Brick Slab
-botania:biomestoneb7stairs, tile.biomeStoneB7Stairs.name
-botania:biomestoneb7slab:0, Metamorphic Mesa Stone Bricks Slab
-botania:biomestonea0wall:0, Metamorphic Forest Cobblestone Wall
-botania:biomestonea0wall:1, Metamorphic Plains Cobblestone Wall
-botania:biomestonea0wall:2, Metamorphic Mountain Cobblestone Wall
-botania:biomestonea0wall:3, Metamorphic Fungal Cobblestone Wall
-botania:biomestonea0wall:4, Metamorphic Swamp Cobblestone Wall
-botania:biomestonea0wall:5, Metamorphic Desert Cobblestone Wall
-botania:biomestonea0wall:6, Metamorphic Taiga Cobblestone Wall
-botania:biomestonea0wall:7, Metamorphic Mesa Cobblestone Wall
-botania:pavement0stairs, tile.pavement0Stairs.name
-botania:pavement0slab:0, White Portuguese Pavement Slab
-botania:pavement1stairs, tile.pavement1Stairs.name
-botania:pavement1slab:0, Black Portuguese Pavement Slab
-botania:pavement2stairs, tile.pavement2Stairs.name
-botania:pavement2slab:0, Blue Portuguese Pavement Slab
-botania:pavement3stairs, tile.pavement3Stairs.name
-botania:pavement3slab:0, Red Portuguese Pavement Slab
-botania:pavement4stairs, tile.pavement4Stairs.name
-botania:pavement4slab:0, Yellow Portuguese Pavement Slab
-botania:pavement5stairs, tile.pavement5Stairs.name
-botania:pavement5slab:0, Green Portuguese Pavement Slab
-botania:shimmerrock0slab:0, Shimmerrock Slab
-botania:shimmerrock0stairs, tile.shimmerrock0Stairs.name
-botania:shimmerwoodplanks0slab:0, Shimmerwood Plank Slab
-botania:shimmerwoodplanks0stairs, tile.shimmerwoodPlanks0Stairs.name
-botania:managlasspane, tile.manaGlassPane.name
-botania:elfglasspane, tile.elfGlassPane.name
-botania:bifrostpermpane, tile.bifrostPermPane.name
 botania:lexicon, item.lexicon.name
 botania:petal:0, Mystical White Petal
 botania:petal:1, Mystical Orange Petal
@@ -23802,67 +23802,6 @@ deeperdepths:ominous_bottle:2, Ominous Bottle
 deeperdepths:ominous_bottle:3, Ominous Bottle
 deeperdepths:ominous_bottle:4, Ominous Bottle
 deeperdepths:mace, Mace
-mocreatures:deep_wyvstone_button, Deep Wyvstone Button [NYI]
-mocreatures:wyvstone_button, Wyvstone Button
-mocreatures:wyvwood_button, Wyvwood Button
-mocreatures:wyvdirt, Wyvdirt
-mocreatures:wyvwood_fence_gate, Wyvwood Fence Gate
-mocreatures:wyvwood_fence, Wyvwood Fence
-mocreatures:firestone, Firestone [NYI]
-mocreatures:gleaming_glass, Gleaming Glass
-mocreatures:wyvgrass, Wyvgrass Block
-mocreatures:wyvwood_leaves, Wyvwood Leaves
-mocreatures:wyvwood_log, Wyvwood Log
-mocreatures:ancient_silver_block, Block of Ancient Silver
-mocreatures:fine_silver_block, Block of Fine Silver
-mocreatures:wyvern_nest_block, Wyvern Nest Block [NYI]
-mocreatures:ancient_ore, Ancient Ore [NYI]
-mocreatures:wyvern_diamond_ore, Wyvern Diamond Ore [NYI]
-mocreatures:wyvern_emerald_ore, Wyvern Emerald Ore [NYI]
-mocreatures:wyvern_gold_ore, Wyvern Gold Ore [NYI]
-mocreatures:wyvern_iron_ore, Wyvern Iron Ore [NYI]
-mocreatures:wyvern_lapis_ore, Wyvern Lapis Lazuli Ore [NYI]
-mocreatures:gleaming_glass_pane, Gleaming Glass Pane
-mocreatures:wyvwood_planks, Wyvwood Planks
-mocreatures:deep_wyvstone_pressure_plate, Deep Wyvstone Pressure Plate [NYI]
-mocreatures:wyvstone_pressure_plate, Wyvstone Pressure Plate
-mocreatures:wyvwood_pressure_plate, Wyvwood Pressure Plate
-mocreatures:carved_silver_sandstone, Chiseled Silver Sandstone
-mocreatures:silver_sandstone, Silver Sandstone
-mocreatures:smooth_silver_sandstone, Cut Silver Sandstone
-mocreatures:cobbled_deep_wyvstone, Cobbled Deep Wyvstone [NYI]
-mocreatures:cobbled_wyvstone, Cobbled Wyvstone
-mocreatures:deep_wyvstone, Deep Wyvstone [NYI]
-mocreatures:mossy_cobbled_deep_wyvstone, Mossy Cobbled Deep Wyvstone [NYI]
-mocreatures:mossy_cobbled_wyvstone, Mossy Cobbled Wyvstone
-mocreatures:wyvstone, Wyvstone
-mocreatures:silver_sand, Silver Sand
-mocreatures:wyvwood_sapling, Wyvwood Sapling
-mocreatures:wyvwood_stairs, Wyvwood Stairs
-mocreatures:silver_sandstone_stairs, Silver Sandstone Stairs
-mocreatures:cobbled_deep_wyvstone_stairs, Cobbled Deep Wyvstone Stairs [NYI]
-mocreatures:cobbled_wyvstone_stairs, Cobbled Wyvstone Stairs
-mocreatures:deep_wyvstone_stairs, Deep Wyvstone Stairs [NYI]
-mocreatures:mossy_cobbled_deep_wyvstone_stairs, Mossy Cobbled Deep Wyvstone Stairs [NYI]
-mocreatures:mossy_cobbled_wyvstone_stairs, Mossy Cobbled Wyvstone Stairs
-mocreatures:wyvstone_stairs, Wyvstone Stairs
-mocreatures:tall_wyvgrass, Wyvgrass
-mocreatures:wyvwood_trapdoor, Wyvwood Trapdoor
-mocreatures:silver_sandstone_wall, Silver Sandstone Wall
-mocreatures:cobbled_deep_wyvstone_wall, Cobbled Deep Wyvstone Wall [NYI]
-mocreatures:cobbled_wyvstone_wall, Cobbled Wyvstone Wall
-mocreatures:deep_wyvstone_wall, Deep Wyvstone Wall [NYI]
-mocreatures:mossy_cobbled_deep_wyvstone_wall, Mossy Cobbled Deep Wyvstone Wall [NYI]
-mocreatures:mossy_cobbled_wyvstone_wall, Mossy Cobbled Wyvstone Wall
-mocreatures:wyvstone_wall, Wyvstone Wall
-mocreatures:silver_sandstone_slab:0, Silver Sandstone Slab
-mocreatures:cobbled_deep_wyvstone_slab:0, Cobbled Deep Wyvstone Slab [NYI]
-mocreatures:cobbled_wyvstone_slab:0, Cobbled Wyvstone Slab
-mocreatures:deep_wyvstone_slab:0, Deep Wyvstone Slab [NYI]
-mocreatures:mossy_cobbled_deep_wyvstone_slab:0, Mossy Cobbled Deep Wyvstone Slab [NYI]
-mocreatures:mossy_cobbled_wyvstone_slab:0, Mossy Cobbled Wyvstone Slab
-mocreatures:wyvstone_slab:0, Wyvstone Slab
-mocreatures:wyvwood_slab:0, Wyvwood Slab
 mocreatures:kittybed_white, White Kitty Bed
 mocreatures:kittybed_orange, Orange Kitty Bed
 mocreatures:kittybed_magenta, Magenta Kitty Bed
@@ -24082,6 +24021,67 @@ mocreatures:scrollofsale, Scroll of Sale
 mocreatures:scrollofrenaming, Scroll of Renaming
 mocreatures:crabraw, Raw Crab
 mocreatures:crabcooked, Cooked Crab
+mocreatures:deep_wyvstone_button, Deep Wyvstone Button [NYI]
+mocreatures:wyvstone_button, Wyvstone Button
+mocreatures:wyvwood_button, Wyvwood Button
+mocreatures:wyvdirt, Wyvdirt
+mocreatures:wyvwood_fence_gate, Wyvwood Fence Gate
+mocreatures:wyvwood_fence, Wyvwood Fence
+mocreatures:firestone, Firestone [NYI]
+mocreatures:gleaming_glass, Gleaming Glass
+mocreatures:wyvgrass, Wyvgrass Block
+mocreatures:wyvwood_leaves, Wyvwood Leaves
+mocreatures:wyvwood_log, Wyvwood Log
+mocreatures:ancient_silver_block, Block of Ancient Silver
+mocreatures:fine_silver_block, Block of Fine Silver
+mocreatures:wyvern_nest_block, Wyvern Nest Block [NYI]
+mocreatures:ancient_ore, Ancient Ore [NYI]
+mocreatures:wyvern_diamond_ore, Wyvern Diamond Ore [NYI]
+mocreatures:wyvern_emerald_ore, Wyvern Emerald Ore [NYI]
+mocreatures:wyvern_gold_ore, Wyvern Gold Ore [NYI]
+mocreatures:wyvern_iron_ore, Wyvern Iron Ore [NYI]
+mocreatures:wyvern_lapis_ore, Wyvern Lapis Lazuli Ore [NYI]
+mocreatures:gleaming_glass_pane, Gleaming Glass Pane
+mocreatures:wyvwood_planks, Wyvwood Planks
+mocreatures:deep_wyvstone_pressure_plate, Deep Wyvstone Pressure Plate [NYI]
+mocreatures:wyvstone_pressure_plate, Wyvstone Pressure Plate
+mocreatures:wyvwood_pressure_plate, Wyvwood Pressure Plate
+mocreatures:carved_silver_sandstone, Chiseled Silver Sandstone
+mocreatures:silver_sandstone, Silver Sandstone
+mocreatures:smooth_silver_sandstone, Cut Silver Sandstone
+mocreatures:cobbled_deep_wyvstone, Cobbled Deep Wyvstone [NYI]
+mocreatures:cobbled_wyvstone, Cobbled Wyvstone
+mocreatures:deep_wyvstone, Deep Wyvstone [NYI]
+mocreatures:mossy_cobbled_deep_wyvstone, Mossy Cobbled Deep Wyvstone [NYI]
+mocreatures:mossy_cobbled_wyvstone, Mossy Cobbled Wyvstone
+mocreatures:wyvstone, Wyvstone
+mocreatures:silver_sand, Silver Sand
+mocreatures:wyvwood_sapling, Wyvwood Sapling
+mocreatures:wyvwood_stairs, Wyvwood Stairs
+mocreatures:silver_sandstone_stairs, Silver Sandstone Stairs
+mocreatures:cobbled_deep_wyvstone_stairs, Cobbled Deep Wyvstone Stairs [NYI]
+mocreatures:cobbled_wyvstone_stairs, Cobbled Wyvstone Stairs
+mocreatures:deep_wyvstone_stairs, Deep Wyvstone Stairs [NYI]
+mocreatures:mossy_cobbled_deep_wyvstone_stairs, Mossy Cobbled Deep Wyvstone Stairs [NYI]
+mocreatures:mossy_cobbled_wyvstone_stairs, Mossy Cobbled Wyvstone Stairs
+mocreatures:wyvstone_stairs, Wyvstone Stairs
+mocreatures:tall_wyvgrass, Wyvgrass
+mocreatures:wyvwood_trapdoor, Wyvwood Trapdoor
+mocreatures:silver_sandstone_wall, Silver Sandstone Wall
+mocreatures:cobbled_deep_wyvstone_wall, Cobbled Deep Wyvstone Wall [NYI]
+mocreatures:cobbled_wyvstone_wall, Cobbled Wyvstone Wall
+mocreatures:deep_wyvstone_wall, Deep Wyvstone Wall [NYI]
+mocreatures:mossy_cobbled_deep_wyvstone_wall, Mossy Cobbled Deep Wyvstone Wall [NYI]
+mocreatures:mossy_cobbled_wyvstone_wall, Mossy Cobbled Wyvstone Wall
+mocreatures:wyvstone_wall, Wyvstone Wall
+mocreatures:silver_sandstone_slab:0, Silver Sandstone Slab
+mocreatures:cobbled_deep_wyvstone_slab:0, Cobbled Deep Wyvstone Slab [NYI]
+mocreatures:cobbled_wyvstone_slab:0, Cobbled Wyvstone Slab
+mocreatures:deep_wyvstone_slab:0, Deep Wyvstone Slab [NYI]
+mocreatures:mossy_cobbled_deep_wyvstone_slab:0, Mossy Cobbled Deep Wyvstone Slab [NYI]
+mocreatures:mossy_cobbled_wyvstone_slab:0, Mossy Cobbled Wyvstone Slab
+mocreatures:wyvstone_slab:0, Wyvstone Slab
+mocreatures:wyvwood_slab:0, Wyvwood Slab
 enderportaldecoration:gateway:0, End Gateway Style Block
 enderportaldecoration:gateway:1, End Gateway Style Block
 enderportaldecoration:gateway:2, End Gateway Style Block
@@ -27886,35 +27886,6 @@ crimsonrevelations:thaumic_litmus_paper, Thaumic Litmus Paper
 crimsonrevelations:meteor_boots, Boots of the Meteor
 crimsonrevelations:ethereal_bloom, Ethereal Bloom
 crimsonrevelations:magic_tallow_block, Magic Tallow Block
-oe:turtle_helmet, Turtle Shell
-oe:trident, Trident
-oe:turtle_scute, Scute
-oe:barnacle_shells, Barnacle Shells
-oe:nautilus_shell, Nautilus Shell
-oe:heart_of_the_sea, Heart of the Sea
-oe:pearl, Pearl
-oe:conch, Conch
-oe:magic_conch, Magic Conch
-oe:charm, Conduit Charm
-oe:glow_ink_sac, Glow Ink Sac
-oe:glow_item_frame, Glow Item Frame
-oe:bleak, Bleak Mulch
-oe:sponge_chunk, Sponge Chunk
-oe:sponge_chunk_wet, Damp Sponge Chunk
-oe:crab, Raw Crab
-oe:cooked_crab, Cooked Crab
-oe:crab_bisque, Crab Bisque
-oe:crustacean_shell, Crustacean Shell
-oe:lobster, Raw Lobster
-oe:cooked_lobster, Cooked Lobster
-oe:lobster_bisque, Lobster Bisque
-oe:blue_slime_ball, Tropical Slimeball
-oe:coconut_open, Cracked Coconut
-oe:dried_kelp, Dried Kelp
-oe:dried_dulse, Dried Dulse
-oe:palm_boat, Palm Boat
-oe:spawn_bucket, Bucket of %s
-oe:heavy_boots, Heavy Boots
 oe:guardian_spike, Guardian Spike
 oe:sea_pickle, Sea Pickle
 oe:turtle_egg, Turtle Egg
@@ -27982,6 +27953,35 @@ oe:shell_sand, Shelly Sand
 oe:tube_sponge, Tube Sponge
 oe:underwater_tnt, Underwater TNT
 oe:underwater_torch, Underwater Torch
+oe:turtle_helmet, Turtle Shell
+oe:trident, Trident
+oe:turtle_scute, Scute
+oe:barnacle_shells, Barnacle Shells
+oe:nautilus_shell, Nautilus Shell
+oe:heart_of_the_sea, Heart of the Sea
+oe:pearl, Pearl
+oe:conch, Conch
+oe:magic_conch, Magic Conch
+oe:charm, Conduit Charm
+oe:glow_ink_sac, Glow Ink Sac
+oe:glow_item_frame, Glow Item Frame
+oe:bleak, Bleak Mulch
+oe:sponge_chunk, Sponge Chunk
+oe:sponge_chunk_wet, Damp Sponge Chunk
+oe:crab, Raw Crab
+oe:cooked_crab, Cooked Crab
+oe:crab_bisque, Crab Bisque
+oe:crustacean_shell, Crustacean Shell
+oe:lobster, Raw Lobster
+oe:cooked_lobster, Cooked Lobster
+oe:lobster_bisque, Lobster Bisque
+oe:blue_slime_ball, Tropical Slimeball
+oe:coconut_open, Cracked Coconut
+oe:dried_kelp, Dried Kelp
+oe:dried_dulse, Dried Dulse
+oe:palm_boat, Palm Boat
+oe:spawn_bucket, Bucket of %s
+oe:heavy_boots, Heavy Boots
 plethora:neuralinterface, Neural interface
 plethora:neuralconnector, Neural connector
 plethora:module:0, Introspection module
@@ -28812,8 +28812,8 @@ spartanfire:staff_lightning_dragonsteel, item.spartanfire:staff_lightning_dragon
 spartanfire:glaive_lightning_dragonsteel, item.spartanfire:glaive_lightning_dragonsteel.name
 spartanfire:scythe_lightning_dragonsteel, item.spartanfire:scythe_lightning_dragonsteel.name
 spartanfire:parrying_dagger_lightning_dragonsteel, item.spartanfire:parrying_dagger_lightning_dragonsteel.name
-spartanfire:witherbone_handle, Witherbone Handle
 spartanfire:witherbone_pole, Witherbone Pole
+spartanfire:witherbone_handle, Witherbone Handle
 spartanshields:shield_basic_wood, Crude Wooden Shield
 spartanshields:shield_basic_stone, Stone Braced Shield
 spartanshields:shield_basic_iron, Iron Plated Shield
@@ -29244,6 +29244,7 @@ spartanweaponryarcanaex:quarterstaff_bound, item.spartanweaponryarcanaex:quarter
 spiceoflife:bookfoodjournal, Food Journal
 spiceoflife:lunchbox, Lunch Box
 spiceoflife:lunchbag, Lunch Bag
+srparasites:parasiterubble_slabhalf:0, Fortified Bone Slab
 srparasites:infestedstain, Infested Dirt
 srparasites:infestremain, Infested Residue
 srparasites:infestedtrunk, Infested Log
@@ -29480,7 +29481,6 @@ srparasites:armor_helm_sentient, §6Sentient Helm
 srparasites:armor_chest_sentient, §6Sentient Chest
 srparasites:armor_pants_sentient, §6Sentient Pants
 srparasites:armor_boots_sentient, §6Sentient Boots
-srparasites:parasiterubble_slabhalf:0, Fortified Bone Slab
 srpextra:ada_stalker_drop, Stalker Spine
 srparasites:itemmobspawner_infwitch, Spawn Assimilated Witch
 srparasites:itemmobspawner_infwitchhead, Spawn Walking Witch Head
@@ -30312,8 +30312,6 @@ tfspellpack:charm_ice_exploder, Malignant Ice Pearl
 tfspellpack:charm_goblin, Redcap Miner's Satchel
 tfspellpack:charm_troll, Icy Trollber
 tfspellpack:charm_accursed_tome, Accursed Tome
-thaumicenergistics:infusion_provider, Essentia Infusion Provider
-thaumicenergistics:arcane_assembler, Arcane Assembler
 thaumicenergistics:essentia_cell_1k, 1k ME Essentia Storage Cell
 thaumicenergistics:essentia_cell_4k, 4k ME Essentia Storage Cell
 thaumicenergistics:essentia_cell_16k, 16k ME Essentia Storage Cell
@@ -30335,6 +30333,8 @@ thaumicenergistics:upgrade_arcane, Arcane Charging Upgrade
 thaumicenergistics:knowledge_core, Knowledge Core
 thaumicenergistics:blank_knowledge_core, Blank Knowledge Core
 thaumicenergistics:dummy_aspect, item.thaumicenergistics.dummy_aspect.name
+thaumicenergistics:infusion_provider, Essentia Infusion Provider
+thaumicenergistics:arcane_assembler, Arcane Assembler
 thaumicrestoration:block_reinforced, Thaumium Plated Stone
 thaumicrestoration:block_greatwood, Greatwood Block
 thaumicrestoration:block_greatwood_framed, Thaumium Framed Greatwood
@@ -30559,7 +30559,6 @@ travelersbackpack:backpack_tank, Backpack Tank
 travelersbackpack:sleeping_bag_bottom, Sleeping bag
 travelersbackpack:hose_nozzle, Hose nozzle
 travelersbackpack:hose, Hose
-trowel:trowel, Trowel
 wizandfire:warlock_fire_helmet, Fire Dragon Warlock Hood
 wizandfire:warlock_fire_chestplate, Fire Dragon Warlock Torso
 wizandfire:warlock_fire_leggings, Fire Dragon Warlock Robe
@@ -32748,40 +32747,52 @@ buildcraftsilicon:plug_facade:0, Facade: Maple Leaves
 buildcraftsilicon:plug_facade:0, Facade: Maple Leaves
 buildcraftsilicon:plug_facade:0, Facade: Hellbark Leaves
 buildcraftsilicon:plug_facade:0, Facade: Hellbark Leaves
-buildcraftsilicon:plug_facade:0, Facade: Hellbark Leaves
-buildcraftsilicon:plug_facade:0, Facade: Hellbark Leaves
-buildcraftsilicon:plug_facade:0, Facade: Flowering Oak Leaves
-buildcraftsilicon:plug_facade:0, Facade: Flowering Oak Leaves
 buildcraftsilicon:plug_facade:0, Facade: Flowering Oak Leaves
 buildcraftsilicon:plug_facade:0, Facade: Flowering Oak Leaves
 buildcraftsilicon:plug_facade:0, Facade: Jacaranda Leaves
 buildcraftsilicon:plug_facade:0, Facade: Jacaranda Leaves
-buildcraftsilicon:plug_facade:0, Facade: Jacaranda Leaves
-buildcraftsilicon:plug_facade:0, Facade: Jacaranda Leaves
-buildcraftsilicon:plug_facade:0, Facade: Sacred Oak Leaves
-buildcraftsilicon:plug_facade:0, Facade: Sacred Oak Leaves
 buildcraftsilicon:plug_facade:0, Facade: Sacred Oak Leaves
 buildcraftsilicon:plug_facade:0, Facade: Sacred Oak Leaves
 buildcraftsilicon:plug_facade:0, Facade: Hellbark Leaves
 buildcraftsilicon:plug_facade:0, Facade: Hellbark Leaves
+buildcraftsilicon:plug_facade:0, Facade: Flowering Oak Leaves
+buildcraftsilicon:plug_facade:0, Facade: Flowering Oak Leaves
+buildcraftsilicon:plug_facade:0, Facade: Jacaranda Leaves
+buildcraftsilicon:plug_facade:0, Facade: Jacaranda Leaves
+buildcraftsilicon:plug_facade:0, Facade: Sacred Oak Leaves
+buildcraftsilicon:plug_facade:0, Facade: Sacred Oak Leaves
 buildcraftsilicon:plug_facade:0, Facade: Hellbark Leaves
 buildcraftsilicon:plug_facade:0, Facade: Hellbark Leaves
 buildcraftsilicon:plug_facade:0, Facade: Flowering Oak Leaves
 buildcraftsilicon:plug_facade:0, Facade: Flowering Oak Leaves
+buildcraftsilicon:plug_facade:0, Facade: Jacaranda Leaves
+buildcraftsilicon:plug_facade:0, Facade: Jacaranda Leaves
+buildcraftsilicon:plug_facade:0, Facade: Sacred Oak Leaves
+buildcraftsilicon:plug_facade:0, Facade: Sacred Oak Leaves
+buildcraftsilicon:plug_facade:0, Facade: Hellbark Leaves
+buildcraftsilicon:plug_facade:0, Facade: Hellbark Leaves
 buildcraftsilicon:plug_facade:0, Facade: Flowering Oak Leaves
 buildcraftsilicon:plug_facade:0, Facade: Flowering Oak Leaves
 buildcraftsilicon:plug_facade:0, Facade: Jacaranda Leaves
 buildcraftsilicon:plug_facade:0, Facade: Jacaranda Leaves
-buildcraftsilicon:plug_facade:0, Facade: Jacaranda Leaves
-buildcraftsilicon:plug_facade:0, Facade: Jacaranda Leaves
-buildcraftsilicon:plug_facade:0, Facade: Sacred Oak Leaves
-buildcraftsilicon:plug_facade:0, Facade: Sacred Oak Leaves
 buildcraftsilicon:plug_facade:0, Facade: Sacred Oak Leaves
 buildcraftsilicon:plug_facade:0, Facade: Sacred Oak Leaves
 buildcraftsilicon:plug_facade:0, Facade: Mangrove Leaves
 buildcraftsilicon:plug_facade:0, Facade: Mangrove Leaves
 buildcraftsilicon:plug_facade:0, Facade: Mangrove Leaves
 buildcraftsilicon:plug_facade:0, Facade: Mangrove Leaves
+buildcraftsilicon:plug_facade:0, Facade: Palm Leaves
+buildcraftsilicon:plug_facade:0, Facade: Palm Leaves
+buildcraftsilicon:plug_facade:0, Facade: Palm Leaves
+buildcraftsilicon:plug_facade:0, Facade: Palm Leaves
+buildcraftsilicon:plug_facade:0, Facade: Redwood Leaves
+buildcraftsilicon:plug_facade:0, Facade: Redwood Leaves
+buildcraftsilicon:plug_facade:0, Facade: Redwood Leaves
+buildcraftsilicon:plug_facade:0, Facade: Redwood Leaves
+buildcraftsilicon:plug_facade:0, Facade: Willow Leaves
+buildcraftsilicon:plug_facade:0, Facade: Willow Leaves
+buildcraftsilicon:plug_facade:0, Facade: Willow Leaves
+buildcraftsilicon:plug_facade:0, Facade: Willow Leaves
 buildcraftsilicon:plug_facade:0, Facade: Mangrove Leaves
 buildcraftsilicon:plug_facade:0, Facade: Mangrove Leaves
 buildcraftsilicon:plug_facade:0, Facade: Mangrove Leaves
@@ -32790,22 +32801,10 @@ buildcraftsilicon:plug_facade:0, Facade: Palm Leaves
 buildcraftsilicon:plug_facade:0, Facade: Palm Leaves
 buildcraftsilicon:plug_facade:0, Facade: Palm Leaves
 buildcraftsilicon:plug_facade:0, Facade: Palm Leaves
-buildcraftsilicon:plug_facade:0, Facade: Palm Leaves
-buildcraftsilicon:plug_facade:0, Facade: Palm Leaves
-buildcraftsilicon:plug_facade:0, Facade: Palm Leaves
-buildcraftsilicon:plug_facade:0, Facade: Palm Leaves
 buildcraftsilicon:plug_facade:0, Facade: Redwood Leaves
 buildcraftsilicon:plug_facade:0, Facade: Redwood Leaves
 buildcraftsilicon:plug_facade:0, Facade: Redwood Leaves
 buildcraftsilicon:plug_facade:0, Facade: Redwood Leaves
-buildcraftsilicon:plug_facade:0, Facade: Redwood Leaves
-buildcraftsilicon:plug_facade:0, Facade: Redwood Leaves
-buildcraftsilicon:plug_facade:0, Facade: Redwood Leaves
-buildcraftsilicon:plug_facade:0, Facade: Redwood Leaves
-buildcraftsilicon:plug_facade:0, Facade: Willow Leaves
-buildcraftsilicon:plug_facade:0, Facade: Willow Leaves
-buildcraftsilicon:plug_facade:0, Facade: Willow Leaves
-buildcraftsilicon:plug_facade:0, Facade: Willow Leaves
 buildcraftsilicon:plug_facade:0, Facade: Willow Leaves
 buildcraftsilicon:plug_facade:0, Facade: Willow Leaves
 buildcraftsilicon:plug_facade:0, Facade: Willow Leaves
@@ -32814,10 +32813,22 @@ buildcraftsilicon:plug_facade:0, Facade: Pine Leaves
 buildcraftsilicon:plug_facade:0, Facade: Pine Leaves
 buildcraftsilicon:plug_facade:0, Facade: Pine Leaves
 buildcraftsilicon:plug_facade:0, Facade: Pine Leaves
+buildcraftsilicon:plug_facade:0, Facade: Pine Leaves
+buildcraftsilicon:plug_facade:0, Facade: Pine Leaves
+buildcraftsilicon:plug_facade:0, Facade: Pine Leaves
+buildcraftsilicon:plug_facade:0, Facade: Pine Leaves
 buildcraftsilicon:plug_facade:0, Facade: Mahogany Leaves
 buildcraftsilicon:plug_facade:0, Facade: Mahogany Leaves
 buildcraftsilicon:plug_facade:0, Facade: Mahogany Leaves
 buildcraftsilicon:plug_facade:0, Facade: Mahogany Leaves
+buildcraftsilicon:plug_facade:0, Facade: Mahogany Leaves
+buildcraftsilicon:plug_facade:0, Facade: Mahogany Leaves
+buildcraftsilicon:plug_facade:0, Facade: Mahogany Leaves
+buildcraftsilicon:plug_facade:0, Facade: Mahogany Leaves
+buildcraftsilicon:plug_facade:0, Facade: Ebony Leaves
+buildcraftsilicon:plug_facade:0, Facade: Ebony Leaves
+buildcraftsilicon:plug_facade:0, Facade: Ebony Leaves
+buildcraftsilicon:plug_facade:0, Facade: Ebony Leaves
 buildcraftsilicon:plug_facade:0, Facade: Ebony Leaves
 buildcraftsilicon:plug_facade:0, Facade: Ebony Leaves
 buildcraftsilicon:plug_facade:0, Facade: Ebony Leaves
@@ -32826,18 +32837,6 @@ buildcraftsilicon:plug_facade:0, Facade: Eucalyptus Leaves
 buildcraftsilicon:plug_facade:0, Facade: Eucalyptus Leaves
 buildcraftsilicon:plug_facade:0, Facade: Eucalyptus Leaves
 buildcraftsilicon:plug_facade:0, Facade: Eucalyptus Leaves
-buildcraftsilicon:plug_facade:0, Facade: Pine Leaves
-buildcraftsilicon:plug_facade:0, Facade: Pine Leaves
-buildcraftsilicon:plug_facade:0, Facade: Pine Leaves
-buildcraftsilicon:plug_facade:0, Facade: Pine Leaves
-buildcraftsilicon:plug_facade:0, Facade: Mahogany Leaves
-buildcraftsilicon:plug_facade:0, Facade: Mahogany Leaves
-buildcraftsilicon:plug_facade:0, Facade: Mahogany Leaves
-buildcraftsilicon:plug_facade:0, Facade: Mahogany Leaves
-buildcraftsilicon:plug_facade:0, Facade: Ebony Leaves
-buildcraftsilicon:plug_facade:0, Facade: Ebony Leaves
-buildcraftsilicon:plug_facade:0, Facade: Ebony Leaves
-buildcraftsilicon:plug_facade:0, Facade: Ebony Leaves
 buildcraftsilicon:plug_facade:0, Facade: Eucalyptus Leaves
 buildcraftsilicon:plug_facade:0, Facade: Eucalyptus Leaves
 buildcraftsilicon:plug_facade:0, Facade: Eucalyptus Leaves
@@ -32892,34 +32891,34 @@ buildcraftsilicon:plug_facade:0, Facade: Fir Wood
 buildcraftsilicon:plug_facade:0, Facade: Fir Wood
 buildcraftsilicon:plug_facade:0, Facade: Ethereal Wood
 buildcraftsilicon:plug_facade:0, Facade: Ethereal Wood
+buildcraftsilicon:plug_facade:0, Facade: Ethereal Wood
+buildcraftsilicon:plug_facade:0, Facade: Ethereal Wood
+buildcraftsilicon:plug_facade:0, Facade: Ethereal Wood
+buildcraftsilicon:plug_facade:0, Facade: Ethereal Wood
+buildcraftsilicon:plug_facade:0, Facade: Ethereal Wood
+buildcraftsilicon:plug_facade:0, Facade: Ethereal Wood
 buildcraftsilicon:plug_facade:0, Facade: Magic Wood
 buildcraftsilicon:plug_facade:0, Facade: Magic Wood
+buildcraftsilicon:plug_facade:0, Facade: Magic Wood
+buildcraftsilicon:plug_facade:0, Facade: Magic Wood
+buildcraftsilicon:plug_facade:0, Facade: Magic Wood
+buildcraftsilicon:plug_facade:0, Facade: Magic Wood
+buildcraftsilicon:plug_facade:0, Facade: Magic Wood
+buildcraftsilicon:plug_facade:0, Facade: Magic Wood
+buildcraftsilicon:plug_facade:0, Facade: Mangrove Wood
+buildcraftsilicon:plug_facade:0, Facade: Mangrove Wood
+buildcraftsilicon:plug_facade:0, Facade: Mangrove Wood
+buildcraftsilicon:plug_facade:0, Facade: Mangrove Wood
+buildcraftsilicon:plug_facade:0, Facade: Mangrove Wood
+buildcraftsilicon:plug_facade:0, Facade: Mangrove Wood
 buildcraftsilicon:plug_facade:0, Facade: Mangrove Wood
 buildcraftsilicon:plug_facade:0, Facade: Mangrove Wood
 buildcraftsilicon:plug_facade:0, Facade: Palm Wood
 buildcraftsilicon:plug_facade:0, Facade: Palm Wood
-buildcraftsilicon:plug_facade:0, Facade: Ethereal Wood
-buildcraftsilicon:plug_facade:0, Facade: Ethereal Wood
-buildcraftsilicon:plug_facade:0, Facade: Magic Wood
-buildcraftsilicon:plug_facade:0, Facade: Magic Wood
-buildcraftsilicon:plug_facade:0, Facade: Mangrove Wood
-buildcraftsilicon:plug_facade:0, Facade: Mangrove Wood
 buildcraftsilicon:plug_facade:0, Facade: Palm Wood
 buildcraftsilicon:plug_facade:0, Facade: Palm Wood
-buildcraftsilicon:plug_facade:0, Facade: Ethereal Wood
-buildcraftsilicon:plug_facade:0, Facade: Ethereal Wood
-buildcraftsilicon:plug_facade:0, Facade: Magic Wood
-buildcraftsilicon:plug_facade:0, Facade: Magic Wood
-buildcraftsilicon:plug_facade:0, Facade: Mangrove Wood
-buildcraftsilicon:plug_facade:0, Facade: Mangrove Wood
 buildcraftsilicon:plug_facade:0, Facade: Palm Wood
 buildcraftsilicon:plug_facade:0, Facade: Palm Wood
-buildcraftsilicon:plug_facade:0, Facade: Ethereal Wood
-buildcraftsilicon:plug_facade:0, Facade: Ethereal Wood
-buildcraftsilicon:plug_facade:0, Facade: Magic Wood
-buildcraftsilicon:plug_facade:0, Facade: Magic Wood
-buildcraftsilicon:plug_facade:0, Facade: Mangrove Wood
-buildcraftsilicon:plug_facade:0, Facade: Mangrove Wood
 buildcraftsilicon:plug_facade:0, Facade: Palm Wood
 buildcraftsilicon:plug_facade:0, Facade: Palm Wood
 buildcraftsilicon:plug_facade:0, Facade: Redwood Wood
@@ -33218,26 +33217,26 @@ buildcraftsilicon:plug_facade:0, Facade: Accented Steadfast Stone Pillar
 buildcraftsilicon:plug_facade:0, Facade: Accented Steadfast Stone Pillar
 buildcraftsilicon:plug_facade:0, Facade: Raw Stone Pillar Cap
 buildcraftsilicon:plug_facade:0, Facade: Raw Stone Pillar Cap
-buildcraftsilicon:plug_facade:0, Facade: Corrosive Stone Pillar Cap
-buildcraftsilicon:plug_facade:0, Facade: Corrosive Stone Pillar Cap
+buildcraftsilicon:plug_facade:0, Facade: Raw Stone Pillar Cap
+buildcraftsilicon:plug_facade:0, Facade: Raw Stone Pillar Cap
+buildcraftsilicon:plug_facade:0, Facade: Raw Stone Pillar Cap
+buildcraftsilicon:plug_facade:0, Facade: Raw Stone Pillar Cap
+buildcraftsilicon:plug_facade:0, Facade: Raw Stone Pillar Cap
+buildcraftsilicon:plug_facade:0, Facade: Raw Stone Pillar Cap
+buildcraftsilicon:plug_facade:0, Facade: Raw Stone Pillar Cap
+buildcraftsilicon:plug_facade:0, Facade: Raw Stone Pillar Cap
 buildcraftsilicon:plug_facade:0, Facade: Raw Stone Pillar Cap
 buildcraftsilicon:plug_facade:0, Facade: Raw Stone Pillar Cap
 buildcraftsilicon:plug_facade:0, Facade: Corrosive Stone Pillar Cap
 buildcraftsilicon:plug_facade:0, Facade: Corrosive Stone Pillar Cap
-buildcraftsilicon:plug_facade:0, Facade: Raw Stone Pillar Cap
-buildcraftsilicon:plug_facade:0, Facade: Raw Stone Pillar Cap
 buildcraftsilicon:plug_facade:0, Facade: Corrosive Stone Pillar Cap
 buildcraftsilicon:plug_facade:0, Facade: Corrosive Stone Pillar Cap
-buildcraftsilicon:plug_facade:0, Facade: Raw Stone Pillar Cap
-buildcraftsilicon:plug_facade:0, Facade: Raw Stone Pillar Cap
 buildcraftsilicon:plug_facade:0, Facade: Corrosive Stone Pillar Cap
 buildcraftsilicon:plug_facade:0, Facade: Corrosive Stone Pillar Cap
-buildcraftsilicon:plug_facade:0, Facade: Raw Stone Pillar Cap
-buildcraftsilicon:plug_facade:0, Facade: Raw Stone Pillar Cap
 buildcraftsilicon:plug_facade:0, Facade: Corrosive Stone Pillar Cap
 buildcraftsilicon:plug_facade:0, Facade: Corrosive Stone Pillar Cap
-buildcraftsilicon:plug_facade:0, Facade: Raw Stone Pillar Cap
-buildcraftsilicon:plug_facade:0, Facade: Raw Stone Pillar Cap
+buildcraftsilicon:plug_facade:0, Facade: Corrosive Stone Pillar Cap
+buildcraftsilicon:plug_facade:0, Facade: Corrosive Stone Pillar Cap
 buildcraftsilicon:plug_facade:0, Facade: Corrosive Stone Pillar Cap
 buildcraftsilicon:plug_facade:0, Facade: Corrosive Stone Pillar Cap
 buildcraftsilicon:plug_facade:0, Facade: Destructive Stone Pillar Cap
@@ -39840,22 +39839,10 @@ buildcraftsilicon:plug_facade:0, Facade: Copper Bulb
 buildcraftsilicon:plug_facade:0, Facade: Copper Bulb
 buildcraftsilicon:plug_facade:0, Facade: Copper Bulb
 buildcraftsilicon:plug_facade:0, Facade: Copper Bulb
-buildcraftsilicon:plug_facade:0, Facade: Copper Bulb
-buildcraftsilicon:plug_facade:0, Facade: Copper Bulb
-buildcraftsilicon:plug_facade:0, Facade: Copper Bulb
-buildcraftsilicon:plug_facade:0, Facade: Copper Bulb
 buildcraftsilicon:plug_facade:0, Facade: Exposed Copper Bulb
 buildcraftsilicon:plug_facade:0, Facade: Exposed Copper Bulb
 buildcraftsilicon:plug_facade:0, Facade: Exposed Copper Bulb
 buildcraftsilicon:plug_facade:0, Facade: Exposed Copper Bulb
-buildcraftsilicon:plug_facade:0, Facade: Exposed Copper Bulb
-buildcraftsilicon:plug_facade:0, Facade: Exposed Copper Bulb
-buildcraftsilicon:plug_facade:0, Facade: Exposed Copper Bulb
-buildcraftsilicon:plug_facade:0, Facade: Exposed Copper Bulb
-buildcraftsilicon:plug_facade:0, Facade: Weathered Copper Bulb
-buildcraftsilicon:plug_facade:0, Facade: Weathered Copper Bulb
-buildcraftsilicon:plug_facade:0, Facade: Weathered Copper Bulb
-buildcraftsilicon:plug_facade:0, Facade: Weathered Copper Bulb
 buildcraftsilicon:plug_facade:0, Facade: Weathered Copper Bulb
 buildcraftsilicon:plug_facade:0, Facade: Weathered Copper Bulb
 buildcraftsilicon:plug_facade:0, Facade: Weathered Copper Bulb
@@ -39864,6 +39851,18 @@ buildcraftsilicon:plug_facade:0, Facade: Oxidized Copper Bulb
 buildcraftsilicon:plug_facade:0, Facade: Oxidized Copper Bulb
 buildcraftsilicon:plug_facade:0, Facade: Oxidized Copper Bulb
 buildcraftsilicon:plug_facade:0, Facade: Oxidized Copper Bulb
+buildcraftsilicon:plug_facade:0, Facade: Copper Bulb
+buildcraftsilicon:plug_facade:0, Facade: Copper Bulb
+buildcraftsilicon:plug_facade:0, Facade: Copper Bulb
+buildcraftsilicon:plug_facade:0, Facade: Copper Bulb
+buildcraftsilicon:plug_facade:0, Facade: Exposed Copper Bulb
+buildcraftsilicon:plug_facade:0, Facade: Exposed Copper Bulb
+buildcraftsilicon:plug_facade:0, Facade: Exposed Copper Bulb
+buildcraftsilicon:plug_facade:0, Facade: Exposed Copper Bulb
+buildcraftsilicon:plug_facade:0, Facade: Weathered Copper Bulb
+buildcraftsilicon:plug_facade:0, Facade: Weathered Copper Bulb
+buildcraftsilicon:plug_facade:0, Facade: Weathered Copper Bulb
+buildcraftsilicon:plug_facade:0, Facade: Weathered Copper Bulb
 buildcraftsilicon:plug_facade:0, Facade: Oxidized Copper Bulb
 buildcraftsilicon:plug_facade:0, Facade: Oxidized Copper Bulb
 buildcraftsilicon:plug_facade:0, Facade: Oxidized Copper Bulb
@@ -39930,22 +39929,10 @@ buildcraftsilicon:plug_facade:0, Facade: Waxed Copper Bulb
 buildcraftsilicon:plug_facade:0, Facade: Waxed Copper Bulb
 buildcraftsilicon:plug_facade:0, Facade: Waxed Copper Bulb
 buildcraftsilicon:plug_facade:0, Facade: Waxed Copper Bulb
-buildcraftsilicon:plug_facade:0, Facade: Waxed Copper Bulb
-buildcraftsilicon:plug_facade:0, Facade: Waxed Copper Bulb
-buildcraftsilicon:plug_facade:0, Facade: Waxed Copper Bulb
-buildcraftsilicon:plug_facade:0, Facade: Waxed Copper Bulb
 buildcraftsilicon:plug_facade:0, Facade: Waxed Exposed Copper Bulb
 buildcraftsilicon:plug_facade:0, Facade: Waxed Exposed Copper Bulb
 buildcraftsilicon:plug_facade:0, Facade: Waxed Exposed Copper Bulb
 buildcraftsilicon:plug_facade:0, Facade: Waxed Exposed Copper Bulb
-buildcraftsilicon:plug_facade:0, Facade: Waxed Exposed Copper Bulb
-buildcraftsilicon:plug_facade:0, Facade: Waxed Exposed Copper Bulb
-buildcraftsilicon:plug_facade:0, Facade: Waxed Exposed Copper Bulb
-buildcraftsilicon:plug_facade:0, Facade: Waxed Exposed Copper Bulb
-buildcraftsilicon:plug_facade:0, Facade: Waxed Weathered Copper Bulb
-buildcraftsilicon:plug_facade:0, Facade: Waxed Weathered Copper Bulb
-buildcraftsilicon:plug_facade:0, Facade: Waxed Weathered Copper Bulb
-buildcraftsilicon:plug_facade:0, Facade: Waxed Weathered Copper Bulb
 buildcraftsilicon:plug_facade:0, Facade: Waxed Weathered Copper Bulb
 buildcraftsilicon:plug_facade:0, Facade: Waxed Weathered Copper Bulb
 buildcraftsilicon:plug_facade:0, Facade: Waxed Weathered Copper Bulb
@@ -39954,6 +39941,18 @@ buildcraftsilicon:plug_facade:0, Facade: Waxed Oxidized Copper Bulb
 buildcraftsilicon:plug_facade:0, Facade: Waxed Oxidized Copper Bulb
 buildcraftsilicon:plug_facade:0, Facade: Waxed Oxidized Copper Bulb
 buildcraftsilicon:plug_facade:0, Facade: Waxed Oxidized Copper Bulb
+buildcraftsilicon:plug_facade:0, Facade: Waxed Copper Bulb
+buildcraftsilicon:plug_facade:0, Facade: Waxed Copper Bulb
+buildcraftsilicon:plug_facade:0, Facade: Waxed Copper Bulb
+buildcraftsilicon:plug_facade:0, Facade: Waxed Copper Bulb
+buildcraftsilicon:plug_facade:0, Facade: Waxed Exposed Copper Bulb
+buildcraftsilicon:plug_facade:0, Facade: Waxed Exposed Copper Bulb
+buildcraftsilicon:plug_facade:0, Facade: Waxed Exposed Copper Bulb
+buildcraftsilicon:plug_facade:0, Facade: Waxed Exposed Copper Bulb
+buildcraftsilicon:plug_facade:0, Facade: Waxed Weathered Copper Bulb
+buildcraftsilicon:plug_facade:0, Facade: Waxed Weathered Copper Bulb
+buildcraftsilicon:plug_facade:0, Facade: Waxed Weathered Copper Bulb
+buildcraftsilicon:plug_facade:0, Facade: Waxed Weathered Copper Bulb
 buildcraftsilicon:plug_facade:0, Facade: Waxed Oxidized Copper Bulb
 buildcraftsilicon:plug_facade:0, Facade: Waxed Oxidized Copper Bulb
 buildcraftsilicon:plug_facade:0, Facade: Waxed Oxidized Copper Bulb
@@ -42304,36 +42303,36 @@ buildcraftsilicon:plug_facade:0, Facade: Yew Wood
 buildcraftsilicon:plug_facade:0, Facade: Yew Wood
 buildcraftsilicon:plug_facade:0, Facade: Cypress Wood
 buildcraftsilicon:plug_facade:0, Facade: Cypress Wood
-buildcraftsilicon:plug_facade:0, Facade: Fir Wood
-buildcraftsilicon:plug_facade:0, Facade: Fir Wood
-buildcraftsilicon:plug_facade:0, Facade: Hazel Wood
-buildcraftsilicon:plug_facade:0, Facade: Hazel Wood
-buildcraftsilicon:plug_facade:0, Facade: Hickory Wood
-buildcraftsilicon:plug_facade:0, Facade: Hickory Wood
+buildcraftsilicon:plug_facade:0, Facade: Cypress Wood
+buildcraftsilicon:plug_facade:0, Facade: Cypress Wood
+buildcraftsilicon:plug_facade:0, Facade: Cypress Wood
+buildcraftsilicon:plug_facade:0, Facade: Cypress Wood
 buildcraftsilicon:plug_facade:0, Facade: Cypress Wood
 buildcraftsilicon:plug_facade:0, Facade: Cypress Wood
 buildcraftsilicon:plug_facade:0, Facade: Fir Wood
 buildcraftsilicon:plug_facade:0, Facade: Fir Wood
-buildcraftsilicon:plug_facade:0, Facade: Hazel Wood
-buildcraftsilicon:plug_facade:0, Facade: Hazel Wood
-buildcraftsilicon:plug_facade:0, Facade: Hickory Wood
-buildcraftsilicon:plug_facade:0, Facade: Hickory Wood
-buildcraftsilicon:plug_facade:0, Facade: Cypress Wood
-buildcraftsilicon:plug_facade:0, Facade: Cypress Wood
+buildcraftsilicon:plug_facade:0, Facade: Fir Wood
+buildcraftsilicon:plug_facade:0, Facade: Fir Wood
+buildcraftsilicon:plug_facade:0, Facade: Fir Wood
+buildcraftsilicon:plug_facade:0, Facade: Fir Wood
 buildcraftsilicon:plug_facade:0, Facade: Fir Wood
 buildcraftsilicon:plug_facade:0, Facade: Fir Wood
 buildcraftsilicon:plug_facade:0, Facade: Hazel Wood
 buildcraftsilicon:plug_facade:0, Facade: Hazel Wood
-buildcraftsilicon:plug_facade:0, Facade: Hickory Wood
-buildcraftsilicon:plug_facade:0, Facade: Hickory Wood
-buildcraftsilicon:plug_facade:0, Facade: Cypress Wood
-buildcraftsilicon:plug_facade:0, Facade: Cypress Wood
-buildcraftsilicon:plug_facade:0, Facade: Fir Wood
-buildcraftsilicon:plug_facade:0, Facade: Fir Wood
+buildcraftsilicon:plug_facade:0, Facade: Hazel Wood
+buildcraftsilicon:plug_facade:0, Facade: Hazel Wood
+buildcraftsilicon:plug_facade:0, Facade: Hazel Wood
+buildcraftsilicon:plug_facade:0, Facade: Hazel Wood
 buildcraftsilicon:plug_facade:0, Facade: Hazel Wood
 buildcraftsilicon:plug_facade:0, Facade: Hazel Wood
 buildcraftsilicon:plug_facade:0, Facade: Hickory Wood
 buildcraftsilicon:plug_facade:0, Facade: Hickory Wood
+buildcraftsilicon:plug_facade:0, Facade: Hickory Wood
+buildcraftsilicon:plug_facade:0, Facade: Hickory Wood
+buildcraftsilicon:plug_facade:0, Facade: Hickory Wood
+buildcraftsilicon:plug_facade:0, Facade: Hickory Wood
+buildcraftsilicon:plug_facade:0, Facade: Hickory Wood
+buildcraftsilicon:plug_facade:0, Facade: Hickory Wood
 buildcraftsilicon:plug_facade:0, Facade: Elm Wood
 buildcraftsilicon:plug_facade:0, Facade: Elm Wood
 buildcraftsilicon:plug_facade:0, Facade: Elder Wood
@@ -42624,34 +42623,34 @@ buildcraftsilicon:plug_facade:0, Facade: Yew Wood (Fireproof)
 buildcraftsilicon:plug_facade:0, Facade: Yew Wood (Fireproof)
 buildcraftsilicon:plug_facade:0, Facade: Cypress Wood (Fireproof)
 buildcraftsilicon:plug_facade:0, Facade: Cypress Wood (Fireproof)
+buildcraftsilicon:plug_facade:0, Facade: Cypress Wood (Fireproof)
+buildcraftsilicon:plug_facade:0, Facade: Cypress Wood (Fireproof)
+buildcraftsilicon:plug_facade:0, Facade: Cypress Wood (Fireproof)
+buildcraftsilicon:plug_facade:0, Facade: Cypress Wood (Fireproof)
+buildcraftsilicon:plug_facade:0, Facade: Cypress Wood (Fireproof)
+buildcraftsilicon:plug_facade:0, Facade: Cypress Wood (Fireproof)
 buildcraftsilicon:plug_facade:0, Facade: Fir Wood (Fireproof)
 buildcraftsilicon:plug_facade:0, Facade: Fir Wood (Fireproof)
+buildcraftsilicon:plug_facade:0, Facade: Fir Wood (Fireproof)
+buildcraftsilicon:plug_facade:0, Facade: Fir Wood (Fireproof)
+buildcraftsilicon:plug_facade:0, Facade: Fir Wood (Fireproof)
+buildcraftsilicon:plug_facade:0, Facade: Fir Wood (Fireproof)
+buildcraftsilicon:plug_facade:0, Facade: Fir Wood (Fireproof)
+buildcraftsilicon:plug_facade:0, Facade: Fir Wood (Fireproof)
+buildcraftsilicon:plug_facade:0, Facade: Hazel Wood (Fireproof)
+buildcraftsilicon:plug_facade:0, Facade: Hazel Wood (Fireproof)
+buildcraftsilicon:plug_facade:0, Facade: Hazel Wood (Fireproof)
+buildcraftsilicon:plug_facade:0, Facade: Hazel Wood (Fireproof)
+buildcraftsilicon:plug_facade:0, Facade: Hazel Wood (Fireproof)
+buildcraftsilicon:plug_facade:0, Facade: Hazel Wood (Fireproof)
 buildcraftsilicon:plug_facade:0, Facade: Hazel Wood (Fireproof)
 buildcraftsilicon:plug_facade:0, Facade: Hazel Wood (Fireproof)
 buildcraftsilicon:plug_facade:0, Facade: Hickory Wood (Fireproof)
 buildcraftsilicon:plug_facade:0, Facade: Hickory Wood (Fireproof)
-buildcraftsilicon:plug_facade:0, Facade: Cypress Wood (Fireproof)
-buildcraftsilicon:plug_facade:0, Facade: Cypress Wood (Fireproof)
-buildcraftsilicon:plug_facade:0, Facade: Fir Wood (Fireproof)
-buildcraftsilicon:plug_facade:0, Facade: Fir Wood (Fireproof)
-buildcraftsilicon:plug_facade:0, Facade: Hazel Wood (Fireproof)
-buildcraftsilicon:plug_facade:0, Facade: Hazel Wood (Fireproof)
 buildcraftsilicon:plug_facade:0, Facade: Hickory Wood (Fireproof)
 buildcraftsilicon:plug_facade:0, Facade: Hickory Wood (Fireproof)
-buildcraftsilicon:plug_facade:0, Facade: Cypress Wood (Fireproof)
-buildcraftsilicon:plug_facade:0, Facade: Cypress Wood (Fireproof)
-buildcraftsilicon:plug_facade:0, Facade: Fir Wood (Fireproof)
-buildcraftsilicon:plug_facade:0, Facade: Fir Wood (Fireproof)
-buildcraftsilicon:plug_facade:0, Facade: Hazel Wood (Fireproof)
-buildcraftsilicon:plug_facade:0, Facade: Hazel Wood (Fireproof)
 buildcraftsilicon:plug_facade:0, Facade: Hickory Wood (Fireproof)
 buildcraftsilicon:plug_facade:0, Facade: Hickory Wood (Fireproof)
-buildcraftsilicon:plug_facade:0, Facade: Cypress Wood (Fireproof)
-buildcraftsilicon:plug_facade:0, Facade: Cypress Wood (Fireproof)
-buildcraftsilicon:plug_facade:0, Facade: Fir Wood (Fireproof)
-buildcraftsilicon:plug_facade:0, Facade: Fir Wood (Fireproof)
-buildcraftsilicon:plug_facade:0, Facade: Hazel Wood (Fireproof)
-buildcraftsilicon:plug_facade:0, Facade: Hazel Wood (Fireproof)
 buildcraftsilicon:plug_facade:0, Facade: Hickory Wood (Fireproof)
 buildcraftsilicon:plug_facade:0, Facade: Hickory Wood (Fireproof)
 buildcraftsilicon:plug_facade:0, Facade: Elm Wood (Fireproof)
@@ -46516,14 +46515,14 @@ buildcraftsilicon:plug_facade:0, Facade: Diamond Ore
 buildcraftsilicon:plug_facade:0, Facade: Diamond Ore
 buildcraftsilicon:plug_facade:0, Facade: Dirt
 buildcraftsilicon:plug_facade:0, Facade: Dirt
-buildcraftsilicon:plug_facade:0, Facade: Dirt
-buildcraftsilicon:plug_facade:0, Facade: Dirt
-buildcraftsilicon:plug_facade:0, Facade: Coarse Dirt
-buildcraftsilicon:plug_facade:0, Facade: Coarse Dirt
 buildcraftsilicon:plug_facade:0, Facade: Coarse Dirt
 buildcraftsilicon:plug_facade:0, Facade: Coarse Dirt
 buildcraftsilicon:plug_facade:0, Facade: Dirt
 buildcraftsilicon:plug_facade:0, Facade: Dirt
+buildcraftsilicon:plug_facade:0, Facade: Dirt
+buildcraftsilicon:plug_facade:0, Facade: Dirt
+buildcraftsilicon:plug_facade:0, Facade: Coarse Dirt
+buildcraftsilicon:plug_facade:0, Facade: Coarse Dirt
 buildcraftsilicon:plug_facade:0, Facade: Dirt
 buildcraftsilicon:plug_facade:0, Facade: Dirt
 buildcraftsilicon:plug_facade:0, Facade: Stone Slab
@@ -48566,130 +48565,130 @@ buildcraftsilicon:plug_facade:0, Facade: tile.railcraft.generic_brass.name
 buildcraftsilicon:plug_facade:0, Facade: tile.railcraft.generic_brass.name
 buildcraftsilicon:plug_facade:0, Facade: Strengthened Glass
 buildcraftsilicon:plug_facade:0, Facade: Strengthened Glass
-buildcraftsilicon:plug_facade:0, Facade: Orange Strengthened Glass
-buildcraftsilicon:plug_facade:0, Facade: Orange Strengthened Glass
-buildcraftsilicon:plug_facade:0, Facade: Magenta Strengthened Glass
-buildcraftsilicon:plug_facade:0, Facade: Magenta Strengthened Glass
-buildcraftsilicon:plug_facade:0, Facade: Light Blue Strengthened Glass
-buildcraftsilicon:plug_facade:0, Facade: Light Blue Strengthened Glass
-buildcraftsilicon:plug_facade:0, Facade: Yellow Strengthened Glass
-buildcraftsilicon:plug_facade:0, Facade: Yellow Strengthened Glass
-buildcraftsilicon:plug_facade:0, Facade: Lime Strengthened Glass
-buildcraftsilicon:plug_facade:0, Facade: Lime Strengthened Glass
-buildcraftsilicon:plug_facade:0, Facade: Pink Strengthened Glass
-buildcraftsilicon:plug_facade:0, Facade: Pink Strengthened Glass
-buildcraftsilicon:plug_facade:0, Facade: Gray Strengthened Glass
-buildcraftsilicon:plug_facade:0, Facade: Gray Strengthened Glass
-buildcraftsilicon:plug_facade:0, Facade: Light Gray Strengthened Glass
-buildcraftsilicon:plug_facade:0, Facade: Light Gray Strengthened Glass
-buildcraftsilicon:plug_facade:0, Facade: Cyan Strengthened Glass
-buildcraftsilicon:plug_facade:0, Facade: Cyan Strengthened Glass
-buildcraftsilicon:plug_facade:0, Facade: Purple Strengthened Glass
-buildcraftsilicon:plug_facade:0, Facade: Purple Strengthened Glass
-buildcraftsilicon:plug_facade:0, Facade: Blue Strengthened Glass
-buildcraftsilicon:plug_facade:0, Facade: Blue Strengthened Glass
-buildcraftsilicon:plug_facade:0, Facade: Brown Strengthened Glass
-buildcraftsilicon:plug_facade:0, Facade: Brown Strengthened Glass
-buildcraftsilicon:plug_facade:0, Facade: Green Strengthened Glass
-buildcraftsilicon:plug_facade:0, Facade: Green Strengthened Glass
-buildcraftsilicon:plug_facade:0, Facade: Red Strengthened Glass
-buildcraftsilicon:plug_facade:0, Facade: Red Strengthened Glass
-buildcraftsilicon:plug_facade:0, Facade: Black Strengthened Glass
-buildcraftsilicon:plug_facade:0, Facade: Black Strengthened Glass
+buildcraftsilicon:plug_facade:0, Facade: Strengthened Glass
+buildcraftsilicon:plug_facade:0, Facade: Strengthened Glass
+buildcraftsilicon:plug_facade:0, Facade: Strengthened Glass
+buildcraftsilicon:plug_facade:0, Facade: Strengthened Glass
 buildcraftsilicon:plug_facade:0, Facade: Strengthened Glass
 buildcraftsilicon:plug_facade:0, Facade: Strengthened Glass
 buildcraftsilicon:plug_facade:0, Facade: Orange Strengthened Glass
 buildcraftsilicon:plug_facade:0, Facade: Orange Strengthened Glass
-buildcraftsilicon:plug_facade:0, Facade: Magenta Strengthened Glass
-buildcraftsilicon:plug_facade:0, Facade: Magenta Strengthened Glass
-buildcraftsilicon:plug_facade:0, Facade: Light Blue Strengthened Glass
-buildcraftsilicon:plug_facade:0, Facade: Light Blue Strengthened Glass
-buildcraftsilicon:plug_facade:0, Facade: Yellow Strengthened Glass
-buildcraftsilicon:plug_facade:0, Facade: Yellow Strengthened Glass
-buildcraftsilicon:plug_facade:0, Facade: Lime Strengthened Glass
-buildcraftsilicon:plug_facade:0, Facade: Lime Strengthened Glass
-buildcraftsilicon:plug_facade:0, Facade: Pink Strengthened Glass
-buildcraftsilicon:plug_facade:0, Facade: Pink Strengthened Glass
-buildcraftsilicon:plug_facade:0, Facade: Gray Strengthened Glass
-buildcraftsilicon:plug_facade:0, Facade: Gray Strengthened Glass
-buildcraftsilicon:plug_facade:0, Facade: Light Gray Strengthened Glass
-buildcraftsilicon:plug_facade:0, Facade: Light Gray Strengthened Glass
-buildcraftsilicon:plug_facade:0, Facade: Cyan Strengthened Glass
-buildcraftsilicon:plug_facade:0, Facade: Cyan Strengthened Glass
-buildcraftsilicon:plug_facade:0, Facade: Purple Strengthened Glass
-buildcraftsilicon:plug_facade:0, Facade: Purple Strengthened Glass
-buildcraftsilicon:plug_facade:0, Facade: Blue Strengthened Glass
-buildcraftsilicon:plug_facade:0, Facade: Blue Strengthened Glass
-buildcraftsilicon:plug_facade:0, Facade: Brown Strengthened Glass
-buildcraftsilicon:plug_facade:0, Facade: Brown Strengthened Glass
-buildcraftsilicon:plug_facade:0, Facade: Green Strengthened Glass
-buildcraftsilicon:plug_facade:0, Facade: Green Strengthened Glass
-buildcraftsilicon:plug_facade:0, Facade: Red Strengthened Glass
-buildcraftsilicon:plug_facade:0, Facade: Red Strengthened Glass
-buildcraftsilicon:plug_facade:0, Facade: Black Strengthened Glass
-buildcraftsilicon:plug_facade:0, Facade: Black Strengthened Glass
-buildcraftsilicon:plug_facade:0, Facade: Strengthened Glass
-buildcraftsilicon:plug_facade:0, Facade: Strengthened Glass
+buildcraftsilicon:plug_facade:0, Facade: Orange Strengthened Glass
+buildcraftsilicon:plug_facade:0, Facade: Orange Strengthened Glass
+buildcraftsilicon:plug_facade:0, Facade: Orange Strengthened Glass
+buildcraftsilicon:plug_facade:0, Facade: Orange Strengthened Glass
 buildcraftsilicon:plug_facade:0, Facade: Orange Strengthened Glass
 buildcraftsilicon:plug_facade:0, Facade: Orange Strengthened Glass
 buildcraftsilicon:plug_facade:0, Facade: Magenta Strengthened Glass
 buildcraftsilicon:plug_facade:0, Facade: Magenta Strengthened Glass
-buildcraftsilicon:plug_facade:0, Facade: Light Blue Strengthened Glass
-buildcraftsilicon:plug_facade:0, Facade: Light Blue Strengthened Glass
-buildcraftsilicon:plug_facade:0, Facade: Yellow Strengthened Glass
-buildcraftsilicon:plug_facade:0, Facade: Yellow Strengthened Glass
-buildcraftsilicon:plug_facade:0, Facade: Lime Strengthened Glass
-buildcraftsilicon:plug_facade:0, Facade: Lime Strengthened Glass
-buildcraftsilicon:plug_facade:0, Facade: Pink Strengthened Glass
-buildcraftsilicon:plug_facade:0, Facade: Pink Strengthened Glass
-buildcraftsilicon:plug_facade:0, Facade: Gray Strengthened Glass
-buildcraftsilicon:plug_facade:0, Facade: Gray Strengthened Glass
-buildcraftsilicon:plug_facade:0, Facade: Light Gray Strengthened Glass
-buildcraftsilicon:plug_facade:0, Facade: Light Gray Strengthened Glass
-buildcraftsilicon:plug_facade:0, Facade: Cyan Strengthened Glass
-buildcraftsilicon:plug_facade:0, Facade: Cyan Strengthened Glass
-buildcraftsilicon:plug_facade:0, Facade: Purple Strengthened Glass
-buildcraftsilicon:plug_facade:0, Facade: Purple Strengthened Glass
-buildcraftsilicon:plug_facade:0, Facade: Blue Strengthened Glass
-buildcraftsilicon:plug_facade:0, Facade: Blue Strengthened Glass
-buildcraftsilicon:plug_facade:0, Facade: Brown Strengthened Glass
-buildcraftsilicon:plug_facade:0, Facade: Brown Strengthened Glass
-buildcraftsilicon:plug_facade:0, Facade: Green Strengthened Glass
-buildcraftsilicon:plug_facade:0, Facade: Green Strengthened Glass
-buildcraftsilicon:plug_facade:0, Facade: Red Strengthened Glass
-buildcraftsilicon:plug_facade:0, Facade: Red Strengthened Glass
-buildcraftsilicon:plug_facade:0, Facade: Black Strengthened Glass
-buildcraftsilicon:plug_facade:0, Facade: Black Strengthened Glass
-buildcraftsilicon:plug_facade:0, Facade: Strengthened Glass
-buildcraftsilicon:plug_facade:0, Facade: Strengthened Glass
-buildcraftsilicon:plug_facade:0, Facade: Orange Strengthened Glass
-buildcraftsilicon:plug_facade:0, Facade: Orange Strengthened Glass
+buildcraftsilicon:plug_facade:0, Facade: Magenta Strengthened Glass
+buildcraftsilicon:plug_facade:0, Facade: Magenta Strengthened Glass
+buildcraftsilicon:plug_facade:0, Facade: Magenta Strengthened Glass
+buildcraftsilicon:plug_facade:0, Facade: Magenta Strengthened Glass
 buildcraftsilicon:plug_facade:0, Facade: Magenta Strengthened Glass
 buildcraftsilicon:plug_facade:0, Facade: Magenta Strengthened Glass
 buildcraftsilicon:plug_facade:0, Facade: Light Blue Strengthened Glass
 buildcraftsilicon:plug_facade:0, Facade: Light Blue Strengthened Glass
+buildcraftsilicon:plug_facade:0, Facade: Light Blue Strengthened Glass
+buildcraftsilicon:plug_facade:0, Facade: Light Blue Strengthened Glass
+buildcraftsilicon:plug_facade:0, Facade: Light Blue Strengthened Glass
+buildcraftsilicon:plug_facade:0, Facade: Light Blue Strengthened Glass
+buildcraftsilicon:plug_facade:0, Facade: Light Blue Strengthened Glass
+buildcraftsilicon:plug_facade:0, Facade: Light Blue Strengthened Glass
+buildcraftsilicon:plug_facade:0, Facade: Yellow Strengthened Glass
+buildcraftsilicon:plug_facade:0, Facade: Yellow Strengthened Glass
+buildcraftsilicon:plug_facade:0, Facade: Yellow Strengthened Glass
+buildcraftsilicon:plug_facade:0, Facade: Yellow Strengthened Glass
+buildcraftsilicon:plug_facade:0, Facade: Yellow Strengthened Glass
+buildcraftsilicon:plug_facade:0, Facade: Yellow Strengthened Glass
 buildcraftsilicon:plug_facade:0, Facade: Yellow Strengthened Glass
 buildcraftsilicon:plug_facade:0, Facade: Yellow Strengthened Glass
 buildcraftsilicon:plug_facade:0, Facade: Lime Strengthened Glass
 buildcraftsilicon:plug_facade:0, Facade: Lime Strengthened Glass
+buildcraftsilicon:plug_facade:0, Facade: Lime Strengthened Glass
+buildcraftsilicon:plug_facade:0, Facade: Lime Strengthened Glass
+buildcraftsilicon:plug_facade:0, Facade: Lime Strengthened Glass
+buildcraftsilicon:plug_facade:0, Facade: Lime Strengthened Glass
+buildcraftsilicon:plug_facade:0, Facade: Lime Strengthened Glass
+buildcraftsilicon:plug_facade:0, Facade: Lime Strengthened Glass
+buildcraftsilicon:plug_facade:0, Facade: Pink Strengthened Glass
+buildcraftsilicon:plug_facade:0, Facade: Pink Strengthened Glass
+buildcraftsilicon:plug_facade:0, Facade: Pink Strengthened Glass
+buildcraftsilicon:plug_facade:0, Facade: Pink Strengthened Glass
+buildcraftsilicon:plug_facade:0, Facade: Pink Strengthened Glass
+buildcraftsilicon:plug_facade:0, Facade: Pink Strengthened Glass
 buildcraftsilicon:plug_facade:0, Facade: Pink Strengthened Glass
 buildcraftsilicon:plug_facade:0, Facade: Pink Strengthened Glass
 buildcraftsilicon:plug_facade:0, Facade: Gray Strengthened Glass
 buildcraftsilicon:plug_facade:0, Facade: Gray Strengthened Glass
+buildcraftsilicon:plug_facade:0, Facade: Gray Strengthened Glass
+buildcraftsilicon:plug_facade:0, Facade: Gray Strengthened Glass
+buildcraftsilicon:plug_facade:0, Facade: Gray Strengthened Glass
+buildcraftsilicon:plug_facade:0, Facade: Gray Strengthened Glass
+buildcraftsilicon:plug_facade:0, Facade: Gray Strengthened Glass
+buildcraftsilicon:plug_facade:0, Facade: Gray Strengthened Glass
+buildcraftsilicon:plug_facade:0, Facade: Light Gray Strengthened Glass
+buildcraftsilicon:plug_facade:0, Facade: Light Gray Strengthened Glass
+buildcraftsilicon:plug_facade:0, Facade: Light Gray Strengthened Glass
+buildcraftsilicon:plug_facade:0, Facade: Light Gray Strengthened Glass
+buildcraftsilicon:plug_facade:0, Facade: Light Gray Strengthened Glass
+buildcraftsilicon:plug_facade:0, Facade: Light Gray Strengthened Glass
 buildcraftsilicon:plug_facade:0, Facade: Light Gray Strengthened Glass
 buildcraftsilicon:plug_facade:0, Facade: Light Gray Strengthened Glass
 buildcraftsilicon:plug_facade:0, Facade: Cyan Strengthened Glass
 buildcraftsilicon:plug_facade:0, Facade: Cyan Strengthened Glass
+buildcraftsilicon:plug_facade:0, Facade: Cyan Strengthened Glass
+buildcraftsilicon:plug_facade:0, Facade: Cyan Strengthened Glass
+buildcraftsilicon:plug_facade:0, Facade: Cyan Strengthened Glass
+buildcraftsilicon:plug_facade:0, Facade: Cyan Strengthened Glass
+buildcraftsilicon:plug_facade:0, Facade: Cyan Strengthened Glass
+buildcraftsilicon:plug_facade:0, Facade: Cyan Strengthened Glass
+buildcraftsilicon:plug_facade:0, Facade: Purple Strengthened Glass
+buildcraftsilicon:plug_facade:0, Facade: Purple Strengthened Glass
+buildcraftsilicon:plug_facade:0, Facade: Purple Strengthened Glass
+buildcraftsilicon:plug_facade:0, Facade: Purple Strengthened Glass
+buildcraftsilicon:plug_facade:0, Facade: Purple Strengthened Glass
+buildcraftsilicon:plug_facade:0, Facade: Purple Strengthened Glass
 buildcraftsilicon:plug_facade:0, Facade: Purple Strengthened Glass
 buildcraftsilicon:plug_facade:0, Facade: Purple Strengthened Glass
 buildcraftsilicon:plug_facade:0, Facade: Blue Strengthened Glass
 buildcraftsilicon:plug_facade:0, Facade: Blue Strengthened Glass
+buildcraftsilicon:plug_facade:0, Facade: Blue Strengthened Glass
+buildcraftsilicon:plug_facade:0, Facade: Blue Strengthened Glass
+buildcraftsilicon:plug_facade:0, Facade: Blue Strengthened Glass
+buildcraftsilicon:plug_facade:0, Facade: Blue Strengthened Glass
+buildcraftsilicon:plug_facade:0, Facade: Blue Strengthened Glass
+buildcraftsilicon:plug_facade:0, Facade: Blue Strengthened Glass
+buildcraftsilicon:plug_facade:0, Facade: Brown Strengthened Glass
+buildcraftsilicon:plug_facade:0, Facade: Brown Strengthened Glass
+buildcraftsilicon:plug_facade:0, Facade: Brown Strengthened Glass
+buildcraftsilicon:plug_facade:0, Facade: Brown Strengthened Glass
+buildcraftsilicon:plug_facade:0, Facade: Brown Strengthened Glass
+buildcraftsilicon:plug_facade:0, Facade: Brown Strengthened Glass
 buildcraftsilicon:plug_facade:0, Facade: Brown Strengthened Glass
 buildcraftsilicon:plug_facade:0, Facade: Brown Strengthened Glass
 buildcraftsilicon:plug_facade:0, Facade: Green Strengthened Glass
 buildcraftsilicon:plug_facade:0, Facade: Green Strengthened Glass
+buildcraftsilicon:plug_facade:0, Facade: Green Strengthened Glass
+buildcraftsilicon:plug_facade:0, Facade: Green Strengthened Glass
+buildcraftsilicon:plug_facade:0, Facade: Green Strengthened Glass
+buildcraftsilicon:plug_facade:0, Facade: Green Strengthened Glass
+buildcraftsilicon:plug_facade:0, Facade: Green Strengthened Glass
+buildcraftsilicon:plug_facade:0, Facade: Green Strengthened Glass
 buildcraftsilicon:plug_facade:0, Facade: Red Strengthened Glass
 buildcraftsilicon:plug_facade:0, Facade: Red Strengthened Glass
+buildcraftsilicon:plug_facade:0, Facade: Red Strengthened Glass
+buildcraftsilicon:plug_facade:0, Facade: Red Strengthened Glass
+buildcraftsilicon:plug_facade:0, Facade: Red Strengthened Glass
+buildcraftsilicon:plug_facade:0, Facade: Red Strengthened Glass
+buildcraftsilicon:plug_facade:0, Facade: Red Strengthened Glass
+buildcraftsilicon:plug_facade:0, Facade: Red Strengthened Glass
+buildcraftsilicon:plug_facade:0, Facade: Black Strengthened Glass
+buildcraftsilicon:plug_facade:0, Facade: Black Strengthened Glass
+buildcraftsilicon:plug_facade:0, Facade: Black Strengthened Glass
+buildcraftsilicon:plug_facade:0, Facade: Black Strengthened Glass
+buildcraftsilicon:plug_facade:0, Facade: Black Strengthened Glass
+buildcraftsilicon:plug_facade:0, Facade: Black Strengthened Glass
 buildcraftsilicon:plug_facade:0, Facade: Black Strengthened Glass
 buildcraftsilicon:plug_facade:0, Facade: Black Strengthened Glass
 buildcraftsilicon:plug_facade:0, Facade: Granite Paver
@@ -50516,6 +50515,18 @@ buildcraftsilicon:plug_facade:0, Facade: Twilight Oak Leaves
 buildcraftsilicon:plug_facade:0, Facade: Twilight Oak Leaves
 buildcraftsilicon:plug_facade:0, Facade: Twilight Oak Leaves
 buildcraftsilicon:plug_facade:0, Facade: Twilight Oak Leaves
+buildcraftsilicon:plug_facade:0, Facade: Canopy Tree Leaves
+buildcraftsilicon:plug_facade:0, Facade: Canopy Tree Leaves
+buildcraftsilicon:plug_facade:0, Facade: Canopy Tree Leaves
+buildcraftsilicon:plug_facade:0, Facade: Canopy Tree Leaves
+buildcraftsilicon:plug_facade:0, Facade: Mangrove Leaves
+buildcraftsilicon:plug_facade:0, Facade: Mangrove Leaves
+buildcraftsilicon:plug_facade:0, Facade: Mangrove Leaves
+buildcraftsilicon:plug_facade:0, Facade: Mangrove Leaves
+buildcraftsilicon:plug_facade:0, Facade: tile.twilightforest.Leaves.9.name
+buildcraftsilicon:plug_facade:0, Facade: tile.twilightforest.Leaves.9.name
+buildcraftsilicon:plug_facade:0, Facade: tile.twilightforest.Leaves.9.name
+buildcraftsilicon:plug_facade:0, Facade: tile.twilightforest.Leaves.9.name
 buildcraftsilicon:plug_facade:0, Facade: Twilight Oak Leaves
 buildcraftsilicon:plug_facade:0, Facade: Twilight Oak Leaves
 buildcraftsilicon:plug_facade:0, Facade: Twilight Oak Leaves
@@ -50524,22 +50535,10 @@ buildcraftsilicon:plug_facade:0, Facade: Canopy Tree Leaves
 buildcraftsilicon:plug_facade:0, Facade: Canopy Tree Leaves
 buildcraftsilicon:plug_facade:0, Facade: Canopy Tree Leaves
 buildcraftsilicon:plug_facade:0, Facade: Canopy Tree Leaves
-buildcraftsilicon:plug_facade:0, Facade: Canopy Tree Leaves
-buildcraftsilicon:plug_facade:0, Facade: Canopy Tree Leaves
-buildcraftsilicon:plug_facade:0, Facade: Canopy Tree Leaves
-buildcraftsilicon:plug_facade:0, Facade: Canopy Tree Leaves
 buildcraftsilicon:plug_facade:0, Facade: Mangrove Leaves
 buildcraftsilicon:plug_facade:0, Facade: Mangrove Leaves
 buildcraftsilicon:plug_facade:0, Facade: Mangrove Leaves
 buildcraftsilicon:plug_facade:0, Facade: Mangrove Leaves
-buildcraftsilicon:plug_facade:0, Facade: Mangrove Leaves
-buildcraftsilicon:plug_facade:0, Facade: Mangrove Leaves
-buildcraftsilicon:plug_facade:0, Facade: Mangrove Leaves
-buildcraftsilicon:plug_facade:0, Facade: Mangrove Leaves
-buildcraftsilicon:plug_facade:0, Facade: tile.twilightforest.Leaves.9.name
-buildcraftsilicon:plug_facade:0, Facade: tile.twilightforest.Leaves.9.name
-buildcraftsilicon:plug_facade:0, Facade: tile.twilightforest.Leaves.9.name
-buildcraftsilicon:plug_facade:0, Facade: tile.twilightforest.Leaves.9.name
 buildcraftsilicon:plug_facade:0, Facade: tile.twilightforest.Leaves.9.name
 buildcraftsilicon:plug_facade:0, Facade: tile.twilightforest.Leaves.9.name
 buildcraftsilicon:plug_facade:0, Facade: tile.twilightforest.Leaves.9.name
@@ -50562,34 +50561,34 @@ buildcraftsilicon:plug_facade:0, Facade: Thorn Leaves
 buildcraftsilicon:plug_facade:0, Facade: Thorn Leaves
 buildcraftsilicon:plug_facade:0, Facade: Twilight Oak Wood
 buildcraftsilicon:plug_facade:0, Facade: Twilight Oak Wood
+buildcraftsilicon:plug_facade:0, Facade: Twilight Oak Wood
+buildcraftsilicon:plug_facade:0, Facade: Twilight Oak Wood
+buildcraftsilicon:plug_facade:0, Facade: Twilight Oak Wood
+buildcraftsilicon:plug_facade:0, Facade: Twilight Oak Wood
+buildcraftsilicon:plug_facade:0, Facade: Twilight Oak Wood
+buildcraftsilicon:plug_facade:0, Facade: Twilight Oak Wood
 buildcraftsilicon:plug_facade:0, Facade: Canopy Tree Wood
 buildcraftsilicon:plug_facade:0, Facade: Canopy Tree Wood
+buildcraftsilicon:plug_facade:0, Facade: Canopy Tree Wood
+buildcraftsilicon:plug_facade:0, Facade: Canopy Tree Wood
+buildcraftsilicon:plug_facade:0, Facade: Canopy Tree Wood
+buildcraftsilicon:plug_facade:0, Facade: Canopy Tree Wood
+buildcraftsilicon:plug_facade:0, Facade: Canopy Tree Wood
+buildcraftsilicon:plug_facade:0, Facade: Canopy Tree Wood
+buildcraftsilicon:plug_facade:0, Facade: Mangrove Wood
+buildcraftsilicon:plug_facade:0, Facade: Mangrove Wood
+buildcraftsilicon:plug_facade:0, Facade: Mangrove Wood
+buildcraftsilicon:plug_facade:0, Facade: Mangrove Wood
+buildcraftsilicon:plug_facade:0, Facade: Mangrove Wood
+buildcraftsilicon:plug_facade:0, Facade: Mangrove Wood
 buildcraftsilicon:plug_facade:0, Facade: Mangrove Wood
 buildcraftsilicon:plug_facade:0, Facade: Mangrove Wood
 buildcraftsilicon:plug_facade:0, Facade: Darkwood
 buildcraftsilicon:plug_facade:0, Facade: Darkwood
-buildcraftsilicon:plug_facade:0, Facade: Twilight Oak Wood
-buildcraftsilicon:plug_facade:0, Facade: Twilight Oak Wood
-buildcraftsilicon:plug_facade:0, Facade: Canopy Tree Wood
-buildcraftsilicon:plug_facade:0, Facade: Canopy Tree Wood
-buildcraftsilicon:plug_facade:0, Facade: Mangrove Wood
-buildcraftsilicon:plug_facade:0, Facade: Mangrove Wood
 buildcraftsilicon:plug_facade:0, Facade: Darkwood
 buildcraftsilicon:plug_facade:0, Facade: Darkwood
-buildcraftsilicon:plug_facade:0, Facade: Twilight Oak Wood
-buildcraftsilicon:plug_facade:0, Facade: Twilight Oak Wood
-buildcraftsilicon:plug_facade:0, Facade: Canopy Tree Wood
-buildcraftsilicon:plug_facade:0, Facade: Canopy Tree Wood
-buildcraftsilicon:plug_facade:0, Facade: Mangrove Wood
-buildcraftsilicon:plug_facade:0, Facade: Mangrove Wood
 buildcraftsilicon:plug_facade:0, Facade: Darkwood
 buildcraftsilicon:plug_facade:0, Facade: Darkwood
-buildcraftsilicon:plug_facade:0, Facade: Twilight Oak Wood
-buildcraftsilicon:plug_facade:0, Facade: Twilight Oak Wood
-buildcraftsilicon:plug_facade:0, Facade: Canopy Tree Wood
-buildcraftsilicon:plug_facade:0, Facade: Canopy Tree Wood
-buildcraftsilicon:plug_facade:0, Facade: Mangrove Wood
-buildcraftsilicon:plug_facade:0, Facade: Mangrove Wood
 buildcraftsilicon:plug_facade:0, Facade: Darkwood
 buildcraftsilicon:plug_facade:0, Facade: Darkwood
 buildcraftsilicon:plug_facade:0, Facade: Twilight Oak Slab
@@ -62748,6 +62747,18 @@ minecraft:cooked_salmon, Cooked Salmon
 minecraft:clownfish, Clownfish
 minecraft:pufferfish, Pufferfish
 mcjtylib_ng:multipart, tile.mcjtylib_ng.multipart.name
+threng:machine:0, Fluix Aggregator
+threng:machine:1, Pulse Centrifuge
+threng:machine:2, ME Circuit Etcher
+threng:machine:3, Preemptive Assembly Unit
+threng:machine:4, ME Level Maintainer
+threng:machine:5, Crystal Energizer
+threng:big_assembler:0, Mass Assembler Frame
+threng:big_assembler:1, Mass Assembler Vent
+threng:big_assembler:2, Mass Assembler Controller
+threng:big_assembler:3, MA Pattern Provider
+threng:big_assembler:4, MA Crafting Coprocessor
+threng:big_assembler:5, Mass Assembler IO Port
 threng:material:0, Fluix Steel Ingot
 threng:material:1, Carbonic Fluix Complex
 threng:material:2, Fluix-Plated Iron Ingot
@@ -62763,18 +62774,6 @@ threng:material:11, Speculation Core (16x)
 threng:material:12, Speculation Core (32x)
 threng:material:13, Speculation Core (64x)
 threng:material:14, Speculative Processor
-threng:machine:0, Fluix Aggregator
-threng:machine:1, Pulse Centrifuge
-threng:machine:2, ME Circuit Etcher
-threng:machine:3, Preemptive Assembly Unit
-threng:machine:4, ME Level Maintainer
-threng:machine:5, Crystal Energizer
-threng:big_assembler:0, Mass Assembler Frame
-threng:big_assembler:1, Mass Assembler Vent
-threng:big_assembler:2, Mass Assembler Controller
-threng:big_assembler:3, MA Pattern Provider
-threng:big_assembler:4, MA Crafting Coprocessor
-threng:big_assembler:5, Mass Assembler IO Port
 nae2:material:0, ME Void Storage Component
 nae2:material:1, §c256k§r ME Storage Component
 nae2:material:2, §61024k§r ME Storage Component
@@ -62951,8 +62950,9 @@ wolfarmor:chainmail_wolf_armor, Chain Wolf Armor
 wolfarmor:iron_wolf_armor, Iron Wolf Armor
 wolfarmor:gold_wolf_armor, Gold Wolf Armor
 wolfarmor:diamond_wolf_armor, Diamond Wolf Armor
+zettaindustries:rfmeterblock, FU Meter
+zettaindustries:charcoalblock, Block of Charcoal
 zettaindustries:quarryfixer, Quarry Fixer
-zettaindustries:variableredstoneemitter, Variable Redstone Emitter
 zettaindustries:sulfurousacid, tile.sulfurousacid.name
 zettaindustries:batterycomputerport, Battery Computer Port
 zettaindustries:batterycontroller, Battery Controller
@@ -62962,8 +62962,7 @@ zettaindustries:batterypowertap,  Battery Power Tap
 zettaindustries:batterywall, Battery Wall
 zettaindustries:blockgraphite, Block of Graphite
 zettaindustries:sulfurblock, Block of Sulfur
-zettaindustries:charcoalblock, Block of Charcoal
-zettaindustries:rfmeterblock, FU Meter
+zettaindustries:variableredstoneemitter, Variable Redstone Emitter
 zettaindustries:logo, Zetta Industries
 zmonsters:stoneofappetence, Stone of Appetence
 zmonsters:saturatedstoneofappetence, Saturated Stoneof Appetence
@@ -63092,6 +63091,13 @@ forestry:crated.minecraft.sapling.2, item.crated.minecraft.sapling.2.name
 forestry:crated.minecraft.sapling.3, item.crated.minecraft.sapling.3.name
 forestry:crated.minecraft.sapling.4, item.crated.minecraft.sapling.4.name
 forestry:crated.minecraft.sapling.5, item.crated.minecraft.sapling.5.name
+forestry:crated.forestry.fruits.0, item.crated.forestry.fruits.0.name
+forestry:crated.forestry.fruits.1, item.crated.forestry.fruits.1.name
+forestry:crated.forestry.fruits.2, item.crated.forestry.fruits.2.name
+forestry:crated.forestry.fruits.3, item.crated.forestry.fruits.3.name
+forestry:crated.forestry.fruits.4, item.crated.forestry.fruits.4.name
+forestry:crated.forestry.fruits.6, item.crated.forestry.fruits.6.name
+forestry:crated.forestry.fruits.5, item.crated.forestry.fruits.5.name
 forestry:crated.forestry.beeswax.0, item.crated.forestry.beeswax.0.name
 forestry:crated.forestry.pollen.0, item.crated.forestry.pollen.0.name
 forestry:crated.forestry.pollen.1, item.crated.forestry.pollen.1.name
@@ -63112,13 +63118,6 @@ forestry:crated.forestry.bee_combs.14, item.crated.forestry.bee_combs.14.name
 forestry:crated.forestry.bee_combs.15, item.crated.forestry.bee_combs.15.name
 forestry:crated.forestry.bee_combs.16, item.crated.forestry.bee_combs.16.name
 forestry:crated.forestry.refractory_wax.0, item.crated.forestry.refractory_wax.0.name
-forestry:crated.forestry.fruits.0, item.crated.forestry.fruits.0.name
-forestry:crated.forestry.fruits.1, item.crated.forestry.fruits.1.name
-forestry:crated.forestry.fruits.2, item.crated.forestry.fruits.2.name
-forestry:crated.forestry.fruits.3, item.crated.forestry.fruits.3.name
-forestry:crated.forestry.fruits.4, item.crated.forestry.fruits.4.name
-forestry:crated.forestry.fruits.6, item.crated.forestry.fruits.6.name
-forestry:crated.forestry.fruits.5, item.crated.forestry.fruits.5.name
 tesseract:tesseract, tesseract.block.tesseract.name
 additionallanterns:normal_lantern, additionallanterns.block.normal_lantern.name
 additionallanterns:white_normal_lantern, additionallanterns.block.white_normal_lantern.name

@@ -1,0 +1,25 @@
+{
+    "fnaf4night7nightmarefredbear": {
+      "id": "fnafrebornmod:nightmarefredbear",
+      "effects": [
+        {
+          "id": "minecraft:strength",
+          "amplifier": 3,
+          "duration": 600000,
+          "show_particles": false
+        },
+        {
+          "id": "minecraft:resistance",
+          "amplifier": 1,
+          "duration": 600000,
+          "show_particles": false
+        },
+        {
+          "id": "minecraft:speed",
+          "amplifier": 3,
+          "duration": 600000,
+          "show_particles": false
+        }
+      ]
+    }
+  }

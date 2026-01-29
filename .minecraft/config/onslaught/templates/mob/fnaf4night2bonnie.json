@@ -1,0 +1,25 @@
+{
+    "fnaf4night2bonnie": {
+      "id": "fnafrebornmod:nightmarebonnie",
+      "effects": [
+        {
+          "id": "minecraft:strength",
+          "amplifier": 2,
+          "duration": 600000,
+          "show_particles": false
+        },
+        {
+          "id": "minecraft:resistance",
+          "amplifier": 1,
+          "duration": 600000,
+          "show_particles": false
+        },
+        {
+          "id": "minecraft:speed",
+          "amplifier": 1,
+          "duration": 600000,
+          "show_particles": true
+        }
+      ]
+    }
+  }

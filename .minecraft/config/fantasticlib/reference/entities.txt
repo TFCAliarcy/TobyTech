@@ -122,13 +122,13 @@ quark:arrow_torch
 quark:dragon_breath_bottle
 quark:soul_powder
 quark:parrot_egg
-quark:seat
 quark:stoneling
 quark:foxhound
 quark:dweller
 quark:ashen
 quark:pirate
 quark:wraith
+quark:seat
 quark:flat_item_frame
 quark:leash_knot
 quark:colored_item_frame
@@ -735,9 +735,9 @@ bloodmagic:corrupted_sheep
 bloodmagic:corrupted_chicken
 bloodmagic:corrupted_spider
 caracalsmod:caracal
+enderio:owl_egg
 enderio:primed_charge
 enderio:falling_machine
-enderio:owl_egg
 datnuclearphysicslite:particle
 deepmoblearning:glitch
 deepmoblearning:glitch_orb
@@ -1379,8 +1379,4 @@ galacticraftcore:laser_beam
 gravestone:player_ghost
 nuclearcraft:feral_ghoul
 stygian:end_skeleton
-notenoughpets:ocelot_nep
-notenoughpets:wolf_nep
-notenoughpets:mooshroom_nep
-notenoughpets:parrot_nep
 zettaindustries:marcinshuriken
