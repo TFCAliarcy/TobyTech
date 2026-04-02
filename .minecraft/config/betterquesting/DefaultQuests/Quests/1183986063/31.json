@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "No Description",
+      "desc:8": "Framed blocks are blocks that you can place the texture of other blocks onto usually because that block lacks that shape such as slopes, fences, stairs or even doors.\n\nEach shape also has a reinforced variant which is blast and fire proof.\n\nYou can also click on a framed block with glowstone dust to make it emit light.",
       "icon:10": {
         "Count:3": 1,
         "id:8": "blockcraftery:editable_block"
@@ -23,6 +23,40 @@
         }
       },
       "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "blockcraftery:editable_stairs"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "blockcraftery:editable_slab"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "blockcraftery:editable_slant"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "blockcraftery:editable_wall"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "id:8": "blockcraftery:editable_fence"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "id:8": "blockcraftery:editable_door"
+        },
+        "6:10": {
+          "Count:3": 1,
+          "id:8": "blockcraftery:editable_pressure_plate_all"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
     }
   }
 }

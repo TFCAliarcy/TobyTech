@@ -189,6 +189,7 @@ recipes.addShaped(<techguns:guidedmissilelauncher:0>, [ // Empty
 	[null, <techguns:itemshared:35>, null]]);
 
 //Techguns Plastic
+furnace.remove(<techguns:itemshared:55>);
 <techguns:itemshared:55>.displayName = "Weapons Grade Plastic";
 mods.jei.JEI.removeAndHide(<techguns:itemshared:96>);
 mods.thermalexpansion.InductionSmelter.addRecipe(<techguns:itemshared:55>, <industrialforegoing:plastic>, <thermalfoundation:material:771>, 3200);

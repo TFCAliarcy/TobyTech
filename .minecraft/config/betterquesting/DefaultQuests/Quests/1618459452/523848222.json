@@ -1,0 +1,22 @@
+{
+  "preRequisites:11": [
+    105
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "A dark pegasus is a fire-proof variant of the pegasus, with a dark red coat. To obtain one give a pegasus an essence of darkness above cloud level.\n\nA dark pegasus can be given its own inventory by equipping it with a chest. They also fly a bit slower than a pegasus. ",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "bewitchment:owlets_wing"
+      },
+      "name:8": "The Dark Pegasus"
+    }
+  },
+  "questID:3": 523848222,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

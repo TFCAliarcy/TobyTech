@@ -1,7 +1,7 @@
 {
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "No Description",
+      "desc:8": "These function the same as in modern versions, drinking one will give you the §0Bad Omen§r potion effect. Upon enerting a village it will trigger a raid of the same tier as the potion tier.\n\nWhen nearing a trial spawner it will make it spawn the ominous version of the spawner, spawning harder enemies but potentially giving an ominous trial key.",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 4,

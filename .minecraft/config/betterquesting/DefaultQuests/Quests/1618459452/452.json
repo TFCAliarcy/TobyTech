@@ -1,7 +1,7 @@
 {
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Cats taming in this pack is a mix of both modern and in 1.12, you can tame both Ocelots and Stray cats found in villages. You tame them by feeding them fish, but you cannot just spam them with the fish, you get near them and wait for them to come to you before you can tame them. You know it works when they have smoke particles.\n\nNote that tamed Ocelots do not change texture.\n\nAlso make sure to not overfeed them as they bug out for some reason and will refuse to move or sit, you fix them by punching them, not even joking. Make sure you don\u0027t have any animals that will fight for you nearby or you might be down a cat.\n\nAlso you can dye their collar with dye like with dogs (this is a mod, not vanilla.)\n\nYou can find black cats at witch huts.",
+      "desc:8": "Cats taming in this pack is a mix of both modern and in 1.12. You tame Ocelots by feeding them fish, but you cannot just spam them with the fish, you get near them and wait for them to come to you before you can tame them. Then you wait until they no longer have hearts on them. You know it works when you can sit them down.\n\nNote that tamed Ocelots do not change texture.\n\nYou can find black cats at witch huts.",
       "icon:10": {
         "Count:3": 1,
         "id:8": "mocreatures:kittybed_white"
@@ -13,7 +13,7 @@
   "tasks:9": {
     "0:10": {
       "index:3": 0,
-      "target:8": "notenoughpets:ocelot_nep",
+      "target:8": "minecraft:ocelot",
       "targetNBT:10": {
         "AABB:9": {
           "0:6": -0.30000001192092896,
@@ -24,7 +24,7 @@
           "5:6": 0.30000001192092896
         },
         "AbsorptionAmount:5": 0.0,
-        "Age:3": 0,
+        "Age:3": 1,
         "Air:2": 300,
         "ArmorDropChances:9": {
           "0:5": 0.085,
@@ -40,47 +40,54 @@
         },
         "Attributes:9": {
           "0:10": {
+            "Base:6": -2.0,
+            "Name:8": "tc.mobmod"
+          },
+          "1:10": {
+            "Base:6": 0.0,
+            "Name:8": "tc.mobmodtaint"
+          },
+          "2:10": {
             "Base:6": 0.0,
             "Name:8": "techguns.radiationResistance"
           },
-          "1:10": {
+          "3:10": {
             "Base:6": 100.0,
             "Name:8": "cyberware.tolerance"
           },
-          "2:10": {
+          "4:10": {
             "Base:6": 10.0,
             "Name:8": "generic.maxHealth"
           },
-          "3:10": {
+          "5:10": {
             "Base:6": 0.0,
             "Name:8": "generic.knockbackResistance"
           },
-          "4:10": {
+          "6:10": {
             "Base:6": 0.30000001192092896,
             "Name:8": "generic.movementSpeed"
           },
-          "5:10": {
+          "7:10": {
             "Base:6": 0.0,
             "Name:8": "generic.armor"
           },
-          "6:10": {
+          "8:10": {
             "Base:6": 0.0,
             "Name:8": "generic.armorToughness"
           },
-          "7:10": {
+          "9:10": {
             "Base:6": 1.0,
             "Name:8": "forge.swimSpeed"
           },
-          "8:10": {
+          "10:10": {
             "Base:6": 16.0,
             "Name:8": "generic.followRange"
           }
         },
         "CanPickUpLoot:1": 0,
         "CatType:3": 0,
-        "CollarColor:1": 1,
         "DeathTime:2": 0,
-        "Dimension:3": 0,
+        "Dimension:3": -9999,
         "FallDistance:5": 0.0,
         "FallFlying:1": 0,
         "Fire:2": -1,
@@ -104,6 +111,9 @@
             "Ice And Fire - Frozen Property Tracker:10": {
               "IsFrozen:1": 0,
               "TicksUntilUnfrozen:3": 0
+            },
+            "Ice And Fire - Ghost Property Tracker:10": {
+              "GhostID:3": 0
             },
             "Ice And Fire - Siren Property Tracker:10": {
               "CharmedBySiren:1": 0,
@@ -146,6 +156,9 @@
           "plethora:disableai:10": {},
           "spellbundle:summonedcreaturedata:10": {},
           "techguns:deathtype:10": {},
+          "thaumicaugmentation:portal_state:10": {
+            "inPortal:1": 0
+          },
           "twilightforest:cap_shield:10": {
             "permshields:3": 0,
             "tempshields:3": 0
@@ -185,14 +198,14 @@
           "2:6": 0.0
         },
         "Rotation:9": {
-          "0:5": 2.1338546,
+          "0:5": 6.1748686,
           "1:5": 0.0
         },
         "Sitting:1": 0,
-        "UUIDLeast:4": -5706599460298149542,
-        "UUIDMost:4": 63392057245647576,
+        "UUIDLeast:4": -7582279943940913373,
+        "UUIDMost:4": 6342977369518656424,
         "UpdateBlocked:1": 0,
-        "id:8": "notenoughpets:ocelot_nep"
+        "id:8": "minecraft:ocelot"
       },
       "taskID:8": "bq_standard:tame"
     }

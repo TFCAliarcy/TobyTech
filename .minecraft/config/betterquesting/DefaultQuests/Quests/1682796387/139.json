@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "No Description",
+      "desc:8": "The Tunnel Bore is used to dig 3x3 while placing tracks below it.\n\nYou place it on a line of tracks facing the direction you want it to dig. You place a bore head in it, tracks, and some fuel.\n\nOnce you feed it fuel it will automatically start.\n\nYou should also feed it gravel so that it can place those to fill in any gaps it may come across.\n\nI recomend attaching chest carts to it using a crowbar by right clicking on one of them to start the link and then the other to finish the link.\n\nYou can continue this link for as many carts as you want.",
       "icon:10": {
         "Count:3": 1,
         "ForgeCaps:10": {

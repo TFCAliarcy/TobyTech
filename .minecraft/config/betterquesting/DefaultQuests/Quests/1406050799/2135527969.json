@@ -18,15 +18,15 @@
   "questID:3": 2135527969,
   "tasks:9": {
     "0:10": {
-      "index:3": 0,
+      "index:3": 1,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "id:8": "srp_medical_addon:wild_mint"
+          "id:8": "srp_medical_addon:aconite_root"
         },
         "1:10": {
           "Count:3": 1,
-          "id:8": "srp_medical_addon:aconite"
+          "id:8": "srp_medical_addon:mint"
         }
       },
       "taskID:8": "bq_standard:retrieval"

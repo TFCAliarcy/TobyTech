@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "No Description",
+      "desc:8": "These are used to store your drives for you to access from terminals on the same network.",
       "icon:10": {
         "Count:3": 1,
         "id:8": "appliedenergistics2:drive"

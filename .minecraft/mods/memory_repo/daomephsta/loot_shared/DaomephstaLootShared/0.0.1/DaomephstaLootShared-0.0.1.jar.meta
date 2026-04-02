@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Specification-Title: Loot Carpenter
+Specification-Vendor: Daomephsta
+Specification-Version: 1
+Implementation-Title: Daomephsta Loot Shared
+Implementation-Version: 0.0.1
+Implementation-Vendor: daomephsta_loot_shared
+Implementation-Timestamp: 2026-02-12T20:59:57+1300
+TweakClass: org.spongepowered.asm.launch.MixinTweaker
+ForceLoadAsMod: true
+Maven-Artifact: daomephsta.loot_shared:DaomephstaLootShared:0.0.1
+MixinConfigs: daomephsta_loot_shared.mixins.json
+

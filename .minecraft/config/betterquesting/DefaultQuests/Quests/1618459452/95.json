@@ -1,10 +1,10 @@
 {
   "preRequisites:11": [
-    100
+    91
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "No Description",
+      "desc:8": "You can create a zombie horse by feeding a horse an essence of undeath this goes for pegasi and unicorns as well. \n\nOvertime their skin will rot away turning them into a skeleton horse. Note that these horses will take damage from healing potions and heal from harming potions. Though they don\u0027t burn in daylight.\n\nIf you wish to return them back to life you can use an essence of light on them.",
       "icon:10": {
         "Count:3": 1,
         "id:8": "mocreatures:heartundead"

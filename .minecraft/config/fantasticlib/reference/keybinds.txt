@@ -194,6 +194,9 @@ key.musicplayer.pause
 key.musicplayer.skip.back
 key.musicplayer.skip.forward
 
+key.categories.crimsonrevelations
+key.swap_chameleon.crimsonrevelations
+
 openblocks.keybind.category
 openblocks.keybind.vario_switch
 openblocks.keybind.vario_vol_down

@@ -48,11 +48,11 @@ bewitchment:magic_protection
 bibliocraft:bibliocraft.deathcompassench
 bibliocraft:bibliocraft.readingench
 endercore:xpboost
-enderio:witherarrow
-enderio:repellent
-enderio:soulbound
 enderio:witherweapon
+enderio:repellent
 enderio:shimmer
+enderio:witherarrow
+enderio:soulbound
 deeperdepths:breach
 deeperdepths:density
 deeperdepths:wind_burst

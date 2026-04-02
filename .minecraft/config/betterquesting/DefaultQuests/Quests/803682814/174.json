@@ -5,7 +5,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "No Description",
+      "desc:8": "Steam is a reliable source of power that can be costly to start but give a good chunk of power, several engines worth.\n\nThe gist of it is that you provide a boiler with fuel to heat it up and once it reaches 100 degrees it will turn water to steam. §c§lBut if it runs out of water while it is over 100 degrees it will explode.§r \n\nYou can read how to assemble the multiblock on their tooltips.\n\nFor piping in/out, you pump water and fuel into the fireboxes and pump steam out of the boiler tanks to wherever you want the steam.",
       "icon:10": {
         "Count:3": 1,
         "id:8": "railcraft:boiler_firebox_solid"

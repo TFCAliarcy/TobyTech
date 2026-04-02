@@ -1,0 +1,24 @@
+{
+  "preRequisites:11": [
+    70
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "iceandfire:dread_portal"
+      },
+      "name:8": "The Dreadlands"
+    }
+  },
+  "questID:3": 540824821,
+  "tasks:9": {
+    "0:10": {
+      "dimension:3": -12,
+      "index:3": 0,
+      "name:8": "The Dreadlands",
+      "taskID:8": "bq_standard:location"
+    }
+  }
+}

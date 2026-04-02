@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "No Description",
+      "desc:8": "The Dragon Forge is a multiblock powered by dragonfire to make forge DragonSteel, a material used to make OP tools and armor. It is also used for Draconium at the end of the pack.\n\nThe dragonforge is a 3x3 multiblock stucture, the bottom layer consists of 4 dragonbone blocks in the corners while the rest are made of the fire bricks. The 2nd layer has a core in the middle, an aperture adjacent to it (not one of the corners) while the rest are fire bricks. The 3rd layer is the same as the first layer, bone blocks in the corners with fire bricks being the 5 other blocks.\n\nDo note that you cannot mix and match the kind, you cannot use fire bricks and ice bricks to make a forge.\n\nAs for the dragon, you simply need a dragon of the matching kind of forge near it, it doesn\u0027t even need to be tamed though it being tamed makes it a lot easier to keep it near the forge and not try to kill you or your stuff.\n\nDo note that dragons will stop to sleep according to their sleep cycles (fire/ice at night and lightning during day).",
       "icon:10": {
         "Count:3": 1,
         "id:8": "iceandfire:dragonforge_ice_core"

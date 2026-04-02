@@ -4,7 +4,7 @@ mouseSensitivity:0.5
 fov:0.75
 gamma:1.0
 saturation:0.0
-renderDistance:12
+renderDistance:19
 guiScale:3
 particles:0
 bobView:true
@@ -97,15 +97,6 @@ key_key.ebwizardry.spell_3:4:ALT
 key_Galaxy Map:50
 key_Open Spaceship Inventory:0
 key_Toggle Sensor Goggles Mode:37
-key_quark.keybind.dropoff:0
-key_quark.keybind.changeHotbar:81
-key_quark.keybind.chestSort:0
-key_quark.keybind.chestDropoff:0
-key_quark.keybind.chestMerge:0
-key_quark.keybind.chestRestock:0
-key_quark.keybind.chestExtract:0
-key_quark.keybind.toggleAutojump:48
-key_quark.keybind.lockBuilding:0
 key_quark.emote.no:0
 key_quark.emote.yes:0
 key_quark.emote.wave:0
@@ -124,6 +115,15 @@ key_quark.emote.dab:0
 key_quark.emote.jet:0
 key_quark.emote.exorcist:0
 key_quark.emote.zombie:0
+key_quark.keybind.dropoff:0
+key_quark.keybind.changeHotbar:81
+key_quark.keybind.chestSort:0
+key_quark.keybind.chestDropoff:0
+key_quark.keybind.chestMerge:0
+key_quark.keybind.chestRestock:0
+key_quark.keybind.chestExtract:0
+key_quark.keybind.lockBuilding:0
+key_quark.keybind.toggleAutojump:48
 key_key.betterquesting.quests:41
 key_key.betterquesting.back:14
 key_bloodmagic.keybind.open_holding:35
@@ -235,9 +235,9 @@ key_key.craftingtweaks.spread:0
 key_key.craftingtweaks.clear:0
 key_key.craftingtweaks.force_clear:0
 key_key.craftingtweaks.toggleButtons:0
-key_key.craftingtweaks.compressOne:37:CONTROL
-key_key.craftingtweaks.compressStack:37
-key_key.craftingtweaks.compressAll:37:SHIFT
+key_key.craftingtweaks.compressOne:0
+key_key.craftingtweaks.compressStack:0
+key_key.craftingtweaks.compressAll:0
 key_key.craftingtweaks.decompressOne:0
 key_key.craftingtweaks.decompressStack:0
 key_key.craftingtweaks.decompressAll:0
@@ -259,6 +259,7 @@ key_key.itemzoom.toggle:0:SHIFT
 key_key.itemzoom.hold:0
 key_key.itemzoom.zoom.in:0
 key_key.itemzoom.zoom.out:0
+key_key.swap_chameleon.crimsonrevelations:47
 key_pi.key.open_pi:0
 key_pi.key.et_gui:23
 key_pi.key.et_world:23:CONTROL
@@ -282,7 +283,7 @@ key_key.travelersbackpack.inventory:47
 key_key.travelersbackpack.toggle_tank:49
 key_key.travelersbackpack.cycle_tool:0
 key_keybind.universaltweaks.clear_toasts:11:CONTROL
-key_key.morphspellpack.activate_morph_ability:37
+key_key.morphspellpack.activate_morph_ability:0
 key_keybind.railcraft.loco.reverse:53:ALT
 key_keybind.railcraft.loco.faster:52:ALT
 key_keybind.railcraft.loco.slower:51:ALT

@@ -1,0 +1,337 @@
+[
+    {
+        "mode": "REMOVE",
+        "result": "draconicevolution:draconic_axe",
+        "catalyst": "draconicevolution:wyvern_axe"
+    },
+    {
+        "mode": "ADD",
+        "result": "draconicevolution:draconic_axe",
+        "catalyst": "draconicevolution:wyvern_axe",
+        "energy": 10667,
+        "tier": 2,
+        "ingredients": [
+            "contenttweaker:compressedmangler",
+            "contenttweaker:compressedmangler",
+            "draconicevolution:awakened_core",
+            "draconicevolution:draconic_ingot",
+            "draconicevolution:draconic_energy_core",
+            "draconicevolution:draconic_ingot"
+        ]
+    },
+    {
+        "mode": "REMOVE",
+        "result": "draconicevolution:draconic_bow",
+        "catalyst": "draconicevolution:wyvern_bow"
+    },
+    {
+        "mode": "ADD",
+        "result": "draconicevolution:draconic_bow",
+        "catalyst": "draconicevolution:wyvern_bow",
+        "energy": 10667,
+        "tier": 2,
+        "ingredients": [
+            "contenttweaker:compressedmangler",
+            "contenttweaker:compressedmangler",
+            "draconicevolution:awakened_core",
+            "draconicevolution:draconic_ingot",
+            "draconicevolution:draconic_energy_core",
+            "draconicevolution:draconic_ingot"
+        ]
+    },
+    {
+        "mode": "REMOVE",
+        "result": "draconicevolution:diamond_hoe",
+        "catalyst": "draconicevolution:wyvern_hoe"
+    },
+    {
+        "mode": "ADD",
+        "result": "draconicevolution:diamond_hoe",
+        "catalyst": "draconicevolution:wyvern_hoe",
+        "energy": 10667,
+        "tier": 2,
+        "ingredients": [
+            "contenttweaker:compressedmangler",
+            "contenttweaker:compressedmangler",
+            "draconicevolution:awakened_core",
+            "draconicevolution:draconic_ingot",
+            "draconicevolution:draconic_energy_core",
+            "draconicevolution:draconic_ingot"
+        ]
+    },
+    {
+        "mode": "REMOVE",
+        "result": "draconicevolution:draconic_pick",
+        "catalyst": "draconicevolution:wyvern_pick"
+    },
+    {
+        "mode": "ADD",
+        "result": "draconicevolution:draconic_pick",
+        "catalyst": "draconicevolution:wyvern_pick",
+        "energy": 10667,
+        "tier": 2,
+        "ingredients": [
+            "contenttweaker:compressedmangler",
+            "contenttweaker:compressedmangler",
+            "draconicevolution:awakened_core",
+            "draconicevolution:draconic_ingot",
+            "draconicevolution:draconic_energy_core",
+            "draconicevolution:draconic_ingot"
+        ]
+    },
+    {
+        "mode": "REMOVE",
+        "result": "draconicevolution:draconic_shovel",
+        "catalyst": "draconicevolution:wyvern_shovel"
+    },
+    {
+        "mode": "ADD",
+        "result": "draconicevolution:draconic_shovel",
+        "catalyst": "draconicevolution:wyvern_shovel",
+        "energy": 10667,
+        "tier": 2,
+        "ingredients": [
+            "contenttweaker:compressedmangler",
+            "contenttweaker:compressedmangler",
+            "draconicevolution:awakened_core",
+            "draconicevolution:draconic_ingot",
+            "draconicevolution:draconic_energy_core",
+            "draconicevolution:draconic_ingot"
+        ]
+    },
+    {
+        "mode": "REMOVE",
+        "result": "draconicevolution:draconic_sword",
+        "catalyst": "draconicevolution:wyvern_sword"
+    },
+    {
+        "mode": "ADD",
+        "result": "draconicevolution:draconic_sword",
+        "catalyst": "draconicevolution:wyvern_sword",
+        "energy": 10667,
+        "tier": 2,
+        "ingredients": [
+            "contenttweaker:compressedmangler",
+            "contenttweaker:compressedmangler",
+            "draconicevolution:awakened_core",
+            "draconicevolution:draconic_ingot",
+            "draconicevolution:draconic_energy_core",
+            "draconicevolution:draconic_ingot"
+        ]
+    },
+    {
+        "mode": "REMOVE",
+        "result": "draconicevolution:draconic_helm",
+        "catalyst": "draconicevolution:wyvern_helm"
+    },
+    {
+        "mode": "ADD",
+        "result": "draconicevolution:draconic_helm",
+        "catalyst": "draconicevolution:wyvern_helm",
+        "energy": 10667,
+        "tier": 2,
+        "ingredients": [
+            "contenttweaker:compressedmangler",
+            "contenttweaker:compressedmangler",
+            "draconicevolution:awakened_core",
+            "draconicevolution:draconic_ingot",
+            "draconicevolution:draconic_energy_core",
+            "draconicevolution:draconic_ingot"
+        ]
+    },
+    {
+        "mode": "REMOVE",
+        "result": "draconicevolution:draconic_legs",
+        "catalyst": "draconicevolution:wyvern_legs"
+    },
+    {
+        "mode": "ADD",
+        "result": "draconicevolution:draconic_legs",
+        "catalyst": "draconicevolution:wyvern_legs",
+        "energy": 10667,
+        "tier": 2,
+        "ingredients": [
+            "contenttweaker:compressedmangler",
+            "contenttweaker:compressedmangler",
+            "draconicevolution:awakened_core",
+            "draconicevolution:draconic_ingot",
+            "draconicevolution:draconic_energy_core",
+            "draconicevolution:draconic_ingot"
+        ]
+    },
+    {
+        "mode": "REMOVE",
+        "result": "draconicevolution:draconic_chest",
+        "catalyst": "draconicevolution:wyvern_chest"
+    },
+    {
+        "mode": "ADD",
+        "result": "draconicevolution:draconic_chest",
+        "catalyst": "draconicevolution:wyvern_chest",
+        "energy": 10667,
+        "tier": 2,
+        "ingredients": [
+            "contenttweaker:compressedmangler",
+            "contenttweaker:compressedmangler",
+            "draconicevolution:awakened_core",
+            "draconicevolution:draconic_ingot",
+            "draconicevolution:draconic_energy_core",
+            "draconicevolution:draconic_ingot"
+        ]
+    },
+    {
+        "mode": "REMOVE",
+        "result": "draconicevolution:draconic_boots",
+        "catalyst": "draconicevolution:wyvern_boots"
+    },
+    {
+        "mode": "ADD",
+        "result": "draconicevolution:draconic_boots",
+        "catalyst": "draconicevolution:wyvern_boots",
+        "energy": 10667,
+        "tier": 2,
+        "ingredients": [
+            "contenttweaker:compressedmangler",
+            "contenttweaker:compressedmangler",
+            "draconicevolution:awakened_core",
+            "draconicevolution:draconic_ingot",
+            "draconicevolution:draconic_energy_core",
+            "draconicevolution:draconic_ingot"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "draconicevolution:wyvern_axe",
+        "catalyst": "redstonearsenal:tool.axe_flux",
+        "energy": 5000,
+        "tier": 1,
+        "ingredients": [
+            "contenttweaker:compressedmangler",
+            "contenttweaker:compressedmangler",
+            "draconicevolution:wyvern_core",
+            "draconicevolution:draconium_block",
+            "draconicevolution:wyvern_energy_core",
+            "draconicevolution:draconium_block"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "draconicevolution:wyvern_bow",
+        "catalyst": "redstonearsenal:tool.bow_flux",
+        "energy": 5000,
+        "tier": 1,
+        "ingredients": [
+            "contenttweaker:compressedmangler",
+            "contenttweaker:compressedmangler",
+            "draconicevolution:wyvern_core",
+            "draconicevolution:draconium_block",
+            "draconicevolution:wyvern_energy_core",
+            "draconicevolution:draconium_block"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "draconicevolution:wyvern_sword",
+        "catalyst": "redstonearsenal:tool.sword_flux",
+        "energy": 5000,
+        "tier": 1,
+        "ingredients": [
+            "contenttweaker:compressedmangler",
+            "contenttweaker:compressedmangler",
+            "draconicevolution:wyvern_core",
+            "draconicevolution:draconium_block",
+            "draconicevolution:wyvern_energy_core",
+            "draconicevolution:draconium_block"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "draconicevolution:wyvern_pick",
+        "catalyst": "redstonearsenal:tool.pickaxe_flux",
+        "energy": 5000,
+        "tier": 1,
+        "ingredients": [
+            "contenttweaker:compressedmangler",
+            "contenttweaker:compressedmangler",
+            "draconicevolution:wyvern_core",
+            "draconicevolution:draconium_block",
+            "draconicevolution:wyvern_energy_core",
+            "draconicevolution:draconium_block"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "draconicevolution:wyvern_shovel",
+        "catalyst": "redstonearsenal:tool.shovel_flux",
+        "energy": 5000,
+        "tier": 1,
+        "ingredients": [
+            "contenttweaker:compressedmangler",
+            "contenttweaker:compressedmangler",
+            "draconicevolution:wyvern_core",
+            "draconicevolution:draconium_block",
+            "draconicevolution:wyvern_energy_core",
+            "draconicevolution:draconium_block"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "draconicevolution:wyvern_helm",
+        "catalyst": "redstonearsenal:armor.helmet_flux",
+        "energy": 5000,
+        "tier": 1,
+        "ingredients": [
+            "contenttweaker:compressedmangler",
+            "contenttweaker:compressedmangler",
+            "draconicevolution:wyvern_core",
+            "draconicevolution:draconium_block",
+            "draconicevolution:wyvern_energy_core",
+            "draconicevolution:draconium_block"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "draconicevolution:wyvern_chest",
+        "catalyst": "redstonearsenal:armor.plate_flux",
+        "energy": 5000,
+        "tier": 1,
+        "ingredients": [
+            "contenttweaker:compressedmangler",
+            "contenttweaker:compressedmangler",
+            "draconicevolution:wyvern_core",
+            "draconicevolution:draconium_block",
+            "draconicevolution:wyvern_energy_core",
+            "draconicevolution:draconium_block"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "draconicevolution:wyvern_legs",
+        "catalyst": "redstonearsenal:armor.legs_flux",
+        "energy": 5000,
+        "tier": 1,
+        "ingredients": [
+            "contenttweaker:compressedmangler",
+            "contenttweaker:compressedmangler",
+            "draconicevolution:wyvern_core",
+            "draconicevolution:draconium_block",
+            "draconicevolution:wyvern_energy_core",
+            "draconicevolution:draconium_block"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "draconicevolution:wyvern_boots",
+        "catalyst": "redstonearsenal:armor.boots_flux",
+        "energy": 5000,
+        "tier": 1,
+        "ingredients": [
+            "contenttweaker:compressedmangler",
+            "contenttweaker:compressedmangler",
+            "draconicevolution:wyvern_core",
+            "draconicevolution:draconium_block",
+            "draconicevolution:wyvern_energy_core",
+            "draconicevolution:draconium_block"
+        ]
+    }
+]

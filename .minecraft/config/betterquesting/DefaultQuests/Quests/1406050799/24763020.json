@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    397
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The Quantum Quarry mines ores from an alternate dimension where all ores generate.\n\nYou place the quarry block and the actuators on each side of it in order for it to work. ",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "extrautils2:quarry"
+      },
+      "name:8": "Quantum Quarry"
+    }
+  },
+  "questID:3": 24763020,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "extrautils2:quarry"
+        },
+        "1:10": {
+          "Count:3": 6,
+          "id:8": "extrautils2:quarryproxy"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

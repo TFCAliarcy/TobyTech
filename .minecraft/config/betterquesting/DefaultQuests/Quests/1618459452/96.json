@@ -1,20 +1,22 @@
 {
   "preRequisites:11": [
-    98
+    91
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "No Description",
+      "desc:8": "Mo\u0027 Creatures adds a tiered breeding system used to get different patterns on horses and also to get the special horses later on.\n\nTo get higher tier horses you follow the chart below. Breeding between the two horses on the axis will result in the horse that they cross.\n\n{Embed}TypeImage;default:textures/embed/Horse_Chart.png;100;100;100;100{Embed}",
       "icon:10": {
         "Count:3": 1,
-        "ForgeCaps:10": {
-          "astralsorcery:cap_item_amulet_holder:10": {}
-        },
-        "id:8": "minecraft:diamond_horse_armor"
+        "id:8": "minecraft:hay_block"
       },
-      "name:8": "Tier 4 Horses"
+      "name:8": "Horse Husbandry"
     }
   },
   "questID:3": 96,
-  "tasks:9": {}
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
 }

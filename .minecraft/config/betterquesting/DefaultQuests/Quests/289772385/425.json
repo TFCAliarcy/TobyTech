@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "No Description",
+      "desc:8": "With this cell you can store an area 128x128x128, the maximum size.",
       "icon:10": {
         "Count:3": 1,
         "ForgeCaps:10": {

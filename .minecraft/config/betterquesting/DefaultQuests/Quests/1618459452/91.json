@@ -1,12 +1,12 @@
 {
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "No Description",
+      "desc:8": "Mo\u0027Creatures adds its own horses, it\u0027s mod\u0027s creator made the horses for vanilla.\n\nYou can tame them with an apple or some wheat/sugar lump and are breed with a pumpkin or mushroom stew. Do be aware that the two horses must not have another horse within 8 blocks of the pair.\n\nDo note that Mo\u0027Creatures horses can\u0027t use modded horse armor (except the crystal one).",
       "icon:10": {
         "Count:3": 1,
         "id:8": "minecraft:saddle"
       },
-      "name:8": "Tier 1 Horses"
+      "name:8": "DrZhark\u0027s Horses"
     }
   },
   "questID:3": 91,

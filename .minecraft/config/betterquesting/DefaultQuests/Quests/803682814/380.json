@@ -9,7 +9,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "No Description",
+      "desc:8": "This is the tier 2 upgrade kit, it requires that the machine you use it on have had a tier 1 upgrade kit on it which will allow you to have 2 augment slots.",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 1,
@@ -19,6 +19,29 @@
     }
   },
   "questID:3": 380,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 256,
+          "id:8": "thermalexpansion:augment"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 400,
+          "id:8": "thermalexpansion:augment"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 258,
+          "id:8": "thermalexpansion:augment"
+        }
+      },
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,

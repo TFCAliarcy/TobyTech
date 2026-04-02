@@ -42,3 +42,5 @@ recipes.addShapeless(<minecraft:nether_wart> *9,[<minecraft:nether_wart_block>])
 
 recipes.addShapeless(<forestry:honey_drop> *9,[<futuremc:honey_block>]);
 recipes.addShapeless(<futuremc:honey_block>,[<forestry:honey_drop>,<forestry:honey_drop>,<forestry:honey_drop>,<forestry:honey_drop>,<forestry:honey_drop>,<forestry:honey_drop>,<forestry:honey_drop>,<forestry:honey_drop>,<forestry:honey_drop>]);
+
+mods.chisel.Carving.addVariation("sandstone", <caracalsmod:chiseled_sandstone>);

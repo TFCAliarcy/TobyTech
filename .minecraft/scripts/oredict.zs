@@ -98,3 +98,6 @@ recipes.addShapeless(<deepmoblearning:data_model_remnant>,[<deepmoblearning:data
 
 <ore:gemSapphire>.add(<galacticraftcore:item_basic_moon:2>);
 
+//Duplicate recipe removal
+recipes.removeByRecipeName("caracalsmod:chiseled_sandstone_recipe");
+recipes.removeByRecipeName("astralsorcery:shaped_marble_bricks");

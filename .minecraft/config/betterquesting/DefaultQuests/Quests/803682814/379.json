@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "No Description",
+      "desc:8": "By right clicking on a thermal expansion machines with an upgrade kit you can give them an upgrade slot. You can only give 1 slot per tier and each tier requies that you use the previous one.\n\nDo note that you can only fit 1 upgrade in each slot, so you can\u0027t put more than one, say, speed upgrade in a tier 1 machine, you\u0027ll have to make it a tier 2.",
       "icon:10": {
         "Count:3": 1,
         "id:8": "thermalfoundation:upgrade"
@@ -13,6 +13,29 @@
     }
   },
   "questID:3": 379,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 128,
+          "id:8": "thermalexpansion:augment"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 129,
+          "id:8": "thermalexpansion:augment"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 512,
+          "id:8": "thermalexpansion:augment"
+        }
+      },
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,

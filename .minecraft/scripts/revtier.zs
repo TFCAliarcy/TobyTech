@@ -191,7 +191,6 @@ recipes.addShaped(<hatstand:hatstand>, [
 	[null,<ore:stickWood>,null],
 	[null, <ore:plankWood>, null]]);	
 
-
 // Making Chipsets cheaper
 AssemblyTable.removeByName("buildcraftsilicon:redstone_chipset");
 AssemblyTable.addRecipe(<buildcraftsilicon:redstone_chipset:0>, 2500, [<ore:dustRedstone>]);
@@ -276,6 +275,7 @@ recipes.addShaped(<galacticraftcore:machine2:4>, [
 //<galacticraftcore:machine2:4>.clearTooltip(true);
 //<galacticraftcore:machine2:4>.addShiftTooltip("Wafer Fabricator will process silicon into wafers for making circuits.", "Press LSHIFT for more info");
 
+
 //Electric Compressor
 recipes.remove(<galacticraftcore:machine2:0>);
 recipes.addShaped(<galacticraftcore:machine2:0>, [
@@ -299,7 +299,6 @@ mods.jei.JEI.removeAndHide(<galacticraftcore:solar:4>);
 mods.jei.JEI.removeAndHide(<galacticraftcore:machine4:0>);
 mods.jei.JEI.removeAndHide(<galacticraftcore:machine4:12>);
 mods.jei.JEI.removeAndHide(<galacticraftcore:machine4:0>);
-
 
 //Frequency Module
 recipes.replaceAllOccurences(<galacticraftcore:basic_item:13>, <ore:circuitBasic>, <galacticraftcore:basic_item:19>);
@@ -337,3 +336,13 @@ mods.GalacticraftTweaker.addCompressorShapelessRecipe(<galacticraftcore:basic_it
 
 // Manual Rolling Machine
 recipes.replaceAllOccurences(<ore:gearBronze>, <ore:gearCopper>, <railcraft:equipment:0>);
+
+//Buildcraft Stirling Enginie
+recipes.remove(<buildcraftcore:engine:1>);
+recipes.addShaped(<buildcraftcore:engine:1>, [
+	[<ore:cobblestone>,<ore:cobblestone>,<ore:cobblestone>], 
+	[<ore:ingotSteel>,<ore:blockGlassColorless>,<ore:ingotSteel>],
+	[<ore:gearStone>, <minecraft:piston>, <ore:gearStone>]]);
+
+// Extra Utilities 2
+recipes.replaceAllOccurences(<extrautils2:ingredients:5>, <mod_lavacow:ectoplasm>);

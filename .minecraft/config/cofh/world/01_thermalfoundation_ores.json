@@ -22,8 +22,7 @@
 			"dimension": {
 				"restriction": "whitelist",
 				"value": [
-					0,
-					7
+					0
 				]
 			}
 		},
@@ -48,8 +47,7 @@
 			"dimension": {
 				"restriction": "whitelist",
 				"value": [
-					0,
-					7
+					0
 				]
 			}
 		},
@@ -84,8 +82,7 @@
 			"dimension": {
 				"restriction": "whitelist",
 				"value": [
-					0,
-					7
+					0
 				]
 			}
 		},
@@ -120,8 +117,7 @@
 			"dimension": {
 				"restriction": "whitelist",
 				"value": [
-					0,
-					7
+					0
 				]
 			}
 		},
@@ -148,8 +144,7 @@
 				"value": [
 					0,
 					-28,
-					-29,
-					7
+					-29
 				]
 			}
 		},
@@ -184,8 +179,7 @@
 			"dimension": {
 				"restriction": "whitelist",
 				"value": [
-					0,
-					7
+					0
 				]
 			}
 		},
@@ -245,8 +239,7 @@
 			"dimension": {
 				"restriction": "whitelist",
 				"value": [
-					0,
-					7
+					0
 				]
 			}
 		},
@@ -279,8 +272,7 @@
 			"dimension": {
 				"restriction": "whitelist",
 				"value": [
-					0,
-					7
+					0
 				]
 			}
 		},
@@ -304,8 +296,7 @@
 			"dimension": {
 				"restriction": "whitelist",
 				"value": [
-					0,
-					7
+					0
 				]
 			},
 			"Mars Uranium": {

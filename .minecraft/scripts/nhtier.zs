@@ -212,7 +212,6 @@ mods.jei.JEI.removeAndHide(<enderio:block_simple_furnace>);
 mods.jei.JEI.removeAndHide(<enderio:block_simple_alloy_smelter>);
 mods.jei.JEI.removeAndHide(<enderio:block_simple_furnace>);
 mods.jei.JEI.removeAndHide(<enderio:block_lava_generator>);
-mods.jei.JEI.removeAndHide(<enderio:block_transceiver>);
 mods.jei.JEI.removeAndHide(<enderio:block_simple_sag_mill>);
 mods.jei.JEI.removeAndHide(<enderio:block_simple_wired_charger>);
 mods.jei.JEI.removeAndHide(<enderio:block_simple_crafter>);

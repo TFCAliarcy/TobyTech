@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    41
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Scared of Meteors hitting your moon base? Post some of these around and they will take care of any of them within a radius of maybe 14 blocks from turret (that\u0027s what it is for mobs).\n\nIt also shoots at hostile mobs and players albeit it does terrible damage, use other turrets for that.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "galacticraftplanets:laser_turret"
+      },
+      "name:8": "Tux Anti Meteor Defence"
+    }
+  },
+  "questID:3": 215124716,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "galacticraftplanets:laser_turret"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "No Description",
+      "desc:8": "Spatial Storage lets you store physical things in the world such as blocks or mobs, and place them in a storage disk to be either placed back down, stored away, or even destroyed.\n\nFirstly you place spatial pylons as a 3 dimensional axis coming out of the spatial IO port.\n\nYou place a spatial storage cell, power the IO port with AE power (not RF), and give it a redstone signal to store the things within the space in the cell.\n\nHow much space you can fit is based on the number for the storage cell, 2 for 2 blocks in each direction.\n\nTo take stuff out you simply place the cell back into the IO port and give it another redstone signal.\n\nAs I said you can store anything that fits within the area, blocks, fluids, mobs, and even players such as yourself. I do ask to not grief people by placing them in a storage cell and refusing to let them out though.",
       "icon:10": {
         "Count:3": 1,
         "id:8": "appliedenergistics2:spatial_pylon"

@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "No Description",
+      "desc:8": "When a tier 4 or special horse dies there is a 25% chance that they turn into a ghost horse. You can ride them and equip them with crystal armor.\n\nFlying horses will retain their ability to fly which is nice.",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 150,
@@ -14,5 +14,10 @@
     }
   },
   "questID:3": 116,
-  "tasks:9": {}
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
 }

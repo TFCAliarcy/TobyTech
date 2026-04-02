@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "No Description",
+      "desc:8": "You get these by breeding any horse with a zebra, you can also breed a zebra with a donkey to get a zonkey. Due note that since they are hybrids they (like mules) cannot breed.\n\nTo tame a zebra you need to give it an apple while riding a tier 4 horse, a zebra, or a zorse.\n\nThe zorse is essential for getting the special horses as most are acquirred by using something on a zorse.\n\n",
       "icon:10": {
         "Count:3": 1,
         "ForgeCaps:10": {
@@ -16,5 +16,10 @@
     }
   },
   "questID:3": 100,
-  "tasks:9": {}
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
 }

@@ -12,7 +12,7 @@
         },
         "id:8": "techguns:nucleardeathray",
         "tag:10": {
-          "ammo:2": 40,
+          "ammo:2": 20,
           "ammovariant:8": "default",
           "camo:1": 0
         }
@@ -33,7 +33,7 @@
           },
           "id:8": "techguns:nucleardeathray",
           "tag:10": {
-            "ammo:2": 40,
+            "ammo:2": 20,
             "ammovariant:8": "default",
             "camo:1": 0
           }

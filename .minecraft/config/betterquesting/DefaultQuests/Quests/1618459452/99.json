@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "No Description",
+      "desc:8": "Feeding an essence of darkness to a zorse will result in a Bat Horse, these horses are capable of flight.\n\nDespite being created from a zorse Bat Horses are fertile and can thus be breed with other bat horses using an essence od darkness.\n\nBat horses cannot use normal armor, requiring crystal armor.",
       "icon:10": {
         "Count:3": 1,
         "id:8": "mocreatures:heartdarkness"

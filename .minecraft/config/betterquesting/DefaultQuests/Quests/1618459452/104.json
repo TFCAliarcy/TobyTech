@@ -1,10 +1,10 @@
 {
   "preRequisites:11": [
-    100
+    93
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "No Description",
+      "desc:8": "Using an essence of light on a nightmare will create your very own unicorn. Like chickens they float towards the ground taking know fall damage. They also have a secret move that I won\u0027t spoil but you will probably figure it out quickly.\n\nYou can also have your unicorn charge mobs by using a whip on them, if you are a monster.\n\nYou can breed them by using two essence of light on each of them. Or heal them by using a single essence of light on them.\n\nThe only armor they accept is crystal armor.",
       "icon:10": {
         "Count:3": 1,
         "id:8": "mocreatures:unicornhorn"

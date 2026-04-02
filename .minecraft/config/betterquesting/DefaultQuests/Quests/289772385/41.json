@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "No Description",
+      "desc:8": "Now that you\u0027ve reached a place without an atmosphere you have a new concern, meteors!\n\nThey strike the ground with an explosion and are hot landing but cool down over time but are still minable during this time and you will want to mine them as you need them to make a rocket to mars along with a bunch of other space things you\u0027ll probably want to make.",
       "icon:10": {
         "Count:3": 1,
         "id:8": "galacticraftcore:fallen_meteor"
